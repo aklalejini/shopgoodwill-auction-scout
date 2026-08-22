@@ -34,8 +34,8 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     groups = (
         ("priority_keywords", "Opportunity term"),
         ("lower_priority_keywords", "Lower-priority term"),
-        ("mineral_keywords", "Collectible mineral"),
-        ("locality_keywords", "Important locality"),
+        ("target_keywords", "Target keyword"),
+        ("premium_keywords", "High-value signal"),
     )
     for group_name, label in groups:
         if (
@@ -52,7 +52,7 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             location = "title" if _contains(title, phrase) else "description"
             sign = "+" if points >= 0 else ""
             reasons.append(f"{label} '{phrase}' in {location} ({sign}{points})")
-            if group_name == "mineral_keywords":
+            if group_name == "target_keywords":
                 matched_minerals.append(phrase)
 
     category = str(listing.get("category") or "")
@@ -87,5 +87,6 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     return {
         "score": max(0, min(100, score)),
         "score_reasons": reasons or ["No scoring signals beyond the base score"],
+        "matched_keywords": sorted(set(matched_minerals)),
         "matched_minerals": sorted(set(matched_minerals)),
     }

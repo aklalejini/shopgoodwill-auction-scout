@@ -7,7 +7,8 @@
   const controls = {
     keyword: $("#keyword"), sort: $("#sort"), minPrice: $("#min-price"),
     maxPrice: $("#max-price"), endingHours: $("#ending-hours"), seller: $("#seller"),
-    mineral: $("#mineral"), multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
+    category: $("#hunt-category"), targetKeyword: $("#target-keyword"),
+    multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
     undervalued: $("#undervalued")
   };
 
@@ -42,7 +43,8 @@
 
   function searchableText(item) {
     return [item.title, item.description, item.seller, item.item_id, item.category,
-      ...(item.discovered_by || []), ...(item.matched_minerals || [])].join(" ").toLocaleLowerCase();
+      ...(item.discovered_by || []), ...(item.matched_keywords || item.matched_minerals || []),
+      ...(item.hunt_labels || [])].join(" ").toLocaleLowerCase();
   }
 
   function activeFilterCount() {
@@ -55,7 +57,8 @@
   function visibleListings() {
     const query = controls.keyword.value.trim().toLocaleLowerCase();
     const seller = controls.seller.value.trim().toLocaleLowerCase();
-    const mineral = controls.mineral.value.trim().toLocaleLowerCase();
+    const targetKeyword = controls.targetKeyword.value.trim().toLocaleLowerCase();
+    const category = controls.category.value;
     const minimum = controls.minPrice.value === "" ? null : Number(controls.minPrice.value);
     const maximum = controls.maxPrice.value === "" ? null : Number(controls.maxPrice.value);
     const endingHours = controls.endingHours.value === "" ? null : Number(controls.endingHours.value);
@@ -66,7 +69,8 @@
       const end = new Date(item.end_time).getTime();
       if (query && !searchableText(item).includes(query)) return false;
       if (seller && !String(item.seller || "").toLocaleLowerCase().includes(seller)) return false;
-      if (mineral && !searchableText(item).includes(mineral)) return false;
+      if (targetKeyword && !searchableText(item).includes(targetKeyword)) return false;
+      if (category && !(item.hunt_categories || []).includes(category)) return false;
       if (minimum !== null && price < minimum) return false;
       if (maximum !== null && price > maximum) return false;
       if (endCutoff !== null && (!Number.isFinite(end) || end > endCutoff)) return false;
@@ -128,7 +132,8 @@
     }
 
     const termRow = $(".term-row", fragment);
-    (item.discovered_by || []).slice(0, 3).forEach(term => {
+    const tags = [item.primary_hunt?.label, ...(item.discovered_by || [])].filter(Boolean);
+    tags.slice(0, 3).forEach(term => {
       const tag = document.createElement("span");
       tag.textContent = term;
       termRow.append(tag);
@@ -153,7 +158,7 @@
       <div class="detail-layout">
         <div class="detail-images">${imageMarkup}</div>
         <div class="detail-info">
-          <p class="eyebrow">Item #${escapeHtml(item.item_id)} · ${images.length} photo${images.length === 1 ? "" : "s"}</p>
+          <p class="eyebrow">${escapeHtml(item.primary_hunt?.label || "Auction watch")} · Item #${escapeHtml(item.item_id)} · ${images.length} photo${images.length === 1 ? "" : "s"}</p>
           <h2 id="dialog-title">${escapeHtml(item.title)}</h2>
           <p class="detail-price">${currency.format(Number(item.price || 0))}</p>
           <p class="detail-sub">${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"} · ${escapeHtml(timeRemaining(item.end_time))}</p>
@@ -195,6 +200,18 @@
     render();
   }
 
+  function populateCategories() {
+    const categories = new Map();
+    (state.status?.hunts || []).forEach(hunt => categories.set(hunt.id, hunt.label));
+    state.listings.forEach(item => {
+      if (item.primary_hunt?.id) categories.set(item.primary_hunt.id, item.primary_hunt.label);
+    });
+    controls.category.replaceChildren(new Option("All categories", ""));
+    [...categories.entries()]
+      .sort((a, b) => a[1].localeCompare(b[1]))
+      .forEach(([id, label]) => controls.category.add(new Option(label, id)));
+  }
+
   async function loadData() {
     try {
       const [listingsResponse, statusResponse] = await Promise.all([
@@ -205,6 +222,7 @@
       state.listings = await listingsResponse.json();
       if (!Array.isArray(state.listings)) throw new Error("Listings feed is not an array");
       state.status = statusResponse.ok ? await statusResponse.json() : null;
+      populateCategories();
       $("#active-count").textContent = state.listings.length.toLocaleString();
       const priorityCount = state.status?.high_priority_count ?? state.listings.filter(item => item.score >= 35).length;
       $("#priority-count").textContent = Number(priorityCount).toLocaleString();

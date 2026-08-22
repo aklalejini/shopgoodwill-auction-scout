@@ -1,5 +1,12 @@
 {
-  "search_terms": [
+  "hunts": [
+    {
+      "id": "minerals-geology",
+      "label": "Minerals & Geology",
+      "description": "Rocks, minerals, crystals, fossils, lapidary material, and specimen collections.",
+      "enabled": true,
+      "scoring_profile": "minerals-geology",
+      "search_terms": [
     "rock",
     "rocks",
     "mineral",
@@ -26,7 +33,9 @@
     "vintage mineral collection",
     "lapidary",
     "fossil",
-    "fossils"
+        "fossils"
+      ]
+    }
   ],
   "api": {
     "base_url": "https://buyerapi.shopgoodwill.com/api",
@@ -37,9 +46,10 @@
     "timeout_seconds": 25,
     "max_retries": 2,
     "max_detail_requests_per_run": 160,
-    "user_agent": "ShopGoodwillMineralHunter/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
+    "user_agent": "AuctionScout/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
   },
-  "scoring": {
+  "scoring_profiles": {
+    "minerals-geology": {
     "base_score": 8,
     "high_priority_threshold": 35,
     "undervalued_threshold": 30,
@@ -82,7 +92,7 @@
       "decorative": -5,
       "aura coated": -9
     },
-    "mineral_keywords": {
+    "target_keywords": {
       "rhodochrosite": 14,
       "wulfenite": 14,
       "benitoite": 16,
@@ -104,7 +114,7 @@
       "adamite": 14,
       "pyromorphite": 14
     },
-    "locality_keywords": {
+    "premium_keywords": {
       "Sweet Home Mine": 18,
       "Red Cloud Mine": 18,
       "Tsumeb": 18,
@@ -135,7 +145,8 @@
       {"minimum": 8, "points": 7},
       {"minimum": 4, "points": 5},
       {"minimum": 2, "points": 2}
-    ]
+      ]
+    }
   },
   "archive": {
     "maximum_records": 1000

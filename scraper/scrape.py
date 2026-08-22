@@ -46,14 +46,16 @@ def deduplicate(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
             continue
         if item_id not in by_id:
             by_id[item_id] = copy.deepcopy(record)
-            by_id[item_id]["discovered_by"] = sorted(set(record.get("discovered_by") or []))
+            for field in ("discovered_by", "hunt_categories", "hunt_labels"):
+                by_id[item_id][field] = sorted(set(record.get(field) or []))
             continue
         current = by_id[item_id]
-        current["discovered_by"] = sorted(
-            set(current.get("discovered_by") or []) | set(record.get("discovered_by") or [])
-        )
+        for field in ("discovered_by", "hunt_categories", "hunt_labels"):
+            current[field] = sorted(
+                set(current.get(field) or []) | set(record.get(field) or [])
+            )
         for key, value in record.items():
-            if key != "discovered_by" and value not in (None, "", [], {}):
+            if key not in ("discovered_by", "hunt_categories", "hunt_labels") and value not in (None, "", [], {}):
                 current[key] = value
     return list(by_id.values())
 
@@ -78,12 +80,52 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
     for key in ("title", "price", "bids", "seller_id", "start_time", "end_time", "category"):
         if fresh.get(key) not in (None, ""):
             merged[key] = fresh[key]
-    merged["discovered_by"] = sorted(
-        set(existing.get("discovered_by") or []) | set(fresh.get("discovered_by") or [])
-    )
+    for field in ("discovered_by", "hunt_categories", "hunt_labels"):
+        merged[field] = sorted(
+            set(existing.get(field) or []) | set(fresh.get(field) or [])
+        )
     merged["last_seen"] = fresh["last_seen"]
     merged["last_updated"] = fresh["last_updated"]
     return merged
+
+
+def apply_hunt_scoring(
+    item: dict[str, Any], hunts: list[dict[str, Any]], profiles: dict[str, Any]
+) -> None:
+    """Score a listing within each hunt that discovered it, keeping the strongest result."""
+    hunt_ids = set(item.get("hunt_categories") or [])
+    candidates = [hunt for hunt in hunts if hunt["id"] in hunt_ids]
+    if not candidates and hunts:
+        candidates = [hunts[0]]
+        item["hunt_categories"] = [str(hunts[0]["id"])]
+        item["hunt_labels"] = [str(hunts[0]["label"])]
+
+    scored: list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]] = []
+    for hunt in candidates:
+        profile = profiles[str(hunt["scoring_profile"])]
+        scored.append((hunt, profile, score_listing(item, profile)))
+    if not scored:
+        raise ValueError("At least one enabled hunt and scoring profile is required")
+
+    best_hunt, best_profile, best_result = max(scored, key=lambda entry: entry[2]["score"])
+    item.update(best_result)
+    item["primary_hunt"] = {"id": best_hunt["id"], "label": best_hunt["label"]}
+    item["hunt_scores"] = [
+        {
+            "id": hunt["id"],
+            "label": hunt["label"],
+            "score": result["score"],
+            "score_reasons": result["score_reasons"],
+            "matched_keywords": result["matched_keywords"],
+        }
+        for hunt, _, result in scored
+    ]
+    item["potentially_undervalued"] = int(item["score"]) >= int(
+        best_profile.get("undervalued_threshold", 30)
+    )
+    item["high_priority"] = int(item["score"]) >= int(
+        best_profile.get("high_priority_threshold", 35)
+    )
 
 
 def refresh(
@@ -96,24 +138,28 @@ def refresh(
     now = datetime.now(timezone.utc)
     timestamp = now.isoformat()
     previous = deduplicate(load_json(data_dir / "listings.json", []))
-    previous_by_id = {str(item["item_id"]): item for item in previous}
     discovered: list[dict[str, Any]] = []
     failures: list[str] = []
     api_config = config["api"]
     source = client or ShopGoodwillClient(api_config)
+    hunts = [hunt for hunt in config.get("hunts", []) if hunt.get("enabled", True)]
+    profiles = config.get("scoring_profiles", {})
+    if not hunts:
+        raise ValueError("No enabled hunts are configured")
 
-    for term in config.get("search_terms", []):
-        for page in range(1, int(api_config.get("pages_per_term", 1)) + 1):
-            try:
-                items, _ = source.search(str(term), page)
-            except DataSourceError as exc:
-                failures.append(f"{term} (page {page}): {exc}")
-                print(f"warning: {failures[-1]}", file=sys.stderr)
-                break
-            for item in items:
-                discovered.append(listing_from_search(item, str(term), timestamp))
-            if len(items) < int(api_config.get("page_size", 40)):
-                break
+    for hunt in hunts:
+        for term in hunt.get("search_terms", []):
+            for page in range(1, int(api_config.get("pages_per_term", 1)) + 1):
+                try:
+                    items, _ = source.search(str(term), page)
+                except DataSourceError as exc:
+                    failures.append(f"{hunt['label']} / {term} (page {page}): {exc}")
+                    print(f"warning: {failures[-1]}", file=sys.stderr)
+                    break
+                for item in items:
+                    discovered.append(listing_from_search(item, str(term), timestamp, hunt))
+                if len(items) < int(api_config.get("page_size", 40)):
+                    break
 
     fresh_records = deduplicate(discovered)
     active_by_id = {
@@ -126,9 +172,8 @@ def refresh(
         active_by_id[item_id] = merge_search_record(active_by_id.get(item_id), fresh)
 
     active = [item for item in active_by_id.values() if not is_expired(item, now)]
-    scoring_config = config["scoring"]
     for item in active:
-        item.update(score_listing(item, scoring_config))
+        apply_hunt_scoring(item, hunts, profiles)
 
     pending = [item for item in active if item.get("detail_status") != "complete"]
     pending.sort(key=lambda item: (-int(item.get("score") or 0), item.get("end_time") or ""))
@@ -149,10 +194,7 @@ def refresh(
             print(f"warning: detail {item['item_id']}: {exc}", file=sys.stderr)
 
     for item in active:
-        item.update(score_listing(item, scoring_config))
-        item["potentially_undervalued"] = int(item["score"]) >= int(
-            scoring_config.get("undervalued_threshold", 30)
-        )
+        apply_hunt_scoring(item, hunts, profiles)
         item.pop("detail_error", None) if item.get("detail_status") == "complete" else None
     active.sort(key=lambda item: (-int(item.get("score") or 0), item.get("end_time") or ""))
 
@@ -168,8 +210,7 @@ def refresh(
     archive.sort(key=lambda item: item.get("archived_at") or "", reverse=True)
     archive = archive[: int(config.get("archive", {}).get("maximum_records", 1000))]
 
-    threshold = int(scoring_config.get("high_priority_threshold", 35))
-    high_priority = [item for item in active if int(item.get("score") or 0) >= threshold]
+    high_priority = [item for item in active if item.get("high_priority")]
     high_priority = high_priority[: int(config.get("high_priority", {}).get("maximum_records", 100))]
 
     for target in (data_dir, docs_data_dir):
@@ -184,6 +225,16 @@ def refresh(
             "search_failures": failures,
             "detail_requests_completed": detailed,
             "data_source": "ShopGoodwill public Buyer API used by the storefront",
+            "hunts": [
+                {
+                    "id": hunt["id"],
+                    "label": hunt["label"],
+                    "active_count": sum(
+                        1 for item in active if hunt["id"] in item.get("hunt_categories", [])
+                    ),
+                }
+                for hunt in hunts
+            ],
         })
 
     return {

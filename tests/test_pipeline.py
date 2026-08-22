@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from scraper.scoring import score_listing
-from scraper.scrape import deduplicate, is_expired
+from scraper.scrape import apply_hunt_scoring, deduplicate, is_expired
 from scraper.shopgoodwill import (
     DataSourceError,
     apply_detail,
@@ -16,6 +16,7 @@ from scraper.shopgoodwill import (
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "scraper" / "config.json").read_text(encoding="utf-8"))
+PROFILE = CONFIG["scoring_profiles"]["minerals-geology"]
 
 
 class ScoringTests(unittest.TestCase):
@@ -34,8 +35,8 @@ class ScoringTests(unittest.TestCase):
             "bids": 0,
             "images": ["one"],
         }
-        high = score_listing(promising, CONFIG["scoring"])
-        low = score_listing(retail, CONFIG["scoring"])
+        high = score_listing(promising, PROFILE)
+        low = score_listing(retail, PROFILE)
         self.assertGreater(high["score"], low["score"])
         self.assertIn("wulfenite", high["matched_minerals"])
         self.assertTrue(any("Red Cloud Mine" in reason for reason in high["score_reasons"]))
@@ -43,7 +44,7 @@ class ScoringTests(unittest.TestCase):
     def test_word_boundary_prevents_lot_inside_pilot(self):
         result = score_listing(
             {"title": "Pilot geology book", "price": 500, "bids": 10, "images": []},
-            CONFIG["scoring"],
+            PROFILE,
         )
         self.assertFalse(any("'lot'" in reason for reason in result["score_reasons"]))
 
@@ -57,10 +58,25 @@ class ScoringTests(unittest.TestCase):
                 "bids": 0,
                 "images": ["1", "2", "3", "4"],
             },
-            CONFIG["scoring"],
+            PROFILE,
         )
         self.assertFalse(any("Opportunity term" in reason for reason in result["score_reasons"]))
-        self.assertLess(result["score"], CONFIG["scoring"]["high_priority_threshold"])
+        self.assertLess(result["score"], PROFILE["high_priority_threshold"])
+
+    def test_hunt_scoring_records_category_metadata(self):
+        item = {
+            "title": "Estate mineral collection with fluorite",
+            "description": "",
+            "price": 20,
+            "bids": 0,
+            "images": ["1", "2", "3", "4"],
+            "hunt_categories": ["minerals-geology"],
+            "hunt_labels": ["Minerals & Geology"],
+        }
+        apply_hunt_scoring(item, CONFIG["hunts"], CONFIG["scoring_profiles"])
+        self.assertEqual(item["primary_hunt"]["id"], "minerals-geology")
+        self.assertEqual(item["hunt_scores"][0]["label"], "Minerals & Geology")
+        self.assertIn("fluorite", item["matched_keywords"])
 
 
 class PipelineTests(unittest.TestCase):

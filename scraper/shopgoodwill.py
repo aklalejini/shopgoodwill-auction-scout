@@ -153,7 +153,9 @@ class ShopGoodwillClient:
         return payload
 
 
-def listing_from_search(item: dict[str, Any], term: str, timestamp: str) -> dict[str, Any]:
+def listing_from_search(
+    item: dict[str, Any], term: str, timestamp: str, hunt: dict[str, Any]
+) -> dict[str, Any]:
     primary = normalize_image_url("", str(item.get("imageURL") or ""))
     item_id = str(item.get("itemId"))
     return {
@@ -176,6 +178,8 @@ def listing_from_search(item: dict[str, Any], term: str, timestamp: str) -> dict
         "thumbnails": [primary] if primary else [],
         "description": str(item.get("description") or ""),
         "discovered_by": [term],
+        "hunt_categories": [str(hunt["id"])],
+        "hunt_labels": [str(hunt["label"])],
         "detail_status": "pending",
         "last_seen": timestamp,
         "last_updated": timestamp,

@@ -1,2 +1,1 @@
-"""ShopGoodwill Mineral Hunter data pipeline."""
-
+"""Auction Scout data pipeline."""

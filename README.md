@@ -1,6 +1,6 @@
-# ShopGoodwill Mineral Hunter
+# Auction Scout
 
-ShopGoodwill Mineral Hunter is a free, image-first feed for active rock, mineral, crystal, fossil, lapidary, and geology listings. It searches broadly, collects every publicly exposed full-size listing image, deduplicates by ShopGoodwill item ID, and ranks listings that may be overlooked or poorly identified.
+Auction Scout is a free, image-first feed for finding overlooked ShopGoodwill auctions across configurable categories. It starts with a **Minerals & Geology** hunt, but the product, data model, filters, and scoring pipeline are designed for additional independent hunts later.
 
 The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on GitHub Pages, and the hourly data refresh runs in GitHub Actions. No account, API key, database, backend, paid API, or credit card is required.
 
@@ -9,7 +9,7 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 ## What you get
 
 - An image-first responsive gallery, sorted by opportunity score by default
-- Filters for price, time remaining, keyword, seller, mineral, photos, bids, and opportunity status
+- Filters for category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
 - Full-resolution detail views with every listing image and an explainable score
 - Public machine-readable feeds at `data/listings.json` and `data/high_priority.json`
 - Incremental hourly refreshes with delays, timeouts, bounded retry/backoff, and graceful partial failure
@@ -39,7 +39,7 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 
 ## How the scraper works
 
-The current ShopGoodwill storefront calls a public Buyer API. Mineral Hunter uses the same unauthenticated read-only routes:
+The current ShopGoodwill storefront calls a public Buyer API. Auction Scout uses the same unauthenticated read-only routes:
 
 - `POST https://buyerapi.shopgoodwill.com/api/Search/ItemListing` for active search results
 - `GET https://buyerapi.shopgoodwill.com/api/itemDetail/GetItemDetailModelByItemId/{item_id}` for the description, seller, shipping metadata, and all image paths
@@ -73,31 +73,35 @@ python -m scraper.scrape --max-detail-requests 10
 
 The scraper writes identical feeds to `data/` and `docs/data/`. The first location is convenient for code and AI clients; the second is what GitHub Pages publishes.
 
-## Customize searches and scores
+## Add or customize hunt categories
 
 Edit [`scraper/config.json`](scraper/config.json):
 
-- `search_terms` controls the queries.
+- `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
+- `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
+- `search_terms` inside a hunt controls that category's queries.
 - `priority_keywords` rewards estate, vintage, collection, mixed-lot, unknown, and similar wording.
-- `lower_priority_keywords` lowers—but never hides—retail/metaphysical products.
-- `mineral_keywords` and `locality_keywords` add collectible-specimen bonuses.
+- `lower_priority_keywords` lowers—but never hides—category-specific retail noise.
+- `target_keywords` and `premium_keywords` add category-specific bonuses.
 - `price_bonuses`, `bid_bonuses`, and `photo_bonuses` control market/visual signals.
 - `high_priority_threshold` and `undervalued_threshold` control the two feed flags.
 - `max_detail_requests_per_run`, delays, timeouts, and page limits control request volume.
+
+To add a future category, copy the Minerals & Geology entry in `hunts`, give it a unique ID and terms, then add its named profile under `scoring_profiles`. No scraper or frontend change is required. Listings publish `hunt_categories`, `primary_hunt`, and `hunt_scores` so rankings remain explainable.
 
 Weights may be positive or negative. Final scores are clamped to 0–100, and every listing includes `score_reasons` so the result is auditable.
 
 ## Publish on GitHub Pages
 
-1. Create an empty GitHub repository, for example `shopgoodwill-mineral-hunter`. Public is simplest and has the most generous free Actions behavior.
+1. Create an empty GitHub repository, for example `shopgoodwill-auction-scout`. Public is simplest and has the most generous free Actions behavior.
 2. From this project folder, initialize and push it (replace `YOUR_USERNAME`):
 
    ```powershell
    git init
    git add .
-   git commit -m "Initial ShopGoodwill Mineral Hunter"
+   git commit -m "Initial Auction Scout"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/shopgoodwill-mineral-hunter.git
+   git remote add origin https://github.com/YOUR_USERNAME/shopgoodwill-auction-scout.git
    git push -u origin main
    ```
 
@@ -110,16 +114,16 @@ Weights may be positive or negative. Final scores are clamped to 0–100, and ev
 After Pages finishes, the site URL is:
 
 ```text
-https://YOUR_USERNAME.github.io/shopgoodwill-mineral-hunter/
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/
 ```
 
 The public feeds are:
 
 ```text
-https://YOUR_USERNAME.github.io/shopgoodwill-mineral-hunter/data/listings.json
-https://YOUR_USERNAME.github.io/shopgoodwill-mineral-hunter/data/high_priority.json
-https://YOUR_USERNAME.github.io/shopgoodwill-mineral-hunter/data/archive.json
-https://YOUR_USERNAME.github.io/shopgoodwill-mineral-hunter/data/status.json
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/listings.json
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/high_priority.json
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/archive.json
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/status.json
 ```
 
 All frontend data URLs are relative, so the site works correctly under a GitHub Pages repository subpath.
@@ -158,10 +162,9 @@ Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This pr
 - Search currently reads the newest first page for each term to keep hourly request volume modest. Incremental runs accumulate still-active records, but the very first run may not include every older matching auction.
 - Full details are capped per run. Lower-scoring new records may temporarily show one search-result image and `detail_status: "pending"`; later runs continue the queue.
 - Shipping is seller- and destination-dependent. The feed records readily available listing-level information but does not request a ZIP-specific estimate.
-- Search relevance belongs to ShopGoodwill and can be broad. Scoring and filters help surface likely mineral specimens without silently hiding other results.
+- Search relevance belongs to ShopGoodwill and can be broad. Per-hunt scoring and filters surface likely opportunities without silently hiding other results.
 - Original CDN images are linked, not copied. They can disappear after ShopGoodwill purges a listing.
 
 ## Responsible-use defaults
 
 The hourly job makes one search request per term/page, waits between all requests, caps new detail requests, uses short bounded backoff only for temporary failures, and never authenticates. If ShopGoodwill blocks or rate-limits a method, leave the limits conservative and allow the job to fail gracefully.
-
