@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A free, image-first feed for finding overlooked mineral, rock, crystal, and fossil listings on ShopGoodwill.">
+  <meta name="theme-color" content="#142a26">
+  <title>ShopGoodwill Mineral Hunter</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Mineral Hunter home">
+      <span class="brand-mark" aria-hidden="true">MH</span>
+      <span>
+        <strong>Mineral Hunter</strong>
+        <small>ShopGoodwill field notes</small>
+      </span>
+    </a>
+    <nav class="header-links" aria-label="Data links">
+      <a href="./data/listings.json">JSON feed</a>
+      <a href="./data/high_priority.json">High priority</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Public specimen watchlist</p>
+        <h1>Find the overlooked<br><em>among the ordinary.</em></h1>
+        <p class="hero-intro">An image-first scan of active rock, mineral, crystal, and fossil auctions—ranked for the listings that may deserve a closer look.</p>
+      </div>
+      <div class="hero-stats" aria-live="polite">
+        <div><strong id="active-count">—</strong><span>active finds</span></div>
+        <div><strong id="priority-count">—</strong><span>high priority</span></div>
+        <div><strong id="refresh-age">—</strong><span>last field check</span></div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Listing controls">
+      <div class="search-wrap">
+        <label for="keyword">Search this feed</label>
+        <input id="keyword" type="search" placeholder="Title, description, seller, item ID…" autocomplete="off">
+      </div>
+      <div class="sort-wrap">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="score">Highest score</option>
+          <option value="newest">Newest</option>
+          <option value="ending">Ending soon</option>
+          <option value="price-low">Lowest price</option>
+          <option value="price-high">Highest price</option>
+          <option value="bids">Fewest bids</option>
+        </select>
+      </div>
+      <button class="filter-toggle" id="filter-toggle" type="button" aria-expanded="false" aria-controls="filters">
+        Filters <span id="filter-count" class="filter-count" hidden>0</span>
+      </button>
+    </section>
+
+    <section class="filters" id="filters" aria-label="Filters" hidden>
+      <div class="filter-field">
+        <label for="min-price">Minimum price</label>
+        <div class="money-input"><span>$</span><input id="min-price" type="number" min="0" step="1" placeholder="0"></div>
+      </div>
+      <div class="filter-field">
+        <label for="max-price">Maximum price</label>
+        <div class="money-input"><span>$</span><input id="max-price" type="number" min="0" step="1" placeholder="Any"></div>
+      </div>
+      <div class="filter-field">
+        <label for="ending-hours">Ending within</label>
+        <select id="ending-hours">
+          <option value="">Any time</option>
+          <option value="6">6 hours</option>
+          <option value="12">12 hours</option>
+          <option value="24">24 hours</option>
+          <option value="48">48 hours</option>
+          <option value="72">3 days</option>
+          <option value="168">7 days</option>
+        </select>
+      </div>
+      <div class="filter-field">
+        <label for="seller">Seller contains</label>
+        <input id="seller" type="text" placeholder="Goodwill location">
+      </div>
+      <div class="filter-field">
+        <label for="mineral">Mineral keyword</label>
+        <input id="mineral" type="text" placeholder="Fluorite, azurite…">
+      </div>
+      <div class="check-group">
+        <label><input id="multiple-photos" type="checkbox"><span>Multiple photos</span></label>
+        <label><input id="no-bids" type="checkbox"><span>No bids</span></label>
+        <label><input id="undervalued" type="checkbox"><span>Potentially undervalued</span></label>
+      </div>
+      <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
+    </section>
+
+    <section class="results-heading">
+      <div>
+        <p class="eyebrow">Current sweep</p>
+        <h2 id="result-summary">Loading listings…</h2>
+      </div>
+      <p id="updated-at" class="updated-at"></p>
+    </section>
+
+    <div id="notice" class="notice" role="status" hidden></div>
+    <section id="gallery" class="gallery" aria-label="Auction listings" aria-live="polite"></section>
+
+    <section id="empty-state" class="empty-state" hidden>
+      <span aria-hidden="true">◇</span>
+      <h2>No specimens in this sieve</h2>
+      <p>Try widening the filters, or check back after the next hourly refresh.</p>
+      <button id="empty-clear" type="button">Clear all filters</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Independent research tool. Not affiliated with or endorsed by ShopGoodwill.</p>
+    <p>Images and listing data remain the property of their respective sellers.</p>
+  </footer>
+
+  <dialog id="detail-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="Close detail view">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <template id="card-template">
+    <article class="listing-card">
+      <div class="card-image-wrap">
+        <button class="image-button" type="button" aria-label="Open listing details">
+          <img class="card-image" alt="" loading="lazy" decoding="async">
+        </button>
+        <div class="score-badge"><strong></strong><span>score</span></div>
+        <div class="ending-badge"></div>
+      </div>
+      <div class="thumbnail-row"></div>
+      <div class="card-body">
+        <div class="card-meta"><span class="price"></span><span class="bids"></span></div>
+        <h3></h3>
+        <p class="seller-name"></p>
+        <div class="term-row"></div>
+        <div class="card-footer">
+          <span class="item-id"></span>
+          <button class="inspect-button" type="button">Inspect <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

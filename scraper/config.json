@@ -1,0 +1,146 @@
+{
+  "search_terms": [
+    "rock",
+    "rocks",
+    "mineral",
+    "minerals",
+    "crystal",
+    "crystals",
+    "gemstone",
+    "gemstones",
+    "geology",
+    "geological",
+    "specimen",
+    "specimens",
+    "geode",
+    "geodes",
+    "rock collection",
+    "mineral collection",
+    "crystal collection",
+    "stone collection",
+    "assorted rocks",
+    "assorted minerals",
+    "estate rocks",
+    "estate minerals",
+    "vintage rocks",
+    "vintage mineral collection",
+    "lapidary",
+    "fossil",
+    "fossils"
+  ],
+  "api": {
+    "base_url": "https://buyerapi.shopgoodwill.com/api",
+    "page_size": 40,
+    "pages_per_term": 1,
+    "search_descriptions": false,
+    "request_delay_seconds": 0.3,
+    "timeout_seconds": 25,
+    "max_retries": 2,
+    "max_detail_requests_per_run": 160,
+    "user_agent": "ShopGoodwillMineralHunter/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
+  },
+  "scoring": {
+    "base_score": 8,
+    "high_priority_threshold": 35,
+    "undervalued_threshold": 30,
+    "require_domain_signal_for_priority_keywords": true,
+    "domain_keywords": [
+      "rock", "rocks", "mineral", "minerals", "crystal", "crystals",
+      "gemstone", "gemstones", "geology", "geological", "specimen", "specimens",
+      "geode", "geodes", "lapidary", "fossil", "fossils", "quartz", "agate",
+      "amethyst", "calcite", "jasper", "selenite", "stone", "stones", "ore"
+    ],
+    "category_penalties": {
+      "Watches": -18,
+      "Music": -14,
+      "Clothing": -14,
+      "Shoes": -14
+    },
+    "priority_keywords": {
+      "estate": 12,
+      "vintage": 7,
+      "collection": 12,
+      "assorted": 8,
+      "mixed": 8,
+      "lot": 7,
+      "specimen": 8,
+      "geology": 10,
+      "old collection": 14,
+      "unknown": 12,
+      "untested": 10,
+      "rocks": 5,
+      "minerals": 5
+    },
+    "lower_priority_keywords": {
+      "chakra": -10,
+      "healing": -10,
+      "tower": -7,
+      "polished tower": -7,
+      "crystal tree": -10,
+      "tumbles": -6,
+      "tumbled stones": -7,
+      "decorative": -5,
+      "aura coated": -9
+    },
+    "mineral_keywords": {
+      "rhodochrosite": 14,
+      "wulfenite": 14,
+      "benitoite": 16,
+      "dioptase": 14,
+      "azurite": 10,
+      "malachite": 9,
+      "tourmaline": 10,
+      "elbaite": 14,
+      "aquamarine": 10,
+      "beryl": 10,
+      "fluorite": 9,
+      "native copper": 13,
+      "native silver": 15,
+      "vanadinite": 13,
+      "mimetite": 14,
+      "cerussite": 14,
+      "smithsonite": 14,
+      "cuprite": 14,
+      "adamite": 14,
+      "pyromorphite": 14
+    },
+    "locality_keywords": {
+      "Sweet Home Mine": 18,
+      "Red Cloud Mine": 18,
+      "Tsumeb": 18,
+      "Bisbee": 15,
+      "Milpillas": 18,
+      "Elmwood Mine": 16,
+      "Cave-in-Rock": 16,
+      "Hardin County": 14,
+      "Minerva Mine": 16,
+      "Denton Mine": 16,
+      "Franklin": 12,
+      "Sterling Hill": 16,
+      "Pala": 12,
+      "Himalaya Mine": 17,
+      "Benitoite Gem Mine": 20,
+      "Morenci": 14,
+      "Butte": 12
+    },
+    "price_bonuses": [
+      {"maximum": 30, "points": 9},
+      {"maximum": 75, "points": 5}
+    ],
+    "bid_bonuses": [
+      {"maximum": 0, "points": 7},
+      {"maximum": 2, "points": 4}
+    ],
+    "photo_bonuses": [
+      {"minimum": 8, "points": 7},
+      {"minimum": 4, "points": 5},
+      {"minimum": 2, "points": 2}
+    ]
+  },
+  "archive": {
+    "maximum_records": 1000
+  },
+  "high_priority": {
+    "maximum_records": 100
+  }
+}
