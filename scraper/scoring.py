@@ -104,6 +104,7 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     matched_minerals: list[str] = []
     matched_premium: list[str] = []
     matched_evidence: list[str] = []
+    matched_opportunity_rules: list[str] = []
     risk_points = 0
     domain_signal = any(
         contains_phrase(text, phrase) for phrase in config.get("domain_keywords", [])
@@ -145,6 +146,22 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             group_points = int(cap)
             reasons.append(f"{label} bonuses capped to prevent keyword stacking (-{reduction})")
         score += group_points
+
+    for rule in config.get("title_opportunity_rules", []):
+        required = rule.get("requires_any", [])
+        context = rule.get("requires_context", [])
+        forbidden = rule.get("forbids_any", [])
+        if required and not any(contains_phrase(title, str(phrase)) for phrase in required):
+            continue
+        if context and not any(contains_phrase(title, str(phrase)) for phrase in context):
+            continue
+        if any(contains_phrase(title, str(phrase)) for phrase in forbidden):
+            continue
+        points = int(rule.get("points", 0))
+        score += points
+        label = str(rule.get("label") or "Title-based opportunity")
+        matched_opportunity_rules.append(label)
+        reasons.append(f"{label} (+{points})")
 
     for phrase, raw_points in config.get("collector_evidence_keywords", {}).items():
         if not contains_phrase(text, phrase):
@@ -234,6 +251,7 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             or has_priority_target
             or strong_collection_language
             or trusted_source
+            or bool(matched_opportunity_rules)
             or (favorable_shipping and (_weight_in_pounds(text) or 0) >= 4)
         )
         and risk_points >= int(config.get("high_priority_risk_floor", -24))

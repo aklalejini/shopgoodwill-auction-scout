@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "scraper" / "config.json").read_text(encoding="utf-8"))
 PROFILE = CONFIG["scoring_profiles"]["minerals-geology"]
 MEDIA_PROFILE = CONFIG["scoring_profiles"]["sealed-vintage-media"]
+TUBE_PROFILE = CONFIG["scoring_profiles"]["vintage-electron-tubes"]
 
 
 class ScoringTests(unittest.TestCase):
@@ -277,6 +278,62 @@ class PipelineTests(unittest.TestCase):
         }
         result = score_listing(listing, MEDIA_PROFILE)
         self.assertFalse(result["high_priority_eligible"])
+
+    def test_tube_hunt_accepts_vague_lots_and_factory_signals(self):
+        matches = [
+            {"title": "Estate Lot of Assorted Vintage Radio Tubes"},
+            {"title": "Tube Caddy Full of Untested Electron Tubes"},
+            {"title": "Western Electric 300B Matched Pair"},
+            {"title": "Baldwin Organ Amplifier Tubes Box Lot"},
+        ]
+        for listing in matches:
+            with self.subTest(title=listing["title"]):
+                self.assertTrue(matches_hunt_domain(listing, TUBE_PROFILE))
+
+    def test_tube_hunt_rejects_hardware_and_unrelated_tubes(self):
+        collisions = [
+            {"title": "Vintage Tube Amplifier Receiver"},
+            {"title": "Hickok Vacuum Tube Tester"},
+            {"title": "Box of Glass Laboratory Test Tubes"},
+            {"title": "LED Fluorescent Replacement Tubes"},
+            {"title": "Bicycle Inner Tubes Lot"},
+            {"title": "Vintage Tabletop Tube Radio"},
+            {"title": "Tri-Chem Liquid Embroidery Paint Tubes Assorted Lot"},
+            {"title": "Women's Two Piece Pants and Tube Top"},
+            {"title": "Vintage POG Collection with Storage Tubes"},
+            {"title": "Lot of Copper Pipe Tubes and PVC Parts"},
+            {"title": "Digital Clock in the Style of Old Vacuum Tubes"},
+            {"title": "Rock CDs Featuring The Tubes and Van Halen"},
+        ]
+        for listing in collisions:
+            with self.subTest(title=listing["title"]):
+                self.assertFalse(matches_hunt_domain(listing, TUBE_PROFILE))
+
+    def test_vague_many_photo_tube_lot_beats_tv_sweep_lot(self):
+        promising = {
+            "title": "Estate Tube Caddy Lot of Assorted Vintage Radio Tubes",
+            "description": "Baldwin, Conn and Fisher rebrands from an old repair shop.",
+            "price": 39.99,
+            "bids": 0,
+            "images": [str(index) for index in range(10)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        sweep = {
+            "title": "Lot of 30 Untested 6DQ6 TV Sweep Tubes",
+            "description": "Common television repair stock, sold as is.",
+            "price": 39.99,
+            "bids": 0,
+            "images": [str(index) for index in range(10)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        high = score_listing(promising, TUBE_PROFILE)
+        low = score_listing(sweep, TUBE_PROFILE)
+        self.assertGreaterEqual(high["score"], TUBE_PROFILE["high_priority_threshold"])
+        self.assertTrue(high["high_priority_eligible"])
+        self.assertGreater(high["score"], low["score"])
+        self.assertTrue(any("Generic multi-photo" in reason for reason in high["score_reasons"]))
 
     def test_deduplication_unions_search_terms(self):
         records = [
