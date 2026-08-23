@@ -239,6 +239,37 @@
       ]
     },
     {
+      "id": "glass-insulators",
+      "label": "Glass Insulators",
+      "description": "Antique utility and telegraph glass insulators ranked by color clues, profile, embossing, maker, condition, and seller sophistication.",
+      "enabled": true,
+      "scoring_profile": "glass-insulators",
+      "search_terms": [
+        "glass insulator lot",
+        "antique glass insulator",
+        "vintage glass insulators",
+        "insulator collection",
+        "insulator estate lot",
+        "box of glass insulators",
+        "assorted glass insulators",
+        "telephone pole glass",
+        "old telegraph glass",
+        "glass cone antique",
+        "green glass dome antique",
+        "power line glass",
+        "vintage glass knob electrical",
+        "glass bell antique blue",
+        "telephone pole glass piece",
+        "railroad glass antique",
+        "purple glass dome",
+        "amber glass cone",
+        "glass caps antique lot",
+        "threadless glass insulator",
+        "Hemingray insulator",
+        "Brookfield insulator"
+      ]
+    },
+    {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
       "description": "All active GSA Auctions and GovDeals lots within 50 miles of the configured ZIP code.",
@@ -1752,6 +1783,245 @@
         "handling_penalty_minimum": 5,
         "handling_penalty_points": -4,
         "heavy_weight_minimum": 8,
+        "heavy_with_flat_shipping_points": 3,
+        "heavy_with_calculated_shipping_points": -3
+      }
+    },
+    "glass-insulators": {
+      "base_score": 5,
+      "high_priority_threshold": 46,
+      "undervalued_threshold": 30,
+      "high_priority_minimum_photos": 4,
+      "high_priority_risk_floor": -25,
+      "require_domain_signal_for_priority_keywords": true,
+      "keyword_group_caps": {
+        "priority_keywords": 22,
+        "target_keywords": 34,
+        "premium_keywords": 42
+      },
+      "keyword_group_top_matches": {
+        "priority_keywords": 3,
+        "target_keywords": 3,
+        "premium_keywords": 3
+      },
+      "strong_collection_keywords": [
+        "glass insulator lot", "insulator collection", "box of insulators",
+        "insulator estate lot", "assorted glass insulators"
+      ],
+      "domain_keywords": [
+        "glass insulator", "glass insulators", "telephone pole glass", "glass telephone pole",
+        "telegraph glass", "power line glass", "utility pole glass",
+        "railroad glass", "threadless insulator", "hemingray", "brookfield",
+        "whitall tatum", "cal elec", "emminger", "twiggs", "harloe",
+        "mulford", "biddle", "natco", "mcmicking"
+      ],
+      "relevance": {
+        "strong_keywords": [
+          "glass insulator", "glass insulators", "telephone pole glass", "glass telephone pole",
+          "telegraph glass", "power line glass", "utility pole glass",
+          "railroad glass", "threadless insulator", "hemingray insulator",
+          "brookfield insulator", "whitall tatum insulator", "cal elec",
+          "emminger", "twiggs", "harloe", "mulford", "natco", "mcmicking"
+        ],
+        "ambiguous_keywords": [
+          "glass dome", "glass cone", "glass bell", "glass knob", "glass cap",
+          "electric glass", "hydro glass", "hemingray", "brookfield", "insulator"
+        ],
+        "supporting_keywords": [
+          "telephone", "telegraph", "power line", "utility", "pole", "railroad",
+          "electrical", "electric", "hydro", "vintage", "antique", "old",
+          "glass", "blue", "green", "purple", "amber", "lot", "collection"
+        ],
+        "minimum_ambiguous_matches": 1,
+        "excluded_product_keywords": [
+          "porcelain insulator", "ceramic insulator", "rubber insulator",
+          "plastic insulator", "electric fence insulator", "fence insulator",
+          "spark plug", "insulated glass", "glass insulation", "fiberglass",
+          "thermal insulator", "wire insulator sleeve", "standoff insulator",
+          "insulator jacket", "insulator mug", "insulator shirt", "insulator book",
+          "coffee maker", "coffee carafe", "cold brew", "kitchen appliance"
+        ],
+        "strict_excluded_category_keywords": [],
+        "excluded_category_keywords": [
+          "clothing", "books", "jewelry", "craft supplies", "building materials"
+        ]
+      },
+      "category_penalties": {
+        "Clothing": -24,
+        "Books": -18,
+        "Jewelry": -22,
+        "Crafts": -16,
+        "Building Materials": -20
+      },
+      "title_opportunity_rules": [
+        {
+          "label": "Naive utility-glass wording may hide an unrecognized insulator",
+          "requires_any": [
+            "telephone pole glass", "telegraph glass", "power line glass",
+            "glass dome", "glass cone", "glass bell", "electric glass", "railroad glass"
+          ],
+          "forbids_any": ["insulator", "cd", "nia", "mcdougald"],
+          "points": 16
+        },
+        {
+          "label": "Multi-piece insulator lot can hide one scarce color or mold",
+          "requires_any": ["insulator", "insulators", "telephone pole glass", "telegraph glass"],
+          "requires_context": ["lot", "box", "collection", "assorted", "estate", "group"],
+          "points": 10
+        }
+      ],
+      "priority_keywords": {
+        "unknown": 7,
+        "not sure": 9,
+        "as found": 7,
+        "barn find": 9,
+        "estate": 6,
+        "lot": 5,
+        "box": 5,
+        "collection": 6,
+        "assorted": 4,
+        "misc": 5,
+        "see photos": 4,
+        "no markings visible": 6,
+        "unmarked": 5
+      },
+      "lower_priority_keywords": {
+        "irradiated": -40,
+        "purpled": -25,
+        "sun purple": -16,
+        "sca": -15,
+        "altered": -30,
+        "painted": -28,
+        "stained": -22,
+        "reproduction": -40,
+        "repro": -35,
+        "replica": -35,
+        "cracked": -22,
+        "crack": -20,
+        "chipped": -17,
+        "chipping": -10,
+        "chip": -15,
+        "damage": -12,
+        "damages": -8,
+        "flea bite": -7,
+        "fleabites": -5,
+        "roughness": -3,
+        "bruise": -10,
+        "hemingray-42": -18,
+        "hemingray 42": -18,
+        "whitall tatum no 1": -18,
+        "whitall tatum no. 1": -18,
+        "pyrex": -15,
+        "armstrong": -12,
+        "kerr": -12,
+        "cd": -16,
+        "nia": -20,
+        "consolidated design": -20,
+        "mcdougald": -25,
+        "price guide": -20,
+        "insulators.info": -20,
+        "rare color": -8,
+        "highly sought": -8,
+        "collector": -5,
+        "embossing": -8,
+        "embossed": -5
+      },
+      "target_keywords": {
+        "threadless": 26,
+        "no threads": 18,
+        "mickey mouse": 20,
+        "pluto": 22,
+        "castle": 18,
+        "pilgrim hat": 22,
+        "claw": 18,
+        "candlestick": 14,
+        "blobtop": 14,
+        "twin pin": 13,
+        "beehive": 10,
+        "signal": 10,
+        "ec&m": 24,
+        "e.c.&m": 24,
+        "cal elec": 28,
+        "california electric": 28,
+        "emminger": 25,
+        "twiggs": 25,
+        "harloe": 23,
+        "mulford": 24,
+        "biddle": 24,
+        "boston bottle": 24,
+        "mcmicking": 21,
+        "natco": 21,
+        "tillotson": 18
+      },
+      "premium_keywords": {
+        "cobalt blue": 36,
+        "cobalt": 34,
+        "electric blue": 34,
+        "peacock blue": 34,
+        "true purple": 34,
+        "deep purple": 30,
+        "red amber": 34,
+        "milk glass": 34,
+        "milkglass": 34,
+        "opalescent": 30,
+        "citron": 32,
+        "olive amber": 30,
+        "yellow glass": 28,
+        "7-up green": 18,
+        "jade green": 18,
+        "honey amber": 16,
+        "golden amber": 16,
+        "teal glass": 10,
+        "carnival glass": 18,
+        "strong blue glass color": 20,
+        "purple glass color": 22,
+        "yellow or olive glass color": 22,
+        "amber glass color": 14,
+        "green or teal glass color": 12,
+        "cd 130.1": 30,
+        "cd 181": 28,
+        "cd 123": 28,
+        "cd 141.9": 28,
+        "cd 735": 28,
+        "cd 109.5": 26,
+        "cd 257": 25
+      },
+      "price_bonuses": [
+        {"maximum": 20, "points": 7},
+        {"maximum": 60, "points": 4},
+        {"maximum": 150, "points": 2}
+      ],
+      "bid_bonuses": [
+        {"maximum": 0, "points": 5},
+        {"maximum": 2, "points": 2}
+      ],
+      "bid_penalties": [
+        {"minimum": 8, "points": -12},
+        {"minimum": 4, "points": -6}
+      ],
+      "photo_bonuses": [
+        {"minimum": 10, "points": 10},
+        {"minimum": 8, "points": 8},
+        {"minimum": 5, "points": 5},
+        {"minimum": 3, "points": 2}
+      ],
+      "photo_penalties": [
+        {"maximum": 0, "points": -20},
+        {"maximum": 1, "points": -12},
+        {"maximum": 2, "points": -8}
+      ],
+      "shipping_rules": {
+        "penny_flat_maximum": 0.01,
+        "penny_flat_points": 8,
+        "known_price_bonuses": [
+          {"maximum": 10, "points": 3},
+          {"maximum": 15, "points": 1}
+        ],
+        "calculated_shipping_points": -4,
+        "pickup_only_points": 0,
+        "handling_penalty_minimum": 5,
+        "handling_penalty_points": -4,
+        "heavy_weight_minimum": 6,
         "heavy_with_flat_shipping_points": 3,
         "heavy_with_calculated_shipping_points": -3
       }

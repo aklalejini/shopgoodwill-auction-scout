@@ -6,18 +6,20 @@ import re
 import shutil
 import subprocess
 import tempfile
+from io import BytesIO
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 import requests
+from PIL import Image
 
 
 SIGNAL_PATTERNS = (
     re.compile(r"\b(?:14K|18K|585|750)\b", re.I),
     re.compile(r"\b\d{1,2}[A-Z]{1,3}\d{1,2}[A-Z]{0,2}\b"),
     re.compile(r"\bMADE IN (?:ENGLAND|IRELAND|USA|U\.S\.A\.|HOLLAND|GERMANY|DENMARK|ITALY|FRANCE|JAPAN)\b", re.I),
-    re.compile(r"\b(?:TELEFUNKEN|MULLARD|AMPEREX|WESTERN ELECTRIC|SHEAFFER|PARKER|WATERMAN|DUNHILL|CASTELLO|PETERSON)\b", re.I),
+    re.compile(r"\b(?:TELEFUNKEN|MULLARD|AMPEREX|WESTERN ELECTRIC|SHEAFFER|PARKER|WATERMAN|DUNHILL|CASTELLO|PETERSON|HEMINGRAY|BROOKFIELD|WHITALL TATUM|NATCO|EMMINGER|TWIGGS|HARLOE)\b", re.I),
 )
 
 
@@ -25,10 +27,64 @@ def available() -> bool:
     return shutil.which("tesseract") is not None
 
 
-def _read_image_text(url: str, timeout: float, user_agent: str) -> tuple[str, str]:
+def _detect_glass_color_signals(content: bytes) -> list[str]:
+    """Return conservative hue clues; these are leads, never color authentication."""
+    try:
+        with Image.open(BytesIO(content)) as source:
+            image = source.convert("RGB")
+            image.thumbnail((240, 240))
+            width, height = image.size
+            if width < 20 or height < 20:
+                return []
+            margin_x, margin_y = int(width * 0.12), int(height * 0.12)
+            image = image.crop((margin_x, margin_y, width - margin_x, height - margin_y))
+            hsv = image.convert("HSV")
+    except (OSError, ValueError):
+        return []
+
+    bins = {"blue": 0, "purple": 0, "amber": 0, "yellow_olive": 0, "green_teal": 0}
+    colored = 0
+    total = max(1, hsv.width * hsv.height)
+    for hue, saturation, value in hsv.get_flattened_data():
+        sat = saturation / 255
+        val = value / 255
+        if sat < 0.30 or val < 0.16 or val > 0.96:
+            continue
+        degrees = hue * 360 / 255
+        bucket = None
+        if 195 <= degrees < 255:
+            bucket = "blue"
+        elif 255 <= degrees < 330:
+            bucket = "purple"
+        elif 12 <= degrees < 50:
+            bucket = "amber"
+        elif 50 <= degrees < 105:
+            bucket = "yellow_olive"
+        elif 105 <= degrees < 195:
+            bucket = "green_teal"
+        if bucket:
+            bins[bucket] += 1
+            colored += 1
+
+    if colored < total * 0.07:
+        return []
+    bucket, count = max(bins.items(), key=lambda entry: entry[1])
+    if count < colored * 0.55 or count < total * 0.055:
+        return []
+    return [{
+        "blue": "strong blue glass color",
+        "purple": "purple glass color",
+        "amber": "amber glass color",
+        "yellow_olive": "yellow or olive glass color",
+        "green_teal": "green or teal glass color",
+    }[bucket]]
+
+
+def _read_image_text(url: str, timeout: float, user_agent: str) -> tuple[str, str, list[str]]:
     try:
         response = requests.get(url, timeout=timeout, headers={"User-Agent": user_agent})
         response.raise_for_status()
+        visual_signals = _detect_glass_color_signals(response.content)
         suffix = Path(url.split("?", 1)[0]).suffix or ".jpg"
         with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as handle:
             handle.write(response.content)
@@ -42,14 +98,21 @@ def _read_image_text(url: str, timeout: float, user_agent: str) -> tuple[str, st
                 check=False,
             )
             if result.returncode != 0:
-                return "", (result.stderr or "OCR failed").strip()[:240]
+                return "", (result.stderr or "OCR failed").strip()[:240], visual_signals
             text = re.sub(r"[ \t]+", " ", result.stdout)
             text = re.sub(r"\n{3,}", "\n\n", text).strip()
-            return text[:12000], ""
+            return text[:12000], "", visual_signals
         finally:
             image_path.unlink(missing_ok=True)
     except (OSError, requests.RequestException, subprocess.SubprocessError) as exc:
-        return "", str(exc)[:240]
+        return "", str(exc)[:240], []
+
+
+def _is_insulator(item: dict[str, Any]) -> bool:
+    return (
+        "glass-insulators" in (item.get("hunt_categories") or [])
+        or (item.get("primary_hunt") or {}).get("id") == "glass-insulators"
+    )
 
 
 def _attach_cached_text(item: dict[str, Any], cache: dict[str, Any]) -> None:
@@ -70,6 +133,22 @@ def _attach_cached_text(item: dict[str, Any], cache: dict[str, Any]) -> None:
     else:
         item.pop("ocr_text", None)
         item.pop("ocr_hits", None)
+    if _is_insulator(item):
+        visual_hits = sorted({
+            str(signal)
+            for url in item.get("images") or []
+            for signal in (cache.get(url) or {}).get("visual_signals", [])
+            if signal
+        })
+        if visual_hits:
+            item["visual_hits"] = visual_hits
+            item["visual_text"] = "\n".join(visual_hits)
+        else:
+            item.pop("visual_hits", None)
+            item.pop("visual_text", None)
+    else:
+        item.pop("visual_hits", None)
+        item.pop("visual_text", None)
 
 
 def process_ocr(
@@ -93,10 +172,15 @@ def process_ocr(
     candidates = [
         item for item in items
         if item.get("detail_status") == "complete"
-        and any(url not in cache for url in (item.get("images") or [])[:max_images])
+        and any(
+            url not in cache
+            or (_is_insulator(item) and "visual_signals" not in (cache.get(url) or {}))
+            for url in (item.get("images") or [])[:max_images]
+        )
     ]
     candidates.sort(
         key=lambda item: (
+            0 if _is_insulator(item) else 1,
             -len(item.get("images") or []),
             len(str(item.get("title") or "")),
             -int(item.get("score") or 0),
@@ -107,10 +191,15 @@ def process_ocr(
     for item in candidates[:max_listings]:
         changed = False
         for url in (item.get("images") or [])[:max_images]:
-            if url in cache:
+            if url in cache and not (
+                _is_insulator(item) and "visual_signals" not in (cache.get(url) or {})
+            ):
                 continue
-            text, error = _read_image_text(url, timeout, user_agent)
-            cache[url] = {"text": text, "error": error, "processed_at": timestamp}
+            text, error, visual_signals = _read_image_text(url, timeout, user_agent)
+            cache[url] = {
+                "text": text, "error": error, "visual_signals": visual_signals,
+                "processed_at": timestamp,
+            }
             processed_images += 1
             changed = True
         if changed:
@@ -135,4 +224,3 @@ def process_ocr(
         "listings_processed": processed_listings,
         "images_processed": processed_images,
     }
-

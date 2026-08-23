@@ -233,6 +233,7 @@
     const cluster = item.seller_cluster;
     const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h.</div>` : "";
     const ocrMarkup = item.ocr_hits?.length ? `<div class="ocr-note"><strong>Image text:</strong> ${item.ocr_hits.map(escapeHtml).join(", ")}</div>` : "";
+    const visualMarkup = item.visual_hits?.length ? `<div class="ocr-note"><strong>Image color clue:</strong> ${item.visual_hits.map(escapeHtml).join(", ")}</div>` : "";
     const imageMarkup = images.length
       ? images.map((source, index) => `<a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(item.title)} — photo ${index + 1}" loading="lazy"></a>`).join("")
       : `<div class="notice">No full-size images were returned for this listing.</div>`;
@@ -250,7 +251,7 @@
             <span>${escapeHtml(potentialLabel(item))}</span>
             <strong>${Number(item.score || 0)}/100</strong>
           </div>
-          ${clusterMarkup}${ocrMarkup}
+          ${clusterMarkup}${ocrMarkup}${visualMarkup}
           <div class="detail-facts">
             <div><span>Seller</span><strong>${escapeHtml(item.seller || "Not yet loaded")}</strong></div>
             <div><span>Ends</span><strong>${item.end_time ? escapeHtml(dateTime.format(new Date(item.end_time))) : "Unknown"}</strong></div>

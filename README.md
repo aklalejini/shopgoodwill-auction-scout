@@ -1,6 +1,6 @@
 # Auction Scout
 
-Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally, nearby government-surplus inventory from GSA Auctions and GovDeals, and nearby estate-auction inventory from CTBids. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, **Estate Tobacco Pipes**, and a broad **Local Estate Auctions** watch.
+Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally, nearby government-surplus inventory from GSA Auctions and GovDeals, and nearby estate-auction inventory from CTBids. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, **Estate Tobacco Pipes**, **Glass Insulators**, and a broad **Local Estate Auctions** watch.
 
 The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on GitHub Pages, and the hourly data refresh runs in GitHub Actions. No account, API key, database, backend, paid API, or credit card is required.
 
@@ -60,7 +60,7 @@ For nearby inventory, each run asks GSA Auctions, GovDeals, and CTBids for activ
 
 The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, photos, bid activity, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. The result is a review priority—not an appraisal—and every card exposes the reasons behind its score.
 
-The workflow uses Tesseract to inspect a small, fixed number of listing images per run and caches results in `data/ocr_cache.json`. OCR can surface visible model numbers, tube codes, brands, and markings that titles miss without adding a paid API. It is a clue source, not visual authentication.
+The workflow uses Tesseract and a small local image-color check to inspect a fixed number of listing images per run, caching results in `data/ocr_cache.json`. OCR can surface visible model numbers, tube codes, brands, and markings that titles miss. For glass insulators, the color check can flag a dominant blue, purple, amber, yellow/olive, or green/teal hue. Both are clue sources, not visual authentication.
 
 The data-source code is isolated in `scraper/shopgoodwill.py`, `scraper/government.py`, and `scraper/ctbids.py`, so a source change does not require rewriting the pipeline or site.
 
@@ -100,6 +100,7 @@ Edit [`scraper/config.json`](scraper/config.json):
 - `seller_bonuses` can encode a narrowly scoped source-confidence adjustment when repeated visual review shows that a seller's domain-specific lots are consistently stronger than their generic descriptions.
 - `lower_priority_keywords` strongly lowers dyed, coated, carved, decorative, metaphysical, and other retail/decor noise.
 - `target_keywords` and `premium_keywords` add category-specific bonuses.
+- `bid_penalties` can lower opportunity priority when heavy bidding shows that a listing is already widely noticed.
 - `collector_evidence_keywords` rewards provenance, locality labels, specimen labels, and field-collected material.
 - `price_bonuses`, `bid_bonuses`, `photo_bonuses`, and `shipping_rules` control market signals and delivered-cost risk. A zero listed shipping value is treated as unresolved calculated shipping, not as free shipping.
 - `high_priority_threshold` controls the numeric cutoff, while the high-priority quality gate also requires enough photos and at least one strong collector, target, provenance, construction, or equipment signal.
@@ -185,6 +186,7 @@ Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This pr
 - Shipping is seller- and destination-dependent. Calculated shipping uses a conservative weight/category model and is not a ZIP-specific carrier quote.
 - Potential scores are triage signals, not appraisals. Photo condition, authenticity, exact variant, and untested status can materially change value.
 - OCR is deliberately incremental and can misread labels. A machine without Tesseract still runs normally and reuses existing cached results.
+- Glass-insulator color detection is deliberately conservative and labels only broad hue families; lighting, backgrounds, irradiation, staining, and photography can still mislead it.
 - Search relevance belongs to ShopGoodwill and can be broad. Per-hunt scoring and filters surface likely opportunities without silently hiding other results.
 - Original CDN images are linked, not copied. They can disappear after ShopGoodwill purges a listing.
 

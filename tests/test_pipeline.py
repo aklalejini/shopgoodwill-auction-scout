@@ -1,10 +1,13 @@
 import copy
 import json
 import unittest
+from io import BytesIO
 from datetime import datetime, timezone
 from pathlib import Path
 
+from PIL import Image
 from scraper.ctbids import apply_ctbids_detail, ctbids_listing
+from scraper.ocr import _detect_glass_color_signals
 from scraper.scoring import score_listing, strip_boilerplate
 from scraper.government import (
     govdeals_listing,
@@ -36,6 +39,7 @@ MEDIA_PROFILE = CONFIG["scoring_profiles"]["sealed-vintage-media"]
 TUBE_PROFILE = CONFIG["scoring_profiles"]["vintage-electron-tubes"]
 PEN_PROFILE = CONFIG["scoring_profiles"]["vintage-pens"]
 PIPE_PROFILE = CONFIG["scoring_profiles"]["estate-tobacco-pipes"]
+INSULATOR_PROFILE = CONFIG["scoring_profiles"]["glass-insulators"]
 VALUATION_RULES = load_valuation_rules(ROOT / "scraper" / "valuation.csv")
 
 
@@ -658,6 +662,78 @@ class PipelineTests(unittest.TestCase):
     def test_naive_api_time_is_marked_as_pacific(self):
         parsed = parse_api_time("2026-08-22T17:09:00")
         self.assertEqual(parsed, "2026-08-22T17:09:00-07:00")
+
+
+class GlassInsulatorTests(unittest.TestCase):
+    def test_relevance_accepts_naive_glass_language_and_rejects_non_glass_hardware(self):
+        self.assertTrue(matches_hunt_domain(
+            {"title": "Old Telegraph Glass Bell Estate Lot"}, INSULATOR_PROFILE
+        ))
+        self.assertTrue(matches_hunt_domain(
+            {"title": "Antique Blue Glass Telephone Pole Thing"}, INSULATOR_PROFILE
+        ))
+        for title in (
+            "Porcelain Insulator Lot", "Ceramic Electric Fence Insulators",
+            "Fiberglass Building Insulation", "Rubber Wire Insulator Sleeves",
+            "Electric Glass Cold Brew Coffee Maker and Carafe",
+        ):
+            self.assertFalse(matches_hunt_domain({"title": title}, INSULATOR_PROFILE), title)
+
+    def test_rare_color_maker_and_shape_can_be_high_potential(self):
+        result = score_listing({
+            "title": "Barn Find Cobalt Blue Cal Elec Glass Insulator Lot",
+            "description": "Threadless profile, as found.",
+            "price": 12, "bids": 0,
+            "images": [f"{index}.jpg" for index in range(8)],
+            "shipping": {"listed_price": 0.01, "pickup_only": False},
+        }, INSULATOR_PROFILE)
+        self.assertTrue(result["high_priority_eligible"])
+        self.assertGreaterEqual(result["score"], INSULATOR_PROFILE["high_priority_threshold"])
+
+    def test_common_researched_piece_and_altered_damage_are_demoted(self):
+        common = score_listing({
+            "title": "Hemingray-42 Clear Glass Insulator CD 154 Collectible",
+            "price": 10, "bids": 0, "images": [f"{index}.jpg" for index in range(8)],
+        }, INSULATOR_PROFILE)
+        altered = score_listing({
+            "title": "Deep Purple Hemingray Glass Insulator",
+            "description": "Irradiated reproduction with chipped base.",
+            "price": 10, "bids": 0, "images": [f"{index}.jpg" for index in range(8)],
+        }, INSULATOR_PROFILE)
+        self.assertFalse(common["high_priority_eligible"])
+        self.assertFalse(altered["high_priority_eligible"])
+        self.assertLess(common["score"], INSULATOR_PROFILE["high_priority_threshold"])
+        self.assertLess(altered["score"], INSULATOR_PROFILE["high_priority_threshold"])
+
+    def test_common_teal_lot_with_disclosed_damage_is_not_high_potential(self):
+        result = score_listing({
+            "title": "Hemingray Glass Insulators 3 Piece Lot Aqua Teal Clear Vintage",
+            "description": "Embossed pieces with minor chipping, roughness, and base fleabites.",
+            "price": 10, "bids": 0,
+            "images": [f"{index}.jpg" for index in range(8)],
+        }, INSULATOR_PROFILE)
+        self.assertLess(result["score"], INSULATOR_PROFILE["high_priority_threshold"])
+
+    def test_image_color_clue_is_conservative(self):
+        blue = Image.new("RGB", (160, 160), (35, 95, 220))
+        blue_bytes = BytesIO()
+        blue.save(blue_bytes, format="PNG")
+        self.assertEqual(
+            _detect_glass_color_signals(blue_bytes.getvalue()),
+            ["strong blue glass color"],
+        )
+        neutral = Image.new("RGB", (160, 160), (210, 210, 210))
+        neutral_bytes = BytesIO()
+        neutral.save(neutral_bytes, format="PNG")
+        self.assertEqual(_detect_glass_color_signals(neutral_bytes.getvalue()), [])
+
+    def test_visual_color_clue_is_labeled_as_image_analysis(self):
+        result = score_listing({
+            "title": "Vintage Glass Insulator",
+            "visual_text": "strong blue glass color",
+            "price": 8, "bids": 0, "images": [f"{index}.jpg" for index in range(6)],
+        }, INSULATOR_PROFILE)
+        self.assertTrue(any("image color analysis" in reason for reason in result["score_reasons"]))
 
 
 class GovernmentSourceTests(unittest.TestCase):

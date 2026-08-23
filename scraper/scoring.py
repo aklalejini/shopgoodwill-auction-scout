@@ -120,7 +120,8 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     title = str(listing.get("title") or "")
     description = strip_boilerplate(str(listing.get("description") or ""))
     ocr_text = str(listing.get("ocr_text") or "")
-    text = f"{title}\n{description}\n{ocr_text}"
+    visual_text = str(listing.get("visual_text") or "")
+    text = f"{title}\n{description}\n{ocr_text}\n{visual_text}"
     score = int(config.get("base_score", 0))
     reasons: list[str] = []
     matched_terms: list[str] = []
@@ -131,6 +132,17 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     domain_signal = any(
         contains_phrase(text, phrase) for phrase in config.get("domain_keywords", [])
     )
+
+    def evidence_location(phrase: str) -> str:
+        if contains_phrase(title, phrase):
+            return "title"
+        if contains_phrase(description, phrase):
+            return "description"
+        if contains_phrase(ocr_text, phrase):
+            return "image text"
+        if contains_phrase(visual_text, phrase):
+            return "image color analysis"
+        return "listing"
 
     groups = (
         ("priority_keywords", "Opportunity term"),
@@ -159,7 +171,7 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             points = int(raw_points)
             if points < 0:
                 risk_points += points
-            location = "title" if contains_phrase(title, phrase) else "description"
+            location = evidence_location(phrase)
             matches.append((phrase, points, location))
             if group_name == "target_keywords":
                 matched_terms.append(phrase)
@@ -214,7 +226,7 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         points = int(raw_points)
         score += points
         matched_evidence.append(phrase)
-        location = "title" if contains_phrase(title, phrase) else "description"
+        location = evidence_location(phrase)
         reasons.append(f"Collector evidence '{phrase}' in {location} (+{points})")
 
     category = str(listing.get("category") or "")
@@ -250,6 +262,16 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         points = int(bid_tier["points"])
         score += points
         reasons.append(f"{bids} bid{'s' if bids != 1 else ''} (+{points})")
+
+    bid_penalty = _first_matching_tier(
+        bids, config.get("bid_penalties", []), "minimum"
+    )
+    if bid_penalty:
+        points = int(bid_penalty["points"])
+        score += points
+        if points < 0:
+            risk_points += points
+        reasons.append(f"{bids} bids show the opportunity is already noticed ({points})")
 
     photo_count = len(listing.get("images") or [])
     photo_tier = _first_matching_tier(photo_count, config.get("photo_bonuses", []), "minimum")
