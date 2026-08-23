@@ -6,9 +6,11 @@
   const state = { listings: [], status: null };
   const controls = {
     keyword: $("#keyword"), sort: $("#sort"), minPrice: $("#min-price"),
-    maxPrice: $("#max-price"), endingHours: $("#ending-hours"), seller: $("#seller"),
+    maxPrice: $("#max-price"), maxBuyNow: $("#max-buy-now"),
+    endingHours: $("#ending-hours"), seller: $("#seller"),
     category: $("#hunt-category"), targetKeyword: $("#target-keyword"),
     multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
+    buyNowOnly: $("#buy-now-only"),
     undervalued: $("#undervalued")
   };
   const ending24 = $("#ending-24");
@@ -62,11 +64,13 @@
     const category = controls.category.value;
     const minimum = controls.minPrice.value === "" ? null : Number(controls.minPrice.value);
     const maximum = controls.maxPrice.value === "" ? null : Number(controls.maxPrice.value);
+    const maximumBuyNow = controls.maxBuyNow.value === "" ? null : Number(controls.maxBuyNow.value);
     const endingHours = controls.endingHours.value === "" ? null : Number(controls.endingHours.value);
     const endCutoff = endingHours === null ? null : Date.now() + endingHours * 3_600_000;
 
     const filtered = state.listings.filter(item => {
       const price = Number(item.price || 0);
+      const buyNowPrice = Number(item.buy_now_price || 0);
       const end = new Date(item.end_time).getTime();
       if (query && !searchableText(item).includes(query)) return false;
       if (seller && !String(item.seller || "").toLocaleLowerCase().includes(seller)) return false;
@@ -74,9 +78,11 @@
       if (category && !(item.hunt_categories || []).includes(category)) return false;
       if (minimum !== null && price < minimum) return false;
       if (maximum !== null && price > maximum) return false;
+      if (maximumBuyNow !== null && (!item.has_buy_now || buyNowPrice > maximumBuyNow)) return false;
       if (endCutoff !== null && (!Number.isFinite(end) || end < Date.now() || end > endCutoff)) return false;
       if (controls.multiplePhotos.checked && (item.images || []).length < 2) return false;
       if (controls.noBids.checked && Number(item.bids || 0) !== 0) return false;
+      if (controls.buyNowOnly.checked && !item.has_buy_now) return false;
       if (controls.undervalued.checked && !item.potentially_undervalued) return false;
       return true;
     });
@@ -87,6 +93,11 @@
       ending: (a, b) => new Date(a.end_time) - new Date(b.end_time),
       "price-low": (a, b) => Number(a.price || 0) - Number(b.price || 0),
       "price-high": (a, b) => Number(b.price || 0) - Number(a.price || 0),
+      "buy-now": (a, b) => {
+        const aPrice = a.has_buy_now ? Number(a.buy_now_price || 0) : Number.POSITIVE_INFINITY;
+        const bPrice = b.has_buy_now ? Number(b.buy_now_price || 0) : Number.POSITIVE_INFINITY;
+        return aPrice - bPrice;
+      },
       bids: (a, b) => Number(a.bids || 0) - Number(b.bids || 0)
     };
     return filtered.sort(sorters[controls.sort.value] || sorters.score);
@@ -106,7 +117,14 @@
     setImage(cardImage, thumbnails[0] || item.images?.[0], item.title);
     $(".score-badge strong", fragment).textContent = item.score ?? 0;
     $(".ending-badge", fragment).textContent = timeRemaining(item.end_time);
+    const buyNowPrice = Number(item.buy_now_price || 0);
+    $(".price-label", fragment).textContent = item.has_buy_now && Number(item.bids || 0) === 0 ? "Listed price" : "Current bid";
     $(".price", fragment).textContent = currency.format(Number(item.price || 0));
+    if (item.has_buy_now) {
+      const buyNowRow = $(".buy-now-row", fragment);
+      buyNowRow.hidden = false;
+      $(".buy-now-price", fragment).textContent = currency.format(buyNowPrice);
+    }
     $(".bids", fragment).textContent = `${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"}`;
     $("h3", fragment).textContent = item.title;
     $(".seller-name", fragment).textContent = item.seller || "Seller not yet loaded";
@@ -151,6 +169,10 @@
     const dialog = $("#detail-dialog");
     const images = item.images || [];
     const shipping = item.shipping || {};
+    const buyNowPrice = Number(item.buy_now_price || 0);
+    const buyNowMarkup = item.has_buy_now
+      ? `<div class="detail-buy-now"><span>Buy It Now</span><strong>${currency.format(buyNowPrice)}</strong></div>`
+      : "";
     const reasons = (item.score_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
     const imageMarkup = images.length
       ? images.map((source, index) => `<a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(item.title)} — photo ${index + 1}" loading="lazy"></a>`).join("")
@@ -161,7 +183,9 @@
         <div class="detail-info">
           <p class="eyebrow">${escapeHtml(item.primary_hunt?.label || "Auction watch")} · Item #${escapeHtml(item.item_id)} · ${images.length} photo${images.length === 1 ? "" : "s"}</p>
           <h2 id="dialog-title">${escapeHtml(item.title)}</h2>
+          <p class="detail-price-label">${item.has_buy_now && Number(item.bids || 0) === 0 ? "Listed price" : "Current bid"}</p>
           <p class="detail-price">${currency.format(Number(item.price || 0))}</p>
+          ${buyNowMarkup}
           <p class="detail-sub">${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"} · ${escapeHtml(timeRemaining(item.end_time))}</p>
           <div class="detail-facts">
             <div><span>Seller</span><strong>${escapeHtml(item.seller || "Not yet loaded")}</strong></div>

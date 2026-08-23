@@ -10,6 +10,7 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 
 - An image-first responsive gallery, sorted by opportunity score by default
 - Filters for category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
+- Visible Buy It Now pricing with an availability filter, maximum-price filter, and lowest-price sorting
 - Full-resolution detail views with every listing image and an explainable score
 - Public machine-readable feeds at `data/listings.json` and `data/high_priority.json`
 - Incremental hourly refreshes with delays, timeouts, bounded retry/backoff, and graceful partial failure

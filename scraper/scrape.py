@@ -77,7 +77,10 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
     if not existing:
         return fresh
     merged = copy.deepcopy(existing)
-    for key in ("title", "price", "bids", "seller_id", "start_time", "end_time", "category"):
+    for key in (
+        "title", "price", "buy_now_price", "has_buy_now", "bids", "seller_id",
+        "start_time", "end_time", "category",
+    ):
         if fresh.get(key) not in (None, ""):
             merged[key] = fresh[key]
     for field in ("discovered_by", "hunt_categories", "hunt_labels"):
@@ -284,7 +287,10 @@ def refresh(
     for item in active:
         apply_hunt_scoring(item, hunts, profiles)
 
-    pending = [item for item in active if item.get("detail_status") != "complete"]
+    pending = [
+        item for item in active
+        if item.get("detail_status") != "complete" or "has_buy_now" not in item
+    ]
     pending.sort(key=lambda item: (-int(item.get("score") or 0), item.get("end_time") or ""))
     detail_limit = (
         int(max_detail_requests)

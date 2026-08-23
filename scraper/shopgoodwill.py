@@ -73,6 +73,13 @@ def parse_search_response(payload: Any) -> tuple[list[dict[str, Any]], int]:
     return valid_items, int(results.get("itemCount") or len(valid_items))
 
 
+def effective_buy_now_price(record: dict[str, Any]) -> float:
+    """Return the storefront's active Buy It Now amount, including discounts."""
+    discounted = float(record.get("discountedBuyNowPrice") or 0)
+    regular = float(record.get("buyNowPrice") or 0)
+    return discounted if discounted > 0 else regular
+
+
 class ShopGoodwillClient:
     def __init__(self, config: dict[str, Any]) -> None:
         self.config = config
@@ -190,10 +197,13 @@ def listing_from_search(
 ) -> dict[str, Any]:
     primary = normalize_image_url("", str(item.get("imageURL") or ""))
     item_id = str(item.get("itemId"))
+    buy_now_price = effective_buy_now_price(item)
     return {
         "item_id": item_id,
         "title": str(item.get("title") or "Untitled listing"),
         "price": float(item.get("currentPrice") or 0),
+        "buy_now_price": buy_now_price,
+        "has_buy_now": buy_now_price > 0,
         "bids": int(item.get("numBids") or 0),
         "seller": "",
         "seller_id": item.get("sellerId"),
@@ -226,9 +236,12 @@ def apply_detail(listing: dict[str, Any], detail: dict[str, Any]) -> dict[str, A
         listing["images"] = full_images
     if thumbnails:
         listing["thumbnails"] = thumbnails
+    buy_now_price = effective_buy_now_price(detail)
     listing.update({
         "title": str(detail.get("title") or listing.get("title") or "Untitled listing"),
         "price": float(detail.get("currentPrice") or listing.get("price") or 0),
+        "buy_now_price": buy_now_price,
+        "has_buy_now": buy_now_price > 0,
         "bids": int(detail.get("numberOfBids") or 0),
         "seller": str(detail.get("sellerCompanyName") or ""),
         "seller_id": detail.get("sellerId") or listing.get("seller_id"),

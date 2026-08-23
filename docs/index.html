@@ -50,6 +50,7 @@
           <option value="ending">Ending soon</option>
           <option value="price-low">Lowest price</option>
           <option value="price-high">Highest price</option>
+          <option value="buy-now">Lowest Buy It Now</option>
           <option value="bids">Fewest bids</option>
         </select>
       </div>
@@ -78,6 +79,10 @@
         <div class="money-input"><span>$</span><input id="max-price" type="number" min="0" step="1" placeholder="Any"></div>
       </div>
       <div class="filter-field">
+        <label for="max-buy-now">Maximum Buy It Now</label>
+        <div class="money-input"><span>$</span><input id="max-buy-now" type="number" min="0" step="1" placeholder="Any"></div>
+      </div>
+      <div class="filter-field">
         <label for="ending-hours">Ending within</label>
         <select id="ending-hours">
           <option value="">Any time</option>
@@ -100,6 +105,7 @@
       <div class="check-group">
         <label><input id="multiple-photos" type="checkbox"><span>Multiple photos</span></label>
         <label><input id="no-bids" type="checkbox"><span>No bids</span></label>
+        <label><input id="buy-now-only" type="checkbox"><span>Buy It Now available</span></label>
         <label><input id="undervalued" type="checkbox"><span>Potentially undervalued</span></label>
       </div>
       <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
@@ -145,7 +151,11 @@
       </div>
       <div class="thumbnail-row"></div>
       <div class="card-body">
-        <div class="card-meta"><span class="price"></span><span class="bids"></span></div>
+        <div class="card-meta">
+          <span class="current-price"><small class="price-label">Current price</small><strong class="price"></strong></span>
+          <span class="bids"></span>
+        </div>
+        <div class="buy-now-row" hidden><span>Buy It Now</span><strong class="buy-now-price"></strong></div>
         <h3></h3>
         <p class="seller-name"></p>
         <div class="term-row"></div>

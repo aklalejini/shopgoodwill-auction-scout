@@ -186,7 +186,7 @@ main { width: min(1480px, calc(100% - 48px)); margin: 0 auto; }
 
 .filters {
   display: grid;
-  grid-template-columns: repeat(5, minmax(130px, 1fr)) 1.5fr auto;
+  grid-template-columns: repeat(6, minmax(130px, 1fr));
   gap: 20px;
   align-items: end;
   margin: 10px 0 0;
@@ -198,7 +198,7 @@ main { width: min(1480px, calc(100% - 48px)); margin: 0 auto; }
 .money-input { display: flex; align-items: center; border-bottom: 1px solid var(--line); }
 .money-input span { color: var(--muted); }
 .money-input input { border: 0; padding-left: 4px; }
-.check-group { display: grid; gap: 5px; }
+.check-group { display: flex; grid-column: 1 / -2; flex-wrap: wrap; gap: 8px 20px; }
 .check-group label { display: flex; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; }
 .check-group input { width: 15px; height: 15px; accent-color: var(--forest); }
 .clear-filters { height: 40px; padding: 0 14px; background: transparent; color: var(--forest); border: 1px solid var(--forest); border-radius: 8px; font-size: 12px; font-weight: 700; }
@@ -242,9 +242,15 @@ main { width: min(1480px, calc(100% - 48px)); margin: 0 auto; }
 .thumbnail-more { display: grid; place-items: center; flex: 0 0 42px; background: var(--paper-deep); color: var(--muted); border-radius: 5px; font-size: 10px; font-weight: 800; }
 
 .card-body { padding: 16px 18px 14px; }
-.card-meta { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.card-meta { display: flex; align-items: end; justify-content: space-between; gap: 10px; }
+.current-price { display: grid; gap: 1px; }
+.price-label { color: var(--muted); font-size: 8px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
 .price { color: var(--forest); font-family: Georgia, serif; font-size: 25px; }
 .bids { color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.buy-now-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 9px; padding: 8px 10px; background: var(--amber-light); border: 1px solid rgba(187, 124, 53, .22); border-radius: 8px; color: #68441d; }
+.buy-now-row[hidden] { display: none; }
+.buy-now-row span { font-size: 9px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+.buy-now-row strong { font-family: Georgia, serif; font-size: 18px; }
 .card-body h3 { min-height: 47px; margin: 8px 0 6px; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; font-family: Georgia, serif; font-size: 17px; line-height: 1.35; }
 .seller-name { margin: 0; overflow: hidden; color: var(--muted); font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
 .term-row { display: flex; gap: 5px; min-height: 27px; margin-top: 12px; overflow: hidden; }
@@ -279,7 +285,11 @@ dialog::backdrop { background: rgba(10, 22, 19, .74); backdrop-filter: blur(5px)
 .detail-info { position: sticky; top: 0; align-self: start; padding: 48px 38px; }
 .detail-info .eyebrow { margin-bottom: 10px; }
 .detail-info h2 { margin: 0; font-family: Georgia, serif; font-size: clamp(28px, 4vw, 44px); font-weight: 500; line-height: 1.05; }
-.detail-price { margin: 19px 0 4px; color: var(--forest); font-family: Georgia, serif; font-size: 32px; }
+.detail-price-label { margin: 19px 0 0; color: var(--muted); font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.detail-price { margin: 2px 0 4px; color: var(--forest); font-family: Georgia, serif; font-size: 32px; }
+.detail-buy-now { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 14px; padding: 13px 15px; background: var(--amber-light); border: 1px solid rgba(187, 124, 53, .25); border-radius: 10px; color: #68441d; }
+.detail-buy-now span { font-size: 10px; font-weight: 850; letter-spacing: .09em; text-transform: uppercase; }
+.detail-buy-now strong { font-family: Georgia, serif; font-size: 24px; }
 .detail-sub { margin: 0; color: var(--muted); font-size: 12px; }
 .detail-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 24px 0; padding: 18px 0; border-block: 1px solid var(--line); }
 .detail-facts span { display: block; color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; }

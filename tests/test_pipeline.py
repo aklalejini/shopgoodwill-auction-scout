@@ -9,6 +9,7 @@ from scraper.scrape import apply_hunt_scoring, deduplicate, is_expired, matches_
 from scraper.shopgoodwill import (
     DataSourceError,
     apply_detail,
+    listing_from_search,
     parse_api_time,
     parse_search_response,
 )
@@ -304,6 +305,8 @@ class PipelineTests(unittest.TestCase):
             "imageUrlString": "7\\Item\\one.jpg;7\\Item\\two.jpg",
             "thumbnailUrlString": "7\\Item\\one-t.jpg;7\\Item\\two-t.jpg",
             "description": "<p>Two <strong>specimens</strong></p>",
+            "buyNowPrice": 39.99,
+            "discountedBuyNowPrice": 29.99,
             "endTime": "2026-08-25T12:30:00",
         }
         result = apply_detail(copy.deepcopy(listing), detail)
@@ -312,7 +315,23 @@ class PipelineTests(unittest.TestCase):
             "https://cdn.example/production/7/Item/two.jpg",
         ])
         self.assertEqual(result["description"], "Two\nspecimens")
+        self.assertEqual(result["buy_now_price"], 29.99)
+        self.assertTrue(result["has_buy_now"])
         self.assertEqual(result["detail_status"], "complete")
+
+    def test_search_listing_records_buy_now_price(self):
+        item = {
+            "itemId": 42,
+            "title": "Buy now specimen",
+            "currentPrice": 12.99,
+            "buyNowPrice": 24.99,
+            "discountedBuyNowPrice": 19.99,
+            "numBids": 0,
+        }
+        hunt = {"id": "minerals-geology", "label": "Minerals & Geology"}
+        result = listing_from_search(item, "mineral", "2026-08-23T12:00:00+00:00", hunt)
+        self.assertEqual(result["buy_now_price"], 19.99)
+        self.assertTrue(result["has_buy_now"])
 
     def test_naive_api_time_is_marked_as_pacific(self):
         parsed = parse_api_time("2026-08-22T17:09:00")
