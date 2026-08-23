@@ -17,6 +17,7 @@ DEFAULTS = {
     "vintage-electron-tubes": (15.0, 80.0, "medium", 0.35, 70, 10.0, 8.0),
     "vintage-pens": (15.0, 65.0, "medium", 0.38, 65, 8.0, 2.0),
     "estate-tobacco-pipes": (15.0, 70.0, "medium", 0.38, 55, 14.0, 3.0),
+    "local-government-surplus": (0.0, 0.0, "none", 0.05, 365, 0.0, 0.0),
 }
 
 LIQUIDITY_PROBABILITY = {"high": 0.88, "medium": 0.68, "low": 0.48, "none": 0.18}

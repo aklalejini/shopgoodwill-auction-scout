@@ -12,6 +12,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from .government import (
+    GSAAuctionsClient,
+    GovDealsClient,
+    apply_govdeals_detail,
+    apply_gsa_detail,
+    govdeals_listing,
+    gsa_listing,
+)
 from .ocr import process_ocr
 from .scoring import contains_phrase, score_listing
 from .shopgoodwill import DataSourceError, ShopGoodwillClient, apply_detail, listing_from_search
@@ -139,7 +147,9 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
     merged = copy.deepcopy(existing)
     for key in (
         "title", "price", "buy_now_price", "has_buy_now", "bids", "seller_id",
-        "start_time", "end_time", "category",
+        "start_time", "end_time", "category", "source", "source_label",
+        "source_native_id", "source_account_id", "listing_url", "location",
+        "local_search",
     ):
         if fresh.get(key) not in (None, ""):
             merged[key] = fresh[key]
@@ -154,6 +164,8 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
 
 def matches_hunt_domain(item: dict[str, Any], profile: dict[str, Any]) -> bool:
     """Require convincing hunt evidence while rejecting obvious product collisions."""
+    if profile.get("accept_all"):
+        return True
     relevance = profile.get("relevance", {})
     title = str(item.get("title") or "")
     category = "\n".join(
@@ -289,6 +301,12 @@ def refresh(
     failures: list[str] = []
     api_config = config["api"]
     source = client or ShopGoodwillClient(api_config)
+    source_config = config.get("sources", {})
+    local_config = config.get("local_search", {})
+    zip_code = str(local_config.get("zip_code") or "38635")
+    radius_miles = int(local_config.get("radius_miles") or 50)
+    gsa_client = GSAAuctionsClient(source_config.get("gsa_auctions", {}))
+    govdeals_client = GovDealsClient(source_config.get("govdeals", {}))
     hunts = [hunt for hunt in config.get("hunts", []) if hunt.get("enabled", True)]
     profiles = config.get("scoring_profiles", {})
     valuation_rules = load_valuation_rules(PROJECT_ROOT / "scraper" / "valuation.csv")
@@ -296,6 +314,10 @@ def refresh(
     ocr_cache = load_json(PROJECT_ROOT / "data" / "ocr_cache.json", {})
     if not hunts:
         raise ValueError("No enabled hunts are configured")
+
+    local_hunt = next(
+        (hunt for hunt in hunts if hunt["id"] == "local-government-surplus"), None
+    )
 
     for hunt in hunts:
         for term in hunt.get("search_terms", []):
@@ -319,10 +341,7 @@ def refresh(
             for page in range(1, pages + 1):
                 try:
                     items, _ = source.search(
-                        "",
-                        page,
-                        sort_descending=False,
-                        seller_ids=[seller_id],
+                        "", page, sort_descending=False, seller_ids=[seller_id]
                     )
                 except DataSourceError as exc:
                     failures.append(
@@ -337,6 +356,28 @@ def refresh(
                         )
                 if len(items) < int(api_config.get("page_size", 40)):
                     break
+
+    if local_hunt and source_config.get("gsa_auctions", {}).get("enabled", True):
+        try:
+            items, _ = gsa_client.search(zip_code, radius_miles)
+            discovered.extend(
+                gsa_listing(item, timestamp, local_hunt, zip_code, radius_miles)
+                for item in items
+            )
+        except DataSourceError as exc:
+            failures.append(f"GSA Auctions / {zip_code} + {radius_miles} mi: {exc}")
+            print(f"warning: {failures[-1]}", file=sys.stderr)
+
+    if local_hunt and source_config.get("govdeals", {}).get("enabled", True):
+        try:
+            items, _ = govdeals_client.search(zip_code, radius_miles)
+            discovered.extend(
+                govdeals_listing(item, timestamp, local_hunt, zip_code, radius_miles)
+                for item in items
+            )
+        except DataSourceError as exc:
+            failures.append(f"GovDeals / {zip_code} + {radius_miles} mi: {exc}")
+            print(f"warning: {failures[-1]}", file=sys.stderr)
 
     fresh_records = deduplicate(discovered)
     active_by_id = {
@@ -369,9 +410,34 @@ def refresh(
         else int(api_config.get("max_detail_requests_per_run", 160))
     )
     detailed = 0
-    for item in pending[: max(0, detail_limit)]:
+    source_detail_counts = {"shopgoodwill": 0, "gsa-auctions": 0, "govdeals": 0}
+    detail_limits = {
+        "shopgoodwill": max(0, detail_limit),
+        "gsa-auctions": int(source_config.get("gsa_auctions", {}).get("max_detail_requests_per_run", 25)),
+        "govdeals": int(source_config.get("govdeals", {}).get("max_detail_requests_per_run", 24)),
+    }
+    for item in pending:
+        source_id = str(item.get("source") or "shopgoodwill")
+        if source_detail_counts.get(source_id, 0) >= detail_limits.get(source_id, 0):
+            continue
+        source_detail_counts[source_id] = source_detail_counts.get(source_id, 0) + 1
         try:
-            apply_detail(item, source.detail(str(item["item_id"])))
+            if source_id == "govdeals":
+                apply_govdeals_detail(
+                    item,
+                    govdeals_client.detail(
+                        str(item.get("source_native_id") or ""),
+                        str(item.get("source_account_id") or ""),
+                    ),
+                )
+            elif source_id == "gsa-auctions":
+                apply_gsa_detail(
+                    item,
+                    gsa_client.detail(str(item.get("source_native_id") or "")),
+                    gsa_client,
+                )
+            else:
+                apply_detail(item, source.detail(str(item.get("source_native_id") or item["item_id"])))
             item["last_updated"] = timestamp
             detailed += 1
         except DataSourceError as exc:
@@ -379,7 +445,23 @@ def refresh(
             item["detail_error"] = str(exc)
             print(f"warning: detail {item['item_id']}: {exc}", file=sys.stderr)
 
+    standard_hunts = [hunt for hunt in hunts if hunt["id"] != "local-government-surplus"]
     for item in active:
+        item.setdefault("source", "shopgoodwill")
+        item.setdefault("source_label", "ShopGoodwill")
+        item.setdefault("source_native_id", str(item.get("item_id") or ""))
+        if str(item.get("source") or "shopgoodwill") in {"gsa-auctions", "govdeals"}:
+            matched = [
+                hunt for hunt in standard_hunts
+                if matches_hunt_domain(item, profiles[str(hunt["scoring_profile"])])
+            ]
+            if matched:
+                item["hunt_categories"] = [
+                    str(local_hunt["id"]), *[str(hunt["id"]) for hunt in matched]
+                ]
+                item["hunt_labels"] = [
+                    str(local_hunt["label"]), *[str(hunt["label"]) for hunt in matched]
+                ]
         apply_hunt_scoring(item, hunts, profiles)
         item.pop("detail_error", None) if item.get("detail_status") == "complete" else None
 
@@ -393,6 +475,7 @@ def refresh(
         apply_hunt_scoring(item, hunts, profiles)
         score_high_priority = bool(item.get("high_priority"))
         item.update(estimate_listing(item, valuation_rules, economics))
+        item["manual_valuation"] = item.get("primary_hunt", {}).get("id") == "local-government-surplus"
         naive_adjustment = max(-5, min(5, round((int(item["naivete_score"]) - 50) / 10)))
         item["score"] = max(0, min(100, int(item.get("score") or 0) + naive_adjustment))
         item["score_reasons"].append(
@@ -403,6 +486,7 @@ def refresh(
             float(item.get("max_bid") or 0) >= current_price * 1.05
             and float(item.get("expected_margin") or 0) >= minimum_margin
             and not bool((item.get("shipping") or {}).get("pickup_only"))
+            and not bool(item.get("manual_valuation"))
         )
         item["score_high_priority"] = score_high_priority
         item["financially_actionable"] = financially_actionable
@@ -457,7 +541,17 @@ def refresh(
             "relevance_filtered_count": relevance_filtered,
             "financially_actionable_count": sum(1 for item in active if item.get("financially_actionable")),
             "ocr": ocr_stats,
-            "data_source": "ShopGoodwill public Buyer API used by the storefront",
+            "data_source": "ShopGoodwill Buyer API plus official GSA and GovDeals public listings",
+            "local_search": {"zip_code": zip_code, "radius_miles": radius_miles},
+            "sources": [
+                {
+                    "id": source_id,
+                    "label": {"shopgoodwill": "ShopGoodwill", "gsa-auctions": "GSA Auctions", "govdeals": "GovDeals"}[source_id],
+                    "active_count": sum(1 for item in active if str(item.get("source") or "shopgoodwill") == source_id),
+                    "detail_requests_attempted": source_detail_counts.get(source_id, 0),
+                }
+                for source_id in ("shopgoodwill", "gsa-auctions", "govdeals")
+            ],
             "hunts": [
                 {
                     "id": hunt["id"],

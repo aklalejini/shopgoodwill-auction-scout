@@ -1,18 +1,42 @@
 {
-  "generated_at": "2026-08-23T13:00:43.369538+00:00",
-  "active_count": 289,
+  "generated_at": "2026-08-23T13:08:00.146292+00:00",
+  "active_count": 339,
   "high_priority_count": 0,
-  "archived_count": 14,
+  "archived_count": 16,
   "search_failures": [],
-  "detail_requests_completed": 0,
+  "detail_requests_completed": 24,
   "relevance_filtered_count": 688,
   "financially_actionable_count": 0,
   "ocr": {
-    "available": true,
-    "listings_processed": 12,
-    "images_processed": 72
+    "available": false,
+    "listings_processed": 0,
+    "images_processed": 0
   },
-  "data_source": "ShopGoodwill public Buyer API used by the storefront",
+  "data_source": "ShopGoodwill Buyer API plus official GSA and GovDeals public listings",
+  "local_search": {
+    "zip_code": "38635",
+    "radius_miles": 50
+  },
+  "sources": [
+    {
+      "id": "shopgoodwill",
+      "label": "ShopGoodwill",
+      "active_count": 287,
+      "detail_requests_attempted": 0
+    },
+    {
+      "id": "gsa-auctions",
+      "label": "GSA Auctions",
+      "active_count": 0,
+      "detail_requests_attempted": 0
+    },
+    {
+      "id": "govdeals",
+      "label": "GovDeals",
+      "active_count": 52,
+      "detail_requests_attempted": 24
+    }
+  ],
   "hunts": [
     {
       "id": "minerals-geology",
@@ -37,7 +61,12 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 37
+      "active_count": 35
+    },
+    {
+      "id": "local-government-surplus",
+      "label": "Local Government Surplus",
+      "active_count": 52
     }
   ]
 }

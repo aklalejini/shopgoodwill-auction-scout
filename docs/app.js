@@ -8,7 +8,7 @@
     keyword: $("#keyword"), sort: $("#sort"), minPrice: $("#min-price"),
     maxPrice: $("#max-price"), maxBuyNow: $("#max-buy-now"),
     endingHours: $("#ending-hours"), seller: $("#seller"),
-    category: $("#hunt-category"), targetKeyword: $("#target-keyword"),
+    category: $("#hunt-category"), source: $("#source"), targetKeyword: $("#target-keyword"),
     multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
     buyNowOnly: $("#buy-now-only"),
     undervalued: $("#undervalued"), hideEvaluated: $("#hide-evaluated")
@@ -53,7 +53,7 @@
   function searchableText(item) {
     return [item.title, item.description, item.seller, item.item_id, item.category,
       ...(item.discovered_by || []), ...(item.matched_keywords || item.matched_minerals || []),
-      ...(item.hunt_labels || [])].join(" ").toLocaleLowerCase();
+      ...(item.hunt_labels || []), item.source_label, item.location].join(" ").toLocaleLowerCase();
   }
 
   function activeFilterCount() {
@@ -68,6 +68,7 @@
     const seller = controls.seller.value.trim().toLocaleLowerCase();
     const targetKeyword = controls.targetKeyword.value.trim().toLocaleLowerCase();
     const category = controls.category.value;
+    const source = controls.source.value;
     const minimum = controls.minPrice.value === "" ? null : Number(controls.minPrice.value);
     const maximum = controls.maxPrice.value === "" ? null : Number(controls.maxPrice.value);
     const maximumBuyNow = controls.maxBuyNow.value === "" ? null : Number(controls.maxBuyNow.value);
@@ -82,6 +83,7 @@
       if (seller && !String(item.seller || "").toLocaleLowerCase().includes(seller)) return false;
       if (targetKeyword && !searchableText(item).includes(targetKeyword)) return false;
       if (category && !(item.hunt_categories || []).includes(category)) return false;
+      if (source && String(item.source || "shopgoodwill") !== source) return false;
       if (minimum !== null && price < minimum) return false;
       if (maximum !== null && price > maximum) return false;
       if (maximumBuyNow !== null && (!item.has_buy_now || buyNowPrice > maximumBuyNow)) return false;
@@ -133,17 +135,18 @@
       buyNowRow.hidden = false;
       $(".buy-now-price", fragment).textContent = currency.format(buyNowPrice);
     }
+    const manualValuation = Boolean(item.manual_valuation);
     const expectedMargin = Number(item.expected_margin || 0);
     const marginElement = $(".est-margin", fragment);
-    marginElement.textContent = currency.format(expectedMargin);
+    marginElement.textContent = manualValuation ? "Manual review" : currency.format(expectedMargin);
     marginElement.classList.toggle("negative", expectedMargin < 0);
-    $(".max-bid", fragment).textContent = currency.format(Number(item.max_bid || 0));
-    $(".est-shipping", fragment).textContent = currency.format(Number(item.estimated_shipping || 0));
-    $(".resale-range", fragment).textContent = `${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}`;
+    $(".max-bid", fragment).textContent = manualValuation ? "Set manually" : currency.format(Number(item.max_bid || 0));
+    $(".est-shipping", fragment).textContent = item.shipping?.pickup_only ? "Pickup" : currency.format(Number(item.estimated_shipping || 0));
+    $(".resale-range", fragment).textContent = manualValuation ? "Research needed" : `${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}`;
     $(".bids", fragment).textContent = `${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"}`;
     $("h3", fragment).textContent = item.title;
-    $(".seller-name", fragment).textContent = item.seller || "Seller not yet loaded";
-    $(".item-id", fragment).textContent = `#${item.item_id}`;
+    $(".seller-name", fragment).textContent = item.seller || item.location || "Seller not yet loaded";
+    $(".item-id", fragment).textContent = `${item.source_label || "ShopGoodwill"} #${item.source_native_id || item.item_id}`;
 
     const thumbnailRow = $(".thumbnail-row", fragment);
     thumbnails.slice(0, 5).forEach((source, index) => {
@@ -167,7 +170,7 @@
 
     const termRow = $(".term-row", fragment);
     const clusterTag = item.seller_cluster ? `${item.seller_cluster.count} same-seller closings` : null;
-    const tags = [item.primary_hunt?.label, clusterTag, ...(item.discovered_by || [])].filter(Boolean);
+    const tags = [item.source_label || "ShopGoodwill", item.primary_hunt?.label, clusterTag, ...(item.discovered_by || [])].filter(Boolean);
     tags.slice(0, 3).forEach(term => {
       const tag = document.createElement("span");
       tag.textContent = term;
@@ -222,6 +225,7 @@
       ? "combined shipping unavailable"
       : `potential combined-shipping savings ${currency.format(Number(cluster?.potential_shipping_savings || 0))}`;
     const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h · ${clusterShipping}</div>` : "";
+    const manualValuation = Boolean(item.manual_valuation);
     const ocrMarkup = item.ocr_hits?.length ? `<div class="ocr-note"><strong>Image text:</strong> ${item.ocr_hits.map(escapeHtml).join(", ")}</div>` : "";
     const imageMarkup = images.length
       ? images.map((source, index) => `<a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(item.title)} — photo ${index + 1}" loading="lazy"></a>`).join("")
@@ -237,16 +241,18 @@
           ${buyNowMarkup}
           <p class="detail-sub">${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"} · ${escapeHtml(timeRemaining(item.end_time))}</p>
           <div class="detail-economics">
-            <div><span>Estimated resale</span><strong>${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}</strong></div>
-            <div><span>Expected margin</span><strong class="${Number(item.expected_margin || 0) < 0 ? "negative" : ""}">${currency.format(Number(item.expected_margin || 0))}</strong></div>
-            <div><span>Max bid</span><strong>${currency.format(Number(item.max_bid || 0))}</strong></div>
-            <div><span>Est. shipping</span><strong>${currency.format(Number(item.estimated_shipping || 0))}</strong></div>
+            <div><span>Estimated resale</span><strong>${manualValuation ? "Research needed" : `${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}`}</strong></div>
+            <div><span>Expected margin</span><strong class="${Number(item.expected_margin || 0) < 0 ? "negative" : ""}">${manualValuation ? "Manual review" : currency.format(Number(item.expected_margin || 0))}</strong></div>
+            <div><span>Max bid</span><strong>${manualValuation ? "Set manually" : currency.format(Number(item.max_bid || 0))}</strong></div>
+            <div><span>Delivery</span><strong>${shipping.pickup_only ? "Local pickup" : currency.format(Number(item.estimated_shipping || 0))}</strong></div>
           </div>
           ${clusterMarkup}${ocrMarkup}
           <div class="detail-facts">
             <div><span>Seller</span><strong>${escapeHtml(item.seller || "Not yet loaded")}</strong></div>
             <div><span>Ends</span><strong>${item.end_time ? escapeHtml(dateTime.format(new Date(item.end_time))) : "Unknown"}</strong></div>
             <div><span>Category</span><strong>${escapeHtml(item.category || "Unknown")}</strong></div>
+            <div><span>Source</span><strong>${escapeHtml(item.source_label || "ShopGoodwill")}</strong></div>
+            <div><span>Location</span><strong>${escapeHtml(item.location || "See listing")}</strong></div>
             <div><span>Shipping</span><strong>${shipping.pickup_only ? "Pickup only" : shipping.listed_price ? currency.format(shipping.listed_price) + " listed" : escapeHtml(shipping.carrier || "See listing")}</strong></div>
           </div>
           <div class="score-panel">
@@ -256,7 +262,7 @@
             <ul>${reasons}</ul>
           </div>
           <p class="detail-description">${escapeHtml(item.description || "The full description has not been loaded yet.")}</p>
-          <a class="visit-listing" href="${escapeHtml(item.listing_url)}" target="_blank" rel="noopener">Open on ShopGoodwill ↗</a>
+          <a class="visit-listing" href="${escapeHtml(item.listing_url)}" target="_blank" rel="noopener">Open on ${escapeHtml(item.source_label || "ShopGoodwill")} ↗</a>
         </div>
       </div>`;
     dialog.showModal();
@@ -296,6 +302,15 @@
       .forEach(([id, label]) => controls.category.add(new Option(label, id)));
   }
 
+  function populateSources() {
+    const sources = new Map([["shopgoodwill", "ShopGoodwill"]]);
+    (state.status?.sources || []).forEach(source => sources.set(source.id, source.label));
+    state.listings.forEach(item => sources.set(item.source || "shopgoodwill", item.source_label || "ShopGoodwill"));
+    controls.source.replaceChildren(new Option("All sources", ""));
+    [...sources.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+      .forEach(([id, label]) => controls.source.add(new Option(label, id)));
+  }
+
   async function loadData() {
     try {
       const [listingsResponse, statusResponse] = await Promise.all([
@@ -307,6 +322,7 @@
       if (!Array.isArray(state.listings)) throw new Error("Listings feed is not an array");
       state.status = statusResponse.ok ? await statusResponse.json() : null;
       populateCategories();
+      populateSources();
       $("#active-count").textContent = state.listings.length.toLocaleString();
       const priorityCount = state.status?.high_priority_count ?? state.listings.filter(item => item.high_priority).length;
       $("#priority-count").textContent = Number(priorityCount).toLocaleString();

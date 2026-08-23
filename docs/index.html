@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A practical, image-first feed for finding overlooked ShopGoodwill auctions across configurable categories.">
+  <meta name="description" content="A practical, image-first feed for finding overlooked resale auctions across configurable categories and nearby government surplus.">
   <meta name="theme-color" content="#142a26">
-  <title>Auction Scout — ShopGoodwill Opportunity Feed</title>
+  <title>Auction Scout — Resale Opportunity Feed</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
       <span class="brand-mark" aria-hidden="true">AS</span>
       <span>
         <strong>Auction Scout</strong>
-        <small>ShopGoodwill opportunity feed</small>
+        <small>practical resale opportunity feed</small>
       </span>
     </a>
     <nav class="header-links" aria-label="Data links">
@@ -59,6 +59,12 @@
         <label for="hunt-category">Category</label>
         <select id="hunt-category">
           <option value="">All categories</option>
+        </select>
+      </div>
+      <div class="source-wrap">
+        <label for="source">Source</label>
+        <select id="source">
+          <option value="">All sources</option>
         </select>
       </div>
       <label class="quick-filter" for="ending-24">
@@ -129,14 +135,14 @@
 
     <section id="empty-state" class="empty-state" hidden>
       <span aria-hidden="true">◇</span>
-      <h2>No specimens in this sieve</h2>
+      <h2>No listings match</h2>
       <p>Try widening the filters, or check back after the next hourly refresh.</p>
       <button id="empty-clear" type="button">Clear all filters</button>
     </section>
   </main>
 
   <footer>
-    <p>Independent research tool. Not affiliated with or endorsed by ShopGoodwill.</p>
+    <p>Independent research tool. Not affiliated with or endorsed by ShopGoodwill, GSA Auctions, or GovDeals.</p>
     <p>Images and listing data remain the property of their respective sellers.</p>
   </footer>
 

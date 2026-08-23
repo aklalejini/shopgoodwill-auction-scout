@@ -200,6 +200,9 @@ def listing_from_search(
     buy_now_price = effective_buy_now_price(item)
     return {
         "item_id": item_id,
+        "source": "shopgoodwill",
+        "source_label": "ShopGoodwill",
+        "source_native_id": item_id,
         "title": str(item.get("title") or "Untitled listing"),
         "price": float(item.get("currentPrice") or 0),
         "buy_now_price": buy_now_price,

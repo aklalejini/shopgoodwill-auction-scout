@@ -5,6 +5,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from scraper.scoring import score_listing, strip_boilerplate
+from scraper.government import (
+    govdeals_listing,
+    gsa_listing,
+    parse_govdeals_detail,
+    parse_govdeals_search,
+)
 from scraper.scrape import (
     apply_hunt_scoring,
     apply_seller_clusters,
@@ -56,6 +62,12 @@ class ScoringTests(unittest.TestCase):
         )
         self.assertIn("matched_keywords", result)
         self.assertNotIn("matched_minerals", result)
+
+    def test_local_surplus_profile_accepts_all_without_priority_claim(self):
+        profile = CONFIG["scoring_profiles"]["local-government-surplus"]
+        self.assertTrue(matches_hunt_domain({"title": "2008 utility truck"}, profile))
+        result = score_listing({"title": "2008 utility truck", "price": 100}, profile)
+        self.assertFalse(result["high_priority_eligible"])
 
     def test_keyword_stacking_uses_top_matches_instead_of_clawback_cap(self):
         result = score_listing({
@@ -624,6 +636,54 @@ class PipelineTests(unittest.TestCase):
     def test_naive_api_time_is_marked_as_pacific(self):
         parsed = parse_api_time("2026-08-22T17:09:00")
         self.assertEqual(parsed, "2026-08-22T17:09:00-07:00")
+
+
+class GovernmentSourceTests(unittest.TestCase):
+    def test_govdeals_search_cards_are_namespaced_and_time_zoned(self):
+        document = """
+        <h1>2 Results</h1>
+        <div id="asset-292-1462">
+          <a class="link-click" title="Gym Tire Flip" href="/en/asset/1462/292">Gym Tire</a>
+          <p name="pAssetLocation" title="Memphis, Tennessee, USA"></p>
+          <p name="pAssetCurrentBid" title="77"></p>
+          <app-ux-timer>(August 25, 2026 01:00 AM UTC)</app-ux-timer>
+        </div>
+        """
+        items, total = parse_govdeals_search(document)
+        self.assertEqual(total, 2)
+        self.assertEqual(items[0]["end_time"], "2026-08-25T01:00:00+00:00")
+        hunt = {"id": "local-government-surplus", "label": "Local Government Surplus"}
+        listing = govdeals_listing(items[0], "2026-08-23T12:00:00+00:00", hunt, "38635", 50)
+        self.assertEqual(listing["item_id"], "govdeals-292-1462")
+        self.assertEqual(listing["source"], "govdeals")
+
+    def test_govdeals_detail_extracts_images_seller_and_bids(self):
+        document = """
+        <meta property="og:image" content="https://webassets.lqdt1.com/assets/photos/292/a.jpg?cb=1&amp;w=1200">
+        <div id="onlineAuctionBidBox">
+          <h1 class="product-title">Gym Tire Flip</h1>
+          <div id="currentBid" title="77"><a id="bid_count_link" title="Bids 8">8 Bids</a></div>
+          <app-ux-timer>(Aug 25, 2026 01:00 AM UTC)</app-ux-timer>
+        </div>
+        <div class="description-table"><div class="long-description"><p>Heavy duty exercise equipment.</p></div></div>
+        <div id="seller_information">
+          <div class="row description-body"><div class="col-6"><h5>Seller:</h5></div><div class="col-6"><p>University of Memphis, TN</p><p>other assets</p></div></div>
+          <div class="row description-body"><div class="col-6"><h5>Item Location:</h5></div><div class="col-6"><p>Memphis, TN 38111</p></div></div>
+        </div>
+        """
+        result = parse_govdeals_detail(document, "1462", "292")
+        self.assertEqual(result["bids"], 8)
+        self.assertEqual(result["seller"], "University of Memphis, TN")
+        self.assertEqual(result["images"], ["https://webassets.lqdt1.com/assets/photos/292/a.jpg?cb=1"])
+
+    def test_gsa_listing_uses_distinct_source_id(self):
+        hunt = {"id": "local-government-surplus", "label": "Local Government Surplus"}
+        listing = gsa_listing({
+            "auctionId": 374130, "lotName": "Lab equipment", "currentBid": 25,
+            "endDate": "2026-08-25T12:00:00Z", "location": {"city": "Memphis", "state": "TN"},
+        }, "2026-08-23T12:00:00+00:00", hunt, "38635", 50)
+        self.assertEqual(listing["item_id"], "gsa-374130")
+        self.assertEqual(listing["source"], "gsa-auctions")
 
 
 if __name__ == "__main__":

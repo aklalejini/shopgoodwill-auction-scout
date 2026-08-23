@@ -1,15 +1,16 @@
 # Auction Scout
 
-Auction Scout is a free, image-first feed for finding overlooked ShopGoodwill auctions across configurable categories. Its current hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, and **Estate Tobacco Pipes**, with independent search and scoring logic for each.
+Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally and nearby government-surplus inventory from GSA Auctions and GovDeals. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, and **Estate Tobacco Pipes**.
 
 The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on GitHub Pages, and the hourly data refresh runs in GitHub Actions. No account, API key, database, backend, paid API, or credit card is required.
 
-> This is an independent research tool. It is not affiliated with or endorsed by ShopGoodwill. It uses only storefront data available without authentication and does not bypass CAPTCHAs, access controls, or anti-bot protections.
+> This is an independent research tool. It is not affiliated with or endorsed by ShopGoodwill, GSA Auctions, or GovDeals. It uses only public listing data available without authentication and does not bypass CAPTCHAs, access controls, or anti-bot protections.
 
 ## What you get
 
 - An image-first responsive gallery, sorted by estimated margin by default
-- Filters for category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
+- Filters for source, category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
+- A local-surplus feed fixed to ZIP **38635** within **50 miles**, with item location and pickup status visible
 - Visible Buy It Now pricing with an availability filter, maximum-price filter, and lowest-price sorting
 - Estimated resale, sell probability, shipping, margin, and a conservative maximum bid on every card
 - Full-resolution detail views with every listing image and explainable valuation/scoring reasons
@@ -38,7 +39,8 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 │   ├── valuation.py               # resale/margin/max-bid estimates
 │   ├── valuation.csv              # editable identifier value table
 │   ├── ocr.py                     # bounded image-text extraction
-│   └── shopgoodwill.py            # replaceable data-source client
+│   ├── shopgoodwill.py            # ShopGoodwill public-source adapter
+│   └── government.py              # GSA Auctions + GovDeals adapters
 ├── tests/
 ├── README.md
 └── requirements.txt
@@ -55,6 +57,8 @@ The detail response supplies `imageServer` plus semicolon-separated `imageUrlStr
 
 Each run searches the editable terms, merges duplicates by item ID, updates search-level price/bid/end-time fields, and requests full details only for records that do not already have them. The number of new detail calls is capped per run. Existing records are retained until their end time even if they move outside the first page of search results. Expired records move to the capped archive with their final observed price.
 
+For local surplus, each run also asks the official GSA Auctions search service and GovDeals' public, server-rendered location search for active inventory within 50 miles of 38635. These results are namespaced by source so overlapping numeric IDs cannot collide. Government lots are marked **Manual review** because broad surplus categories do not support a trustworthy automatic resale value. If a lot also matches an established hunt, that category's normal evidence and valuation rules still apply. Pickup-only items are never labeled automatically actionable.
+
 The main ranking is deliberately dollar-based rather than a sum of listing keywords:
 
 ```text
@@ -67,7 +71,7 @@ Resale ranges, liquidity, confidence, and expected days-to-sell come from the ve
 
 The workflow uses Tesseract to inspect a small, fixed number of listing images per run and caches results in `data/ocr_cache.json`. OCR can surface visible model numbers, tube codes, brands, and markings that titles miss without adding a paid API. It is a clue source, not visual authentication.
 
-The data-source code is isolated in `scraper/shopgoodwill.py`, so an endpoint change does not require rewriting the pipeline or site.
+The data-source code is isolated in `scraper/shopgoodwill.py` and `scraper/government.py`, so a source change does not require rewriting the pipeline or site.
 
 ## Run locally
 
@@ -97,6 +101,7 @@ The scraper writes identical feeds to `data/` and `docs/data/`. The first locati
 Edit [`scraper/config.json`](scraper/config.json):
 
 - `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
+- `local_search` sets the ZIP code and radius used for government inventory, while `sources` enables and rate-limits GSA Auctions and GovDeals independently.
 - `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
 - `search_terms` inside a hunt controls that category's queries.
 - `seller_sweeps` provides a small ending-soon fallback for proven sellers whose lots are sometimes missing from ShopGoodwill keyword results. Sweep results are filtered against the hunt's `domain_keywords` before they enter the feed.
@@ -136,7 +141,7 @@ The Watch/Reject buttons are separate: they use browser storage and never publis
 3. On GitHub, open **Settings → Pages**.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select branch **main**, folder **/docs**, then **Save**.
-6. Open **Actions → Refresh ShopGoodwill listings → Run workflow** once to confirm the manual refresh.
+6. Open **Actions → Refresh auction listings → Run workflow** once to confirm the manual refresh.
 7. In **Settings → Actions → General**, keep workflow permissions at **Read and write permissions** if the repository policy does not honor the workflow's own `contents: write` declaration.
 
 After Pages finishes, the site URL is:
@@ -186,7 +191,8 @@ Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This pr
 
 ## Known limitations
 
-- ShopGoodwill does not document this as a supported public API, so fields or routes may change without notice.
+- ShopGoodwill does not document this as a supported public API, and all three storefronts can change fields or routes without notice.
+- GSA Auctions or GovDeals may legitimately return zero active items in the selected local radius. The source status shown on the page distinguishes an empty result from a failed refresh.
 - Search currently reads the newest first page for each term to keep hourly request volume modest. Incremental runs accumulate still-active records, but the very first run may not include every older matching auction.
 - Full details are capped per run. Lower-scoring new records may temporarily show one search-result image and `detail_status: "pending"`; later runs continue the queue.
 - Shipping is seller- and destination-dependent. Calculated shipping uses a conservative weight/category model and is not a ZIP-specific carrier quote.

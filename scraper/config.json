@@ -237,6 +237,14 @@
         "Danish freehand pipe",
         "artisan smoking pipe"
       ]
+    },
+    {
+      "id": "local-government-surplus",
+      "label": "Local Government Surplus",
+      "description": "All active GSA Auctions and GovDeals lots within 50 miles of the configured ZIP code. Broad lots require manual resale valuation.",
+      "enabled": true,
+      "scoring_profile": "local-government-surplus",
+      "search_terms": []
     }
   ],
   "api": {
@@ -249,6 +257,31 @@
     "max_retries": 2,
     "max_detail_requests_per_run": 160,
     "user_agent": "AuctionScout/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
+  },
+  "local_search": {
+    "zip_code": "38635",
+    "radius_miles": 50
+  },
+  "sources": {
+    "gsa_auctions": {
+      "enabled": true,
+      "page_size": 50,
+      "maximum_pages": 5,
+      "max_detail_requests_per_run": 25,
+      "request_delay_seconds": 0.35,
+      "timeout_seconds": 35,
+      "max_retries": 2,
+      "user_agent": "AuctionScout/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
+    },
+    "govdeals": {
+      "enabled": true,
+      "page_size": 120,
+      "max_detail_requests_per_run": 12,
+      "request_delay_seconds": 0.4,
+      "timeout_seconds": 25,
+      "max_retries": 1,
+      "user_agent": "AuctionScout/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
+    }
   },
   "economics": {
     "fee_rate": 0.15,
@@ -1694,6 +1727,41 @@
         "heavy_weight_minimum": 8,
         "heavy_with_flat_shipping_points": 3,
         "heavy_with_calculated_shipping_points": -3
+      }
+    },
+    "local-government-surplus": {
+      "accept_all": true,
+      "base_score": 8,
+      "high_priority_threshold": 100,
+      "undervalued_threshold": 100,
+      "high_priority_minimum_photos": 999,
+      "high_priority_risk_floor": -100,
+      "domain_keywords": [],
+      "priority_keywords": {
+        "lot": 5,
+        "assorted": 5,
+        "working condition": 5,
+        "new old stock": 8,
+        "sealed": 6
+      },
+      "price_bonuses": [
+        {"maximum": 25, "points": 8},
+        {"maximum": 100, "points": 5},
+        {"maximum": 500, "points": 2}
+      ],
+      "bid_bonuses": [
+        {"maximum": 0, "points": 4},
+        {"maximum": 2, "points": 2}
+      ],
+      "photo_bonuses": [
+        {"minimum": 10, "points": 8},
+        {"minimum": 5, "points": 5},
+        {"minimum": 2, "points": 2}
+      ],
+      "photo_penalties": [],
+      "shipping_rules": {
+        "pickup_only_points": 0,
+        "calculated_shipping_points": 0
       }
     }
   },
