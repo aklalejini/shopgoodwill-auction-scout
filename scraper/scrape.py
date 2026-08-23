@@ -12,11 +12,71 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from .ocr import process_ocr
 from .scoring import contains_phrase, score_listing
 from .shopgoodwill import DataSourceError, ShopGoodwillClient, apply_detail, listing_from_search
+from .valuation import estimate_listing, load_outcomes, load_valuation_rules
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+def apply_seller_clusters(items: list[dict[str, Any]], close_window_hours: int = 72) -> None:
+    """Annotate same-seller groups whose auctions close within a practical window."""
+    by_seller: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        item.pop("seller_cluster", None)
+        seller_id = str(item.get("seller_id") or "")
+        if seller_id:
+            by_seller.setdefault(seller_id, []).append(item)
+
+    for seller_id, seller_items in by_seller.items():
+        seller_items.sort(key=lambda item: item.get("end_time") or "")
+        clusters: list[list[dict[str, Any]]] = []
+        cluster_start: datetime | None = None
+        for item in seller_items:
+            try:
+                end = datetime.fromisoformat(str(item.get("end_time") or "").replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if not clusters:
+                clusters.append([item])
+                cluster_start = end
+                continue
+            # Compare against the first auction in the group. Comparing against
+            # the prior auction lets daily listings chain into one huge cluster.
+            if cluster_start and abs((end - cluster_start).total_seconds()) <= close_window_hours * 3600:
+                clusters[-1].append(item)
+            else:
+                clusters.append([item])
+                cluster_start = end
+
+        for index, cluster in enumerate(clusters, start=1):
+            if len(cluster) < 2:
+                continue
+            shipping_total = sum(float(item.get("estimated_shipping") or 0) for item in cluster)
+            combined_proxy = max(float(item.get("estimated_shipping") or 0) for item in cluster) + 2 * (len(cluster) - 1)
+            policies = " ".join(
+                str((item.get("shipping") or {}).get("policy") or "") for item in cluster
+            ).casefold()
+            combining_unavailable = any(
+                phrase in policies
+                for phrase in (
+                    "combined shipping temporarily unavailable",
+                    "cannot be combined",
+                    "combining is unavailable",
+                )
+            )
+            payload = {
+                "id": f"{seller_id}:{index}",
+                "count": len(cluster),
+                "item_ids": [str(item.get("item_id")) for item in cluster],
+                "potential_shipping_savings": 0.0 if combining_unavailable else round(max(0, shipping_total - combined_proxy), 2),
+                "combined_shipping_unavailable": combining_unavailable,
+                "close_window_hours": close_window_hours,
+            }
+            for item in cluster:
+                item["seller_cluster"] = payload
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -192,7 +252,10 @@ def apply_hunt_scoring(
         raise ValueError("At least one enabled hunt and scoring profile is required")
 
     best_hunt, best_profile, best_result = max(scored, key=lambda entry: entry[2]["score"])
+    item.pop("matched_minerals", None)
     item.update(best_result)
+    if best_hunt["id"] == "minerals-geology":
+        item["matched_minerals"] = list(best_result.get("matched_keywords") or [])
     item["primary_hunt"] = {"id": best_hunt["id"], "label": best_hunt["label"]}
     item["hunt_scores"] = [
         {
@@ -228,6 +291,9 @@ def refresh(
     source = client or ShopGoodwillClient(api_config)
     hunts = [hunt for hunt in config.get("hunts", []) if hunt.get("enabled", True)]
     profiles = config.get("scoring_profiles", {})
+    valuation_rules = load_valuation_rules(PROJECT_ROOT / "scraper" / "valuation.csv")
+    outcomes = load_outcomes(PROJECT_ROOT / "data" / "outcomes.csv")
+    ocr_cache = load_json(PROJECT_ROOT / "data" / "ocr_cache.json", {})
     if not hunts:
         raise ValueError("No enabled hunts are configured")
 
@@ -316,7 +382,50 @@ def refresh(
     for item in active:
         apply_hunt_scoring(item, hunts, profiles)
         item.pop("detail_error", None) if item.get("detail_status") == "complete" else None
-    active.sort(key=lambda item: (-int(item.get("score") or 0), item.get("end_time") or ""))
+
+    ocr_stats = process_ocr(active, ocr_cache, config.get("ocr", {}))
+    economics = config.get("economics", {})
+    high_margin = float(economics.get("high_priority_margin", 50))
+    minimum_margin = float(economics.get("minimum_actionable_margin", 15))
+    minimum_confidence = float(economics.get("high_priority_minimum_confidence", 0.45))
+    for item in active:
+        # OCR may expose identifiers that were absent from listing copy.
+        apply_hunt_scoring(item, hunts, profiles)
+        score_high_priority = bool(item.get("high_priority"))
+        item.update(estimate_listing(item, valuation_rules, economics))
+        naive_adjustment = max(-5, min(5, round((int(item["naivete_score"]) - 50) / 10)))
+        item["score"] = max(0, min(100, int(item.get("score") or 0) + naive_adjustment))
+        item["score_reasons"].append(
+            f"Seller naïveté adjustment ({naive_adjustment:+d}); tracked separately from dollar value"
+        )
+        current_price = float(item.get("price") or 0)
+        financially_actionable = (
+            float(item.get("max_bid") or 0) >= current_price * 1.05
+            and float(item.get("expected_margin") or 0) >= minimum_margin
+            and not bool((item.get("shipping") or {}).get("pickup_only"))
+        )
+        item["score_high_priority"] = score_high_priority
+        item["financially_actionable"] = financially_actionable
+        item["potentially_undervalued"] = financially_actionable
+        item["high_priority"] = (
+            financially_actionable
+            and float(item.get("expected_margin") or 0) >= high_margin
+            and float(item.get("valuation_confidence") or 0) >= minimum_confidence
+        )
+        outcome = outcomes.get(str(item.get("item_id") or ""))
+        if outcome:
+            item["outcome"] = outcome
+        else:
+            item.pop("outcome", None)
+
+    apply_seller_clusters(active, int(economics.get("cluster_close_window_hours", 72)))
+    active.sort(
+        key=lambda item: (
+            -float(item.get("expected_margin") or -999999),
+            -int(item.get("score") or 0),
+            item.get("end_time") or "",
+        )
+    )
 
     expired = [item for item in previous if is_expired(item, now)]
     archive = deduplicate(load_json(data_dir / "archive.json", []) + [
@@ -331,6 +440,7 @@ def refresh(
     archive = archive[: int(config.get("archive", {}).get("maximum_records", 1000))]
 
     high_priority = [item for item in active if item.get("high_priority")]
+    high_priority.sort(key=lambda item: -float(item.get("expected_margin") or 0))
     high_priority = high_priority[: int(config.get("high_priority", {}).get("maximum_records", 100))]
 
     for target in (data_dir, docs_data_dir):
@@ -345,6 +455,8 @@ def refresh(
             "search_failures": failures,
             "detail_requests_completed": detailed,
             "relevance_filtered_count": relevance_filtered,
+            "financially_actionable_count": sum(1 for item in active if item.get("financially_actionable")),
+            "ocr": ocr_stats,
             "data_source": "ShopGoodwill public Buyer API used by the storefront",
             "hunts": [
                 {
@@ -357,6 +469,7 @@ def refresh(
                 for hunt in hunts
             ],
         })
+    write_json_atomic(PROJECT_ROOT / "data" / "ocr_cache.json", ocr_cache)
 
     return {
         "active": len(active),
@@ -365,6 +478,8 @@ def refresh(
         "detail_requests": detailed,
         "relevance_filtered": relevance_filtered,
         "search_failures": len(failures),
+        "ocr_listings": int(ocr_stats.get("listings_processed") or 0),
+        "actionable": sum(1 for item in active if item.get("financially_actionable")),
     }
 
 

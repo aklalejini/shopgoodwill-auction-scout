@@ -3,7 +3,7 @@
 
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-  const state = { listings: [], status: null };
+  const state = { listings: [], status: null, evaluations: {} };
   const controls = {
     keyword: $("#keyword"), sort: $("#sort"), minPrice: $("#min-price"),
     maxPrice: $("#max-price"), maxBuyNow: $("#max-buy-now"),
@@ -11,13 +11,19 @@
     category: $("#hunt-category"), targetKeyword: $("#target-keyword"),
     multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
     buyNowOnly: $("#buy-now-only"),
-    undervalued: $("#undervalued")
+    undervalued: $("#undervalued"), hideEvaluated: $("#hide-evaluated")
   };
   const ending24 = $("#ending-24");
 
   const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
   const dateTime = new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" });
   const relative = new Intl.RelativeTimeFormat(undefined, { numeric: "auto" });
+
+  try {
+    state.evaluations = JSON.parse(localStorage.getItem("auctionScoutEvaluations") || "{}") || {};
+  } catch (_) {
+    state.evaluations = {};
+  }
 
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>'"]/g, char => ({
@@ -84,10 +90,12 @@
       if (controls.noBids.checked && Number(item.bids || 0) !== 0) return false;
       if (controls.buyNowOnly.checked && !item.has_buy_now) return false;
       if (controls.undervalued.checked && !item.potentially_undervalued) return false;
+      if (controls.hideEvaluated.checked && state.evaluations[item.item_id]) return false;
       return true;
     });
 
     const sorters = {
+      margin: (a, b) => Number(b.expected_margin ?? -999999) - Number(a.expected_margin ?? -999999),
       score: (a, b) => Number(b.score || 0) - Number(a.score || 0),
       newest: (a, b) => new Date(b.start_time) - new Date(a.start_time),
       ending: (a, b) => new Date(a.end_time) - new Date(b.end_time),
@@ -100,7 +108,7 @@
       },
       bids: (a, b) => Number(a.bids || 0) - Number(b.bids || 0)
     };
-    return filtered.sort(sorters[controls.sort.value] || sorters.score);
+    return filtered.sort(sorters[controls.sort.value] || sorters.margin);
   }
 
   function setImage(img, source, alt) {
@@ -125,6 +133,13 @@
       buyNowRow.hidden = false;
       $(".buy-now-price", fragment).textContent = currency.format(buyNowPrice);
     }
+    const expectedMargin = Number(item.expected_margin || 0);
+    const marginElement = $(".est-margin", fragment);
+    marginElement.textContent = currency.format(expectedMargin);
+    marginElement.classList.toggle("negative", expectedMargin < 0);
+    $(".max-bid", fragment).textContent = currency.format(Number(item.max_bid || 0));
+    $(".est-shipping", fragment).textContent = currency.format(Number(item.estimated_shipping || 0));
+    $(".resale-range", fragment).textContent = `${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}`;
     $(".bids", fragment).textContent = `${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"}`;
     $("h3", fragment).textContent = item.title;
     $(".seller-name", fragment).textContent = item.seller || "Seller not yet loaded";
@@ -151,12 +166,39 @@
     }
 
     const termRow = $(".term-row", fragment);
-    const tags = [item.primary_hunt?.label, ...(item.discovered_by || [])].filter(Boolean);
+    const clusterTag = item.seller_cluster ? `${item.seller_cluster.count} same-seller closings` : null;
+    const tags = [item.primary_hunt?.label, clusterTag, ...(item.discovered_by || [])].filter(Boolean);
     tags.slice(0, 3).forEach(term => {
       const tag = document.createElement("span");
       tag.textContent = term;
       termRow.append(tag);
     });
+
+    const reasonList = $(".card-reasons ul", fragment);
+    [...(item.valuation_reasons || []), ...(item.score_reasons || [])].slice(0, 5).forEach(reason => {
+      const entry = document.createElement("li");
+      entry.textContent = reason;
+      reasonList.append(entry);
+    });
+
+    function setEvaluation(status) {
+      if (state.evaluations[item.item_id] === status) delete state.evaluations[item.item_id];
+      else state.evaluations[item.item_id] = status;
+      localStorage.setItem("auctionScoutEvaluations", JSON.stringify(state.evaluations));
+      render();
+    }
+    $(".watch-button", fragment).addEventListener("click", () => setEvaluation("watch"));
+    $(".reject-button", fragment).addEventListener("click", () => setEvaluation("rejected"));
+    const evaluation = state.evaluations[item.item_id];
+    card.dataset.evaluation = evaluation || "";
+    const watchButton = $(".watch-button", fragment);
+    const rejectButton = $(".reject-button", fragment);
+    watchButton.classList.toggle("active", evaluation === "watch");
+    rejectButton.classList.toggle("active", evaluation === "rejected");
+    watchButton.textContent = evaluation === "watch" ? "Watching" : "Watch";
+    rejectButton.textContent = evaluation === "rejected" ? "Rejected" : "Reject";
+    watchButton.setAttribute("aria-pressed", String(evaluation === "watch"));
+    rejectButton.setAttribute("aria-pressed", String(evaluation === "rejected"));
 
     $$(".image-button, .inspect-button", fragment).forEach(button => {
       button.addEventListener("click", () => openDetail(item));
@@ -174,6 +216,13 @@
       ? `<div class="detail-buy-now"><span>Buy It Now</span><strong>${currency.format(buyNowPrice)}</strong></div>`
       : "";
     const reasons = (item.score_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
+    const valuationReasons = (item.valuation_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
+    const cluster = item.seller_cluster;
+    const clusterShipping = cluster?.combined_shipping_unavailable
+      ? "combined shipping unavailable"
+      : `potential combined-shipping savings ${currency.format(Number(cluster?.potential_shipping_savings || 0))}`;
+    const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h · ${clusterShipping}</div>` : "";
+    const ocrMarkup = item.ocr_hits?.length ? `<div class="ocr-note"><strong>Image text:</strong> ${item.ocr_hits.map(escapeHtml).join(", ")}</div>` : "";
     const imageMarkup = images.length
       ? images.map((source, index) => `<a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(item.title)} — photo ${index + 1}" loading="lazy"></a>`).join("")
       : `<div class="notice">No full-size images were returned for this listing.</div>`;
@@ -187,6 +236,13 @@
           <p class="detail-price">${currency.format(Number(item.price || 0))}</p>
           ${buyNowMarkup}
           <p class="detail-sub">${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"} · ${escapeHtml(timeRemaining(item.end_time))}</p>
+          <div class="detail-economics">
+            <div><span>Estimated resale</span><strong>${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}</strong></div>
+            <div><span>Expected margin</span><strong class="${Number(item.expected_margin || 0) < 0 ? "negative" : ""}">${currency.format(Number(item.expected_margin || 0))}</strong></div>
+            <div><span>Max bid</span><strong>${currency.format(Number(item.max_bid || 0))}</strong></div>
+            <div><span>Est. shipping</span><strong>${currency.format(Number(item.estimated_shipping || 0))}</strong></div>
+          </div>
+          ${clusterMarkup}${ocrMarkup}
           <div class="detail-facts">
             <div><span>Seller</span><strong>${escapeHtml(item.seller || "Not yet loaded")}</strong></div>
             <div><span>Ends</span><strong>${item.end_time ? escapeHtml(dateTime.format(new Date(item.end_time))) : "Unknown"}</strong></div>
@@ -194,7 +250,9 @@
             <div><span>Shipping</span><strong>${shipping.pickup_only ? "Pickup only" : shipping.listed_price ? currency.format(shipping.listed_price) + " listed" : escapeHtml(shipping.carrier || "See listing")}</strong></div>
           </div>
           <div class="score-panel">
-            <h3>Why it scored ${Number(item.score || 0)}</h3>
+            <h3>Valuation basis</h3>
+            <ul>${valuationReasons}</ul>
+            <h3>Why discovery scored ${Number(item.score || 0)}</h3>
             <ul>${reasons}</ul>
           </div>
           <p class="detail-description">${escapeHtml(item.description || "The full description has not been loaded yet.")}</p>
@@ -218,7 +276,7 @@
 
   function clearFilters() {
     Object.entries(controls).forEach(([key, element]) => {
-      if (key === "sort") element.value = "score";
+      if (key === "sort") element.value = "margin";
       else if (element.type === "checkbox") element.checked = false;
       else element.value = "";
     });
@@ -265,6 +323,9 @@
       }
       render();
     } catch (error) {
+      $("#active-count").textContent = "error";
+      $("#priority-count").textContent = "error";
+      $("#refresh-age").textContent = "unavailable";
       $("#result-summary").textContent = "The feed could not be loaded";
       const notice = $("#notice");
       notice.hidden = false;

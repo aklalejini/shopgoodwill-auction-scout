@@ -12,6 +12,27 @@ def contains_phrase(text: str, phrase: str) -> bool:
     return re.search(pattern, text.casefold()) is not None
 
 
+BOILERPLATE_MARKERS = (
+    "return policy", "shipping", "bidding", "payments", "condition disclaimer",
+    "mission statement", "pick up", "pickup", "item profile", "by bidding on",
+)
+
+
+def strip_boilerplate(text: str) -> str:
+    """Remove seller policy copy before it can contaminate item-level signals."""
+    value = str(text or "").strip()
+    cutoff = len(value)
+    for marker in BOILERPLATE_MARKERS:
+        match = re.search(
+            rf"(?:^|\n)\s*(?:[-=*#]+\s*)?{re.escape(marker)}\b",
+            value,
+            flags=re.IGNORECASE,
+        )
+        if match:
+            cutoff = min(cutoff, match.start())
+    return value[:cutoff].strip()
+
+
 def _first_matching_tier(value: float, tiers: list[dict[str, Any]], key: str) -> dict[str, Any] | None:
     for tier in tiers:
         if key == "maximum" and value <= float(tier[key]):
@@ -21,7 +42,7 @@ def _first_matching_tier(value: float, tiers: list[dict[str, Any]], key: str) ->
     return None
 
 
-def _weight_in_pounds(text: str) -> float | None:
+def extract_weight_lb(text: str) -> float | None:
     """Extract the largest plainly stated pound weight from listing copy."""
     matches = re.findall(r"\b(\d+(?:\.\d+)?)\s*(?:lb|lbs|pound|pounds)\b", text, re.IGNORECASE)
     return max((float(value) for value in matches), default=None)
@@ -75,7 +96,7 @@ def _shipping_adjustment(
         points += adjustment
         reasons.append(f"${handling_price:.2f} handling charge ({adjustment})")
 
-    weight = _weight_in_pounds(text)
+    weight = extract_weight_lb(text)
     heavy_threshold = float(rules.get("heavy_weight_minimum", 999999))
     if weight is not None and weight >= heavy_threshold:
         if favorable:
@@ -97,11 +118,12 @@ def _shipping_adjustment(
 def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     """Return score, human-readable reasons, and matched mineral terms."""
     title = str(listing.get("title") or "")
-    description = str(listing.get("description") or "")
-    text = f"{title}\n{description}"
+    description = strip_boilerplate(str(listing.get("description") or ""))
+    ocr_text = str(listing.get("ocr_text") or "")
+    text = f"{title}\n{description}\n{ocr_text}"
     score = int(config.get("base_score", 0))
     reasons: list[str] = []
-    matched_minerals: list[str] = []
+    matched_terms: list[str] = []
     matched_premium: list[str] = []
     matched_evidence: list[str] = []
     matched_opportunity_rules: list[str] = []
@@ -117,6 +139,12 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         ("premium_keywords", "High-value signal"),
     )
     group_caps = config.get("keyword_group_caps", {})
+    top_match_defaults = {
+        "priority_keywords": 3,
+        "target_keywords": 3,
+        "premium_keywords": 2,
+    }
+    top_match_limits = {**top_match_defaults, **config.get("keyword_group_top_matches", {})}
     for group_name, label in groups:
         if (
             group_name == "priority_keywords"
@@ -124,21 +152,38 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             and not domain_signal
         ):
             continue
-        group_points = 0
+        matches: list[tuple[str, int, str]] = []
         for phrase, raw_points in config.get(group_name, {}).items():
             if not contains_phrase(text, phrase):
                 continue
             points = int(raw_points)
-            group_points += points
             if points < 0:
                 risk_points += points
             location = "title" if contains_phrase(title, phrase) else "description"
-            sign = "+" if points >= 0 else ""
-            reasons.append(f"{label} '{phrase}' in {location} ({sign}{points})")
+            matches.append((phrase, points, location))
             if group_name == "target_keywords":
-                matched_minerals.append(phrase)
+                matched_terms.append(phrase)
             elif group_name == "premium_keywords":
                 matched_premium.append(phrase)
+
+        positives = sorted(
+            (match for match in matches if match[1] >= 0),
+            key=lambda match: match[1],
+            reverse=True,
+        )
+        negatives = [match for match in matches if match[1] < 0]
+        top_limit = top_match_limits.get(group_name)
+        selected_positives = positives[: int(top_limit)] if top_limit else positives
+        selected = selected_positives + negatives
+        group_points = sum(points for _, points, _ in selected)
+        for phrase, points, location in selected:
+            sign = "+" if points >= 0 else ""
+            reasons.append(f"{label} '{phrase}' in {location} ({sign}{points})")
+        if top_limit and len(positives) > int(top_limit):
+            reasons.append(
+                f"Only the top {int(top_limit)} {label.lower()} matches count; "
+                f"{len(positives) - int(top_limit)} weaker overlap(s) ignored"
+            )
 
         cap = group_caps.get(group_name)
         if cap is not None and group_points > int(cap):
@@ -238,9 +283,9 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         str(phrase).casefold()
         for phrase in config.get("high_priority_target_keywords", [])
     }
-    has_priority_target = bool(matched_minerals) and (
+    has_priority_target = bool(matched_terms) and (
         not priority_target_keywords
-        or bool({phrase.casefold() for phrase in matched_minerals} & priority_target_keywords)
+        or bool({phrase.casefold() for phrase in matched_terms} & priority_target_keywords)
     )
     high_priority_eligible = (
         photo_count >= int(config.get("high_priority_minimum_photos", 4))
@@ -252,15 +297,18 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             or strong_collection_language
             or trusted_source
             or bool(matched_opportunity_rules)
-            or (favorable_shipping and (_weight_in_pounds(text) or 0) >= 4)
+            or (favorable_shipping and (extract_weight_lb(text) or 0) >= 4)
         )
         and risk_points >= int(config.get("high_priority_risk_floor", -24))
     )
 
-    return {
+    result = {
         "score": max(0, min(100, score)),
         "score_reasons": reasons or ["No scoring signals beyond the base score"],
-        "matched_keywords": sorted(set(matched_minerals)),
-        "matched_minerals": sorted(set(matched_minerals)),
+        "matched_keywords": sorted(set(matched_terms)),
         "high_priority_eligible": high_priority_eligible,
     }
+    matched_terms_field = str(config.get("matched_terms_field") or "")
+    if matched_terms_field:
+        result[matched_terms_field] = sorted(set(matched_terms))
+    return result

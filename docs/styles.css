@@ -251,10 +251,23 @@ main { width: min(1480px, calc(100% - 48px)); margin: 0 auto; }
 .buy-now-row[hidden] { display: none; }
 .buy-now-row span { font-size: 9px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
 .buy-now-row strong { font-family: Georgia, serif; font-size: 18px; }
+.economics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin: 11px 0 8px; }
+.economics-grid div { min-width: 0; padding: 8px 9px; background: var(--paper); border-radius: 8px; }
+.economics-grid span, .detail-economics span { display: block; color: var(--muted); font-size: 8px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.economics-grid strong { display: block; margin-top: 2px; overflow: hidden; color: var(--forest); font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.negative { color: #9b3e32 !important; }
 .card-body h3 { min-height: 47px; margin: 8px 0 6px; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; font-family: Georgia, serif; font-size: 17px; line-height: 1.35; }
 .seller-name { margin: 0; overflow: hidden; color: var(--muted); font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
 .term-row { display: flex; gap: 5px; min-height: 27px; margin-top: 12px; overflow: hidden; }
 .term-row span { align-self: start; padding: 4px 7px; background: #edf0ea; color: #50605b; border-radius: 99px; font-size: 9px; font-weight: 750; white-space: nowrap; }
+.card-reasons { margin-top: 7px; color: var(--muted); font-size: 10px; }
+.card-reasons summary { color: var(--forest); font-weight: 750; cursor: pointer; }
+.card-reasons ul { margin: 6px 0 0; padding-left: 17px; }
+.evaluation-row { display: flex; gap: 6px; margin-top: 10px; }
+.evaluation-row button { flex: 1; padding: 5px 7px; background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 7px; font-size: 9px; font-weight: 800; text-transform: uppercase; }
+.evaluation-row button.active, .watch-button:hover { background: #dce9df; color: var(--forest); border-color: var(--forest-bright); }
+.evaluation-row .reject-button.active, .reject-button:hover { background: #f2dcd6; color: #82352b; border-color: #b95a4c; }
+.listing-card[data-evaluation="rejected"] { opacity: .58; }
 .card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 13px; padding-top: 11px; border-top: 1px solid var(--line); }
 .item-id { color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; }
 .inspect-button { padding: 0; background: transparent; color: var(--forest); border: 0; font-size: 11px; font-weight: 800; text-transform: uppercase; }
@@ -291,6 +304,10 @@ dialog::backdrop { background: rgba(10, 22, 19, .74); backdrop-filter: blur(5px)
 .detail-buy-now span { font-size: 10px; font-weight: 850; letter-spacing: .09em; text-transform: uppercase; }
 .detail-buy-now strong { font-family: Georgia, serif; font-size: 24px; }
 .detail-sub { margin: 0; color: var(--muted); font-size: 12px; }
+.detail-economics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0; }
+.detail-economics div { padding: 12px; background: var(--paper); border-radius: 9px; }
+.detail-economics strong { display: block; margin-top: 4px; color: var(--forest); font-family: Georgia, serif; font-size: 18px; }
+.cluster-note, .ocr-note { margin: 10px 0; padding: 11px 13px; background: var(--amber-light); color: #68441d; border-radius: 9px; font-size: 11px; }
 .detail-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 24px 0; padding: 18px 0; border-block: 1px solid var(--line); }
 .detail-facts span { display: block; color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; }
 .detail-facts strong { display: block; margin-top: 4px; font-size: 12px; }

@@ -4,8 +4,14 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scraper.scoring import score_listing
-from scraper.scrape import apply_hunt_scoring, deduplicate, is_expired, matches_hunt_domain
+from scraper.scoring import score_listing, strip_boilerplate
+from scraper.scrape import (
+    apply_hunt_scoring,
+    apply_seller_clusters,
+    deduplicate,
+    is_expired,
+    matches_hunt_domain,
+)
 from scraper.shopgoodwill import (
     DataSourceError,
     apply_detail,
@@ -13,6 +19,7 @@ from scraper.shopgoodwill import (
     parse_api_time,
     parse_search_response,
 )
+from scraper.valuation import estimate_listing, load_valuation_rules
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,9 +29,111 @@ MEDIA_PROFILE = CONFIG["scoring_profiles"]["sealed-vintage-media"]
 TUBE_PROFILE = CONFIG["scoring_profiles"]["vintage-electron-tubes"]
 PEN_PROFILE = CONFIG["scoring_profiles"]["vintage-pens"]
 PIPE_PROFILE = CONFIG["scoring_profiles"]["estate-tobacco-pipes"]
+VALUATION_RULES = load_valuation_rules(ROOT / "scraper" / "valuation.csv")
 
 
 class ScoringTests(unittest.TestCase):
+    def test_boilerplate_is_removed_before_scoring(self):
+        description = (
+            "Sheaffer fountain pen with a 14K nib.\n"
+            "Shipping\nItem profile: oversize 20 lb lot. All items are as is and untested."
+        )
+        cleaned = strip_boilerplate(description)
+        self.assertIn("14K nib", cleaned)
+        self.assertNotIn("oversize", cleaned)
+        result = score_listing({
+            "title": "Sheaffer Fountain Pen",
+            "description": description,
+            "price": 20,
+            "images": ["1", "2", "3", "4"],
+        }, PEN_PROFILE)
+        self.assertFalse(any("oversize" in reason or "20 lb" in reason for reason in result["score_reasons"]))
+
+    def test_non_mineral_hunts_do_not_publish_matched_minerals(self):
+        result = score_listing(
+            {"title": "Sealed TDK SA-X Blank Cassette", "images": ["1", "2", "3"]},
+            MEDIA_PROFILE,
+        )
+        self.assertIn("matched_keywords", result)
+        self.assertNotIn("matched_minerals", result)
+
+    def test_keyword_stacking_uses_top_matches_instead_of_clawback_cap(self):
+        result = score_listing({
+            "title": "NOS Telefunken Mullard Amperex 12AX7 ECC83 EL34 KT88 Tube Lot",
+            "description": "Matched pair tested strong old stock collection.",
+            "price": 40,
+            "images": [str(i) for i in range(8)],
+        }, TUBE_PROFILE)
+        self.assertTrue(any("Only the top" in reason for reason in result["score_reasons"]))
+        self.assertFalse(any("clawback" in reason for reason in result["score_reasons"]))
+
+    def test_margin_model_demotes_lightscribe_and_values_known_tube(self):
+        media = {
+            "title": "Sealed Memorex LightScribe CD-R Spindle",
+            "description": "Factory sealed.", "price": 12, "score": 74,
+            "primary_hunt": {"id": "sealed-vintage-media"},
+            "images": ["1", "2", "3", "4"], "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        tube = {
+            "title": "Telefunken ECC83 12AX7 Vacuum Tube",
+            "description": "Raised diamond visible in base photo.", "price": 40, "score": 48,
+            "primary_hunt": {"id": "vintage-electron-tubes"},
+            "images": ["1", "2", "3", "4"], "detail_status": "complete",
+            "shipping": {"listed_price": 8, "handling_price": 2, "pickup_only": False},
+        }
+        media_value = estimate_listing(media, VALUATION_RULES)
+        tube_value = estimate_listing(tube, VALUATION_RULES)
+        self.assertLess(media_value["estimated_resale_high"], 30)
+        self.assertGreater(tube_value["expected_margin"], media_value["expected_margin"])
+        self.assertGreater(tube_value["max_bid"], media_value["max_bid"])
+
+    def test_shipping_estimate_is_weight_sensitive_in_dollars(self):
+        light = {
+            "title": "Parker 51 Fountain Pen", "description": "Approximate weight: 1 lb",
+            "price": 20, "score": 50, "primary_hunt": {"id": "vintage-pens"},
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        heavy = {**light, "description": "Approximate weight: 20 lbs"}
+        self.assertGreater(
+            estimate_listing(heavy, VALUATION_RULES)["estimated_shipping"],
+            estimate_listing(light, VALUATION_RULES)["estimated_shipping"] + 40,
+        )
+
+    def test_seller_clusters_flag_close_auctions(self):
+        items = [
+            {"item_id": "1", "seller_id": 9, "end_time": "2026-08-24T12:00:00+00:00", "estimated_shipping": 20},
+            {"item_id": "2", "seller_id": 9, "end_time": "2026-08-25T12:00:00+00:00", "estimated_shipping": 25},
+            {"item_id": "3", "seller_id": 10, "end_time": "2026-08-25T12:00:00+00:00", "estimated_shipping": 10},
+        ]
+        apply_seller_clusters(items, 72)
+        self.assertEqual(items[0]["seller_cluster"]["count"], 2)
+        self.assertGreater(items[0]["seller_cluster"]["potential_shipping_savings"], 0)
+        self.assertNotIn("seller_cluster", items[2])
+
+    def test_seller_clusters_do_not_chain_beyond_window(self):
+        items = [
+            {
+                "item_id": str(index),
+                "seller_id": 9,
+                "end_time": end_time,
+                "estimated_shipping": 15,
+                "shipping": {"policy": "Combined shipping temporarily unavailable"},
+            }
+            for index, end_time in enumerate(
+                (
+                    "2026-08-01T12:00:00-05:00",
+                    "2026-08-03T12:00:00-05:00",
+                    "2026-08-05T12:00:00-05:00",
+                )
+            )
+        ]
+        apply_seller_clusters(items, 72)
+        self.assertEqual(items[0]["seller_cluster"]["count"], 2)
+        self.assertNotIn("seller_cluster", items[2])
+        self.assertEqual(items[0]["seller_cluster"]["potential_shipping_savings"], 0)
+        self.assertTrue(items[0]["seller_cluster"]["combined_shipping_unavailable"])
+
     def test_collectible_collection_scores_above_retail_product(self):
         promising = {
             "title": "Old Estate Collection with Wulfenite from Red Cloud Mine",
@@ -108,7 +217,7 @@ class ScoringTests(unittest.TestCase):
             "shipping": {"listed_price": 0.01, "handling_price": 0, "pickup_only": False},
         }
         result = score_listing(listing, PROFILE)
-        self.assertGreaterEqual(result["score"], PROFILE["high_priority_threshold"])
+        self.assertGreaterEqual(result["score"], PROFILE["undervalued_threshold"])
         self.assertTrue(result["high_priority_eligible"])
         self.assertTrue(any("favorable flat shipping" in reason for reason in result["score_reasons"]))
 
@@ -145,7 +254,7 @@ class ScoringTests(unittest.TestCase):
             },
             PROFILE,
         )
-        self.assertGreaterEqual(result["score"], PROFILE["high_priority_threshold"])
+        self.assertGreaterEqual(result["score"], PROFILE["undervalued_threshold"])
         self.assertTrue(result["high_priority_eligible"])
         self.assertTrue(any("Proven source" in reason for reason in result["score_reasons"]))
 

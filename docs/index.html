@@ -45,6 +45,7 @@
       <div class="sort-wrap">
         <label for="sort">Sort by</label>
         <select id="sort">
+          <option value="margin">Highest estimated margin</option>
           <option value="score">Highest score</option>
           <option value="newest">Newest</option>
           <option value="ending">Ending soon</option>
@@ -110,6 +111,7 @@
         <label><input id="multiple-photos" type="checkbox"><span>Multiple photos</span></label>
         <label><input id="no-bids" type="checkbox"><span>No bids</span></label>
         <label><input id="undervalued" type="checkbox"><span>Potentially undervalued</span></label>
+        <label><input id="hide-evaluated" type="checkbox"><span>Hide evaluated</span></label>
       </div>
       <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
     </section>
@@ -159,9 +161,20 @@
           <span class="bids"></span>
         </div>
         <div class="buy-now-row" hidden><span>Buy It Now</span><strong class="buy-now-price"></strong></div>
+        <div class="economics-grid">
+          <div><span>Est. margin</span><strong class="est-margin"></strong></div>
+          <div><span>Max bid</span><strong class="max-bid"></strong></div>
+          <div><span>Est. shipping</span><strong class="est-shipping"></strong></div>
+          <div><span>Resale range</span><strong class="resale-range"></strong></div>
+        </div>
         <h3></h3>
         <p class="seller-name"></p>
         <div class="term-row"></div>
+        <details class="card-reasons"><summary>Why this estimate</summary><ul></ul></details>
+        <div class="evaluation-row">
+          <button class="watch-button" type="button">Watch</button>
+          <button class="reject-button" type="button">Reject</button>
+        </div>
         <div class="card-footer">
           <span class="item-id"></span>
           <button class="inspect-button" type="button">Inspect <span aria-hidden="true">↗</span></button>
