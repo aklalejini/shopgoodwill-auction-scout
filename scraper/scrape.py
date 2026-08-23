@@ -23,7 +23,7 @@ from .government import (
 from .ocr import process_ocr
 from .scoring import contains_phrase, score_listing
 from .shopgoodwill import DataSourceError, ShopGoodwillClient, apply_detail, listing_from_search
-from .valuation import estimate_listing, load_outcomes, load_valuation_rules
+from .valuation import load_outcomes
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -309,7 +309,6 @@ def refresh(
     govdeals_client = GovDealsClient(source_config.get("govdeals", {}))
     hunts = [hunt for hunt in config.get("hunts", []) if hunt.get("enabled", True)]
     profiles = config.get("scoring_profiles", {})
-    valuation_rules = load_valuation_rules(PROJECT_ROOT / "scraper" / "valuation.csv")
     outcomes = load_outcomes(PROJECT_ROOT / "data" / "outcomes.csv")
     ocr_cache = load_json(PROJECT_ROOT / "data" / "ocr_cache.json", {})
     if not hunts:
@@ -467,35 +466,25 @@ def refresh(
 
     ocr_stats = process_ocr(active, ocr_cache, config.get("ocr", {}))
     economics = config.get("economics", {})
-    high_margin = float(economics.get("high_priority_margin", 50))
-    minimum_margin = float(economics.get("minimum_actionable_margin", 15))
-    minimum_confidence = float(economics.get("high_priority_minimum_confidence", 0.45))
+    valuation_fields = (
+        "valuation_matches", "valuation_reasons", "estimated_resale_low",
+        "estimated_resale_high", "estimated_resale", "valuation_confidence",
+        "sell_probability", "estimated_days_to_sell", "estimated_shipping",
+        "estimated_weight_lb", "estimated_labor_cost", "liquidity",
+        "expected_margin", "max_bid", "manual_valuation", "naivete_score",
+        "naivete_reasons",
+    )
     for item in active:
         # OCR may expose identifiers that were absent from listing copy.
         apply_hunt_scoring(item, hunts, profiles)
         score_high_priority = bool(item.get("high_priority"))
-        item.update(estimate_listing(item, valuation_rules, economics))
-        item["manual_valuation"] = item.get("primary_hunt", {}).get("id") == "local-government-surplus"
-        naive_adjustment = max(-5, min(5, round((int(item["naivete_score"]) - 50) / 10)))
-        item["score"] = max(0, min(100, int(item.get("score") or 0) + naive_adjustment))
-        item["score_reasons"].append(
-            f"Seller naïveté adjustment ({naive_adjustment:+d}); tracked separately from dollar value"
-        )
-        current_price = float(item.get("price") or 0)
-        financially_actionable = (
-            float(item.get("max_bid") or 0) >= current_price * 1.05
-            and float(item.get("expected_margin") or 0) >= minimum_margin
-            and not bool((item.get("shipping") or {}).get("pickup_only"))
-            and not bool(item.get("manual_valuation"))
-        )
+        for field in valuation_fields:
+            item.pop(field, None)
         item["score_high_priority"] = score_high_priority
-        item["financially_actionable"] = financially_actionable
-        item["potentially_undervalued"] = financially_actionable
-        item["high_priority"] = (
-            financially_actionable
-            and float(item.get("expected_margin") or 0) >= high_margin
-            and float(item.get("valuation_confidence") or 0) >= minimum_confidence
-        )
+        item["potentially_high_value"] = score_high_priority
+        item["high_priority"] = score_high_priority
+        item.pop("potentially_undervalued", None)
+        item.pop("financially_actionable", None)
         outcome = outcomes.get(str(item.get("item_id") or ""))
         if outcome:
             item["outcome"] = outcome
@@ -505,7 +494,6 @@ def refresh(
     apply_seller_clusters(active, int(economics.get("cluster_close_window_hours", 72)))
     active.sort(
         key=lambda item: (
-            -float(item.get("expected_margin") or -999999),
             -int(item.get("score") or 0),
             item.get("end_time") or "",
         )
@@ -520,11 +508,16 @@ def refresh(
         }
         for item in expired
     ])
+    for item in archive:
+        for field in valuation_fields:
+            item.pop(field, None)
+        item.pop("potentially_undervalued", None)
+        item.pop("financially_actionable", None)
     archive.sort(key=lambda item: item.get("archived_at") or "", reverse=True)
     archive = archive[: int(config.get("archive", {}).get("maximum_records", 1000))]
 
     high_priority = [item for item in active if item.get("high_priority")]
-    high_priority.sort(key=lambda item: -float(item.get("expected_margin") or 0))
+    high_priority.sort(key=lambda item: -int(item.get("score") or 0))
     high_priority = high_priority[: int(config.get("high_priority", {}).get("maximum_records", 100))]
 
     for target in (data_dir, docs_data_dir):
@@ -539,7 +532,7 @@ def refresh(
             "search_failures": failures,
             "detail_requests_completed": detailed,
             "relevance_filtered_count": relevance_filtered,
-            "financially_actionable_count": sum(1 for item in active if item.get("financially_actionable")),
+            "potentially_high_value_count": len(high_priority),
             "ocr": ocr_stats,
             "data_source": "ShopGoodwill Buyer API plus official GSA and GovDeals public listings",
             "local_search": {"zip_code": zip_code, "radius_miles": radius_miles},
@@ -573,7 +566,7 @@ def refresh(
         "relevance_filtered": relevance_filtered,
         "search_failures": len(failures),
         "ocr_listings": int(ocr_stats.get("listings_processed") or 0),
-        "actionable": sum(1 for item in active if item.get("financially_actionable")),
+        "high_potential": len(high_priority),
     }
 
 

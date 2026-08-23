@@ -289,7 +289,10 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     )
     high_priority_eligible = (
         photo_count >= int(config.get("high_priority_minimum_photos", 4))
-        and not bool((listing.get("shipping") or {}).get("pickup_only"))
+        and (
+            bool(config.get("allow_pickup_high_priority"))
+            or not bool((listing.get("shipping") or {}).get("pickup_only"))
+        )
         and (
             bool(matched_premium)
             or bool(matched_evidence)

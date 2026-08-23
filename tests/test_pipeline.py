@@ -69,6 +69,17 @@ class ScoringTests(unittest.TestCase):
         result = score_listing({"title": "2008 utility truck", "price": 100}, profile)
         self.assertFalse(result["high_priority_eligible"])
 
+    def test_local_surplus_can_flag_photo_rich_high_value_equipment(self):
+        profile = CONFIG["scoring_profiles"]["local-government-surplus"]
+        result = score_listing({
+            "title": "Industrial forklift in working condition",
+            "price": 100,
+            "images": ["1.jpg", "2.jpg", "3.jpg"],
+            "shipping": {"pickup_only": True},
+        }, profile)
+        self.assertTrue(result["high_priority_eligible"])
+        self.assertGreaterEqual(result["score"], profile["high_priority_threshold"])
+
     def test_keyword_stacking_uses_top_matches_instead_of_clawback_cap(self):
         result = score_listing({
             "title": "NOS Telefunken Mullard Amperex 12AX7 ECC83 EL34 KT88 Tube Lot",
@@ -400,6 +411,16 @@ class PipelineTests(unittest.TestCase):
             "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
         }
         result = score_listing(listing, MEDIA_PROFILE)
+        self.assertFalse(result["high_priority_eligible"])
+
+    def test_small_lightscribe_dvd_pack_is_not_high_potential(self):
+        profile = CONFIG["scoring_profiles"]["sealed-vintage-media"]
+        result = score_listing({
+            "title": "Memorex 10-Pack DVD+R LightScribe Recordable Discs Sealed",
+            "price": 25,
+            "images": ["1.jpg", "2.jpg", "3.jpg"],
+            "shipping": {"listed_price": 8},
+        }, profile)
         self.assertFalse(result["high_priority_eligible"])
 
     def test_tube_hunt_accepts_vague_lots_and_factory_signals(self):

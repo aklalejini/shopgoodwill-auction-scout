@@ -14,7 +14,7 @@
       <span class="brand-mark" aria-hidden="true">AS</span>
       <span>
         <strong>Auction Scout</strong>
-        <small>practical resale opportunity feed</small>
+        <small>auction watchlist</small>
       </span>
     </a>
     <nav class="header-links" aria-label="Data links">
@@ -24,19 +24,6 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Focused resale watchlist</p>
-        <h1>Spot overlooked listings <em>before they end.</em></h1>
-        <p class="hero-intro">Search broad, filter fast, and inspect every photo across focused resale categories.</p>
-      </div>
-      <div class="hero-stats" aria-live="polite">
-        <div><strong id="active-count">—</strong><span>active finds</span></div>
-        <div><strong id="priority-count">—</strong><span>high priority</span></div>
-        <div><strong id="refresh-age">—</strong><span>last field check</span></div>
-      </div>
-    </section>
-
     <section class="toolbar" aria-label="Listing controls">
       <div class="search-wrap">
         <label for="keyword">Search this feed</label>
@@ -45,8 +32,7 @@
       <div class="sort-wrap">
         <label for="sort">Sort by</label>
         <select id="sort">
-          <option value="margin">Highest estimated margin</option>
-          <option value="score">Highest score</option>
+          <option value="score">Highest potential</option>
           <option value="newest">Newest</option>
           <option value="ending">Ending soon</option>
           <option value="price-low">Lowest price</option>
@@ -116,7 +102,7 @@
       <div class="check-group">
         <label><input id="multiple-photos" type="checkbox"><span>Multiple photos</span></label>
         <label><input id="no-bids" type="checkbox"><span>No bids</span></label>
-        <label><input id="undervalued" type="checkbox"><span>Potentially undervalued</span></label>
+        <label><input id="high-potential" type="checkbox"><span>High potential only</span></label>
         <label><input id="hide-evaluated" type="checkbox"><span>Hide evaluated</span></label>
       </div>
       <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
@@ -124,8 +110,12 @@
 
     <section class="results-heading">
       <div>
-        <p class="eyebrow">Current sweep</p>
         <h2 id="result-summary">Loading listings…</h2>
+        <p class="results-meta" aria-live="polite">
+          <span><strong id="active-count">—</strong> active</span>
+          <span><strong id="priority-count">—</strong> high potential</span>
+          <span>updated <strong id="refresh-age">—</strong></span>
+        </p>
       </div>
       <p id="updated-at" class="updated-at"></p>
     </section>
@@ -157,26 +147,28 @@
         <button class="image-button" type="button" aria-label="Open listing details">
           <img class="card-image" alt="" loading="lazy" decoding="async">
         </button>
-        <div class="score-badge"><strong></strong><span>score</span></div>
+        <div class="score-badge" title="Potential score"><strong></strong></div>
         <div class="ending-badge"></div>
       </div>
       <div class="thumbnail-row"></div>
       <div class="card-body">
+        <h3></h3>
+        <div class="term-row"></div>
+        <div class="potential-row">
+          <span class="potential-label"></span>
+          <span class="score-inline"><strong></strong>/100</span>
+        </div>
         <div class="card-meta">
           <span class="current-price"><small class="price-label">Current price</small><strong class="price"></strong></span>
           <span class="bids"></span>
         </div>
         <div class="buy-now-row" hidden><span>Buy It Now</span><strong class="buy-now-price"></strong></div>
-        <div class="economics-grid">
-          <div><span>Est. margin</span><strong class="est-margin"></strong></div>
-          <div><span>Max bid</span><strong class="max-bid"></strong></div>
-          <div><span>Est. shipping</span><strong class="est-shipping"></strong></div>
-          <div><span>Resale range</span><strong class="resale-range"></strong></div>
+        <div class="card-facts">
+          <div><span>Delivery</span><strong class="delivery"></strong></div>
+          <div><span>Photos</span><strong class="photo-count"></strong></div>
         </div>
-        <h3></h3>
         <p class="seller-name"></p>
-        <div class="term-row"></div>
-        <details class="card-reasons"><summary>Why this estimate</summary><ul></ul></details>
+        <details class="card-reasons"><summary>Why it stands out</summary><ul></ul></details>
         <div class="evaluation-row">
           <button class="watch-button" type="button">Watch</button>
           <button class="reject-button" type="button">Reject</button>

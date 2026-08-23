@@ -11,7 +11,7 @@
     category: $("#hunt-category"), source: $("#source"), targetKeyword: $("#target-keyword"),
     multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
     buyNowOnly: $("#buy-now-only"),
-    undervalued: $("#undervalued"), hideEvaluated: $("#hide-evaluated")
+    highPotential: $("#high-potential"), hideEvaluated: $("#hide-evaluated")
   };
   const ending24 = $("#ending-24");
 
@@ -56,6 +56,21 @@
       ...(item.hunt_labels || []), item.source_label, item.location].join(" ").toLocaleLowerCase();
   }
 
+  function potentialLabel(item) {
+    if (item.high_priority || item.score_high_priority || item.potentially_high_value) return "High potential";
+    const score = Number(item.score || 0);
+    if (score >= 30) return "Promising";
+    if (score >= 20) return "Worth review";
+    return "Possible lead";
+  }
+
+  function deliveryLabel(item) {
+    const shipping = item.shipping || {};
+    if (shipping.pickup_only) return "Local pickup";
+    if (Number(shipping.listed_price || 0) > 0) return `${currency.format(Number(shipping.listed_price))} shipping`;
+    return shipping.carrier || "See listing";
+  }
+
   function activeFilterCount() {
     return Object.entries(controls).filter(([key, element]) => {
       if (["keyword", "sort"].includes(key)) return false;
@@ -91,13 +106,12 @@
       if (controls.multiplePhotos.checked && (item.images || []).length < 2) return false;
       if (controls.noBids.checked && Number(item.bids || 0) !== 0) return false;
       if (controls.buyNowOnly.checked && !item.has_buy_now) return false;
-      if (controls.undervalued.checked && !item.potentially_undervalued) return false;
+      if (controls.highPotential.checked && !(item.high_priority || item.score_high_priority || item.potentially_high_value)) return false;
       if (controls.hideEvaluated.checked && state.evaluations[item.item_id]) return false;
       return true;
     });
 
     const sorters = {
-      margin: (a, b) => Number(b.expected_margin ?? -999999) - Number(a.expected_margin ?? -999999),
       score: (a, b) => Number(b.score || 0) - Number(a.score || 0),
       newest: (a, b) => new Date(b.start_time) - new Date(a.start_time),
       ending: (a, b) => new Date(a.end_time) - new Date(b.end_time),
@@ -110,7 +124,7 @@
       },
       bids: (a, b) => Number(a.bids || 0) - Number(b.bids || 0)
     };
-    return filtered.sort(sorters[controls.sort.value] || sorters.margin);
+    return filtered.sort(sorters[controls.sort.value] || sorters.score);
   }
 
   function setImage(img, source, alt) {
@@ -126,6 +140,10 @@
     const thumbnails = item.thumbnails?.length ? item.thumbnails : item.images || [];
     setImage(cardImage, thumbnails[0] || item.images?.[0], item.title);
     $(".score-badge strong", fragment).textContent = item.score ?? 0;
+    $(".score-inline strong", fragment).textContent = item.score ?? 0;
+    const potential = $(".potential-label", fragment);
+    potential.textContent = potentialLabel(item);
+    potential.classList.toggle("high", Boolean(item.high_priority || item.score_high_priority || item.potentially_high_value));
     $(".ending-badge", fragment).textContent = timeRemaining(item.end_time);
     const buyNowPrice = Number(item.buy_now_price || 0);
     $(".price-label", fragment).textContent = item.has_buy_now && Number(item.bids || 0) === 0 ? "Listed price" : "Current bid";
@@ -135,14 +153,8 @@
       buyNowRow.hidden = false;
       $(".buy-now-price", fragment).textContent = currency.format(buyNowPrice);
     }
-    const manualValuation = Boolean(item.manual_valuation);
-    const expectedMargin = Number(item.expected_margin || 0);
-    const marginElement = $(".est-margin", fragment);
-    marginElement.textContent = manualValuation ? "Manual review" : currency.format(expectedMargin);
-    marginElement.classList.toggle("negative", expectedMargin < 0);
-    $(".max-bid", fragment).textContent = manualValuation ? "Set manually" : currency.format(Number(item.max_bid || 0));
-    $(".est-shipping", fragment).textContent = item.shipping?.pickup_only ? "Pickup" : currency.format(Number(item.estimated_shipping || 0));
-    $(".resale-range", fragment).textContent = manualValuation ? "Research needed" : `${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}`;
+    $(".delivery", fragment).textContent = deliveryLabel(item);
+    $(".photo-count", fragment).textContent = `${thumbnails.length || (item.images || []).length} available`;
     $(".bids", fragment).textContent = `${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"}`;
     $("h3", fragment).textContent = item.title;
     $(".seller-name", fragment).textContent = item.seller || item.location || "Seller not yet loaded";
@@ -178,7 +190,7 @@
     });
 
     const reasonList = $(".card-reasons ul", fragment);
-    [...(item.valuation_reasons || []), ...(item.score_reasons || [])].slice(0, 5).forEach(reason => {
+    (item.score_reasons || []).slice(0, 5).forEach(reason => {
       const entry = document.createElement("li");
       entry.textContent = reason;
       reasonList.append(entry);
@@ -213,19 +225,13 @@
   function openDetail(item) {
     const dialog = $("#detail-dialog");
     const images = item.images || [];
-    const shipping = item.shipping || {};
     const buyNowPrice = Number(item.buy_now_price || 0);
     const buyNowMarkup = item.has_buy_now
       ? `<div class="detail-buy-now"><span>Buy It Now</span><strong>${currency.format(buyNowPrice)}</strong></div>`
       : "";
     const reasons = (item.score_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
-    const valuationReasons = (item.valuation_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
     const cluster = item.seller_cluster;
-    const clusterShipping = cluster?.combined_shipping_unavailable
-      ? "combined shipping unavailable"
-      : `potential combined-shipping savings ${currency.format(Number(cluster?.potential_shipping_savings || 0))}`;
-    const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h · ${clusterShipping}</div>` : "";
-    const manualValuation = Boolean(item.manual_valuation);
+    const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h.</div>` : "";
     const ocrMarkup = item.ocr_hits?.length ? `<div class="ocr-note"><strong>Image text:</strong> ${item.ocr_hits.map(escapeHtml).join(", ")}</div>` : "";
     const imageMarkup = images.length
       ? images.map((source, index) => `<a href="${escapeHtml(source)}" target="_blank" rel="noopener"><img src="${escapeHtml(source)}" alt="${escapeHtml(item.title)} — photo ${index + 1}" loading="lazy"></a>`).join("")
@@ -240,11 +246,9 @@
           <p class="detail-price">${currency.format(Number(item.price || 0))}</p>
           ${buyNowMarkup}
           <p class="detail-sub">${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"} · ${escapeHtml(timeRemaining(item.end_time))}</p>
-          <div class="detail-economics">
-            <div><span>Estimated resale</span><strong>${manualValuation ? "Research needed" : `${currency.format(Number(item.estimated_resale_low || 0))}–${currency.format(Number(item.estimated_resale_high || 0))}`}</strong></div>
-            <div><span>Expected margin</span><strong class="${Number(item.expected_margin || 0) < 0 ? "negative" : ""}">${manualValuation ? "Manual review" : currency.format(Number(item.expected_margin || 0))}</strong></div>
-            <div><span>Max bid</span><strong>${manualValuation ? "Set manually" : currency.format(Number(item.max_bid || 0))}</strong></div>
-            <div><span>Delivery</span><strong>${shipping.pickup_only ? "Local pickup" : currency.format(Number(item.estimated_shipping || 0))}</strong></div>
+          <div class="detail-potential">
+            <span>${escapeHtml(potentialLabel(item))}</span>
+            <strong>${Number(item.score || 0)}/100</strong>
           </div>
           ${clusterMarkup}${ocrMarkup}
           <div class="detail-facts">
@@ -253,12 +257,11 @@
             <div><span>Category</span><strong>${escapeHtml(item.category || "Unknown")}</strong></div>
             <div><span>Source</span><strong>${escapeHtml(item.source_label || "ShopGoodwill")}</strong></div>
             <div><span>Location</span><strong>${escapeHtml(item.location || "See listing")}</strong></div>
-            <div><span>Shipping</span><strong>${shipping.pickup_only ? "Pickup only" : shipping.listed_price ? currency.format(shipping.listed_price) + " listed" : escapeHtml(shipping.carrier || "See listing")}</strong></div>
+            <div><span>Delivery</span><strong>${escapeHtml(deliveryLabel(item))}</strong></div>
+            <div><span>Photos</span><strong>${images.length}</strong></div>
           </div>
           <div class="score-panel">
-            <h3>Valuation basis</h3>
-            <ul>${valuationReasons}</ul>
-            <h3>Why discovery scored ${Number(item.score || 0)}</h3>
+            <h3>Why it stands out</h3>
             <ul>${reasons}</ul>
           </div>
           <p class="detail-description">${escapeHtml(item.description || "The full description has not been loaded yet.")}</p>
@@ -282,7 +285,7 @@
 
   function clearFilters() {
     Object.entries(controls).forEach(([key, element]) => {
-      if (key === "sort") element.value = "margin";
+      if (key === "sort") element.value = "score";
       else if (element.type === "checkbox") element.checked = false;
       else element.value = "";
     });
