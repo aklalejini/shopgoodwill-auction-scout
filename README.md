@@ -80,7 +80,9 @@ Edit [`scraper/config.json`](scraper/config.json):
 - `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
 - `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
 - `search_terms` inside a hunt controls that category's queries.
+- `seller_sweeps` provides a small ending-soon fallback for proven sellers whose lots are sometimes missing from ShopGoodwill keyword results. Sweep results are filtered against the hunt's `domain_keywords` before they enter the feed.
 - `priority_keywords` rewards collector-oriented wording, but configurable group caps prevent generic words such as “mixed,” “lot,” and “assorted” from stacking into a false high score.
+- `seller_bonuses` can encode a narrowly scoped source-confidence adjustment when repeated visual review shows that a seller's domain-specific lots are consistently stronger than their generic descriptions.
 - `lower_priority_keywords` strongly lowers dyed, coated, carved, decorative, metaphysical, and other retail/decor noise.
 - `target_keywords` and `premium_keywords` add category-specific bonuses.
 - `collector_evidence_keywords` rewards provenance, locality labels, specimen labels, and field-collected material.

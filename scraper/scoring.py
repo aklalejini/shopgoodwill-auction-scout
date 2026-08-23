@@ -6,7 +6,7 @@ import re
 from typing import Any
 
 
-def _contains(text: str, phrase: str) -> bool:
+def contains_phrase(text: str, phrase: str) -> bool:
     """Match phrases on word boundaries so e.g. 'lot' does not match 'pilot'."""
     pattern = r"(?<![a-z0-9])" + re.escape(phrase.casefold()) + r"(?![a-z0-9])"
     return re.search(pattern, text.casefold()) is not None
@@ -105,7 +105,9 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
     matched_premium: list[str] = []
     matched_evidence: list[str] = []
     risk_points = 0
-    domain_signal = any(_contains(text, phrase) for phrase in config.get("domain_keywords", []))
+    domain_signal = any(
+        contains_phrase(text, phrase) for phrase in config.get("domain_keywords", [])
+    )
 
     groups = (
         ("priority_keywords", "Opportunity term"),
@@ -123,13 +125,13 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             continue
         group_points = 0
         for phrase, raw_points in config.get(group_name, {}).items():
-            if not _contains(text, phrase):
+            if not contains_phrase(text, phrase):
                 continue
             points = int(raw_points)
             group_points += points
             if points < 0:
                 risk_points += points
-            location = "title" if _contains(title, phrase) else "description"
+            location = "title" if contains_phrase(title, phrase) else "description"
             sign = "+" if points >= 0 else ""
             reasons.append(f"{label} '{phrase}' in {location} ({sign}{points})")
             if group_name == "target_keywords":
@@ -145,23 +147,33 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         score += group_points
 
     for phrase, raw_points in config.get("collector_evidence_keywords", {}).items():
-        if not _contains(text, phrase):
+        if not contains_phrase(text, phrase):
             continue
         points = int(raw_points)
         score += points
         matched_evidence.append(phrase)
-        location = "title" if _contains(title, phrase) else "description"
+        location = "title" if contains_phrase(title, phrase) else "description"
         reasons.append(f"Collector evidence '{phrase}' in {location} (+{points})")
 
     category = str(listing.get("category") or "")
     for phrase, raw_points in config.get("category_penalties", {}).items():
-        if not _contains(category, phrase):
+        if not contains_phrase(category, phrase):
             continue
         points = int(raw_points)
         score += points
         if points < 0:
             risk_points += points
         reasons.append(f"Less relevant category '{phrase}' ({points})")
+
+    trusted_source = False
+    seller_id = str(listing.get("seller_id") or "")
+    seller_bonus = int(config.get("seller_bonuses", {}).get(seller_id, 0))
+    if seller_bonus and domain_signal:
+        score += seller_bonus
+        trusted_source = True
+        reasons.append(
+            f"Proven source for visually strong specimen lots (+{seller_bonus})"
+        )
 
     price = float(listing.get("price") or 0)
     price_tier = _first_matching_tier(price, config.get("price_bonuses", []), "maximum")
@@ -202,7 +214,8 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         risk_points += shipping_points
 
     strong_collection_language = any(
-        _contains(text, phrase) for phrase in config.get("strong_collection_keywords", [])
+        contains_phrase(text, phrase)
+        for phrase in config.get("strong_collection_keywords", [])
     )
     high_priority_eligible = (
         photo_count >= int(config.get("high_priority_minimum_photos", 4))
@@ -212,6 +225,7 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             or bool(matched_evidence)
             or bool(matched_minerals)
             or strong_collection_language
+            or trusted_source
             or (favorable_shipping and (_weight_in_pounds(text) or 0) >= 4)
         )
         and risk_points >= int(config.get("high_priority_risk_floor", -24))

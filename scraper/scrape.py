@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-from .scoring import score_listing
+from .scoring import contains_phrase, score_listing
 from .shopgoodwill import DataSourceError, ShopGoodwillClient, apply_detail, listing_from_search
 
 
@@ -89,6 +89,18 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
     return merged
 
 
+def matches_hunt_domain(item: dict[str, Any], profile: dict[str, Any]) -> bool:
+    """Keep seller sweeps focused on the hunt instead of importing all inventory."""
+    text = "\n".join(
+        str(item.get(field) or "")
+        for field in ("title", "description", "catFullName", "categoryName")
+    )
+    return any(
+        contains_phrase(text, str(phrase))
+        for phrase in profile.get("domain_keywords", [])
+    )
+
+
 def apply_hunt_scoring(
     item: dict[str, Any], hunts: list[dict[str, Any]], profiles: dict[str, Any]
 ) -> None:
@@ -158,6 +170,33 @@ def refresh(
                     break
                 for item in items:
                     discovered.append(listing_from_search(item, str(term), timestamp, hunt))
+                if len(items) < int(api_config.get("page_size", 40)):
+                    break
+
+        profile = profiles[str(hunt["scoring_profile"])]
+        for sweep in hunt.get("seller_sweeps", []):
+            seller_id = str(sweep["seller_id"])
+            source_label = str(sweep.get("label") or f"seller:{seller_id}")
+            pages = int(sweep.get("pages", 1))
+            for page in range(1, pages + 1):
+                try:
+                    items, _ = source.search(
+                        "",
+                        page,
+                        sort_descending=False,
+                        seller_ids=[seller_id],
+                    )
+                except DataSourceError as exc:
+                    failures.append(
+                        f"{hunt['label']} / {source_label} (page {page}): {exc}"
+                    )
+                    print(f"warning: {failures[-1]}", file=sys.stderr)
+                    break
+                for item in items:
+                    if matches_hunt_domain(item, profile):
+                        discovered.append(
+                            listing_from_search(item, source_label, timestamp, hunt)
+                        )
                 if len(items) < int(api_config.get("page_size", 40)):
                     break
 

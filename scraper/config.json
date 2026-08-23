@@ -34,6 +34,13 @@
     "lapidary",
     "fossil",
         "fossils"
+      ],
+      "seller_sweeps": [
+        {
+          "seller_id": 192,
+          "label": "SLC seller sweep",
+          "pages": 2
+        }
       ]
     }
   ],
@@ -55,6 +62,9 @@
     "undervalued_threshold": 30,
     "high_priority_minimum_photos": 4,
     "high_priority_risk_floor": -24,
+    "seller_bonuses": {
+      "192": 26
+    },
     "require_domain_signal_for_priority_keywords": true,
     "keyword_group_caps": {
       "priority_keywords": 18,

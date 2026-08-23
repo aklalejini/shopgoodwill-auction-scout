@@ -111,28 +111,60 @@ class ShopGoodwillClient:
                     time.sleep(min(2**attempt, 4))
         raise DataSourceError(f"Request failed after limited retries: {last_error}")
 
-    def search(self, term: str, page: int = 1) -> tuple[list[dict[str, Any]], int]:
+    def search(
+        self,
+        term: str,
+        page: int = 1,
+        *,
+        sort_descending: bool = True,
+        seller_ids: list[int | str] | None = None,
+        search_descriptions: bool | None = None,
+    ) -> tuple[list[dict[str, Any]], int]:
+        """Search using the same request model as the current storefront.
+
+        Seller inventory is a useful fallback because some active lots are omitted
+        from ShopGoodwill's keyword and category indexes.
+        """
+        now = datetime.now(PACIFIC)
+        seller_filter = ",".join(str(value) for value in (seller_ids or [])) or None
         body = {
             "searchText": term,
-            "page": page,
-            "pageSize": min(int(self.config.get("page_size", 40)), 40),
-            "sortColumn": 1,
-            "sortDescending": True,
-            "categoryId": 0,
-            "categoryLevel": 0,
+            "selectedGroup": "Default",
+            "selectedCategoryIds": None,
+            "selectedSellerIds": seller_filter,
             "lowPrice": 0,
             "highPrice": 999999,
-            "closedAuctionDays": 0,
-            "searchBuyNowOnly": False,
+            "searchBuyNowOnly": "",
             "searchPickupOnly": False,
             "searchNoPickupOnly": False,
             "searchOneCentShippingOnly": False,
-            "searchDescriptions": bool(self.config.get("search_descriptions", False)),
+            "searchDescriptions": (
+                bool(self.config.get("search_descriptions", False))
+                if search_descriptions is None
+                else bool(search_descriptions)
+            ),
             "searchClosedAuctions": False,
-            "selectedCategoryIds": "",
-            "useBuyerPrefs": False,
+            "closedAuctionEndingDate": f"{now.month}/{now.day}/{now.year}",
+            "closedAuctionDaysBack": 7,
+            "searchCanadaShipping": False,
+            "searchInternationalShippingOnly": False,
+            "sortColumn": 1,
+            "page": page,
+            "pageSize": min(int(self.config.get("page_size", 40)), 40),
+            "sortDescending": bool(sort_descending),
             "savedSearchId": 0,
+            "useBuyerPrefs": True,
+            "searchUSOnlyShipping": False,
+            "categoryLevelNo": 1,
             "partNumber": "",
+            "catIds": "",
+            "isWeddingCatagory": False,
+            "isMultipleCategoryIds": False,
+            "isFromHeaderMenuTab": False,
+            "layout": "grid",
+            "isFromHomePage": False,
+            "isSize": False,
+            "size": "",
         }
         response = self._request("POST", f"{self.base_url}/Search/ItemListing", json=body)
         try:

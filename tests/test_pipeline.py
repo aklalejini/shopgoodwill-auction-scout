@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from scraper.scoring import score_listing
-from scraper.scrape import apply_hunt_scoring, deduplicate, is_expired
+from scraper.scrape import apply_hunt_scoring, deduplicate, is_expired, matches_hunt_domain
 from scraper.shopgoodwill import (
     DataSourceError,
     apply_detail,
@@ -122,6 +122,28 @@ class ScoringTests(unittest.TestCase):
         self.assertFalse(result["high_priority_eligible"])
         self.assertTrue(any("Only 1 listing photo" in reason for reason in result["score_reasons"]))
 
+    def test_proven_seller_specimen_lot_can_be_high_priority(self):
+        result = score_listing(
+            {
+                "seller_id": 192,
+                "title": "4 lb. Lot Assorted Various Minerals/Crystals/Gems/Rocks",
+                "description": "Grab-bag style auction with vintage mineral specimens.",
+                "price": 35.56,
+                "bids": 6,
+                "images": [str(index) for index in range(7)],
+                "detail_status": "complete",
+                "shipping": {
+                    "listed_price": 0,
+                    "handling_price": 2,
+                    "pickup_only": False,
+                },
+            },
+            PROFILE,
+        )
+        self.assertGreaterEqual(result["score"], PROFILE["high_priority_threshold"])
+        self.assertTrue(result["high_priority_eligible"])
+        self.assertTrue(any("Proven source" in reason for reason in result["score_reasons"]))
+
     def test_calculated_shipping_is_not_mistaken_for_free_shipping(self):
         result = score_listing(
             {
@@ -139,6 +161,12 @@ class ScoringTests(unittest.TestCase):
 
 
 class PipelineTests(unittest.TestCase):
+    def test_seller_sweep_filters_to_hunt_domain(self):
+        mineral = {"title": "4 lb assorted minerals and rocks"}
+        clothing = {"title": "Four assorted men's shirts"}
+        self.assertTrue(matches_hunt_domain(mineral, PROFILE))
+        self.assertFalse(matches_hunt_domain(clothing, PROFILE))
+
     def test_deduplication_unions_search_terms(self):
         records = [
             {"item_id": "42", "title": "Rock lot", "discovered_by": ["rock"]},
