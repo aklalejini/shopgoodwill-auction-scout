@@ -76,7 +76,39 @@
         "sealed CD-R",
         "sealed DVD-R",
         "new old stock blank tapes",
-        "blank recording media lot"
+        "blank recording media lot",
+        "TDK MA-R cassette",
+        "TDK MA-XG cassette",
+        "TDK SA-X cassette",
+        "Maxell XLII-S cassette",
+        "Maxell Metal Vertex",
+        "Sony Metal-ES cassette",
+        "Denon metal cassette",
+        "That's metal cassette",
+        "sealed metal position cassette",
+        "sealed high bias cassette",
+        "Ampex 456 reel tape",
+        "Ampro reel tape",
+        "Quantegy 456 reel tape",
+        "Maxell UD reel tape",
+        "sealed 10.5 reel tape",
+        "blank MiniDisc",
+        "sealed MiniDisc",
+        "Sony blank MiniDisc",
+        "80 minute MiniDisc",
+        "sealed 3.5 floppy disks",
+        "sealed 5.25 floppy disks",
+        "blank floppy disk lot",
+        "Taiyo Yuden CD-R",
+        "Verbatim MKM DVD-R",
+        "LightScribe CD-R",
+        "LightScribe DVD-R",
+        "sealed CD-R spindle",
+        "blank 8-track cartridge",
+        "sealed blank 8-track",
+        "TDK Super HG VHS",
+        "Fuji Super HG VHS",
+        "sealed VHS multipack"
       ]
     }
   ],
@@ -314,7 +346,10 @@
         "mini dv", "minidv", "dv", "dvc", "dat tape", "dcc tape", "s-vhs",
         "d-vhs", "t-120", "t-120vl", "t-120hs", "betamax", "video8", "hi8", "digital8", "reel to reel",
         "open reel", "u-matic", "betacam sp", "digital betacam", "hDCAM",
-        "lto", "lto tape", "dlt tape", "dds tape", "zip disk", "jaz disk"
+        "lto", "lto tape", "dlt tape", "dds tape", "zip disk", "jaz disk",
+        "minidisc", "5.25 floppy", "lightscribe", "8-track blank", "blank 8-track",
+        "ma-r", "ma-xg", "sa-x", "xlii", "xlii-s", "metal-es", "metal vertex",
+        "10.5 reel", "ampex 456", "quantegy 456"
       ],
       "seller_bonuses": {},
       "require_domain_signal_for_priority_keywords": true,
@@ -325,7 +360,8 @@
       },
       "strong_collection_keywords": [
         "sealed lot", "factory sealed lot", "unopened lot", "new old stock",
-        "nos lot", "sealed case", "factory case"
+        "nos lot", "sealed case", "factory case", "multipack", "multipacks",
+        "10-pack", "16pk", "sealed pack", "sealed box"
       ],
       "domain_keywords": [
         "blank cassette", "audio cassette", "audio cassettes", "cassette tape", "cassette tapes", "video tape", "video tapes",
@@ -333,12 +369,21 @@
         "mini dv", "minidv", "dv", "dvc", "dat tape", "dcc tape", "video8", "hi8",
         "digital8", "microcassette", "reel to reel", "open reel", "umatic",
         "u-matic", "betacam", "hDCAM", "lto", "lto tape", "dlt tape", "dds tape",
-        "data cartridge", "data cartridges", "floppy disk", "zip disk", "jaz disk", "cd-r", "dvd-r"
+        "data cartridge", "data cartridges", "floppy disk", "floppy disks", "minidisc", "minidiscs", "mini disc", "mini discs",
+        "8-track blank", "blank 8-track", "10.5 reel", "ampex 456", "quantegy 456",
+        "ampro reel", "maxell ud reel", "lightscribe", "taiyo yuden",
+        "zip disk", "jaz disk", "cd-r", "dvd-r"
       ],
       "relevance": {
         "required_any_keywords": [
           "blank", "sealed", "factory sealed", "unopened", "unused",
           "new old stock", "nos", "new in package", "new in box"
+        ],
+        "condition_optional_keywords": [
+          "tdk ma-r", "tdk ma-x", "tdk ma-xg", "tdk sa-x", "maxell xlii-s",
+          "maxell xl ii-s", "metal vertex", "sony metal-es", "sony metal master",
+          "denon hd-m", "that's suono", "that's metal", "ampex 456", "quantegy 456",
+          "maxell ud reel", "taiyo yuden", "verbatim mkm", "lightscribe"
         ],
         "required_signal_keywords": [
           "blank", "recordable", "recording tape", "maxell", "tdk", "denon", "basf",
@@ -349,19 +394,28 @@
           "dcc tape", "s-vhs", "d-vhs", "vhs-c", "video8", "hi8", "digital8",
           "microcassette", "reel to reel", "open reel", "u-matic", "umatic", "betacam",
           "hDCAM", "lto", "lto tape", "dlt tape", "dds tape", "data cartridge", "data cartridges", "floppy disk",
-          "zip disk", "jaz disk", "cd-r", "dvd-r"
+          "zip disk", "jaz disk", "minidisc", "minidiscs", "mini disc", "mini discs", "80 minute md", "80 min md",
+          "3.5 floppy", "5.25 floppy", "double density floppy", "high density floppy",
+          "10.5 reel", "10 1/2 reel", "ampex 456", "ampro", "quantegy 456", "maxell ud reel",
+          "taiyo yuden", "verbatim mkm", "lightscribe", "8-track blank", "blank 8-track",
+          "8 track blank", "blank 8 track", "cd-r", "dvd-r"
         ],
         "strong_keywords": [
           "blank cassette", "blank audio tape", "blank video tape", "blank vhs", "blank media",
-          "sealed cassette", "sealed tapes", "sealed vhs tapes", "recording tape", "mini dv", "minidv",
+          "blank audio", "blank audio cassette", "blank recording", "sealed cassette", "sealed tapes",
+          "sealed vhs tapes", "recording tape", "maxell", "tdk", "fuji", "fujifilm", "denon", "basf",
+          "mini dv", "minidv",
           "dv camcorder tapes", "dv tapes", "dvc", "dat tape", "dcc tape", "s-vhs", "d-vhs", "betamax", "video8",
           "hi8", "digital8", "microcassette", "reel to reel", "open reel", "u-matic",
           "umatic", "betacam", "hDCAM", "lto", "lto tape", "dlt tape", "dds tape",
-          "data cartridge", "data cartridges", "floppy disk", "zip disk", "jaz disk", "cd-r", "dvd-r"
+          "data cartridge", "data cartridges", "floppy disk", "floppy disks", "minidisc", "minidiscs", "mini disc", "mini discs",
+          "10.5 reel", "ampex 456", "quantegy 456", "ampro reel", "maxell ud reel",
+          "taiyo yuden", "verbatim mkm", "lightscribe", "8-track blank", "blank 8-track",
+          "zip disk", "jaz disk", "cd-r", "dvd-r"
         ],
         "ambiguous_keywords": [
           "tape", "tapes", "cassette", "cassettes", "media", "vhs",
-          "disc", "discs", "disk", "disks", "cartridge", "cartridges"
+          "disc", "discs", "disk", "disks", "minidisc", "minidiscs", "cartridge", "cartridges", "reel", "reels"
         ],
         "supporting_keywords": [
           "blank", "sealed", "factory sealed", "unopened", "unused", "new old stock",
@@ -372,7 +426,8 @@
           "masking tape", "duct tape", "packing tape", "packaging tape", "adhesive tape",
           "painters tape", "painter's tape", "electrical tape", "mounting tape", "label tape",
           "correction tape", "measuring tape", "tape measure", "cassette deck", "tape deck",
-          "tape player", "cassette player", "rewinder", "head cleaner", "cleaning tape",
+          "tape player", "cassette player", "tape recorder", "minidisc player", "minidisc recorder",
+          "reel to reel recorder", "rewinder", "head cleaner", "cleaning tape",
           "storage case", "carrying case", "movie", "movies", "feature film", "tv series",
           "television series", "season set", "music album", "audiobook", "karaoke",
           "video game", "software", "printer ribbon", "typewriter ribbon", "ink ribbon"
@@ -384,11 +439,8 @@
         ]
       },
       "category_penalties": {
-        "Movies & Television": -28,
-        "Music": -22,
         "Video Games": -18,
-        "Crafts": -18,
-        "Office Supplies": -12
+        "Crafts": -18
       },
       "priority_keywords": {
         "factory sealed": 18,
@@ -420,7 +472,11 @@
         "as is": -3,
         "untested": -4,
         "damaged packaging": -8,
-        "mold": -30
+        "mold": -30,
+        "sticky shed": -24,
+        "sticky-shed": -24,
+        "used reel": -18,
+        "opened reel": -14
       },
       "collector_evidence_keywords": {
         "original shrink wrap": 10,
@@ -445,6 +501,15 @@
         "metal position": 14,
         "chrome position": 8,
         "high bias": 7,
+        "ma-r": 14,
+        "ma-xg": 14,
+        "sa-x": 10,
+        "xlii": 8,
+        "xl ii": 8,
+        "xlii-s": 12,
+        "xl ii-s": 12,
+        "metal-es": 14,
+        "metal vertex": 16,
         "t-120": 5,
         "t-120vl": 5,
         "t-120hs": 5,
@@ -473,11 +538,32 @@
         "dlt tape": 9,
         "dds tape": 8,
         "zip disk": 7,
-        "jaz disk": 9
+        "jaz disk": 9,
+        "minidisc": 9,
+        "minidiscs": 9,
+        "mini disc": 9,
+        "80 minute md": 10,
+        "80 min md": 10,
+        "3.5 floppy": 6,
+        "5.25 floppy": 9,
+        "10.5 reel": 11,
+        "10 1/2 reel": 11,
+        "ampex": 6,
+        "ampro": 7,
+        "quantegy": 7,
+        "lightscribe": 10,
+        "8-track blank": 12,
+        "blank 8-track": 12,
+        "8 track blank": 12,
+        "blank 8 track": 12
       },
       "premium_keywords": {
         "maxell ma-r": 22,
         "maxell mx-s": 16,
+        "maxell xlii-s": 16,
+        "maxell xl ii-s": 16,
+        "maxell xlii": 12,
+        "maxell xl ii": 12,
         "metal vertex": 24,
         "tdk ma-r": 22,
         "tdk ma-xg": 22,
@@ -492,8 +578,15 @@
         "that's metal": 16,
         "nakamichi zx": 18,
         "quantegy 456": 12,
+        "ampex 456": 14,
+        "ampro reel": 12,
+        "maxell ud reel": 13,
         "maxell ud xl": 12,
         "taiyo yuden": 12,
+        "jvc taiyo yuden": 16,
+        "verbatim mkm": 14,
+        "lightscribe": 12,
+        "sony color collection minidisc": 14,
         "mitsui gold": 14,
         "mam-a gold": 14,
         "verbatim datalifeplus": 10

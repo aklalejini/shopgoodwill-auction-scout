@@ -107,9 +107,14 @@ def matches_hunt_domain(item: dict[str, Any], profile: dict[str, Any]) -> bool:
     # Product nouns in the title are reliable signals. This prevents Fossil watches,
     # Crystal dolls, mineral-wash clothing, and quartz jewelry from entering the feed.
     required_any = relevance.get("required_any_keywords", [])
-    if required_any and not any(
+    has_required_condition = any(
         contains_phrase(title, str(phrase)) for phrase in required_any
-    ):
+    )
+    condition_optional = relevance.get("condition_optional_keywords", [])
+    has_condition_optional_model = any(
+        contains_phrase(title, str(phrase)) for phrase in condition_optional
+    )
+    if required_any and not has_required_condition and not has_condition_optional_model:
         return False
     required_signals = relevance.get("required_signal_keywords", [])
     if required_signals and not any(

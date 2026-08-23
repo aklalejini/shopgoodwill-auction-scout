@@ -218,6 +218,10 @@ class PipelineTests(unittest.TestCase):
             {"title": "Factory Sealed Maxell XLII Blank Cassette Tape Lot"},
             {"title": "New Old Stock Sony Hi8 Video8 Recording Tapes 5 Pack"},
             {"title": "Sealed Case of LTO-5 Data Cartridges"},
+            {"title": "TDK MA-R Metal Cassette Tape Lot"},
+            {"title": "Sealed Sony 80 Minute Blank MiniDiscs Color Collection"},
+            {"title": "Factory Sealed 5.25 Floppy Disk Box"},
+            {"title": "Lot of Blank 8-Track Recording Cartridges"},
         ]
         for listing in matches:
             with self.subTest(title=listing["title"]):
@@ -231,6 +235,7 @@ class PipelineTests(unittest.TestCase):
             {"title": "New in Box Sony Cassette Player"},
             {"title": "Sealed TDK Head Cleaner Tape"},
             {"title": "Vintage 1989 Jell-O Fairy Tales Cassette Tapes Sealed Promo"},
+            {"title": "Sony MZ-R55 Portable MiniDisc Recorder"},
         ]
         for listing in collisions:
             with self.subTest(title=listing["title"]):
