@@ -309,6 +309,8 @@ def refresh(
     gsa_client = GSAAuctionsClient(source_config.get("gsa_auctions", {}))
     govdeals_client = GovDealsClient(source_config.get("govdeals", {}))
     ctbids_client = CTBidsClient(source_config.get("ctbids", {}))
+    ctbids_expected_scopes: set[str] = set()
+    ctbids_successful_scopes: set[str] = set()
     hunts = [hunt for hunt in config.get("hunts", []) if hunt.get("enabled", True)]
     profiles = config.get("scoring_profiles", {})
     outcomes = load_outcomes(PROJECT_ROOT / "data" / "outcomes.csv")
@@ -384,16 +386,19 @@ def refresh(
             print(f"warning: {failures[-1]}", file=sys.stderr)
 
     if estate_hunt and source_config.get("ctbids", {}).get("enabled", True):
+        ctbids_expected_scopes.add("nearby")
         try:
             items, _ = ctbids_client.search(zip_code, radius_miles)
             discovered.extend(
                 ctbids_listing(item, timestamp, estate_hunt, zip_code, radius_miles)
                 for item in items
             )
+            ctbids_successful_scopes.add("nearby")
         except DataSourceError as exc:
             failures.append(f"CTBids / {zip_code} + {radius_miles} mi: {exc}")
             print(f"warning: {failures[-1]}", file=sys.stderr)
         if source_config.get("ctbids", {}).get("include_nationwide_shippable", True):
+            ctbids_expected_scopes.add("shippable")
             try:
                 items, _ = ctbids_client.search(shippable_only=True)
                 discovered.extend(
@@ -403,15 +408,23 @@ def refresh(
                     )
                     for item in items
                 )
+                ctbids_successful_scopes.add("shippable")
             except DataSourceError as exc:
                 failures.append(f"CTBids / nationwide shippable: {exc}")
                 print(f"warning: {failures[-1]}", file=sys.stderr)
 
     fresh_records = deduplicate(discovered)
+    ctbids_refresh_complete = bool(ctbids_expected_scopes) and (
+        ctbids_expected_scopes <= ctbids_successful_scopes
+    )
     active_by_id = {
         str(item["item_id"]): copy.deepcopy(item)
         for item in previous
         if not is_expired(item, now)
+        and not (
+            ctbids_refresh_complete
+            and str(item.get("source") or "") == "ctbids"
+        )
     }
     for fresh in fresh_records:
         item_id = str(fresh["item_id"])

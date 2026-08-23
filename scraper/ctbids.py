@@ -4,14 +4,14 @@ from __future__ import annotations
 
 import json
 from typing import Any
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 from .government import _PublicClient, _float, _int, _utc_time
 from .shopgoodwill import DataSourceError, strip_html
 
 
-CTBIDS_SELLER_API = "https://sellersearch.ctbids.com/services"
-CTBIDS_BUYER_API = "https://buyersearch.ctbids.com/services"
+CTBIDS_SELLER_API = "https://seller.ctbids.com/services"
+CTBIDS_BUYER_API = "https://api.ctbids.com/services"
 
 
 class CTBidsClient(_PublicClient):
@@ -23,8 +23,8 @@ class CTBidsClient(_PublicClient):
     def __init__(self, config: dict[str, Any]) -> None:
         super().__init__(config)
         self.session.headers.update({
-            "Origin": "https://buyersearch.ctbids.com",
-            "Referer": "https://buyersearch.ctbids.com/",
+            "Origin": "https://ctbids.com",
+            "Referer": "https://ctbids.com/",
             "Content-Type": "application/json",
         })
 
@@ -166,10 +166,20 @@ class CTBidsClient(_PublicClient):
         return {"item": details[0], "images": images, "bid": bids[0].get("current_bid") or {}}
 
 
+def _usable_image(value: Any) -> str:
+    image = str(value or "")
+    if not image.startswith(("http://", "https://")):
+        return ""
+    hostname = (urlparse(image).hostname or "").lower()
+    if hostname == "imageuat.ctbids.com" or hostname.endswith(".imageuat.ctbids.com"):
+        return ""
+    return image
+
+
 def _image_values(item: dict[str, Any]) -> tuple[list[str], list[str]]:
-    image = str(item.get("displayimageurl") or "")
-    thumbnail = str(item.get("thumbnailurl") or image)
-    return ([image] if image.startswith("http") else [], [thumbnail] if thumbnail.startswith("http") else [])
+    image = _usable_image(item.get("displayimageurl"))
+    thumbnail = _usable_image(item.get("thumbnailurl") or image)
+    return ([image] if image else [], [thumbnail] if thumbnail else [])
 
 
 def ctbids_listing(
@@ -227,16 +237,25 @@ def ctbids_listing(
 def apply_ctbids_detail(listing: dict[str, Any], detail: dict[str, Any]) -> dict[str, Any]:
     item = detail.get("item") or {}
     bid = detail.get("bid") or {}
-    image_rows = [row for row in detail.get("images") or [] if isinstance(row, dict)]
+    expected_item_id = str(listing.get("source_native_id") or "")
+    image_rows = [
+        row for row in detail.get("images") or []
+        if isinstance(row, dict)
+        and (
+            not expected_item_id
+            or not row.get("itemid")
+            or str(row.get("itemid")) == expected_item_id
+        )
+    ]
     images = [
-        str(row.get("url") or row.get("compressedurl") or "")
+        _usable_image(row.get("url") or row.get("compressedurl"))
         for row in image_rows
-        if str(row.get("url") or row.get("compressedurl") or "").startswith("http")
+        if _usable_image(row.get("url") or row.get("compressedurl"))
     ]
     thumbnails = [
-        str(row.get("thumbnailurl") or row.get("url") or "")
+        _usable_image(row.get("thumbnailurl") or row.get("url"))
         for row in image_rows
-        if str(row.get("thumbnailurl") or row.get("url") or "").startswith("http")
+        if _usable_image(row.get("thumbnailurl") or row.get("url"))
     ]
     receipt: dict[str, Any] = {}
     try:

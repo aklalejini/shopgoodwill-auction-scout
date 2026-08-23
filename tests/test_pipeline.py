@@ -6,7 +6,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image
-from scraper.ctbids import CTBidsClient, apply_ctbids_detail, ctbids_listing
+from scraper.ctbids import (
+    CTBIDS_BUYER_API,
+    CTBIDS_SELLER_API,
+    CTBidsClient,
+    apply_ctbids_detail,
+    ctbids_listing,
+)
 from scraper.ocr import _detect_glass_color_signals
 from scraper.scoring import score_listing, strip_boilerplate
 from scraper.government import (
@@ -785,6 +791,10 @@ class GovernmentSourceTests(unittest.TestCase):
 
 
 class CTBidsSourceTests(unittest.TestCase):
+    def test_client_uses_production_ctbids_services(self):
+        self.assertEqual(CTBIDS_SELLER_API, "https://seller.ctbids.com/services")
+        self.assertEqual(CTBIDS_BUYER_API, "https://api.ctbids.com/services")
+
     def test_nationwide_search_requires_ctbids_shippable_flag(self):
         body = CTBidsClient._search_body(
             None, None, 250, shippable_only=True
@@ -853,6 +863,25 @@ class CTBidsSourceTests(unittest.TestCase):
         self.assertFalse(listing["shipping"]["pickup_only"])
         self.assertEqual(listing["discovered_by"], ["CTBids shippable nationwide"])
         self.assertNotIn("local_search", listing)
+
+    def test_uat_images_and_wrong_item_detail_rows_are_rejected(self):
+        hunt = {"id": "local-estate-auctions", "label": "CTBids Estate Auctions"}
+        listing = ctbids_listing({
+            "id": 123, "saleid": 45, "title": "Production item",
+            "isshippable": 1,
+            "displayimageurl": "https://imageuat.ctbids.com/seller/wrong.webp",
+        }, "2026-08-23T12:00:00+00:00", hunt, "38635", 50, scope="shippable")
+        self.assertEqual(listing["images"], [])
+        listing["images"] = ["https://image.ctbids.com/seller/123_search.webp"]
+        listing["thumbnails"] = ["https://image.ctbids.com/seller/123_thumb.webp"]
+        result = apply_ctbids_detail(listing, {
+            "item": {"title": "Production item", "isshippable": 1},
+            "images": [{
+                "itemid": 999,
+                "url": "https://image.ctbids.com/seller/999_wrong.webp",
+            }],
+        })
+        self.assertEqual(result["images"], ["https://image.ctbids.com/seller/123_search.webp"])
 
     def test_detail_adds_all_photos_description_and_delivery(self):
         listing = {
