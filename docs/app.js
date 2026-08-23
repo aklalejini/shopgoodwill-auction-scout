@@ -224,7 +224,7 @@
       state.status = statusResponse.ok ? await statusResponse.json() : null;
       populateCategories();
       $("#active-count").textContent = state.listings.length.toLocaleString();
-      const priorityCount = state.status?.high_priority_count ?? state.listings.filter(item => item.score >= 35).length;
+      const priorityCount = state.status?.high_priority_count ?? state.listings.filter(item => item.high_priority).length;
       $("#priority-count").textContent = Number(priorityCount).toLocaleString();
       if (state.status?.generated_at) {
         $("#refresh-age").textContent = ageLabel(state.status.generated_at);

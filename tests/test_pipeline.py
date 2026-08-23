@@ -78,6 +78,65 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(item["hunt_scores"][0]["label"], "Minerals & Geology")
         self.assertIn("fluorite", item["matched_keywords"])
 
+    def test_generic_bulk_language_cannot_stack_into_high_priority(self):
+        listing = {
+            "title": "Assorted Mixed Mineral Geology Rock Specimen Collection Lot",
+            "description": "Four pounds of polished stones and decorative rocks.",
+            "price": 20,
+            "bids": 0,
+            "images": ["1", "2", "3", "4"],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        result = score_listing(listing, PROFILE)
+        self.assertLess(result["score"], PROFILE["high_priority_threshold"])
+        self.assertTrue(any("keyword stacking" in reason for reason in result["score_reasons"]))
+
+    def test_heavy_collection_with_penny_shipping_can_be_high_priority(self):
+        listing = {
+            "title": "Estate Mineral Collection 5 lbs",
+            "description": "Raw geological specimens with a collector label.",
+            "price": 50,
+            "bids": 0,
+            "images": [str(index) for index in range(8)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0.01, "handling_price": 0, "pickup_only": False},
+        }
+        result = score_listing(listing, PROFILE)
+        self.assertGreaterEqual(result["score"], PROFILE["high_priority_threshold"])
+        self.assertTrue(result["high_priority_eligible"])
+        self.assertTrue(any("favorable flat shipping" in reason for reason in result["score_reasons"]))
+
+    def test_one_photo_listing_fails_high_priority_quality_gate(self):
+        result = score_listing(
+            {
+                "title": "Estate Wulfenite from Red Cloud Mine",
+                "price": 10,
+                "bids": 0,
+                "images": ["only"],
+                "detail_status": "complete",
+                "shipping": {"listed_price": 0.01, "pickup_only": False},
+            },
+            PROFILE,
+        )
+        self.assertFalse(result["high_priority_eligible"])
+        self.assertTrue(any("Only 1 listing photo" in reason for reason in result["score_reasons"]))
+
+    def test_calculated_shipping_is_not_mistaken_for_free_shipping(self):
+        result = score_listing(
+            {
+                "title": "Mineral collection 6 lbs",
+                "price": 20,
+                "bids": 0,
+                "images": ["1", "2", "3", "4"],
+                "detail_status": "complete",
+                "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+            },
+            PROFILE,
+        )
+        self.assertTrue(any("calculated and not included" in reason for reason in result["score_reasons"]))
+        self.assertTrue(any("unresolved shipping cost" in reason for reason in result["score_reasons"]))
+
 
 class PipelineTests(unittest.TestCase):
     def test_deduplication_unions_search_terms(self):

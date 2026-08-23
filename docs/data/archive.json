@@ -38,20 +38,25 @@
     "detail_status": "complete",
     "last_seen": "2026-08-23T01:58:41.398683+00:00",
     "last_updated": "2026-08-23T01:58:41.398683+00:00",
-    "score": 41,
+    "score": 0,
     "score_reasons": [
-      "Opportunity term 'assorted' in description (+8)",
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'lot' in title (+7)",
-      "Opportunity term 'minerals' in title (+5)",
-      "Lower-priority term 'tumbled stones' in description (-7)",
-      "Lower-priority term 'decorative' in description (-5)",
-      "Price at or below $75 (+5)",
-      "0 bids (+7)",
-      "4 listing photos (+5)"
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'decor' in description (-8)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Price at or below $60 (+3)",
+      "0 bids (+4)",
+      "4 listing photos (+3)",
+      "Flat shipping is only $0.01 (+10)",
+      "8.6 lb lot has unusually favorable flat shipping (+5)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -67,24 +72,30 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 41,
+        "score": 0,
         "score_reasons": [
-          "Opportunity term 'assorted' in description (+8)",
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'lot' in title (+7)",
-          "Opportunity term 'minerals' in title (+5)",
-          "Lower-priority term 'tumbled stones' in description (-7)",
-          "Lower-priority term 'decorative' in description (-5)",
-          "Price at or below $75 (+5)",
-          "0 bids (+7)",
-          "4 listing photos (+5)"
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'decor' in description (-8)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Price at or below $60 (+3)",
+          "0 bids (+4)",
+          "4 listing photos (+3)",
+          "Flat shipping is only $0.01 (+10)",
+          "8.6 lb lot has unusually favorable flat shipping (+5)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T03:13:34.099202+00:00",
-    "final_observed_price": 49.97
+    "final_observed_price": 49.97,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274290550",
@@ -127,11 +138,12 @@
     "detail_status": "complete",
     "last_seen": "2026-08-23T01:58:41.398683+00:00",
     "last_updated": "2026-08-23T01:58:41.398683+00:00",
-    "score": 29,
+    "score": 14,
     "score_reasons": [
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "6 listing photos (+5)"
+      "Price at or below $15 (+8)",
+      "0 bids (+4)",
+      "6 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
     "potentially_undervalued": false,
@@ -150,18 +162,20 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
+        "score": 14,
         "score_reasons": [
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "6 listing photos (+5)"
+          "Price at or below $15 (+8)",
+          "0 bids (+4)",
+          "6 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
     "high_priority": false,
     "archived_at": "2026-08-23T03:13:34.099202+00:00",
-    "final_observed_price": 10.99
+    "final_observed_price": 10.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274318505",
@@ -202,20 +216,22 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 54,
+    "score": 19,
     "score_reasons": [
-      "Opportunity term 'collection' in title (+12)",
-      "Opportunity term 'assorted' in description (+8)",
-      "Lower-priority term 'decorative' in description (-5)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Lower-priority term 'decorative' in description (-8)",
       "Target keyword 'tourmaline' in title (+10)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "4 listing photos (+5)"
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "4 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)",
+      "4 lb lot has unresolved shipping cost (-4)"
     ],
     "matched_minerals": [
       "tourmaline"
     ],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -233,24 +249,27 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 54,
+        "score": 19,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+12)",
-          "Opportunity term 'assorted' in description (+8)",
-          "Lower-priority term 'decorative' in description (-5)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Lower-priority term 'decorative' in description (-8)",
           "Target keyword 'tourmaline' in title (+10)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "4 listing photos (+5)"
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "4 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)",
+          "4 lb lot has unresolved shipping cost (-4)"
         ],
         "matched_keywords": [
           "tourmaline"
         ]
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": true
   },
   {
     "item_id": "274317410",
@@ -292,17 +311,18 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 52,
+    "score": 18,
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+8)",
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'lot' in title (+7)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "5 listing photos (+5)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "5 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -318,21 +338,23 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 52,
+        "score": 18,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+8)",
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'lot' in title (+7)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "5 listing photos (+5)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "5 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274315963",
@@ -372,19 +394,21 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 50,
+    "score": 3,
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+8)",
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'lot' in title (+7)",
-      "Opportunity term 'minerals' in title (+5)",
-      "Lower-priority term 'tumbled stones' in title (-7)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "4 listing photos (+5)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in title (-10)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "4 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -400,23 +424,26 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 50,
+        "score": 3,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+8)",
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'lot' in title (+7)",
-          "Opportunity term 'minerals' in title (+5)",
-          "Lower-priority term 'tumbled stones' in title (-7)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "4 listing photos (+5)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in title (-10)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "4 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274293289",
@@ -458,17 +485,20 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 49,
+    "score": 6,
     "score_reasons": [
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'lot' in title (+7)",
-      "Opportunity term 'minerals' in title (+5)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "5 listing photos (+5)"
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'carved' in title (-7)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "5 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)",
+      "9 lb lot has unresolved shipping cost (-4)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -484,21 +514,25 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 49,
+        "score": 6,
         "score_reasons": [
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'lot' in title (+7)",
-          "Opportunity term 'minerals' in title (+5)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "5 listing photos (+5)"
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'carved' in title (-7)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "5 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)",
+          "9 lb lot has unresolved shipping cost (-4)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "273787472",
@@ -541,16 +575,16 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 46,
+    "score": 14,
     "score_reasons": [
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'unknown' in description (+12)",
-      "Price at or below $30 (+9)",
-      "1 bid (+4)",
-      "6 listing photos (+5)"
+      "Opportunity term 'mixed' in title (+2)",
+      "Price at or below $15 (+8)",
+      "1 bid (+2)",
+      "6 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -566,20 +600,21 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 46,
+        "score": 14,
         "score_reasons": [
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'unknown' in description (+12)",
-          "Price at or below $30 (+9)",
-          "1 bid (+4)",
-          "6 listing photos (+5)"
+          "Opportunity term 'mixed' in title (+2)",
+          "Price at or below $15 (+8)",
+          "1 bid (+2)",
+          "6 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 5.99
+    "final_observed_price": 5.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274316215",
@@ -619,16 +654,17 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 44,
+    "score": 16,
     "score_reasons": [
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'lot' in title (+7)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "4 listing photos (+5)"
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "4 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -644,20 +680,22 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 44,
+        "score": 16,
         "score_reasons": [
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'lot' in title (+7)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "4 listing photos (+5)"
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "4 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274287230",
@@ -700,19 +738,21 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 37,
+    "score": 0,
     "score_reasons": [
-      "Opportunity term 'mixed' in title (+8)",
-      "Opportunity term 'lot' in title (+7)",
-      "Opportunity term 'minerals' in title (+5)",
-      "Lower-priority term 'tumbled stones' in description (-7)",
-      "Lower-priority term 'decorative' in description (-5)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "5 listing photos (+5)"
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'carved' in title (-7)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "5 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -728,23 +768,26 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 37,
+        "score": 0,
         "score_reasons": [
-          "Opportunity term 'mixed' in title (+8)",
-          "Opportunity term 'lot' in title (+7)",
-          "Opportunity term 'minerals' in title (+5)",
-          "Lower-priority term 'tumbled stones' in description (-7)",
-          "Lower-priority term 'decorative' in description (-5)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "5 listing photos (+5)"
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'carved' in title (-7)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "5 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
-    "high_priority": true,
+    "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274316751",
@@ -783,17 +826,18 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 34,
+    "score": 6,
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+7)",
-      "Opportunity term 'collection' in title (+12)",
-      "Less relevant category 'Music' (-14)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "4 listing photos (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'collection' in title (+7)",
+      "Less relevant category 'Music' (-18)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "4 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
-    "potentially_undervalued": true,
+    "potentially_undervalued": false,
     "hunt_categories": [
       "minerals-geology"
     ],
@@ -809,21 +853,23 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 34,
+        "score": 6,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+7)",
-          "Opportunity term 'collection' in title (+12)",
-          "Less relevant category 'Music' (-14)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "4 listing photos (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'collection' in title (+7)",
+          "Less relevant category 'Music' (-18)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "4 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
     "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274294367",
@@ -866,11 +912,12 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 29,
+    "score": 14,
     "score_reasons": [
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "6 listing photos (+5)"
+      "Price at or below $15 (+8)",
+      "0 bids (+4)",
+      "6 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
     "potentially_undervalued": false,
@@ -889,18 +936,20 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
+        "score": 14,
         "score_reasons": [
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "6 listing photos (+5)"
+          "Price at or below $15 (+8)",
+          "0 bids (+4)",
+          "6 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
     "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 10.99
+    "final_observed_price": 10.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274300142",
@@ -943,11 +992,13 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 29,
+    "score": 0,
     "score_reasons": [
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "6 listing photos (+5)"
+      "Lower-priority term 'painted' in description (-15)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "6 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
     "potentially_undervalued": false,
@@ -966,18 +1017,21 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
+        "score": 0,
         "score_reasons": [
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "6 listing photos (+5)"
+          "Lower-priority term 'painted' in description (-15)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "6 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
     "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 19.99
+    "final_observed_price": 19.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "273783181",
@@ -1020,12 +1074,13 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 15,
+    "score": 0,
     "score_reasons": [
-      "Less relevant category 'Clothing' (-14)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "6 listing photos (+5)"
+      "Less relevant category 'Clothing' (-18)",
+      "Price at or below $30 (+6)",
+      "0 bids (+4)",
+      "6 listing photos (+3)",
+      "Shipping is calculated and not included in the price (-6)"
     ],
     "matched_minerals": [],
     "potentially_undervalued": false,
@@ -1044,19 +1099,21 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 15,
+        "score": 0,
         "score_reasons": [
-          "Less relevant category 'Clothing' (-14)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "6 listing photos (+5)"
+          "Less relevant category 'Clothing' (-18)",
+          "Price at or below $30 (+6)",
+          "0 bids (+4)",
+          "6 listing photos (+3)",
+          "Shipping is calculated and not included in the price (-6)"
         ],
         "matched_keywords": []
       }
     ],
     "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 17.99
+    "final_observed_price": 17.99,
+    "high_priority_eligible": false
   },
   {
     "item_id": "274532657",
@@ -1099,12 +1156,13 @@
     "detail_status": "complete",
     "last_seen": "2026-08-22T23:33:20.115642+00:00",
     "last_updated": "2026-08-22T23:33:20.115642+00:00",
-    "score": 15,
+    "score": 12,
     "score_reasons": [
-      "Less relevant category 'Clothing' (-14)",
-      "Price at or below $30 (+9)",
-      "0 bids (+7)",
-      "6 listing photos (+5)"
+      "Less relevant category 'Clothing' (-18)",
+      "Price at or below $15 (+8)",
+      "0 bids (+4)",
+      "6 listing photos (+3)",
+      "Flat shipping is only $0.01 (+10)"
     ],
     "matched_minerals": [],
     "potentially_undervalued": false,
@@ -1123,18 +1181,20 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 15,
+        "score": 12,
         "score_reasons": [
-          "Less relevant category 'Clothing' (-14)",
-          "Price at or below $30 (+9)",
-          "0 bids (+7)",
-          "6 listing photos (+5)"
+          "Less relevant category 'Clothing' (-18)",
+          "Price at or below $15 (+8)",
+          "0 bids (+4)",
+          "6 listing photos (+3)",
+          "Flat shipping is only $0.01 (+10)"
         ],
         "matched_keywords": []
       }
     ],
     "high_priority": false,
     "archived_at": "2026-08-23T01:58:41.398683+00:00",
-    "final_observed_price": 10.99
+    "final_observed_price": 10.99,
+    "high_priority_eligible": false
   }
 ]

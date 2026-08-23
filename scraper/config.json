@@ -50,10 +50,21 @@
   },
   "scoring_profiles": {
     "minerals-geology": {
-    "base_score": 8,
-    "high_priority_threshold": 35,
+    "base_score": 5,
+    "high_priority_threshold": 38,
     "undervalued_threshold": 30,
+    "high_priority_minimum_photos": 4,
+    "high_priority_risk_floor": -24,
     "require_domain_signal_for_priority_keywords": true,
+    "keyword_group_caps": {
+      "priority_keywords": 18,
+      "target_keywords": 18,
+      "premium_keywords": 32
+    },
+    "strong_collection_keywords": [
+      "estate collection", "old collection", "vintage collection",
+      "collector collection", "mineral collection"
+    ],
     "domain_keywords": [
       "rock", "rocks", "mineral", "minerals", "crystal", "crystals",
       "gemstone", "gemstones", "geology", "geological", "specimen", "specimens",
@@ -61,36 +72,57 @@
       "amethyst", "calcite", "jasper", "selenite", "stone", "stones", "ore"
     ],
     "category_penalties": {
-      "Watches": -18,
-      "Music": -14,
-      "Clothing": -14,
-      "Shoes": -14
+      "Watches": -22,
+      "Music": -18,
+      "Clothing": -18,
+      "Shoes": -18,
+      "Jewelry": -12
     },
     "priority_keywords": {
       "estate": 12,
-      "vintage": 7,
-      "collection": 12,
-      "assorted": 8,
-      "mixed": 8,
-      "lot": 7,
-      "specimen": 8,
+      "vintage": 5,
+      "collection": 7,
+      "assorted": 2,
+      "mixed": 2,
+      "lot": 2,
+      "specimen": 4,
       "geology": 10,
       "old collection": 14,
-      "unknown": 12,
-      "untested": 10,
-      "rocks": 5,
-      "minerals": 5
+      "rocks": 1,
+      "minerals": 1
     },
     "lower_priority_keywords": {
-      "chakra": -10,
-      "healing": -10,
-      "tower": -7,
-      "polished tower": -7,
-      "crystal tree": -10,
-      "tumbles": -6,
-      "tumbled stones": -7,
-      "decorative": -5,
-      "aura coated": -9
+      "chakra": -12,
+      "healing": -12,
+      "tower": -5,
+      "polished tower": -5,
+      "crystal tree": -14,
+      "tumbles": -8,
+      "tumbled stones": -10,
+      "polished stones": -6,
+      "decorative": -8,
+      "decor": -8,
+      "aura coated": -16,
+      "dyed": -18,
+      "painted": -15,
+      "coated": -10,
+      "carved": -7,
+      "carving": -7,
+      "carvings": -7,
+      "craft": -6,
+      "metaphysical": -10,
+      "souvenir": -8,
+      "possibly": -4,
+      "suggests": -4
+    },
+    "collector_evidence_keywords": {
+      "collector label": 10,
+      "collection label": 10,
+      "specimen label": 10,
+      "locality label": 12,
+      "identification card": 8,
+      "field collected": 10,
+      "provenance": 12
     },
     "target_keywords": {
       "rhodochrosite": 14,
@@ -134,18 +166,38 @@
       "Butte": 12
     },
     "price_bonuses": [
-      {"maximum": 30, "points": 9},
-      {"maximum": 75, "points": 5}
+      {"maximum": 15, "points": 8},
+      {"maximum": 30, "points": 6},
+      {"maximum": 60, "points": 3}
     ],
     "bid_bonuses": [
-      {"maximum": 0, "points": 7},
-      {"maximum": 2, "points": 4}
+      {"maximum": 0, "points": 4},
+      {"maximum": 2, "points": 2}
     ],
     "photo_bonuses": [
-      {"minimum": 8, "points": 7},
-      {"minimum": 4, "points": 5},
-      {"minimum": 2, "points": 2}
-      ]
+      {"minimum": 8, "points": 5},
+      {"minimum": 4, "points": 3},
+      {"minimum": 2, "points": 1}
+    ],
+    "photo_penalties": [
+      {"maximum": 0, "points": -15},
+      {"maximum": 1, "points": -10}
+    ],
+    "shipping_rules": {
+      "penny_flat_maximum": 0.01,
+      "penny_flat_points": 10,
+      "known_price_bonuses": [
+        {"maximum": 8, "points": 4},
+        {"maximum": 15, "points": 2}
+      ],
+      "calculated_shipping_points": -6,
+      "pickup_only_points": -25,
+      "handling_penalty_minimum": 5,
+      "handling_penalty_points": -4,
+      "heavy_weight_minimum": 4,
+      "heavy_with_flat_shipping_points": 5,
+      "heavy_with_calculated_shipping_points": -4
+    }
     }
   },
   "archive": {

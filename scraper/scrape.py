@@ -125,7 +125,7 @@ def apply_hunt_scoring(
     )
     item["high_priority"] = int(item["score"]) >= int(
         best_profile.get("high_priority_threshold", 35)
-    )
+    ) and bool(item.get("high_priority_eligible", True))
 
 
 def refresh(

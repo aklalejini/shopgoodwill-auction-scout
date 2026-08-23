@@ -80,11 +80,12 @@ Edit [`scraper/config.json`](scraper/config.json):
 - `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
 - `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
 - `search_terms` inside a hunt controls that category's queries.
-- `priority_keywords` rewards estate, vintage, collection, mixed-lot, unknown, and similar wording.
-- `lower_priority_keywords` lowers—but never hides—category-specific retail noise.
+- `priority_keywords` rewards collector-oriented wording, but configurable group caps prevent generic words such as “mixed,” “lot,” and “assorted” from stacking into a false high score.
+- `lower_priority_keywords` strongly lowers dyed, coated, carved, decorative, metaphysical, and other retail/decor noise.
 - `target_keywords` and `premium_keywords` add category-specific bonuses.
-- `price_bonuses`, `bid_bonuses`, and `photo_bonuses` control market/visual signals.
-- `high_priority_threshold` and `undervalued_threshold` control the two feed flags.
+- `collector_evidence_keywords` rewards provenance, locality labels, specimen labels, and field-collected material.
+- `price_bonuses`, `bid_bonuses`, `photo_bonuses`, and `shipping_rules` control market signals and delivered-cost risk. A zero listed shipping value is treated as unresolved calculated shipping, not as free shipping.
+- `high_priority_threshold` controls the numeric cutoff, while the high-priority quality gate also requires enough photos and at least one strong collector, target-mineral, provenance, or delivered-value signal. `undervalued_threshold` controls the broader opportunity flag.
 - `max_detail_requests_per_run`, delays, timeouts, and page limits control request volume.
 
 To add a future category, copy the Minerals & Geology entry in `hunts`, give it a unique ID and terms, then add its named profile under `scoring_profiles`. No scraper or frontend change is required. Listings publish `hunt_categories`, `primary_hunt`, and `hunt_scores` so rankings remain explainable.
