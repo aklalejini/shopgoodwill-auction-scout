@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-08-23T13:08:00.146292+00:00",
+  "generated_at": "2026-08-23T13:44:24.119237+00:00",
   "active_count": 339,
   "high_priority_count": 0,
   "archived_count": 16,
-  "search_failures": [],
-  "detail_requests_completed": 24,
+  "search_failures": [
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
+  ],
+  "detail_requests_completed": 12,
   "relevance_filtered_count": 688,
   "financially_actionable_count": 0,
   "ocr": {
-    "available": false,
-    "listings_processed": 0,
-    "images_processed": 0
+    "available": true,
+    "listings_processed": 12,
+    "images_processed": 72
   },
   "data_source": "ShopGoodwill Buyer API plus official GSA and GovDeals public listings",
   "local_search": {
@@ -34,7 +36,7 @@
       "id": "govdeals",
       "label": "GovDeals",
       "active_count": 52,
-      "detail_requests_attempted": 24
+      "detail_requests_attempted": 12
     }
   ],
   "hunts": [
