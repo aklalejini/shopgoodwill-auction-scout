@@ -1,6 +1,6 @@
 # Auction Scout
 
-Auction Scout is a free, image-first feed for finding overlooked ShopGoodwill auctions across configurable categories. Its current hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, and **Vintage Pens**, with independent search and scoring logic for each.
+Auction Scout is a free, image-first feed for finding overlooked ShopGoodwill auctions across configurable categories. Its current hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, and **Estate Tobacco Pipes**, with independent search and scoring logic for each.
 
 The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on GitHub Pages, and the hourly data refresh runs in GitHub Actions. No account, API key, database, backend, paid API, or credit card is required.
 

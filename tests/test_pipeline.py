@@ -21,6 +21,7 @@ PROFILE = CONFIG["scoring_profiles"]["minerals-geology"]
 MEDIA_PROFILE = CONFIG["scoring_profiles"]["sealed-vintage-media"]
 TUBE_PROFILE = CONFIG["scoring_profiles"]["vintage-electron-tubes"]
 PEN_PROFILE = CONFIG["scoring_profiles"]["vintage-pens"]
+PIPE_PROFILE = CONFIG["scoring_profiles"]["estate-tobacco-pipes"]
 
 
 class ScoringTests(unittest.TestCase):
@@ -392,6 +393,64 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(high["high_priority_eligible"])
         self.assertGreater(high["score"], low["score"])
         self.assertTrue(any("Generic photo-rich pen lot" in reason for reason in high["score_reasons"]))
+
+    def test_tobacco_pipe_hunt_accepts_estate_lots_racks_and_collectible_makers(self):
+        matches = [
+            {"title": "Estate Lot of Assorted Vintage Smoking Pipes"},
+            {"title": "Wooden Pipe Rack with 6 Briar Tobacco Pipes"},
+            {"title": "Dunhill Briar Smoking Pipe Made in England"},
+            {"title": "Antique Block Meerschaum Pipe in Fitted Case"},
+            {"title": "Peterson Estate Pipe Made in Ireland"},
+        ]
+        for listing in matches:
+            with self.subTest(title=listing["title"]):
+                self.assertTrue(matches_hunt_domain(listing, PIPE_PROFILE))
+
+    def test_tobacco_pipe_hunt_rejects_plumbing_drug_and_accessory_collisions(self):
+        collisions = [
+            {"title": "Lot of Vintage Copper Plumbing Pipes and Fittings"},
+            {"title": "Heavy Duty Steel Pipe Wrench Tool"},
+            {"title": "Hand Blown Glass Water Bong Smoking Pipe"},
+            {"title": "Scottish Bagpipes with Carrying Case"},
+            {"title": "Vintage Pipe Tobacco Tins Collection"},
+            {"title": "Box of Smoking Pipe Cleaners and Filters"},
+            {"title": "Vintage Empty Pipe Rack Only"},
+            {"title": "Automotive Exhaust Pipe and Muffler"},
+            {"title": "Antique Chinese Opium Pipe"},
+            {"title": "Vintage Avon Smoking Pipe Aftershave Decanter Bottle"},
+            {"title": "Laptop Cooling Fans and Copper Heat Pipes Lot"},
+            {"title": "Signed Elder Smoking Pipe Oil on Canvas Painting"},
+            {"title": "Vintage Amber Tobacco Pipe Stem Replacement Part"},
+        ]
+        for listing in collisions:
+            with self.subTest(title=listing["title"]):
+                self.assertFalse(matches_hunt_domain(listing, PIPE_PROFILE))
+
+    def test_photo_rich_estate_pipe_lot_beats_fatally_damaged_low_grade_pipes(self):
+        promising = {
+            "title": "Estate Lot of 12 Vintage Smoking Pipes",
+            "description": "Assorted unmarked briar pipes with oxidized stems that need cleaning; rack included.",
+            "price": 39.99,
+            "bids": 0,
+            "images": [str(index) for index in range(12)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        damaged = {
+            "title": "Lot of Dr. Grabow Medico Smoking Pipes",
+            "description": "Cracked bowls, burnout, broken stems, bite-through and mold. For parts only.",
+            "price": 39.99,
+            "bids": 0,
+            "images": [str(index) for index in range(12)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        high = score_listing(promising, PIPE_PROFILE)
+        low = score_listing(damaged, PIPE_PROFILE)
+        self.assertGreaterEqual(high["score"], PIPE_PROFILE["high_priority_threshold"])
+        self.assertTrue(high["high_priority_eligible"])
+        self.assertGreater(high["score"], low["score"])
+        self.assertTrue(any("Generic estate pipe lot" in reason for reason in high["score_reasons"]))
 
     def test_deduplication_unions_search_terms(self):
         records = [
