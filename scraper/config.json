@@ -42,6 +42,42 @@
           "pages": 2
         }
       ]
+    },
+    {
+      "id": "sealed-vintage-media",
+      "label": "Sealed Vintage Media",
+      "description": "Factory-sealed blank recording media and new-old-stock lots with strong resale potential.",
+      "enabled": true,
+      "scoring_profile": "sealed-vintage-media",
+      "search_terms": [
+        "blank cassette tapes",
+        "sealed cassette tapes",
+        "blank audio cassette",
+        "new old stock cassette tapes",
+        "sealed Maxell tapes",
+        "sealed TDK tapes",
+        "sealed Sony tapes",
+        "sealed blank VHS tapes",
+        "sealed MiniDV tapes",
+        "blank MiniDV tapes",
+        "sealed DV camcorder tapes",
+        "sealed DVC tapes",
+        "sealed DAT tapes",
+        "sealed DCC tapes",
+        "sealed Betamax tapes",
+        "sealed Hi8 tapes",
+        "sealed Video8 tapes",
+        "sealed reel to reel tape",
+        "sealed microcassette tapes",
+        "sealed floppy disks",
+        "sealed Zip disks",
+        "sealed data tapes",
+        "sealed LTO tapes",
+        "sealed CD-R",
+        "sealed DVD-R",
+        "new old stock blank tapes",
+        "blank recording media lot"
+      ]
     }
   ],
   "api": {
@@ -266,6 +302,235 @@
       "heavy_with_flat_shipping_points": 5,
       "heavy_with_calculated_shipping_points": -4
     }
+    },
+    "sealed-vintage-media": {
+      "base_score": 4,
+      "high_priority_threshold": 44,
+      "undervalued_threshold": 32,
+      "high_priority_minimum_photos": 3,
+      "high_priority_risk_floor": -20,
+      "high_priority_target_keywords": [
+        "type ii", "type iv", "metal position", "chrome position", "high bias",
+        "mini dv", "minidv", "dv", "dvc", "dat tape", "dcc tape", "s-vhs",
+        "d-vhs", "t-120", "t-120vl", "t-120hs", "betamax", "video8", "hi8", "digital8", "reel to reel",
+        "open reel", "u-matic", "betacam sp", "digital betacam", "hDCAM",
+        "lto", "lto tape", "dlt tape", "dds tape", "zip disk", "jaz disk"
+      ],
+      "seller_bonuses": {},
+      "require_domain_signal_for_priority_keywords": true,
+      "keyword_group_caps": {
+        "priority_keywords": 24,
+        "target_keywords": 28,
+        "premium_keywords": 36
+      },
+      "strong_collection_keywords": [
+        "sealed lot", "factory sealed lot", "unopened lot", "new old stock",
+        "nos lot", "sealed case", "factory case"
+      ],
+      "domain_keywords": [
+        "blank cassette", "audio cassette", "audio cassettes", "cassette tape", "cassette tapes", "video tape", "video tapes",
+        "recording tape", "blank media", "vhs", "s-vhs", "d-vhs", "betamax",
+        "mini dv", "minidv", "dv", "dvc", "dat tape", "dcc tape", "video8", "hi8",
+        "digital8", "microcassette", "reel to reel", "open reel", "umatic",
+        "u-matic", "betacam", "hDCAM", "lto", "lto tape", "dlt tape", "dds tape",
+        "data cartridge", "data cartridges", "floppy disk", "zip disk", "jaz disk", "cd-r", "dvd-r"
+      ],
+      "relevance": {
+        "required_any_keywords": [
+          "blank", "sealed", "factory sealed", "unopened", "unused",
+          "new old stock", "nos", "new in package", "new in box"
+        ],
+        "required_signal_keywords": [
+          "blank", "recordable", "recording tape", "maxell", "tdk", "denon", "basf",
+          "memorex", "fuji", "fujifilm", "scotch", "type i", "type ii", "type iv",
+          "normal bias", "high bias", "metal position", "chrome position", "ma-r", "ma-x",
+          "ma-xg", "sa-x", "ar-x", "xl ii", "xlii", "ur 90", "t-120", "t-120vl", "t-120hs", "t-160",
+          "mini dv", "minidv", "dv camcorder tapes", "dv tapes", "dvc", "dat tape",
+          "dcc tape", "s-vhs", "d-vhs", "vhs-c", "video8", "hi8", "digital8",
+          "microcassette", "reel to reel", "open reel", "u-matic", "umatic", "betacam",
+          "hDCAM", "lto", "lto tape", "dlt tape", "dds tape", "data cartridge", "data cartridges", "floppy disk",
+          "zip disk", "jaz disk", "cd-r", "dvd-r"
+        ],
+        "strong_keywords": [
+          "blank cassette", "blank audio tape", "blank video tape", "blank vhs", "blank media",
+          "sealed cassette", "sealed tapes", "sealed vhs tapes", "recording tape", "mini dv", "minidv",
+          "dv camcorder tapes", "dv tapes", "dvc", "dat tape", "dcc tape", "s-vhs", "d-vhs", "betamax", "video8",
+          "hi8", "digital8", "microcassette", "reel to reel", "open reel", "u-matic",
+          "umatic", "betacam", "hDCAM", "lto", "lto tape", "dlt tape", "dds tape",
+          "data cartridge", "data cartridges", "floppy disk", "zip disk", "jaz disk", "cd-r", "dvd-r"
+        ],
+        "ambiguous_keywords": [
+          "tape", "tapes", "cassette", "cassettes", "media", "vhs",
+          "disc", "discs", "disk", "disks", "cartridge", "cartridges"
+        ],
+        "supporting_keywords": [
+          "blank", "sealed", "factory sealed", "unopened", "unused", "new old stock",
+          "nos", "new in package", "new in box", "recordable", "recording", "lot", "pack"
+        ],
+        "minimum_ambiguous_matches": 1,
+        "excluded_product_keywords": [
+          "masking tape", "duct tape", "packing tape", "packaging tape", "adhesive tape",
+          "painters tape", "painter's tape", "electrical tape", "mounting tape", "label tape",
+          "correction tape", "measuring tape", "tape measure", "cassette deck", "tape deck",
+          "tape player", "cassette player", "rewinder", "head cleaner", "cleaning tape",
+          "storage case", "carrying case", "movie", "movies", "feature film", "tv series",
+          "television series", "season set", "music album", "audiobook", "karaoke",
+          "video game", "software", "printer ribbon", "typewriter ribbon", "ink ribbon"
+        ],
+        "strict_excluded_category_keywords": [],
+        "excluded_category_keywords": [
+          "movies & television", "music", "video games", "cameras", "camcorders",
+          "office supplies", "crafts", "tools"
+        ]
+      },
+      "category_penalties": {
+        "Movies & Television": -28,
+        "Music": -22,
+        "Video Games": -18,
+        "Crafts": -18,
+        "Office Supplies": -12
+      },
+      "priority_keywords": {
+        "factory sealed": 18,
+        "sealed": 12,
+        "unopened": 12,
+        "new old stock": 16,
+        "nos": 14,
+        "unused": 8,
+        "new in package": 12,
+        "new in box": 10,
+        "lot of": 6,
+        "lot": 4,
+        "bulk": 7,
+        "multi-pack": 8,
+        "multipack": 8,
+        "pack": 4,
+        "case of": 8
+      },
+      "lower_priority_keywords": {
+        "pre-recorded": -35,
+        "prerecorded": -35,
+        "recorded on": -30,
+        "home recorded": -28,
+        "used tapes": -24,
+        "used cassette": -22,
+        "opened": -18,
+        "open package": -16,
+        "repackaged": -14,
+        "as is": -3,
+        "untested": -4,
+        "damaged packaging": -8,
+        "mold": -30
+      },
+      "collector_evidence_keywords": {
+        "original shrink wrap": 10,
+        "individually sealed": 10,
+        "sealed case": 12,
+        "factory case": 12,
+        "original carton": 8,
+        "old store stock": 10
+      },
+      "target_keywords": {
+        "maxell": 5,
+        "tdk": 5,
+        "sony": 3,
+        "denon": 5,
+        "basf": 4,
+        "memorex": 3,
+        "fuji": 3,
+        "fujifilm": 3,
+        "scotch": 3,
+        "type ii": 8,
+        "type iv": 14,
+        "metal position": 14,
+        "chrome position": 8,
+        "high bias": 7,
+        "t-120": 5,
+        "t-120vl": 5,
+        "t-120hs": 5,
+        "vhs-c": 4,
+        "mini dv": 7,
+        "minidv": 7,
+        "dv": 6,
+        "dvc": 7,
+        "dat tape": 12,
+        "dcc tape": 16,
+        "s-vhs": 10,
+        "d-vhs": 16,
+        "betamax": 8,
+        "video8": 7,
+        "hi8": 8,
+        "digital8": 8,
+        "microcassette": 5,
+        "reel to reel": 10,
+        "open reel": 10,
+        "u-matic": 13,
+        "betacam sp": 11,
+        "digital betacam": 14,
+        "hDCAM": 16,
+        "lto": 10,
+        "lto tape": 10,
+        "dlt tape": 9,
+        "dds tape": 8,
+        "zip disk": 7,
+        "jaz disk": 9
+      },
+      "premium_keywords": {
+        "maxell ma-r": 22,
+        "maxell mx-s": 16,
+        "metal vertex": 24,
+        "tdk ma-r": 22,
+        "tdk ma-xg": 22,
+        "tdk ma-x": 18,
+        "tdk sa-x": 12,
+        "tdk ar-x": 14,
+        "sony super metal master": 24,
+        "sony metal master": 20,
+        "sony metal-es": 16,
+        "denon hd-m": 16,
+        "that's suono": 18,
+        "that's metal": 16,
+        "nakamichi zx": 18,
+        "quantegy 456": 12,
+        "maxell ud xl": 12,
+        "taiyo yuden": 12,
+        "mitsui gold": 14,
+        "mam-a gold": 14,
+        "verbatim datalifeplus": 10
+      },
+      "price_bonuses": [
+        {"maximum": 20, "points": 8},
+        {"maximum": 50, "points": 5},
+        {"maximum": 100, "points": 2}
+      ],
+      "bid_bonuses": [
+        {"maximum": 0, "points": 4},
+        {"maximum": 2, "points": 2}
+      ],
+      "photo_bonuses": [
+        {"minimum": 6, "points": 4},
+        {"minimum": 3, "points": 2},
+        {"minimum": 2, "points": 1}
+      ],
+      "photo_penalties": [
+        {"maximum": 0, "points": -15},
+        {"maximum": 1, "points": -6}
+      ],
+      "shipping_rules": {
+        "penny_flat_maximum": 0.01,
+        "penny_flat_points": 8,
+        "known_price_bonuses": [
+          {"maximum": 8, "points": 4},
+          {"maximum": 15, "points": 2}
+        ],
+        "calculated_shipping_points": -3,
+        "pickup_only_points": -25,
+        "handling_penalty_minimum": 5,
+        "handling_penalty_points": -4,
+        "heavy_weight_minimum": 999,
+        "heavy_with_flat_shipping_points": 0,
+        "heavy_with_calculated_shipping_points": -3
+      }
     }
   },
   "archive": {

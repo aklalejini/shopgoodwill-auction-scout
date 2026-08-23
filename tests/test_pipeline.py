@@ -17,6 +17,7 @@ from scraper.shopgoodwill import (
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "scraper" / "config.json").read_text(encoding="utf-8"))
 PROFILE = CONFIG["scoring_profiles"]["minerals-geology"]
+MEDIA_PROFILE = CONFIG["scoring_profiles"]["sealed-vintage-media"]
 
 
 class ScoringTests(unittest.TestCase):
@@ -206,6 +207,70 @@ class PipelineTests(unittest.TestCase):
                 {"title": "Mixed Natural Rocks Crystals Collection Lot"}, PROFILE
             )
         )
+
+    def test_sealed_blank_media_hunt_accepts_real_media_lots(self):
+        matches = [
+            {
+                "title": "Lot of 9 Sealed DV Camcorder Tapes TDK & Maxell",
+                "category": "Cameras & Camcorders",
+            },
+            {"title": "Factory Sealed Maxell XLII Blank Cassette Tape Lot"},
+            {"title": "New Old Stock Sony Hi8 Video8 Recording Tapes 5 Pack"},
+            {"title": "Sealed Case of LTO-5 Data Cartridges"},
+        ]
+        for listing in matches:
+            with self.subTest(title=listing["title"]):
+                self.assertTrue(matches_hunt_domain(listing, MEDIA_PROFILE))
+
+    def test_sealed_blank_media_hunt_rejects_used_media_and_tape_collisions(self):
+        collisions = [
+            {"title": "Sealed Disney VHS Movie Tape"},
+            {"title": "Lot of Maxell XLII Cassette Tapes"},
+            {"title": "Sealed Scotch Heavy Duty Packing Tape"},
+            {"title": "New in Box Sony Cassette Player"},
+            {"title": "Sealed TDK Head Cleaner Tape"},
+            {"title": "Vintage 1989 Jell-O Fairy Tales Cassette Tapes Sealed Promo"},
+        ]
+        for listing in collisions:
+            with self.subTest(title=listing["title"]):
+                self.assertFalse(matches_hunt_domain(listing, MEDIA_PROFILE))
+
+    def test_sealed_media_scoring_rewards_resale_signals(self):
+        promising = {
+            "title": "Lot of 9 Sealed DV Camcorder Tapes TDK & Maxell",
+            "description": "All nine tapes are individually sealed in original shrink wrap.",
+            "price": 9.99,
+            "bids": 1,
+            "images": ["1", "2", "3", "4"],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        weak = {
+            "title": "Opened Used Cassette Tapes",
+            "description": "Home recorded and untested.",
+            "price": 9.99,
+            "bids": 1,
+            "images": ["1", "2", "3", "4"],
+        }
+        high = score_listing(promising, MEDIA_PROFILE)
+        low = score_listing(weak, MEDIA_PROFILE)
+        self.assertGreaterEqual(high["score"], MEDIA_PROFILE["high_priority_threshold"])
+        self.assertTrue(high["high_priority_eligible"])
+        self.assertGreater(high["score"], low["score"])
+        self.assertIn("dv", high["matched_keywords"])
+
+    def test_common_small_sealed_media_mix_is_not_high_priority(self):
+        listing = {
+            "title": "Mixed Lot Blank Media Memorex Mini DVD-R Maxell Audio Cassette TDK VHS-C",
+            "description": "Three factory sealed common items in original packaging.",
+            "price": 19.99,
+            "bids": 0,
+            "images": ["1", "2", "3", "4", "5"],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        result = score_listing(listing, MEDIA_PROFILE)
+        self.assertFalse(result["high_priority_eligible"])
 
     def test_deduplication_unions_search_terms(self):
         records = [

@@ -217,13 +217,21 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         contains_phrase(text, phrase)
         for phrase in config.get("strong_collection_keywords", [])
     )
+    priority_target_keywords = {
+        str(phrase).casefold()
+        for phrase in config.get("high_priority_target_keywords", [])
+    }
+    has_priority_target = bool(matched_minerals) and (
+        not priority_target_keywords
+        or bool({phrase.casefold() for phrase in matched_minerals} & priority_target_keywords)
+    )
     high_priority_eligible = (
         photo_count >= int(config.get("high_priority_minimum_photos", 4))
         and not bool((listing.get("shipping") or {}).get("pickup_only"))
         and (
             bool(matched_premium)
             or bool(matched_evidence)
-            or bool(matched_minerals)
+            or has_priority_target
             or strong_collection_language
             or trusted_source
             or (favorable_shipping and (_weight_in_pounds(text) or 0) >= 4)
