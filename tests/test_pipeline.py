@@ -1,5 +1,6 @@
 import copy
 import json
+import re
 import unittest
 from io import BytesIO
 from datetime import datetime, timezone
@@ -13,7 +14,11 @@ from scraper.ctbids import (
     apply_ctbids_detail,
     ctbids_listing,
 )
-from scraper.ocr import _detect_glass_color_signals
+from scraper.ocr import (
+    _detect_glass_color_signals,
+    _extract_signal_hits,
+    _parse_tesseract_tsv,
+)
 from scraper.scoring import score_listing, strip_boilerplate
 from scraper.government import (
     govdeals_listing,
@@ -24,7 +29,9 @@ from scraper.government import (
 from scraper.scrape import (
     apply_hunt_scoring,
     apply_seller_clusters,
+    clean_public_record,
     deduplicate,
+    derive_high_priority,
     is_expired,
     matches_hunt_domain,
 )
@@ -100,6 +107,15 @@ class ScoringTests(unittest.TestCase):
         }, TUBE_PROFILE)
         self.assertTrue(any("Only the top" in reason for reason in result["score_reasons"]))
         self.assertFalse(any("clawback" in reason for reason in result["score_reasons"]))
+        self.assertFalse(any("bonuses capped" in reason for reason in result["score_reasons"]))
+        self.assertEqual(
+            sum(
+                int(match.group(1))
+                for reason in result["score_reasons"]
+                if (match := re.search(r"\(([+-]\d+)\)$", reason))
+            ),
+            result["score"],
+        )
 
     def test_margin_model_demotes_lightscribe_and_values_known_tube(self):
         media = {
@@ -142,7 +158,7 @@ class ScoringTests(unittest.TestCase):
         ]
         apply_seller_clusters(items, 72)
         self.assertEqual(items[0]["seller_cluster"]["count"], 2)
-        self.assertGreater(items[0]["seller_cluster"]["potential_shipping_savings"], 0)
+        self.assertNotIn("potential_shipping_savings", items[0]["seller_cluster"])
         self.assertNotIn("seller_cluster", items[2])
 
     def test_seller_clusters_do_not_chain_beyond_window(self):
@@ -165,7 +181,7 @@ class ScoringTests(unittest.TestCase):
         apply_seller_clusters(items, 72)
         self.assertEqual(items[0]["seller_cluster"]["count"], 2)
         self.assertNotIn("seller_cluster", items[2])
-        self.assertEqual(items[0]["seller_cluster"]["potential_shipping_savings"], 0)
+        self.assertNotIn("potential_shipping_savings", items[0]["seller_cluster"])
         self.assertTrue(items[0]["seller_cluster"]["combined_shipping_unavailable"])
 
     def test_collectible_collection_scores_above_retail_product(self):
@@ -186,8 +202,34 @@ class ScoringTests(unittest.TestCase):
         high = score_listing(promising, PROFILE)
         low = score_listing(retail, PROFILE)
         self.assertGreater(high["score"], low["score"])
-        self.assertIn("wulfenite", high["matched_minerals"])
+        self.assertIn("wulfenite", high["matched_keywords"])
         self.assertTrue(any("Red Cloud Mine" in reason for reason in high["score_reasons"]))
+
+    def test_high_priority_is_derived_from_canonical_active_records(self):
+        active = [
+            {"item_id": "low", "score": 20, "high_priority": False},
+            {"item_id": "high", "score": 50, "high_priority": True, "evidence": ["x"]},
+        ]
+        high = derive_high_priority(active, 100)
+        self.assertEqual(high, [active[1]])
+        self.assertIs(high[0], active[1])
+
+    def test_public_cleanup_removes_internal_fields_recursively(self):
+        item = {
+            "item_id": "1",
+            "ocr_text": "raw guess",
+            "matched_minerals": ["fluorite"],
+            "fee_rate": 0.15,
+            "seller_cluster": {"potential_shipping_savings": 18.0, "count": 2},
+            "hunt_scores": [{"target_multiple": 2.5, "score": 40}],
+            "ocr_hits": ["TELEFUNKEN"],
+        }
+        clean_public_record(item)
+        self.assertEqual(item["ocr_hits"], ["TELEFUNKEN"])
+        self.assertEqual(item["seller_cluster"], {"count": 2})
+        self.assertEqual(item["hunt_scores"], [{"score": 40}])
+        for field in ("ocr_text", "matched_minerals", "fee_rate"):
+            self.assertNotIn(field, item)
 
     def test_word_boundary_prevents_lot_inside_pilot(self):
         result = score_listing(
@@ -732,6 +774,20 @@ class GlassInsulatorTests(unittest.TestCase):
         neutral_bytes = BytesIO()
         neutral.save(neutral_bytes, format="PNG")
         self.assertEqual(_detect_glass_color_signals(neutral_bytes.getvalue()), [])
+
+    def test_ocr_keeps_only_confident_recognized_collector_signals(self):
+        header = "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext"
+        rows = [
+            "5\t1\t1\t1\t1\t1\t0\t0\t1\t1\t22\tTELEFUNKEN",
+            "5\t1\t1\t1\t2\t1\t0\t0\t1\t1\t94\tMULLARD",
+            "5\t1\t1\t1\t2\t2\t0\t0\t1\t1\t91\t6L6GC",
+            "5\t1\t1\t1\t2\t3\t0\t0\t1\t1\t99\t1F2",
+        ]
+        confident_text = _parse_tesseract_tsv("\n".join([header, *rows]), 65)
+        hits = _extract_signal_hits(confident_text)
+        self.assertEqual(hits, ["6L6GC", "MULLARD"])
+        self.assertNotIn("1F2", hits)
+        self.assertNotIn("TELEFUNKEN", hits)
 
     def test_visual_color_clue_is_labeled_as_image_analysis(self):
         result = score_listing({

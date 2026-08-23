@@ -240,7 +240,8 @@ main { padding-top: 18px; }
 .listing-card[data-evaluation="rejected"] { opacity: .55; }
 .card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 13px; padding-top: 11px; border-top: 1px solid var(--line); }
 .item-id { color: var(--muted); font-size: 9px; }
-.inspect-button { padding: 0; color: var(--green); background: transparent; border: 0; font-size: 11px; font-weight: 800; }
+.card-actions { display: flex; align-items: center; gap: 12px; }
+.comps-link, .inspect-button { padding: 0; color: var(--green); background: transparent; border: 0; font-size: 11px; font-weight: 800; text-decoration: none; }
 
 .empty-state { padding: 80px 20px; text-align: center; border: 1px solid var(--line); }
 .empty-state > span { color: var(--green); font-size: 36px; }
@@ -273,7 +274,10 @@ dialog::backdrop { background: rgba(18, 24, 21, .65); }
 .score-panel h3 { margin: 0 0 8px; font-size: 17px; }
 .score-panel ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 12px; }
 .detail-description { white-space: pre-line; font-size: 12px; }
-.visit-listing { display: block; margin-top: 22px; padding: 11px 16px; color: #fff; background: var(--green); border: 1px solid var(--green); font-size: 12px; font-weight: 800; text-align: center; text-decoration: none; }
+.detail-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 22px; }
+.visit-listing, .sold-comps { display: block; padding: 11px 16px; border: 1px solid var(--green); font-size: 12px; font-weight: 800; text-align: center; text-decoration: none; }
+.visit-listing { color: #fff; background: var(--green); }
+.sold-comps { color: var(--green); background: #fff; }
 
 @media (max-width: 1180px) {
   .toolbar { grid-template-columns: 2fr 1fr 1fr 1fr; }
@@ -297,6 +301,7 @@ dialog::backdrop { background: rgba(18, 24, 21, .65); }
   .updated-at { display: none; }
   .gallery { grid-template-columns: 1fr; }
   .card-body { padding-inline: 20px; }
+  .detail-actions { grid-template-columns: 1fr; }
   footer { display: block; }
   .detail-layout { display: block; }
   .detail-info { padding: 25px 20px 36px; }

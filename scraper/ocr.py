@@ -6,7 +6,8 @@ import re
 import shutil
 import subprocess
 import tempfile
-from io import BytesIO
+import csv
+from io import BytesIO, StringIO
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -17,10 +18,49 @@ from PIL import Image
 
 SIGNAL_PATTERNS = (
     re.compile(r"\b(?:14K|18K|585|750)\b", re.I),
-    re.compile(r"\b\d{1,2}[A-Z]{1,3}\d{1,2}[A-Z]{0,2}\b"),
+    re.compile(
+        r"\b(?:12AX7|12AU7|ECC803S?|ECC8[123]|6922|E88CC|CV4004|M8137|"
+        r"EL34|GZ34|5AR4|KT88|KT66|6550|6SN7(?:GT|W)?|6L6GC|EL84|300B|5751|"
+        r"XF[1-4]|F3[1-4])\b",
+        re.I,
+    ),
     re.compile(r"\bMADE IN (?:ENGLAND|IRELAND|USA|U\.S\.A\.|HOLLAND|GERMANY|DENMARK|ITALY|FRANCE|JAPAN)\b", re.I),
     re.compile(r"\b(?:TELEFUNKEN|MULLARD|AMPEREX|WESTERN ELECTRIC|SHEAFFER|PARKER|WATERMAN|DUNHILL|CASTELLO|PETERSON|HEMINGRAY|BROOKFIELD|WHITALL TATUM|NATCO|EMMINGER|TWIGGS|HARLOE)\b", re.I),
 )
+
+
+def _extract_signal_hits(text: str) -> list[str]:
+    """Keep only recognized collector identifiers, never arbitrary OCR fragments."""
+    return sorted({
+        match.group(0).upper()
+        for pattern in SIGNAL_PATTERNS
+        for match in pattern.finditer(text)
+    })
+
+
+def _parse_tesseract_tsv(output: str, minimum_confidence: float) -> str:
+    """Rebuild OCR lines using only words Tesseract read with useful confidence."""
+    lines: dict[tuple[str, str, str, str], list[tuple[int, str]]] = {}
+    for row in csv.DictReader(StringIO(output), delimiter="\t"):
+        word = re.sub(r"\s+", " ", str(row.get("text") or "")).strip()
+        if not word:
+            continue
+        try:
+            confidence = float(row.get("conf") or -1)
+            word_number = int(row.get("word_num") or 0)
+        except (TypeError, ValueError):
+            continue
+        if confidence < minimum_confidence:
+            continue
+        if sum(character.isalnum() for character in word) < 2:
+            continue
+        key = tuple(str(row.get(field) or "") for field in ("page_num", "block_num", "par_num", "line_num"))
+        lines.setdefault(key, []).append((word_number, word))
+    return "\n".join(
+        " ".join(word for _, word in sorted(words))
+        for words in lines.values()
+        if words
+    )
 
 
 def available() -> bool:
@@ -80,7 +120,9 @@ def _detect_glass_color_signals(content: bytes) -> list[str]:
     }[bucket]]
 
 
-def _read_image_text(url: str, timeout: float, user_agent: str) -> tuple[str, str, list[str]]:
+def _read_image_text(
+    url: str, timeout: float, user_agent: str, minimum_confidence: float
+) -> tuple[list[str], str, list[str]]:
     try:
         response = requests.get(url, timeout=timeout, headers={"User-Agent": user_agent})
         response.raise_for_status()
@@ -91,21 +133,20 @@ def _read_image_text(url: str, timeout: float, user_agent: str) -> tuple[str, st
             image_path = Path(handle.name)
         try:
             result = subprocess.run(
-                ["tesseract", str(image_path), "stdout", "--psm", "11", "-l", "eng"],
+                ["tesseract", str(image_path), "stdout", "--psm", "11", "-l", "eng", "tsv"],
                 capture_output=True,
                 text=True,
                 timeout=timeout,
                 check=False,
             )
             if result.returncode != 0:
-                return "", (result.stderr or "OCR failed").strip()[:240], visual_signals
-            text = re.sub(r"[ \t]+", " ", result.stdout)
-            text = re.sub(r"\n{3,}", "\n\n", text).strip()
-            return text[:12000], "", visual_signals
+                return [], (result.stderr or "OCR failed").strip()[:240], visual_signals
+            text = _parse_tesseract_tsv(result.stdout, minimum_confidence)
+            return _extract_signal_hits(text), "", visual_signals
         finally:
             image_path.unlink(missing_ok=True)
     except (OSError, requests.RequestException, subprocess.SubprocessError) as exc:
-        return "", str(exc)[:240], []
+        return [], str(exc)[:240], []
 
 
 def _is_insulator(item: dict[str, Any]) -> bool:
@@ -116,20 +157,17 @@ def _is_insulator(item: dict[str, Any]) -> bool:
 
 
 def _attach_cached_text(item: dict[str, Any], cache: dict[str, Any]) -> None:
-    texts = [
-        str((cache.get(url) or {}).get("text") or "")
+    hits = sorted({
+        str(hit).upper()
         for url in item.get("images") or []
         if url in cache
-    ]
-    combined = "\n".join(text for text in texts if text).strip()
-    if combined:
-        item["ocr_text"] = combined
-        hits = {
-            match.group(0).upper()
-            for pattern in SIGNAL_PATTERNS
-            for match in pattern.finditer(combined)
-        }
-        item["ocr_hits"] = sorted(hits)
+        for hit in (cache.get(url) or {}).get("hits", [])
+        if hit
+    })
+    if hits:
+        # This field is internal scoring input and is removed before publication.
+        item["ocr_text"] = "\n".join(hits)
+        item["ocr_hits"] = hits
     else:
         item.pop("ocr_text", None)
         item.pop("ocr_hits", None)
@@ -160,6 +198,10 @@ def process_ocr(
     enabled = bool(config.get("enabled", True))
     executable = available()
     timestamp = datetime.now(timezone.utc).isoformat()
+    # Migrate the old cache format even when OCR is disabled or unavailable.
+    for cached in cache.values():
+        if isinstance(cached, dict):
+            cached.pop("text", None)
     for item in items:
         _attach_cached_text(item, cache)
     if not enabled or not executable:
@@ -168,12 +210,14 @@ def process_ocr(
     max_listings = int(config.get("max_listings_per_run", 12))
     max_images = int(config.get("max_images_per_listing", 6))
     timeout = float(config.get("timeout_seconds", 20))
+    minimum_confidence = float(config.get("minimum_confidence", 65))
     user_agent = str(config.get("user_agent") or "AuctionScout-OCR/1.0")
     candidates = [
         item for item in items
         if item.get("detail_status") == "complete"
         and any(
             url not in cache
+            or "hits" not in (cache.get(url) or {})
             or (_is_insulator(item) and "visual_signals" not in (cache.get(url) or {}))
             for url in (item.get("images") or [])[:max_images]
         )
@@ -191,13 +235,15 @@ def process_ocr(
     for item in candidates[:max_listings]:
         changed = False
         for url in (item.get("images") or [])[:max_images]:
-            if url in cache and not (
+            if url in cache and "hits" in (cache.get(url) or {}) and not (
                 _is_insulator(item) and "visual_signals" not in (cache.get(url) or {})
             ):
                 continue
-            text, error, visual_signals = _read_image_text(url, timeout, user_agent)
+            hits, error, visual_signals = _read_image_text(
+                url, timeout, user_agent, minimum_confidence
+            )
             cache[url] = {
-                "text": text, "error": error, "visual_signals": visual_signals,
+                "hits": hits, "error": error, "visual_signals": visual_signals,
                 "processed_at": timestamp,
             }
             processed_images += 1

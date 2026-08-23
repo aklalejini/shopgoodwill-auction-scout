@@ -348,13 +348,13 @@
     "max_listings_per_run": 12,
     "max_images_per_listing": 6,
     "maximum_cache_records": 10000,
+    "minimum_confidence": 65,
     "timeout_seconds": 20,
     "user_agent": "AuctionScout-OCR/1.0 (+cached local Tesseract OCR)"
   },
   "scoring_profiles": {
     "minerals-geology": {
     "base_score": 5,
-    "matched_terms_field": "matched_minerals",
     "high_priority_threshold": 38,
     "undervalued_threshold": 30,
     "high_priority_minimum_photos": 4,

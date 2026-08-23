@@ -116,13 +116,14 @@ def _shipping_adjustment(
 
 
 def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
-    """Return score, human-readable reasons, and matched mineral terms."""
+    """Return a bounded opportunity score with auditable effective contributions."""
     title = str(listing.get("title") or "")
     description = strip_boilerplate(str(listing.get("description") or ""))
     ocr_text = str(listing.get("ocr_text") or "")
     visual_text = str(listing.get("visual_text") or "")
     text = f"{title}\n{description}\n{ocr_text}\n{visual_text}"
-    score = int(config.get("base_score", 0))
+    base_score = int(config.get("base_score", 0))
+    score = base_score
     reasons: list[str] = []
     matched_terms: list[str] = []
     matched_premium: list[str] = []
@@ -186,7 +187,21 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         negatives = [match for match in matches if match[1] < 0]
         top_limit = top_match_limits.get(group_name)
         selected_positives = positives[: int(top_limit)] if top_limit else positives
-        selected = selected_positives + negatives
+        negative_points = sum(points for _, points, _ in negatives)
+        positive_budget = sum(points for _, points, _ in selected_positives)
+        cap = group_caps.get(group_name)
+        capped = cap is not None and positive_budget + negative_points > int(cap)
+        if capped:
+            positive_budget = max(0, int(cap) - negative_points)
+
+        effective_positives: list[tuple[str, int, str]] = []
+        remaining = positive_budget
+        for phrase, points, location in selected_positives:
+            effective = min(points, remaining)
+            remaining -= effective
+            if effective:
+                effective_positives.append((phrase, effective, location))
+        selected = effective_positives + negatives
         group_points = sum(points for _, points, _ in selected)
         for phrase, points, location in selected:
             sign = "+" if points >= 0 else ""
@@ -197,11 +212,10 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
                 f"{len(positives) - int(top_limit)} weaker overlap(s) ignored"
             )
 
-        cap = group_caps.get(group_name)
-        if cap is not None and group_points > int(cap):
-            reduction = group_points - int(cap)
-            group_points = int(cap)
-            reasons.append(f"{label} bonuses capped to prevent keyword stacking (-{reduction})")
+        if capped:
+            reasons.append(
+                f"{label} cap limited keyword stacking; effective contributions are shown"
+            )
         score += group_points
 
     for rule in config.get("title_opportunity_rules", []):
@@ -327,13 +341,25 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         and risk_points >= int(config.get("high_priority_risk_floor", -24))
     )
 
+    if base_score:
+        reasons.append(f"Base score (+{base_score})")
+    bounded_score = max(0, min(100, score))
+    if bounded_score != score:
+        adjustment = bounded_score - score
+        sign = "+" if adjustment >= 0 else ""
+        reasons.append(f"Score boundary adjustment ({sign}{adjustment})")
+    component_pattern = re.compile(r"\(([+-]\d+)\)$")
+    components = [
+        {"reason": reason, "points": int(match.group(1))}
+        for reason in reasons
+        if (match := component_pattern.search(reason))
+    ]
     result = {
-        "score": max(0, min(100, score)),
+        "score": bounded_score,
         "score_reasons": reasons or ["No scoring signals beyond the base score"],
         "matched_keywords": sorted(set(matched_terms)),
         "high_priority_eligible": high_priority_eligible,
     }
-    matched_terms_field = str(config.get("matched_terms_field") or "")
-    if matched_terms_field:
-        result[matched_terms_field] = sorted(set(matched_terms))
+    if sum(component["points"] for component in components) != bounded_score:
+        raise ValueError("Scoring components do not add up to the final score")
     return result

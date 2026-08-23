@@ -53,7 +53,7 @@
 
   function searchableText(item) {
     return [item.title, item.description, item.seller, item.item_id, item.category,
-      ...(item.discovered_by || []), ...(item.matched_keywords || item.matched_minerals || []),
+      ...(item.discovered_by || []), ...(item.matched_keywords || []),
       ...(item.hunt_labels || []), item.source_label, item.location].join(" ").toLocaleLowerCase();
   }
 
@@ -134,6 +134,16 @@
     img.addEventListener("error", () => img.classList.add("image-error"), { once: true });
   }
 
+  function soldCompsUrl(item) {
+    const query = String(item.title || "")
+      .replace(/\b(?:lot of|estate sale|goodwill|untested|as[- ]is)\b/gi, " ")
+      .replace(/[|/()[\]{}]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 160);
+    return `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(query)}&LH_Sold=1&LH_Complete=1`;
+  }
+
   function renderCard(item) {
     const fragment = $("#card-template").content.cloneNode(true);
     const card = $(".listing-card", fragment);
@@ -160,6 +170,7 @@
     $("h3", fragment).textContent = item.title;
     $(".seller-name", fragment).textContent = item.seller || item.location || "Seller not yet loaded";
     $(".item-id", fragment).textContent = `${item.source_label || "ShopGoodwill"} #${item.source_native_id || item.item_id}`;
+    $(".comps-link", fragment).href = soldCompsUrl(item);
 
     const thumbnailRow = $(".thumbnail-row", fragment);
     thumbnails.slice(0, 5).forEach((source, index) => {
@@ -232,7 +243,7 @@
       : "";
     const reasons = (item.score_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
     const cluster = item.seller_cluster;
-    const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h.</div>` : "";
+    const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h.${cluster.combined_shipping_unavailable ? " Seller states combined shipping is unavailable." : " Check the seller's policy before assuming shipping can be combined."}</div>` : "";
     const ocrMarkup = item.ocr_hits?.length ? `<div class="ocr-note"><strong>Image text:</strong> ${item.ocr_hits.map(escapeHtml).join(", ")}</div>` : "";
     const visualMarkup = item.visual_hits?.length ? `<div class="ocr-note"><strong>Image color clue:</strong> ${item.visual_hits.map(escapeHtml).join(", ")}</div>` : "";
     const imageMarkup = images.length
@@ -267,7 +278,10 @@
             <ul>${reasons}</ul>
           </div>
           <p class="detail-description">${escapeHtml(item.description || "The full description has not been loaded yet.")}</p>
-          <a class="visit-listing" href="${escapeHtml(item.listing_url)}" target="_blank" rel="noopener">Open on ${escapeHtml(item.source_label || "ShopGoodwill")} ↗</a>
+          <div class="detail-actions">
+            <a class="sold-comps" href="${escapeHtml(soldCompsUrl(item))}" target="_blank" rel="noopener">Check eBay sold comps ↗</a>
+            <a class="visit-listing" href="${escapeHtml(item.listing_url)}" target="_blank" rel="noopener">Open on ${escapeHtml(item.source_label || "ShopGoodwill")} ↗</a>
+          </div>
         </div>
       </div>`;
     dialog.showModal();

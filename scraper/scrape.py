@@ -29,6 +29,40 @@ from .valuation import load_outcomes
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+PUBLIC_INTERNAL_FIELDS = {
+    "valuation_matches", "valuation_reasons", "estimated_resale_low",
+    "estimated_resale_high", "estimated_resale", "valuation_confidence",
+    "sell_probability", "estimated_days_to_sell", "estimated_shipping",
+    "estimated_weight_lb", "estimated_labor_cost", "liquidity",
+    "expected_margin", "max_bid", "manual_valuation", "naivete_score",
+    "naivete_reasons", "fee_rate", "target_multiple", "clean_description",
+    "potentially_undervalued", "financially_actionable", "ocr_text",
+    "visual_text", "matched_minerals", "potential_shipping_savings",
+    "score_components",
+}
+
+
+def clean_public_record(value: Any) -> None:
+    """Recursively remove internal, obsolete, and unverified publication fields."""
+    if isinstance(value, dict):
+        for field in PUBLIC_INTERNAL_FIELDS:
+            value.pop(field, None)
+        for child in value.values():
+            clean_public_record(child)
+    elif isinstance(value, list):
+        for child in value:
+            clean_public_record(child)
+
+
+def derive_high_priority(
+    active: list[dict[str, Any]], maximum_records: int
+) -> list[dict[str, Any]]:
+    """Return high-priority records directly from the canonical active objects."""
+    return sorted(
+        (item for item in active if item.get("high_priority")),
+        key=lambda item: -int(item.get("score") or 0),
+    )[:maximum_records]
+
 
 def apply_seller_clusters(items: list[dict[str, Any]], close_window_hours: int = 72) -> None:
     """Annotate same-seller groups whose auctions close within a practical window."""
@@ -63,8 +97,6 @@ def apply_seller_clusters(items: list[dict[str, Any]], close_window_hours: int =
         for index, cluster in enumerate(clusters, start=1):
             if len(cluster) < 2:
                 continue
-            shipping_total = sum(float(item.get("estimated_shipping") or 0) for item in cluster)
-            combined_proxy = max(float(item.get("estimated_shipping") or 0) for item in cluster) + 2 * (len(cluster) - 1)
             policies = " ".join(
                 str((item.get("shipping") or {}).get("policy") or "") for item in cluster
             ).casefold()
@@ -80,7 +112,6 @@ def apply_seller_clusters(items: list[dict[str, Any]], close_window_hours: int =
                 "id": f"{seller_id}:{index}",
                 "count": len(cluster),
                 "item_ids": [str(item.get("item_id")) for item in cluster],
-                "potential_shipping_savings": 0.0 if combining_unavailable else round(max(0, shipping_total - combined_proxy), 2),
                 "combined_shipping_unavailable": combining_unavailable,
                 "close_window_hours": close_window_hours,
             }
@@ -265,10 +296,7 @@ def apply_hunt_scoring(
         raise ValueError("At least one enabled hunt and scoring profile is required")
 
     best_hunt, best_profile, best_result = max(scored, key=lambda entry: entry[2]["score"])
-    item.pop("matched_minerals", None)
     item.update(best_result)
-    if best_hunt["id"] == "minerals-geology":
-        item["matched_minerals"] = list(best_result.get("matched_keywords") or [])
     item["primary_hunt"] = {"id": best_hunt["id"], "label": best_hunt["label"]}
     item["hunt_scores"] = [
         {
@@ -532,20 +560,10 @@ def refresh(
 
     ocr_stats = process_ocr(active, ocr_cache, config.get("ocr", {}))
     economics = config.get("economics", {})
-    valuation_fields = (
-        "valuation_matches", "valuation_reasons", "estimated_resale_low",
-        "estimated_resale_high", "estimated_resale", "valuation_confidence",
-        "sell_probability", "estimated_days_to_sell", "estimated_shipping",
-        "estimated_weight_lb", "estimated_labor_cost", "liquidity",
-        "expected_margin", "max_bid", "manual_valuation", "naivete_score",
-        "naivete_reasons",
-    )
     for item in active:
         # OCR may expose identifiers that were absent from listing copy.
         apply_hunt_scoring(item, hunts, profiles)
         score_high_priority = bool(item.get("high_priority"))
-        for field in valuation_fields:
-            item.pop(field, None)
         item["score_high_priority"] = score_high_priority
         item["potentially_high_value"] = score_high_priority
         item["high_priority"] = score_high_priority
@@ -556,6 +574,7 @@ def refresh(
             item["outcome"] = outcome
         else:
             item.pop("outcome", None)
+        clean_public_record(item)
 
     apply_seller_clusters(active, int(economics.get("cluster_close_window_hours", 72)))
     active.sort(
@@ -575,16 +594,13 @@ def refresh(
         for item in expired
     ])
     for item in archive:
-        for field in valuation_fields:
-            item.pop(field, None)
-        item.pop("potentially_undervalued", None)
-        item.pop("financially_actionable", None)
+        clean_public_record(item)
     archive.sort(key=lambda item: item.get("archived_at") or "", reverse=True)
     archive = archive[: int(config.get("archive", {}).get("maximum_records", 1000))]
 
-    high_priority = [item for item in active if item.get("high_priority")]
-    high_priority.sort(key=lambda item: -int(item.get("score") or 0))
-    high_priority = high_priority[: int(config.get("high_priority", {}).get("maximum_records", 100))]
+    high_priority = derive_high_priority(
+        active, int(config.get("high_priority", {}).get("maximum_records", 100))
+    )
 
     for target in (data_dir, docs_data_dir):
         write_json_atomic(target / "listings.json", active)
