@@ -1,21 +1,18 @@
 {
-  "generated_at": "2026-08-23T19:32:37.845306+00:00",
-  "active_count": 347,
-  "high_priority_count": 22,
+  "generated_at": "2026-08-23T20:24:53.667002+00:00",
+  "active_count": 350,
+  "high_priority_count": 23,
   "archived_count": 18,
-  "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
-    "GovDeals / 38635 + 50 mi: Request failed after limited retries: HTTPSConnectionPool(host='prod-seo.govdeals.com', port=443): Read timed out. (read timeout=25.0)"
-  ],
-  "detail_requests_completed": 5,
-  "relevance_filtered_count": 693,
-  "potentially_high_value_count": 22,
+  "search_failures": [],
+  "detail_requests_completed": 3,
+  "relevance_filtered_count": 692,
+  "potentially_high_value_count": 23,
   "ocr": {
-    "available": true,
-    "listings_processed": 12,
-    "images_processed": 72
+    "available": false,
+    "listings_processed": 0,
+    "images_processed": 0
   },
-  "data_source": "ShopGoodwill Buyer API plus official GSA and GovDeals public listings",
+  "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
     "zip_code": "38635",
     "radius_miles": 50
@@ -24,8 +21,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 295,
-      "detail_requests_attempted": 1
+      "active_count": 298,
+      "detail_requests_attempted": 0
     },
     {
       "id": "gsa-auctions",
@@ -37,14 +34,20 @@
       "id": "govdeals",
       "label": "GovDeals",
       "active_count": 52,
-      "detail_requests_attempted": 4
+      "detail_requests_attempted": 3
+    },
+    {
+      "id": "ctbids",
+      "label": "CTBids",
+      "active_count": 0,
+      "detail_requests_attempted": 0
     }
   ],
   "hunts": [
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 205
+      "active_count": 208
     },
     {
       "id": "sealed-vintage-media",
@@ -70,6 +73,11 @@
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
       "active_count": 52
+    },
+    {
+      "id": "local-estate-auctions",
+      "label": "Local Estate Auctions",
+      "active_count": 0
     }
   ]
 }
