@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T14:36:55.913431+00:00",
-  "active_count": 340,
+  "generated_at": "2026-08-23T15:35:21.410105+00:00",
+  "active_count": 341,
   "high_priority_count": 0,
   "archived_count": 17,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 14,
-  "relevance_filtered_count": 691,
+  "detail_requests_completed": 5,
+  "relevance_filtered_count": 692,
   "financially_actionable_count": 0,
   "ocr": {
     "available": true,
@@ -23,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 288,
-      "detail_requests_attempted": 2
+      "active_count": 289,
+      "detail_requests_attempted": 1
     },
     {
       "id": "gsa-auctions",
@@ -36,14 +36,14 @@
       "id": "govdeals",
       "label": "GovDeals",
       "active_count": 52,
-      "detail_requests_attempted": 12
+      "detail_requests_attempted": 4
     }
   ],
   "hunts": [
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 201
+      "active_count": 202
     },
     {
       "id": "sealed-vintage-media",
