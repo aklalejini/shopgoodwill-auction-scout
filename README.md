@@ -1,6 +1,6 @@
 # Auction Scout
 
-Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally, nearby government-surplus inventory from GSA Auctions and GovDeals, and nearby estate-auction inventory from CTBids. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, **Estate Tobacco Pipes**, **Glass Insulators**, and a broad **Local Estate Auctions** watch.
+Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally, nearby government-surplus inventory from GSA Auctions and GovDeals, and CTBids inventory that is either nearby or marked shippable. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, **Estate Tobacco Pipes**, **Glass Insulators**, and a broad **CTBids Estate Auctions** watch.
 
 The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on GitHub Pages, and the hourly data refresh runs in GitHub Actions. No account, API key, database, backend, paid API, or credit card is required.
 
@@ -10,7 +10,7 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 
 - An image-first responsive gallery, sorted by evidence-based potential score
 - Filters for source, category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
-- Nearby government-surplus and estate-auction feeds fixed to ZIP **38635** within **50 miles**, with item location and pickup status visible
+- Nearby government-surplus and CTBids pickup feeds fixed to ZIP **38635** within **50 miles**, plus CTBids lots marked shippable nationwide
 - Visible Buy It Now pricing with an availability filter, maximum-price filter, and lowest-price sorting
 - Current price, bids, delivery method, photo count, and Buy It Now information on every card
 - Full-resolution detail views with every listing image and explainable potential-scoring reasons
@@ -56,7 +56,7 @@ The detail response supplies `imageServer` plus semicolon-separated `imageUrlStr
 
 Each run searches the editable terms, merges duplicates by item ID, updates search-level price/bid/end-time fields, and requests full details only for records that do not already have them. The number of new detail calls is capped per run. Existing records are retained until their end time even if they move outside the first page of search results. Expired records move to the capped archive with their final observed price.
 
-For nearby inventory, each run asks GSA Auctions, GovDeals, and CTBids for active listings within 50 miles of 38635. Results are namespaced by source so overlapping numeric IDs cannot collide. Government lots favor visible equipment signals; CTBids lots favor visible collector, material, maker, and estate-collection signals. Local pickup does not disqualify a lead because these source searches are already geographically constrained.
+Each run asks GSA Auctions, GovDeals, and CTBids for active listings within 50 miles of 38635, then separately asks CTBids for every active listing explicitly marked shippable. Results are deduplicated and namespaced by source so overlapping numeric IDs cannot collide. Government lots favor visible equipment signals; CTBids lots favor visible collector, material, maker, and estate-collection signals. Pickup-only CTBids lots are retained only from the nearby search.
 
 The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, photos, bid activity, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. The result is a review priority—not an appraisal—and every card exposes the reasons behind its score.
 
@@ -92,7 +92,7 @@ The scraper writes identical feeds to `data/` and `docs/data/`. The first locati
 Edit [`scraper/config.json`](scraper/config.json):
 
 - `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
-- `local_search` sets the ZIP code and radius used for nearby inventory, while `sources` enables and rate-limits GSA Auctions, GovDeals, and CTBids independently.
+- `local_search` sets the ZIP code and radius used for nearby inventory, while `sources` enables and rate-limits GSA Auctions, GovDeals, and CTBids independently. CTBids also supports a separate nationwide shippable pass.
 - `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
 - `search_terms` inside a hunt controls that category's queries.
 - `seller_sweeps` provides a small ending-soon fallback for proven sellers whose lots are sometimes missing from ShopGoodwill keyword results. Sweep results are filtered against the hunt's `domain_keywords` before they enter the feed.
@@ -180,7 +180,7 @@ Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This pr
 ## Known limitations
 
 - ShopGoodwill and CTBids do not document these as supported public APIs, and any storefront can change fields or routes without notice.
-- GSA Auctions, GovDeals, or CTBids may legitimately return zero active items in the selected local radius. The source status shown on the page distinguishes an empty result from a failed refresh.
+- GSA Auctions, GovDeals, or the nearby CTBids pass may legitimately return zero active items in the selected local radius. The source status shown on the page distinguishes an empty result from a failed refresh.
 - Search currently reads the newest first page for each term to keep hourly request volume modest. Incremental runs accumulate still-active records, but the very first run may not include every older matching auction.
 - Full details are capped per run. Lower-scoring new records may temporarily show one search-result image and `detail_status: "pending"`; later runs continue the queue.
 - Shipping is seller- and destination-dependent. Calculated shipping uses a conservative weight/category model and is not a ZIP-specific carrier quote.

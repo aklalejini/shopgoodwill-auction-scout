@@ -279,8 +279,8 @@
     },
     {
       "id": "local-estate-auctions",
-      "label": "Local Estate Auctions",
-      "description": "Active CTBids estate-auction lots within 50 miles of the configured ZIP code, ranked by visible high-value signals.",
+      "label": "CTBids Estate Auctions",
+      "description": "Nearby CTBids pickup lots plus shippable CTBids lots nationwide, ranked by visible high-value signals.",
       "enabled": true,
       "scoring_profile": "local-estate-auctions",
       "search_terms": []
@@ -323,8 +323,10 @@
     },
     "ctbids": {
       "enabled": true,
+      "include_nationwide_shippable": true,
       "page_size": 250,
       "maximum_pages": 4,
+      "nationwide_maximum_pages": 8,
       "bid_batch_size": 100,
       "max_detail_requests_per_run": 20,
       "request_delay_seconds": 0.35,

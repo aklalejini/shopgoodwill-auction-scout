@@ -167,6 +167,8 @@ main { padding-top: 18px; }
 .notice { margin-bottom: 16px; padding: 11px 13px; color: #704017; background: var(--orange-light); border: 1px solid #e5b98d; font-size: 12px; }
 
 .gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.load-more-wrap { display: flex; justify-content: center; padding: 24px 0 4px; }
+.load-more-wrap .clear-filters { min-width: 220px; }
 .listing-card {
   min-width: 0;
   display: flex;

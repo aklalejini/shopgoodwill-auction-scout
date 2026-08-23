@@ -3,7 +3,8 @@
 
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-  const state = { listings: [], status: null, evaluations: {} };
+  const PAGE_SIZE = 120;
+  const state = { listings: [], status: null, evaluations: {}, renderLimit: PAGE_SIZE };
   const controls = {
     keyword: $("#keyword"), sort: $("#sort"), minPrice: $("#min-price"),
     maxPrice: $("#max-price"), maxBuyNow: $("#max-buy-now"),
@@ -274,9 +275,14 @@
 
   function render() {
     const listings = visibleListings();
+    const displayed = listings.slice(0, state.renderLimit);
     const gallery = $("#gallery");
-    gallery.replaceChildren(...listings.map(renderCard));
-    $("#result-summary").textContent = `${listings.length} listing${listings.length === 1 ? "" : "s"} worth a look`;
+    gallery.replaceChildren(...displayed.map(renderCard));
+    $("#result-summary").textContent = `${listings.length.toLocaleString()} listing${listings.length === 1 ? "" : "s"} worth a look`;
+    const loadMore = $("#load-more");
+    const remaining = listings.length - displayed.length;
+    loadMore.hidden = remaining <= 0;
+    loadMore.textContent = `Show more (${remaining.toLocaleString()} remaining)`;
     $("#empty-state").hidden = listings.length !== 0;
     gallery.hidden = listings.length === 0;
     const count = activeFilterCount();
@@ -291,6 +297,7 @@
       else element.value = "";
     });
     ending24.checked = false;
+    state.renderLimit = PAGE_SIZE;
     render();
   }
 
@@ -354,7 +361,10 @@
     }
   }
 
-  Object.values(controls).forEach(control => control.addEventListener("input", render));
+  Object.values(controls).forEach(control => control.addEventListener("input", () => {
+    state.renderLimit = PAGE_SIZE;
+    render();
+  }));
   ending24.addEventListener("input", () => {
     controls.endingHours.value = ending24.checked ? "24" : "";
     render();
@@ -369,6 +379,10 @@
   });
   $("#clear-filters").addEventListener("click", clearFilters);
   $("#empty-clear").addEventListener("click", clearFilters);
+  $("#load-more").addEventListener("click", () => {
+    state.renderLimit += PAGE_SIZE;
+    render();
+  });
   $("#dialog-close").addEventListener("click", () => $("#detail-dialog").close());
   $("#detail-dialog").addEventListener("click", event => {
     if (event.target === event.currentTarget) event.currentTarget.close();

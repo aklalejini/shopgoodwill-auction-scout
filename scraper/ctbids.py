@@ -1,4 +1,4 @@
-"""Public-source adapter for nearby CTBids estate-auction inventory."""
+"""Public-source adapter for nearby and shippable CTBids estate auctions."""
 
 from __future__ import annotations
 
@@ -29,7 +29,26 @@ class CTBidsClient(_PublicClient):
         })
 
     @staticmethod
-    def _search_body(zip_code: str, radius_miles: int, page_size: int) -> dict[str, Any]:
+    def _search_body(
+        zip_code: str | None,
+        radius_miles: int | None,
+        page_size: int,
+        *,
+        shippable_only: bool = False,
+    ) -> dict[str, Any]:
+        filters: list[dict[str, Any]] = [
+            {"field": "salestatus", "value": "Started", "op": "=", "join": "AND"},
+            {"field": "itemstatus", "value": "Ready", "op": "=", "join": "AND"},
+        ]
+        if shippable_only:
+            filters.append(
+                {"field": "isshippable", "value": "1", "op": "=", "join": "AND"}
+            )
+        else:
+            filters.extend([
+                {"field": "zipcode", "value": str(zip_code or ""), "op": "=", "join": "AND"},
+                {"field": "miles", "value": str(radius_miles or 0), "op": "=", "join": "AND"},
+            ])
         return {
             "sort": [{"field": "itemclosetime", "direction": "asc"}],
             "page": {"size": page_size},
@@ -40,18 +59,22 @@ class CTBidsClient(_PublicClient):
                 "category", "categoryGroup", "itemseourl", "startingprice",
                 "buynowprice", "city", "state", "zipcode",
             ],
-            "filter": [
-                {"field": "salestatus", "value": "Started", "op": "=", "join": "AND"},
-                {"field": "itemstatus", "value": "Ready", "op": "=", "join": "AND"},
-                {"field": "zipcode", "value": zip_code, "op": "=", "join": "AND"},
-                {"field": "miles", "value": str(radius_miles), "op": "=", "join": "AND"},
-            ],
+            "filter": filters,
         }
 
-    def search(self, zip_code: str, radius_miles: int) -> tuple[list[dict[str, Any]], int]:
+    def search(
+        self,
+        zip_code: str | None = None,
+        radius_miles: int | None = None,
+        *,
+        shippable_only: bool = False,
+    ) -> tuple[list[dict[str, Any]], int]:
         page_size = min(750, max(1, int(self.config.get("page_size", 250))))
-        maximum_pages = max(1, int(self.config.get("maximum_pages", 4)))
-        body = self._search_body(zip_code, radius_miles, page_size)
+        pages_key = "nationwide_maximum_pages" if shippable_only else "maximum_pages"
+        maximum_pages = max(1, int(self.config.get(pages_key, 4)))
+        body = self._search_body(
+            zip_code, radius_miles, page_size, shippable_only=shippable_only
+        )
         found: list[dict[str, Any]] = []
         total = 0
         for _ in range(maximum_pages):
@@ -67,12 +90,18 @@ class CTBidsClient(_PublicClient):
                 raise DataSourceError("CTBids search response was missing its item list")
             found.extend(item for item in items if isinstance(item, dict) and item.get("id"))
             page = payload.get("page") or {}
-            total = _int(page.get("total")) or len(found)
+            reported_total = _int(page.get("total"))
+            if reported_total:
+                total = reported_total
+            elif not total:
+                total = len(found)
             next_key = (page.get("keyset") or {}).get("next")
             if not items or not next_key or len(found) >= total:
                 break
             body["page"] = {"size": page_size, "next": next_key}
 
+        if shippable_only:
+            found = [item for item in found if bool(_int(item.get("isshippable")))]
         self._add_current_bids(found)
         return found, total
 
@@ -144,7 +173,13 @@ def _image_values(item: dict[str, Any]) -> tuple[list[str], list[str]]:
 
 
 def ctbids_listing(
-    item: dict[str, Any], timestamp: str, hunt: dict[str, Any], zip_code: str, radius: int
+    item: dict[str, Any],
+    timestamp: str,
+    hunt: dict[str, Any],
+    zip_code: str,
+    radius: int,
+    *,
+    scope: str = "nearby",
 ) -> dict[str, Any]:
     item_id = str(item.get("id"))
     sale_id = str(item.get("saleid") or "")
@@ -160,7 +195,8 @@ def ctbids_listing(
     buy_now_price = _float(item.get("buynowprice"))
     bid_count = _int(bid.get("bidcount"))
     price = _float(bid.get("bidprice")) if bid_count else _float(item.get("startingprice"))
-    return {
+    nearby = scope == "nearby"
+    record = {
         "item_id": f"ctbids-{sale_id}-{item_id}", "source": "ctbids", "source_label": "CTBids",
         "source_native_id": item_id, "source_sale_id": sale_id,
         "title": str(item.get("title") or "Untitled CTBids lot"), "price": price,
@@ -176,11 +212,16 @@ def ctbids_listing(
         },
         "category": category, "images": images, "thumbnails": thumbnails,
         "description": "", "location": location,
-        "local_search": {"zip_code": zip_code, "radius_miles": radius},
-        "discovered_by": [f"CTBids within {radius} mi of {zip_code}"],
+        "discovered_by": [
+            f"CTBids within {radius} mi of {zip_code}"
+            if nearby else "CTBids shippable nationwide"
+        ],
         "hunt_categories": [str(hunt["id"])], "hunt_labels": [str(hunt["label"])],
         "detail_status": "pending", "last_seen": timestamp, "last_updated": timestamp,
     }
+    if nearby:
+        record["local_search"] = {"zip_code": zip_code, "radius_miles": radius}
+    return record
 
 
 def apply_ctbids_detail(listing: dict[str, Any], detail: dict[str, Any]) -> dict[str, Any]:

@@ -393,6 +393,19 @@ def refresh(
         except DataSourceError as exc:
             failures.append(f"CTBids / {zip_code} + {radius_miles} mi: {exc}")
             print(f"warning: {failures[-1]}", file=sys.stderr)
+        if source_config.get("ctbids", {}).get("include_nationwide_shippable", True):
+            try:
+                items, _ = ctbids_client.search(shippable_only=True)
+                discovered.extend(
+                    ctbids_listing(
+                        item, timestamp, estate_hunt, zip_code, radius_miles,
+                        scope="shippable",
+                    )
+                    for item in items
+                )
+            except DataSourceError as exc:
+                failures.append(f"CTBids / nationwide shippable: {exc}")
+                print(f"warning: {failures[-1]}", file=sys.stderr)
 
     fresh_records = deduplicate(discovered)
     active_by_id = {

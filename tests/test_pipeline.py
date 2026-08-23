@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image
-from scraper.ctbids import apply_ctbids_detail, ctbids_listing
+from scraper.ctbids import CTBidsClient, apply_ctbids_detail, ctbids_listing
 from scraper.ocr import _detect_glass_color_signals
 from scraper.scoring import score_listing, strip_boilerplate
 from scraper.government import (
@@ -785,6 +785,42 @@ class GovernmentSourceTests(unittest.TestCase):
 
 
 class CTBidsSourceTests(unittest.TestCase):
+    def test_nationwide_search_requires_ctbids_shippable_flag(self):
+        body = CTBidsClient._search_body(
+            None, None, 250, shippable_only=True
+        )
+        filters = {row["field"]: row["value"] for row in body["filter"]}
+        self.assertEqual(filters["isshippable"], "1")
+        self.assertNotIn("zipcode", filters)
+        self.assertNotIn("miles", filters)
+
+    def test_nationwide_search_keeps_paging_when_later_pages_omit_total(self):
+        payloads = [
+            {"status": "success", "data": [{"id": 1, "isshippable": 1}],
+             "page": {"total": 3, "keyset": {"next": "one"}}},
+            {"status": "success", "data": [{"id": 2, "isshippable": 1}],
+             "page": {"keyset": {"next": "two"}}},
+            {"status": "success", "data": [{"id": 3, "isshippable": 1}],
+             "page": {"keyset": {}}},
+        ]
+
+        class Reply:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        client = CTBidsClient({
+            "page_size": 1, "nationwide_maximum_pages": 3,
+            "request_delay_seconds": 0,
+        })
+        client._request = lambda *args, **kwargs: Reply(payloads.pop(0))
+        client._add_current_bids = lambda items: None
+        items, total = client.search(shippable_only=True)
+        self.assertEqual([item["id"] for item in items], [1, 2, 3])
+        self.assertEqual(total, 3)
+
     def test_search_item_is_namespaced_and_keeps_buy_now(self):
         hunt = {"id": "local-estate-auctions", "label": "Local Estate Auctions"}
         listing = ctbids_listing({
@@ -805,6 +841,18 @@ class CTBidsSourceTests(unittest.TestCase):
         self.assertEqual(listing["buy_now_price"], 75)
         self.assertTrue(listing["has_buy_now"])
         self.assertEqual(listing["end_time"], "2026-08-25T20:15:00+00:00")
+        self.assertEqual(listing["discovered_by"], ["CTBids within 50 mi of 38635"])
+
+    def test_nationwide_listing_is_marked_shippable_without_local_scope(self):
+        hunt = {"id": "local-estate-auctions", "label": "CTBids Estate Auctions"}
+        listing = ctbids_listing({
+            "id": 1079801, "saleid": 6406, "title": "Shippable Camera",
+            "startingprice": 1, "isshippable": 1, "city": "Buffalo",
+            "state": "New York", "zipcode": "14202",
+        }, "2026-08-23T12:00:00+00:00", hunt, "38635", 50, scope="shippable")
+        self.assertFalse(listing["shipping"]["pickup_only"])
+        self.assertEqual(listing["discovered_by"], ["CTBids shippable nationwide"])
+        self.assertNotIn("local_search", listing)
 
     def test_detail_adds_all_photos_description_and_delivery(self):
         listing = {
