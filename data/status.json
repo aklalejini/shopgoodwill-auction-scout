@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-08-23T20:24:53.667002+00:00",
-  "active_count": 350,
+  "generated_at": "2026-08-23T20:37:15.157564+00:00",
+  "active_count": 351,
   "high_priority_count": 23,
   "archived_count": 18,
-  "search_failures": [],
-  "detail_requests_completed": 3,
+  "search_failures": [
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
+  ],
+  "detail_requests_completed": 4,
   "relevance_filtered_count": 692,
   "potentially_high_value_count": 23,
   "ocr": {
-    "available": false,
-    "listings_processed": 0,
-    "images_processed": 0
+    "available": true,
+    "listings_processed": 12,
+    "images_processed": 72
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -21,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 298,
-      "detail_requests_attempted": 0
+      "active_count": 299,
+      "detail_requests_attempted": 4
     },
     {
       "id": "gsa-auctions",
@@ -34,7 +36,7 @@
       "id": "govdeals",
       "label": "GovDeals",
       "active_count": 52,
-      "detail_requests_attempted": 3
+      "detail_requests_attempted": 0
     },
     {
       "id": "ctbids",
@@ -67,7 +69,7 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 36
+      "active_count": 37
     },
     {
       "id": "local-government-surplus",
