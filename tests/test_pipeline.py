@@ -20,6 +20,7 @@ CONFIG = json.loads((ROOT / "scraper" / "config.json").read_text(encoding="utf-8
 PROFILE = CONFIG["scoring_profiles"]["minerals-geology"]
 MEDIA_PROFILE = CONFIG["scoring_profiles"]["sealed-vintage-media"]
 TUBE_PROFILE = CONFIG["scoring_profiles"]["vintage-electron-tubes"]
+PEN_PROFILE = CONFIG["scoring_profiles"]["vintage-pens"]
 
 
 class ScoringTests(unittest.TestCase):
@@ -334,6 +335,63 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(high["high_priority_eligible"])
         self.assertGreater(high["score"], low["score"])
         self.assertTrue(any("Generic multi-photo" in reason for reason in high["score_reasons"]))
+
+    def test_vintage_pen_hunt_accepts_lots_sets_and_collector_models(self):
+        matches = [
+            {"title": "Estate Lot of 8 Old Pens"},
+            {"title": "Vintage Parker 51 Fountain Pen and Pencil Set"},
+            {"title": "Antique Waterman Lever Filler with Warranted 14K Nib"},
+            {"title": "Sheaffer Snorkel White Dot Fountain Pen"},
+            {"title": "Box of Vintage Fountain Pen Parts and Gold Nibs"},
+        ]
+        for listing in matches:
+            with self.subTest(title=listing["title"]):
+                self.assertTrue(matches_hunt_domain(listing, PEN_PROFILE))
+
+    def test_vintage_pen_hunt_rejects_unrelated_and_modern_pen_products(self):
+        collisions = [
+            {"title": "Digital Insulin Injector Pen New in Box"},
+            {"title": "Wacom Digital Stylus Pen Tablet Accessory"},
+            {"title": "Lot of Acrylic Paint Pens and Markers"},
+            {"title": "Professional Tattoo Pen Machine Kit"},
+            {"title": "Original Pen and Ink Drawing Framed Artwork"},
+            {"title": "Vintage Pen & Ink Signed Drawing by Local Artist"},
+            {"title": "Vintage Framed Pen Ink Lion Head Drawing"},
+            {"title": "Crafting Supplies Lot with Colored Pens and Markers"},
+            {"title": "Vintage Decorative Lacquered Wood Trinket or Pen Box"},
+            {"title": "Vintage Empty Leather Pen Case Only"},
+            {"title": "Set of LED Pen Flashlights"},
+            {"title": "Apple Pencil Stylus for iPad"},
+        ]
+        for listing in collisions:
+            with self.subTest(title=listing["title"]):
+                self.assertFalse(matches_hunt_domain(listing, PEN_PROFILE))
+
+    def test_photo_rich_generic_pen_lot_rewards_hidden_parts_opportunity(self):
+        promising = {
+            "title": "Estate Lot of 8 Old Pens",
+            "description": "Assorted writing instruments from an estate; no nib or imprint closeups.",
+            "price": 39.99,
+            "bids": 0,
+            "images": [str(index) for index in range(12)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        damaged = {
+            "title": "Vintage Fountain Pen Lot Modern Reproduction Steel Nib",
+            "description": "Personalized with cracked caps, sprung tines and missing iridium.",
+            "price": 39.99,
+            "bids": 0,
+            "images": [str(index) for index in range(12)],
+            "detail_status": "complete",
+            "shipping": {"listed_price": 0, "handling_price": 2, "pickup_only": False},
+        }
+        high = score_listing(promising, PEN_PROFILE)
+        low = score_listing(damaged, PEN_PROFILE)
+        self.assertGreaterEqual(high["score"], PEN_PROFILE["high_priority_threshold"])
+        self.assertTrue(high["high_priority_eligible"])
+        self.assertGreater(high["score"], low["score"])
+        self.assertTrue(any("Generic photo-rich pen lot" in reason for reason in high["score_reasons"]))
 
     def test_deduplication_unions_search_terms(self):
         records = [
