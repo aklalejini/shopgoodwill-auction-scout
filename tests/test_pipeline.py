@@ -167,6 +167,46 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(matches_hunt_domain(mineral, PROFILE))
         self.assertFalse(matches_hunt_domain(clothing, PROFILE))
 
+    def test_obvious_product_collisions_are_excluded(self):
+        collisions = [
+            {"title": "Fossil Quartz Crystal Women's Watch", "category": "Women's Watches"},
+            {"title": "Crystal Doll with Amethyst Color Dress", "category": "Dolls"},
+            {"title": "Mineral Wash Rock & Republic Jeans", "category": "Clothing"},
+            {"title": "Sterling Silver Geode Pendant Necklace", "category": "Necklaces"},
+            {"title": "Loose Oval & Marquise Cut Gemstones", "category": "Loose Gemstones"},
+            {"title": "Waterford Crystal Bowl", "category": "Glass > Fine Crystal"},
+        ]
+        for listing in collisions:
+            with self.subTest(title=listing["title"]):
+                self.assertFalse(matches_hunt_domain(listing, PROFILE))
+
+    def test_true_specimens_survive_misleading_categories(self):
+        specimens = [
+            {
+                "title": "4.9 lbs Mixed Minerals Crystals Rocks Geodes Quartz Amethyst Agate Lot",
+                "category": "Glass > Fine Crystal",
+            },
+            {
+                "title": "Light Pink Rough Tourmaline Gemstones - 104g Total",
+                "category": "Jewelry & Gemstones > Loose Gemstones",
+            },
+            {
+                "title": "Natural Crystal & Mineral Specimen Lot 13pc",
+                "category": "Jewelry & Gemstones",
+            },
+        ]
+        for listing in specimens:
+            with self.subTest(title=listing["title"]):
+                self.assertTrue(matches_hunt_domain(listing, PROFILE))
+
+    def test_ambiguous_terms_need_multiple_signals_and_collection_context(self):
+        self.assertFalse(matches_hunt_domain({"title": "Classic Rock Collection"}, PROFILE))
+        self.assertTrue(
+            matches_hunt_domain(
+                {"title": "Mixed Natural Rocks Crystals Collection Lot"}, PROFILE
+            )
+        )
+
     def test_deduplication_unions_search_terms(self):
         records = [
             {"item_id": "42", "title": "Rock lot", "discovered_by": ["rock"]},

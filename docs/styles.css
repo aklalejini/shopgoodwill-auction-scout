@@ -128,7 +128,7 @@ main { width: min(1480px, calc(100% - 48px)); margin: 0 auto; }
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: minmax(280px, 1fr) 190px 210px auto;
+  grid-template-columns: minmax(260px, 1fr) 170px 190px auto auto;
   gap: 12px;
   padding: 14px;
   background: rgba(255, 254, 250, .92);
@@ -150,6 +150,26 @@ main { width: min(1480px, calc(100% - 48px)); margin: 0 auto; }
   outline: 0;
 }
 .toolbar input:focus, .toolbar select:focus, .filters input:focus, .filters select:focus { border-color: var(--forest-bright); }
+
+.toolbar .quick-filter {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  margin: 0;
+  padding: 0 15px;
+  color: var(--forest);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-size: 11px;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.toolbar .quick-filter:has(input:checked) { background: var(--amber-light); border-color: var(--amber); }
+.toolbar .quick-filter input { width: 16px; height: 16px; border: 0; accent-color: var(--forest); }
 
 .filter-toggle {
   align-self: center;
@@ -285,7 +305,8 @@ dialog::backdrop { background: rgba(10, 22, 19, .74); backdrop-filter: blur(5px)
   .hero-stats strong { font-size: 25px; }
   .toolbar { grid-template-columns: 1fr 1fr; }
   .search-wrap { grid-column: 1 / -1; }
-  .filter-toggle { grid-column: 1 / -1; }
+  .quick-filter { grid-column: 1 / 2; }
+  .filter-toggle { grid-column: 2 / 3; }
   .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .detail-layout { grid-template-columns: 1fr; }
   .detail-info { position: static; }
@@ -300,6 +321,7 @@ dialog::backdrop { background: rgba(10, 22, 19, .74); backdrop-filter: blur(5px)
   .hero-stats { overflow: hidden; }
   .hero-stats span { font-size: 8px; }
   .toolbar { top: 6px; }
+  .quick-filter, .filter-toggle { grid-column: 1 / -1; }
   .filters { grid-template-columns: 1fr 1fr; }
   .check-group, .clear-filters { grid-column: 1 / -1; }
   .results-heading { align-items: start; flex-direction: column; gap: 8px; padding-top: 38px; }

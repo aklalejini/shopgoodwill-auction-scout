@@ -81,6 +81,64 @@
       "geode", "geodes", "lapidary", "fossil", "fossils", "quartz", "agate",
       "amethyst", "calcite", "jasper", "selenite", "stone", "stones", "ore"
     ],
+    "relevance": {
+      "strong_keywords": [
+        "mineral", "minerals", "mineralogy", "geological specimen",
+        "mineral specimen", "rock specimen", "crystal specimen", "fossil specimen",
+        "geode", "geodes", "lapidary", "ore", "fossils", "paleontology",
+        "sedimentary", "igneous", "metamorphic",
+        "quartz", "agate", "amethyst", "calcite", "jasper", "selenite",
+        "fluorite", "pyrite", "tourmaline", "malachite", "azurite",
+        "rhodochrosite", "wulfenite", "benitoite", "dioptase", "elbaite",
+        "aquamarine", "beryl", "vanadinite", "mimetite", "cerussite",
+        "smithsonite", "cuprite", "adamite", "pyromorphite", "hematite",
+        "magnetite", "chalcedony", "obsidian", "feldspar", "garnet",
+        "apatite", "barite", "baryte", "celestite", "aragonite", "gypsum",
+        "galena", "sphalerite", "chrysocolla", "citrine", "labradorite",
+        "petrified wood", "native copper", "native silver", "crystal cluster",
+        "rock collection", "stone collection", "crystal collection", "crystal lot",
+        "rock lot", "fossil collection", "fossil lot"
+      ],
+      "ambiguous_keywords": [
+        "rock", "rocks", "crystal", "crystals", "stone", "stones",
+        "gem", "gems", "gemstone", "gemstones", "fossil", "fossils"
+      ],
+      "supporting_keywords": [
+        "collection", "lot", "assorted", "mixed", "rough", "raw", "natural",
+        "cluster", "matrix", "formation", "lbs", "pounds", "field collected"
+      ],
+      "minimum_ambiguous_matches": 2,
+      "excluded_product_keywords": [
+        "watch", "watches", "wristwatch", "wristwatches", "timepiece", "necklace", "necklaces",
+        "bracelet", "bracelets", "ring", "rings", "earring", "earrings",
+        "pendant", "pendants", "brooch", "brooches", "jewelry", "jewellery",
+        "purse", "purses", "handbag", "handbags", "backpack", "wallet", "belt",
+        "jeans", "shirt", "shirts", "blouse", "dress", "dresses", "skirt",
+        "pants", "shorts", "shoes", "sneakers", "boots", "jacket", "coat",
+        "clothing", "doll", "dolls", "figurine", "figurines", "figures", "stemware",
+        "glassware", "goblet", "goblets", "bowl", "bowls", "vase", "vases",
+        "decanter", "pitcher", "ornament", "ornaments", "waterford", "swarovski",
+        "lenox", "mikasa", "radio", "guitar", "album", "vinyl", "cd", "dvd",
+        "classic rock", "rock & roll", "albums", "lp", "poster", "painting", "print",
+        "puzzle", "lego", "toy", "toys", "rock crawler", "book", "books", "textbook",
+        "report", "reports", "map", "maps", "sunglasses", "eyewear", "cabochon",
+        "cabochons", "faceted", "cut gemstone", "cut gemstones", "carat", "ctw",
+        "ready for setting", "knife", "clock",
+        "candle holder", "candle holders", "bottle", "bottles", "apothecary", "microscope",
+        "insect", "butterfly", "taxidermy", "wet specimen", "biological", "horn", "bone",
+        "blanket", "throw", "body moisture", "skin care", "shampoo", "barware", "whiskey",
+        "wine", "wine glass", "wine glasses", "mouthblown", "flute", "flutes", "mug", "mugs",
+        "canister", "canisters"
+      ],
+      "strict_excluded_category_keywords": [
+        "women's watches", "men's watches", "necklaces", "bracelets", "rings",
+        "earrings", "brooches", "handbags & purses", "clothing", "shoes",
+        "dolls", "jewelry sets"
+      ],
+      "excluded_category_keywords": [
+        "figurines"
+      ]
+    },
     "category_penalties": {
       "Watches": -22,
       "Music": -18,

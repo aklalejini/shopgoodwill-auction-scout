@@ -11,6 +11,7 @@
     multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
     undervalued: $("#undervalued")
   };
+  const ending24 = $("#ending-24");
 
   const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
   const dateTime = new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" });
@@ -73,7 +74,7 @@
       if (category && !(item.hunt_categories || []).includes(category)) return false;
       if (minimum !== null && price < minimum) return false;
       if (maximum !== null && price > maximum) return false;
-      if (endCutoff !== null && (!Number.isFinite(end) || end > endCutoff)) return false;
+      if (endCutoff !== null && (!Number.isFinite(end) || end < Date.now() || end > endCutoff)) return false;
       if (controls.multiplePhotos.checked && (item.images || []).length < 2) return false;
       if (controls.noBids.checked && Number(item.bids || 0) !== 0) return false;
       if (controls.undervalued.checked && !item.potentially_undervalued) return false;
@@ -197,6 +198,7 @@
       else if (element.type === "checkbox") element.checked = false;
       else element.value = "";
     });
+    ending24.checked = false;
     render();
   }
 
@@ -248,6 +250,13 @@
   }
 
   Object.values(controls).forEach(control => control.addEventListener("input", render));
+  ending24.addEventListener("input", () => {
+    controls.endingHours.value = ending24.checked ? "24" : "";
+    render();
+  });
+  controls.endingHours.addEventListener("input", () => {
+    ending24.checked = controls.endingHours.value === "24";
+  });
   $("#filter-toggle").addEventListener("click", event => {
     const panel = $("#filters");
     panel.hidden = !panel.hidden;

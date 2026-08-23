@@ -90,14 +90,68 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
 
 
 def matches_hunt_domain(item: dict[str, Any], profile: dict[str, Any]) -> bool:
-    """Keep seller sweeps focused on the hunt instead of importing all inventory."""
-    text = "\n".join(
+    """Require convincing hunt evidence while rejecting obvious product collisions."""
+    relevance = profile.get("relevance", {})
+    title = str(item.get("title") or "")
+    category = "\n".join(
         str(item.get(field) or "")
-        for field in ("title", "description", "catFullName", "categoryName")
+        for field in ("category", "catFullName", "categoryName")
     )
-    return any(
+    # Search discovery is title-based. Restrict inclusion to the title so an
+    # unrelated or boilerplate description cannot rescue a misleading item.
+    text = title
+
+    # Product nouns in the title are reliable signals. This prevents Fossil watches,
+    # Crystal dolls, mineral-wash clothing, and quartz jewelry from entering the feed.
+    if any(
+        contains_phrase(title, str(phrase))
+        for phrase in relevance.get("excluded_product_keywords", [])
+    ):
+        return False
+    if any(
+        contains_phrase(category, str(phrase))
+        for phrase in relevance.get("strict_excluded_category_keywords", [])
+    ):
+        return False
+    strong_keywords = relevance.get("strong_keywords") or profile.get(
+        "domain_keywords", []
+    )
+    has_strong_title_signal = any(
+        contains_phrase(title, str(phrase)) for phrase in strong_keywords
+    )
+    if any(
+        contains_phrase(category, str(phrase))
+        for phrase in relevance.get("excluded_category_keywords", [])
+    ) and not has_strong_title_signal:
+        return False
+
+    if has_strong_title_signal:
+        return True
+
+    ambiguous_matches = {
+        str(phrase).casefold()
+        for phrase in relevance.get("ambiguous_keywords", [])
+        if contains_phrase(text, str(phrase))
+    }
+    has_context = any(
         contains_phrase(text, str(phrase))
-        for phrase in profile.get("domain_keywords", [])
+        for phrase in relevance.get("supporting_keywords", [])
+    )
+    minimum_ambiguous = int(relevance.get("minimum_ambiguous_matches", 2))
+    return len(ambiguous_matches) >= minimum_ambiguous and has_context
+
+
+def matches_any_hunt(
+    item: dict[str, Any], hunts: list[dict[str, Any]], profiles: dict[str, Any]
+) -> bool:
+    """Keep an item when it is relevant to at least one hunt that discovered it."""
+    item_hunts = set(item.get("hunt_categories") or [])
+    candidates = [hunt for hunt in hunts if hunt["id"] in item_hunts]
+    if not candidates:
+        candidates = hunts[:1]
+    return any(
+        matches_hunt_domain(item, profiles[str(hunt["scoring_profile"])])
+        for hunt in candidates
     )
 
 
@@ -210,7 +264,13 @@ def refresh(
         item_id = str(fresh["item_id"])
         active_by_id[item_id] = merge_search_record(active_by_id.get(item_id), fresh)
 
-    active = [item for item in active_by_id.values() if not is_expired(item, now)]
+    active_candidates = [
+        item for item in active_by_id.values() if not is_expired(item, now)
+    ]
+    active = [
+        item for item in active_candidates if matches_any_hunt(item, hunts, profiles)
+    ]
+    relevance_filtered = len(active_candidates) - len(active)
     for item in active:
         apply_hunt_scoring(item, hunts, profiles)
 
@@ -263,6 +323,7 @@ def refresh(
             "archived_count": len(archive),
             "search_failures": failures,
             "detail_requests_completed": detailed,
+            "relevance_filtered_count": relevance_filtered,
             "data_source": "ShopGoodwill public Buyer API used by the storefront",
             "hunts": [
                 {
@@ -281,6 +342,7 @@ def refresh(
         "high_priority": len(high_priority),
         "archived": len(archive),
         "detail_requests": detailed,
+        "relevance_filtered": relevance_filtered,
         "search_failures": len(failures),
     }
 
