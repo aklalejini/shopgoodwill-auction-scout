@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from .ctbids import CTBidsClient, apply_ctbids_detail, ctbids_listing
 from .government import (
     GSAAuctionsClient,
     GovDealsClient,
@@ -148,7 +149,7 @@ def merge_search_record(existing: dict[str, Any] | None, fresh: dict[str, Any]) 
     for key in (
         "title", "price", "buy_now_price", "has_buy_now", "bids", "seller_id",
         "start_time", "end_time", "category", "source", "source_label",
-        "source_native_id", "source_account_id", "listing_url", "location",
+        "source_native_id", "source_account_id", "source_sale_id", "listing_url", "location",
         "local_search",
     ):
         if fresh.get(key) not in (None, ""):
@@ -307,6 +308,7 @@ def refresh(
     radius_miles = int(local_config.get("radius_miles") or 50)
     gsa_client = GSAAuctionsClient(source_config.get("gsa_auctions", {}))
     govdeals_client = GovDealsClient(source_config.get("govdeals", {}))
+    ctbids_client = CTBidsClient(source_config.get("ctbids", {}))
     hunts = [hunt for hunt in config.get("hunts", []) if hunt.get("enabled", True)]
     profiles = config.get("scoring_profiles", {})
     outcomes = load_outcomes(PROJECT_ROOT / "data" / "outcomes.csv")
@@ -316,6 +318,9 @@ def refresh(
 
     local_hunt = next(
         (hunt for hunt in hunts if hunt["id"] == "local-government-surplus"), None
+    )
+    estate_hunt = next(
+        (hunt for hunt in hunts if hunt["id"] == "local-estate-auctions"), None
     )
 
     for hunt in hunts:
@@ -378,6 +383,17 @@ def refresh(
             failures.append(f"GovDeals / {zip_code} + {radius_miles} mi: {exc}")
             print(f"warning: {failures[-1]}", file=sys.stderr)
 
+    if estate_hunt and source_config.get("ctbids", {}).get("enabled", True):
+        try:
+            items, _ = ctbids_client.search(zip_code, radius_miles)
+            discovered.extend(
+                ctbids_listing(item, timestamp, estate_hunt, zip_code, radius_miles)
+                for item in items
+            )
+        except DataSourceError as exc:
+            failures.append(f"CTBids / {zip_code} + {radius_miles} mi: {exc}")
+            print(f"warning: {failures[-1]}", file=sys.stderr)
+
     fresh_records = deduplicate(discovered)
     active_by_id = {
         str(item["item_id"]): copy.deepcopy(item)
@@ -409,11 +425,14 @@ def refresh(
         else int(api_config.get("max_detail_requests_per_run", 160))
     )
     detailed = 0
-    source_detail_counts = {"shopgoodwill": 0, "gsa-auctions": 0, "govdeals": 0}
+    source_detail_counts = {
+        "shopgoodwill": 0, "gsa-auctions": 0, "govdeals": 0, "ctbids": 0
+    }
     detail_limits = {
         "shopgoodwill": max(0, detail_limit),
         "gsa-auctions": int(source_config.get("gsa_auctions", {}).get("max_detail_requests_per_run", 25)),
         "govdeals": int(source_config.get("govdeals", {}).get("max_detail_requests_per_run", 24)),
+        "ctbids": int(source_config.get("ctbids", {}).get("max_detail_requests_per_run", 20)),
     }
     for item in pending:
         source_id = str(item.get("source") or "shopgoodwill")
@@ -435,6 +454,14 @@ def refresh(
                     gsa_client.detail(str(item.get("source_native_id") or "")),
                     gsa_client,
                 )
+            elif source_id == "ctbids":
+                apply_ctbids_detail(
+                    item,
+                    ctbids_client.detail(
+                        str(item.get("source_native_id") or ""),
+                        str(item.get("source_sale_id") or ""),
+                    ),
+                )
             else:
                 apply_detail(item, source.detail(str(item.get("source_native_id") or item["item_id"])))
             item["last_updated"] = timestamp
@@ -444,7 +471,8 @@ def refresh(
             item["detail_error"] = str(exc)
             print(f"warning: detail {item['item_id']}: {exc}", file=sys.stderr)
 
-    standard_hunts = [hunt for hunt in hunts if hunt["id"] != "local-government-surplus"]
+    local_hunt_ids = {"local-government-surplus", "local-estate-auctions"}
+    standard_hunts = [hunt for hunt in hunts if hunt["id"] not in local_hunt_ids]
     for item in active:
         item.setdefault("source", "shopgoodwill")
         item.setdefault("source_label", "ShopGoodwill")
@@ -460,6 +488,18 @@ def refresh(
                 ]
                 item["hunt_labels"] = [
                     str(local_hunt["label"]), *[str(hunt["label"]) for hunt in matched]
+                ]
+        elif str(item.get("source") or "shopgoodwill") == "ctbids":
+            matched = [
+                hunt for hunt in standard_hunts
+                if matches_hunt_domain(item, profiles[str(hunt["scoring_profile"])])
+            ]
+            if matched and estate_hunt:
+                item["hunt_categories"] = [
+                    str(estate_hunt["id"]), *[str(hunt["id"]) for hunt in matched]
+                ]
+                item["hunt_labels"] = [
+                    str(estate_hunt["label"]), *[str(hunt["label"]) for hunt in matched]
                 ]
         apply_hunt_scoring(item, hunts, profiles)
         item.pop("detail_error", None) if item.get("detail_status") == "complete" else None
@@ -534,16 +574,16 @@ def refresh(
             "relevance_filtered_count": relevance_filtered,
             "potentially_high_value_count": len(high_priority),
             "ocr": ocr_stats,
-            "data_source": "ShopGoodwill Buyer API plus official GSA and GovDeals public listings",
+            "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
             "local_search": {"zip_code": zip_code, "radius_miles": radius_miles},
             "sources": [
                 {
                     "id": source_id,
-                    "label": {"shopgoodwill": "ShopGoodwill", "gsa-auctions": "GSA Auctions", "govdeals": "GovDeals"}[source_id],
+                    "label": {"shopgoodwill": "ShopGoodwill", "gsa-auctions": "GSA Auctions", "govdeals": "GovDeals", "ctbids": "CTBids"}[source_id],
                     "active_count": sum(1 for item in active if str(item.get("source") or "shopgoodwill") == source_id),
                     "detail_requests_attempted": source_detail_counts.get(source_id, 0),
                 }
-                for source_id in ("shopgoodwill", "gsa-auctions", "govdeals")
+                for source_id in ("shopgoodwill", "gsa-auctions", "govdeals", "ctbids")
             ],
             "hunts": [
                 {

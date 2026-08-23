@@ -241,9 +241,17 @@
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "description": "All active GSA Auctions and GovDeals lots within 50 miles of the configured ZIP code. Broad lots require manual resale valuation.",
+      "description": "All active GSA Auctions and GovDeals lots within 50 miles of the configured ZIP code.",
       "enabled": true,
       "scoring_profile": "local-government-surplus",
+      "search_terms": []
+    },
+    {
+      "id": "local-estate-auctions",
+      "label": "Local Estate Auctions",
+      "description": "Active CTBids estate-auction lots within 50 miles of the configured ZIP code, ranked by visible high-value signals.",
+      "enabled": true,
+      "scoring_profile": "local-estate-auctions",
       "search_terms": []
     }
   ],
@@ -280,6 +288,17 @@
       "request_delay_seconds": 0.4,
       "timeout_seconds": 25,
       "max_retries": 1,
+      "user_agent": "AuctionScout/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
+    },
+    "ctbids": {
+      "enabled": true,
+      "page_size": 250,
+      "maximum_pages": 4,
+      "bid_batch_size": 100,
+      "max_detail_requests_per_run": 20,
+      "request_delay_seconds": 0.35,
+      "timeout_seconds": 25,
+      "max_retries": 2,
       "user_agent": "AuctionScout/1.0 (+public GitHub Pages research feed; respectful hourly refresh)"
     }
   },
@@ -1784,6 +1803,62 @@
         {"minimum": 2, "points": 2}
       ],
       "photo_penalties": [],
+      "shipping_rules": {
+        "pickup_only_points": 0,
+        "calculated_shipping_points": 0
+      }
+    },
+    "local-estate-auctions": {
+      "accept_all": true,
+      "base_score": 6,
+      "high_priority_threshold": 34,
+      "undervalued_threshold": 30,
+      "high_priority_minimum_photos": 3,
+      "high_priority_risk_floor": -30,
+      "allow_pickup_high_priority": true,
+      "domain_keywords": [],
+      "premium_keywords": {
+        "solid gold": 24,
+        "14k": 22,
+        "18k": 24,
+        "platinum": 24,
+        "sterling silver": 18,
+        "Leica": 28,
+        "Hasselblad": 28,
+        "Cartier": 25,
+        "Tiffany": 22,
+        "Lalique": 20,
+        "first edition": 16,
+        "signed oil painting": 18,
+        "bronze sculpture": 16,
+        "art pottery": 14,
+        "new old stock": 12
+      },
+      "priority_keywords": {
+        "estate collection": 10,
+        "collection": 6,
+        "antique": 7,
+        "vintage": 5,
+        "sealed": 6,
+        "lot": 4
+      },
+      "price_bonuses": [
+        {"maximum": 25, "points": 7},
+        {"maximum": 75, "points": 4},
+        {"maximum": 200, "points": 2}
+      ],
+      "bid_bonuses": [
+        {"maximum": 0, "points": 4},
+        {"maximum": 2, "points": 2}
+      ],
+      "photo_bonuses": [
+        {"minimum": 10, "points": 8},
+        {"minimum": 6, "points": 5},
+        {"minimum": 3, "points": 3}
+      ],
+      "photo_penalties": [
+        {"maximum": 1, "points": -5}
+      ],
       "shipping_rules": {
         "pickup_only_points": 0,
         "calculated_shipping_points": 0

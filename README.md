@@ -1,16 +1,16 @@
 # Auction Scout
 
-Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally and nearby government-surplus inventory from GSA Auctions and GovDeals. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, and **Estate Tobacco Pipes**.
+Auction Scout is a free, image-first feed for finding overlooked auctions across configurable categories. It searches ShopGoodwill nationally, nearby government-surplus inventory from GSA Auctions and GovDeals, and nearby estate-auction inventory from CTBids. Its current category hunts cover **Minerals & Geology**, **Sealed Vintage Media**, **Vintage Electron Tubes**, **Vintage Pens**, **Estate Tobacco Pipes**, and a broad **Local Estate Auctions** watch.
 
 The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on GitHub Pages, and the hourly data refresh runs in GitHub Actions. No account, API key, database, backend, paid API, or credit card is required.
 
-> This is an independent research tool. It is not affiliated with or endorsed by ShopGoodwill, GSA Auctions, or GovDeals. It uses only public listing data available without authentication and does not bypass CAPTCHAs, access controls, or anti-bot protections.
+> This is an independent research tool. It is not affiliated with or endorsed by ShopGoodwill, GSA Auctions, GovDeals, or CTBids. It uses only public listing data available without authentication and does not bypass CAPTCHAs, access controls, or anti-bot protections.
 
 ## What you get
 
 - An image-first responsive gallery, sorted by evidence-based potential score
 - Filters for source, category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
-- A local-surplus feed fixed to ZIP **38635** within **50 miles**, with item location and pickup status visible
+- Nearby government-surplus and estate-auction feeds fixed to ZIP **38635** within **50 miles**, with item location and pickup status visible
 - Visible Buy It Now pricing with an availability filter, maximum-price filter, and lowest-price sorting
 - Current price, bids, delivery method, photo count, and Buy It Now information on every card
 - Full-resolution detail views with every listing image and explainable potential-scoring reasons
@@ -38,7 +38,8 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 │   ├── scoring.py                 # explainable scoring
 │   ├── ocr.py                     # bounded image-text extraction
 │   ├── shopgoodwill.py            # ShopGoodwill public-source adapter
-│   └── government.py              # GSA Auctions + GovDeals adapters
+│   ├── government.py              # GSA Auctions + GovDeals adapters
+│   └── ctbids.py                  # CTBids public-source adapter
 ├── tests/
 ├── README.md
 └── requirements.txt
@@ -55,13 +56,13 @@ The detail response supplies `imageServer` plus semicolon-separated `imageUrlStr
 
 Each run searches the editable terms, merges duplicates by item ID, updates search-level price/bid/end-time fields, and requests full details only for records that do not already have them. The number of new detail calls is capped per run. Existing records are retained until their end time even if they move outside the first page of search results. Expired records move to the capped archive with their final observed price.
 
-For local surplus, each run also asks the official GSA Auctions search service and GovDeals' public, server-rendered location search for active inventory within 50 miles of 38635. These results are namespaced by source so overlapping numeric IDs cannot collide. Government lots use the same evidence-first potential scoring, with extra signals for high-value equipment such as forklifts, tractors, generators, laboratory equipment, servers, and commercial machinery. Local pickup is allowed as a positive lead because the source search is already geographically constrained.
+For nearby inventory, each run asks GSA Auctions, GovDeals, and CTBids for active listings within 50 miles of 38635. Results are namespaced by source so overlapping numeric IDs cannot collide. Government lots favor visible equipment signals; CTBids lots favor visible collector, material, maker, and estate-collection signals. Local pickup does not disqualify a lead because these source searches are already geographically constrained.
 
 The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, photos, bid activity, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. The result is a review priority—not an appraisal—and every card exposes the reasons behind its score.
 
 The workflow uses Tesseract to inspect a small, fixed number of listing images per run and caches results in `data/ocr_cache.json`. OCR can surface visible model numbers, tube codes, brands, and markings that titles miss without adding a paid API. It is a clue source, not visual authentication.
 
-The data-source code is isolated in `scraper/shopgoodwill.py` and `scraper/government.py`, so a source change does not require rewriting the pipeline or site.
+The data-source code is isolated in `scraper/shopgoodwill.py`, `scraper/government.py`, and `scraper/ctbids.py`, so a source change does not require rewriting the pipeline or site.
 
 ## Run locally
 
@@ -91,7 +92,7 @@ The scraper writes identical feeds to `data/` and `docs/data/`. The first locati
 Edit [`scraper/config.json`](scraper/config.json):
 
 - `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
-- `local_search` sets the ZIP code and radius used for government inventory, while `sources` enables and rate-limits GSA Auctions and GovDeals independently.
+- `local_search` sets the ZIP code and radius used for nearby inventory, while `sources` enables and rate-limits GSA Auctions, GovDeals, and CTBids independently.
 - `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
 - `search_terms` inside a hunt controls that category's queries.
 - `seller_sweeps` provides a small ending-soon fallback for proven sellers whose lots are sometimes missing from ShopGoodwill keyword results. Sweep results are filtered against the hunt's `domain_keywords` before they enter the feed.
@@ -177,8 +178,8 @@ Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This pr
 
 ## Known limitations
 
-- ShopGoodwill does not document this as a supported public API, and all three storefronts can change fields or routes without notice.
-- GSA Auctions or GovDeals may legitimately return zero active items in the selected local radius. The source status shown on the page distinguishes an empty result from a failed refresh.
+- ShopGoodwill and CTBids do not document these as supported public APIs, and any storefront can change fields or routes without notice.
+- GSA Auctions, GovDeals, or CTBids may legitimately return zero active items in the selected local radius. The source status shown on the page distinguishes an empty result from a failed refresh.
 - Search currently reads the newest first page for each term to keep hourly request volume modest. Incremental runs accumulate still-active records, but the very first run may not include every older matching auction.
 - Full details are capped per run. Lower-scoring new records may temporarily show one search-result image and `detail_status: "pending"`; later runs continue the queue.
 - Shipping is seller- and destination-dependent. Calculated shipping uses a conservative weight/category model and is not a ZIP-specific carrier quote.

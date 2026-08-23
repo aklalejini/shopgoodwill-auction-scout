@@ -4,6 +4,7 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 
+from scraper.ctbids import apply_ctbids_detail, ctbids_listing
 from scraper.scoring import score_listing, strip_boilerplate
 from scraper.government import (
     govdeals_listing,
@@ -705,6 +706,56 @@ class GovernmentSourceTests(unittest.TestCase):
         }, "2026-08-23T12:00:00+00:00", hunt, "38635", 50)
         self.assertEqual(listing["item_id"], "gsa-374130")
         self.assertEqual(listing["source"], "gsa-auctions")
+
+
+class CTBidsSourceTests(unittest.TestCase):
+    def test_search_item_is_namespaced_and_keeps_buy_now(self):
+        hunt = {"id": "local-estate-auctions", "label": "Local Estate Auctions"}
+        listing = ctbids_listing({
+            "id": 1079801, "saleid": 6406, "title": "Vintage Camera Collection",
+            "itemseourl": "Vintage-Camera-Collection", "startingprice": 1,
+            "buynowprice": 75, "isshippable": 1, "city": "Memphis",
+            "state": "Tennessee", "zipcode": "38103", "locationid": 12,
+            "locationtitle": "Caring Transitions Memphis",
+            "itemclosetime": "2026-08-25 20:15:00",
+            "current_bid": {"bidprice": 18, "bidcount": 3},
+            "displayimageurl": "https://images.example/item.webp",
+            "categoryGroup": "Cameras & Photo Equipment", "category": "Film",
+        }, "2026-08-23T12:00:00+00:00", hunt, "38635", 50)
+        self.assertEqual(listing["item_id"], "ctbids-6406-1079801")
+        self.assertEqual(listing["source"], "ctbids")
+        self.assertEqual(listing["seller_id"], "ctbids-12")
+        self.assertEqual(listing["price"], 18)
+        self.assertEqual(listing["buy_now_price"], 75)
+        self.assertTrue(listing["has_buy_now"])
+        self.assertEqual(listing["end_time"], "2026-08-25T20:15:00+00:00")
+
+    def test_detail_adds_all_photos_description_and_delivery(self):
+        listing = {
+            "title": "Camera lot", "price": 1, "images": [], "thumbnails": [],
+            "shipping": {}, "category": "Estate auction", "seller_id": "7",
+        }
+        result = apply_ctbids_detail(listing, {
+            "item": {
+                "title": "Leica Camera Lot", "description": "<p>Estate collection.</p>",
+                "startingprice": 1, "buynowprice": 125, "isshippable": 0,
+                "itemreceiptmethod": '{"pickup": true, "shipping": true}',
+                "locationid": 22, "locationtitle": "Memphis", "city": "Memphis",
+                "state": "Tennessee", "zipcode": "38103", "categoryGroup": "Cameras",
+                "category": "Film", "condition": "Used",
+                "itemclosetime": "2026-08-25 20:15:00",
+            },
+            "bid": {"bidprice": 0, "bidcount": 0},
+            "images": [
+                {"url": "https://images.example/one.webp", "thumbnailurl": "https://images.example/t1.webp"},
+                {"url": "https://images.example/two.webp", "thumbnailurl": "https://images.example/t2.webp"},
+            ],
+        })
+        self.assertEqual(result["description"], "Estate collection.")
+        self.assertEqual(len(result["images"]), 2)
+        self.assertFalse(result["shipping"]["pickup_only"])
+        self.assertEqual(result["buy_now_price"], 125)
+        self.assertEqual(result["detail_status"], "complete")
 
 
 if __name__ == "__main__":
