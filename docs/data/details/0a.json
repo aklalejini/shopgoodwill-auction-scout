@@ -285,6 +285,32 @@
       }
     ]
   },
+  "govdeals-9847-188": {
+    "item_id": "govdeals-9847-188",
+    "listing_url": "https://www.govdeals.com/en/asset/188/9847",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/9847/9847_188_353e178a-fca7-400b-9b3c-13ddad2a5aba.jpg?cb=260804222852",
+      "https://webassets.lqdt1.com/assets/photos/9847/9847_188_f8660e0b-5a37-420f-81e0-d280b5fd78fe.jpg?cb=260804222853"
+    ],
+    "description": "Yamaha Tio1608-D I/O Rack with Dante Compatibility – with power cord and user manual",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47173-5499939": {
     "item_id": "ctbids-47173-5499939",
     "listing_url": "https://ctbids.com/estate-sale/47173/item/5499939/Wallace-Silverplate-5-Piece-Serving-Lot-Ice-Bucket-Bowl-Candlesticks-Tray",
@@ -312,27 +338,28 @@
       }
     ]
   },
-  "govdeals-9847-188": {
-    "item_id": "govdeals-9847-188",
-    "listing_url": "https://www.govdeals.com/en/asset/188/9847",
+  "ctbids-47659-5534215": {
+    "item_id": "ctbids-47659-5534215",
+    "listing_url": "https://ctbids.com/estate-sale/47659/item/5534215/Porcelain-Dish-House-Of-Wittelsbach",
     "images": [
-      "https://webassets.lqdt1.com/assets/photos/9847/9847_188_353e178a-fca7-400b-9b3c-13ddad2a5aba.jpg?cb=260804222852",
-      "https://webassets.lqdt1.com/assets/photos/9847/9847_188_f8660e0b-5a37-420f-81e0-d280b5fd78fe.jpg?cb=260804222853"
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5534215_my48k2.webp"
     ],
-    "description": "Yamaha Tio1608-D I/O Rack with Dante Compatibility – with power cord and user manual",
+    "description": "",
     "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -367,31 +394,6 @@
           "Lower-priority term 'possibly' in description (-4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47659-5534215": {
-    "item_id": "ctbids-47659-5534215",
-    "listing_url": "https://ctbids.com/estate-sale/47659/item/5534215/Porcelain-Dish-House-Of-Wittelsbach",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5534215_my48k2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

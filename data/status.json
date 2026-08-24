@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-08-24T07:18:46.994684+00:00",
+  "generated_at": "2026-08-24T09:03:22.693993+00:00",
   "active_count": 2377,
   "high_priority_count": 20,
   "archived_count": 1000,
   "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
-    "GovDeals / 38635 + 50 mi: Request failed after limited retries: HTTPSConnectionPool(host='prod-seo.govdeals.com', port=443): Read timed out. (read timeout=25.0)"
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 21,
-  "relevance_filtered_count": 703,
+  "detail_requests_completed": 20,
+  "relevance_filtered_count": 701,
   "potentially_high_value_count": 20,
   "ocr": {
     "available": true,
@@ -25,7 +24,7 @@
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
       "active_count": 325,
-      "detail_requests_attempted": 1
+      "detail_requests_attempted": 0
     },
     {
       "id": "gsa-auctions",
