@@ -270,6 +270,33 @@
       }
     ]
   },
+  "ctbids-47554-5529015": {
+    "item_id": "ctbids-47554-5529015",
+    "listing_url": "https://ctbids.com/estate-sale/47554/item/5529015/Women-s-Vintage-Clothing-W-Accessories-Cashmere-Tweed-Coat-Pima-Cotton-Sizes-range-S-2XL",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5529015_lLnm88.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47750-5548933": {
     "item_id": "ctbids-47750-5548933",
     "listing_url": "https://ctbids.com/estate-sale/47750/item/5548933/Set-of-3-Mini-Terracotta-Clay-Flower-Pots-2-Garden-Planters-with-Drainage",
@@ -351,15 +378,14 @@
       }
     ]
   },
-  "ctbids-47554-5529015": {
-    "item_id": "ctbids-47554-5529015",
-    "listing_url": "https://ctbids.com/estate-sale/47554/item/5529015/Women-s-Vintage-Clothing-W-Accessories-Cashmere-Tweed-Coat-Pima-Cotton-Sizes-range-S-2XL",
+  "ctbids-47375-5461422": {
+    "item_id": "ctbids-47375-5461422",
+    "listing_url": "https://ctbids.com/estate-sale/47375/item/5461422/Dansk-Design-Teardrop-candle-holders-Set-Of-6",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5529015_lLnm88.webp"
+      "https://image.ctbids.com/seller/2026-07-29T40ef1b/5461422_nETXXG.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -367,10 +393,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -452,31 +477,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47375-5461422": {
-    "item_id": "ctbids-47375-5461422",
-    "listing_url": "https://ctbids.com/estate-sale/47375/item/5461422/Dansk-Design-Teardrop-candle-holders-Set-Of-6",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-29T40ef1b/5461422_nETXXG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -955,6 +955,39 @@
           "Lower-priority term 'metaphysical' in description (-10)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "274984777": {
+    "item_id": "274984777",
+    "listing_url": "https://shopgoodwill.com/item/274984777",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-08-24/f32f528a-209c-4421-9193-947c37e166cdngel_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-08-24/5cc6d1e2-be59-4d25-ba71-bb8997b7581fngel_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-08-24/3e32cbc3-a916-47a5-bace-28cdf5b6434fngel_08243.jpg"
+    ],
+    "description": "Cross Ballpoint Pen And 0.7mm Pencil Set\nType:\nCross Ballpoint Pen And 0.7mm Pencil Set\nCondition:\nFair - shows sign of wear\nApproximate Measurements (inches):\n7L x 5W x 2H\nWeight (approximate):\n0.3 lbs",
+    "score_reasons": [
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "Less relevant category 'Crafts' (-12)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+15)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "Less relevant category 'Crafts' (-12)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+15)"
         ],
         "matched_keywords": []
       }
