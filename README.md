@@ -13,10 +13,10 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 - Nearby government-surplus and CTBids pickup feeds fixed to ZIP **38635** within **50 miles**, plus CTBids lots marked shippable nationwide
 - Visible Buy It Now pricing with an availability filter, maximum-price filter, and lowest-price sorting
 - Current price, bids, delivery method, photo count, and Buy It Now information on every card
-- Full-resolution detail views with every listing image and explainable potential-scoring reasons
-- Watch/Reject decisions stored privately in the current browser, with a one-click “hide evaluated” filter
+- Fast card feed with full-resolution images and complete scoring audits loaded only when a listing is inspected
+- Watch/Bid/Dismiss decisions stored privately in the current browser, plus new-since-last-visit and evidence filters
 - Same-seller closing clusters, bounded zero-cost image OCR, and optional outcome tracking
-- Public machine-readable feeds at `data/listings.json` and `data/high_priority.json`
+- Public machine-readable index at `data/index.json`, with lazy detail buckets and a high-priority view
 - Incremental hourly refreshes with delays, timeouts, bounded retry/backoff, and graceful partial failure
 - A capped archive of expired listings and their last observed price
 - Tests for scoring, deduplication, expiration, image URL handling, and malformed responses
@@ -28,7 +28,7 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 ├── .github/workflows/refresh.yml  # hourly + manual refresh
 ├── data/                          # canonical generated feeds
 ├── docs/                          # GitHub Pages site
-│   ├── data/                      # published copy of generated feeds
+│   ├── data/                      # compact index, detail buckets, clusters, and status
 │   ├── index.html
 │   ├── app.js
 │   └── styles.css
@@ -58,7 +58,7 @@ Each run searches the editable terms, merges duplicates by item ID, updates sear
 
 Each run asks GSA Auctions, GovDeals, and CTBids for active listings within 50 miles of 38635, then separately asks CTBids for listings explicitly marked shippable, ordered by ending time and bounded by the configured page limit. Results are deduplicated and namespaced by source so overlapping numeric IDs cannot collide. Government lots favor visible equipment signals; CTBids lots favor visible collector, material, maker, and estate-collection signals. Pickup-only CTBids lots are retained only from the nearby search.
 
-The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, photos, bid activity, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. The result is a review priority—not an appraisal—and every card exposes the reasons behind its score.
+The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, photos, bid activity, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. The result is a review priority—not an appraisal—and every card exposes the strongest reasons behind its score. Inspecting a card lazily fetches its full images, description, and per-hunt audit trail from one of 64 stable detail buckets.
 
 The workflow uses Tesseract and a small local image-color check to inspect a fixed number of listing images per run, caching results in `data/ocr_cache.json`. OCR can surface visible model numbers, tube codes, brands, and markings that titles miss. For glass insulators, the color check can flag a dominant blue, purple, amber, yellow/olive, or green/teal hue. Both are clue sources, not visual authentication.
 
@@ -110,7 +110,7 @@ To add a future category, copy the Minerals & Geology entry in `hunts`, give it 
 
 Weights may be positive or negative. Final scores are clamped to 0–100, and every listing includes `score_reasons` so the result is auditable.
 
-The Watch/Reject buttons use browser storage and never publish your decisions to GitHub.
+Watch/Bid/Dismiss decisions and the last-visit snapshot use browser storage and never publish your decisions to GitHub.
 
 ## Publish on GitHub Pages
 
@@ -141,11 +141,14 @@ https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/
 The public feeds are:
 
 ```text
-https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/listings.json
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/index.json
 https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/high_priority.json
 https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/archive.json
+https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/clusters.json
 https://YOUR_USERNAME.github.io/shopgoodwill-auction-scout/data/status.json
 ```
+
+Each index record names a `detail_bucket`; fetch `data/details/{detail_bucket}.json` and select the record by `item_id` for full images, description, and the per-hunt scoring audit.
 
 All frontend data URLs are relative, so the site works correctly under a GitHub Pages repository subpath.
 
@@ -167,7 +170,7 @@ Check the browser's developer-tools Network panel while performing a normal publ
 
 ### Images do not display
 
-Open an `images` URL directly from `docs/data/listings.json`. If the CDN path format changed, update `normalize_image_url()` and its test. A seller may also remove images when an auction closes.
+Open the item's detail bucket under `docs/data/details/`, then open one of its `images` URLs directly. If the CDN path format changed, update `normalize_image_url()` and its test. A seller may also remove images when an auction closes.
 
 ### The scheduled workflow cannot push
 
@@ -175,7 +178,7 @@ Check **Settings → Actions → General → Workflow permissions**, and make su
 
 ### The page works at `/` but not at the repository URL
 
-Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This project already does that. Do not add a leading slash unless deploying to a custom root domain.
+Keep asset and feed paths relative (`./app.js`, `./data/index.json`). This project already does that. Do not add a leading slash unless deploying to a custom root domain.
 
 ## Known limitations
 
@@ -183,7 +186,7 @@ Keep asset and feed paths relative (`./app.js`, `./data/listings.json`). This pr
 - GSA Auctions, GovDeals, or the nearby CTBids pass may legitimately return zero active items in the selected local radius. The source status shown on the page distinguishes an empty result from a failed refresh.
 - Search currently reads the newest first page for each term to keep hourly request volume modest. Incremental runs accumulate still-active records, but the very first run may not include every older matching auction.
 - Full details are capped per run. Lower-scoring new records may temporarily show one search-result image and `detail_status: "pending"`; later runs continue the queue.
-- Shipping is seller- and destination-dependent. Calculated shipping uses a conservative weight/category model and is not a ZIP-specific carrier quote.
+- Shipping is seller- and destination-dependent. Calculated shipping remains unresolved until the auction site provides a destination-specific quote.
 - Potential scores are triage signals, not appraisals. Photo condition, authenticity, exact variant, and untested status can materially change value.
 - OCR is deliberately incremental and can misread labels. A machine without Tesseract still runs normally and reuses existing cached results.
 - Glass-insulator color detection is deliberately conservative and labels only broad hue families; lighting, backgrounds, irradiation, staining, and photography can still mislead it.

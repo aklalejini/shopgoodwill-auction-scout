@@ -29,9 +29,13 @@ from scraper.government import (
 from scraper.scrape import (
     apply_hunt_scoring,
     apply_seller_clusters,
+    browser_clusters,
+    browser_detail_record,
+    browser_index_record,
     clean_public_record,
     deduplicate,
     derive_high_priority,
+    detail_bucket_id,
     is_expired,
     matches_hunt_domain,
 )
@@ -230,6 +234,58 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(item["hunt_scores"], [{"score": 40}])
         for field in ("ocr_text", "matched_minerals", "fee_rate"):
             self.assertNotIn(field, item)
+
+    def test_browser_index_is_compact_and_detail_is_lazy(self):
+        item = {
+            "item_id": "ctbids-123",
+            "title": "Vintage pen lot",
+            "score": 42,
+            "score_reasons": [f"Reason {index} (+1)" for index in range(8)],
+            "images": [f"full-{index}.jpg" for index in range(7)],
+            "thumbnails": [f"thumb-{index}.jpg" for index in range(7)],
+            "description": "Useful item copy.\nShipping\nVery long policy text.",
+            "listing_url": "https://example.test/item/123",
+            "shipping": {
+                "listed_price": 8.0, "handling_price": 2.0,
+                "pickup_only": False, "carrier": "Ground",
+                "policy": "Very long policy text",
+            },
+            "visual_hits": ["amber glass color"],
+            "seller_cluster": {
+                "id": "seller:1", "count": 3,
+                "item_ids": ["1", "2", "3"],
+                "combined_shipping_unavailable": False,
+                "close_window_hours": 72,
+            },
+            "hunt_scores": [{"id": "vintage-pens", "score": 42}],
+        }
+        index = browser_index_record(item)
+        detail = browser_detail_record(item)
+        self.assertNotIn("description", index)
+        self.assertNotIn("images", index)
+        self.assertNotIn("policy", index["shipping"])
+        self.assertNotIn("item_ids", index["seller_cluster"])
+        self.assertEqual(index["photo_count"], 7)
+        self.assertEqual(len(index["thumbnails"]), 5)
+        self.assertEqual(len(index["score_reasons"]), 5)
+        self.assertEqual(index["evidence_types"], ["visual"])
+        self.assertEqual(detail["description"], "Useful item copy.")
+        self.assertEqual(len(detail["images"]), 7)
+        self.assertEqual(len(detail["score_reasons"]), 8)
+        self.assertEqual(index["detail_bucket"], detail_bucket_id("ctbids-123"))
+
+    def test_browser_clusters_store_membership_once(self):
+        cluster = {
+            "id": "9:1", "count": 2, "item_ids": ["1", "2"],
+            "combined_shipping_unavailable": True, "close_window_hours": 72,
+        }
+        items = [
+            {"item_id": "1", "seller_id": 9, "seller": "Seller", "seller_cluster": cluster},
+            {"item_id": "2", "seller_id": 9, "seller": "Seller", "seller_cluster": cluster},
+        ]
+        clusters = browser_clusters(items)
+        self.assertEqual(list(clusters), ["9:1"])
+        self.assertEqual(clusters["9:1"]["item_ids"], ["1", "2"])
 
     def test_word_boundary_prevents_lot_inside_pilot(self):
         result = score_listing(

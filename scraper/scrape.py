@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
 import os
 import sys
@@ -22,7 +23,7 @@ from .government import (
     gsa_listing,
 )
 from .ocr import process_ocr
-from .scoring import contains_phrase, score_listing
+from .scoring import contains_phrase, score_listing, strip_boilerplate
 from .shopgoodwill import DataSourceError, ShopGoodwillClient, apply_detail, listing_from_search
 from .valuation import load_outcomes
 
@@ -62,6 +63,133 @@ def derive_high_priority(
         (item for item in active if item.get("high_priority")),
         key=lambda item: -int(item.get("score") or 0),
     )[:maximum_records]
+
+
+def detail_bucket_id(item_id: str) -> str:
+    """Spread details across 64 stable files so an inspection fetch stays small."""
+    digest = hashlib.sha256(str(item_id).encode("utf-8")).digest()[0]
+    return f"{digest % 64:02x}"
+
+
+def browser_index_record(item: dict[str, Any]) -> dict[str, Any]:
+    """Return only fields needed to search, filter, and render a listing card."""
+    fields = (
+        "item_id", "source", "source_label", "source_native_id", "title",
+        "price", "buy_now_price", "has_buy_now", "bids", "seller",
+        "seller_id", "start_time", "end_time", "category", "discovered_by",
+        "hunt_categories", "hunt_labels", "matched_keywords", "primary_hunt",
+        "score", "high_priority", "score_high_priority",
+        "potentially_high_value", "ocr_hits", "visual_hits", "location",
+    )
+    record = {
+        field: copy.deepcopy(item[field])
+        for field in fields
+        if field in item
+    }
+    images = list(item.get("images") or [])
+    thumbnails = list(item.get("thumbnails") or images)
+    record["thumbnails"] = thumbnails[:5]
+    record["photo_count"] = len(images or thumbnails)
+    record["score_reasons"] = list(item.get("score_reasons") or [])[:5]
+    record["detail_bucket"] = detail_bucket_id(str(item.get("item_id") or ""))
+    shipping = item.get("shipping") or {}
+    record["shipping"] = {
+        field: copy.deepcopy(shipping[field])
+        for field in ("listed_price", "handling_price", "pickup_only", "carrier")
+        if field in shipping
+    }
+    evidence_types = []
+    if item.get("ocr_hits"):
+        evidence_types.append("ocr")
+    if item.get("visual_hits"):
+        evidence_types.append("visual")
+    record["evidence_types"] = evidence_types
+    cluster = item.get("seller_cluster") or {}
+    if cluster:
+        record["seller_cluster"] = {
+            field: copy.deepcopy(cluster[field])
+            for field in (
+                "id", "count", "combined_shipping_unavailable",
+                "close_window_hours",
+            )
+            if field in cluster
+        }
+    return record
+
+
+def browser_detail_record(item: dict[str, Any]) -> dict[str, Any]:
+    """Return information fetched only when a listing is inspected."""
+    detail = {
+        "item_id": str(item.get("item_id") or ""),
+        "listing_url": str(item.get("listing_url") or ""),
+        "images": list(item.get("images") or []),
+        "description": strip_boilerplate(str(item.get("description") or "")),
+        "score_reasons": list(item.get("score_reasons") or []),
+        "hunt_scores": copy.deepcopy(item.get("hunt_scores") or []),
+    }
+    if item.get("outcome"):
+        detail["outcome"] = copy.deepcopy(item["outcome"])
+    return detail
+
+
+def browser_clusters(items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Normalize repeated seller-cluster membership into one keyed payload."""
+    clusters: dict[str, dict[str, Any]] = {}
+    for item in items:
+        cluster = item.get("seller_cluster") or {}
+        cluster_id = str(cluster.get("id") or "")
+        if not cluster_id or cluster_id in clusters:
+            continue
+        clusters[cluster_id] = {
+            **copy.deepcopy(cluster),
+            "seller_id": str(item.get("seller_id") or ""),
+            "seller": str(item.get("seller") or ""),
+        }
+    return clusters
+
+
+def write_browser_feeds(
+    docs_data_dir: Path,
+    active: list[dict[str, Any]],
+    high_priority: list[dict[str, Any]],
+    archive: list[dict[str, Any]],
+    status: dict[str, Any],
+) -> None:
+    """Publish a small initial index plus lazy detail buckets for GitHub Pages."""
+    index = [browser_index_record(item) for item in active]
+    index_by_id = {str(item["item_id"]): item for item in index}
+    high_index = [
+        index_by_id[str(item["item_id"])]
+        for item in high_priority
+        if str(item.get("item_id") or "") in index_by_id
+    ]
+    archive_index = []
+    for item in archive:
+        record = browser_index_record(item)
+        record.pop("detail_bucket", None)
+        for field in ("archived_at", "final_observed_price"):
+            if field in item:
+                record[field] = copy.deepcopy(item[field])
+        archive_index.append(record)
+
+    buckets: dict[str, dict[str, dict[str, Any]]] = {
+        f"{number:02x}": {} for number in range(64)
+    }
+    for item in active:
+        item_id = str(item.get("item_id") or "")
+        buckets[detail_bucket_id(item_id)][item_id] = browser_detail_record(item)
+
+    write_json_atomic(docs_data_dir / "index.json", index)
+    write_json_atomic(docs_data_dir / "high_priority.json", high_index)
+    write_json_atomic(docs_data_dir / "archive.json", archive_index)
+    write_json_atomic(docs_data_dir / "clusters.json", browser_clusters(active))
+    write_json_atomic(docs_data_dir / "status.json", status)
+    for bucket, payload in buckets.items():
+        write_json_atomic(docs_data_dir / "details" / f"{bucket}.json", payload)
+
+    # The browser now starts from index.json. Remove the obsolete monolithic copy.
+    legacy_listings = docs_data_dir / "listings.json"
+    legacy_listings.unlink(missing_ok=True)
 
 
 def apply_seller_clusters(items: list[dict[str, Any]], close_window_hours: int = 72) -> None:
@@ -602,42 +730,49 @@ def refresh(
         active, int(config.get("high_priority", {}).get("maximum_records", 100))
     )
 
-    for target in (data_dir, docs_data_dir):
-        write_json_atomic(target / "listings.json", active)
-        write_json_atomic(target / "high_priority.json", high_priority)
-        write_json_atomic(target / "archive.json", archive)
-        write_json_atomic(target / "status.json", {
-            "generated_at": timestamp,
-            "active_count": len(active),
-            "high_priority_count": len(high_priority),
-            "archived_count": len(archive),
-            "search_failures": failures,
-            "detail_requests_completed": detailed,
-            "relevance_filtered_count": relevance_filtered,
-            "potentially_high_value_count": len(high_priority),
-            "ocr": ocr_stats,
-            "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
-            "local_search": {"zip_code": zip_code, "radius_miles": radius_miles},
-            "sources": [
-                {
-                    "id": source_id,
-                    "label": {"shopgoodwill": "ShopGoodwill", "gsa-auctions": "GSA Auctions", "govdeals": "GovDeals", "ctbids": "CTBids"}[source_id],
-                    "active_count": sum(1 for item in active if str(item.get("source") or "shopgoodwill") == source_id),
-                    "detail_requests_attempted": source_detail_counts.get(source_id, 0),
-                }
-                for source_id in ("shopgoodwill", "gsa-auctions", "govdeals", "ctbids")
-            ],
-            "hunts": [
-                {
-                    "id": hunt["id"],
-                    "label": hunt["label"],
-                    "active_count": sum(
-                        1 for item in active if hunt["id"] in item.get("hunt_categories", [])
-                    ),
-                }
-                for hunt in hunts
-            ],
-        })
+    status = {
+        "generated_at": timestamp,
+        "active_count": len(active),
+        "high_priority_count": len(high_priority),
+        "archived_count": len(archive),
+        "search_failures": failures,
+        "detail_requests_completed": detailed,
+        "relevance_filtered_count": relevance_filtered,
+        "potentially_high_value_count": len(high_priority),
+        "ocr": ocr_stats,
+        "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
+        "local_search": {"zip_code": zip_code, "radius_miles": radius_miles},
+        "sources": [
+            {
+                "id": source_id,
+                "label": {"shopgoodwill": "ShopGoodwill", "gsa-auctions": "GSA Auctions", "govdeals": "GovDeals", "ctbids": "CTBids"}[source_id],
+                "active_count": sum(1 for item in active if str(item.get("source") or "shopgoodwill") == source_id),
+                "detail_requests_attempted": source_detail_counts.get(source_id, 0),
+            }
+            for source_id in ("shopgoodwill", "gsa-auctions", "govdeals", "ctbids")
+        ],
+        "hunts": [
+            {
+                "id": hunt["id"],
+                "label": hunt["label"],
+                "active_count": sum(
+                    1 for item in active if hunt["id"] in item.get("hunt_categories", [])
+                ),
+            }
+            for hunt in hunts
+        ],
+        "browser_feed": {
+            "index": "index.json",
+            "details": "details/{bucket}.json",
+            "detail_bucket_count": 64,
+            "clusters": "clusters.json",
+        },
+    }
+    write_json_atomic(data_dir / "listings.json", active)
+    write_json_atomic(data_dir / "high_priority.json", high_priority)
+    write_json_atomic(data_dir / "archive.json", archive)
+    write_json_atomic(data_dir / "status.json", status)
+    write_browser_feeds(docs_data_dir, active, high_priority, archive, status)
     write_json_atomic(PROJECT_ROOT / "data" / "ocr_cache.json", ocr_cache)
 
     return {

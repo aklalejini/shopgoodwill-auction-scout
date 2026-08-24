@@ -4,7 +4,10 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const PAGE_SIZE = 120;
-  const state = { listings: [], status: null, evaluations: {}, renderLimit: PAGE_SIZE };
+  const state = {
+    listings: [], status: null, evaluations: {}, renderLimit: PAGE_SIZE,
+    detailBuckets: {}, newItemIds: new Set()
+  };
   const controls = {
     keyword: $("#keyword"), sort: $("#sort"), minPrice: $("#min-price"),
     maxPrice: $("#max-price"), maxBuyNow: $("#max-buy-now"),
@@ -12,7 +15,9 @@
     category: $("#hunt-category"), source: $("#source"), targetKeyword: $("#target-keyword"),
     multiplePhotos: $("#multiple-photos"), noBids: $("#no-bids"),
     buyNowOnly: $("#buy-now-only"),
-    highPotential: $("#high-potential"), hideEvaluated: $("#hide-evaluated")
+    highPotential: $("#high-potential"), newOnly: $("#new-only"),
+    evidenceOnly: $("#evidence-only"), watchOnly: $("#watch-only"),
+    bidOnly: $("#bid-only"), showDismissed: $("#show-dismissed")
   };
   const ending24 = $("#ending-24");
 
@@ -22,6 +27,10 @@
 
   try {
     state.evaluations = JSON.parse(localStorage.getItem("auctionScoutEvaluations") || "{}") || {};
+    Object.keys(state.evaluations).forEach(itemId => {
+      if (state.evaluations[itemId] === "rejected") state.evaluations[itemId] = "dismissed";
+    });
+    localStorage.setItem("auctionScoutEvaluations", JSON.stringify(state.evaluations));
   } catch (_) {
     state.evaluations = {};
   }
@@ -104,11 +113,15 @@
       if (maximum !== null && price > maximum) return false;
       if (maximumBuyNow !== null && (!item.has_buy_now || buyNowPrice > maximumBuyNow)) return false;
       if (endCutoff !== null && (!Number.isFinite(end) || end < Date.now() || end > endCutoff)) return false;
-      if (controls.multiplePhotos.checked && (item.images || []).length < 2) return false;
+      if (controls.multiplePhotos.checked && Number(item.photo_count || 0) < 2) return false;
       if (controls.noBids.checked && Number(item.bids || 0) !== 0) return false;
       if (controls.buyNowOnly.checked && !item.has_buy_now) return false;
       if (controls.highPotential.checked && !(item.high_priority || item.score_high_priority || item.potentially_high_value)) return false;
-      if (controls.hideEvaluated.checked && state.evaluations[item.item_id]) return false;
+      if (controls.newOnly.checked && !state.newItemIds.has(String(item.item_id))) return false;
+      if (controls.evidenceOnly.checked && !(item.evidence_types || []).length) return false;
+      if (controls.watchOnly.checked && state.evaluations[item.item_id] !== "watch") return false;
+      if (controls.bidOnly.checked && state.evaluations[item.item_id] !== "bid") return false;
+      if (!controls.showDismissed.checked && state.evaluations[item.item_id] === "dismissed") return false;
       return true;
     });
 
@@ -148,8 +161,8 @@
     const fragment = $("#card-template").content.cloneNode(true);
     const card = $(".listing-card", fragment);
     const cardImage = $(".card-image", fragment);
-    const thumbnails = item.thumbnails?.length ? item.thumbnails : item.images || [];
-    setImage(cardImage, thumbnails[0] || item.images?.[0], item.title);
+    const thumbnails = item.thumbnails || [];
+    setImage(cardImage, thumbnails[0], item.title);
     $(".score-badge strong", fragment).textContent = item.score ?? 0;
     $(".score-inline strong", fragment).textContent = item.score ?? 0;
     const potential = $(".potential-label", fragment);
@@ -165,7 +178,7 @@
       $(".buy-now-price", fragment).textContent = currency.format(buyNowPrice);
     }
     $(".delivery", fragment).textContent = deliveryLabel(item);
-    $(".photo-count", fragment).textContent = `${thumbnails.length || (item.images || []).length} available`;
+    $(".photo-count", fragment).textContent = `${Number(item.photo_count || thumbnails.length)} available`;
     $(".bids", fragment).textContent = `${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"}`;
     $("h3", fragment).textContent = item.title;
     $(".seller-name", fragment).textContent = item.seller || item.location || "Seller not yet loaded";
@@ -185,10 +198,11 @@
       });
       thumbnailRow.append(button);
     });
-    if (thumbnails.length > 5) {
+    const hiddenPhotoCount = Math.max(0, Number(item.photo_count || thumbnails.length) - thumbnails.length);
+    if (hiddenPhotoCount) {
       const more = document.createElement("span");
       more.className = "thumbnail-more";
-      more.textContent = `+${thumbnails.length - 5}`;
+      more.textContent = `+${hiddenPhotoCount}`;
       thumbnailRow.append(more);
     }
 
@@ -215,17 +229,22 @@
       render();
     }
     $(".watch-button", fragment).addEventListener("click", () => setEvaluation("watch"));
-    $(".reject-button", fragment).addEventListener("click", () => setEvaluation("rejected"));
+    $(".bid-button", fragment).addEventListener("click", () => setEvaluation("bid"));
+    $(".dismiss-button", fragment).addEventListener("click", () => setEvaluation("dismissed"));
     const evaluation = state.evaluations[item.item_id];
     card.dataset.evaluation = evaluation || "";
     const watchButton = $(".watch-button", fragment);
-    const rejectButton = $(".reject-button", fragment);
+    const bidButton = $(".bid-button", fragment);
+    const dismissButton = $(".dismiss-button", fragment);
     watchButton.classList.toggle("active", evaluation === "watch");
-    rejectButton.classList.toggle("active", evaluation === "rejected");
+    bidButton.classList.toggle("active", evaluation === "bid");
+    dismissButton.classList.toggle("active", evaluation === "dismissed");
     watchButton.textContent = evaluation === "watch" ? "Watching" : "Watch";
-    rejectButton.textContent = evaluation === "rejected" ? "Rejected" : "Reject";
+    bidButton.textContent = evaluation === "bid" ? "Bid planned" : "Bid";
+    dismissButton.textContent = evaluation === "dismissed" ? "Dismissed" : "Dismiss";
     watchButton.setAttribute("aria-pressed", String(evaluation === "watch"));
-    rejectButton.setAttribute("aria-pressed", String(evaluation === "rejected"));
+    bidButton.setAttribute("aria-pressed", String(evaluation === "bid"));
+    dismissButton.setAttribute("aria-pressed", String(evaluation === "dismissed"));
 
     $$(".image-button, .inspect-button", fragment).forEach(button => {
       button.addEventListener("click", () => openDetail(item));
@@ -234,8 +253,31 @@
     return fragment;
   }
 
-  function openDetail(item) {
+  async function loadDetail(item) {
+    const bucket = String(item.detail_bucket || "");
+    if (!bucket) return {};
+    if (!state.detailBuckets[bucket]) {
+      state.detailBuckets[bucket] = fetch(`./data/details/${encodeURIComponent(bucket)}.json`, {cache: "no-store"})
+        .then(response => {
+          if (!response.ok) throw new Error(`Detail feed returned ${response.status}`);
+          return response.json();
+        });
+    }
+    const payload = await state.detailBuckets[bucket];
+    return payload[String(item.item_id)] || {};
+  }
+
+  async function openDetail(summary) {
     const dialog = $("#detail-dialog");
+    $("#dialog-content").innerHTML = `<div class="detail-loading"><h2 id="dialog-title">Loading listing details…</h2></div>`;
+    if (!dialog.open) dialog.showModal();
+    let item = summary;
+    let detailError = "";
+    try {
+      item = {...summary, ...await loadDetail(summary)};
+    } catch (error) {
+      detailError = `<div class="notice">Full details could not be loaded. ${escapeHtml(error.message)}</div>`;
+    }
     const images = item.images || [];
     const buyNowPrice = Number(item.buy_now_price || 0);
     const buyNowMarkup = item.has_buy_now
@@ -277,6 +319,7 @@
             <h3>Why it stands out</h3>
             <ul>${reasons}</ul>
           </div>
+          ${detailError}
           <p class="detail-description">${escapeHtml(item.description || "The full description has not been loaded yet.")}</p>
           <div class="detail-actions">
             <a class="sold-comps" href="${escapeHtml(soldCompsUrl(item))}" target="_blank" rel="noopener">Check eBay sold comps ↗</a>
@@ -284,7 +327,6 @@
           </div>
         </div>
       </div>`;
-    dialog.showModal();
   }
 
   function render() {
@@ -339,18 +381,33 @@
   async function loadData() {
     try {
       const [listingsResponse, statusResponse] = await Promise.all([
-        fetch("./data/listings.json", { cache: "no-store" }),
+        fetch("./data/index.json", { cache: "no-store" }),
         fetch("./data/status.json", { cache: "no-store" })
       ]);
       if (!listingsResponse.ok) throw new Error(`Listings feed returned ${listingsResponse.status}`);
       state.listings = await listingsResponse.json();
       if (!Array.isArray(state.listings)) throw new Error("Listings feed is not an array");
       state.status = statusResponse.ok ? await statusResponse.json() : null;
+      let previousIds = null;
+      try {
+        const saved = JSON.parse(localStorage.getItem("auctionScoutListingSnapshot") || "null");
+        if (Array.isArray(saved?.ids)) previousIds = new Set(saved.ids.map(String));
+      } catch (_) {
+        previousIds = null;
+      }
+      state.newItemIds = previousIds
+        ? new Set(state.listings.map(item => String(item.item_id)).filter(itemId => !previousIds.has(itemId)))
+        : new Set();
+      localStorage.setItem("auctionScoutListingSnapshot", JSON.stringify({
+        generated_at: state.status?.generated_at || null,
+        ids: state.listings.map(item => String(item.item_id))
+      }));
       populateCategories();
       populateSources();
       $("#active-count").textContent = state.listings.length.toLocaleString();
       const priorityCount = state.status?.high_priority_count ?? state.listings.filter(item => item.high_priority).length;
       $("#priority-count").textContent = Number(priorityCount).toLocaleString();
+      $("#new-count").textContent = state.newItemIds.size.toLocaleString();
       if (state.status?.generated_at) {
         $("#refresh-age").textContent = ageLabel(state.status.generated_at);
         $("#updated-at").textContent = `Data refreshed ${dateTime.format(new Date(state.status.generated_at))}`;
@@ -379,6 +436,14 @@
     state.renderLimit = PAGE_SIZE;
     render();
   }));
+  controls.watchOnly.addEventListener("input", () => {
+    if (controls.watchOnly.checked) controls.bidOnly.checked = false;
+    render();
+  });
+  controls.bidOnly.addEventListener("input", () => {
+    if (controls.bidOnly.checked) controls.watchOnly.checked = false;
+    render();
+  });
   ending24.addEventListener("input", () => {
     controls.endingHours.value = ending24.checked ? "24" : "";
     render();

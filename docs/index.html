@@ -18,7 +18,7 @@
       </span>
     </a>
     <nav class="header-links" aria-label="Data links">
-      <a href="./data/listings.json">JSON feed</a>
+        <a href="./data/index.json">JSON feed</a>
       <a href="./data/high_priority.json">High priority</a>
     </nav>
   </header>
@@ -27,7 +27,7 @@
     <section class="toolbar" aria-label="Listing controls">
       <div class="search-wrap">
         <label for="keyword">Search this feed</label>
-        <input id="keyword" type="search" placeholder="Title, description, seller, item ID…" autocomplete="off">
+        <input id="keyword" type="search" placeholder="Title, seller, item ID…" autocomplete="off">
       </div>
       <div class="sort-wrap">
         <label for="sort">Sort by</label>
@@ -103,7 +103,11 @@
         <label><input id="multiple-photos" type="checkbox"><span>Multiple photos</span></label>
         <label><input id="no-bids" type="checkbox"><span>No bids</span></label>
         <label><input id="high-potential" type="checkbox"><span>High potential only</span></label>
-        <label><input id="hide-evaluated" type="checkbox"><span>Hide evaluated</span></label>
+        <label><input id="new-only" type="checkbox"><span>New since last visit</span></label>
+        <label><input id="evidence-only" type="checkbox"><span>Image evidence</span></label>
+        <label><input id="watch-only" type="checkbox"><span>Watching only</span></label>
+        <label><input id="bid-only" type="checkbox"><span>Bid planned only</span></label>
+        <label><input id="show-dismissed" type="checkbox"><span>Show dismissed</span></label>
       </div>
       <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
     </section>
@@ -114,6 +118,7 @@
         <p class="results-meta" aria-live="polite">
           <span><strong id="active-count">—</strong> active</span>
           <span><strong id="priority-count">—</strong> high potential</span>
+          <span><strong id="new-count">—</strong> new</span>
           <span>updated <strong id="refresh-age">—</strong></span>
         </p>
       </div>
@@ -172,7 +177,8 @@
         <details class="card-reasons"><summary>Why it stands out</summary><ul></ul></details>
         <div class="evaluation-row">
           <button class="watch-button" type="button">Watch</button>
-          <button class="reject-button" type="button">Reject</button>
+          <button class="bid-button" type="button">Bid</button>
+          <button class="dismiss-button" type="button">Dismiss</button>
         </div>
         <div class="card-footer">
           <span class="item-id"></span>
