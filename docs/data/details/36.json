@@ -14,13 +14,9 @@
       "Opportunity term 'lot' in title (+5)",
       "Opportunity term 'see photos' in description (+4)",
       "Lower-priority term 'damage' in description (-12)",
-      "Lower-priority term 'embossed' in description (-5)",
       "Target keyword 'beehive' in description (+10)",
       "Target keyword 'signal' in description (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-      "Price at or below $20 (+7)",
-      "1 bid (+2)",
-      "4 listing photos (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -28,19 +24,16 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 40,
+        "score": 34,
+        "relative_score": 1.133,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Opportunity term 'see photos' in description (+4)",
           "Lower-priority term 'damage' in description (-12)",
-          "Lower-priority term 'embossed' in description (-5)",
           "Target keyword 'beehive' in description (+10)",
           "Target keyword 'signal' in description (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-          "Price at or below $20 (+7)",
-          "1 bid (+2)",
-          "4 listing photos (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -48,6 +41,62 @@
           "beehive",
           "signal"
         ]
+      }
+    ]
+  },
+  "ctbids-47673-5530790": {
+    "item_id": "ctbids-47673-5530790",
+    "listing_url": "https://ctbids.com/estate-sale/47673/item/5530790/Vintage-earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5530790_S7w0Rl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47395-5514861": {
+    "item_id": "ctbids-47395-5514861",
+    "listing_url": "https://ctbids.com/estate-sale/47395/item/5514861/Antique-Illinois-Open-Face-Pocket-Watch-White-Enamel-Dial-Fob-No-Crystal",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5514861_6iecuZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -65,9 +114,6 @@
     "description": "Heavy-Duty Tarp/Fabric Rack – 13 ft\nThis lot includes\none heavy-duty rack with 8 rolls of tarp/fabric covering\n.\nRack is approximately\n13 feet long\nand very heavy-duty.\nIncludes\n8 rolls of tarp/fabric\n. Exact lengths cannot be confirmed because the material is rolled and the lengths may vary.\nEquipped with\nrubber locking wheels\nfor easy movement and added stability.\nBuyer is responsible for removal\nof the item. Assistance will be provided as our policies allow.\nHas handle for rolling and unrolling",
     "score_reasons": [
       "Opportunity term 'lot' in description (+5)",
-      "Price at or below $100 (+5)",
-      "0 bids (+4)",
-      "6 listing photos (+5)",
       "Pickup-only limits the opportunity (0)",
       "Base score (+8)"
     ],
@@ -75,12 +121,10 @@
       {
         "id": "local-government-surplus",
         "label": "Local Government Surplus",
-        "score": 27,
+        "score": 13,
+        "relative_score": 0.406,
         "score_reasons": [
           "Opportunity term 'lot' in description (+5)",
-          "Price at or below $100 (+5)",
-          "0 bids (+4)",
-          "6 listing photos (+5)",
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
         ],
@@ -98,7 +142,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -106,11 +149,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -128,7 +171,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -136,11 +178,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47673-5533135": {
+    "item_id": "ctbids-47673-5533135",
+    "listing_url": "https://ctbids.com/estate-sale/47673/item/5533135/Vintage-braceet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5533135_B4niY8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47673-5533173": {
+    "item_id": "ctbids-47673-5533173",
+    "listing_url": "https://ctbids.com/estate-sale/47673/item/5533173/Vintage-necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5533173_e4DQXm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -158,7 +258,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'lot' in title (+4)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -166,11 +265,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 18,
+        "score": 11,
+        "relative_score": 0.324,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -178,17 +277,15 @@
       }
     ]
   },
-  "ctbids-47673-5530790": {
-    "item_id": "ctbids-47673-5530790",
-    "listing_url": "https://ctbids.com/estate-sale/47673/item/5530790/Vintage-earrings",
+  "ctbids-47159-5532548": {
+    "item_id": "ctbids-47159-5532548",
+    "listing_url": "https://ctbids.com/estate-sale/47159/item/5532548/Chamba-Prints",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5530790_S7w0Rl.webp"
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5532548_42FvaK.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -196,99 +293,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 15,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47395-5514861": {
-    "item_id": "ctbids-47395-5514861",
-    "listing_url": "https://ctbids.com/estate-sale/47395/item/5514861/Antique-Illinois-Open-Face-Pocket-Watch-White-Enamel-Dial-Fob-No-Crystal",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5514861_6iecuZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Price at or below $25 (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 15,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Price at or below $25 (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47673-5533135": {
-    "item_id": "ctbids-47673-5533135",
-    "listing_url": "https://ctbids.com/estate-sale/47673/item/5533135/Vintage-braceet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5533135_B4niY8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 15,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47673-5533173": {
-    "item_id": "ctbids-47673-5533173",
-    "listing_url": "https://ctbids.com/estate-sale/47673/item/5533173/Vintage-necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5533173_e4DQXm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 15,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -305,8 +313,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -314,69 +320,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 15,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47173-5499898": {
-    "item_id": "ctbids-47173-5499898",
-    "listing_url": "https://ctbids.com/estate-sale/47173/item/5499898/Towle-Silverplate-6679-Ornate-Serving-Tray-Scalloped-Tray-Lidded-Pitcher-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-09T64e589/5499898_9Wwd4C.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 14,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47159-5533546": {
-    "item_id": "ctbids-47159-5533546",
-    "listing_url": "https://ctbids.com/estate-sale/47159/item/5533546/Assorted-Vintage-Necklaces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5533546_zFcvFO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 13,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -393,7 +340,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -401,10 +347,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -421,7 +367,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -429,10 +374,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -449,7 +394,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -457,10 +401,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -468,16 +412,14 @@
       }
     ]
   },
-  "ctbids-47159-5532548": {
-    "item_id": "ctbids-47159-5532548",
-    "listing_url": "https://ctbids.com/estate-sale/47159/item/5532548/Chamba-Prints",
+  "ctbids-47458-5525352": {
+    "item_id": "ctbids-47458-5525352",
+    "listing_url": "https://ctbids.com/estate-sale/47458/item/5525352/Kenner-Star-Wars-Power-of-the-Force-Imperial-TIE-Fighter-Cruise-Missile-Trooper",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5532548_42FvaK.webp"
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5525352_8fVhMM.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
-      "0 bids (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -485,10 +427,61 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
-          "0 bids (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47395-5514679": {
+    "item_id": "ctbids-47395-5514679",
+    "listing_url": "https://ctbids.com/estate-sale/47395/item/5514679/Large-Mid-Century-Modern-Style-Solid-Oak-Long-Credenza-Credenza-Sideboard",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5514679_NTSZNv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47173-5499898": {
+    "item_id": "ctbids-47173-5499898",
+    "listing_url": "https://ctbids.com/estate-sale/47173/item/5499898/Towle-Silverplate-6679-Ornate-Serving-Tray-Scalloped-Tray-Lidded-Pitcher-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-09T64e589/5499898_9Wwd4C.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -505,7 +498,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -513,172 +505,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Price at or below $25 (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47501-5510209": {
-    "item_id": "ctbids-47501-5510209",
-    "listing_url": "https://ctbids.com/estate-sale/47501/item/5510209/Microlife-Meter",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5510209_f6QMwd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "score_reasons": [
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47659-5533193": {
-    "item_id": "ctbids-47659-5533193",
-    "listing_url": "https://ctbids.com/estate-sale/47659/item/5533193/Crystal-Decanter-Dish-And-Salt-And-Pepper-shaker",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5533193_QBhbgU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "score_reasons": [
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47482-5521266": {
-    "item_id": "ctbids-47482-5521266",
-    "listing_url": "https://ctbids.com/estate-sale/47482/item/5521266/DG126-The-Lion-King-Exclusive-Deluxe-Video-Edition-Box-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5521266_GYyLmY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $25 (+7)",
-      "1 bid (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "score_reasons": [
-          "Price at or below $25 (+7)",
-          "1 bid (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47400-5510388": {
-    "item_id": "ctbids-47400-5510388",
-    "listing_url": "https://ctbids.com/estate-sale/47400/item/5510388/Romantic-Silver-Tone-Heart-Jewelry-Layered-Charm-Necklace-Heart-Pendant-Coordinating-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5510388_Pc2Xw1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $25 (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "score_reasons": [
-          "Price at or below $25 (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47458-5525352": {
-    "item_id": "ctbids-47458-5525352",
-    "listing_url": "https://ctbids.com/estate-sale/47458/item/5525352/Kenner-Star-Wars-Power-of-the-Force-Imperial-TIE-Fighter-Cruise-Missile-Trooper",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5525352_8fVhMM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $25 (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "score_reasons": [
-          "Price at or below $25 (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47395-5514679": {
-    "item_id": "ctbids-47395-5514679",
-    "listing_url": "https://ctbids.com/estate-sale/47395/item/5514679/Large-Mid-Century-Modern-Style-Solid-Oak-Long-Credenza-Credenza-Sideboard",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5514679_NTSZNv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $25 (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -694,7 +524,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -702,9 +531,59 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47501-5510209": {
+    "item_id": "ctbids-47501-5510209",
+    "listing_url": "https://ctbids.com/estate-sale/47501/item/5510209/Microlife-Meter",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5510209_f6QMwd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47659-5533193": {
+    "item_id": "ctbids-47659-5533193",
+    "listing_url": "https://ctbids.com/estate-sale/47659/item/5533193/Crystal-Decanter-Dish-And-Salt-And-Pepper-shaker",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5533193_QBhbgU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -720,7 +599,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -728,9 +606,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -746,7 +624,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -754,9 +631,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -772,7 +649,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -780,9 +656,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -798,7 +674,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -806,9 +681,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -824,7 +699,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -832,9 +706,34 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47482-5521266": {
+    "item_id": "ctbids-47482-5521266",
+    "listing_url": "https://ctbids.com/estate-sale/47482/item/5521266/DG126-The-Lion-King-Exclusive-Deluxe-Video-Edition-Box-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5521266_GYyLmY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -850,7 +749,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -858,9 +756,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -876,7 +774,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -884,9 +781,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -902,7 +799,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -910,9 +806,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -928,7 +824,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "Price at or below $25 (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -936,35 +831,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Price at or below $25 (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47378-5512805": {
-    "item_id": "ctbids-47378-5512805",
-    "listing_url": "https://ctbids.com/estate-sale/47378/item/5512805/Franciscan-Desert-Rose-4-Dinner-Plates-1-Serving-Platter-1-Relish-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5512805_l965vl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Price at or below $75 (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "score_reasons": [
-          "Price at or below $75 (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
