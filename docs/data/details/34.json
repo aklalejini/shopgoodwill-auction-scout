@@ -153,6 +153,46 @@
       }
     ]
   },
+  "274950145": {
+    "item_id": "274950145",
+    "listing_url": "https://shopgoodwill.com/item/274950145",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/107/Items/2026-08-24/f445ac69-5348-4739-b04c-bf9f336b08ecght2_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/107/Items/2026-08-24/1ad102ca-641e-4e4c-8fd9-19e4b586c7f8ght2_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/107/Items/2026-08-24/3f92b9af-f7c0-4053-a106-498190103c62ght2_08243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/107/Items/2026-08-24/6260e360-2a7c-4922-8aeb-3cf8efccaf54ght2_08244.jpg"
+    ],
+    "description": "Cross\nWriting Instrument Lot - 4 Pieces\nGold and Silver Toned, Vintage\nA collection of four vintage Cross writing instruments, representing the classic American craftsmanship of the A.T. Cross Company. These pens feature the iconic slim silhouette and conical tops that have defined the brand's aesthetic for decades. This lot includes two distinct pairs in gold and silver-toned finishes, providing a range of styles for collectors or daily use.\nItems Included:\nGold-toned ballpoint pen with vertical linear engine-turned texture and personalized script engraving, housed in a clear display case.\nSilver-toned chrome ballpoint pen with a smooth polished finish and signature pocket clip, housed in a clear display case.\nGold-toned ballpoint pen featuring a \"Hostess\" heart tag, housed in a black presentation box.\nSilver-toned chrome ballpoint pen with a sleek, minimalist finish, housed in a black presentation box.\nOne additional Cross ballpoint pen refill included.\nCondition:\nThe metal bodies of all four pens exhibit signs of use, including visible surface scratches and scuffs, which are more prominent on the chrome finishes. One gold-toned pen features a personalized script engraving. The internal twist mechanisms are intact, though the pens have not been tested for ink flow or writing functionality. The display cases show moderate shelf wear, including surface scuffing and light scratches to the clear plastic components.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Opportunity term 'collection' in description (+6)",
+      "Opportunity term 'lot' in title (+5)",
+      "Lower-priority term 'personalized' in description (-13)",
+      "Lower-priority term 'ballpoint' in description (-4)",
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 16,
+        "relative_score": 0.457,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Opportunity term 'collection' in description (+6)",
+          "Opportunity term 'lot' in title (+5)",
+          "Lower-priority term 'personalized' in description (-13)",
+          "Lower-priority term 'ballpoint' in description (-4)",
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "govdeals-13747-430": {
     "item_id": "govdeals-13747-430",
     "listing_url": "https://www.govdeals.com/en/asset/430/13747",
@@ -716,33 +756,6 @@
       }
     ]
   },
-  "ctbids-47489-5533175": {
-    "item_id": "ctbids-47489-5533175",
-    "listing_url": "https://ctbids.com/estate-sale/47489/item/5533175/Griswold-And-Kresse-Pans",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5533175_2AZWl3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47464-5514121": {
     "item_id": "ctbids-47464-5514121",
     "listing_url": "https://ctbids.com/estate-sale/47464/item/5514121/Candle-Time",
@@ -1052,6 +1065,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47482/item/5517457/DG610-Three-Franklin-Mint-Pewter-Figurines-Shooting-Gallery-Dance-Marathon-and-Ukulele-Serenade",
     "images": [
       "https://image.ctbids.com/seller/2026-08-13T032a65/5517457_YJWIEH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47489-5533175": {
+    "item_id": "ctbids-47489-5533175",
+    "listing_url": "https://ctbids.com/estate-sale/47489/item/5533175/Griswold-And-Kresse-Pans",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5533175_2AZWl3.webp"
     ],
     "description": "",
     "score_reasons": [

@@ -742,6 +742,31 @@
       }
     ]
   },
+  "ctbids-47659-5534545": {
+    "item_id": "ctbids-47659-5534545",
+    "listing_url": "https://ctbids.com/estate-sale/47659/item/5534545/Royal-Tara-Fine-Bone-China-Trinket-Dish",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5534545_pWhV9J.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "274675781": {
     "item_id": "274675781",
     "listing_url": "https://shopgoodwill.com/item/274675781",
@@ -769,31 +794,6 @@
           "Opportunity term 'rocks' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47659-5534545": {
-    "item_id": "ctbids-47659-5534545",
-    "listing_url": "https://ctbids.com/estate-sale/47659/item/5534545/Royal-Tara-Fine-Bone-China-Trinket-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5534545_pWhV9J.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -1064,9 +1064,10 @@
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+7)"
+      "Score boundary adjustment (+3)"
     ],
     "hunt_scores": [
       {
@@ -1080,9 +1081,10 @@
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+7)"
+          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }

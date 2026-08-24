@@ -1,4 +1,47 @@
 {
+  "274951869": {
+    "item_id": "274951869",
+    "listing_url": "https://shopgoodwill.com/item/274951869",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-24/d9a8cd53-f157-434e-bb0a-bcec260fb869evel_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-24/dfa13421-86cd-4ce5-95ca-314d6aa200c5evel_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-24/2cf482af-e73d-4cf5-8ffa-bc0f7acac795evel_08243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-24/1e992609-31ce-4932-8dfb-3276d5bb28eeevel_08244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-24/17b61be5-d350-4ad6-a30f-07a0f053f39eevel_08245.jpg"
+    ],
+    "description": "Product Overview:\nThis collection includes a variety of vintage electrical insulators made of glass and ceramic. The insulators feature different shapes, colors, and sizes, with markings such as 'Hemingray' and 'Brookfield.' Colors include aqua blue, clear, brown glass, and brown ceramic. Total weight of lot is 15 lbs.\n\nSpecifications:\n- Materials: Glass and ceramic\n- Markings: Hemingray, Brookfield\n- Colors: Aqua blue, clear, brown glass, brown ceramic\n- Condition: Used with minor surface wear and some chips\n\nThese insulators were used on telegraph, telephone, or power lines.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in description (+5)",
+      "High-value signal 'amber glass color' in image color analysis (+14)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "15 lb lot has unresolved shipping cost (-3)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 55,
+        "relative_score": 1.833,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in description (+5)",
+          "High-value signal 'amber glass color' in image color analysis (+14)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "15 lb lot has unresolved shipping cost (-3)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "274725763": {
     "item_id": "274725763",
     "listing_url": "https://shopgoodwill.com/item/274725763",
@@ -48,6 +91,7 @@
       "Lower-priority term 'ballpoint' in title (-4)",
       "Target keyword 'sheaffer' in title (+9)",
       "Pen-and-pencil set resale premium (+10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -55,13 +99,14 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 22,
-        "relative_score": 0.629,
+        "score": 26,
+        "relative_score": 0.743,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Lower-priority term 'ballpoint' in title (-4)",
           "Target keyword 'sheaffer' in title (+9)",
           "Pen-and-pencil set resale premium (+10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -501,33 +546,6 @@
       }
     ]
   },
-  "ctbids-47501-5515132": {
-    "item_id": "ctbids-47501-5515132",
-    "listing_url": "https://ctbids.com/estate-sale/47501/item/5515132/DVD-RW-CD-RW-Drive",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5515132_DPjqyT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47483-5529504": {
     "item_id": "ctbids-47483-5529504",
     "listing_url": "https://ctbids.com/estate-sale/47483/item/5529504/Mystery-World-Coin-Currency-Collection-International-Coins-Paper-Money",
@@ -675,6 +693,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47501/item/5515129/NWT-PGA-Golf-Pants",
     "images": [
       "https://image.ctbids.com/seller/2026-08-13T032a65/5515129_kLhnbw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47501-5515132": {
+    "item_id": "ctbids-47501-5515132",
+    "listing_url": "https://ctbids.com/estate-sale/47501/item/5515132/DVD-RW-CD-RW-Drive",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5515132_DPjqyT.webp"
     ],
     "description": "",
     "score_reasons": [

@@ -15,6 +15,7 @@
       "Opportunity term 'minerals' in description (+1)",
       "Lower-priority term 'suggests' in description (-4)",
       "Target keyword 'malachite' in description (+9)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -22,13 +23,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'minerals' in description (+1)",
           "Lower-priority term 'suggests' in description (-4)",
           "Target keyword 'malachite' in description (+9)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -341,33 +343,6 @@
       }
     ]
   },
-  "ctbids-47229-5492611": {
-    "item_id": "ctbids-47229-5492611",
-    "listing_url": "https://ctbids.com/estate-sale/47229/item/5492611/Crystal-Whiskey-Bar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-06T4fdb34/5492611_EMCJ2p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47229-5523923": {
     "item_id": "ctbids-47229-5523923",
     "listing_url": "https://ctbids.com/estate-sale/47229/item/5523923/Nina-Matsuno-And-Friends",
@@ -652,6 +627,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47671/item/5535472/Glass-Marbles",
     "images": [
       "https://image.ctbids.com/seller/2026-08-19T869be6/5535472_90g5cf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47229-5492611": {
+    "item_id": "ctbids-47229-5492611",
+    "listing_url": "https://ctbids.com/estate-sale/47229/item/5492611/Crystal-Whiskey-Bar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-06T4fdb34/5492611_EMCJ2p.webp"
     ],
     "description": "",
     "score_reasons": [

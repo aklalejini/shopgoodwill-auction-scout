@@ -150,7 +150,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -162,7 +162,7 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -373,33 +373,6 @@
       }
     ]
   },
-  "ctbids-47750-5549858": {
-    "item_id": "ctbids-47750-5549858",
-    "listing_url": "https://ctbids.com/estate-sale/47750/item/5549858/Hop-Into-Spring-Aspen-Promotion-Ceramic-Bunny-Flower-Basket-Easter-D-cor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5544982_klJRBy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47234-5480892": {
     "item_id": "ctbids-47234-5480892",
     "listing_url": "https://ctbids.com/estate-sale/47234/item/5480892/Vintage-Japanese-Kimono-Black-Gold-Red-Floral-Design",
@@ -420,6 +393,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47750-5549858": {
+    "item_id": "ctbids-47750-5549858",
+    "listing_url": "https://ctbids.com/estate-sale/47750/item/5549858/Hop-Into-Spring-Aspen-Promotion-Ceramic-Bunny-Flower-Basket-Easter-D-cor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5544982_klJRBy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
