@@ -965,5 +965,46 @@
         "matched_keywords": []
       }
     ]
+  },
+  "274922549": {
+    "item_id": "274922549",
+    "listing_url": "https://shopgoodwill.com/item/274922549",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes over 30 assorted mineral and rock specimens featuring raw and tumbled stones, crystal clusters, and a decorative gemstone tree. Specimens include purple amethyst clusters, pyrite, quartz points, green malachite, and various semiprecious stones such as calcite and agate. Sizes range from small pebbles to larger hand-sized pieces. The gemstone tree sculpture has wire branches with polished stone leaves. Items show natural mineral formations with some rough edges. Suitable for collectors, educational purposes, or crystal enthusiasts.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Target keyword 'malachite' in description (+9)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+16)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Target keyword 'malachite' in description (+9)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+16)"
+        ],
+        "matched_keywords": [
+          "malachite"
+        ]
+      }
+    ]
   }
 }
