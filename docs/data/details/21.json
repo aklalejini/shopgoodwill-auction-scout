@@ -123,6 +123,44 @@
       }
     ]
   },
+  "274959899": {
+    "item_id": "274959899",
+    "listing_url": "https://shopgoodwill.com/item/274959899",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-24/be84d841-43c5-4e16-ae6e-4894f413d460azyl_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-24/d3d44f2f-ef91-496b-acb4-904662e75fb5azyl_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-24/bb0ccf9a-236e-481a-8300-5474c591c23cazyl_08243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-24/4f742d34-434e-452c-bf1a-a1ad3072c755azyl_08244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-24/98b81879-3cb0-4202-afdc-d5fc8d4551faazyl_08245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-24/705cc8fb-c439-4169-b6ef-9a52c9c59ae2azyl_08246.jpg"
+    ],
+    "description": "This lot includes assorted crystals, polished and raw stones, mineral specimens, and decorative items such as a framed butterfly and floral display. The lot also features a geode slice with visible crystallization and various polished gemstones in resealable bags.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'decorative' in title (-8)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 12,
+        "relative_score": 0.4,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'decorative' in title (-8)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47428-5543598": {
     "item_id": "ctbids-47428-5543598",
     "listing_url": "https://ctbids.com/estate-sale/47428/item/5543598/Antique-Secretary-42-5x16x42-Inches",
@@ -339,6 +377,33 @@
       }
     ]
   },
+  "ctbids-47432-5530070": {
+    "item_id": "ctbids-47432-5530070",
+    "listing_url": "https://ctbids.com/estate-sale/47432/item/5530070/Power-Strips",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5530070_KZBqi6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "274737710": {
     "item_id": "274737710",
     "listing_url": "https://shopgoodwill.com/item/274737710",
@@ -367,33 +432,6 @@
           "Opportunity term 'collection' in description (+7)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47432-5530070": {
-    "item_id": "ctbids-47432-5530070",
-    "listing_url": "https://ctbids.com/estate-sale/47432/item/5530070/Power-Strips",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5530070_KZBqi6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
