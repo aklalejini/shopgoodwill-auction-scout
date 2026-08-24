@@ -8,7 +8,7 @@ The intended recurring cost is **$0**: the site is plain HTML/CSS/JavaScript on 
 
 ## What you get
 
-- An image-first responsive gallery, sorted by evidence-based potential score
+- An image-first responsive gallery, sorted by a cross-category, urgency-aware review priority
 - Filters for source, category, price, time remaining, keyword, seller, target terms, photos, bids, and opportunity status
 - Nearby government-surplus and CTBids pickup feeds fixed to ZIP **38635** within **50 miles**, plus CTBids lots marked shippable nationwide
 - Visible Buy It Now pricing with an availability filter, maximum-price filter, and lowest-price sorting
@@ -58,7 +58,9 @@ Each run searches the editable terms, merges duplicates by item ID, updates sear
 
 Each run asks GSA Auctions, GovDeals, and CTBids for active listings within 50 miles of 38635, then separately asks CTBids for listings explicitly marked shippable, ordered by ending time and bounded by the configured page limit. Results are deduplicated and namespaced by source so overlapping numeric IDs cannot collide. Government lots favor visible equipment signals; CTBids lots favor visible collector, material, maker, and estate-collection signals. Pickup-only CTBids lots are retained only from the nearby search.
 
-The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, photos, bid activity, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. The result is a review priority—not an appraisal—and every card exposes the strongest reasons behind its score. Inspecting a card lazily fetches its full images, description, and per-hunt audit trail from one of 64 stable detail buckets.
+The ranking deliberately avoids assigning resale prices. Each category has its own evidence rules for valuable makers, models, construction details, lot composition, condition language, and obvious risk signals. Only the strongest few signals contribute, specific phrases supersede generic substrings, description-only evidence receives less weight, and boilerplate shipping/return text is removed first. Cheapness and extra photo count do not create value evidence; too few photos remain a quality risk, and bid count contributes only inside the final 12 hours.
+
+The site keeps two separate, auditable numbers. The **evidence score** is the category-specific keyword, image, OCR, and risk calculation. The **review priority** calibrates that score against the category's own high-potential threshold and field percentile, then adds a small time-to-close adjustment and factual friction such as unavailable combined shipping. This makes the default ordering useful across unlike categories without pretending a pen score and an insulator score share a resale-value scale. Both sets of reasons remain visible, and neither number is an appraisal. Inspecting a card lazily fetches its full images, description, and per-hunt audit trail from one of 64 stable detail buckets.
 
 The workflow uses Tesseract and a small local image-color check to inspect a fixed number of listing images per run, caching results in `data/ocr_cache.json`. OCR can surface visible model numbers, tube codes, brands, and markings that titles miss. For glass insulators, the color check can flag a dominant blue, purple, amber, yellow/olive, or green/teal hue. Both are clue sources, not visual authentication.
 
@@ -93,16 +95,16 @@ Edit [`scraper/config.json`](scraper/config.json):
 
 - `hunts` contains independently enabled categories. Each hunt has an `id`, label, search terms, and scoring-profile name.
 - `local_search` sets the ZIP code and radius used for nearby inventory, while `sources` enables and rate-limits GSA Auctions, GovDeals, and CTBids independently. CTBids also supports a separate nationwide shippable pass.
-- `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one and uses its strongest score as the default.
+- `scoring_profiles` keeps each hunt's ranking logic separate. A listing found by multiple hunts receives a score within each one. Focused category hunts take precedence over broad source-level hunts, and scores are compared relative to each category's own threshold.
 - `search_terms` inside a hunt controls that category's queries.
 - `seller_sweeps` provides a small ending-soon fallback for proven sellers whose lots are sometimes missing from ShopGoodwill keyword results. Sweep results are filtered against the hunt's `domain_keywords` before they enter the feed.
 - `priority_keywords` rewards collector-oriented wording, but configurable group caps prevent generic words such as “mixed,” “lot,” and “assorted” from stacking into a false high score.
 - `seller_bonuses` can encode a narrowly scoped source-confidence adjustment when repeated visual review shows that a seller's domain-specific lots are consistently stronger than their generic descriptions.
 - `lower_priority_keywords` strongly lowers dyed, coated, carved, decorative, metaphysical, and other retail/decor noise.
 - `target_keywords` and `premium_keywords` add category-specific bonuses.
-- `bid_penalties` can lower opportunity priority when heavy bidding shows that a listing is already widely noticed.
+- `bid_bonuses` and `bid_penalties` apply only near closing time (12 hours by default), when bidding begins to carry useful opportunity information.
 - `collector_evidence_keywords` rewards provenance, locality labels, specimen labels, and field-collected material.
-- `price_bonuses`, `bid_bonuses`, `photo_bonuses`, and `shipping_rules` control market signals and delivered-cost risk. A zero listed shipping value is treated as unresolved calculated shipping, not as free shipping.
+- `photo_penalties` and `high_priority_minimum_photos` enforce inspection-quality gates without rewarding a listing merely for having more photos. `shipping_rules` represents known delivery friction. A zero listed shipping value is treated as unresolved calculated shipping, not as free shipping.
 - `high_priority_threshold` controls the numeric cutoff, while the high-priority quality gate also requires enough photos and at least one strong collector, target, provenance, construction, or equipment signal.
 - `max_detail_requests_per_run`, delays, timeouts, and page limits control request volume.
 

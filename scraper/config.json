@@ -355,7 +355,7 @@
   "scoring_profiles": {
     "minerals-geology": {
     "base_score": 5,
-    "high_priority_threshold": 38,
+    "high_priority_threshold": 30,
     "undervalued_threshold": 30,
     "high_priority_minimum_photos": 4,
     "high_priority_risk_floor": -24,
@@ -530,19 +530,9 @@
       "Morenci": 14,
       "Butte": 12
     },
-    "price_bonuses": [
-      {"maximum": 15, "points": 8},
-      {"maximum": 30, "points": 6},
-      {"maximum": 60, "points": 3}
-    ],
     "bid_bonuses": [
       {"maximum": 0, "points": 4},
       {"maximum": 2, "points": 2}
-    ],
-    "photo_bonuses": [
-      {"minimum": 8, "points": 5},
-      {"minimum": 4, "points": 3},
-      {"minimum": 2, "points": 1}
     ],
     "photo_penalties": [
       {"maximum": 0, "points": -15},
@@ -566,7 +556,7 @@
     },
     "sealed-vintage-media": {
       "base_score": 4,
-      "high_priority_threshold": 44,
+      "high_priority_threshold": 36,
       "undervalued_threshold": 32,
       "high_priority_minimum_photos": 3,
       "high_priority_risk_floor": -20,
@@ -828,19 +818,9 @@
         "mam-a gold": 14,
         "verbatim datalifeplus": 10
       },
-      "price_bonuses": [
-        {"maximum": 20, "points": 8},
-        {"maximum": 50, "points": 5},
-        {"maximum": 100, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 4},
         {"maximum": 2, "points": 2}
-      ],
-      "photo_bonuses": [
-        {"minimum": 6, "points": 4},
-        {"minimum": 3, "points": 2},
-        {"minimum": 2, "points": 1}
       ],
       "photo_penalties": [
         {"maximum": 0, "points": -15},
@@ -864,7 +844,7 @@
     },
     "vintage-electron-tubes": {
       "base_score": 5,
-      "high_priority_threshold": 44,
+      "high_priority_threshold": 32,
       "undervalued_threshold": 32,
       "high_priority_minimum_photos": 4,
       "high_priority_risk_floor": -30,
@@ -941,7 +921,7 @@
       },
       "title_opportunity_rules": [
         {
-          "label": "Generic multi-photo tube lot may hide factory rebrands",
+          "label": "Generic estate tube lot may hide factory rebrands",
           "requires_any": ["tube", "tubes"],
           "requires_context": ["lot", "box", "caddy", "collection", "estate", "assorted", "mixed"],
           "forbids_any": [
@@ -1137,20 +1117,9 @@
         "mullard el84": 17,
         "amperex el84": 17
       },
-      "price_bonuses": [
-        {"maximum": 25, "points": 8},
-        {"maximum": 75, "points": 5},
-        {"maximum": 200, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 4},
         {"maximum": 2, "points": 2}
-      ],
-      "photo_bonuses": [
-        {"minimum": 12, "points": 10},
-        {"minimum": 8, "points": 7},
-        {"minimum": 5, "points": 4},
-        {"minimum": 3, "points": 2}
       ],
       "photo_penalties": [
         {"maximum": 0, "points": -18},
@@ -1175,7 +1144,7 @@
     },
     "vintage-pens": {
       "base_score": 5,
-      "high_priority_threshold": 52,
+      "high_priority_threshold": 35,
       "undervalued_threshold": 33,
       "high_priority_minimum_photos": 4,
       "high_priority_risk_floor": -28,
@@ -1254,7 +1223,7 @@
       },
       "title_opportunity_rules": [
         {
-          "label": "Generic photo-rich pen lot may hide gold nibs or scarce parts",
+          "label": "Generic estate pen lot may hide gold nibs or scarce parts",
           "requires_any": ["pen", "pens"],
           "requires_context": ["lot", "collection", "estate", "assorted", "mixed"],
           "forbids_any": [
@@ -1447,20 +1416,9 @@
         "conway stewart flex": 23,
         "onoto flex": 23
       },
-      "price_bonuses": [
-        {"maximum": 25, "points": 8},
-        {"maximum": 75, "points": 5},
-        {"maximum": 175, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 4},
         {"maximum": 2, "points": 2}
-      ],
-      "photo_bonuses": [
-        {"minimum": 12, "points": 11},
-        {"minimum": 8, "points": 8},
-        {"minimum": 5, "points": 5},
-        {"minimum": 3, "points": 2}
       ],
       "photo_penalties": [
         {"maximum": 0, "points": -18},
@@ -1485,7 +1443,7 @@
     },
     "estate-tobacco-pipes": {
       "base_score": 5,
-      "high_priority_threshold": 52,
+      "high_priority_threshold": 35,
       "undervalued_threshold": 34,
       "high_priority_minimum_photos": 5,
       "high_priority_risk_floor": -28,
@@ -1753,20 +1711,9 @@
         "antique block meerschaum": 24,
         "block meerschaum fitted case": 26
       },
-      "price_bonuses": [
-        {"maximum": 25, "points": 8},
-        {"maximum": 75, "points": 5},
-        {"maximum": 175, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 4},
         {"maximum": 2, "points": 2}
-      ],
-      "photo_bonuses": [
-        {"minimum": 12, "points": 11},
-        {"minimum": 8, "points": 8},
-        {"minimum": 5, "points": 5},
-        {"minimum": 3, "points": 2}
       ],
       "photo_penalties": [
         {"maximum": 0, "points": -18},
@@ -1791,7 +1738,7 @@
     },
     "glass-insulators": {
       "base_score": 5,
-      "high_priority_threshold": 46,
+      "high_priority_threshold": 30,
       "undervalued_threshold": 30,
       "high_priority_minimum_photos": 4,
       "high_priority_risk_floor": -25,
@@ -1909,8 +1856,8 @@
         "fleabites": -5,
         "roughness": -3,
         "bruise": -10,
-        "hemingray-42": -18,
-        "hemingray 42": -18,
+        "hemingray-42": -10,
+        "hemingray 42": -10,
         "whitall tatum no 1": -18,
         "whitall tatum no. 1": -18,
         "pyrex": -15,
@@ -1924,9 +1871,7 @@
         "insulators.info": -20,
         "rare color": -8,
         "highly sought": -8,
-        "collector": -5,
-        "embossing": -8,
-        "embossed": -5
+        "collector": -5
       },
       "target_keywords": {
         "threadless": 26,
@@ -1988,11 +1933,6 @@
         "cd 109.5": 26,
         "cd 257": 25
       },
-      "price_bonuses": [
-        {"maximum": 20, "points": 7},
-        {"maximum": 60, "points": 4},
-        {"maximum": 150, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 5},
         {"maximum": 2, "points": 2}
@@ -2000,12 +1940,6 @@
       "bid_penalties": [
         {"minimum": 8, "points": -12},
         {"minimum": 4, "points": -6}
-      ],
-      "photo_bonuses": [
-        {"minimum": 10, "points": 10},
-        {"minimum": 8, "points": 8},
-        {"minimum": 5, "points": 5},
-        {"minimum": 3, "points": 2}
       ],
       "photo_penalties": [
         {"maximum": 0, "points": -20},
@@ -2060,19 +1994,9 @@
         "new old stock": 8,
         "sealed": 6
       },
-      "price_bonuses": [
-        {"maximum": 25, "points": 8},
-        {"maximum": 100, "points": 5},
-        {"maximum": 500, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 4},
         {"maximum": 2, "points": 2}
-      ],
-      "photo_bonuses": [
-        {"minimum": 10, "points": 8},
-        {"minimum": 5, "points": 5},
-        {"minimum": 2, "points": 2}
       ],
       "photo_penalties": [],
       "shipping_rules": {
@@ -2114,19 +2038,9 @@
         "sealed": 6,
         "lot": 4
       },
-      "price_bonuses": [
-        {"maximum": 25, "points": 7},
-        {"maximum": 75, "points": 4},
-        {"maximum": 200, "points": 2}
-      ],
       "bid_bonuses": [
         {"maximum": 0, "points": 4},
         {"maximum": 2, "points": 2}
-      ],
-      "photo_bonuses": [
-        {"minimum": 10, "points": 8},
-        {"minimum": 6, "points": 5},
-        {"minimum": 3, "points": 3}
       ],
       "photo_penalties": [
         {"maximum": 1, "points": -5}

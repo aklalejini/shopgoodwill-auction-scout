@@ -273,6 +273,7 @@ dialog::backdrop { background: rgba(18, 24, 21, .65); }
 .detail-facts div { min-width: 0; padding: 9px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .detail-facts strong { display: block; margin-top: 3px; overflow-wrap: anywhere; font-size: 12px; }
 .score-panel { margin: 20px 0; padding: 15px; background: var(--soft); border: 1px solid var(--line); }
+.review-panel { background: var(--green-light); border-color: var(--green); }
 .score-panel h3 { margin: 0 0 8px; font-size: 17px; }
 .score-panel ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 12px; }
 .detail-description { white-space: pre-line; font-size: 12px; }

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from datetime import datetime, timezone
 from typing import Any
 
 
@@ -46,6 +47,26 @@ def extract_weight_lb(text: str) -> float | None:
     """Extract the largest plainly stated pound weight from listing copy."""
     matches = re.findall(r"\b(\d+(?:\.\d+)?)\s*(?:lb|lbs|pound|pounds)\b", text, re.IGNORECASE)
     return max((float(value) for value in matches), default=None)
+
+
+def hours_remaining(listing: dict[str, Any]) -> float | None:
+    """Return hours to close for signals that only become meaningful near the end."""
+    try:
+        end = datetime.fromisoformat(str(listing.get("end_time") or "").replace("Z", "+00:00"))
+        now_value = listing.get("_scoring_now")
+        if isinstance(now_value, datetime):
+            now = now_value
+        elif now_value:
+            now = datetime.fromisoformat(str(now_value).replace("Z", "+00:00"))
+        else:
+            now = datetime.now(timezone.utc)
+        if end.tzinfo is None:
+            end = end.replace(tzinfo=timezone.utc)
+        if now.tzinfo is None:
+            now = now.replace(tzinfo=timezone.utc)
+        return (end - now).total_seconds() / 3600
+    except (TypeError, ValueError):
+        return None
 
 
 def _shipping_adjustment(
@@ -263,37 +284,27 @@ def score_listing(listing: dict[str, Any], config: dict[str, Any]) -> dict[str, 
             f"Proven source for visually strong specimen lots (+{seller_bonus})"
         )
 
-    price = float(listing.get("price") or 0)
-    price_tier = _first_matching_tier(price, config.get("price_bonuses", []), "maximum")
-    if price_tier:
-        points = int(price_tier["points"])
-        score += points
-        reasons.append(f"Price at or below ${price_tier['maximum']} (+{points})")
-
     bids = int(listing.get("bids") or 0)
-    bid_tier = _first_matching_tier(bids, config.get("bid_bonuses", []), "maximum")
-    if bid_tier:
-        points = int(bid_tier["points"])
-        score += points
-        reasons.append(f"{bids} bid{'s' if bids != 1 else ''} (+{points})")
+    remaining = hours_remaining(listing)
+    bid_window = float(config.get("bid_signal_window_hours", 12))
+    if remaining is not None and 0 <= remaining <= bid_window:
+        bid_tier = _first_matching_tier(bids, config.get("bid_bonuses", []), "maximum")
+        if bid_tier:
+            points = int(bid_tier["points"])
+            score += points
+            reasons.append(f"{bids} bid{'s' if bids != 1 else ''} near close (+{points})")
 
-    bid_penalty = _first_matching_tier(
-        bids, config.get("bid_penalties", []), "minimum"
-    )
-    if bid_penalty:
-        points = int(bid_penalty["points"])
-        score += points
-        if points < 0:
-            risk_points += points
-        reasons.append(f"{bids} bids show the opportunity is already noticed ({points})")
+        bid_penalty = _first_matching_tier(
+            bids, config.get("bid_penalties", []), "minimum"
+        )
+        if bid_penalty:
+            points = int(bid_penalty["points"])
+            score += points
+            if points < 0:
+                risk_points += points
+            reasons.append(f"{bids} bids near close show the opportunity is noticed ({points})")
 
     photo_count = len(listing.get("images") or [])
-    photo_tier = _first_matching_tier(photo_count, config.get("photo_bonuses", []), "minimum")
-    if photo_tier:
-        points = int(photo_tier["points"])
-        score += points
-        reasons.append(f"{photo_count} listing photos (+{points})")
-
     photo_penalty = _first_matching_tier(
         photo_count, config.get("photo_penalties", []), "maximum"
     )

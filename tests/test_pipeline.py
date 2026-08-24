@@ -29,6 +29,7 @@ from scraper.government import (
 )
 from scraper.scrape import (
     apply_hunt_scoring,
+    apply_review_priorities,
     apply_seller_clusters,
     browser_clusters,
     browser_detail_record,
@@ -122,6 +123,71 @@ class ScoringTests(unittest.TestCase):
             ),
             result["score"],
         )
+
+    def test_price_and_extra_photos_do_not_create_value_evidence(self):
+        base = {
+            "title": "Estate mineral collection with fluorite specimen labels",
+            "bids": 0,
+            "end_time": "2026-08-30T12:00:00+00:00",
+            "_scoring_now": "2026-08-23T12:00:00+00:00",
+        }
+        cheap_many = score_listing({**base, "price": 5, "images": [str(i) for i in range(12)]}, PROFILE)
+        expensive_enough = score_listing({**base, "price": 500, "images": [str(i) for i in range(4)]}, PROFILE)
+        self.assertEqual(cheap_many["score"], expensive_enough["score"])
+        self.assertFalse(any("Price at or below" in reason for reason in cheap_many["score_reasons"]))
+        self.assertFalse(any("listing photos (+" in reason for reason in cheap_many["score_reasons"]))
+
+    def test_bid_signals_only_count_near_close(self):
+        profile = {
+            "base_score": 0,
+            "bid_signal_window_hours": 12,
+            "bid_bonuses": [{"maximum": 0, "points": 5}],
+            "photo_penalties": [],
+            "high_priority_minimum_photos": 0,
+        }
+        base = {"title": "Test", "bids": 0, "_scoring_now": "2026-08-23T12:00:00+00:00"}
+        early = score_listing({**base, "end_time": "2026-08-25T12:00:00+00:00"}, profile)
+        near = score_listing({**base, "end_time": "2026-08-23T18:00:00+00:00"}, profile)
+        self.assertEqual(early["score"], 0)
+        self.assertEqual(near["score"], 5)
+        self.assertTrue(any("near close" in reason for reason in near["score_reasons"]))
+
+    def test_focused_hunt_beats_broad_source_hunt(self):
+        item = {
+            "title": "Tiffany & Co Sterling Silver Ballpoint Pen",
+            "description": "Vintage writing instrument",
+            "images": [str(index) for index in range(6)],
+            "hunt_categories": ["local-estate-auctions", "vintage-pens"],
+            "hunt_labels": ["CTBids Estate Auctions", "Vintage Pens"],
+        }
+        apply_hunt_scoring(item, CONFIG["hunts"], CONFIG["scoring_profiles"])
+        self.assertEqual(item["primary_hunt"]["id"], "vintage-pens")
+        self.assertEqual(len(item["hunt_scores"]), 2)
+
+    def test_review_priority_calibrates_thresholds_and_adds_urgency(self):
+        now = datetime(2026, 8, 23, 12, tzinfo=timezone.utc)
+        items = [
+            {
+                "item_id": "mineral", "score": 38, "high_priority": True,
+                "primary_hunt": {"id": "minerals-geology", "label": "Minerals & Geology"},
+                "end_time": "2026-08-23T18:00:00+00:00",
+            },
+            {
+                "item_id": "pen", "score": 52, "high_priority": True,
+                "primary_hunt": {"id": "vintage-pens", "label": "Vintage Pens"},
+                "end_time": "2026-08-28T18:00:00+00:00",
+            },
+        ]
+        apply_review_priorities(items, CONFIG["scoring_profiles"], CONFIG["hunts"], now)
+        self.assertGreater(items[0]["review_priority"], items[1]["review_priority"])
+        self.assertEqual(items[0]["category_percentile"], 100)
+        for item in items:
+            total = sum(
+                int(match.group(1))
+                for reason in item["review_reasons"]
+                if (match := re.search(r"\(([+-]\d+)\)$", reason))
+            )
+            self.assertEqual(total, item["review_priority"])
 
     def test_margin_model_demotes_lightscribe_and_values_known_tube(self):
         media = {
@@ -580,7 +646,7 @@ class PipelineTests(unittest.TestCase):
             with self.subTest(title=listing["title"]):
                 self.assertFalse(matches_hunt_domain(listing, TUBE_PROFILE))
 
-    def test_vague_many_photo_tube_lot_beats_tv_sweep_lot(self):
+    def test_vague_estate_tube_lot_beats_tv_sweep_lot(self):
         promising = {
             "title": "Estate Tube Caddy Lot of Assorted Vintage Radio Tubes",
             "description": "Baldwin, Conn and Fisher rebrands from an old repair shop.",
@@ -604,7 +670,7 @@ class PipelineTests(unittest.TestCase):
         self.assertGreaterEqual(high["score"], TUBE_PROFILE["high_priority_threshold"])
         self.assertTrue(high["high_priority_eligible"])
         self.assertGreater(high["score"], low["score"])
-        self.assertTrue(any("Generic multi-photo" in reason for reason in high["score_reasons"]))
+        self.assertTrue(any("Generic estate tube lot" in reason for reason in high["score_reasons"]))
 
     def test_vintage_pen_hunt_accepts_lots_sets_and_collector_models(self):
         matches = [
@@ -637,7 +703,7 @@ class PipelineTests(unittest.TestCase):
             with self.subTest(title=listing["title"]):
                 self.assertFalse(matches_hunt_domain(listing, PEN_PROFILE))
 
-    def test_photo_rich_generic_pen_lot_rewards_hidden_parts_opportunity(self):
+    def test_generic_estate_pen_lot_preserves_hidden_parts_opportunity(self):
         promising = {
             "title": "Estate Lot of 8 Old Pens",
             "description": "Assorted writing instruments from an estate; no nib or imprint closeups.",
@@ -661,7 +727,7 @@ class PipelineTests(unittest.TestCase):
         self.assertGreaterEqual(high["score"], PEN_PROFILE["high_priority_threshold"])
         self.assertTrue(high["high_priority_eligible"])
         self.assertGreater(high["score"], low["score"])
-        self.assertTrue(any("Generic photo-rich pen lot" in reason for reason in high["score_reasons"]))
+        self.assertTrue(any("Generic estate pen lot" in reason for reason in high["score_reasons"]))
 
     def test_tobacco_pipe_hunt_accepts_estate_lots_racks_and_collectible_makers(self):
         matches = [
@@ -695,7 +761,7 @@ class PipelineTests(unittest.TestCase):
             with self.subTest(title=listing["title"]):
                 self.assertFalse(matches_hunt_domain(listing, PIPE_PROFILE))
 
-    def test_photo_rich_estate_pipe_lot_beats_fatally_damaged_low_grade_pipes(self):
+    def test_estate_pipe_lot_beats_fatally_damaged_low_grade_pipes(self):
         promising = {
             "title": "Estate Lot of 12 Vintage Smoking Pipes",
             "description": "Assorted unmarked briar pipes with oxidized stems that need cleaning; rack included.",

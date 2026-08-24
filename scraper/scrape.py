@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import bisect
 import copy
 import hashlib
 import json
@@ -29,6 +30,7 @@ from .valuation import load_outcomes
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SOURCE_SCOPE_HUNTS = {"local-government-surplus", "local-estate-auctions"}
 
 PUBLIC_INTERNAL_FIELDS = {
     "valuation_matches", "valuation_reasons", "estimated_resale_low",
@@ -61,8 +63,91 @@ def derive_high_priority(
     """Return high-priority records directly from the canonical active objects."""
     return sorted(
         (item for item in active if item.get("high_priority")),
-        key=lambda item: -int(item.get("score") or 0),
+        key=lambda item: -int(item.get("review_priority") or item.get("score") or 0),
     )[:maximum_records]
+
+
+def _relative_hunt_score(result: dict[str, Any], profile: dict[str, Any]) -> float:
+    """Normalize evidence against the hunt's own high-potential threshold."""
+    threshold = max(1, int(profile.get("high_priority_threshold", 40)))
+    return float(result.get("score") or 0) / threshold
+
+
+def apply_review_priorities(
+    items: list[dict[str, Any]],
+    profiles: dict[str, Any],
+    hunts: list[dict[str, Any]],
+    now: datetime,
+) -> None:
+    """Add a cross-category, urgency-aware priority without changing evidence scores."""
+    profile_by_hunt = {
+        str(hunt["id"]): profiles[str(hunt["scoring_profile"])]
+        for hunt in hunts
+    }
+    scores_by_hunt: dict[str, list[int]] = {}
+    for item in items:
+        hunt_id = str((item.get("primary_hunt") or {}).get("id") or "")
+        scores_by_hunt.setdefault(hunt_id, []).append(int(item.get("score") or 0))
+    for scores in scores_by_hunt.values():
+        scores.sort()
+
+    for item in items:
+        hunt = item.get("primary_hunt") or {}
+        hunt_id = str(hunt.get("id") or "")
+        profile = profile_by_hunt.get(hunt_id, {})
+        threshold = max(1, int(profile.get("high_priority_threshold", 40)))
+        raw_score = int(item.get("score") or 0)
+        if raw_score <= threshold:
+            calibrated = round(raw_score / threshold * 60)
+        else:
+            calibrated = round(60 + (raw_score - threshold) / max(1, 100 - threshold) * 25)
+        if raw_score >= threshold and not item.get("high_priority"):
+            calibrated = min(calibrated, 59)
+
+        category_scores = scores_by_hunt.get(hunt_id) or [raw_score]
+        percentile = round(100 * bisect.bisect_right(category_scores, raw_score) / len(category_scores))
+        category_points = round(percentile / 100 * 8)
+
+        urgency_points = 0
+        urgency_label = ""
+        try:
+            end = datetime.fromisoformat(str(item.get("end_time") or "").replace("Z", "+00:00"))
+            if end.tzinfo is None:
+                end = end.replace(tzinfo=timezone.utc)
+            hours = (end - now.astimezone(end.tzinfo)).total_seconds() / 3600
+            for maximum, points, label in (
+                (1, 12, "Ends within 1 hour"),
+                (6, 9, "Ends within 6 hours"),
+                (12, 6, "Ends within 12 hours"),
+                (24, 3, "Ends within 24 hours"),
+            ):
+                if 0 <= hours <= maximum:
+                    urgency_points = points
+                    urgency_label = label
+                    break
+        except (TypeError, ValueError):
+            pass
+
+        cluster_penalty = -2 if (
+            (item.get("seller_cluster") or {}).get("combined_shipping_unavailable")
+        ) else 0
+        reasons = [f"Evidence calibrated to {hunt.get('label') or 'category'} (+{calibrated})"]
+        if category_points:
+            reasons.append(f"Ranks in the top {max(1, 100 - percentile)}% of this category (+{category_points})")
+        if urgency_points:
+            reasons.append(f"{urgency_label} (+{urgency_points})")
+        if cluster_penalty:
+            reasons.append(f"Seller does not allow combined shipping ({cluster_penalty})")
+
+        priority = calibrated + category_points + urgency_points + cluster_penalty
+        bounded = max(0, min(100, priority))
+        if bounded != priority:
+            adjustment = bounded - priority
+            sign = "+" if adjustment >= 0 else ""
+            reasons.append(f"Review-priority boundary adjustment ({sign}{adjustment})")
+        item["review_priority"] = bounded
+        item["review_reasons"] = reasons
+        item["category_percentile"] = percentile
 
 
 def detail_bucket_id(item_id: str) -> str:
@@ -80,6 +165,7 @@ def browser_index_record(item: dict[str, Any]) -> dict[str, Any]:
         "hunt_categories", "hunt_labels", "matched_keywords", "primary_hunt",
         "score", "high_priority", "score_high_priority",
         "potentially_high_value", "ocr_hits", "visual_hits", "location",
+        "review_priority", "review_reasons", "category_percentile",
     )
     record = {
         field: copy.deepcopy(item[field])
@@ -428,7 +514,12 @@ def apply_hunt_scoring(
     if not scored:
         raise ValueError("At least one enabled hunt and scoring profile is required")
 
-    best_hunt, best_profile, best_result = max(scored, key=lambda entry: entry[2]["score"])
+    focused = [entry for entry in scored if str(entry[0]["id"]) not in SOURCE_SCOPE_HUNTS]
+    selection_pool = focused or scored
+    best_hunt, best_profile, best_result = max(
+        selection_pool,
+        key=lambda entry: _relative_hunt_score(entry[2], entry[1]),
+    )
     item.update(best_result)
     item["primary_hunt"] = {"id": best_hunt["id"], "label": best_hunt["label"]}
     item["hunt_scores"] = [
@@ -436,10 +527,11 @@ def apply_hunt_scoring(
             "id": hunt["id"],
             "label": hunt["label"],
             "score": result["score"],
+            "relative_score": round(_relative_hunt_score(result, profile), 3),
             "score_reasons": result["score_reasons"],
             "matched_keywords": result["matched_keywords"],
         }
-        for hunt, _, result in scored
+        for hunt, profile, result in scored
     ]
     item["potentially_undervalued"] = int(item["score"]) >= int(
         best_profile.get("undervalued_threshold", 30)
@@ -710,9 +802,10 @@ def refresh(
         clean_public_record(item)
 
     apply_seller_clusters(active, int(economics.get("cluster_close_window_hours", 72)))
+    apply_review_priorities(active, profiles, hunts, now)
     active.sort(
         key=lambda item: (
-            -int(item.get("score") or 0),
+            -int(item.get("review_priority") or item.get("score") or 0),
             item.get("end_time") or "",
         )
     )

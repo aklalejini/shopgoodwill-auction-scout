@@ -126,7 +126,7 @@
     });
 
     const sorters = {
-      score: (a, b) => Number(b.score || 0) - Number(a.score || 0),
+      score: (a, b) => Number(b.review_priority || b.score || 0) - Number(a.review_priority || a.score || 0),
       newest: (a, b) => new Date(b.start_time) - new Date(a.start_time),
       ending: (a, b) => new Date(a.end_time) - new Date(b.end_time),
       "price-low": (a, b) => Number(a.price || 0) - Number(b.price || 0),
@@ -163,8 +163,8 @@
     const cardImage = $(".card-image", fragment);
     const thumbnails = item.thumbnails || [];
     setImage(cardImage, thumbnails[0], item.title);
-    $(".score-badge strong", fragment).textContent = item.score ?? 0;
-    $(".score-inline strong", fragment).textContent = item.score ?? 0;
+    $(".score-badge strong", fragment).textContent = item.review_priority ?? item.score ?? 0;
+    $(".score-inline strong", fragment).textContent = item.review_priority ?? item.score ?? 0;
     const potential = $(".potential-label", fragment);
     potential.textContent = potentialLabel(item);
     potential.classList.toggle("high", Boolean(item.high_priority || item.score_high_priority || item.potentially_high_value));
@@ -284,6 +284,7 @@
       ? `<div class="detail-buy-now"><span>Buy It Now</span><strong>${currency.format(buyNowPrice)}</strong></div>`
       : "";
     const reasons = (item.score_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
+    const reviewReasons = (item.review_reasons || []).map(reason => `<li>${escapeHtml(reason)}</li>`).join("");
     const cluster = item.seller_cluster;
     const clusterMarkup = cluster ? `<div class="cluster-note">${cluster.count} auctions from this seller close within ${cluster.close_window_hours}h.${cluster.combined_shipping_unavailable ? " Seller states combined shipping is unavailable." : " Check the seller's policy before assuming shipping can be combined."}</div>` : "";
     const ocrMarkup = item.ocr_hits?.length ? `<div class="ocr-note"><strong>Image text:</strong> ${item.ocr_hits.map(escapeHtml).join(", ")}</div>` : "";
@@ -302,8 +303,8 @@
           ${buyNowMarkup}
           <p class="detail-sub">${Number(item.bids || 0)} bid${Number(item.bids || 0) === 1 ? "" : "s"} · ${escapeHtml(timeRemaining(item.end_time))}</p>
           <div class="detail-potential">
-            <span>${escapeHtml(potentialLabel(item))}</span>
-            <strong>${Number(item.score || 0)}/100</strong>
+            <span>${escapeHtml(potentialLabel(item))} · review priority</span>
+            <strong>${Number(item.review_priority ?? item.score ?? 0)}/100</strong>
           </div>
           ${clusterMarkup}${ocrMarkup}${visualMarkup}
           <div class="detail-facts">
@@ -314,9 +315,11 @@
             <div><span>Location</span><strong>${escapeHtml(item.location || "See listing")}</strong></div>
             <div><span>Delivery</span><strong>${escapeHtml(deliveryLabel(item))}</strong></div>
             <div><span>Photos</span><strong>${images.length}</strong></div>
+            <div><span>Evidence score</span><strong>${Number(item.score || 0)}/100</strong></div>
           </div>
+          ${reviewReasons ? `<div class="score-panel review-panel"><h3>Why review it now</h3><ul>${reviewReasons}</ul></div>` : ""}
           <div class="score-panel">
-            <h3>Why it stands out</h3>
+            <h3>Why the item stands out</h3>
             <ul>${reasons}</ul>
           </div>
           ${detailError}
