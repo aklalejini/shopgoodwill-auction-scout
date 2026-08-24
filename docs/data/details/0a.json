@@ -155,7 +155,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -167,7 +167,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -314,6 +314,33 @@
       }
     ]
   },
+  "ctbids-47229-5492619": {
+    "item_id": "ctbids-47229-5492619",
+    "listing_url": "https://ctbids.com/estate-sale/47229/item/5492619/Essential-Kitchen-Appliances",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-06T4fdb34/5492619_aqqGJd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47397-5514258": {
     "item_id": "ctbids-47397-5514258",
     "listing_url": "https://ctbids.com/estate-sale/47397/item/5514258/Glass-vase-filled-with-a-collection-of-assorted-small-seashells-alongside-a-larger-conch-shell",
@@ -362,33 +389,6 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47229-5492619": {
-    "item_id": "ctbids-47229-5492619",
-    "listing_url": "https://ctbids.com/estate-sale/47229/item/5492619/Essential-Kitchen-Appliances",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-06T4fdb34/5492619_aqqGJd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

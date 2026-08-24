@@ -26,6 +26,33 @@
       }
     ]
   },
+  "ctbids-47750-5550150": {
+    "item_id": "ctbids-47750-5550150",
+    "listing_url": "https://ctbids.com/estate-sale/47750/item/5550150/Chicago-Cubs-Wrigley-Field-Baseball-Stadium-Christmas-Ornament",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5550150_o2wnm4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47554-5518333": {
     "item_id": "ctbids-47554-5518333",
     "listing_url": "https://ctbids.com/estate-sale/47554/item/5518333/Fisher-Price-Three-Little-Pigs-More-Vintage-Toys",
@@ -100,33 +127,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47750-5550150": {
-    "item_id": "ctbids-47750-5550150",
-    "listing_url": "https://ctbids.com/estate-sale/47750/item/5550150/Chicago-Cubs-Wrigley-Field-Baseball-Stadium-Christmas-Ornament",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5550150_o2wnm4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -736,6 +736,42 @@
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Lower-priority term 'metaphysical' in description (-10)",
           "Less relevant category 'Jewelry' (-12)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "274966128": {
+    "item_id": "274966128",
+    "listing_url": "https://shopgoodwill.com/item/274966128",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-24/4a59045f-a557-4948-a43e-b1646eb253d1uzie_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-24/8917804f-4b00-4ad8-b17e-c30e7c56163euzie_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-24/ddceb429-d0e1-4827-989c-9f3852c3b949uzie_08243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-24/cd2df714-fb19-4fb6-a7c6-2e30d63175d3uzie_08244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-24/61763a18-d5ba-4331-9937-71f6ed5ee17cuzie_08245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-24/4b260da8-02f8-4c20-a59e-d0c1daefa5c8uzie_08246.jpg"
+    ],
+    "description": "This is a large rough quartz mineral rock specimen measuring approximately 16 cm (6.5 inches) tall. The stone is primarily white with light brown and faint grey inclusions. It has an irregular, chunky shape with a natural unpolished crystalline surface featuring natural fractures and textural variations. The specimen is in raw, uncut condition, suitable for collectors, educational use, or decorative display.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decorative' in description (-8)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+5)"

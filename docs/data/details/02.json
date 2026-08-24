@@ -166,6 +166,35 @@
       }
     ]
   },
+  "ctbids-47671-5535466": {
+    "item_id": "ctbids-47671-5535466",
+    "listing_url": "https://ctbids.com/estate-sale/47671/item/5535466/Erich-Stauffer-Royal-Worcester-Porcelain-Figurine-Lot-Collector-Display-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5535466_y6hnox.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47489-5507578": {
     "item_id": "ctbids-47489-5507578",
     "listing_url": "https://ctbids.com/estate-sale/47489/item/5507578/Antique-Amber-Glass-Cigar-Store-Jar",
@@ -240,35 +269,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47671-5535466": {
-    "item_id": "ctbids-47671-5535466",
-    "listing_url": "https://ctbids.com/estate-sale/47671/item/5535466/Erich-Stauffer-Royal-Worcester-Porcelain-Figurine-Lot-Collector-Display-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5535466_y6hnox.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -411,58 +411,6 @@
       }
     ]
   },
-  "govdeals-13747-432": {
-    "item_id": "govdeals-13747-432",
-    "listing_url": "https://www.govdeals.com/en/asset/432/13747",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/13747/13747_432_5bda3d6b-217c-4e25-8bff-2e9dc7b4534b.jpg?cb=260824101926"
-    ],
-    "description": "18 Plastic chairs",
-    "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
-        "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47397-5529946": {
-    "item_id": "ctbids-47397-5529946",
-    "listing_url": "https://ctbids.com/estate-sale/47397/item/5529946/Vintage-Full-length-White-Let-out-Mink-Fur-Coat-With-A-Plush-Fox-Fur-Collar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5529946_7kVCDo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47501-5510210": {
     "item_id": "ctbids-47501-5510210",
     "listing_url": "https://ctbids.com/estate-sale/47501/item/5510210/Eclectic-Jewelry-With-Tray-And-Travel-Case",
@@ -531,6 +479,58 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-13747-432": {
+    "item_id": "govdeals-13747-432",
+    "listing_url": "https://www.govdeals.com/en/asset/432/13747",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/13747/13747_432_5bda3d6b-217c-4e25-8bff-2e9dc7b4534b.jpg?cb=260824101926"
+    ],
+    "description": "18 Plastic chairs",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47397-5529946": {
+    "item_id": "ctbids-47397-5529946",
+    "listing_url": "https://ctbids.com/estate-sale/47397/item/5529946/Vintage-Full-length-White-Let-out-Mink-Fur-Coat-With-A-Plush-Fox-Fur-Collar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5529946_7kVCDo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
