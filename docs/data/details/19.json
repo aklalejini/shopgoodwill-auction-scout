@@ -17,6 +17,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -24,14 +25,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 34,
+        "relative_score": 1.133,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Lower-priority term 'chipping' in description (-10)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -56,6 +58,7 @@
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'lot' in description (+2)",
       "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "7.6 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -64,12 +67,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 21,
-        "relative_score": 0.7,
+        "score": 25,
+        "relative_score": 0.833,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'lot' in description (+2)",
           "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "7.6 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -358,6 +362,33 @@
     "listing_url": "https://ctbids.com/estate-sale/47750/item/5548949/Aaron-Brothers-Linear-White-5x5-Shadow-Box-Picture-Frame-Glass-Front-Wall-Display",
     "images": [
       "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5456643_eHF4G3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47464-5514111": {
+    "item_id": "ctbids-47464-5514111",
+    "listing_url": "https://ctbids.com/estate-sale/47464/item/5514111/Crystal-Decanters-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5514111_R5RyWz.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -720,31 +751,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47464/item/5514089/Two-Micheal-Kors",
     "images": [
       "https://image.ctbids.com/seller/2026-08-12T30cbc3/5514089_p7IhEd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47464-5514111": {
-    "item_id": "ctbids-47464-5514111",
-    "listing_url": "https://ctbids.com/estate-sale/47464/item/5514111/Crystal-Decanters-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5514111_R5RyWz.webp"
     ],
     "description": "",
     "score_reasons": [

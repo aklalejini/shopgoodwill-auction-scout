@@ -22,6 +22,7 @@
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
       "Target keyword 'malachite' in description (+9)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -29,8 +30,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 42,
-        "relative_score": 1.4,
+        "score": 46,
+        "relative_score": 1.533,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in title (+7)",
@@ -38,6 +39,7 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Target keyword 'malachite' in description (+9)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -219,6 +221,33 @@
       }
     ]
   },
+  "ctbids-47501-5542097": {
+    "item_id": "ctbids-47501-5542097",
+    "listing_url": "https://ctbids.com/estate-sale/47501/item/5542097/Vintage-Oakley-M-Frame-Specifically-Featuring-a-Black-Frame-Paired-with-a-Shield-style-Lens",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542097_HK9jlA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47489-5517421": {
     "item_id": "ctbids-47489-5517421",
     "listing_url": "https://ctbids.com/estate-sale/47489/item/5517421/Christmas-Mystery-Lot-1",
@@ -270,33 +299,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47501-5542097": {
-    "item_id": "ctbids-47501-5542097",
-    "listing_url": "https://ctbids.com/estate-sale/47501/item/5542097/Vintage-Oakley-M-Frame-Specifically-Featuring-a-Black-Frame-Paired-with-a-Shield-style-Lens",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542097_HK9jlA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -446,31 +448,6 @@
       }
     ]
   },
-  "ctbids-47501-5515148": {
-    "item_id": "ctbids-47501-5515148",
-    "listing_url": "https://ctbids.com/estate-sale/47501/item/5515148/Women-s-Cold-Weather-And-Ski-Gear-Incl-Patagonia",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5515148_cTQps6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47554-5537786": {
     "item_id": "ctbids-47554-5537786",
     "listing_url": "https://ctbids.com/estate-sale/47554/item/5537786/Wicker-Chairs",
@@ -491,6 +468,31 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47501-5515148": {
+    "item_id": "ctbids-47501-5515148",
+    "listing_url": "https://ctbids.com/estate-sale/47501/item/5515148/Women-s-Cold-Weather-And-Ski-Gear-Incl-Patagonia",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5515148_cTQps6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
