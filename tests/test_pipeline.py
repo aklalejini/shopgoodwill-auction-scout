@@ -5,6 +5,7 @@ import unittest
 from io import BytesIO
 from datetime import datetime, timezone
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from PIL import Image
 from scraper.ctbids import (
@@ -38,6 +39,7 @@ from scraper.scrape import (
     detail_bucket_id,
     is_expired,
     matches_hunt_domain,
+    write_browser_feeds,
 )
 from scraper.shopgoodwill import (
     DataSourceError,
@@ -286,6 +288,22 @@ class ScoringTests(unittest.TestCase):
         clusters = browser_clusters(items)
         self.assertEqual(list(clusters), ["9:1"])
         self.assertEqual(clusters["9:1"]["item_ids"], ["1", "2"])
+
+    def test_browser_feed_preserves_legacy_url_as_a_small_pointer(self):
+        item = {
+            "item_id": "1", "title": "Listing", "score": 40,
+            "high_priority": True, "images": ["one.jpg"],
+            "listing_url": "https://example.test/1",
+        }
+        with TemporaryDirectory() as directory:
+            output = Path(directory)
+            write_browser_feeds(output, [item], [item], [], {"active_count": 1})
+            manifest = json.loads((output / "listings.json").read_text(encoding="utf-8"))
+            self.assertEqual(manifest["index"], "index.json")
+            self.assertEqual(len(list((output / "details").glob("*.json"))), 64)
+            index = json.loads((output / "index.json").read_text(encoding="utf-8"))
+            high = json.loads((output / "high_priority.json").read_text(encoding="utf-8"))
+            self.assertEqual(high, index)
 
     def test_word_boundary_prevents_lot_inside_pilot(self):
         result = score_listing(

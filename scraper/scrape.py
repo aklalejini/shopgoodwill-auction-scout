@@ -187,9 +187,14 @@ def write_browser_feeds(
     for bucket, payload in buckets.items():
         write_json_atomic(docs_data_dir / "details" / f"{bucket}.json", payload)
 
-    # The browser now starts from index.json. Remove the obsolete monolithic copy.
-    legacy_listings = docs_data_dir / "listings.json"
-    legacy_listings.unlink(missing_ok=True)
+    # Preserve the old public URL as a small machine-readable migration pointer.
+    write_json_atomic(docs_data_dir / "listings.json", {
+        "format": "auction-scout-split-feed-v2",
+        "message": "Use index.json for cards, then fetch the record's detail_bucket on inspection.",
+        "index": "index.json",
+        "details": "details/{detail_bucket}.json",
+        "clusters": "clusters.json",
+    })
 
 
 def apply_seller_clusters(items: list[dict[str, Any]], close_window_hours: int = 72) -> None:

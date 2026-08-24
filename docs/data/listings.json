@@ -1,0 +1,7 @@
+{
+  "format": "auction-scout-split-feed-v2",
+  "message": "Use index.json for cards, then fetch the record's detail_bucket on inspection.",
+  "index": "index.json",
+  "details": "details/{detail_bucket}.json",
+  "clusters": "clusters.json"
+}
