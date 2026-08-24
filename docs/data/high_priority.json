@@ -63,7 +63,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-589:1",
-      "count": 86,
+      "count": 103,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -588,10 +588,10 @@
     "source_label": "CTBids",
     "source_native_id": "5515796",
     "title": "Antique Dueber 14K Gold Elgin Pocket  Watch ",
-    "price": 1150.0,
+    "price": 1325.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 38,
+    "bids": 42,
     "seller": "Toledo",
     "seller_id": "ctbids-390",
     "start_time": "2026-08-17T13:00:00+00:00",
@@ -727,7 +727,84 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "8:2",
-      "count": 22,
+      "count": 23,
+      "combined_shipping_unavailable": true,
+      "close_window_hours": 72
+    }
+  },
+  {
+    "item_id": "274455402",
+    "source": "shopgoodwill",
+    "source_label": "ShopGoodwill",
+    "source_native_id": "274455402",
+    "title": "Vintage Assortment of Glass Insulators",
+    "price": 12.99,
+    "buy_now_price": 0.0,
+    "has_buy_now": false,
+    "bids": 0,
+    "seller": "Goodwill Monocacy Valley",
+    "seller_id": 69,
+    "start_time": "2026-08-19T06:37:09-07:00",
+    "end_time": "2026-08-24T20:25:00-07:00",
+    "category": "Collectibles",
+    "discovered_by": [
+      "vintage glass insulators"
+    ],
+    "hunt_categories": [
+      "glass-insulators"
+    ],
+    "hunt_labels": [
+      "Glass Insulators"
+    ],
+    "matched_keywords": [],
+    "primary_hunt": {
+      "id": "glass-insulators",
+      "label": "Glass Insulators"
+    },
+    "score": 37,
+    "high_priority": true,
+    "score_high_priority": true,
+    "potentially_high_value": true,
+    "visual_hits": [
+      "amber glass color",
+      "green or teal glass color"
+    ],
+    "review_priority": 69,
+    "review_reasons": [
+      "Evidence calibrated to Glass Insulators (+62)",
+      "Ranks in the top 24% of this category (+6)",
+      "Ends within 24 hours (+3)",
+      "Seller does not allow combined shipping (-2)"
+    ],
+    "category_percentile": 76,
+    "thumbnails": [
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/83fbf95b-b419-42b8-b394-0ca5d06e0a4eamfo_0819t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/39192f75-1ac4-4069-a743-5f2e99529591amfo_0819t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/c53e2a81-eaae-47d5-9394-66d1cfe377daamfo_0819t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/4651e9e8-e8f0-4e8f-b543-cbdab99a3476amfo_0819t4.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/cdb5c046-f518-4dbe-9205-b94e6ae6ef0famfo_0819t5.jpeg"
+    ],
+    "photo_count": 6,
+    "score_reasons": [
+      "High-value signal 'amber glass color' in image color analysis (+14)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "detail_bucket": "29",
+    "shipping": {
+      "listed_price": 0.0,
+      "handling_price": 3.99,
+      "pickup_only": false,
+      "carrier": "FedEx"
+    },
+    "evidence_types": [
+      "visual"
+    ],
+    "seller_cluster": {
+      "id": "69:1",
+      "count": 3,
       "combined_shipping_unavailable": true,
       "close_window_hours": 72
     }
@@ -1082,7 +1159,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-589:1",
-      "count": 86,
+      "count": 103,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1367,82 +1444,6 @@
       "id": "87:1",
       "count": 3,
       "combined_shipping_unavailable": false,
-      "close_window_hours": 72
-    }
-  },
-  {
-    "item_id": "274455402",
-    "source": "shopgoodwill",
-    "source_label": "ShopGoodwill",
-    "source_native_id": "274455402",
-    "title": "Vintage Assortment of Glass Insulators",
-    "price": 12.99,
-    "buy_now_price": 0.0,
-    "has_buy_now": false,
-    "bids": 0,
-    "seller": "Goodwill Monocacy Valley",
-    "seller_id": 69,
-    "start_time": "2026-08-19T06:37:09-07:00",
-    "end_time": "2026-08-24T20:25:00-07:00",
-    "category": "Collectibles",
-    "discovered_by": [
-      "vintage glass insulators"
-    ],
-    "hunt_categories": [
-      "glass-insulators"
-    ],
-    "hunt_labels": [
-      "Glass Insulators"
-    ],
-    "matched_keywords": [],
-    "primary_hunt": {
-      "id": "glass-insulators",
-      "label": "Glass Insulators"
-    },
-    "score": 37,
-    "high_priority": true,
-    "score_high_priority": true,
-    "potentially_high_value": true,
-    "visual_hits": [
-      "amber glass color",
-      "green or teal glass color"
-    ],
-    "review_priority": 66,
-    "review_reasons": [
-      "Evidence calibrated to Glass Insulators (+62)",
-      "Ranks in the top 24% of this category (+6)",
-      "Seller does not allow combined shipping (-2)"
-    ],
-    "category_percentile": 76,
-    "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/83fbf95b-b419-42b8-b394-0ca5d06e0a4eamfo_0819t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/39192f75-1ac4-4069-a743-5f2e99529591amfo_0819t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/c53e2a81-eaae-47d5-9394-66d1cfe377daamfo_0819t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/4651e9e8-e8f0-4e8f-b543-cbdab99a3476amfo_0819t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/cdb5c046-f518-4dbe-9205-b94e6ae6ef0famfo_0819t5.jpeg"
-    ],
-    "photo_count": 6,
-    "score_reasons": [
-      "High-value signal 'amber glass color' in image color analysis (+14)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "detail_bucket": "29",
-    "shipping": {
-      "listed_price": 0.0,
-      "handling_price": 3.99,
-      "pickup_only": false,
-      "carrier": "FedEx"
-    },
-    "evidence_types": [
-      "visual"
-    ],
-    "seller_cluster": {
-      "id": "69:1",
-      "count": 3,
-      "combined_shipping_unavailable": true,
       "close_window_hours": 72
     }
   },
