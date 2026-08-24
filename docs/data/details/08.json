@@ -331,6 +331,49 @@
       }
     ]
   },
+  "ctbids-47173-5511222": {
+    "item_id": "ctbids-47173-5511222",
+    "listing_url": "https://ctbids.com/estate-sale/47173/item/5511222/Antique-Collectible-Writing-Desk-Accessories-Lot-Inkwells-Pen-Set-Blotter-Ink-Bottles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5511222_OOaFAL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 10,
+        "relative_score": 0.286,
+        "score_reasons": [
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 14,
+        "relative_score": 0.412,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47489-5511256": {
     "item_id": "ctbids-47489-5511256",
     "listing_url": "https://ctbids.com/estate-sale/47489/item/5511256/Miscellaneous-Candle-Lot",
@@ -409,49 +452,6 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47173-5511222": {
-    "item_id": "ctbids-47173-5511222",
-    "listing_url": "https://ctbids.com/estate-sale/47173/item/5511222/Antique-Collectible-Writing-Desk-Accessories-Lot-Inkwells-Pen-Set-Blotter-Ink-Bottles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5511222_OOaFAL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 10,
-        "relative_score": 0.286,
-        "score_reasons": [
-          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -540,33 +540,6 @@
       }
     ]
   },
-  "ctbids-47397-5514242": {
-    "item_id": "ctbids-47397-5514242",
-    "listing_url": "https://ctbids.com/estate-sale/47397/item/5514242/Vintage-South-American-Hand-woven-Wool-or-Wool-blend-Pictorial-folk-Art-Tapestry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5514242_WZnoWM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47375-5519443": {
     "item_id": "ctbids-47375-5519443",
     "listing_url": "https://ctbids.com/estate-sale/47375/item/5519443/Billy-Sunday-The-Man-And-His-Message-By-William-T-Ellis",
@@ -587,6 +560,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47397-5514242": {
+    "item_id": "ctbids-47397-5514242",
+    "listing_url": "https://ctbids.com/estate-sale/47397/item/5514242/Vintage-South-American-Hand-woven-Wool-or-Wool-blend-Pictorial-folk-Art-Tapestry",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5514242_WZnoWM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -648,11 +648,11 @@
       }
     ]
   },
-  "ctbids-47482-5517507": {
-    "item_id": "ctbids-47482-5517507",
-    "listing_url": "https://ctbids.com/estate-sale/47482/item/5517507/DG110-Ohio-State-Browns-Sweaters",
+  "ctbids-47554-5523484": {
+    "item_id": "ctbids-47554-5523484",
+    "listing_url": "https://ctbids.com/estate-sale/47554/item/5523484/Teddy-Bear-Paintings",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5517507_NxHuDJ.webp"
+      "https://image.ctbids.com/seller/2026-08-15Te3553a/5523484_r5Afb2.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -675,15 +675,14 @@
       }
     ]
   },
-  "ctbids-47554-5523484": {
-    "item_id": "ctbids-47554-5523484",
-    "listing_url": "https://ctbids.com/estate-sale/47554/item/5523484/Teddy-Bear-Paintings",
+  "ctbids-47659-5534545": {
+    "item_id": "ctbids-47659-5534545",
+    "listing_url": "https://ctbids.com/estate-sale/47659/item/5534545/Royal-Tara-Fine-Bone-China-Trinket-Dish",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-15Te3553a/5523484_r5Afb2.webp"
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5534545_pWhV9J.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -691,10 +690,34 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47375-5499935": {
+    "item_id": "ctbids-47375-5499935",
+    "listing_url": "https://ctbids.com/estate-sale/47375/item/5499935/Anson-Sterling-Family-Album-Necklace-Sterling-Collar-Clip-And-Bar-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-09T64e589/5499935_fIleSt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -742,31 +765,6 @@
       }
     ]
   },
-  "ctbids-47659-5534545": {
-    "item_id": "ctbids-47659-5534545",
-    "listing_url": "https://ctbids.com/estate-sale/47659/item/5534545/Royal-Tara-Fine-Bone-China-Trinket-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5534545_pWhV9J.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "274675781": {
     "item_id": "274675781",
     "listing_url": "https://shopgoodwill.com/item/274675781",
@@ -794,31 +792,6 @@
           "Opportunity term 'rocks' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47375-5499935": {
-    "item_id": "ctbids-47375-5499935",
-    "listing_url": "https://ctbids.com/estate-sale/47375/item/5499935/Anson-Sterling-Family-Album-Necklace-Sterling-Collar-Clip-And-Bar-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-09T64e589/5499935_fIleSt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -954,6 +927,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47445/item/5516560/HP-Pavillion-All-in-One-27-a210",
     "images": [
       "https://image.ctbids.com/seller/2026-08-13T032a65/5516560_cVUTN6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47482-5517507": {
+    "item_id": "ctbids-47482-5517507",
+    "listing_url": "https://ctbids.com/estate-sale/47482/item/5517507/DG110-Ohio-State-Browns-Sweaters",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5517507_NxHuDJ.webp"
     ],
     "description": "",
     "score_reasons": [

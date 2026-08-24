@@ -102,35 +102,6 @@
       }
     ]
   },
-  "govdeals-25803-2436": {
-    "item_id": "govdeals-25803-2436",
-    "listing_url": "https://www.govdeals.com/en/asset/2436/25803",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/25803/25803_2436_92b2953d-fc93-43a7-aecf-05076eb8fdaa.jpg?cb=260820115842"
-    ],
-    "description": "Auction is for 250 Used Wood Pallets.\nMost pallets measure 48\"x48\"\nMust take all pallets",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "0 bids near close (+4)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 17,
-        "relative_score": 0.531,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "0 bids near close (+4)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "274434815": {
     "item_id": "274434815",
     "listing_url": "https://shopgoodwill.com/item/274434815",
@@ -918,6 +889,41 @@
           "4.4 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+10)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "274953415": {
+    "item_id": "274953415",
+    "listing_url": "https://shopgoodwill.com/item/274953415",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/7e25499d-1321-4661-96eb-6e22f5ec6185pero_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/029d80ad-138e-4605-b298-835e798d7a72pero_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/93927eda-9580-4d75-a887-391784d92328pero_08243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/32caebc5-91dd-487b-ac5b-ccc642d03137pero_08244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/8aa4ca09-baca-4b72-9cbc-152098c76105pero_08245.jpg"
+    ],
+    "description": "Unbranded Non-precious Metal Jewelry Set\nMaterial & Karats (if applicable):\nNon-precious Metal\nTotal Weight of Set:\n79 grams\nCondition:\nFair - shows signs of wear\nMIXED STONES",
+    "score_reasons": [
+      "Opportunity term 'mixed' in description (+2)",
+      "Less relevant category 'Jewelry' (-12)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+11)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in description (+2)",
+          "Less relevant category 'Jewelry' (-12)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+11)"
         ],
         "matched_keywords": []
       }

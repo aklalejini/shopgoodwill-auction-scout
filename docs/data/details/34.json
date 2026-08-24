@@ -103,7 +103,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -116,7 +116,7 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -648,33 +648,6 @@
       }
     ]
   },
-  "ctbids-47483-5524164": {
-    "item_id": "ctbids-47483-5524164",
-    "listing_url": "https://ctbids.com/estate-sale/47483/item/5524164/Vintage-Contemporary-Wood-Cutting-Boards-with-New-Texas-Bread-Slicer",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5524164_4CJUSv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47375-5520759": {
     "item_id": "ctbids-47375-5520759",
     "listing_url": "https://ctbids.com/estate-sale/47375/item/5520759/Royal-Albert-Val-D-or-Bone-China-Royal-Cauldron-Sederdish-Made-in-England",
@@ -722,6 +695,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47483-5524164": {
+    "item_id": "ctbids-47483-5524164",
+    "listing_url": "https://ctbids.com/estate-sale/47483/item/5524164/Vintage-Contemporary-Wood-Cutting-Boards-with-New-Texas-Bread-Slicer",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5524164_4CJUSv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
