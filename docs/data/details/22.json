@@ -113,7 +113,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -121,11 +120,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -214,33 +212,6 @@
       }
     ]
   },
-  "ctbids-47671-5539805": {
-    "item_id": "ctbids-47671-5539805",
-    "listing_url": "https://ctbids.com/estate-sale/47671/item/5539805/First-Day-Cover-Stamp-Album-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5539805_Q8yPYh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46509-5526615": {
     "item_id": "ctbids-46509-5526615",
     "listing_url": "https://ctbids.com/estate-sale/46509/item/5526615/Vintage-Marble-Bookends",
@@ -261,6 +232,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47671-5539805": {
+    "item_id": "ctbids-47671-5539805",
+    "listing_url": "https://ctbids.com/estate-sale/47671/item/5539805/First-Day-Cover-Stamp-Album-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5539805_Q8yPYh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

@@ -311,15 +311,16 @@
       }
     ]
   },
-  "ctbids-47229-5500266": {
-    "item_id": "ctbids-47229-5500266",
-    "listing_url": "https://ctbids.com/estate-sale/47229/item/5500266/A-Collection-of-Books",
+  "ctbids-47173-5499905": {
+    "item_id": "ctbids-47173-5499905",
+    "listing_url": "https://ctbids.com/estate-sale/47173/item/5499905/Webster-Wilcox-International-Silver-Co-Silverplate-Trays-Footed-Bowls-4-Pc-Lot",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-09T64e589/5500266_XW4DuW.webp"
+      "https://image.ctbids.com/seller/2026-08-09T64e589/5499905_vdokrQ.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -330,7 +331,8 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -358,6 +360,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47229-5500266": {
+    "item_id": "ctbids-47229-5500266",
+    "listing_url": "https://ctbids.com/estate-sale/47229/item/5500266/A-Collection-of-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-09T64e589/5500266_XW4DuW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -663,33 +692,6 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47173-5499905": {
-    "item_id": "ctbids-47173-5499905",
-    "listing_url": "https://ctbids.com/estate-sale/47173/item/5499905/Webster-Wilcox-International-Silver-Co-Silverplate-Trays-Footed-Bowls-4-Pc-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-09T64e589/5499905_vdokrQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

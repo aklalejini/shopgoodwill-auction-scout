@@ -255,6 +255,33 @@
       }
     ]
   },
+  "ctbids-47428-5543605": {
+    "item_id": "ctbids-47428-5543605",
+    "listing_url": "https://ctbids.com/estate-sale/47428/item/5543605/Predators-Jersey-XXL",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5525686_H6Rja3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46062-5425534": {
     "item_id": "ctbids-46062-5425534",
     "listing_url": "https://ctbids.com/estate-sale/46062/item/5425534/LH506PT2-Craftsman-Tool-Accessory-Lot-Riveter-Socket-Set-Hex-Keys-Handy-Nailer",
@@ -287,72 +314,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47501/item/5515146/Chargers-Football-Caps",
     "images": [
       "https://image.ctbids.com/seller/2026-08-13T032a65/5515146_SiZIg8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47173-5511323": {
-    "item_id": "ctbids-47173-5511323",
-    "listing_url": "https://ctbids.com/estate-sale/47173/item/5511323/Assorted-Collectible-Pen-Pencil-Lot-Parker-Germany-O-S-Stewart-Co-Wood-Writing-Set-Leat",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5511323_aUijHA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Target keyword 'parker' in title (+8)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Target keyword 'parker' in title (+8)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "parker"
-        ]
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47428-5543605": {
-    "item_id": "ctbids-47428-5543605",
-    "listing_url": "https://ctbids.com/estate-sale/47428/item/5543605/Predators-Jersey-XXL",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5525686_H6Rja3.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -416,6 +377,47 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47173-5511323": {
+    "item_id": "ctbids-47173-5511323",
+    "listing_url": "https://ctbids.com/estate-sale/47173/item/5511323/Assorted-Collectible-Pen-Pencil-Lot-Parker-Germany-O-S-Stewart-Co-Wood-Writing-Set-Leat",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5511323_aUijHA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Target keyword 'parker' in title (+8)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Target keyword 'parker' in title (+8)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "parker"
+        ]
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
