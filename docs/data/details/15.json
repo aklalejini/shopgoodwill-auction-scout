@@ -63,6 +63,7 @@
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -70,12 +71,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 17,
-        "relative_score": 0.5,
+        "score": 19,
+        "relative_score": 0.559,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -420,6 +422,87 @@
       }
     ]
   },
+  "ctbids-47432-5509768": {
+    "item_id": "ctbids-47432-5509768",
+    "listing_url": "https://ctbids.com/estate-sale/47432/item/5509768/Longboard-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5509768_J5oUER.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47750-5548835": {
+    "item_id": "ctbids-47750-5548835",
+    "listing_url": "https://ctbids.com/estate-sale/47750/item/5548835/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5433519_RJujHq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47447-5513690": {
+    "item_id": "ctbids-47447-5513690",
+    "listing_url": "https://ctbids.com/estate-sale/47447/item/5513690/Children-s-Mystery-Vinyl-Lot-DR",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5513690_NMdi6Y.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "274848705": {
     "item_id": "274848705",
     "listing_url": "https://shopgoodwill.com/item/274848705",
@@ -510,65 +593,38 @@
       }
     ]
   },
-  "ctbids-47432-5509768": {
-    "item_id": "ctbids-47432-5509768",
-    "listing_url": "https://ctbids.com/estate-sale/47432/item/5509768/Longboard-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5509768_J5oUER.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47447-5513690": {
-    "item_id": "ctbids-47447-5513690",
-    "listing_url": "https://ctbids.com/estate-sale/47447/item/5513690/Children-s-Mystery-Vinyl-Lot-DR",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5513690_NMdi6Y.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47432-5509736": {
     "item_id": "ctbids-47432-5509736",
     "listing_url": "https://ctbids.com/estate-sale/47432/item/5509736/Four-Heavy-Duty-Casters",
     "images": [
       "https://image.ctbids.com/seller/2026-08-12T30cbc3/5509736_N5PEoq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47671-5539891": {
+    "item_id": "ctbids-47671-5539891",
+    "listing_url": "https://ctbids.com/estate-sale/47671/item/5539891/Vivitar-S-100-Rotary-Slide-Tray-Hanimex-Yankee-35mm-Storage",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5539891_svV6K6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -766,31 +822,6 @@
       }
     ]
   },
-  "ctbids-47671-5539891": {
-    "item_id": "ctbids-47671-5539891",
-    "listing_url": "https://ctbids.com/estate-sale/47671/item/5539891/Vivitar-S-100-Rotary-Slide-Tray-Hanimex-Yankee-35mm-Storage",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5539891_svV6K6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47551-5531169": {
     "item_id": "ctbids-47551-5531169",
     "listing_url": "https://ctbids.com/estate-sale/47551/item/5531169/Relic-by-Fossil-Men-s-Diamond-Accent-Stainless-Steel-Watch",
@@ -821,31 +852,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47229/item/5492622/Hand-Painted-TV-Tray-Tables",
     "images": [
       "https://image.ctbids.com/seller/2026-08-06T4fdb34/5492622_Sl1svl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47750-5548835": {
-    "item_id": "ctbids-47750-5548835",
-    "listing_url": "https://ctbids.com/estate-sale/47750/item/5548835/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5433519_RJujHq.webp"
     ],
     "description": "",
     "score_reasons": [
