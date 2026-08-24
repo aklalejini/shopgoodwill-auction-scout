@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T23:53:45.716384+00:00",
+  "generated_at": "2026-08-24T00:23:06.133240+00:00",
   "active_count": 2374,
   "high_priority_count": 46,
-  "archived_count": 313,
+  "archived_count": 672,
   "search_failures": [],
   "detail_requests_completed": 20,
-  "relevance_filtered_count": 702,
+  "relevance_filtered_count": 701,
   "potentially_high_value_count": 46,
   "ocr": {
     "available": false,
@@ -47,7 +47,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 210
+      "active_count": 211
     },
     {
       "id": "sealed-vintage-media",
@@ -72,7 +72,7 @@
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 20
+      "active_count": 21
     },
     {
       "id": "local-government-surplus",
@@ -84,5 +84,11 @@
       "label": "CTBids Estate Auctions",
       "active_count": 2000
     }
-  ]
+  ],
+  "browser_feed": {
+    "index": "index.json",
+    "details": "details/{bucket}.json",
+    "detail_bucket_count": 64,
+    "clusters": "clusters.json"
+  }
 }
