@@ -765,44 +765,6 @@
       }
     ]
   },
-  "ctbids-46767-5468110": {
-    "item_id": "ctbids-46767-5468110",
-    "listing_url": "https://ctbids.com/estate-sale/46767/item/5468110/Citrine-Crystals",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5468110_JW4D8T.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "274411833": {
     "item_id": "274411833",
     "listing_url": "https://shopgoodwill.com/item/274411833",
@@ -841,6 +803,44 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+11)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46767-5468110": {
+    "item_id": "ctbids-46767-5468110",
+    "listing_url": "https://ctbids.com/estate-sale/46767/item/5468110/Citrine-Crystals",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5468110_JW4D8T.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
