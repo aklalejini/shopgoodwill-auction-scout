@@ -446,7 +446,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -457,7 +457,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -765,6 +765,49 @@
       }
     ]
   },
+  "274411833": {
+    "item_id": "274411833",
+    "listing_url": "https://shopgoodwill.com/item/274411833",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/50f42a28-2464-467e-9a25-d74ca83e7b37iley_08181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/7633b905-118b-46d3-a519-59f67997ce5eiley_08182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/24bf7e4a-99bf-4baa-b5fb-a2b7b9799ca4iley_08183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/521110fa-5b7a-4b89-b1e3-04de4de7765biley_08184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/9db2d532-ace9-45b7-a697-0d66c8c9d943iley_08185.jpg"
+    ],
+    "description": "Assorted mixed mineral and gemstone specimens stored in a clear plastic compartmentalized organizer. Includes rough and tumbled stones such as amethyst cluster, rose quartz, pyrite, tiger's eye, green aventurine, hematite, sodalite, red jasper, and geode fragments with quartz crystals. Stones vary in size, shape, and color, featuring both polished and raw pieces. All specimens are in good condition. Suitable for collectors, educational use, or metaphysical applications.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+11)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+11)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46767-5468110": {
     "item_id": "ctbids-46767-5468110",
     "listing_url": "https://ctbids.com/estate-sale/46767/item/5468110/Citrine-Crystals",
@@ -798,47 +841,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "274411833": {
-    "item_id": "274411833",
-    "listing_url": "https://shopgoodwill.com/item/274411833",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/50f42a28-2464-467e-9a25-d74ca83e7b37iley_08181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/7633b905-118b-46d3-a519-59f67997ce5eiley_08182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/24bf7e4a-99bf-4baa-b5fb-a2b7b9799ca4iley_08183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/521110fa-5b7a-4b89-b1e3-04de4de7765biley_08184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-08-18/9db2d532-ace9-45b7-a697-0d66c8c9d943iley_08185.jpg"
-    ],
-    "description": "Assorted mixed mineral and gemstone specimens stored in a clear plastic compartmentalized organizer. Includes rough and tumbled stones such as amethyst cluster, rose quartz, pyrite, tiger's eye, green aventurine, hematite, sodalite, red jasper, and geode fragments with quartz crystals. Stones vary in size, shape, and color, featuring both polished and raw pieces. All specimens are in good condition. Suitable for collectors, educational use, or metaphysical applications.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'metaphysical' in description (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+15)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'metaphysical' in description (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+15)"
         ],
         "matched_keywords": []
       }

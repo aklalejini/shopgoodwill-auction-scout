@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-08-25T13:09:42.785898+00:00",
-  "active_count": 2444,
-  "high_priority_count": 31,
+  "generated_at": "2026-08-25T14:02:50.588685+00:00",
+  "active_count": 2448,
+  "high_priority_count": 33,
   "archived_count": 1000,
   "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
-    "GovDeals / 38635 + 50 mi: Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://prod-seo.govdeals.com/en/search/filters?zipcode=38635&miles=50&source=location-search&ps=120&sf=auctionclose&so=asc"
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 26,
-  "relevance_filtered_count": 685,
-  "potentially_high_value_count": 31,
+  "detail_requests_completed": 24,
+  "relevance_filtered_count": 686,
+  "potentially_high_value_count": 33,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 60
+    "images_processed": 53
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -24,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 392,
-      "detail_requests_attempted": 6
+      "active_count": 394,
+      "detail_requests_attempted": 3
     },
     {
       "id": "gsa-auctions",
@@ -36,8 +35,8 @@
     {
       "id": "govdeals",
       "label": "GovDeals",
-      "active_count": 52,
-      "detail_requests_attempted": 0
+      "active_count": 54,
+      "detail_requests_attempted": 2
     },
     {
       "id": "ctbids",
@@ -50,7 +49,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 288
+      "active_count": 289
     },
     {
       "id": "sealed-vintage-media",
@@ -70,7 +69,7 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 35
+      "active_count": 36
     },
     {
       "id": "glass-insulators",
@@ -80,7 +79,7 @@
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "active_count": 52
+      "active_count": 54
     },
     {
       "id": "local-estate-auctions",

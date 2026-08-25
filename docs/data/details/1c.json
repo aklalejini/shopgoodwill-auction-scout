@@ -104,6 +104,7 @@
       "Opportunity term 'lot' in description (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Lower-priority term 'tumbled stones' in description (-10)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "8.7 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -112,14 +113,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 21,
-        "relative_score": 0.7,
+        "score": 25,
+        "relative_score": 0.833,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in description (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Lower-priority term 'tumbled stones' in description (-10)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "8.7 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -516,33 +518,6 @@
       }
     ]
   },
-  "ctbids-42498-4925838": {
-    "item_id": "ctbids-42498-4925838",
-    "listing_url": "https://ctbids.com/estate-sale/42498/item/4925838/Siegfried-Meets-Guttune-By-Arthur-Rackham-Art-Reproduction",
-    "images": [
-      "https://image.ctbids.com/seller/2026-03-01Tc50847/4925838_xiAlWH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47640-5535085": {
     "item_id": "ctbids-47640-5535085",
     "listing_url": "https://ctbids.com/estate-sale/47640/item/5535085/Time-To-Sing",
@@ -617,6 +592,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-42498-4925838": {
+    "item_id": "ctbids-42498-4925838",
+    "listing_url": "https://ctbids.com/estate-sale/42498/item/4925838/Siegfried-Meets-Guttune-By-Arthur-Rackham-Art-Reproduction",
+    "images": [
+      "https://image.ctbids.com/seller/2026-03-01Tc50847/4925838_xiAlWH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
