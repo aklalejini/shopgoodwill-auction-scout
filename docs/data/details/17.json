@@ -37,6 +37,36 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47612-5547414": {
+    "item_id": "ctbids-47612-5547414",
+    "listing_url": "https://ctbids.com/estate-sale/47612/item/5547414/Lot-of-Women-s-Shoes-Size-8-Assorted",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-22T273492/5547414_6xdBlO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -47,7 +77,8 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -210,33 +241,6 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47612-5547414": {
-    "item_id": "ctbids-47612-5547414",
-    "listing_url": "https://ctbids.com/estate-sale/47612/item/5547414/Lot-of-Women-s-Shoes-Size-8-Assorted",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-22T273492/5547414_6xdBlO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

@@ -40,6 +40,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -47,11 +48,41 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47612-5542878": {
+    "item_id": "ctbids-47612-5542878",
+    "listing_url": "https://ctbids.com/estate-sale/47612/item/5542878/Pet-Supplies-Collection-Stainless-Steel-Bowls-Leashes-Collars-Toys",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542878_MsE3nw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -87,60 +118,6 @@
           "Opportunity term 'specimen' in title (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47612-5542878": {
-    "item_id": "ctbids-47612-5542878",
-    "listing_url": "https://ctbids.com/estate-sale/47612/item/5542878/Pet-Supplies-Collection-Stainless-Steel-Bowls-Leashes-Collars-Toys",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542878_MsE3nw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47481-5525191": {
-    "item_id": "ctbids-47481-5525191",
-    "listing_url": "https://ctbids.com/estate-sale/47481/item/5525191/Collection-Of-450-Pokemon-Cards-Jumbo-Holographic-Cards-Players-Guides",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-16T707ecf/5525191_HyBmzL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -193,6 +170,60 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47481-5525191": {
+    "item_id": "ctbids-47481-5525191",
+    "listing_url": "https://ctbids.com/estate-sale/47481/item/5525191/Collection-Of-450-Pokemon-Cards-Jumbo-Holographic-Cards-Players-Guides",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-16T707ecf/5525191_HyBmzL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47584-5522838": {
+    "item_id": "ctbids-47584-5522838",
+    "listing_url": "https://ctbids.com/estate-sale/47584/item/5522838/8-Snowman-Christmas-Plates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-15Te3553a/5522838_f45m2x.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -443,14 +474,15 @@
       }
     ]
   },
-  "ctbids-47397-5514237": {
-    "item_id": "ctbids-47397-5514237",
-    "listing_url": "https://ctbids.com/estate-sale/47397/item/5514237/Traditional-Russian-Matryoshka-Nesting-Dolls-Hand-painted-Folk-Art-Wooden-Easter-eggs",
+  "ctbids-47602-5529397": {
+    "item_id": "ctbids-47602-5529397",
+    "listing_url": "https://ctbids.com/estate-sale/47602/item/5529397/ShipRocked-Music-Cruise-Banner-Flag",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5514237_pygh8R.webp"
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5525680_C8vnCX.webp"
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -458,9 +490,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -468,11 +501,38 @@
       }
     ]
   },
-  "ctbids-47584-5522838": {
-    "item_id": "ctbids-47584-5522838",
-    "listing_url": "https://ctbids.com/estate-sale/47584/item/5522838/8-Snowman-Christmas-Plates",
+  "ctbids-46062-5429496": {
+    "item_id": "ctbids-46062-5429496",
+    "listing_url": "https://ctbids.com/estate-sale/46062/item/5429496/LH509PT2-Tool-Shop-Spring-Clamps-3-Inch-2-Inch-Hand-Grips-More",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-15Te3553a/5522838_f45m2x.webp"
+      "https://image.ctbids.com/seller/2026-07-21T8926dd/5429496_Nri2u5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47397-5514237": {
+    "item_id": "ctbids-47397-5514237",
+    "listing_url": "https://ctbids.com/estate-sale/47397/item/5514237/Traditional-Russian-Matryoshka-Nesting-Dolls-Hand-painted-Folk-Art-Wooden-Easter-eggs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5514237_pygh8R.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -523,56 +583,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47584/item/5522456/6-Enamel-Cocoa-Mugs-with-Carrying-Rack",
     "images": [
       "https://image.ctbids.com/seller/2026-08-14T598939/5522456_U6gdkI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47602-5529397": {
-    "item_id": "ctbids-47602-5529397",
-    "listing_url": "https://ctbids.com/estate-sale/47602/item/5529397/ShipRocked-Music-Cruise-Banner-Flag",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5525680_C8vnCX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46062-5429496": {
-    "item_id": "ctbids-46062-5429496",
-    "listing_url": "https://ctbids.com/estate-sale/46062/item/5429496/LH509PT2-Tool-Shop-Spring-Clamps-3-Inch-2-Inch-Hand-Grips-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-21T8926dd/5429496_Nri2u5.webp"
     ],
     "description": "",
     "score_reasons": [

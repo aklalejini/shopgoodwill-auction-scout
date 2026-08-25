@@ -254,6 +254,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -261,10 +262,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -326,6 +328,33 @@
       }
     ]
   },
+  "ctbids-47584-5522117": {
+    "item_id": "ctbids-47584-5522117",
+    "listing_url": "https://ctbids.com/estate-sale/47584/item/5522117/Primitive-Farm-Wall-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5522117_mvYPIK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-42498-5449410": {
     "item_id": "ctbids-42498-5449410",
     "listing_url": "https://ctbids.com/estate-sale/42498/item/5449410/Vintage-Parke-Davis-A-History-of-Medicine-in-Pictures-Portfolio-Set-6-Robert-Thom-Art-Prints",
@@ -380,6 +409,60 @@
       }
     ]
   },
+  "ctbids-46062-5429494": {
+    "item_id": "ctbids-46062-5429494",
+    "listing_url": "https://ctbids.com/estate-sale/46062/item/5429494/LH511PT2-Brink-And-Cotton-Quick-Grip-Assorted-Spring-Clamps",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-21T8926dd/5429494_l98aHh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46062-5429737": {
+    "item_id": "ctbids-46062-5429737",
+    "listing_url": "https://ctbids.com/estate-sale/46062/item/5429737/LH413PT2-Vacuum-Attachments-and-Bags",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-21T8926dd/5429737_ewVmzo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "274192523": {
     "item_id": "274192523",
     "listing_url": "https://shopgoodwill.com/item/274192523",
@@ -411,81 +494,6 @@
           "Opportunity term 'minerals' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47584-5522117": {
-    "item_id": "ctbids-47584-5522117",
-    "listing_url": "https://ctbids.com/estate-sale/47584/item/5522117/Primitive-Farm-Wall-Art",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5522117_mvYPIK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46062-5429494": {
-    "item_id": "ctbids-46062-5429494",
-    "listing_url": "https://ctbids.com/estate-sale/46062/item/5429494/LH511PT2-Brink-And-Cotton-Quick-Grip-Assorted-Spring-Clamps",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-21T8926dd/5429494_l98aHh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46062-5429737": {
-    "item_id": "ctbids-46062-5429737",
-    "listing_url": "https://ctbids.com/estate-sale/46062/item/5429737/LH413PT2-Vacuum-Attachments-and-Bags",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-21T8926dd/5429737_ewVmzo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
