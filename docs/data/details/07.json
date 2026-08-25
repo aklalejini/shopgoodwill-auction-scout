@@ -63,7 +63,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -71,12 +70,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -293,33 +291,6 @@
       }
     ]
   },
-  "ctbids-47481-5518243": {
-    "item_id": "ctbids-47481-5518243",
-    "listing_url": "https://ctbids.com/estate-sale/47481/item/5518243/3-Vintage-Zippo-Lighters",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5518243_QdY6eN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47584-5522154": {
     "item_id": "ctbids-47584-5522154",
     "listing_url": "https://ctbids.com/estate-sale/47584/item/5522154/Classic-Hollywood-Trade-Cards-Set",
@@ -340,6 +311,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47481-5518243": {
+    "item_id": "ctbids-47481-5518243",
+    "listing_url": "https://ctbids.com/estate-sale/47481/item/5518243/3-Vintage-Zippo-Lighters",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5518243_QdY6eN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

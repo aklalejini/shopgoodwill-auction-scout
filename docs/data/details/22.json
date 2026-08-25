@@ -199,35 +199,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47167-5468571": {
-    "item_id": "ctbids-47167-5468571",
-    "listing_url": "https://ctbids.com/estate-sale/47167/item/5468571/Vintage-Aladdin-Nickel-Plated-Oil-Lamp-Model-23-with-Clear-Glass-Chimney",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5468571_TZQwJr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
       "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -236,10 +207,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -414,6 +385,33 @@
       }
     ]
   },
+  "ctbids-47167-5468571": {
+    "item_id": "ctbids-47167-5468571",
+    "listing_url": "https://ctbids.com/estate-sale/47167/item/5468571/Vintage-Aladdin-Nickel-Plated-Oil-Lamp-Model-23-with-Clear-Glass-Chimney",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5468571_TZQwJr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46767-5496871": {
     "item_id": "ctbids-46767-5496871",
     "listing_url": "https://ctbids.com/estate-sale/46767/item/5496871/Vintage-Panasonic-Radio",
@@ -522,6 +520,48 @@
       }
     ]
   },
+  "ctbids-47167-5468500": {
+    "item_id": "ctbids-47167-5468500",
+    "listing_url": "https://ctbids.com/estate-sale/47167/item/5468500/Vintage-Polished-Stone-Gemstone-Eggs-Lot-of-4-Onyx-Agate-Marble-Wood-Stands",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5468500_wAg8YN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47115-5514306": {
     "item_id": "ctbids-47115-5514306",
     "listing_url": "https://ctbids.com/estate-sale/47115/item/5514306/Puzzles-Etc",
@@ -569,48 +609,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47167-5468500": {
-    "item_id": "ctbids-47167-5468500",
-    "listing_url": "https://ctbids.com/estate-sale/47167/item/5468500/Vintage-Polished-Stone-Gemstone-Eggs-Lot-of-4-Onyx-Agate-Marble-Wood-Stands",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5468500_wAg8YN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
