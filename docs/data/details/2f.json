@@ -40,7 +40,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -53,7 +53,7 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -937,6 +937,44 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275087677": {
+    "item_id": "275087677",
+    "listing_url": "https://shopgoodwill.com/item/275087677",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-08-17/086556ae-3f5a-4df1-811d-62c1af9d048fton8_08172.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-08-17/086556ae-3f5a-4df1-811d-62c1af9d048fton8_08171.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-08-17/086556ae-3f5a-4df1-811d-62c1af9d048fton8_08173.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-08-17/086556ae-3f5a-4df1-811d-62c1af9d048fton8_08174.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-08-17/086556ae-3f5a-4df1-811d-62c1af9d048fton8_08175.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-08-17/086556ae-3f5a-4df1-811d-62c1af9d048fton8_08176.png"
+    ],
+    "description": "Description:\n38Pcs. Lot of Various Different Rocks, Stones & Crystals (B52D)\nManufacturer/Markings:\nNone/Unknown\nMaterial:\nNatural Materials\nLength x Width x Height:\nRanges from ~0.5''X~0.5''X~0.75'' to ~1.75''X~1.75''X~1.5''\nCondition:\nDonated/ pre-owned. One of the Rocks appears to have a Cross Carved on one side of it. Some Rocks appear to be smooth while others are not.  Shows Scuffs, Knicks, Marks, Dings, Dust & Wear.\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\n” and is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }

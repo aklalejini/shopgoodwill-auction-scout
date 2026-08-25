@@ -130,6 +130,46 @@
       }
     ]
   },
+  "275089820": {
+    "item_id": "275089820",
+    "listing_url": "https://shopgoodwill.com/item/275089820",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/7732ab2b-9d80-497e-88db-1798af2a5582naem_07211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/7bc6791d-f31d-4a14-ab45-9524b843fe8enaem_07212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/0dda0ae2-7447-4e64-ae0c-b9e878a23935naem_07213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/ded32dcc-7019-4cac-b986-f60ad9785e05naem_07214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/bf1da0fa-572e-420d-a39b-857d11913e28naem_07215.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/906316f8-caac-47ff-8ea5-54dcd222b7b0naem_07216.jpg"
+    ],
+    "description": "This assortment includes various minerals, gemstones, and fossils such as amethyst clusters, rose quartz, polished stones, ammonite fossils, and selenite, stored in a plastic container. The collection weighs approximately 5 lbs and includes a branded pouch.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Flat shipping is only $0.01 (+10)",
+      "5 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 24,
+        "relative_score": 0.8,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Flat shipping is only $0.01 (+10)",
+          "5 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47483-5527998": {
     "item_id": "ctbids-47483-5527998",
     "listing_url": "https://ctbids.com/estate-sale/47483/item/5527998/Vintage-Jewish-Haggadah-Hebrew-Religious-Book-Collection",
@@ -518,33 +558,6 @@
       }
     ]
   },
-  "ctbids-47640-5535085": {
-    "item_id": "ctbids-47640-5535085",
-    "listing_url": "https://ctbids.com/estate-sale/47640/item/5535085/Time-To-Sing",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5535085_r7GURP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-42498-4877966": {
     "item_id": "ctbids-42498-4877966",
     "listing_url": "https://ctbids.com/estate-sale/42498/item/4877966/Norman-C-Allin-C-S-C-Three-Elephants-Signed-Dated-By-Artist",
@@ -604,6 +617,33 @@
     "listing_url": "https://ctbids.com/estate-sale/42498/item/4925838/Siegfried-Meets-Guttune-By-Arthur-Rackham-Art-Reproduction",
     "images": [
       "https://image.ctbids.com/seller/2026-03-01Tc50847/4925838_xiAlWH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47640-5535085": {
+    "item_id": "ctbids-47640-5535085",
+    "listing_url": "https://ctbids.com/estate-sale/47640/item/5535085/Time-To-Sing",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5535085_r7GURP.webp"
     ],
     "description": "",
     "score_reasons": [
