@@ -338,53 +338,6 @@
       }
     ]
   },
-  "274314666": {
-    "item_id": "274314666",
-    "listing_url": "https://shopgoodwill.com/item/274314666",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/80300456-a2e8-4efe-b72d-fe0175451769rger_08101.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/fed02c4b-a604-4dc0-b187-a88a4062ec4crger_08102.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/4aea5c7a-c8cb-4c84-b7af-36a83134b23drger_08103.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/060dcf02-5b40-42c5-9554-dfe8c1eced0drger_08104.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/9d3b95b1-886a-4da4-a739-6ccc2a7ad605rger_08105.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/b098b943-adba-4d22-9ffa-1fa3448b229erger_08106.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/f64d432c-b704-493f-b6da-b6171bf28c93rger_08107.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/bf88b5de-9509-44cb-9f81-bd31c601fa86rger_08108.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-10/b6113184-2163-44cb-9c03-569425dc0a04rger_08109.jpg"
-    ],
-    "description": "Assorted Natural/Educational Multi-color (various stones & crystals) Mixed minerals, stone, crystal, salt Mixed Rock & Mineral Collection\nStyle\n: Assorted Natural/Educational\nType\n:Mixed Rock & Mineral Collection\nColor\n:Multi-color (various stones & crystals)\nMaterial\n: Mixed minerals, stone, crystal, salt\nCondition\n: Good - shows some sign of wear\nApproximate Measurements (inches)\n: 14L x 7W x 7H\nWeight (approximate)\n: 13 lbs\nAdditional Details\n:Includes Himalayan salt lamp, tumbled stones, figurine",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "13 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "13 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+4)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46062-5425469": {
     "item_id": "ctbids-46062-5425469",
     "listing_url": "https://ctbids.com/estate-sale/46062/item/5425469/LH407PT2-Craftsman-7-Pieces-Combination-Metric-Wrenches-and-7-Pieces-Open-Ended-Wrenches",
@@ -855,6 +808,45 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275033713": {
+    "item_id": "275033713",
+    "listing_url": "https://shopgoodwill.com/item/275033713",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes a diverse collection of mineral and gemstone specimens. Featured items are a boxed Protection Tumble Set with Jet, Hematite, Clear Quartz, and Tiger's Eye. Also included is an assorted gemstone kit with labeled stones such as Rose Quartz, Blue Obsidian, and man-made Opalite. Additional pieces include a raw cluster crystal, a white quartz geode, a polished agate slice, a decorative slab of assorted stones, and a large polished slab edged in gold suitable for display or as a coaster. The collection offers multiple colors and textures. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'lot' in description (+2)",
+      "Lower-priority term 'healing' in title (-12)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+20)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'lot' in description (+2)",
+          "Lower-priority term 'healing' in title (-12)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+20)"
         ],
         "matched_keywords": []
       }
