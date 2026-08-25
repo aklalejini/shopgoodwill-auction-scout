@@ -135,7 +135,6 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -143,12 +142,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 15,
-        "relative_score": 0.441,
+        "score": 13,
+        "relative_score": 0.382,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -407,81 +405,6 @@
       }
     ]
   },
-  "ctbids-47541-5538308": {
-    "item_id": "ctbids-47541-5538308",
-    "listing_url": "https://ctbids.com/estate-sale/47541/item/5538308/Mystery-Lot-11-Large-Lot-of-HDMI-DisplayPort-USB-Computer-AV-Cables",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5538308_2IoPIT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "274581889": {
-    "item_id": "274581889",
-    "listing_url": "https://shopgoodwill.com/item/274581889",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-08-20/74bf487c-b03b-4ecc-8c91-fdb77e45e1dbsokc_08201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-08-20/884cab7b-78ca-4e3b-b0ce-18cd84a655f1sokc_08202.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-08-20/f09a75e1-7c4d-464f-8c1d-f88a2d4e250fsokc_08203.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-08-20/99bc0eac-74f8-4c0a-bac2-57e69a4c024dsokc_08204.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-08-20/68a890c8-1c6b-412e-92d7-009f82a803absokc_08205.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-08-20/3e9a2130-91ea-4a03-b007-cf1022765c8dsokc_08206.jpg"
-    ],
-    "description": "You are purchasing a \"2.86 Lbs. Crystal, Geodes, Rocks, and Gemstones Loose Lot \" in \"Used\" condition.\nBeautiful mixed lot of stones, crystals, and fossils ready for crafting, collecting, or display. You’ll receive everything pictured as one bundle, including: - 1 large zip bag of rough Amazonite pieces (clearly labeled) - 1 amethyst crystal cluster on matrix - 1 large tan stone specimen - Multiple polished stones in rich reds, creams, and grays - Several tumbled and rough crystals in various colors - A variety of fossil shells and small spiral fossils This is a great assortment for rockhounds, kids’ geology projects, jewelry makers, or anyone who loves natural stones. There’s a nice mix of rough and polished pieces, plus fossils and a cluster, so it’s perfect for a starter collection or to add variety to an existing one. Use them in wire wrapping, terrariums, crystal grids, home décor bowls, or as teaching samples. The variety of colors, shapes, and textures makes this lot especially fun to sort and display. Keywords: mixed stone lot, rough amazonite, amethyst cluster, agate stones, jasper cabochons, fossil shells, crystal assortment, rock collection, tumbled stones, mineral specimens\nThis is a previously owned item being sold AS-IS and have not been tested. Items may have light surface dust/debris and scratches.\nItems have varying degrees of wear and residue and may be missing parts.  Expect signs of wear consistent with age.\nCondition Notes:\nMixed lot of stones and crystals showing normal handling wear. Bag of rough amazonite pieces has chipped edges and powdery surfaces from breakage and rubbing. Amethyst cluster has intact points with some natural uneven edges along the base. Large tan stone shows natural surface texture and small edge chips. Multiple tumbled stones and agates have smooth, polished surfaces with minor scuffs. Fossil shells and small rough crystals show natural pitting and irregular surfaces.\nAspects:\nShape: Assorted Shapes\nItem Weight: 2.86 lbs",
-    "score_reasons": [
-      "Opportunity term 'geology' in description (+10)",
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in description (+1)",
-      "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
-      "Opportunity term cap limited keyword stacking; effective contributions are shown",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "2 bids near close (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'geology' in description (+10)",
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in description (+1)",
-          "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
-          "Opportunity term cap limited keyword stacking; effective contributions are shown",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "2 bids near close (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47584-5522327": {
     "item_id": "ctbids-47584-5522327",
     "listing_url": "https://ctbids.com/estate-sale/47584/item/5522327/Vintage-Style-Yankees-Baseball-Poster",
@@ -664,6 +587,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47541-5538308": {
+    "item_id": "ctbids-47541-5538308",
+    "listing_url": "https://ctbids.com/estate-sale/47541/item/5538308/Mystery-Lot-11-Large-Lot-of-HDMI-DisplayPort-USB-Computer-AV-Cables",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5538308_2IoPIT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

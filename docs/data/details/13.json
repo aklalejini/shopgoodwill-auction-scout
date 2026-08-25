@@ -244,35 +244,6 @@
       }
     ]
   },
-  "ctbids-47483-5527547": {
-    "item_id": "ctbids-47483-5527547",
-    "listing_url": "https://ctbids.com/estate-sale/47483/item/5527547/Antique-Collectibles-Reference-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5527547_lWjYTf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47115-5514195": {
     "item_id": "ctbids-47115-5514195",
     "listing_url": "https://ctbids.com/estate-sale/47115/item/5514195/Vintage-Heirloom-Baby-Clothing-Lot",
@@ -295,6 +266,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47483-5527547": {
+    "item_id": "ctbids-47483-5527547",
+    "listing_url": "https://ctbids.com/estate-sale/47483/item/5527547/Antique-Collectibles-Reference-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5527547_lWjYTf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

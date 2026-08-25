@@ -19,6 +19,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Opportunity term 'minerals' in title (+1)",
       "Target keyword 'fluorite' in description (+9)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -26,13 +27,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 18,
-        "relative_score": 0.6,
+        "score": 22,
+        "relative_score": 0.733,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'mixed' in title (+2)",
           "Opportunity term 'minerals' in title (+1)",
           "Target keyword 'fluorite' in description (+9)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -345,35 +347,6 @@
       }
     ]
   },
-  "ctbids-47612-5547465": {
-    "item_id": "ctbids-47612-5547465",
-    "listing_url": "https://ctbids.com/estate-sale/47612/item/5547465/Lot-of-Mattress-Protectors-King-Size",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-22T273492/5547465_5WPH0E.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47115-5508993": {
     "item_id": "ctbids-47115-5508993",
     "listing_url": "https://ctbids.com/estate-sale/47115/item/5508993/Vintage-Americana-European-Art-Prints",
@@ -448,6 +421,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47612-5547465": {
+    "item_id": "ctbids-47612-5547465",
+    "listing_url": "https://ctbids.com/estate-sale/47612/item/5547465/Lot-of-Mattress-Protectors-King-Size",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-22T273492/5547465_5WPH0E.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -625,7 +625,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -636,7 +636,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -718,33 +718,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46767-5419537": {
-    "item_id": "ctbids-46767-5419537",
-    "listing_url": "https://ctbids.com/estate-sale/46767/item/5419537/Two-Stainless-Steel-Flasks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-18T4538ff/5419537_LzJx6V.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1032,6 +1005,31 @@
     "listing_url": "https://ctbids.com/estate-sale/42498/item/5448432/Zuni-Fetish-Carved-Stone-Rabbit-Bunny-Turquoise-Inlay-Signed-Native-Style",
     "images": [
       "https://image.ctbids.com/seller/2026-07-26T1a902b/5448432_DzXXjr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46767-5419537": {
+    "item_id": "ctbids-46767-5419537",
+    "listing_url": "https://ctbids.com/estate-sale/46767/item/5419537/Two-Stainless-Steel-Flasks",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-18T4538ff/5419537_LzJx6V.webp"
     ],
     "description": "",
     "score_reasons": [
