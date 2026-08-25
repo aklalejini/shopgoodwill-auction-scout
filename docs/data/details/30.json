@@ -96,7 +96,7 @@
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
-      "0 bids near close (+5)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -104,14 +104,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 27,
-        "relative_score": 0.9,
+        "score": 24,
+        "relative_score": 0.8,
         "score_reasons": [
           "Lower-priority term 'chip' in description (-15)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
-          "0 bids near close (+5)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -645,33 +645,6 @@
       }
     ]
   },
-  "ctbids-47497-5499284": {
-    "item_id": "ctbids-47497-5499284",
-    "listing_url": "https://ctbids.com/estate-sale/47497/item/5499284/1968-Topps-Baseball-Card-Richie-Allen-Philadelphia-Phillies-Card-225",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-09T64e589/5499284_OcT2a4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47483-5523948": {
     "item_id": "ctbids-47483-5523948",
     "listing_url": "https://ctbids.com/estate-sale/47483/item/5523948/Hand-Painted-Red-Wood-Decorative-Vase",
@@ -881,6 +854,31 @@
     "listing_url": "https://ctbids.com/estate-sale/43249/item/4973024/18-Piece-Federal-Glass-Patrician-Topaz-Yellow-Uranium-Glass-3-Part-Grill-Plates",
     "images": [
       "https://image.ctbids.com/seller/2026-08-18T75c795/4973024_FuDDFz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47497-5499284": {
+    "item_id": "ctbids-47497-5499284",
+    "listing_url": "https://ctbids.com/estate-sale/47497/item/5499284/1968-Topps-Baseball-Card-Richie-Allen-Philadelphia-Phillies-Card-225",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-09T64e589/5499284_OcT2a4.webp"
     ],
     "description": "",
     "score_reasons": [
