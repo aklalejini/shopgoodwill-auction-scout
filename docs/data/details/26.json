@@ -429,7 +429,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -437,10 +437,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -953,6 +953,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47196/item/5472126/3-Signed-Glenda-Framed-Still-Life-Landscape-Paintings",
     "images": [
       "https://image.ctbids.com/seller/2026-08-19T869be6/5472126_vadvda.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47139-5502674": {
+    "item_id": "ctbids-47139-5502674",
+    "listing_url": "https://ctbids.com/estate-sale/47139/item/5502674/Steuben-Crystal-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-11T3eb7de/5502674_mX2gzQ.webp"
     ],
     "description": "",
     "score_reasons": [
