@@ -59,6 +59,49 @@
       }
     ]
   },
+  "275222700": {
+    "item_id": "275222700",
+    "listing_url": "https://shopgoodwill.com/item/275222700",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes 5 vintage vacuum tubes from brands RCA Victor, Tung-Sol, and Zenith, all marked 'Made in U.S.A.' The tubes have glass envelopes and metal bases with 8-pin octal connectors. These tubes were commonly used in radios, amplifiers, and other electronic equipment from the mid-20th century. The tubes have not been tested.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+6)",
+      "Opportunity term 'vintage' in title (+4)",
+      "Lower-priority term 'used' in description (-4)",
+      "Target keyword 'tung-sol' in title (+11)",
+      "Target keyword 'rca' in title (+6)",
+      "Target keyword 'zenith' in title (+5)",
+      "Only 1 listing photo (-12)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 16,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+6)",
+          "Opportunity term 'vintage' in title (+4)",
+          "Lower-priority term 'used' in description (-4)",
+          "Target keyword 'tung-sol' in title (+11)",
+          "Target keyword 'rca' in title (+6)",
+          "Target keyword 'zenith' in title (+5)",
+          "Only 1 listing photo (-12)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "rca",
+          "tung-sol",
+          "zenith"
+        ]
+      }
+    ]
+  },
   "274717745": {
     "item_id": "274717745",
     "listing_url": "https://shopgoodwill.com/item/274717745",
@@ -1150,6 +1193,45 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275222691": {
+    "item_id": "275222691",
+    "listing_url": "https://shopgoodwill.com/item/275222691",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes assorted tumbled and raw gemstones and minerals in a plain cardboard box. The collection features various stones such as rose quartz, agate, amethyst, pyrite, and others in different shapes, colors, and sizes. The stones are a mix of polished and natural pieces, some with unique patterns and inclusions. All items are used and ungraded, showing natural surface variations and minor wear. Suitable for collectors, hobbyists, metaphysical interest, or crafting.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+10)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }
