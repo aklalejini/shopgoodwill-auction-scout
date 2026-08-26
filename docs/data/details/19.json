@@ -195,6 +195,35 @@
       }
     ]
   },
+  "ctbids-46995-5537747": {
+    "item_id": "ctbids-46995-5537747",
+    "listing_url": "https://ctbids.com/estate-sale/46995/item/5537747/MM3-Ducks-Unlimited-Black-Duck-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5537747_Og5Hja.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275076630": {
     "item_id": "275076630",
     "listing_url": "https://shopgoodwill.com/item/275076630",
@@ -257,35 +286,6 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46995-5537747": {
-    "item_id": "ctbids-46995-5537747",
-    "listing_url": "https://ctbids.com/estate-sale/46995/item/5537747/MM3-Ducks-Unlimited-Black-Duck-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5537747_Og5Hja.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -885,9 +885,10 @@
     "score_reasons": [
       "Opportunity term 'minerals' in title (+1)",
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+12)"
+      "Score boundary adjustment (+8)"
     ],
     "hunt_scores": [
       {
@@ -898,9 +899,10 @@
         "score_reasons": [
           "Opportunity term 'minerals' in title (+1)",
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+12)"
+          "Score boundary adjustment (+8)"
         ],
         "matched_keywords": []
       }
