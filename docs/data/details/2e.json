@@ -120,6 +120,52 @@
       }
     ]
   },
+  "275242176": {
+    "item_id": "275242176",
+    "listing_url": "https://shopgoodwill.com/item/275242176",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-08-26/bd3165cf-871a-400d-8cc7-7fa9707401c5Leek_08261.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-08-26/b1f766d0-9981-479b-9a24-696c26f160ecLeek_08262.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-08-26/5708a512-4329-4e48-9dd6-36acdb88ee25Leek_08263.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-08-26/ac97e8a6-ec2c-4fb7-9c91-2b7863ecde47Leek_08264.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-08-26/764ee981-cf89-46a5-a791-1baa2bc3c234Leek_08265.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-08-26/7d2aafd7-bd6a-42e4-9529-db3f9e2e46aeLeek_08266.jpg"
+    ],
+    "description": "Description:\nThis vintage and modern writing and sealing set includes a boxed NVIZIO Sunlight Pen Collection with multiple black and gold pens, a Bradley gold-tone ballpoint pen in original case, and a Parker Classic stainless steel pen in presentation box. Also included is a wooden pen box with inkwell section, a vintage wood-handled dip pen, and a boxed metal ruler or caliper. For wax sealing, the set features two wood-handled brass seal stamps, a brass melting stand, wax sticks in gold, pink, and black, a bag of red wax beads, four brass wax seal stamp heads with sunflower, bee, rose, and 'Secret' motifs, plus two metal wax melting spoons. Items are in good to very good condition, suitable for collectors or calligraphy enthusiasts.\nDimensions:\n0 x 0 x 0 in\nProduct Weight\n3 lb",
+    "score_reasons": [
+      "Opportunity term 'pen collection' in title (+8)",
+      "Opportunity term 'vintage' in title (+6)",
+      "Opportunity term 'collection' in title (+6)",
+      "Lower-priority term 'ballpoint' in description (-4)",
+      "Lower-priority term 'bradley' in description (-12)",
+      "Target keyword 'parker' in description (+8)",
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 28,
+        "relative_score": 0.8,
+        "score_reasons": [
+          "Opportunity term 'pen collection' in title (+8)",
+          "Opportunity term 'vintage' in title (+6)",
+          "Opportunity term 'collection' in title (+6)",
+          "Lower-priority term 'ballpoint' in description (-4)",
+          "Lower-priority term 'bradley' in description (-12)",
+          "Target keyword 'parker' in description (+8)",
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "parker"
+        ]
+      }
+    ]
+  },
   "ctbids-47396-5529447": {
     "item_id": "ctbids-47396-5529447",
     "listing_url": "https://ctbids.com/estate-sale/47396/item/5529447/Sterling-Silver-Towle-Spoons-and-Heirloom-Ladle",
@@ -250,35 +296,6 @@
       }
     ]
   },
-  "ctbids-47721-5540791": {
-    "item_id": "ctbids-47721-5540791",
-    "listing_url": "https://ctbids.com/estate-sale/47721/item/5540791/Vintage-Mid-Century-Modern-Amphora-Vase-Twin-Handles-Jerome-Studio-Pottery",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5540791_7pjsdb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47721-5545710": {
     "item_id": "ctbids-47721-5545710",
     "listing_url": "https://ctbids.com/estate-sale/47721/item/5545710/Vintage-Jerri-Products-Uncle-Remus-Doll-Bench",
@@ -357,6 +374,35 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47721-5540791": {
+    "item_id": "ctbids-47721-5540791",
+    "listing_url": "https://ctbids.com/estate-sale/47721/item/5540791/Vintage-Mid-Century-Modern-Amphora-Vase-Twin-Handles-Jerome-Studio-Pottery",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5540791_7pjsdb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -451,33 +497,6 @@
       }
     ]
   },
-  "ctbids-47702-5544609": {
-    "item_id": "ctbids-47702-5544609",
-    "listing_url": "https://ctbids.com/estate-sale/47702/item/5544609/Navy-Pea-coat",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5544609_kOx3pZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "govdeals-6354-168": {
     "item_id": "govdeals-6354-168",
     "listing_url": "https://www.govdeals.com/en/asset/168/6354",
@@ -535,11 +554,11 @@
       }
     ]
   },
-  "ctbids-47139-5496036": {
-    "item_id": "ctbids-47139-5496036",
-    "listing_url": "https://ctbids.com/estate-sale/47139/item/5496036/Marquis-by-Waterford-White-Wine-Glasses",
+  "ctbids-47702-5544609": {
+    "item_id": "ctbids-47702-5544609",
+    "listing_url": "https://ctbids.com/estate-sale/47702/item/5544609/Navy-Pea-coat",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5496036_YqC54g.webp"
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5544609_kOx3pZ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -794,6 +813,31 @@
     "listing_url": "https://ctbids.com/estate-sale/45202/item/5214715/Assortment-Of-CDs",
     "images": [
       "https://image.ctbids.com/seller/2026-08-10T5403a6/5214715_G7E5NH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47139-5496036": {
+    "item_id": "ctbids-47139-5496036",
+    "listing_url": "https://ctbids.com/estate-sale/47139/item/5496036/Marquis-by-Waterford-White-Wine-Glasses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5496036_YqC54g.webp"
     ],
     "description": "",
     "score_reasons": [

@@ -55,6 +55,7 @@
       "Target keyword 'lightscribe' in title (+10)",
       "Target keyword 'memorex' in title (+3)",
       "High-value signal 'lightscribe' in title (+12)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+4)"
     ],
@@ -62,8 +63,8 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 26,
-        "relative_score": 0.722,
+        "score": 30,
+        "relative_score": 0.833,
         "score_reasons": [
           "Opportunity term 'sealed' in description (+12)",
           "Opportunity term 'unopened' in description (+12)",
@@ -72,6 +73,7 @@
           "Target keyword 'lightscribe' in title (+10)",
           "Target keyword 'memorex' in title (+3)",
           "High-value signal 'lightscribe' in title (+12)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+4)"
         ],
@@ -442,33 +444,6 @@
       }
     ]
   },
-  "ctbids-46543-5476619": {
-    "item_id": "ctbids-46543-5476619",
-    "listing_url": "https://ctbids.com/estate-sale/46543/item/5476619/Sega-Genesis-Game-Lot-Of-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-03T135713/5476619_46A7xa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "govdeals-1577-6905": {
     "item_id": "govdeals-1577-6905",
     "listing_url": "https://www.govdeals.com/en/asset/6905/1577",
@@ -510,6 +485,33 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46543-5476619": {
+    "item_id": "ctbids-46543-5476619",
+    "listing_url": "https://ctbids.com/estate-sale/46543/item/5476619/Sega-Genesis-Game-Lot-Of-5",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-03T135713/5476619_46A7xa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -611,7 +613,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -622,7 +624,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

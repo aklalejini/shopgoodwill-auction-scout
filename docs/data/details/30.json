@@ -184,7 +184,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -192,12 +192,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -243,7 +243,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -255,7 +255,7 @@
         "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -403,33 +403,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47721/item/5544326/Hess-Police-Truck-Cruiser-Toy-Vehicle",
     "images": [
       "https://image.ctbids.com/seller/2026-08-21T3c9069/5544326_JbFsN0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47328-5513193": {
-    "item_id": "ctbids-47328-5513193",
-    "listing_url": "https://ctbids.com/estate-sale/47328/item/5513193/Evans-Drumheads",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5513193_pXQtV6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -982,6 +955,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47396/item/5529434/Gold-Tone-Costume-Jewelry",
     "images": [
       "https://image.ctbids.com/seller/2026-08-17T6f1578/5529434_gOvUdD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47328-5513193": {
+    "item_id": "ctbids-47328-5513193",
+    "listing_url": "https://ctbids.com/estate-sale/47328/item/5513193/Evans-Drumheads",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5513193_pXQtV6.webp"
     ],
     "description": "",
     "score_reasons": [
