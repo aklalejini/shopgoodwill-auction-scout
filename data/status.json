@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-08-27T14:15:03.303238+00:00",
-  "active_count": 2516,
-  "high_priority_count": 32,
+  "generated_at": "2026-08-27T23:47:27.261159+00:00",
+  "active_count": 2570,
+  "high_priority_count": 40,
   "archived_count": 1000,
   "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
-    "GovDeals / 38635 + 50 mi: Request failed after limited retries: HTTPSConnectionPool(host='prod-seo.govdeals.com', port=443): Read timed out. (read timeout=25.0)"
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 44,
-  "relevance_filtered_count": 688,
-  "potentially_high_value_count": 32,
+  "detail_requests_completed": 81,
+  "relevance_filtered_count": 677,
+  "potentially_high_value_count": 40,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 72
+    "images_processed": 67
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -24,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 462,
-      "detail_requests_attempted": 20
+      "active_count": 518,
+      "detail_requests_attempted": 57
     },
     {
       "id": "gsa-auctions",
@@ -36,7 +35,7 @@
     {
       "id": "govdeals",
       "label": "GovDeals",
-      "active_count": 54,
+      "active_count": 52,
       "detail_requests_attempted": 4
     },
     {
@@ -50,37 +49,37 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 354
+      "active_count": 383
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 20
+      "active_count": 25
     },
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 11
+      "active_count": 17
     },
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 39
+      "active_count": 49
     },
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 38
+      "active_count": 41
     },
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 20
+      "active_count": 23
     },
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "active_count": 54
+      "active_count": 52
     },
     {
       "id": "local-estate-auctions",

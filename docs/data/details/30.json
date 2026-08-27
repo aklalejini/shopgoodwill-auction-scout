@@ -18,6 +18,7 @@
       "Opportunity term 'lot' in description (+5)",
       "High-value signal 'yellow or olive glass color' in image color analysis (+22)",
       "High-value signal 'amber glass color' in image color analysis (+14)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -25,14 +26,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 55,
-        "relative_score": 1.833,
+        "score": 60,
+        "relative_score": 2.0,
         "score_reasons": [
           "Opportunity term 'unknown' in description (+7)",
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in description (+5)",
           "High-value signal 'yellow or olive glass color' in image color analysis (+22)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -137,6 +139,75 @@
       }
     ]
   },
+  "275243710": {
+    "item_id": "275243710",
+    "listing_url": "https://shopgoodwill.com/item/275243710",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-26/00a33999-b242-46bf-9b27-ad00529e099eraic_08261.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-26/5b4c4175-eec0-4fe1-a4f4-138751a0ab89raic_08262.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-26/80818e7b-34b2-4636-8f3a-c68554133dd8raic_08263.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-26/46933c8d-54a7-4a57-978f-eb2a561c420draic_08264.jpg"
+    ],
+    "description": "A collection of assorted decorative stones and minerals housed in a plastic container. Includes polished stones, raw minerals, and geodes. Approximate weight: 6.5 lbs.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'decorative' in title (-8)",
+      "Flat shipping is only $0.01 (+10)",
+      "6.5 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 16,
+        "relative_score": 0.533,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'decorative' in title (-8)",
+          "Flat shipping is only $0.01 (+10)",
+          "6.5 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47951-5565959": {
+    "item_id": "ctbids-47951-5565959",
+    "listing_url": "https://ctbids.com/estate-sale/47951/item/5565959/Vintage-Christmas-Tin-Canister-Red-Snowflake-Design-w-Holiday-Sayings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/4866103_l6VbEP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47388-5528353": {
     "item_id": "ctbids-47388-5528353",
     "listing_url": "https://ctbids.com/estate-sale/47388/item/5528353/Vintage-Porcelain-Dolls-Lot-5-Pcs",
@@ -159,6 +230,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47301-5517605": {
+    "item_id": "ctbids-47301-5517605",
+    "listing_url": "https://ctbids.com/estate-sale/47301/item/5517605/Collection-of-9-Vintage-Matted-Photographs-Cabinet-Cards",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5517605_qhArqU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -222,15 +322,16 @@
       }
     ]
   },
-  "ctbids-47388-5528608": {
-    "item_id": "ctbids-47388-5528608",
-    "listing_url": "https://ctbids.com/estate-sale/47388/item/5528608/2-Vintage-1963-District-of-Columbia-License-Plates",
+  "ctbids-47757-5542956": {
+    "item_id": "ctbids-47757-5542956",
+    "listing_url": "https://ctbids.com/estate-sale/47757/item/5542956/Vintage-Satin-Formal-Long-Sleeve-Wedding-Dress-With-Lace-Pearl-Details",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5528608_xJG5jn.webp"
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542956_jcqsp9.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -238,10 +339,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -249,15 +351,15 @@
       }
     ]
   },
-  "ctbids-47696-5536491": {
-    "item_id": "ctbids-47696-5536491",
-    "listing_url": "https://ctbids.com/estate-sale/47696/item/5536491/Vintage-West-Bend-Thermo-Serv-Insulated-Casserole-Dishes-Set-of-2",
+  "ctbids-47301-5517247": {
+    "item_id": "ctbids-47301-5517247",
+    "listing_url": "https://ctbids.com/estate-sale/47301/item/5517247/Antique-Industrial-Laundry-Occupational-Photograph-Circa-1920s",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5536491_GVPy1C.webp"
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5517247_HNiudc.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'antique' in title (+7)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -265,10 +367,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -330,11 +432,69 @@
       }
     ]
   },
-  "ctbids-47548-5518810": {
-    "item_id": "ctbids-47548-5518810",
-    "listing_url": "https://ctbids.com/estate-sale/47548/item/5518810/Lot-Of-Playing-Cards-And-Board-Games",
+  "ctbids-47635-5528385": {
+    "item_id": "ctbids-47635-5528385",
+    "listing_url": "https://ctbids.com/estate-sale/47635/item/5528385/Large-Lot-of-Bon-App-tit-Cooking-Magazines-Recipes-Baking-Entertaining",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5518810_qYHsX7.webp"
+      "https://image.ctbids.com/seller/2026-08-22T273492/5528385_7nel5h.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47301-5494979": {
+    "item_id": "ctbids-47301-5494979",
+    "listing_url": "https://ctbids.com/estate-sale/47301/item/5494979/35-PIECE-HUBBELL-ANDERSON-LC51CXBUE-CONNECTOR-PTC-51-COVER-LOT",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5494979_GeE7H8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47645-5536194": {
+    "item_id": "ctbids-47645-5536194",
+    "listing_url": "https://ctbids.com/estate-sale/47645/item/5536194/Hand-Painted-Marx-And-Guthurz-Oyster-Plates-Lot-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5536194_6P4vVj.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -357,15 +517,15 @@
       }
     ]
   },
-  "ctbids-47548-5517582": {
-    "item_id": "ctbids-47548-5517582",
-    "listing_url": "https://ctbids.com/estate-sale/47548/item/5517582/Lot-Of-Men-s-Shirts",
+  "ctbids-47455-5521075": {
+    "item_id": "ctbids-47455-5521075",
+    "listing_url": "https://ctbids.com/estate-sale/47455/item/5521075/Vintage-Whiting-And-Davis-Necklace",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5517582_tO1gMh.webp"
+      "https://image.ctbids.com/seller/2026-08-14T598939/5521075_w5jELT.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -373,91 +533,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47548-5519249": {
-    "item_id": "ctbids-47548-5519249",
-    "listing_url": "https://ctbids.com/estate-sale/47548/item/5519249/Small-Set-Of-Royal-Doulton-Esprit-China",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5519249_ITyOMk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47353-5535576": {
-    "item_id": "ctbids-47353-5535576",
-    "listing_url": "https://ctbids.com/estate-sale/47353/item/5535576/Schneider-Trucking-And-Evergreen-International-Advertising-Pieces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5535576_lnXssZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47548-5530604": {
-    "item_id": "ctbids-47548-5530604",
-    "listing_url": "https://ctbids.com/estate-sale/47548/item/5530604/Three-Pairs-Of-New-In-Box-Waterford-Crystal-Marquis-Candle-Holders",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5530604_sirHnj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -492,15 +571,15 @@
       }
     ]
   },
-  "ctbids-47687-5546462": {
-    "item_id": "ctbids-47687-5546462",
-    "listing_url": "https://ctbids.com/estate-sale/47687/item/5546462/Sweep-Dreams-Red-Woven-Brooms-Made-In-Thailand",
+  "ctbids-47548-5519249": {
+    "item_id": "ctbids-47548-5519249",
+    "listing_url": "https://ctbids.com/estate-sale/47548/item/5519249/Small-Set-Of-Royal-Doulton-Esprit-China",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5546462_wFgQ65.webp"
+      "https://image.ctbids.com/seller/2026-08-14T598939/5519249_ITyOMk.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -511,7 +590,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -519,136 +598,11 @@
       }
     ]
   },
-  "ctbids-47353-5509292": {
-    "item_id": "ctbids-47353-5509292",
-    "listing_url": "https://ctbids.com/estate-sale/47353/item/5509292/M-L-XL-1X-Coats-Vests-Jackets",
+  "ctbids-47687-5546462": {
+    "item_id": "ctbids-47687-5546462",
+    "listing_url": "https://ctbids.com/estate-sale/47687/item/5546462/Sweep-Dreams-Red-Woven-Brooms-Made-In-Thailand",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-11T3eb7de/5509292_lGQxzi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47388-5528828": {
-    "item_id": "ctbids-47388-5528828",
-    "listing_url": "https://ctbids.com/estate-sale/47388/item/5528828/MCM-Sunburst-Aluminum-Juice-Cups-Tumblers-Set-Of-6",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5528828_m8yHuz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47161-5509061": {
-    "item_id": "ctbids-47161-5509061",
-    "listing_url": "https://ctbids.com/estate-sale/47161/item/5509061/Mercedes-Benz-Pens-And-Case",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-11T3eb7de/5509061_U5R2gt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47695-5533596": {
-    "item_id": "ctbids-47695-5533596",
-    "listing_url": "https://ctbids.com/estate-sale/47695/item/5533596/Gemini-Jets-Delta-Boeing-747-400-1-400-Scale",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5533596_XKYyij.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47161-5513549": {
-    "item_id": "ctbids-47161-5513549",
-    "listing_url": "https://ctbids.com/estate-sale/47161/item/5513549/Legos-And-Lego-Duplo",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5513549_7c42u3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47161-5513552": {
-    "item_id": "ctbids-47161-5513552",
-    "listing_url": "https://ctbids.com/estate-sale/47161/item/5513552/Playboy-Magazines-Nancy-Sinatra-Cindy-Crawford-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5513552_2iekPc.webp"
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5546462_wFgQ65.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -687,6 +641,48 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47301-5484832": {
+    "item_id": "ctbids-47301-5484832",
+    "listing_url": "https://ctbids.com/estate-sale/47301/item/5484832/Vintage-Superior-Forged-Brass-4-Bolt-Flange-Refrigeration-Check-Valve",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-05T59d31e/5484832_Vm34oS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -819,41 +815,124 @@
       }
     ]
   },
-  "ctbids-47301-5484832": {
-    "item_id": "ctbids-47301-5484832",
-    "listing_url": "https://ctbids.com/estate-sale/47301/item/5484832/Vintage-Superior-Forged-Brass-4-Bolt-Flange-Refrigeration-Check-Valve",
+  "ctbids-47522-5531234": {
+    "item_id": "ctbids-47522-5531234",
+    "listing_url": "https://ctbids.com/estate-sale/47522/item/5531234/86-Star-Trek-The-Voyage-Home-Paramount-Cast-Crew-Official-Deluxe-Bomber-Jacket-Museum-Quality",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-05T59d31e/5484832_Vm34oS.webp"
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5531234_Ln6ufB.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 0,
-        "relative_score": 0.0,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
-      },
+      }
+    ]
+  },
+  "ctbids-47178-5525867": {
+    "item_id": "ctbids-47178-5525867",
+    "listing_url": "https://ctbids.com/estate-sale/47178/item/5525867/Sony-Meets-Panasonic",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-16T707ecf/5525867_EyW8u6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47667-5531305": {
+    "item_id": "ctbids-47667-5531305",
+    "listing_url": "https://ctbids.com/estate-sale/47667/item/5531305/1989-90-Hoops-Basketball-Complete-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5531305_LeXQ6p.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47430-5542193": {
+    "item_id": "ctbids-47430-5542193",
+    "listing_url": "https://ctbids.com/estate-sale/47430/item/5542193/CI638-Columbia-Cabela-s-Women-s-Jackets",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542193_pP60Rt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47465-5529507": {
+    "item_id": "ctbids-47465-5529507",
+    "listing_url": "https://ctbids.com/estate-sale/47465/item/5529507/Three-Beautiful-Pieces-To-Adorn-Your-Walls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5529507_al0oqc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -930,6 +1009,42 @@
         "relative_score": 0.033,
         "score_reasons": [
           "Opportunity term 'lot' in description (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275397237": {
+    "item_id": "275397237",
+    "listing_url": "https://shopgoodwill.com/item/275397237",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/2befac4c-12db-42f2-8406-825576f6b722ckcs_08271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/6d355c6e-b7ca-4eae-878f-f562724abea3ckcs_08272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/25135641-d06b-4e83-b603-e4ecae6a8d94ckcs_08273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/9a344953-c459-47b6-bc08-9a25d39dab87ckcs_08274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/98246f32-f277-4e56-a5ce-0ce6aa795b40ckcs_08275.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/8839397b-3062-4420-ba54-d009051e0c48ckcs_08276.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/209f0fc4-b24b-4bef-b2ab-6f6c9dd35b0eckcs_08277.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/d91b577c-b9b9-4ee1-a017-ff03c7e38004ckcs_08278.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/d6b22eaf-bdd6-47a0-afa5-3082a46cef8eckcs_08279.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-27/d08cb486-112a-4708-bb4a-b25de253809bckcs_082710.jpg"
+    ],
+    "description": "Unbranded  Polished Rock & Mineral Specimens  Assorted   Amethyst, Agate Geodes, Crystal Cluster + More\nBrand:\nUnbranded\nStyle:\nPolished Rock & Mineral Specimens\nType:\nAmethyst, Agate Geodes, Crystal Cluster + More\nColor:\nAssorted\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n15\nItem Width (in):\n12\nItem Height (in):\n12\nWeight (lbs oz):\n32\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
