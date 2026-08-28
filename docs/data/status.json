@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-27T23:47:27.261159+00:00",
-  "active_count": 2570,
-  "high_priority_count": 40,
+  "generated_at": "2026-08-28T11:19:54.990171+00:00",
+  "active_count": 2548,
+  "high_priority_count": 29,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 81,
-  "relevance_filtered_count": 677,
-  "potentially_high_value_count": 40,
+  "detail_requests_completed": 72,
+  "relevance_filtered_count": 654,
+  "potentially_high_value_count": 29,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 67
+    "images_processed": 72
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -23,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 518,
-      "detail_requests_attempted": 57
+      "active_count": 495,
+      "detail_requests_attempted": 49
     },
     {
       "id": "gsa-auctions",
@@ -35,8 +35,8 @@
     {
       "id": "govdeals",
       "label": "GovDeals",
-      "active_count": 52,
-      "detail_requests_attempted": 4
+      "active_count": 53,
+      "detail_requests_attempted": 3
     },
     {
       "id": "ctbids",
@@ -49,22 +49,22 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 383
+      "active_count": 368
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 25
+      "active_count": 26
     },
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 17
+      "active_count": 9
     },
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 49
+      "active_count": 43
     },
     {
       "id": "estate-tobacco-pipes",
@@ -79,7 +79,7 @@
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "active_count": 52
+      "active_count": 53
     },
     {
       "id": "local-estate-auctions",
