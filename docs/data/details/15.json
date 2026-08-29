@@ -544,31 +544,6 @@
       }
     ]
   },
-  "ctbids-47795-5548530": {
-    "item_id": "ctbids-47795-5548530",
-    "listing_url": "https://ctbids.com/estate-sale/47795/item/5548530/Handmade-Baby-Quilts",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5074298_5E5RoL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47632-5532636": {
     "item_id": "ctbids-47632-5532636",
     "listing_url": "https://ctbids.com/estate-sale/47632/item/5532636/International-Collectors-Library-Collection-Of-15-Hardback-Classics-Alice-s-Adventures-In-Wonderlan",
@@ -1181,31 +1156,6 @@
       }
     ]
   },
-  "ctbids-47539-5550559": {
-    "item_id": "ctbids-47539-5550559",
-    "listing_url": "https://ctbids.com/estate-sale/47539/item/5550559/1985-Cabbage-Patch",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5550559_vs2pmE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "275093831": {
     "item_id": "275093831",
     "listing_url": "https://shopgoodwill.com/item/275093831",
@@ -1329,6 +1279,50 @@
           "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "275599707": {
+    "item_id": "275599707",
+    "listing_url": "https://shopgoodwill.com/item/275599707",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-29/c5e30325-4ae2-4763-8b5b-394916d8c743osas_08291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-29/2fa9fb56-5aeb-4158-a56b-4d7918e0f59dosas_08292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-29/ef52f881-8e38-43c3-b07e-b18eef03fd0eosas_08293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-29/a5437048-ee6e-409b-9d8f-60591a76817dosas_08294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-29/a62648c2-c4bc-4b67-aaa8-37951dc6d57dosas_08295.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-29/a1a8db47-8241-40e4-ab76-f4d0477cc80eosas_08296.jpg"
+    ],
+    "description": "This lot includes over 30 assorted mineral and rock specimens featuring raw and tumbled stones, crystal clusters, and a decorative gemstone tree. Specimens include purple amethyst clusters, pyrite, quartz points, green malachite, and various semiprecious stones such as calcite and agate. Sizes range from small pebbles to larger hand-sized pieces. The gemstone tree sculpture has wire branches with polished stone leaves. Items show natural mineral formations with some rough edges. Suitable for collectors, educational purposes, or crystal enthusiasts.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Target keyword 'malachite' in description (+9)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Target keyword 'malachite' in description (+9)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+6)"
+        ],
+        "matched_keywords": [
+          "malachite"
+        ]
       }
     ]
   }

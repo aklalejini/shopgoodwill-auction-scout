@@ -214,6 +214,33 @@
       }
     ]
   },
+  "ctbids-48005-5575097": {
+    "item_id": "ctbids-48005-5575097",
+    "listing_url": "https://ctbids.com/estate-sale/48005/item/5575097/Vintage-Milton-Bradley-Basic-Facts-Addition-Flash-Cards-No-7611-Educational-Learning-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5339338_JfB6nJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47588-5548232": {
     "item_id": "ctbids-47588-5548232",
     "listing_url": "https://ctbids.com/estate-sale/47588/item/5548232/Vintage-Pyrex",
@@ -596,33 +623,6 @@
     "listing_url": "https://ctbids.com/estate-sale/46990/item/5451698/Vintage-Indiana-Glass-Fairy-Lamp-Amber-Glass-Candle-Holder-Fenton-Pressed-Glass-Top-Hat",
     "images": [
       "https://image.ctbids.com/seller/2026-08-19T869be6/5451698_xQKHIG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47490-5520983": {
-    "item_id": "ctbids-47490-5520983",
-    "listing_url": "https://ctbids.com/estate-sale/47490/item/5520983/Vintage-Pelouze-Mechanical-Parcel-Utility-Scale",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5520983_W6ER3V.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1251,37 +1251,6 @@
       }
     ]
   },
-  "275361902": {
-    "item_id": "275361902",
-    "listing_url": "https://shopgoodwill.com/item/275361902",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/68/Items/2026-08-27/93030c84-8edc-4c57-a952-bbfbe98f9ed8ca26_08271.png",
-      "https://shopgoodwillimages.azureedge.net/production/68/Items/2026-08-27/93030c84-8edc-4c57-a952-bbfbe98f9ed8ca26_08272.png",
-      "https://shopgoodwillimages.azureedge.net/production/68/Items/2026-08-27/93030c84-8edc-4c57-a952-bbfbe98f9ed8ca26_08273.png"
-    ],
-    "description": "TITLE: Medico smoking pipe set\nMANUFACTURER:  medico\nCondition: used\nDIMENSIONS: 7.5 in x 5.5 in\nSTORE# shop",
-    "score_reasons": [
-      "Lower-priority term 'medico' in title (-12)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+11)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'medico' in title (-12)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+11)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47435-5520536": {
     "item_id": "ctbids-47435-5520536",
     "listing_url": "https://ctbids.com/estate-sale/47435/item/5520536/Lot-of-3-Ballpoint-Pens-2-by-Cross-and-1-by-Parker-w-Cross-and-Pierre-Cardin-Presentation-Cases",
@@ -1322,6 +1291,37 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275361902": {
+    "item_id": "275361902",
+    "listing_url": "https://shopgoodwill.com/item/275361902",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/68/Items/2026-08-27/93030c84-8edc-4c57-a952-bbfbe98f9ed8ca26_08271.png",
+      "https://shopgoodwillimages.azureedge.net/production/68/Items/2026-08-27/93030c84-8edc-4c57-a952-bbfbe98f9ed8ca26_08272.png",
+      "https://shopgoodwillimages.azureedge.net/production/68/Items/2026-08-27/93030c84-8edc-4c57-a952-bbfbe98f9ed8ca26_08273.png"
+    ],
+    "description": "TITLE: Medico smoking pipe set\nMANUFACTURER:  medico\nCondition: used\nDIMENSIONS: 7.5 in x 5.5 in\nSTORE# shop",
+    "score_reasons": [
+      "Lower-priority term 'medico' in title (-12)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+11)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'medico' in title (-12)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+11)"
         ],
         "matched_keywords": []
       }
