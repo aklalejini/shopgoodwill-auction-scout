@@ -170,6 +170,7 @@
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
       "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -177,8 +178,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in description (+7)",
@@ -186,8 +187,96 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48004-5575267": {
+    "item_id": "ctbids-48004-5575267",
+    "listing_url": "https://ctbids.com/estate-sale/48004/item/5575267/Vintage-1964-Glenn-Yarbrough-RCA-Victor-45-RPM-Record-47-8447-Folk-Pop",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5422666_RGPLQX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47707-5566196": {
+    "item_id": "ctbids-47707-5566196",
+    "listing_url": "https://ctbids.com/estate-sale/47707/item/5566196/Vintage-Wide-Textured-Diamond-Crosshatch-Hoop-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5566196_Soeo6h.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48005-5575160": {
+    "item_id": "ctbids-48005-5575160",
+    "listing_url": "https://ctbids.com/estate-sale/48005/item/5575160/Set-of-6-Vintage-Etched-Mid-Century-Highball-Glasses-Amber-Tint-Geometric-Barware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5369350_niAVn1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -274,92 +363,11 @@
       }
     ]
   },
-  "ctbids-48004-5575267": {
-    "item_id": "ctbids-48004-5575267",
-    "listing_url": "https://ctbids.com/estate-sale/48004/item/5575267/Vintage-1964-Glenn-Yarbrough-RCA-Victor-45-RPM-Record-47-8447-Folk-Pop",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5422666_RGPLQX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47707-5566196": {
-    "item_id": "ctbids-47707-5566196",
-    "listing_url": "https://ctbids.com/estate-sale/47707/item/5566196/Vintage-Wide-Textured-Diamond-Crosshatch-Hoop-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5566196_Soeo6h.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47382-5516773": {
     "item_id": "ctbids-47382-5516773",
     "listing_url": "https://ctbids.com/estate-sale/47382/item/5516773/vintage-gold-tone-chunky-link-necklace-striking-multi-colored-poured-glass-Gold-Tone-Assortment",
     "images": [
       "https://image.ctbids.com/seller/2026-08-13T032a65/5516773_ET6iqG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48005-5575160": {
-    "item_id": "ctbids-48005-5575160",
-    "listing_url": "https://ctbids.com/estate-sale/48005/item/5575160/Set-of-6-Vintage-Etched-Mid-Century-Highball-Glasses-Amber-Tint-Geometric-Barware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5369350_niAVn1.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -402,6 +410,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47367-5521858": {
+    "item_id": "ctbids-47367-5521858",
+    "listing_url": "https://ctbids.com/estate-sale/47367/item/5521858/Fabulous-Fall-Floral-Arrangement",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5521858_ASrcQL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -495,15 +530,15 @@
       }
     ]
   },
-  "ctbids-47367-5521858": {
-    "item_id": "ctbids-47367-5521858",
-    "listing_url": "https://ctbids.com/estate-sale/47367/item/5521858/Fabulous-Fall-Floral-Arrangement",
+  "ctbids-47333-5493959": {
+    "item_id": "ctbids-47333-5493959",
+    "listing_url": "https://ctbids.com/estate-sale/47333/item/5493959/Brass-Lattice-Wastebasket-and-Golden-Mosaic-Vase",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5521858_ASrcQL.webp"
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5493959_AzSFhq.webp"
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -511,10 +546,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47382-5450554": {
+    "item_id": "ctbids-47382-5450554",
+    "listing_url": "https://ctbids.com/estate-sale/47382/item/5450554/Model-Train-Car-Assortment",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5450554_KQnHlW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47382-5472245": {
+    "item_id": "ctbids-47382-5472245",
+    "listing_url": "https://ctbids.com/estate-sale/47382/item/5472245/Women-s-Red-Gold-Toned-Costume-Jewelry-Assortment",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-02T22b7b7/5472245_aEp7tQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47382-5472709": {
+    "item_id": "ctbids-47382-5472709",
+    "listing_url": "https://ctbids.com/estate-sale/47382/item/5472709/Women-s-Shades-of-Brown-Blue-Necklaces-Assortment",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-02T22b7b7/5472709_gSh5y0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -542,64 +658,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275268239": {
-    "item_id": "275268239",
-    "listing_url": "https://shopgoodwill.com/item/275268239",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/4202af6c-d795-4955-ac0f-210aeb8e05d0ecom_08261.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/6792c999-e6fb-406a-9f00-44120926113fecom_08262.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/606c8582-b149-4766-b791-23fbefdef6b0ecom_08263.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/85e265cb-d5d2-44ff-95d8-7c842bf86543ecom_08264.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/797e544c-6e52-455b-9b70-09e20107af91ecom_08265.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/35f0c383-940d-40ab-94af-c37ef102dfccecom_08266.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/0b6f17de-1186-4afd-bb0c-0b1a89753884ecom_08267.jpg"
-    ],
-    "description": "Brand\n: Unbranded\nItem\n: Clear Quartz Crystal Cluster Mineral Specimen on Metal Display Stand\nCondition\n: Used\nIMPORTANT!\nHANDLING TIMES ON ALL ORDERS MAY TAKE UP TO 5 DAYS TO SHIP.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47333-5493959": {
-    "item_id": "ctbids-47333-5493959",
-    "listing_url": "https://ctbids.com/estate-sale/47333/item/5493959/Brass-Lattice-Wastebasket-and-Golden-Mosaic-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5493959_AzSFhq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -707,76 +765,69 @@
       }
     ]
   },
-  "ctbids-47382-5450554": {
-    "item_id": "ctbids-47382-5450554",
-    "listing_url": "https://ctbids.com/estate-sale/47382/item/5450554/Model-Train-Car-Assortment",
+  "275268239": {
+    "item_id": "275268239",
+    "listing_url": "https://shopgoodwill.com/item/275268239",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5450554_KQnHlW.webp"
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/4202af6c-d795-4955-ac0f-210aeb8e05d0ecom_08261.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/6792c999-e6fb-406a-9f00-44120926113fecom_08262.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/606c8582-b149-4766-b791-23fbefdef6b0ecom_08263.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/85e265cb-d5d2-44ff-95d8-7c842bf86543ecom_08264.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/797e544c-6e52-455b-9b70-09e20107af91ecom_08265.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/35f0c383-940d-40ab-94af-c37ef102dfccecom_08266.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-08-26/0b6f17de-1186-4afd-bb0c-0b1a89753884ecom_08267.jpg"
     ],
-    "description": "",
+    "description": "Brand\n: Unbranded\nItem\n: Clear Quartz Crystal Cluster Mineral Specimen on Metal Display Stand\nCondition\n: Used\nIMPORTANT!\nHANDLING TIMES ON ALL ORDERS MAY TAKE UP TO 5 DAYS TO SHIP.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "ctbids-47382-5472245": {
-    "item_id": "ctbids-47382-5472245",
-    "listing_url": "https://ctbids.com/estate-sale/47382/item/5472245/Women-s-Red-Gold-Toned-Costume-Jewelry-Assortment",
+  "275046487": {
+    "item_id": "275046487",
+    "listing_url": "https://shopgoodwill.com/item/275046487",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-02T22b7b7/5472245_aEp7tQ.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "This listing includes assorted rock and mineral specimens totaling 8 pounds.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'assorted' in title (+2)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+9)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47382-5472709": {
-    "item_id": "ctbids-47382-5472709",
-    "listing_url": "https://ctbids.com/estate-sale/47382/item/5472709/Women-s-Shades-of-Brown-Blue-Necklaces-Assortment",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-02T22b7b7/5472709_gSh5y0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'assorted' in title (+2)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }
@@ -1002,64 +1053,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47680-5541178": {
-    "item_id": "ctbids-47680-5541178",
-    "listing_url": "https://ctbids.com/estate-sale/47680/item/5541178/1992-Pairpoint-Leaded-Crystal-Vase-Signed-By-Dana",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5541178_T4Rmvt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275046487": {
-    "item_id": "275046487",
-    "listing_url": "https://shopgoodwill.com/item/275046487",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This listing includes assorted rock and mineral specimens totaling 8 pounds.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "8 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+13)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "8 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
       }

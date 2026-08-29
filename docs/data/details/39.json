@@ -17,6 +17,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "15 lb lot has unresolved shipping cost (-3)",
       "Base score (+5)"
@@ -25,8 +26,8 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 55,
-        "relative_score": 1.833,
+        "score": 60,
+        "relative_score": 2.0,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in description (+5)",
@@ -34,6 +35,7 @@
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "15 lb lot has unresolved shipping cost (-3)",
           "Base score (+5)"
@@ -155,6 +157,35 @@
       }
     ]
   },
+  "ctbids-47382-5461459": {
+    "item_id": "ctbids-47382-5461459",
+    "listing_url": "https://ctbids.com/estate-sale/47382/item/5461459/vintage-handmade-rag-rug-woven-from-cotton-fabric-scraps-vintage-style-mid-century-plant-stand",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-29T40ef1b/5461459_i8tIMC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275437225": {
     "item_id": "275437225",
     "listing_url": "https://shopgoodwill.com/item/275437225",
@@ -249,11 +280,11 @@
       }
     ]
   },
-  "ctbids-47382-5461459": {
-    "item_id": "ctbids-47382-5461459",
-    "listing_url": "https://ctbids.com/estate-sale/47382/item/5461459/vintage-handmade-rag-rug-woven-from-cotton-fabric-scraps-vintage-style-mid-century-plant-stand",
+  "ctbids-47254-5477762": {
+    "item_id": "ctbids-47254-5477762",
+    "listing_url": "https://ctbids.com/estate-sale/47254/item/5477762/Vintage-Mink-Fur-Stole-Scarf-Dark-Brown-With-Clip",
     "images": [
-      "https://image.ctbids.com/seller/2026-07-29T40ef1b/5461459_i8tIMC.webp"
+      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5477762_HmBgIg.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -276,15 +307,15 @@
       }
     ]
   },
-  "ctbids-47254-5477762": {
-    "item_id": "ctbids-47254-5477762",
-    "listing_url": "https://ctbids.com/estate-sale/47254/item/5477762/Vintage-Mink-Fur-Stole-Scarf-Dark-Brown-With-Clip",
+  "ctbids-47707-5573412": {
+    "item_id": "ctbids-47707-5573412",
+    "listing_url": "https://ctbids.com/estate-sale/47707/item/5573412/Betty-Boop-Ipsy-Cosmetic-Makeup-Bag-More",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5477762_HmBgIg.webp"
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5464419_aczy4z.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -292,10 +323,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47707-5535620": {
+    "item_id": "ctbids-47707-5535620",
+    "listing_url": "https://ctbids.com/estate-sale/47707/item/5535620/Vtg-Timex-Q-Illusion-T-Cell-Digital-Watch-on-Thin-Gold-Tone-Etched-Band-For-repair",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5535620_uKuiml.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48005-5575157": {
+    "item_id": "ctbids-48005-5575157",
+    "listing_url": "https://ctbids.com/estate-sale/48005/item/5575157/Large-Clear-Acrylic-Pedestal-Bowl-Centerpiece-Planter-Ice-Bucket-Display-Bowl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5349089_75I8c2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -402,6 +487,114 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47707-5569963": {
+    "item_id": "ctbids-47707-5569963",
+    "listing_url": "https://ctbids.com/estate-sale/47707/item/5569963/NWT-Handpainted-J-J-Design-Artisan-Mardi-Gras-Jester-Head-Clown-Hanging-Ornament-Shelf-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5569963_Sgisix.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47707-5571359": {
+    "item_id": "ctbids-47707-5571359",
+    "listing_url": "https://ctbids.com/estate-sale/47707/item/5571359/Stunning-Vtg-Faux-Pearl-Floral-Spray-Textured-Gold-Tone-Brooch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5571359_Ot5vDc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47254-5488413": {
+    "item_id": "ctbids-47254-5488413",
+    "listing_url": "https://ctbids.com/estate-sale/47254/item/5488413/1976-Angus-B-Wilson-Bearded-Man-Portrait-W-Silver-Frame-Wall-Art-Realism",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5488413_t6egfi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47382-5462439": {
+    "item_id": "ctbids-47382-5462439",
+    "listing_url": "https://ctbids.com/estate-sale/47382/item/5462439/Halloween-Assortment-Beanie-Babies-Snoopy-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-02T22b7b7/5462439_UlZHEb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -561,56 +754,6 @@
       }
     ]
   },
-  "ctbids-47707-5573412": {
-    "item_id": "ctbids-47707-5573412",
-    "listing_url": "https://ctbids.com/estate-sale/47707/item/5573412/Betty-Boop-Ipsy-Cosmetic-Makeup-Bag-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5464419_aczy4z.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47707-5535620": {
-    "item_id": "ctbids-47707-5535620",
-    "listing_url": "https://ctbids.com/estate-sale/47707/item/5535620/Vtg-Timex-Q-Illusion-T-Cell-Digital-Watch-on-Thin-Gold-Tone-Etched-Band-For-repair",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5535620_uKuiml.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47382-5445814": {
     "item_id": "ctbids-47382-5445814",
     "listing_url": "https://ctbids.com/estate-sale/47382/item/5445814/Die-Cast-Train-Engine-And-Coal-Car",
@@ -661,126 +804,40 @@
       }
     ]
   },
-  "ctbids-48005-5575157": {
-    "item_id": "ctbids-48005-5575157",
-    "listing_url": "https://ctbids.com/estate-sale/48005/item/5575157/Large-Clear-Acrylic-Pedestal-Bowl-Centerpiece-Planter-Ice-Bucket-Display-Bowl",
+  "275031355": {
+    "item_id": "275031355",
+    "listing_url": "https://shopgoodwill.com/item/275031355",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5349089_75I8c2.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis lot includes various natural mineral and crystal specimens accompanied by a stone mortar and pestle. The minerals feature clear quartz clusters, a selenite tower, and a dendritic or moss agate rough specimen. The mortar and pestle are made from dark stone, likely granite or marble. Also included are polished agate geode bookends with blue, gray, and white banding.\n\nSpecifications:\n- Clear quartz cluster\n- Selenite tower\n- Dendritic or moss agate rough specimen\n- Dark stone mortar and pestle (likely granite or marble)\n- Polished agate geode bookends with blue, gray, and white banding",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'lot' in description (+2)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Lower-priority term 'tower' in description (-5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47707-5569963": {
-    "item_id": "ctbids-47707-5569963",
-    "listing_url": "https://ctbids.com/estate-sale/47707/item/5569963/NWT-Handpainted-J-J-Design-Artisan-Mardi-Gras-Jester-Head-Clown-Hanging-Ornament-Shelf-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5569963_Sgisix.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47707-5571359": {
-    "item_id": "ctbids-47707-5571359",
-    "listing_url": "https://ctbids.com/estate-sale/47707/item/5571359/Stunning-Vtg-Faux-Pearl-Floral-Spray-Textured-Gold-Tone-Brooch",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5571359_Ot5vDc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47254-5488413": {
-    "item_id": "ctbids-47254-5488413",
-    "listing_url": "https://ctbids.com/estate-sale/47254/item/5488413/1976-Angus-B-Wilson-Bearded-Man-Portrait-W-Silver-Frame-Wall-Art-Realism",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5488413_t6egfi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47382-5462439": {
-    "item_id": "ctbids-47382-5462439",
-    "listing_url": "https://ctbids.com/estate-sale/47382/item/5462439/Halloween-Assortment-Beanie-Babies-Snoopy-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-02T22b7b7/5462439_UlZHEb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'lot' in description (+2)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Lower-priority term 'tower' in description (-5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
@@ -988,43 +1045,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275031355": {
-    "item_id": "275031355",
-    "listing_url": "https://shopgoodwill.com/item/275031355",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis lot includes various natural mineral and crystal specimens accompanied by a stone mortar and pestle. The minerals feature clear quartz clusters, a selenite tower, and a dendritic or moss agate rough specimen. The mortar and pestle are made from dark stone, likely granite or marble. Also included are polished agate geode bookends with blue, gray, and white banding.\n\nSpecifications:\n- Clear quartz cluster\n- Selenite tower\n- Dendritic or moss agate rough specimen\n- Dark stone mortar and pestle (likely granite or marble)\n- Polished agate geode bookends with blue, gray, and white banding",
-    "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'lot' in description (+2)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Lower-priority term 'tower' in description (-5)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+9)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'lot' in description (+2)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Lower-priority term 'tower' in description (-5)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }
