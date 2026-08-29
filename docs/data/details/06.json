@@ -262,7 +262,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -270,11 +269,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -336,33 +334,6 @@
       }
     ]
   },
-  "ctbids-47837-5563583": {
-    "item_id": "ctbids-47837-5563583",
-    "listing_url": "https://ctbids.com/estate-sale/47837/item/5563583/Antique-Copper-Handled-Water-Bucket",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563583_LP1Fgs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47254-5484967": {
     "item_id": "ctbids-47254-5484967",
     "listing_url": "https://ctbids.com/estate-sale/47254/item/5484967/Pet-Purse-Small-Gray-Mesh-And-Waterproofed-Material-Pockets-Buckle-Leash-Hook",
@@ -383,6 +354,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47837-5563583": {
+    "item_id": "ctbids-47837-5563583",
+    "listing_url": "https://ctbids.com/estate-sale/47837/item/5563583/Antique-Copper-Handled-Water-Bucket",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563583_LP1Fgs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

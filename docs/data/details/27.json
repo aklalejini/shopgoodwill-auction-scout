@@ -255,7 +255,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -263,11 +263,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -483,33 +483,6 @@
       }
     ]
   },
-  "ctbids-47367-5521910": {
-    "item_id": "ctbids-47367-5521910",
-    "listing_url": "https://ctbids.com/estate-sale/47367/item/5521910/Geometric-Placemats",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5521910_L68a2j.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47707-5573406": {
     "item_id": "ctbids-47707-5573406",
     "listing_url": "https://ctbids.com/estate-sale/47707/item/5573406/Rare-Westminster-Abbey-Rock-Of-Ages-Original-Building-Stone-in-Box-w-COA",
@@ -530,87 +503,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47758-5549181": {
-    "item_id": "ctbids-47758-5549181",
-    "listing_url": "https://ctbids.com/estate-sale/47758/item/5549181/Camrose-Kross-Jacqueline-B-Kennedy-Collection-Cross-Pendant-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5549181_6iq4h3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46990-5449789": {
-    "item_id": "ctbids-46990-5449789",
-    "listing_url": "https://ctbids.com/estate-sale/46990/item/5449789/Vintage-3D-Hand-Painted-Ceramic-Wall-Hangings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-28Tf34811/5449789_oMRveM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46990-5506915": {
-    "item_id": "ctbids-46990-5506915",
-    "listing_url": "https://ctbids.com/estate-sale/46990/item/5506915/Vintage-Sarah-Coventry-Brooches-Silver-Toned",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5506915_5XILZN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -672,6 +564,33 @@
       }
     ]
   },
+  "ctbids-47758-5549181": {
+    "item_id": "ctbids-47758-5549181",
+    "listing_url": "https://ctbids.com/estate-sale/47758/item/5549181/Camrose-Kross-Jacqueline-B-Kennedy-Collection-Cross-Pendant-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5549181_6iq4h3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47333-5493951": {
     "item_id": "ctbids-47333-5493951",
     "listing_url": "https://ctbids.com/estate-sale/47333/item/5493951/Hand-Painted-Ruby-Cut-To-Clear-Bohemian-Glass-Vase-and-Ashtray-Set",
@@ -690,6 +609,85 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47367-5521910": {
+    "item_id": "ctbids-47367-5521910",
+    "listing_url": "https://ctbids.com/estate-sale/47367/item/5521910/Geometric-Placemats",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5521910_L68a2j.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46990-5449789": {
+    "item_id": "ctbids-46990-5449789",
+    "listing_url": "https://ctbids.com/estate-sale/46990/item/5449789/Vintage-3D-Hand-Painted-Ceramic-Wall-Hangings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-28Tf34811/5449789_oMRveM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46990-5506915": {
+    "item_id": "ctbids-46990-5506915",
+    "listing_url": "https://ctbids.com/estate-sale/46990/item/5506915/Vintage-Sarah-Coventry-Brooches-Silver-Toned",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5506915_5XILZN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
