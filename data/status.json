@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-29T15:37:05.071956+00:00",
-  "active_count": 2567,
+  "generated_at": "2026-08-29T19:23:33.276654+00:00",
+  "active_count": 2578,
   "high_priority_count": 28,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 25,
-  "relevance_filtered_count": 665,
+  "detail_requests_completed": 32,
+  "relevance_filtered_count": 670,
   "potentially_high_value_count": 28,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 72
+    "images_processed": 70
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -23,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 509,
-      "detail_requests_attempted": 4
+      "active_count": 520,
+      "detail_requests_attempted": 12
     },
     {
       "id": "gsa-auctions",
@@ -36,7 +36,7 @@
       "id": "govdeals",
       "label": "GovDeals",
       "active_count": 58,
-      "detail_requests_attempted": 1
+      "detail_requests_attempted": 0
     },
     {
       "id": "ctbids",
@@ -49,12 +49,12 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 388
+      "active_count": 392
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 30
+      "active_count": 31
     },
     {
       "id": "vintage-electron-tubes",
@@ -69,12 +69,12 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 46
+      "active_count": 49
     },
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 25
+      "active_count": 27
     },
     {
       "id": "local-government-surplus",
