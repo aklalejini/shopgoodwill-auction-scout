@@ -54,7 +54,7 @@
       "Opportunity term 'geology' in title (+10)",
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'rocks' in description (+1)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -62,13 +62,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 21,
-        "relative_score": 0.7,
+        "score": 19,
+        "relative_score": 0.633,
         "score_reasons": [
           "Opportunity term 'geology' in title (+10)",
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'rocks' in description (+1)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -289,6 +289,60 @@
       }
     ]
   },
+  "ctbids-47837-5563573": {
+    "item_id": "ctbids-47837-5563573",
+    "listing_url": "https://ctbids.com/estate-sale/47837/item/5563573/Antique-Copper-Urn-Handled-Pot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563573_2SGV70.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47620-5532436": {
+    "item_id": "ctbids-47620-5532436",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5532436/5-Piece-Japanese-Style-Porcelain-Collection-Red-Blue-Gold-Floral-Design",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5532436_xvwnB5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47837-5551445": {
     "item_id": "ctbids-47837-5551445",
     "listing_url": "https://ctbids.com/estate-sale/47837/item/5551445/Vintage-Sterling-Handled-Flat-Server-Carving-Fork",
@@ -336,116 +390,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47837-5563573": {
-    "item_id": "ctbids-47837-5563573",
-    "listing_url": "https://ctbids.com/estate-sale/47837/item/5563573/Antique-Copper-Urn-Handled-Pot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563573_2SGV70.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47490-5545629": {
-    "item_id": "ctbids-47490-5545629",
-    "listing_url": "https://ctbids.com/estate-sale/47490/item/5545629/vintage-cast-iron-7-ear-corn-stick-cornbread-pan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545629_0CZ5xl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47620-5532436": {
-    "item_id": "ctbids-47620-5532436",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5532436/5-Piece-Japanese-Style-Porcelain-Collection-Red-Blue-Gold-Floral-Design",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5532436_xvwnB5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47620-5536238": {
-    "item_id": "ctbids-47620-5536238",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536238/Lot-of-12-Carved-Wooden-Animal-Napkin-Holders-with-Wall-Mount-Display-Shelf",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5536238_g0fD5h.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -561,6 +505,60 @@
       }
     ]
   },
+  "ctbids-47490-5545629": {
+    "item_id": "ctbids-47490-5545629",
+    "listing_url": "https://ctbids.com/estate-sale/47490/item/5545629/vintage-cast-iron-7-ear-corn-stick-cornbread-pan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545629_0CZ5xl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47620-5536238": {
+    "item_id": "ctbids-47620-5536238",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536238/Lot-of-12-Carved-Wooden-Animal-Napkin-Holders-with-Wall-Mount-Display-Shelf",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5536238_g0fD5h.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47620-5532179": {
     "item_id": "ctbids-47620-5532179",
     "listing_url": "https://ctbids.com/estate-sale/47620/item/5532179/Thai-Wooden-Elephant-Candlestick-Figure-Pair",
@@ -642,11 +640,11 @@
       }
     ]
   },
-  "ctbids-47837-5561309": {
-    "item_id": "ctbids-47837-5561309",
-    "listing_url": "https://ctbids.com/estate-sale/47837/item/5561309/Jessica-s-Tile-Works-Ceramic-Leaf-Display-Bowl-Made-In-The-Bahamas",
+  "ctbids-47758-5546354": {
+    "item_id": "ctbids-47758-5546354",
+    "listing_url": "https://ctbids.com/estate-sale/47758/item/5546354/38-0-Ct-Birds-Eye-Ryholite-Cabochon",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5561309_CQp6r3.webp"
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5546354_lKHSsA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -662,60 +660,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47620-5536744": {
-    "item_id": "ctbids-47620-5536744",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536744/Fiesta-Ware-Teal-Pitcher",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5536744_BMdm3j.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47758-5546354": {
-    "item_id": "ctbids-47758-5546354",
-    "listing_url": "https://ctbids.com/estate-sale/47758/item/5546354/38-0-Ct-Birds-Eye-Ryholite-Cabochon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5546354_lKHSsA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -799,6 +743,38 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275673121": {
+    "item_id": "275673121",
+    "listing_url": "https://shopgoodwill.com/item/275673121",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-30/cbfb5ccb-1e15-4985-a34f-623b381135adanad_08301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-30/e7d4b437-e50f-46ad-93db-dd83971aad57anad_08302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-30/7bc0b424-cc6f-4dd5-848a-e41ff6637b06anad_08303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-08-30/ed40d944-cba6-421a-974e-b85eac29a639anad_08304.jpg"
+    ],
+    "description": "This listing includes three polished geode and mineral specimens. The first is a large polished agate geode with gray and blue outer banding and a sparkling quartz crystal interior, approximately 6-7 inches in length. The second piece is a polished slice of banded agate with blue-gray coloration, smooth surface, and distinctive natural banding. The third specimen is an amethyst crystal cluster on a natural matrix, featuring deep purple points and a rough stone back, about 5-6 inches long. All pieces are in good used condition with natural variations and minor wear consistent with display specimens.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -929,11 +905,61 @@
       }
     ]
   },
+  "ctbids-47837-5561309": {
+    "item_id": "ctbids-47837-5561309",
+    "listing_url": "https://ctbids.com/estate-sale/47837/item/5561309/Jessica-s-Tile-Works-Ceramic-Leaf-Display-Bowl-Made-In-The-Bahamas",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5561309_CQp6r3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47680-5539818": {
     "item_id": "ctbids-47680-5539818",
     "listing_url": "https://ctbids.com/estate-sale/47680/item/5539818/2002-2003-Swarovski-Crystal-Ornaments-With-Original-Boxes",
     "images": [
       "https://image.ctbids.com/seller/2026-08-20Tbe87db/5539818_Yvq326.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47620-5536744": {
+    "item_id": "ctbids-47620-5536744",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536744/Fiesta-Ware-Teal-Pitcher",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5536744_BMdm3j.webp"
     ],
     "description": "",
     "score_reasons": [
