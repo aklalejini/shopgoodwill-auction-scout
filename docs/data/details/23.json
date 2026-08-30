@@ -73,6 +73,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'sterling silver' in title (+18)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -80,11 +81,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 29,
-        "relative_score": 0.853,
+        "score": 31,
+        "relative_score": 0.912,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'sterling silver' in title (+18)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -117,6 +119,35 @@
         "score_reasons": [
           "High-value signal '14k' in title (+22)",
           "Shipping is calculated and not included in the price (0)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47771-5550696": {
+    "item_id": "ctbids-47771-5550696",
+    "listing_url": "https://ctbids.com/estate-sale/47771/item/5550696/Sterling-Silver-Channel-Set-Cubic-Zirconia-Band",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5550696_THj1v0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 21,
+        "relative_score": 0.618,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
         "matched_keywords": []
@@ -209,33 +240,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47771/item/5550502/Hammered-Sterling-Silver-Cross-Pendant",
     "images": [
       "https://image.ctbids.com/seller/2026-08-24T1d8b86/5550502_5fU7xH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
-        "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47771-5550696": {
-    "item_id": "ctbids-47771-5550696",
-    "listing_url": "https://ctbids.com/estate-sale/47771/item/5550696/Sterling-Silver-Channel-Set-Cubic-Zirconia-Band",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5550696_THj1v0.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -366,6 +370,36 @@
       }
     ]
   },
+  "govdeals-13747-435": {
+    "item_id": "govdeals-13747-435",
+    "listing_url": "https://www.govdeals.com/en/asset/435/13747",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/13747/13747_435_1637e803-a441-4302-92bf-c91cdb6979e6.jpg?cb=260825170031",
+      "https://webassets.lqdt1.com/assets/photos/13747/13747_435_3ebd2d55-752d-4d7b-ba49-98e2da4bc7ba.jpg?cb=260825170032"
+    ],
+    "description": "1 Lot of miscellaneous Epson projectors.\n*** This listed LOT is in UNKNOWN condition. This LOT may be missing parts and/or have some cosmetic damage. This LOT is sold AS IS, with NO GUARANTEES OR WARRANTIES. In regard to accessories, attachments, manuals, cords, etc., if it is NOT PICTURED, it is NOT INCLUDED in the sale of the item.\n*** The Buyer will make ALL arrangements and perform ALL work necessary, including packing, loading, and transportation of the property. NO assistance will be provided.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "0 bids near close (+4)",
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 17,
+        "relative_score": 0.531,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+5)",
+          "0 bids near close (+4)",
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275258370": {
     "item_id": "275258370",
     "listing_url": "https://shopgoodwill.com/item/275258370",
@@ -402,34 +436,6 @@
       }
     ]
   },
-  "govdeals-13747-435": {
-    "item_id": "govdeals-13747-435",
-    "listing_url": "https://www.govdeals.com/en/asset/435/13747",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/13747/13747_435_1637e803-a441-4302-92bf-c91cdb6979e6.jpg?cb=260825170031",
-      "https://webassets.lqdt1.com/assets/photos/13747/13747_435_3ebd2d55-752d-4d7b-ba49-98e2da4bc7ba.jpg?cb=260825170032"
-    ],
-    "description": "1 Lot of miscellaneous Epson projectors.\n*** This listed LOT is in UNKNOWN condition. This LOT may be missing parts and/or have some cosmetic damage. This LOT is sold AS IS, with NO GUARANTEES OR WARRANTIES. In regard to accessories, attachments, manuals, cords, etc., if it is NOT PICTURED, it is NOT INCLUDED in the sale of the item.\n*** The Buyer will make ALL arrangements and perform ALL work necessary, including packing, loading, and transportation of the property. NO assistance will be provided.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 13,
-        "relative_score": 0.406,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47130-5538061": {
     "item_id": "ctbids-47130-5538061",
     "listing_url": "https://ctbids.com/estate-sale/47130/item/5538061/Antique-or-Vintage-Plates-Limoges-Nippon-made",
@@ -440,6 +446,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -447,11 +454,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 15,
+        "relative_score": 0.441,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -484,6 +492,64 @@
         "score_reasons": [
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47573-5535994": {
+    "item_id": "ctbids-47573-5535994",
+    "listing_url": "https://ctbids.com/estate-sale/47573/item/5535994/Quilt-Comforter-Vintage-Crochet-Throw",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5246650_UB8xby.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47620-5536600": {
+    "item_id": "ctbids-47620-5536600",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536600/Vintage-Wooden-Pig-Wall-Clock-Pig-Plaque",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5536600_bA7eFd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -528,60 +594,6 @@
       }
     ]
   },
-  "ctbids-47573-5535994": {
-    "item_id": "ctbids-47573-5535994",
-    "listing_url": "https://ctbids.com/estate-sale/47573/item/5535994/Quilt-Comforter-Vintage-Crochet-Throw",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5246650_UB8xby.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47620-5536600": {
-    "item_id": "ctbids-47620-5536600",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536600/Vintage-Wooden-Pig-Wall-Clock-Pig-Plaque",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5536600_bA7eFd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47573-5536001": {
     "item_id": "ctbids-47573-5536001",
     "listing_url": "https://ctbids.com/estate-sale/47573/item/5536001/Vintage-Peugeot-Carbolite-Touring-Bike-27",
@@ -602,6 +614,60 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47632-5533912": {
+    "item_id": "ctbids-47632-5533912",
+    "listing_url": "https://ctbids.com/estate-sale/47632/item/5533912/11-Titles-By-Authors-Herman-Wouk-Frederick-Forsyth-Arthur-Hailey",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-18T75c795/5533912_YnV6r9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48006-5574990": {
+    "item_id": "ctbids-48006-5574990",
+    "listing_url": "https://ctbids.com/estate-sale/48006/item/5574990/Webster-s-New-World-Dictionary-Paperback-Revised-Expanded-Pocket-Books-Reference",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5370756_KMf5pQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -673,6 +739,222 @@
       }
     ]
   },
+  "ctbids-47680-5537002": {
+    "item_id": "ctbids-47680-5537002",
+    "listing_url": "https://ctbids.com/estate-sale/47680/item/5537002/Holland-America-Cruise-line-Tiles-34-1-Inaugural-Plate",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5537002_T8sTD7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47573-5541762": {
+    "item_id": "ctbids-47573-5541762",
+    "listing_url": "https://ctbids.com/estate-sale/47573/item/5541762/JVC-31-TV-With-Remote",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5493305_wTzsE6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47573-5545050": {
+    "item_id": "ctbids-47573-5545050",
+    "listing_url": "https://ctbids.com/estate-sale/47573/item/5545050/Bernhardt-Drum-Side-Tables-With-Distressed-Finish",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545050_yzertH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47680-5541211": {
+    "item_id": "ctbids-47680-5541211",
+    "listing_url": "https://ctbids.com/estate-sale/47680/item/5541211/2-Large-Dalmatian-Figurines",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5541211_KA92k1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47490-5541880": {
+    "item_id": "ctbids-47490-5541880",
+    "listing_url": "https://ctbids.com/estate-sale/47490/item/5541880/Small-Kegarator-Cooler",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5541880_E792xt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47738-5478627": {
+    "item_id": "ctbids-47738-5478627",
+    "listing_url": "https://ctbids.com/estate-sale/47738/item/5478627/Two-Sonoma-Brand-Texas-State-Of-Texas-Metal-Frames-And-Mail-Opener",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5478627_eiQStK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47490-5545525": {
+    "item_id": "ctbids-47490-5545525",
+    "listing_url": "https://ctbids.com/estate-sale/47490/item/5545525/Hockey-1990s-Pro-Set-Trading-Cards-Mystery-Box-11",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545525_LK4yri.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47802-5549544": {
+    "item_id": "ctbids-47802-5549544",
+    "listing_url": "https://ctbids.com/estate-sale/47802/item/5549544/Pokemon-Centiskorch-VMAX-Gold-Metal-Card-HP-320-G-Max-Centiferno-Collectible",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5283280_cmRzL6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47680-5531164": {
     "item_id": "ctbids-47680-5531164",
     "listing_url": "https://ctbids.com/estate-sale/47680/item/5531164/Key-West-Pensacola-Amelia-Island-Light-Houses-Harbour-Lights",
@@ -728,56 +1010,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47632/item/5533779/Henson-WU-Lafayette-148-And-Worth-Dresses",
     "images": [
       "https://image.ctbids.com/seller/2026-08-18T75c795/5533779_zexrNr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47632-5533912": {
-    "item_id": "ctbids-47632-5533912",
-    "listing_url": "https://ctbids.com/estate-sale/47632/item/5533912/11-Titles-By-Authors-Herman-Wouk-Frederick-Forsyth-Arthur-Hailey",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-18T75c795/5533912_YnV6r9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47680-5537002": {
-    "item_id": "ctbids-47680-5537002",
-    "listing_url": "https://ctbids.com/estate-sale/47680/item/5537002/Holland-America-Cruise-line-Tiles-34-1-Inaugural-Plate",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5537002_T8sTD7.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -898,131 +1130,6 @@
       }
     ]
   },
-  "ctbids-47573-5541762": {
-    "item_id": "ctbids-47573-5541762",
-    "listing_url": "https://ctbids.com/estate-sale/47573/item/5541762/JVC-31-TV-With-Remote",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5493305_wTzsE6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47573-5545050": {
-    "item_id": "ctbids-47573-5545050",
-    "listing_url": "https://ctbids.com/estate-sale/47573/item/5545050/Bernhardt-Drum-Side-Tables-With-Distressed-Finish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545050_yzertH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47680-5541211": {
-    "item_id": "ctbids-47680-5541211",
-    "listing_url": "https://ctbids.com/estate-sale/47680/item/5541211/2-Large-Dalmatian-Figurines",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5541211_KA92k1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47490-5541880": {
-    "item_id": "ctbids-47490-5541880",
-    "listing_url": "https://ctbids.com/estate-sale/47490/item/5541880/Small-Kegarator-Cooler",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5541880_E792xt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47738-5478627": {
-    "item_id": "ctbids-47738-5478627",
-    "listing_url": "https://ctbids.com/estate-sale/47738/item/5478627/Two-Sonoma-Brand-Texas-State-Of-Texas-Metal-Frames-And-Mail-Opener",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5478627_eiQStK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47490-5532315": {
     "item_id": "ctbids-47490-5532315",
     "listing_url": "https://ctbids.com/estate-sale/47490/item/5532315/Native-Heritage-Moccasin-Kit",
@@ -1053,31 +1160,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47738/item/5478681/Two-Frames-And-Three-Acrylic-Photo-Paper-Weight",
     "images": [
       "https://image.ctbids.com/seller/2026-08-04Tad21cf/5478681_6MClOH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47490-5545525": {
-    "item_id": "ctbids-47490-5545525",
-    "listing_url": "https://ctbids.com/estate-sale/47490/item/5545525/Hockey-1990s-Pro-Set-Trading-Cards-Mystery-Box-11",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545525_LK4yri.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1148,86 +1230,11 @@
       }
     ]
   },
-  "ctbids-47802-5549544": {
-    "item_id": "ctbids-47802-5549544",
-    "listing_url": "https://ctbids.com/estate-sale/47802/item/5549544/Pokemon-Centiskorch-VMAX-Gold-Metal-Card-HP-320-G-Max-Centiferno-Collectible",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5283280_cmRzL6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47130-5469279": {
     "item_id": "ctbids-47130-5469279",
     "listing_url": "https://ctbids.com/estate-sale/47130/item/5469279/Men-s-Shorts-Size-32-Patagonia-Chaps-New-Flyers-RSND",
     "images": [
       "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5469279_m0G1s3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47738-5485121": {
-    "item_id": "ctbids-47738-5485121",
-    "listing_url": "https://ctbids.com/estate-sale/47738/item/5485121/Texas-Theme-Wall-Art-framed-painting-of-Texas-State-Capitol-America-and-Texas-flags-and-more",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-05T59d31e/5485121_w5So4R.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47752-5542786": {
-    "item_id": "ctbids-47752-5542786",
-    "listing_url": "https://ctbids.com/estate-sale/47752/item/5542786/Turquoise-Nugget-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542786_eOSHD5.webp"
     ],
     "description": "",
     "score_reasons": [
