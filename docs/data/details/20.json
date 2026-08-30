@@ -307,7 +307,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -319,7 +319,7 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -347,6 +347,33 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47435-5512209": {
+    "item_id": "ctbids-47435-5512209",
+    "listing_url": "https://ctbids.com/estate-sale/47435/item/5512209/7-Piece-Mixed-Lot-of-Digital-and-Manual-Cameras-in-Assorted-Brands-w-Binoculars-and-Opera-Glasses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5512209_QlzI7b.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -435,33 +462,6 @@
       }
     ]
   },
-  "ctbids-47435-5512209": {
-    "item_id": "ctbids-47435-5512209",
-    "listing_url": "https://ctbids.com/estate-sale/47435/item/5512209/7-Piece-Mixed-Lot-of-Digital-and-Manual-Cameras-in-Assorted-Brands-w-Binoculars-and-Opera-Glasses",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5512209_QlzI7b.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47802-5549688": {
     "item_id": "ctbids-47802-5549688",
     "listing_url": "https://ctbids.com/estate-sale/47802/item/5549688/1978-1979-Topps-Baseball-Card-Binder-13-Pages-Johnny-Bench-Gary-Carter-Bobby-Bonds",
@@ -484,44 +484,6 @@
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275613935": {
-    "item_id": "275613935",
-    "listing_url": "https://shopgoodwill.com/item/275613935",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/e0c353af-d16a-47f4-aab9-ebe66f645d94soto_08291.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/5cf294c5-df47-47f4-a836-c3e708097f59soto_08292.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/e73ba0ee-6c12-4525-b2ac-af36367a56d2soto_08293.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/b07cc88e-0bba-40e7-9cb3-a577d15c50a6soto_08294.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/4bfa92fe-2474-4c2a-91f4-ec973054ed89soto_08295.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/6e72fb38-7161-4754-b3da-ba5ea80181ddsoto_08296.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/82e657ad-c23f-49e8-b510-7cc5bf97936esoto_08297.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/5c7abbff-b6b0-4634-9cd7-0c60e578db47soto_08298.jpg"
-    ],
-    "description": "This lot includes a variety of natural and polished mineral specimens and gemstones. Please refer to pictures for further details and bid accordingly.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -581,55 +543,39 @@
       }
     ]
   },
-  "ctbids-47620-5528085": {
-    "item_id": "ctbids-47620-5528085",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5528085/Set-of-6-Ceramic-Baby-Chopstick-Rests-4-Black-2-Blue",
+  "275613935": {
+    "item_id": "275613935",
+    "listing_url": "https://shopgoodwill.com/item/275613935",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-17T6f1578/5528085_AckNKC.webp"
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/e0c353af-d16a-47f4-aab9-ebe66f645d94soto_08291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/5cf294c5-df47-47f4-a836-c3e708097f59soto_08292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/e73ba0ee-6c12-4525-b2ac-af36367a56d2soto_08293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/b07cc88e-0bba-40e7-9cb3-a577d15c50a6soto_08294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/4bfa92fe-2474-4c2a-91f4-ec973054ed89soto_08295.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/6e72fb38-7161-4754-b3da-ba5ea80181ddsoto_08296.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/82e657ad-c23f-49e8-b510-7cc5bf97936esoto_08297.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-08-29/5c7abbff-b6b0-4634-9cd7-0c60e578db47soto_08298.jpg"
     ],
-    "description": "",
+    "description": "This lot includes a variety of natural and polished mineral specimens and gemstones. Please refer to pictures for further details and bid accordingly.",
     "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
         "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47680-5541109": {
-    "item_id": "ctbids-47680-5541109",
-    "listing_url": "https://ctbids.com/estate-sale/47680/item/5541109/Edna-Hibel-Music-Box",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5541109_O69YGh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -789,6 +735,31 @@
       }
     ]
   },
+  "ctbids-47620-5528085": {
+    "item_id": "ctbids-47620-5528085",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5528085/Set-of-6-Ceramic-Baby-Chopstick-Rests-4-Black-2-Blue",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5528085_AckNKC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46990-5454868": {
     "item_id": "ctbids-46990-5454868",
     "listing_url": "https://ctbids.com/estate-sale/46990/item/5454868/Light-Amber-French-Bulldog-Figurine-Clear-Pressed-Glass-Dog-Figurine",
@@ -819,6 +790,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47837/item/5553108/Michael-Aram-Zen-Garden-Serving-Piece",
     "images": [
       "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553108_aqrE6A.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47680-5541109": {
+    "item_id": "ctbids-47680-5541109",
+    "listing_url": "https://ctbids.com/estate-sale/47680/item/5541109/Edna-Hibel-Music-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5541109_O69YGh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1096,6 +1092,40 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "274950588": {
+    "item_id": "274950588",
+    "listing_url": "https://shopgoodwill.com/item/274950588",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-08-24/a2bab24d-e6d0-4115-be0b-a1576d96383cond4_08241.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-08-24/a2bab24d-e6d0-4115-be0b-a1576d96383cond4_08242.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-08-24/a2bab24d-e6d0-4115-be0b-a1576d96383cond4_08243.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-08-24/a2bab24d-e6d0-4115-be0b-a1576d96383cond4_08244.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-08-24/a2bab24d-e6d0-4115-be0b-a1576d96383cond4_08245.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-08-24/a2bab24d-e6d0-4115-be0b-a1576d96383cond4_08246.png"
+    ],
+    "description": "Description:\n2 Collectible/Decorative Clear and Frosted Mineral Specimens (Quartz & Selenite)\nManufacturer/Markings:\nunmarked\nMaterial:\nquartz and selenite\nApproximate Dimensions:\n2 1/2\" x 1 1/2\" ; 3\" x 1\"\nCondition:\nDonated/ pre-owned. scratched ; stained\nPowers On - Y/N (if applicable): n/a\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
+    "score_reasons": [
+      "Lower-priority term 'decorative' in title (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+9)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'decorative' in title (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }

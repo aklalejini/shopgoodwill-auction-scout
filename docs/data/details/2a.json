@@ -158,6 +158,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Pipe rack or stand may include overlooked pipes (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -165,15 +166,61 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 17,
-        "relative_score": 0.486,
+        "score": 19,
+        "relative_score": 0.543,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Pipe rack or stand may include overlooked pipes (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "274883753": {
+    "item_id": "274883753",
+    "listing_url": "https://shopgoodwill.com/item/274883753",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/91085929-73cf-401e-beea-da2d5f7d0061nett_08231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/7a27ca2d-41b1-4d12-863d-59ec94ef216anett_08232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/a9c20e6f-296c-4f5e-bd76-61b506247dc5nett_08233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/2d19828f-4791-42a3-a092-3dbd818f32c3nett_08234.jpg"
+    ],
+    "description": "Brand:\nType:\nCondition:\nGood - shows some sign of wear\nEvergreen Goodwill helps people get jobs across Northwest Washington by offering high-quality free job training, education and job placement. We empower individuals to overcome barriers to working by providing comprehensive support and connecting them with life-changing job opportunities, ensuring they are career-ready and can support themselves and their families.",
+    "score_reasons": [
+      "Opportunity term 'nos' in title (+14)",
+      "Opportunity term 'sealed' in title (+10)",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'recordable cd-r' in title (-18)",
+      "Target keyword 'tdk' in title (+5)",
+      "Target keyword 'fujifilm' in title (+3)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 19,
+        "relative_score": 0.528,
+        "score_reasons": [
+          "Opportunity term 'nos' in title (+14)",
+          "Opportunity term 'sealed' in title (+10)",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'recordable cd-r' in title (-18)",
+          "Target keyword 'tdk' in title (+5)",
+          "Target keyword 'fujifilm' in title (+3)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "fujifilm",
+          "tdk"
+        ]
       }
     ]
   },
@@ -203,6 +250,36 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-28827-11": {
+    "item_id": "govdeals-28827-11",
+    "listing_url": "https://www.govdeals.com/en/asset/11/28827",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_575df7fe-6419-4889-9a52-58a7de0d22b8.jpg?cb=260803204131",
+      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_6e9b75d7-87fa-463e-8256-99d20b32b7ce.jpg?cb=260803202433",
+      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_73dd3e30-262c-4301-b3e8-17a8ba0511d1.jpg?cb=260803204131",
+      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_91579a9e-6b92-4116-a810-15ccc86e7477.jpg?cb=260803203348"
+    ],
+    "description": "Own an affordable 0.28-acre residential lot in the growing Gulf Coast community of Bay Saint Louis, Mississippi. Located on Dogwood Drive, this property offers approximately 12,197 square feet with nearly 98 feet of road frontage, making it an excellent opportunity for future development or long-term investment.\nWhether you're looking to build, place a mobile home, or install a tiny home, this property offers flexibility at an attractive price.\nProperty Highlights:\n•Parcel ID: 139G-0-29-374.000\n•Approximately 0.28 Acres (12,197 Sq. Ft.)\n•Approximately 98.3 ft of road frontage\n•Approximately 122 ft deep\n•Located in Bay Saint Louis, Hancock County, Mississippi\n•City Water & Sewer Available\n•Electric available\n•Mobile Homes Allowed\n•Tiny Homes Allowed\n•RVs and campers are restricted\n•Vacant Residential Land\n•Great opportunity for investors, builders, or future homesite buyers.\n•Property is being sold as-is. Buyer is responsible for verifying zoning, utilities, access, flood zone, building requirements, and all intended uses prior to purchase.",
+    "score_reasons": [
+      "Opportunity term 'lot' in description (+5)",
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 13,
+        "relative_score": 0.406,
+        "score_reasons": [
+          "Opportunity term 'lot' in description (+5)",
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
         ],
         "matched_keywords": []
       }
@@ -273,76 +350,84 @@
       }
     ]
   },
-  "govdeals-28827-11": {
-    "item_id": "govdeals-28827-11",
-    "listing_url": "https://www.govdeals.com/en/asset/11/28827",
+  "ctbids-47632-5538379": {
+    "item_id": "ctbids-47632-5538379",
+    "listing_url": "https://ctbids.com/estate-sale/47632/item/5538379/Asian-Collection",
     "images": [
-      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_575df7fe-6419-4889-9a52-58a7de0d22b8.jpg?cb=260803204131",
-      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_6e9b75d7-87fa-463e-8256-99d20b32b7ce.jpg?cb=260803202433",
-      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_73dd3e30-262c-4301-b3e8-17a8ba0511d1.jpg?cb=260803204131",
-      "https://webassets.lqdt1.com/assets/photos/28827/28827_11_91579a9e-6b92-4116-a810-15ccc86e7477.jpg?cb=260803203348"
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5538379_jHXFww.webp"
     ],
-    "description": "Own an affordable 0.28-acre residential lot in the growing Gulf Coast community of Bay Saint Louis, Mississippi. Located on Dogwood Drive, this property offers approximately 12,197 square feet with nearly 98 feet of road frontage, making it an excellent opportunity for future development or long-term investment.\nWhether you're looking to build, place a mobile home, or install a tiny home, this property offers flexibility at an attractive price.\nProperty Highlights:\n•Parcel ID: 139G-0-29-374.000\n•Approximately 0.28 Acres (12,197 Sq. Ft.)\n•Approximately 98.3 ft of road frontage\n•Approximately 122 ft deep\n•Located in Bay Saint Louis, Hancock County, Mississippi\n•City Water & Sewer Available\n•Electric available\n•Mobile Homes Allowed\n•Tiny Homes Allowed\n•RVs and campers are restricted\n•Vacant Residential Land\n•Great opportunity for investors, builders, or future homesite buyers.\n•Property is being sold as-is. Buyer is responsible for verifying zoning, utilities, access, flood zone, building requirements, and all intended uses prior to purchase.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in description (+5)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 13,
-        "relative_score": 0.406,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'lot' in description (+5)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "274883753": {
-    "item_id": "274883753",
-    "listing_url": "https://shopgoodwill.com/item/274883753",
+  "ctbids-47620-5527074": {
+    "item_id": "ctbids-47620-5527074",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5527074/4-Pc-Japanese-Imari-Porcelain-Collection-Vase-6-Plate-2-Covered-Boxes",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/91085929-73cf-401e-beea-da2d5f7d0061nett_08231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/7a27ca2d-41b1-4d12-863d-59ec94ef216anett_08232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/a9c20e6f-296c-4f5e-bd76-61b506247dc5nett_08233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-08-23/2d19828f-4791-42a3-a092-3dbd818f32c3nett_08234.jpg"
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5527074_6QnfGn.webp"
     ],
-    "description": "Brand:\nType:\nCondition:\nGood - shows some sign of wear\nEvergreen Goodwill helps people get jobs across Northwest Washington by offering high-quality free job training, education and job placement. We empower individuals to overcome barriers to working by providing comprehensive support and connecting them with life-changing job opportunities, ensuring they are career-ready and can support themselves and their families.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'nos' in title (+14)",
-      "Opportunity term 'sealed' in title (+10)",
-      "Opportunity term cap limited keyword stacking; effective contributions are shown",
-      "Lower-priority term 'recordable cd-r' in title (-18)",
-      "Target keyword 'tdk' in title (+5)",
-      "Target keyword 'fujifilm' in title (+3)",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 15,
-        "relative_score": 0.417,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'nos' in title (+14)",
-          "Opportunity term 'sealed' in title (+10)",
-          "Opportunity term cap limited keyword stacking; effective contributions are shown",
-          "Lower-priority term 'recordable cd-r' in title (-18)",
-          "Target keyword 'tdk' in title (+5)",
-          "Target keyword 'fujifilm' in title (+3)",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
-        "matched_keywords": [
-          "fujifilm",
-          "tdk"
-        ]
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46990-5506089": {
+    "item_id": "ctbids-46990-5506089",
+    "listing_url": "https://ctbids.com/estate-sale/46990/item/5506089/Vintage-Books-about-Texas",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5506089_sjJDqh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -402,60 +487,6 @@
       }
     ]
   },
-  "ctbids-47632-5538379": {
-    "item_id": "ctbids-47632-5538379",
-    "listing_url": "https://ctbids.com/estate-sale/47632/item/5538379/Asian-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5538379_jHXFww.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47620-5527074": {
-    "item_id": "ctbids-47620-5527074",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5527074/4-Pc-Japanese-Imari-Porcelain-Collection-Vase-6-Plate-2-Covered-Boxes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5527074_6QnfGn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47802-5549221": {
     "item_id": "ctbids-47802-5549221",
     "listing_url": "https://ctbids.com/estate-sale/47802/item/5549221/Large-Hockey-Trading-Card-Lot-NHL-Pro-Set-Score-Upper-Deck",
@@ -485,15 +516,15 @@
       }
     ]
   },
-  "ctbids-46990-5506089": {
-    "item_id": "ctbids-46990-5506089",
-    "listing_url": "https://ctbids.com/estate-sale/46990/item/5506089/Vintage-Books-about-Texas",
+  "ctbids-47435-5516866": {
+    "item_id": "ctbids-47435-5516866",
+    "listing_url": "https://ctbids.com/estate-sale/47435/item/5516866/5-Piece-Lot-of-South-American-and-Caribbean-Folk-Art-and-Ethnographic-style-Decor-Pieces",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5506089_sjJDqh.webp"
+      "https://image.ctbids.com/seller/2026-08-14T598939/5516866_gaMdQQ.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -501,10 +532,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -586,33 +617,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47435-5516866": {
-    "item_id": "ctbids-47435-5516866",
-    "listing_url": "https://ctbids.com/estate-sale/47435/item/5516866/5-Piece-Lot-of-South-American-and-Caribbean-Folk-Art-and-Ethnographic-style-Decor-Pieces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5516866_gaMdQQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1269,6 +1273,43 @@
       }
     ]
   },
+  "275150899": {
+    "item_id": "275150899",
+    "listing_url": "https://shopgoodwill.com/item/275150899",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/3da7edb2-455f-434a-a84b-e1ac60d607ccckcs_08181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/efb3365b-3d03-4ff3-8b3f-b88400c9cdfdckcs_08182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/60e60514-5d42-4442-8403-16474f884a4ackcs_08183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/6180ce88-baa3-4b2c-84a4-d29a3f518d2dckcs_08184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/b555c05f-e1d5-4f42-a0f2-85d43b5818beckcs_08185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/e6d72505-80f2-4205-a4fa-b46f3f077483ckcs_08186.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/8dee5d73-a6a3-4fcb-8046-f1bfd2d5fc93ckcs_08187.jpg"
+    ],
+    "description": "Unbranded  Ink Bottles & Holder  Pink Swirl Plastic  Calligraphy Pen Set\nBrand:\nUnbranded\nStyle:\nInk Bottles & Holder\nType:\nCalligraphy Pen Set\nColor:\nPink Swirl\nMaterial:\nPlastic\nCondition:\nFair - shows sign of wear\nItem Length (in):\n8\nItem Width (in):\n3\nItem Height (in):\n1\nWeight (lbs oz):\n1\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
+    "score_reasons": [
+      "Less relevant category 'Crafts' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+7)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Crafts' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275393138": {
     "item_id": "275393138",
     "listing_url": "https://shopgoodwill.com/item/275393138",
@@ -1429,41 +1470,6 @@
         "matched_keywords": [
           "tourmaline"
         ]
-      }
-    ]
-  },
-  "275150899": {
-    "item_id": "275150899",
-    "listing_url": "https://shopgoodwill.com/item/275150899",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/3da7edb2-455f-434a-a84b-e1ac60d607ccckcs_08181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/efb3365b-3d03-4ff3-8b3f-b88400c9cdfdckcs_08182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/60e60514-5d42-4442-8403-16474f884a4ackcs_08183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/6180ce88-baa3-4b2c-84a4-d29a3f518d2dckcs_08184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/b555c05f-e1d5-4f42-a0f2-85d43b5818beckcs_08185.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/e6d72505-80f2-4205-a4fa-b46f3f077483ckcs_08186.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-08-18/8dee5d73-a6a3-4fcb-8046-f1bfd2d5fc93ckcs_08187.jpg"
-    ],
-    "description": "Unbranded  Ink Bottles & Holder  Pink Swirl Plastic  Calligraphy Pen Set\nBrand:\nUnbranded\nStyle:\nInk Bottles & Holder\nType:\nCalligraphy Pen Set\nColor:\nPink Swirl\nMaterial:\nPlastic\nCondition:\nFair - shows sign of wear\nItem Length (in):\n8\nItem Width (in):\n3\nItem Height (in):\n1\nWeight (lbs oz):\n1\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
-    "score_reasons": [
-      "Less relevant category 'Crafts' (-12)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+11)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Crafts' (-12)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+11)"
-        ],
-        "matched_keywords": []
       }
     ]
   }

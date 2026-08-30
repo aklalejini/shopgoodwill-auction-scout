@@ -84,6 +84,33 @@
       }
     ]
   },
+  "ctbids-47771-5547547": {
+    "item_id": "ctbids-47771-5547547",
+    "listing_url": "https://ctbids.com/estate-sale/47771/item/5547547/Beautiful-Sterling-Silver-Blue-Gemstone-And-Pink-Garnet-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-22T273492/5547547_zX3dkG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47771-5550694": {
     "item_id": "ctbids-47771-5550694",
     "listing_url": "https://ctbids.com/estate-sale/47771/item/5550694/Sterling-Silver-Heart-Pendant-With-Cubic-Zirconia-Accents",
@@ -106,33 +133,6 @@
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47771-5547547": {
-    "item_id": "ctbids-47771-5547547",
-    "listing_url": "https://ctbids.com/estate-sale/47771/item/5547547/Beautiful-Sterling-Silver-Blue-Gemstone-And-Pink-Garnet-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-22T273492/5547547_zX3dkG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
-        "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -231,32 +231,53 @@
       }
     ]
   },
-  "ctbids-46990-5512424": {
-    "item_id": "ctbids-46990-5512424",
-    "listing_url": "https://ctbids.com/estate-sale/46990/item/5512424/Vintage-Collection-Of-Sara-Coventry-Earrings-In-Box",
+  "275184378": {
+    "item_id": "275184378",
+    "listing_url": "https://shopgoodwill.com/item/275184378",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5512424_U657Ql.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis collection includes a variety of mineral and rock specimens featuring polished and raw stones. Included are carved sandstone, quartz geode, cubic calcite, amethyst cluster, and a bright blue-green crystal possibly fluorite or amazonite. Additional specimens include geode halves, black tourmaline, clear quartz, polished agate slices, obsidian, and various sedimentary and metamorphic rocks.\n\nSpecifications:\n- Types of Specimens: Sandstone, quartz geode, calcite, amethyst, fluorite/amazonite, black tourmaline, clear quartz, agate, obsidian, sedimentary and metamorphic rocks\n- Condition: Natural variations in color and texture present\n- Appearance: Mixture of polished and raw stones\n- Sizes: Range from small fragments to larger hand-sized pieces\n- Display: Suitable for visual examination and study",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'carved' in description (-7)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Target keyword 'tourmaline' in description (+10)",
+      "Target keyword 'fluorite' in description (+8)",
+      "Target keyword cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'carved' in description (-7)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Target keyword 'tourmaline' in description (+10)",
+          "Target keyword 'fluorite' in description (+8)",
+          "Target keyword cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
-        "matched_keywords": []
+        "matched_keywords": [
+          "fluorite",
+          "tourmaline"
+        ]
       }
     ]
   },
@@ -309,6 +330,35 @@
           "Opportunity term 'sealed' in description (+6)",
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46990-5512424": {
+    "item_id": "ctbids-46990-5512424",
+    "listing_url": "https://ctbids.com/estate-sale/46990/item/5512424/Vintage-Collection-Of-Sara-Coventry-Earrings-In-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5512424_U657Ql.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -448,6 +498,33 @@
       }
     ]
   },
+  "ctbids-46990-5481779": {
+    "item_id": "ctbids-46990-5481779",
+    "listing_url": "https://ctbids.com/estate-sale/46990/item/5481779/2-Pairs-Of-Vintage-Chicago-Rollerskates-Patent-No-1-910-193",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5481779_VZ66XX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47490-5528813": {
     "item_id": "ctbids-47490-5528813",
     "listing_url": "https://ctbids.com/estate-sale/47490/item/5528813/Pair-Of-Miniature-Vintage-Chinese-Abacus",
@@ -477,63 +554,15 @@
       }
     ]
   },
-  "275184378": {
-    "item_id": "275184378",
-    "listing_url": "https://shopgoodwill.com/item/275184378",
+  "ctbids-47620-5536538": {
+    "item_id": "ctbids-47620-5536538",
+    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536538/Framed-Chinese-Style-Figure-Print-on-Fabric-Seated-Figure",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis collection includes a variety of mineral and rock specimens featuring polished and raw stones. Included are carved sandstone, quartz geode, cubic calcite, amethyst cluster, and a bright blue-green crystal possibly fluorite or amazonite. Additional specimens include geode halves, black tourmaline, clear quartz, polished agate slices, obsidian, and various sedimentary and metamorphic rocks.\n\nSpecifications:\n- Types of Specimens: Sandstone, quartz geode, calcite, amethyst, fluorite/amazonite, black tourmaline, clear quartz, agate, obsidian, sedimentary and metamorphic rocks\n- Condition: Natural variations in color and texture present\n- Appearance: Mixture of polished and raw stones\n- Sizes: Range from small fragments to larger hand-sized pieces\n- Display: Suitable for visual examination and study",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'carved' in description (-7)",
-      "Lower-priority term 'possibly' in description (-4)",
-      "Target keyword 'tourmaline' in description (+10)",
-      "Target keyword 'fluorite' in description (+8)",
-      "Target keyword cap limited keyword stacking; effective contributions are shown",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'carved' in description (-7)",
-          "Lower-priority term 'possibly' in description (-4)",
-          "Target keyword 'tourmaline' in description (+10)",
-          "Target keyword 'fluorite' in description (+8)",
-          "Target keyword cap limited keyword stacking; effective contributions are shown",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "fluorite",
-          "tourmaline"
-        ]
-      }
-    ]
-  },
-  "ctbids-46990-5481779": {
-    "item_id": "ctbids-46990-5481779",
-    "listing_url": "https://ctbids.com/estate-sale/46990/item/5481779/2-Pairs-Of-Vintage-Chicago-Rollerskates-Patent-No-1-910-193",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5481779_VZ66XX.webp"
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5536538_A2oiUB.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -541,10 +570,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -599,33 +628,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47620-5536538": {
-    "item_id": "ctbids-47620-5536538",
-    "listing_url": "https://ctbids.com/estate-sale/47620/item/5536538/Framed-Chinese-Style-Figure-Print-on-Fabric-Seated-Figure",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5536538_A2oiUB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
