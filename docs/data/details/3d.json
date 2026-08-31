@@ -181,6 +181,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -188,11 +189,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -200,11 +202,11 @@
       }
     ]
   },
-  "ctbids-47776-5553137": {
-    "item_id": "ctbids-47776-5553137",
-    "listing_url": "https://ctbids.com/estate-sale/47776/item/5553137/Christmas-Book-Collection",
+  "ctbids-47670-5558691": {
+    "item_id": "ctbids-47670-5558691",
+    "listing_url": "https://ctbids.com/estate-sale/47670/item/5558691/Adjustable-cane-collection",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553137_BkUKFa.webp"
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5558691_C2wEJU.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -222,6 +224,33 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47776-5553137": {
+    "item_id": "ctbids-47776-5553137",
+    "listing_url": "https://ctbids.com/estate-sale/47776/item/5553137/Christmas-Book-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553137_BkUKFa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -280,33 +309,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47670-5558691": {
-    "item_id": "ctbids-47670-5558691",
-    "listing_url": "https://ctbids.com/estate-sale/47670/item/5558691/Adjustable-cane-collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5558691_C2wEJU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

@@ -77,6 +77,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -84,10 +85,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -338,6 +340,33 @@
       }
     ]
   },
+  "ctbids-47330-5511401": {
+    "item_id": "ctbids-47330-5511401",
+    "listing_url": "https://ctbids.com/estate-sale/47330/item/5511401/Oneida-Stainless-Steel-Serving-Knife-with-7-Other-Stainless-Steel-Spreader-Knives",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5511401_xvAsJ6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47872-5559996": {
     "item_id": "ctbids-47872-5559996",
     "listing_url": "https://ctbids.com/estate-sale/47872/item/5559996/Treasure-Box-Jewelry-Lot",
@@ -540,26 +569,40 @@
       }
     ]
   },
-  "ctbids-47330-5511401": {
-    "item_id": "ctbids-47330-5511401",
-    "listing_url": "https://ctbids.com/estate-sale/47330/item/5511401/Oneida-Stainless-Steel-Serving-Knife-with-7-Other-Stainless-Steel-Spreader-Knives",
+  "274974112": {
+    "item_id": "274974112",
+    "listing_url": "https://shopgoodwill.com/item/274974112",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5511401_xvAsJ6.webp"
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/bf68b866-29fe-4cf5-ad77-d9faaa1ff0dbelas_08241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/4e0ab5ef-6e29-4377-943d-6b5f5a91cbecelas_08242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/fd02b43e-8f46-46c9-aecb-aa03c1c95474elas_08243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/86091168-9353-4ea1-b97f-1b9059c57743elas_08244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/ea66494e-6ff0-4b7c-a574-c7b74b171cfcelas_08245.jpg"
     ],
-    "description": "",
+    "description": "Title\n: Lot of White Quartz Crystals\nCondition\n: Fair\nGemstone type\n: Quartz\nGemstone shape\n: Shell, horse\nGemstone color\n: White\nGemstone creation\n: Natural\nGemstone form\n: Carved\nGemstone treatment\n: Unpolished\nNumber of pieces\n: 4\nTransparency\n: Opaque\nUnit type\n: g\nQuartz Modern Jewelry Set\nMaterial & Karats (if applicable):\nQuartz\nTotal Weight of Set:\n3039 grams\nCondition:\nFair - shows signs of wear\nAdditional Details:\nCarved white quartz, shell & horse shapes, unpolished",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+14)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+14)"
         ],
         "matched_keywords": []
       }
@@ -710,43 +753,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "274974112": {
-    "item_id": "274974112",
-    "listing_url": "https://shopgoodwill.com/item/274974112",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/bf68b866-29fe-4cf5-ad77-d9faaa1ff0dbelas_08241.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/4e0ab5ef-6e29-4377-943d-6b5f5a91cbecelas_08242.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/fd02b43e-8f46-46c9-aecb-aa03c1c95474elas_08243.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/86091168-9353-4ea1-b97f-1b9059c57743elas_08244.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-08-24/ea66494e-6ff0-4b7c-a574-c7b74b171cfcelas_08245.jpg"
-    ],
-    "description": "Title\n: Lot of White Quartz Crystals\nCondition\n: Fair\nGemstone type\n: Quartz\nGemstone shape\n: Shell, horse\nGemstone color\n: White\nGemstone creation\n: Natural\nGemstone form\n: Carved\nGemstone treatment\n: Unpolished\nNumber of pieces\n: 4\nTransparency\n: Opaque\nUnit type\n: g\nQuartz Modern Jewelry Set\nMaterial & Karats (if applicable):\nQuartz\nTotal Weight of Set:\n3039 grams\nCondition:\nFair - shows signs of wear\nAdditional Details:\nCarved white quartz, shell & horse shapes, unpolished",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'carved' in description (-7)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+18)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'carved' in description (-7)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+18)"
         ],
         "matched_keywords": []
       }
@@ -1087,6 +1093,42 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275725728": {
+    "item_id": "275725728",
+    "listing_url": "https://shopgoodwill.com/item/275725728",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-31/97b40b86-b301-4b6b-8400-e212eade1fecyedu_08311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-31/30c8d814-d3fc-4946-a879-040b0f1ff6a6yedu_08312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-31/4ee8158d-3820-4827-a8d1-80e0c7618bbeyedu_08313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-31/55ba1e08-714d-4a23-82ff-dee61b50713cyedu_08314.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-31/1d9d0dc5-7944-42ef-8c37-6f0c5bd501cdyedu_08315.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-31/b4307788-1ddd-4579-a0c7-20c7817d0b7ayedu_08316.jpg"
+    ],
+    "description": "Raw Rock & Mineral Specimen Crystal Stones\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "$5.00 handling charge (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "$5.00 handling charge (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
         ],
