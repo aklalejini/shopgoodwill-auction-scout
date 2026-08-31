@@ -48,6 +48,42 @@
       }
     ]
   },
+  "275764483": {
+    "item_id": "275764483",
+    "listing_url": "https://shopgoodwill.com/item/275764483",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-08-31/84c672b3-689d-466e-980e-b1fe9ec27849KaiW_08311.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-08-31/84c672b3-689d-466e-980e-b1fe9ec27849KaiW_08312.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-08-31/84c672b3-689d-466e-980e-b1fe9ec27849KaiW_08313.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-08-31/84c672b3-689d-466e-980e-b1fe9ec27849KaiW_08314.png"
+    ],
+    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION - NO INDIVIDUAL INFORMATION IS AVAILABLE. LOTS AUCTIONS ARE PROVIDED AS-IS PLEASE BID ACCORDINGLY.  THANK YOU.\nDESCRIPTION: Assorted Rock/Stone Sets & Mineral Testing Kit | Lot of 5\nNUMBER OF ITEMS: 5\nWEIGHT OF LOT:  5 lbs",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Proven source for visually strong specimen lots (+26)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 25,
+        "relative_score": 0.833,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Proven source for visually strong specimen lots (+26)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "govdeals-177-756": {
     "item_id": "govdeals-177-756",
     "listing_url": "https://www.govdeals.com/en/asset/756/177",
@@ -106,6 +142,33 @@
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
           "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47386-5557989": {
+    "item_id": "ctbids-47386-5557989",
+    "listing_url": "https://ctbids.com/estate-sale/47386/item/5557989/14K-Gold-Diamond-Cluster-Ring-Sz-6",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5557989_e4x4gI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal '14k' in title (+22)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 23,
+        "relative_score": 0.676,
+        "score_reasons": [
+          "High-value signal '14k' in title (+22)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -277,33 +340,6 @@
       }
     ]
   },
-  "ctbids-47754-5555531": {
-    "item_id": "ctbids-47754-5555531",
-    "listing_url": "https://ctbids.com/estate-sale/47754/item/5555531/Vintage-Oil-Painting-on-Board-Rabbit-Miniature-Gilt-Wood-Frame",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5555531_QIkoOV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47290-5526028": {
     "item_id": "ctbids-47290-5526028",
     "listing_url": "https://ctbids.com/estate-sale/47290/item/5526028/Assorted-Home-Bathroom-D-cor-Lot-Ceramic-Planter-Diffuser-Teapot-Accessories",
@@ -331,15 +367,42 @@
       }
     ]
   },
-  "ctbids-47776-5568296": {
-    "item_id": "ctbids-47776-5568296",
-    "listing_url": "https://ctbids.com/estate-sale/47776/item/5568296/A-Shelf-of-Good-Reads",
+  "ctbids-47754-5555531": {
+    "item_id": "ctbids-47754-5555531",
+    "listing_url": "https://ctbids.com/estate-sale/47754/item/5555531/Vintage-Oil-Painting-on-Board-Rabbit-Miniature-Gilt-Wood-Frame",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568296_Ktlbty.webp"
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5555531_QIkoOV.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47325-5551371": {
+    "item_id": "ctbids-47325-5551371",
+    "listing_url": "https://ctbids.com/estate-sale/47325/item/5551371/2-Magazine-Zipper-Pouches",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5551371_0vIuDS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -350,9 +413,46 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275490969": {
+    "item_id": "275490969",
+    "listing_url": "https://shopgoodwill.com/item/275490969",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/a1a02826-b573-484e-a7aa-b4b5a8b46dd15601_08281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/c1805d7e-e6fa-4d49-a2d7-c274cab9211d5601_08282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/b44e8ae9-17d0-427f-882f-1c760a01232e5601_08283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/c8d7e4b4-6d46-4c49-b112-601c4de3cbba5601_08284.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/5d6dd53a-02be-486e-806a-ae37d7581f2e5601_08285.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/8fc3218a-a9b7-4f3d-b814-5e4621e1696a5601_08286.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/34f69f8b-73aa-4652-8699-ce94cd4f55d15601_08287.jpg"
+    ],
+    "description": "Hemingray Glass Company\nNo. 12 Insulator\nPressed Glass, Aqua Blue, Antique/Vintage\nAuthentic Hemingray No. 12 glass insulator, a classic piece of American industrial history. Produced by the Hemingray Glass Company, this model was widely used for telephone and telegraph lines during the late 19th and early 20th centuries. It features the signature aqua blue glass and technical design elements common to the era's utility infrastructure.\nEmbossed \"HEMINGRAY NO. 12\" on the front skirt\nEmbossed \"PATENT MAY 2 1893\" on the reverse side\nSharp drip points along the bottom base edge designed to shed moisture\nTranslucent aqua blue glass with characteristic manufacturing seed bubbles and swirls\nApproximately 3.75 inches tall by 3 inches wide\nCondition:\nSignificant chip and glass loss on the bottom skirt edge as shown in photographs. Minor surface soot and mineral deposits within the interior threads and grooves. Main dome and upper wire grooves remain structurally sound. Original glass color is vibrant with no internal stress cracks.\nPlease Read:\nAll items are donated and may exhibit signs of wear, including surface dirt, discoloration, scratches, and scuffs. Glassware and dishes may display color fading, crazing, or chips. Clothing items may have loose threads or fabric pilling. The full functionality of electrical items is not guaranteed. Purses may show wear on the bottom edges, corners, and handles. Jewelry metal content and stones have not been tested unless explicitly stated, and stones have not been individually inspected. Items sold in lots have not been counted or sorted and may contain small or damaged pieces. Returns are not accepted for these items.\nPlease carefully review photos and descriptions prior to bidding. If you have any questions or uncertainties, please contact us by opening a customer service ticket.",
+    "score_reasons": [
+      "Lower-priority term 'chip' in description (-15)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 8,
+        "relative_score": 0.267,
+        "score_reasons": [
+          "Lower-priority term 'chip' in description (-15)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -439,97 +539,6 @@
       }
     ]
   },
-  "275490969": {
-    "item_id": "275490969",
-    "listing_url": "https://shopgoodwill.com/item/275490969",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/a1a02826-b573-484e-a7aa-b4b5a8b46dd15601_08281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/c1805d7e-e6fa-4d49-a2d7-c274cab9211d5601_08282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/b44e8ae9-17d0-427f-882f-1c760a01232e5601_08283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/c8d7e4b4-6d46-4c49-b112-601c4de3cbba5601_08284.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/5d6dd53a-02be-486e-806a-ae37d7581f2e5601_08285.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/8fc3218a-a9b7-4f3d-b814-5e4621e1696a5601_08286.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/126/Items/2026-08-28/34f69f8b-73aa-4652-8699-ce94cd4f55d15601_08287.jpg"
-    ],
-    "description": "Hemingray Glass Company\nNo. 12 Insulator\nPressed Glass, Aqua Blue, Antique/Vintage\nAuthentic Hemingray No. 12 glass insulator, a classic piece of American industrial history. Produced by the Hemingray Glass Company, this model was widely used for telephone and telegraph lines during the late 19th and early 20th centuries. It features the signature aqua blue glass and technical design elements common to the era's utility infrastructure.\nEmbossed \"HEMINGRAY NO. 12\" on the front skirt\nEmbossed \"PATENT MAY 2 1893\" on the reverse side\nSharp drip points along the bottom base edge designed to shed moisture\nTranslucent aqua blue glass with characteristic manufacturing seed bubbles and swirls\nApproximately 3.75 inches tall by 3 inches wide\nCondition:\nSignificant chip and glass loss on the bottom skirt edge as shown in photographs. Minor surface soot and mineral deposits within the interior threads and grooves. Main dome and upper wire grooves remain structurally sound. Original glass color is vibrant with no internal stress cracks.\nPlease Read:\nAll items are donated and may exhibit signs of wear, including surface dirt, discoloration, scratches, and scuffs. Glassware and dishes may display color fading, crazing, or chips. Clothing items may have loose threads or fabric pilling. The full functionality of electrical items is not guaranteed. Purses may show wear on the bottom edges, corners, and handles. Jewelry metal content and stones have not been tested unless explicitly stated, and stones have not been individually inspected. Items sold in lots have not been counted or sorted and may contain small or damaged pieces. Returns are not accepted for these items.\nPlease carefully review photos and descriptions prior to bidding. If you have any questions or uncertainties, please contact us by opening a customer service ticket.",
-    "score_reasons": [
-      "Lower-priority term 'chip' in description (-15)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 8,
-        "relative_score": 0.267,
-        "score_reasons": [
-          "Lower-priority term 'chip' in description (-15)",
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47290-5524163": {
-    "item_id": "ctbids-47290-5524163",
-    "listing_url": "https://ctbids.com/estate-sale/47290/item/5524163/Two-Space-Heaters-And-UV-Light",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-15Te3553a/5524163_FBgwMl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47325-5551371": {
-    "item_id": "ctbids-47325-5551371",
-    "listing_url": "https://ctbids.com/estate-sale/47325/item/5551371/2-Magazine-Zipper-Pouches",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5551371_0vIuDS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47486-5533079": {
     "item_id": "ctbids-47486-5533079",
     "listing_url": "https://ctbids.com/estate-sale/47486/item/5533079/Autumn-Splendor-Decor-Featuring-William-Duffield",
@@ -585,6 +594,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47325/item/5540035/Two-Men-s-Bailey-Hats",
     "images": [
       "https://image.ctbids.com/seller/2026-08-25T50453d/5540035_nichLa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47290-5524163": {
+    "item_id": "ctbids-47290-5524163",
+    "listing_url": "https://ctbids.com/estate-sale/47290/item/5524163/Two-Space-Heaters-And-UV-Light",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-15Te3553a/5524163_FBgwMl.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -719,6 +753,40 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275272121": {
+    "item_id": "275272121",
+    "listing_url": "https://shopgoodwill.com/item/275272121",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/b7c96045-75b0-410c-bd90-69fb78646835lera_08261.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/9ee88986-2161-4fb4-b63d-40c0de6ca9f9lera_08262.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/242008a1-c2e7-413d-9ef5-a2e46a5eb1c0lera_08263.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/98364464-4c3d-4f1c-8960-9bb58729fc7clera_08264.jpg"
+    ],
+    "description": "3lb. 12.7oz. Amethyst & More Loose Gemstones Mix Lot\nBrand\n: Unbranded\nItem\n: 3lb. 12.7oz. Amethyst & More Loose Gemstones Mix Lot\nCondition\n: Acceptable\nDisclaimer\nItems are donated and may not have been cleaned, serviced, or tested for functionality unless otherwise stated.\nThe listing includes only the items shown in the photos, unless otherwise specified. Please see photos for details.\nAny items used for size references, such as pennies or rulers, are not included.\nYou are bidding with this knowledge in mind.\nThank you for shopping with Goodwill Central Coast!\nPayment",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Known shipping cost at or below $15 (+2)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Known shipping cost at or below $15 (+2)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -899,40 +967,6 @@
       }
     ]
   },
-  "275272121": {
-    "item_id": "275272121",
-    "listing_url": "https://shopgoodwill.com/item/275272121",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/b7c96045-75b0-410c-bd90-69fb78646835lera_08261.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/9ee88986-2161-4fb4-b63d-40c0de6ca9f9lera_08262.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/242008a1-c2e7-413d-9ef5-a2e46a5eb1c0lera_08263.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/75/Items/2026-08-26/98364464-4c3d-4f1c-8960-9bb58729fc7clera_08264.jpg"
-    ],
-    "description": "3lb. 12.7oz. Amethyst & More Loose Gemstones Mix Lot\nBrand\n: Unbranded\nItem\n: 3lb. 12.7oz. Amethyst & More Loose Gemstones Mix Lot\nCondition\n: Acceptable\nDisclaimer\nItems are donated and may not have been cleaned, serviced, or tested for functionality unless otherwise stated.\nThe listing includes only the items shown in the photos, unless otherwise specified. Please see photos for details.\nAny items used for size references, such as pennies or rulers, are not included.\nYou are bidding with this knowledge in mind.\nThank you for shopping with Goodwill Central Coast!\nPayment",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Known shipping cost at or below $15 (+2)",
-      "Base score (+5)",
-      "Score boundary adjustment (+3)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Known shipping cost at or below $15 (+2)",
-          "Base score (+5)",
-          "Score boundary adjustment (+3)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46918-5568584": {
     "item_id": "ctbids-46918-5568584",
     "listing_url": "https://ctbids.com/estate-sale/46918/item/5568584/2007-Donruss-Americana-Wayne-Newton-Private-Signings-Autograph-094-110",
@@ -1013,6 +1047,56 @@
     "listing_url": "https://ctbids.com/estate-sale/47729/item/5540579/Corning-Ware-Pyrex-Cookware-And-Joe-Williams-Pottery",
     "images": [
       "https://image.ctbids.com/seller/2026-08-21T3c9069/5540579_tN4uAP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47103-5541731": {
+    "item_id": "ctbids-47103-5541731",
+    "listing_url": "https://ctbids.com/estate-sale/47103/item/5541731/Silver-Toned-Costume-Jewelry-Monet-White-House-Black-Market-Talbots",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5541731_E2DvA7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47527-5528766": {
+    "item_id": "ctbids-47527-5528766",
+    "listing_url": "https://ctbids.com/estate-sale/47527/item/5528766/Quirky-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5528766_ZOYH0P.webp"
     ],
     "description": "",
     "score_reasons": [

@@ -163,7 +163,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -171,12 +170,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -240,6 +238,35 @@
       }
     ]
   },
+  "ctbids-47754-5563972": {
+    "item_id": "ctbids-47754-5563972",
+    "listing_url": "https://ctbids.com/estate-sale/47754/item/5563972/Sberna-Deruta-Vietri-Delft-Heineken-Mugs-Alhambra-Plate-Vintage-European-Ceramics",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563972_oGu1ft.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47605-5547077": {
     "item_id": "ctbids-47605-5547077",
     "listing_url": "https://ctbids.com/estate-sale/47605/item/5547077/Vintage-style-Guitar-Wall-Art",
@@ -272,60 +299,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47670/item/5554727/Vintage-Mid-Century-Blue-Leatherette-2-Tier-Jewelry-Box",
     "images": [
       "https://image.ctbids.com/seller/2026-08-25T50453d/5554727_AVeYJn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47754-5563972": {
-    "item_id": "ctbids-47754-5563972",
-    "listing_url": "https://ctbids.com/estate-sale/47754/item/5563972/Sberna-Deruta-Vietri-Delft-Heineken-Mugs-Alhambra-Plate-Vintage-European-Ceramics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563972_oGu1ft.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47754-5552344": {
-    "item_id": "ctbids-47754-5552344",
-    "listing_url": "https://ctbids.com/estate-sale/47754/item/5552344/Vintage-Southwestern-Flower-Carrier-Mixed-Media-Painting-Signed-Marjorie",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552344_ZMjpIz.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -402,6 +375,33 @@
       }
     ]
   },
+  "ctbids-47754-5552344": {
+    "item_id": "ctbids-47754-5552344",
+    "listing_url": "https://ctbids.com/estate-sale/47754/item/5552344/Vintage-Southwestern-Flower-Carrier-Mixed-Media-Painting-Signed-Marjorie",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552344_ZMjpIz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "govdeals-11227-17671": {
     "item_id": "govdeals-11227-17671",
     "listing_url": "https://www.govdeals.com/en/asset/17671/11227",
@@ -449,6 +449,60 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47731-5541705": {
+    "item_id": "ctbids-47731-5541705",
+    "listing_url": "https://ctbids.com/estate-sale/47731/item/5541705/Beaded-Costume-Jewelry",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5541705_Q6RaFO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47290-5524804": {
+    "item_id": "ctbids-47290-5524804",
+    "listing_url": "https://ctbids.com/estate-sale/47290/item/5524804/White-Ceramic-Tea-Serveware-Set-Teapot-Bowls-Creamer-Sugar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-16T707ecf/5524804_dLCF5w.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -532,131 +586,6 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47776-5568321": {
-    "item_id": "ctbids-47776-5568321",
-    "listing_url": "https://ctbids.com/estate-sale/47776/item/5568321/A-Shelf-of-Interesting-Items",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568321_p5BL1w.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47731-5541705": {
-    "item_id": "ctbids-47731-5541705",
-    "listing_url": "https://ctbids.com/estate-sale/47731/item/5541705/Beaded-Costume-Jewelry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5541705_Q6RaFO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47290-5524804": {
-    "item_id": "ctbids-47290-5524804",
-    "listing_url": "https://ctbids.com/estate-sale/47290/item/5524804/White-Ceramic-Tea-Serveware-Set-Teapot-Bowls-Creamer-Sugar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-16T707ecf/5524804_dLCF5w.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275376870": {
-    "item_id": "275376870",
-    "listing_url": "https://shopgoodwill.com/item/275376870",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/796c17dc-8137-4945-9a0b-c21274689379enco_08271.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/8a2e0653-d0b1-4122-8ff9-5d22d06f5b15enco_08272.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/6dc12bde-0c32-450c-a281-4695d5a92d5aenco_08273.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/06196424-afef-4b69-b6c6-5a32c8ed1e0eenco_08274.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/07d1554c-ea2e-4bae-aa21-388069db7451enco_08275.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/3763818b-35c4-4f8c-9e41-94334438e00cenco_08276.jpg"
-    ],
-    "description": "Product Overview:\nThis lot contains assorted mineral and rock specimens with various types and natural formations.\n\nSpecifications:\n- Includes a blue celestite crystal cluster, petrified wood slab, agate nodule, tiger iron piece, amethyst geode fragment, black tourmaline, and quartz-based minerals.\n- Features rough and semi-polished stones with natural crystal formations, banding, and surface patterns.\n- Weight: 9 lbs total.\n- Condition: Natural state with typical minor chips or rough edges.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Target keyword 'tourmaline' in description (+10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "9 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Target keyword 'tourmaline' in description (+10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "9 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "tourmaline"
-        ]
       }
     ]
   },
@@ -760,6 +689,79 @@
       }
     ]
   },
+  "ctbids-47754-5556381": {
+    "item_id": "ctbids-47754-5556381",
+    "listing_url": "https://ctbids.com/estate-sale/47754/item/5556381/Danish-Armoire-Chest",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5556381_UHgHVs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275376870": {
+    "item_id": "275376870",
+    "listing_url": "https://shopgoodwill.com/item/275376870",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/796c17dc-8137-4945-9a0b-c21274689379enco_08271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/8a2e0653-d0b1-4122-8ff9-5d22d06f5b15enco_08272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/6dc12bde-0c32-450c-a281-4695d5a92d5aenco_08273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/06196424-afef-4b69-b6c6-5a32c8ed1e0eenco_08274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/07d1554c-ea2e-4bae-aa21-388069db7451enco_08275.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-08-27/3763818b-35c4-4f8c-9e41-94334438e00cenco_08276.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains assorted mineral and rock specimens with various types and natural formations.\n\nSpecifications:\n- Includes a blue celestite crystal cluster, petrified wood slab, agate nodule, tiger iron piece, amethyst geode fragment, black tourmaline, and quartz-based minerals.\n- Features rough and semi-polished stones with natural crystal formations, banding, and surface patterns.\n- Weight: 9 lbs total.\n- Condition: Natural state with typical minor chips or rough edges.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Target keyword 'tourmaline' in description (+10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "9 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Target keyword 'tourmaline' in description (+10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "9 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "tourmaline"
+        ]
+      }
+    ]
+  },
   "ctbids-47826-5541788": {
     "item_id": "ctbids-47826-5541788",
     "listing_url": "https://ctbids.com/estate-sale/47826/item/5541788/3-Croton-Men-s-Watches-Aquamatic-CA301159-CN307020-CR3076-Battery-Needed",
@@ -840,31 +842,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47754/item/5562302/17-Puzzles-Thousands-Of-Pieces",
     "images": [
       "https://image.ctbids.com/seller/2026-08-26Tec9678/5562302_HoETOp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47754-5556381": {
-    "item_id": "ctbids-47754-5556381",
-    "listing_url": "https://ctbids.com/estate-sale/47754/item/5556381/Danish-Armoire-Chest",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5556381_UHgHVs.webp"
     ],
     "description": "",
     "score_reasons": [
