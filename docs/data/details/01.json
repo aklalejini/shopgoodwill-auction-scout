@@ -120,7 +120,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "High-value signal 'first edition' in title (+16)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -128,12 +127,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 25,
-        "relative_score": 0.735,
+        "score": 23,
+        "relative_score": 0.676,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "High-value signal 'first edition' in title (+16)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -470,6 +468,31 @@
       }
     ]
   },
+  "govdeals-11227-17674": {
+    "item_id": "govdeals-11227-17674",
+    "listing_url": "https://www.govdeals.com/en/asset/17674/11227",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/11227/11227_17674_484f54c9-e428-4beb-bbb1-d5eab9d449f5.jpg?cb=260824141612"
+    ],
+    "description": "Condition unknown. Surplus personnel do not inspect property. Buyer is responsible for all loading and hauling requirements.\nNo help is available\nThe State of Tennessee does not offer any packing or shipping services.\nContact the listed Point of Contact for appointments for inspection and removal.",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47873-5554834": {
     "item_id": "ctbids-47873-5554834",
     "listing_url": "https://ctbids.com/estate-sale/47873/item/5554834/Original-Nancy-Shand-Hand-Colored-Print-on-Rice-Paper-Into-the-Woods-III",
@@ -553,31 +576,6 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "govdeals-11227-17674": {
-    "item_id": "govdeals-11227-17674",
-    "listing_url": "https://www.govdeals.com/en/asset/17674/11227",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/11227/11227_17674_484f54c9-e428-4beb-bbb1-d5eab9d449f5.jpg?cb=260824141612"
-    ],
-    "description": "Condition unknown. Surplus personnel do not inspect property. Buyer is responsible for all loading and hauling requirements.\nNo help is available\nThe State of Tennessee does not offer any packing or shipping services.\nContact the listed Point of Contact for appointments for inspection and removal.",
-    "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
-        "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
         ],
         "matched_keywords": []
       }
@@ -1018,56 +1016,6 @@
       }
     ]
   },
-  "ctbids-47910-5561903": {
-    "item_id": "ctbids-47910-5561903",
-    "listing_url": "https://ctbids.com/estate-sale/47910/item/5561903/2000-2001-2002-2006-2007-Original-US-Mint-Proof-Statehood-Quarter-Sets-5-Total",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5561903_anv8is.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47810-5565572": {
-    "item_id": "ctbids-47810-5565572",
-    "listing_url": "https://ctbids.com/estate-sale/47810/item/5565572/German-Steins-And-Stein-Music-Boxes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5565572_C4lYQR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "275686106": {
     "item_id": "275686106",
     "listing_url": "https://shopgoodwill.com/item/275686106",
@@ -1129,6 +1077,38 @@
           "Lower-priority term 'metaphysical' in description (-10)",
           "Only 1 listing photo (-10)",
           "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275885809": {
+    "item_id": "275885809",
+    "listing_url": "https://shopgoodwill.com/item/275885809",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-09-01/07219720-3dac-46ce-a3dc-24cf9a3e3a6a2026_09011.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-09-01/3010d098-4a7b-4756-9e4f-58b0abdadbc72026_09012.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-09-01/ba8e23ef-0533-41f0-9b4f-bc1bde0d3b0c2026_09013.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-09-01/daab3dd8-6514-461f-af71-bc6cc6b2586b2026_09014.jpg"
+    ],
+    "description": "Vintage Cross Classic Century Medalist Ballpoint Pen & Mechanical Pencil Set\nApproximate Measurements:\n5.12\" long (closed)\nMarkings:\nBartow\nTaiwan\nCondition:\nNo visible damage\nPen ink needs to be refilled\n*Due to our items being donated, we are unable to guarantee the continued functionality of any watch after listing, however, if the watch does run at the time of listing, it will be mentioned.\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books andInternet, however, we are not experts in any field.\nGoodwill Industries of the Chesapeake, Inc. prepares people to secure and retain employment to build successfulindependent lives.\nThank you for your support!\nBuyer verification:\nIf the current bid on an item is higher than average, and we are unable to confirm your account, your bid may be retracted for this reason.",
+    "score_reasons": [
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+3)"
         ],

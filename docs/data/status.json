@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-01T14:51:47.378807+00:00",
-  "active_count": 2539,
-  "high_priority_count": 40,
+  "generated_at": "2026-09-01T18:27:58.903105+00:00",
+  "active_count": 2565,
+  "high_priority_count": 45,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 39,
-  "relevance_filtered_count": 665,
-  "potentially_high_value_count": 40,
+  "detail_requests_completed": 51,
+  "relevance_filtered_count": 689,
+  "potentially_high_value_count": 45,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 67
+    "images_processed": 70
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -23,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 486,
-      "detail_requests_attempted": 19
+      "active_count": 513,
+      "detail_requests_attempted": 28
     },
     {
       "id": "gsa-auctions",
@@ -35,8 +35,8 @@
     {
       "id": "govdeals",
       "label": "GovDeals",
-      "active_count": 53,
-      "detail_requests_attempted": 0
+      "active_count": 52,
+      "detail_requests_attempted": 3
     },
     {
       "id": "ctbids",
@@ -49,7 +49,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 342
+      "active_count": 364
     },
     {
       "id": "sealed-vintage-media",
@@ -64,7 +64,7 @@
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 42
+      "active_count": 45
     },
     {
       "id": "estate-tobacco-pipes",
@@ -74,12 +74,12 @@
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 26
+      "active_count": 28
     },
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "active_count": 53
+      "active_count": 52
     },
     {
       "id": "local-estate-auctions",
