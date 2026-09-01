@@ -332,6 +332,33 @@
       }
     ]
   },
+  "ctbids-47766-5565473": {
+    "item_id": "ctbids-47766-5565473",
+    "listing_url": "https://ctbids.com/estate-sale/47766/item/5565473/Vintage-Timex-Watch-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5565473_6IwXwv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48007-5575016": {
     "item_id": "ctbids-48007-5575016",
     "listing_url": "https://ctbids.com/estate-sale/48007/item/5575016/Jack-Ross-Cinderella-Margarita-45-RPM-Dot-Records-45-16333-w-Sleeve",
@@ -406,33 +433,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47766-5565473": {
-    "item_id": "ctbids-47766-5565473",
-    "listing_url": "https://ctbids.com/estate-sale/47766/item/5565473/Vintage-Timex-Watch-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5565473_6IwXwv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -697,44 +697,6 @@
       }
     ]
   },
-  "ctbids-47376-5559882": {
-    "item_id": "ctbids-47376-5559882",
-    "listing_url": "https://ctbids.com/estate-sale/47376/item/5559882/Agate-Geode-Bookends-Crystal-Geode",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5559882_GGS4iG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47842-5557396": {
     "item_id": "ctbids-47842-5557396",
     "listing_url": "https://ctbids.com/estate-sale/47842/item/5557396/Genuine-Teak-Wood-Trays-Wooden-Bowls-Made-In-Thailand",
@@ -876,6 +838,44 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+36)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47376-5559882": {
+    "item_id": "ctbids-47376-5559882",
+    "listing_url": "https://ctbids.com/estate-sale/47376/item/5559882/Agate-Geode-Bookends-Crystal-Geode",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5559882_GGS4iG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
