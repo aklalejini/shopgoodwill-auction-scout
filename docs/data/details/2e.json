@@ -98,7 +98,6 @@
       "Lower-priority term 'ballpoint' in description (-4)",
       "Target keyword 'parker' in title (+8)",
       "Pen-and-pencil set resale premium (+10)",
-      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -106,14 +105,13 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 23,
-        "relative_score": 0.657,
+        "score": 21,
+        "relative_score": 0.6,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Lower-priority term 'ballpoint' in description (-4)",
           "Target keyword 'parker' in title (+8)",
           "Pen-and-pencil set resale premium (+10)",
-          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -179,42 +177,6 @@
       }
     ]
   },
-  "275786041": {
-    "item_id": "275786041",
-    "listing_url": "https://shopgoodwill.com/item/275786041",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/9b6cb73b-1dd0-4a65-95d8-5e2ffaf27126onro_08311.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/5cb76475-59a3-4cf2-9076-856f898a82eeonro_08312.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b48caa06-d4c5-4dc7-b85f-a09b3f411bb7onro_08313.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/d491370f-2387-4b7f-aa1e-e571790fed81onro_08314.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b3976c79-6a93-4839-a401-d6086fb7ee90onro_08315.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/6c3be982-3628-4fc1-981b-f76008aa7058onro_08316.jpg"
-    ],
-    "description": "A vintage meerschaum pipe featuring a carved face design. The pipe shows signs of wear, including cracks and discoloration, and requires repair for proper use or restoration.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Target keyword 'meerschaum' in title (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 17,
-        "relative_score": 0.486,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Target keyword 'meerschaum' in title (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "meerschaum"
-        ]
-      }
-    ]
-  },
   "ctbids-48121-5588959": {
     "item_id": "ctbids-48121-5588959",
     "listing_url": "https://ctbids.com/estate-sale/48121/item/5588959/Vintage-Ladies-Manicure-Grooming-Travel-Set-w-Pink-Case-Faux-Mother-of-Pearl-Handles",
@@ -277,7 +239,7 @@
     "item_id": "ctbids-48121-5589040",
     "listing_url": "https://ctbids.com/estate-sale/48121/item/5589040/Vintage-Al-Caiola-Speak-Low-Autumn-in-Cheyenne-45-RPM-Record-UA-347-United-Artists",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5457955_B7yeN0.webp"
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5589040_JrHQZD.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -299,6 +261,42 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "275786041": {
+    "item_id": "275786041",
+    "listing_url": "https://shopgoodwill.com/item/275786041",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/9b6cb73b-1dd0-4a65-95d8-5e2ffaf27126onro_08311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/5cb76475-59a3-4cf2-9076-856f898a82eeonro_08312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b48caa06-d4c5-4dc7-b85f-a09b3f411bb7onro_08313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/d491370f-2387-4b7f-aa1e-e571790fed81onro_08314.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b3976c79-6a93-4839-a401-d6086fb7ee90onro_08315.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/6c3be982-3628-4fc1-981b-f76008aa7058onro_08316.jpg"
+    ],
+    "description": "A vintage meerschaum pipe featuring a carved face design. The pipe shows signs of wear, including cracks and discoloration, and requires repair for proper use or restoration.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Target keyword 'meerschaum' in title (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 17,
+        "relative_score": 0.486,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Target keyword 'meerschaum' in title (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "meerschaum"
+        ]
       }
     ]
   },
@@ -353,6 +351,60 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47453-5513979": {
+    "item_id": "ctbids-47453-5513979",
+    "listing_url": "https://ctbids.com/estate-sale/47453/item/5513979/Men-s-Watch-Collection-US-Marines-USAF-Kenneth-Cole-Relic-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5513979_iPz6mb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47685-5550931": {
+    "item_id": "ctbids-47685-5550931",
+    "listing_url": "https://ctbids.com/estate-sale/47685/item/5550931/Tiered-Serving-Platter-Collection-3-Tier-Rose-Gold-Display-Stand-Ceramic-Platters-Crystal-Dishe",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5550931_FCfxiC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -488,60 +540,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47453-5513979": {
-    "item_id": "ctbids-47453-5513979",
-    "listing_url": "https://ctbids.com/estate-sale/47453/item/5513979/Men-s-Watch-Collection-US-Marines-USAF-Kenneth-Cole-Relic-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5513979_iPz6mb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47685-5550931": {
-    "item_id": "ctbids-47685-5550931",
-    "listing_url": "https://ctbids.com/estate-sale/47685/item/5550931/Tiered-Serving-Platter-Collection-3-Tier-Rose-Gold-Display-Stand-Ceramic-Platters-Crystal-Dishe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5550931_FCfxiC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -725,106 +723,6 @@
       }
     ]
   },
-  "275986903": {
-    "item_id": "275986903",
-    "listing_url": "https://shopgoodwill.com/item/275986903",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/761f4ec5-3f36-416c-aaac-1aa78c8888b8mith_09021.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/23eebdc4-0871-44cb-82ff-a5d3e009c1f7mith_09022.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/adb851cf-9e43-4b70-aabf-1716a6ee695cmith_09023.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/c4f71b32-1f09-48a4-a6bf-8a5a4c36860fmith_09024.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/c6a9445b-93ae-45a5-91af-af64fc4002e1mith_09025.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/aa454b11-52e3-411e-862b-f22846acf014mith_09026.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/42d649d9-4978-494b-8e38-60b6cfc32977mith_09027.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/39a54d87-0b9a-4afa-9244-7f09990c161amith_09028.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/0c5c4668-ca72-4bd0-94e0-75758c23dcc3mith_09029.jpg"
-    ],
-    "description": "K. Sonder Framed Oil Painting Elderly Man Smoking Pipe Vintage 41x45cm\nFramed oil painting on canvas by artist K. Sonder, featuring a jovial elderly man with a white mustache and beard, wearing a green hat and coat, smoking a pipe. Signed by K. Sonder on the front, with artist's stamp and registry number on the back. The painting is housed in a vintage, ornate wooden frame measuring approximately 41 cm by 45 cm. Frame has a gold and dark brown swirl pattern finish and shows visible signs of wear including scratches and minor chips. The painting is in good vintage condition; frame has cosmetic damage consistent with age.\nDetails\nAttribute\nValue\nSize\nLarge",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47618-5562431": {
-    "item_id": "ctbids-47618-5562431",
-    "listing_url": "https://ctbids.com/estate-sale/47618/item/5562431/Bird-Decorations-And-Ornament-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562431_BCXfP1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276006108": {
-    "item_id": "276006108",
-    "listing_url": "https://shopgoodwill.com/item/276006108",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/93797480-c5af-47d3-b207-329c26c9fdc0ason_09021.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/a5a61169-5f10-44d0-8df9-9326a96c5edaason_09022.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/ec6faffa-ca97-477d-8537-1bdc19ed9d17ason_09023.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/94b5a662-d4c9-46b9-a721-94fbd0064d8aason_09024.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/2858943d-f702-459b-aaea-178c009559e7ason_09025.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/f957a96e-da91-4315-9924-f0d9cc35e971ason_09026.jpg"
-    ],
-    "description": "Item Description:\nRocks, Minerals & Fossils - , etc.\nApproximate Measurements (inches):\n10 x 6 x 3 Sizes Vary\nWeight (in lbs):\n2.8\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47761-5552386": {
     "item_id": "ctbids-47761-5552386",
     "listing_url": "https://ctbids.com/estate-sale/47761/item/5552386/New-KitchenAid-Pink-Mixing-Bowl-Set-7-Pieces",
@@ -945,6 +843,106 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275986903": {
+    "item_id": "275986903",
+    "listing_url": "https://shopgoodwill.com/item/275986903",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/761f4ec5-3f36-416c-aaac-1aa78c8888b8mith_09021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/23eebdc4-0871-44cb-82ff-a5d3e009c1f7mith_09022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/adb851cf-9e43-4b70-aabf-1716a6ee695cmith_09023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/c4f71b32-1f09-48a4-a6bf-8a5a4c36860fmith_09024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/c6a9445b-93ae-45a5-91af-af64fc4002e1mith_09025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/aa454b11-52e3-411e-862b-f22846acf014mith_09026.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/42d649d9-4978-494b-8e38-60b6cfc32977mith_09027.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/39a54d87-0b9a-4afa-9244-7f09990c161amith_09028.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-02/0c5c4668-ca72-4bd0-94e0-75758c23dcc3mith_09029.jpg"
+    ],
+    "description": "K. Sonder Framed Oil Painting Elderly Man Smoking Pipe Vintage 41x45cm\nFramed oil painting on canvas by artist K. Sonder, featuring a jovial elderly man with a white mustache and beard, wearing a green hat and coat, smoking a pipe. Signed by K. Sonder on the front, with artist's stamp and registry number on the back. The painting is housed in a vintage, ornate wooden frame measuring approximately 41 cm by 45 cm. Frame has a gold and dark brown swirl pattern finish and shows visible signs of wear including scratches and minor chips. The painting is in good vintage condition; frame has cosmetic damage consistent with age.\nDetails\nAttribute\nValue\nSize\nLarge",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47618-5562431": {
+    "item_id": "ctbids-47618-5562431",
+    "listing_url": "https://ctbids.com/estate-sale/47618/item/5562431/Bird-Decorations-And-Ornament-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562431_BCXfP1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276006108": {
+    "item_id": "276006108",
+    "listing_url": "https://shopgoodwill.com/item/276006108",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/93797480-c5af-47d3-b207-329c26c9fdc0ason_09021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/a5a61169-5f10-44d0-8df9-9326a96c5edaason_09022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/ec6faffa-ca97-477d-8537-1bdc19ed9d17ason_09023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/94b5a662-d4c9-46b9-a721-94fbd0064d8aason_09024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/2858943d-f702-459b-aaea-178c009559e7ason_09025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-02/f957a96e-da91-4315-9924-f0d9cc35e971ason_09026.jpg"
+    ],
+    "description": "Item Description:\nRocks, Minerals & Fossils - , etc.\nApproximate Measurements (inches):\n10 x 6 x 3 Sizes Vary\nWeight (in lbs):\n2.8\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
