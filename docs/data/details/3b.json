@@ -14,6 +14,7 @@
       "Opportunity term 'collection' in description (+6)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -21,12 +22,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 34,
+        "relative_score": 1.133,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -85,6 +87,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -92,10 +95,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 21,
+        "relative_score": 0.618,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -154,6 +158,89 @@
         "relative_score": 0.559,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47933-5562580": {
+    "item_id": "ctbids-47933-5562580",
+    "listing_url": "https://ctbids.com/estate-sale/47933/item/5562580/Herb-Sampler-Coffee-Linens-Silver-Tray-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562580_Ge3x67.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47993-5573255": {
+    "item_id": "ctbids-47993-5573255",
+    "listing_url": "https://ctbids.com/estate-sale/47993/item/5573255/Waterford-Crystal-Candlesticks-Vase-Other-Item",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5573255_V5OpRZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48121-5589505": {
+    "item_id": "ctbids-48121-5589505",
+    "listing_url": "https://ctbids.com/estate-sale/48121/item/5589505/World-Market-Black-Cream-Herringbone-Fedora-Hat",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5589505_IkcrSs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -323,15 +410,15 @@
       }
     ]
   },
-  "ctbids-47933-5562580": {
-    "item_id": "ctbids-47933-5562580",
-    "listing_url": "https://ctbids.com/estate-sale/47933/item/5562580/Herb-Sampler-Coffee-Linens-Silver-Tray-Lot",
+  "ctbids-47993-5572230": {
+    "item_id": "ctbids-47993-5572230",
+    "listing_url": "https://ctbids.com/estate-sale/47993/item/5572230/Exercise-Items",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562580_Ge3x67.webp"
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5572230_4EPSs6.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -339,10 +426,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47764-5540880": {
+    "item_id": "ctbids-47764-5540880",
+    "listing_url": "https://ctbids.com/estate-sale/47764/item/5540880/POD-Coffee-Maker-And-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5540880_gi9JjT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47784-5552929": {
+    "item_id": "ctbids-47784-5552929",
+    "listing_url": "https://ctbids.com/estate-sale/47784/item/5552929/Judith-Sport-Women-s-Boots-Size-7",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552929_lzBPQU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47150-5468801": {
+    "item_id": "ctbids-47150-5468801",
+    "listing_url": "https://ctbids.com/estate-sale/47150/item/5468801/Brown-Nocono-Leather-Cowboy-Boots-Size-10-EE",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5468801_RT6zYX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -404,111 +572,11 @@
       }
     ]
   },
-  "ctbids-47993-5572230": {
-    "item_id": "ctbids-47993-5572230",
-    "listing_url": "https://ctbids.com/estate-sale/47993/item/5572230/Exercise-Items",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5572230_4EPSs6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47993-5573255": {
-    "item_id": "ctbids-47993-5573255",
-    "listing_url": "https://ctbids.com/estate-sale/47993/item/5573255/Waterford-Crystal-Candlesticks-Vase-Other-Item",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5573255_V5OpRZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47764-5545218": {
     "item_id": "ctbids-47764-5545218",
     "listing_url": "https://ctbids.com/estate-sale/47764/item/5545218/Beautiful-Floral-Scarf",
     "images": [
       "https://image.ctbids.com/seller/2026-08-21T3c9069/5545218_PJ7qu6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47764-5540880": {
-    "item_id": "ctbids-47764-5540880",
-    "listing_url": "https://ctbids.com/estate-sale/47764/item/5540880/POD-Coffee-Maker-And-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5540880_gi9JjT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47784-5552929": {
-    "item_id": "ctbids-47784-5552929",
-    "listing_url": "https://ctbids.com/estate-sale/47784/item/5552929/Judith-Sport-Women-s-Boots-Size-7",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552929_lzBPQU.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -709,31 +777,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47761/item/5563550/Coach-Signature-Canvas-Crossbody-Shoulder-Bag-Tan-Brown",
     "images": [
       "https://image.ctbids.com/seller/2026-08-26Tec9678/5563550_RjPp9B.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47150-5468801": {
-    "item_id": "ctbids-47150-5468801",
-    "listing_url": "https://ctbids.com/estate-sale/47150/item/5468801/Brown-Nocono-Leather-Cowboy-Boots-Size-10-EE",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5468801_RT6zYX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1009,31 +1052,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47726/item/5547174/Replica-American-Civil-War-Saber-Sword-with-Holster",
     "images": [
       "https://image.ctbids.com/seller/2026-08-22T273492/5547174_ZDyOKn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47219-5569043": {
-    "item_id": "ctbids-47219-5569043",
-    "listing_url": "https://ctbids.com/estate-sale/47219/item/5569043/Jade-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569043_6OWKv6.webp"
     ],
     "description": "",
     "score_reasons": [
