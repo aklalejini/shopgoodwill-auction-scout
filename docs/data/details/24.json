@@ -1084,5 +1084,44 @@
         "matched_keywords": []
       }
     ]
+  },
+  "275971799": {
+    "item_id": "275971799",
+    "listing_url": "https://shopgoodwill.com/item/275971799",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Assorted lot includes carved stone chess pieces in white and pink tones and mixed tumbled gemstones. Total weight is 5 lbs.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in description (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+16)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+16)"
+        ],
+        "matched_keywords": []
+      }
+    ]
   }
 }
