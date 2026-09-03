@@ -42,6 +42,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'rocks' in title (+1)",
       "Opportunity term 'minerals' in title (+1)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -49,12 +50,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "score": 12,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'rocks' in title (+1)",
           "Opportunity term 'minerals' in title (+1)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -116,15 +118,16 @@
       }
     ]
   },
-  "ctbids-47806-5551909": {
-    "item_id": "ctbids-47806-5551909",
-    "listing_url": "https://ctbids.com/estate-sale/47806/item/5551909/Beatles-Classic-Record-Collection-2",
+  "ctbids-47495-5535551": {
+    "item_id": "ctbids-47495-5535551",
+    "listing_url": "https://ctbids.com/estate-sale/47495/item/5535551/LARGE-TABLEWARE-LINEN-LOT",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5551909_ym7BZW.webp"
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5535551_thuHry.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -135,7 +138,8 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -224,6 +228,87 @@
       }
     ]
   },
+  "ctbids-47806-5551909": {
+    "item_id": "ctbids-47806-5551909",
+    "listing_url": "https://ctbids.com/estate-sale/47806/item/5551909/Beatles-Classic-Record-Collection-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5551909_ym7BZW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47726-5547819": {
+    "item_id": "ctbids-47726-5547819",
+    "listing_url": "https://ctbids.com/estate-sale/47726/item/5547819/1984-Framed-Map-Of-Lake-Compounce-In-Southington-CT",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-22T273492/5547819_c9xU2y.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47672-5577629": {
+    "item_id": "ctbids-47672-5577629",
+    "listing_url": "https://ctbids.com/estate-sale/47672/item/5577629/SHIPPING-COSTS",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577629_rJb6Qz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47547-5549360": {
     "item_id": "ctbids-47547-5549360",
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5549360/Five-Vintage-Music-Boxes-Wood-Chalet-Ceramic-Lacquered-and-Domed-Designs",
@@ -305,33 +390,6 @@
       }
     ]
   },
-  "ctbids-47495-5535551": {
-    "item_id": "ctbids-47495-5535551",
-    "listing_url": "https://ctbids.com/estate-sale/47495/item/5535551/LARGE-TABLEWARE-LINEN-LOT",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5535551_thuHry.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47618-5560581": {
     "item_id": "ctbids-47618-5560581",
     "listing_url": "https://ctbids.com/estate-sale/47618/item/5560581/Screenprint-Possibly-Sky-by-Peter-Kalen-1969",
@@ -340,6 +398,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -347,9 +406,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -365,6 +425,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -372,9 +433,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47424-5569680": {
+    "item_id": "ctbids-47424-5569680",
+    "listing_url": "https://ctbids.com/estate-sale/47424/item/5569680/Alfred-Meakin-Medway-Pattern-China",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569680_CkaP5X.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47806-5549144": {
+    "item_id": "ctbids-47806-5549144",
+    "listing_url": "https://ctbids.com/estate-sale/47806/item/5549144/Condolence-Acknowledgement-From-Jacqueline-Kennedy",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5549144_eOAKmX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -657,111 +773,11 @@
       }
     ]
   },
-  "ctbids-47424-5569680": {
-    "item_id": "ctbids-47424-5569680",
-    "listing_url": "https://ctbids.com/estate-sale/47424/item/5569680/Alfred-Meakin-Medway-Pattern-China",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569680_CkaP5X.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47726-5547819": {
-    "item_id": "ctbids-47726-5547819",
-    "listing_url": "https://ctbids.com/estate-sale/47726/item/5547819/1984-Framed-Map-Of-Lake-Compounce-In-Southington-CT",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-22T273492/5547819_c9xU2y.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47672-5577629": {
-    "item_id": "ctbids-47672-5577629",
-    "listing_url": "https://ctbids.com/estate-sale/47672/item/5577629/SHIPPING-COSTS",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577629_rJb6Qz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47672-5571198": {
     "item_id": "ctbids-47672-5571198",
     "listing_url": "https://ctbids.com/estate-sale/47672/item/5571198/Die-Cut-Christmas-Ephemera-Santa-Honeycomb-Ornaments",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5571198_k3Mlzi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47806-5549144": {
-    "item_id": "ctbids-47806-5549144",
-    "listing_url": "https://ctbids.com/estate-sale/47806/item/5549144/Condolence-Acknowledgement-From-Jacqueline-Kennedy",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5549144_eOAKmX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -976,6 +992,51 @@
         "matched_keywords": [
           "fluorite"
         ]
+      }
+    ]
+  },
+  "276115063": {
+    "item_id": "276115063",
+    "listing_url": "https://shopgoodwill.com/item/276115063",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/8b9b4dbc-3585-4e07-a404-1c1286be8794rtin_09031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/7d844de4-c549-4cbb-af0e-915458200b1ertin_09032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/5c268ad9-aa6b-4a55-852d-bb0de7b84cd4rtin_09033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/a0396b64-463b-442c-be39-c7f01b425e78rtin_09034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/642aee62-e9b0-4ba8-b47b-035dbcfc9d24rtin_09035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/7eb55dd9-866d-4981-8f9d-d1bfc3df10cdrtin_09036.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/4/Item/2026-09-03/53896b04-7f6c-456e-ae49-2a39f09b781crtin_09037.jpg"
+    ],
+    "description": "Description:\nThis lot includes various collectible minerals and gemstones: polished geode slices in blue and green tones, a carved gray marble mortar and pestle, a polished beige and brown stone egg, a carved onyx bird figurine, a small quartz geode, a white crystal sphere, and assorted mineral specimens. Items vary in size from small handheld pieces to larger display stones. All pieces are in good gently used condition.\nDimensions:\n3.5 x 4 x 5.5 in\nProduct Weight\n15.5 lb",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'carved' in description (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "15.5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'carved' in description (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "15.5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },

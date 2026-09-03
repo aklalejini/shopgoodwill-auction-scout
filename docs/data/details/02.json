@@ -23,6 +23,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -30,8 +31,8 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 41,
-        "relative_score": 1.367,
+        "score": 46,
+        "relative_score": 1.533,
         "score_reasons": [
           "Opportunity term 'as found' in description (+7)",
           "Opportunity term 'collection' in description (+6)",
@@ -40,6 +41,7 @@
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -377,6 +379,33 @@
       }
     ]
   },
+  "ctbids-47618-5560689": {
+    "item_id": "ctbids-47618-5560689",
+    "listing_url": "https://ctbids.com/estate-sale/47618/item/5560689/Camel-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5560689_7SNomJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47547-5555201": {
     "item_id": "ctbids-47547-5555201",
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5555201/X-Force-1-2-Keepsake-Collections-1261-2067-Rob-Liefeld-Artwork-Comic-Images-1991-Sealed",
@@ -458,15 +487,15 @@
       }
     ]
   },
-  "ctbids-47618-5560689": {
-    "item_id": "ctbids-47618-5560689",
-    "listing_url": "https://ctbids.com/estate-sale/47618/item/5560689/Camel-Lot",
+  "ctbids-47532-5522706": {
+    "item_id": "ctbids-47532-5522706",
+    "listing_url": "https://ctbids.com/estate-sale/47532/item/5522706/20th-Century-European-City-Street-Scene-Framed-Artwork",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5560689_7SNomJ.webp"
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5522706_9x5rFE.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -474,10 +503,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47773-5562054": {
+    "item_id": "ctbids-47773-5562054",
+    "listing_url": "https://ctbids.com/estate-sale/47773/item/5562054/Signed-Pottery-Pieces-and-Moving-Sand-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562054_e24xan.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47806-5549421": {
+    "item_id": "ctbids-47806-5549421",
+    "listing_url": "https://ctbids.com/estate-sale/47806/item/5549421/Historic-German-Postage-Stamps",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5549421_roPwGC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -685,61 +768,11 @@
       }
     ]
   },
-  "ctbids-47532-5522706": {
-    "item_id": "ctbids-47532-5522706",
-    "listing_url": "https://ctbids.com/estate-sale/47532/item/5522706/20th-Century-European-City-Street-Scene-Framed-Artwork",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5522706_9x5rFE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47672-5574725": {
     "item_id": "ctbids-47672-5574725",
     "listing_url": "https://ctbids.com/estate-sale/47672/item/5574725/Retro-Kitchenware-Collectible-Serving-Platters-Copper-Molds-Cutlery-Set",
     "images": [
       "https://image.ctbids.com/seller/2026-08-29T6ea83f/5574725_I1iAnT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47773-5562054": {
-    "item_id": "ctbids-47773-5562054",
-    "listing_url": "https://ctbids.com/estate-sale/47773/item/5562054/Signed-Pottery-Pieces-and-Moving-Sand-Art",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562054_e24xan.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -810,11 +843,11 @@
       }
     ]
   },
-  "ctbids-47806-5549421": {
-    "item_id": "ctbids-47806-5549421",
-    "listing_url": "https://ctbids.com/estate-sale/47806/item/5549421/Historic-German-Postage-Stamps",
+  "ctbids-47806-5551042": {
+    "item_id": "ctbids-47806-5551042",
+    "listing_url": "https://ctbids.com/estate-sale/47806/item/5551042/Tik-Tok-Of-Oz-By-L-Frank-Baum-post-1918-Reilly-Lee-edition",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5549421_roPwGC.webp"
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5551042_xO86Mb.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -835,18 +868,33 @@
       }
     ]
   },
-  "ctbids-47806-5551042": {
-    "item_id": "ctbids-47806-5551042",
-    "listing_url": "https://ctbids.com/estate-sale/47806/item/5551042/Tik-Tok-Of-Oz-By-L-Frank-Baum-post-1918-Reilly-Lee-edition",
+  "ctbids-47219-5569125": {
+    "item_id": "ctbids-47219-5569125",
+    "listing_url": "https://ctbids.com/estate-sale/47219/item/5569125/36-3ct-Loose-Amethyst",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5551042_xO86Mb.webp"
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569125_KeIQ7I.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
     ],
     "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -924,41 +972,30 @@
       }
     ]
   },
-  "ctbids-47219-5569125": {
-    "item_id": "ctbids-47219-5569125",
-    "listing_url": "https://ctbids.com/estate-sale/47219/item/5569125/36-3ct-Loose-Amethyst",
+  "275814882": {
+    "item_id": "275814882",
+    "listing_url": "https://shopgoodwill.com/item/275814882",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569125_KeIQ7I.webp"
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-08-17/f6171e7c-5148-40c5-9c88-34be9d283787exa1_08171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-08-17/bd2b1daf-ebba-471f-8301-605700498bdaexa1_08172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-08-17/c77cf8d4-8b59-438b-8648-8a19d113a562exa1_08173.jpg"
     ],
-    "description": "",
+    "description": "9X11 Framed Display Of Assorted Raw & Polished Mineral , Crystal & Rock Specimens\nBrand\n: Unbranded\nItem\n: 9X11 Framed Display Of Assorted Raw & Polished Mineral , Crystal & Rock Specimens\nPrimary Material\n: Unknown\nCondition\n: Used",
     "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
         "score": 1,
-        "relative_score": 0.029,
+        "relative_score": 0.033,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1009,35 +1046,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275814882": {
-    "item_id": "275814882",
-    "listing_url": "https://shopgoodwill.com/item/275814882",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-08-17/f6171e7c-5148-40c5-9c88-34be9d283787exa1_08171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-08-17/bd2b1daf-ebba-471f-8301-605700498bdaexa1_08172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-08-17/c77cf8d4-8b59-438b-8648-8a19d113a562exa1_08173.jpg"
-    ],
-    "description": "9X11 Framed Display Of Assorted Raw & Polished Mineral , Crystal & Rock Specimens\nBrand\n: Unbranded\nItem\n: 9X11 Framed Display Of Assorted Raw & Polished Mineral , Crystal & Rock Specimens\nPrimary Material\n: Unknown\nCondition\n: Used",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }

@@ -19,6 +19,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -26,14 +27,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 44,
-        "relative_score": 1.467,
+        "score": 46,
+        "relative_score": 1.533,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -178,6 +180,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -185,11 +188,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -207,6 +211,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -214,11 +219,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -311,15 +317,16 @@
       }
     ]
   },
-  "ctbids-47806-5554055": {
-    "item_id": "ctbids-47806-5554055",
-    "listing_url": "https://ctbids.com/estate-sale/47806/item/5554055/Beatles-Classic-Record-Collection-11",
+  "ctbids-47726-5548619": {
+    "item_id": "ctbids-47726-5548619",
+    "listing_url": "https://ctbids.com/estate-sale/47726/item/5548619/Lot-of-4-Sahiba-Musical-Carousel-Horse-Statues-in-Box",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5554055_lnI2Fr.webp"
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548619_Y7o8ct.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -330,7 +337,37 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47726-5548613": {
+    "item_id": "ctbids-47726-5548613",
+    "listing_url": "https://ctbids.com/estate-sale/47726/item/5548613/Lot-of-4-Sahiba-Musical-Carousel-Horse-Statues-in-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548613_Mydhof.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -392,6 +429,33 @@
       }
     ]
   },
+  "ctbids-47806-5554055": {
+    "item_id": "ctbids-47806-5554055",
+    "listing_url": "https://ctbids.com/estate-sale/47806/item/5554055/Beatles-Classic-Record-Collection-11",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5554055_lnI2Fr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47806-5552373": {
     "item_id": "ctbids-47806-5552373",
     "listing_url": "https://ctbids.com/estate-sale/47806/item/5552373/Vintage-Mother-Goose-Nursery-Rhymes-Children-s-Books-1920s-1970s",
@@ -412,6 +476,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47495-5535553": {
+    "item_id": "ctbids-47495-5535553",
+    "listing_url": "https://ctbids.com/estate-sale/47495/item/5535553/THANKSGIVING-AND-INDEPENDENCE-DAY-GALORE",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5535553_14My5b.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -527,15 +618,15 @@
       }
     ]
   },
-  "ctbids-47726-5548619": {
-    "item_id": "ctbids-47726-5548619",
-    "listing_url": "https://ctbids.com/estate-sale/47726/item/5548619/Lot-of-4-Sahiba-Musical-Carousel-Horse-Statues-in-Box",
+  "ctbids-47219-5568998": {
+    "item_id": "ctbids-47219-5568998",
+    "listing_url": "https://ctbids.com/estate-sale/47219/item/5568998/Natural-Oval-Angelskin-Coral-Cabochon",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548619_Y7o8ct.webp"
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568998_9JyE4a.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -543,10 +634,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -554,15 +645,15 @@
       }
     ]
   },
-  "ctbids-47726-5548613": {
-    "item_id": "ctbids-47726-5548613",
-    "listing_url": "https://ctbids.com/estate-sale/47726/item/5548613/Lot-of-4-Sahiba-Musical-Carousel-Horse-Statues-in-Box",
+  "ctbids-47726-5547182": {
+    "item_id": "ctbids-47726-5547182",
+    "listing_url": "https://ctbids.com/estate-sale/47726/item/5547182/Replica-Ancient-Roman-Julius-Caesar-Gladius-Gladiator-Sword-with-Holster",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548613_Mydhof.webp"
+      "https://image.ctbids.com/seller/2026-08-22T273492/5547182_tcUb4b.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -570,10 +661,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47716-5552194": {
+    "item_id": "ctbids-47716-5552194",
+    "listing_url": "https://ctbids.com/estate-sale/47716/item/5552194/Baby-Toddler-Pants-Baby-Gap-Gymboree-Carter-s-Ralph-Lauren-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5552194_tu9L00.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -731,31 +849,6 @@
       }
     ]
   },
-  "ctbids-47219-5568998": {
-    "item_id": "ctbids-47219-5568998",
-    "listing_url": "https://ctbids.com/estate-sale/47219/item/5568998/Natural-Oval-Angelskin-Coral-Cabochon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568998_9JyE4a.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47219-5569007": {
     "item_id": "ctbids-47219-5569007",
     "listing_url": "https://ctbids.com/estate-sale/47219/item/5569007/13-7ct-Natural-Cushion-Champagne-Topaz",
@@ -806,81 +899,6 @@
       }
     ]
   },
-  "ctbids-47726-5547182": {
-    "item_id": "ctbids-47726-5547182",
-    "listing_url": "https://ctbids.com/estate-sale/47726/item/5547182/Replica-Ancient-Roman-Julius-Caesar-Gladius-Gladiator-Sword-with-Holster",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-22T273492/5547182_tcUb4b.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47716-5552194": {
-    "item_id": "ctbids-47716-5552194",
-    "listing_url": "https://ctbids.com/estate-sale/47716/item/5552194/Baby-Toddler-Pants-Baby-Gap-Gymboree-Carter-s-Ralph-Lauren-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5552194_tu9L00.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47495-5535553": {
-    "item_id": "ctbids-47495-5535553",
-    "listing_url": "https://ctbids.com/estate-sale/47495/item/5535553/THANKSGIVING-AND-INDEPENDENCE-DAY-GALORE",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5535553_14My5b.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47495-5536105": {
     "item_id": "ctbids-47495-5536105",
     "listing_url": "https://ctbids.com/estate-sale/47495/item/5536105/MICHAEL-KORS-CREAM-COLORED-COAT",
@@ -893,6 +911,46 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47219-5569012": {
+    "item_id": "ctbids-47219-5569012",
+    "listing_url": "https://ctbids.com/estate-sale/47219/item/5569012/6-8ct-Oval-Smokey-Quartz",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569012_qgiL1g.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -957,46 +1015,6 @@
           "Opportunity term 'specimen' in description (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47219-5569012": {
-    "item_id": "ctbids-47219-5569012",
-    "listing_url": "https://ctbids.com/estate-sale/47219/item/5569012/6-8ct-Oval-Smokey-Quartz",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569012_qgiL1g.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
