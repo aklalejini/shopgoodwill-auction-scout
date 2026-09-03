@@ -52,6 +52,59 @@
       }
     ]
   },
+  "276131055": {
+    "item_id": "276131055",
+    "listing_url": "https://shopgoodwill.com/item/276131055",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-03/7a981947-2054-45f9-a1d5-e184f40a1074tein_09031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-03/56e27f7b-6c5d-4f31-b426-6b27ea16ca1etein_09032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-03/8f5c5cf6-6967-46ee-82f7-594f346d664ftein_09033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-03/e32b9d13-004e-4d1b-8df1-86f68c57b8f8tein_09034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-03/6504639b-19cc-46ac-968f-a20b9fc72e19tein_09035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-03/c27c6b5c-492e-4229-984b-a7cf8f9bdea8tein_09036.jpg"
+    ],
+    "description": "This lot includes a variety of vintage blank media and storage items from brands such as Maxell, TDK, Memorex, Fujifilm, Panasonic, and Imation. Items include audio cassettes, VHS-C tapes, Video8, Mini DV tapes, CD-Rs, DVD+Rs, and 3.5\" floppy disks. Most items appear sealed. There is visible box wear and a dented corner on one floppy disk pack. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'lot' in description (+4)",
+      "Opportunity term 'pack' in description (+4)",
+      "Target keyword 'mini dv' in description (+7)",
+      "Target keyword 'video8' in description (+7)",
+      "Target keyword 'dv' in description (+6)",
+      "Only the top 3 target keyword matches count; 5 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 41,
+        "relative_score": 1.139,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'lot' in description (+4)",
+          "Opportunity term 'pack' in description (+4)",
+          "Target keyword 'mini dv' in description (+7)",
+          "Target keyword 'video8' in description (+7)",
+          "Target keyword 'dv' in description (+6)",
+          "Only the top 3 target keyword matches count; 5 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "dv",
+          "fujifilm",
+          "maxell",
+          "memorex",
+          "mini dv",
+          "tdk",
+          "vhs-c",
+          "video8"
+        ]
+      }
+    ]
+  },
   "ctbids-47424-5568263": {
     "item_id": "ctbids-47424-5568263",
     "listing_url": "https://ctbids.com/estate-sale/47424/item/5568263/11-Sterling-Silver-Alvin-Chased-Romantique-Pattern-Sterling-Handle-Knives",
@@ -99,6 +152,35 @@
         "relative_score": 0.559,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47806-5553256": {
+    "item_id": "ctbids-47806-5553256",
+    "listing_url": "https://ctbids.com/estate-sale/47806/item/5553256/Vintage-Batman-DC-Comic-Book-Lot-Silver-And-Bronze-Age-Keys-181-213-224",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553256_BQbdOK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -173,35 +255,6 @@
           "Lower-priority term 'as is' in description (-3)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47806-5553256": {
-    "item_id": "ctbids-47806-5553256",
-    "listing_url": "https://ctbids.com/estate-sale/47806/item/5553256/Vintage-Batman-DC-Comic-Book-Lot-Silver-And-Bronze-Age-Keys-181-213-224",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553256_BQbdOK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -756,6 +809,37 @@
       }
     ]
   },
+  "276140594": {
+    "item_id": "276140594",
+    "listing_url": "https://shopgoodwill.com/item/276140594",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/85c9fd00-bdec-4a43-93ec-06169cf0498cskiE_09031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/ed764ef5-9a45-4149-b76b-9620a54a7e64skiE_09032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/bca7c54f-a010-4245-bd31-496373728050skiE_09033.jpg"
+    ],
+    "description": "This listing is for a 5-pack of Memorex DVD+RW rewritable discs. Each disc has a storage capacity of 4.7GB and supports 4X write speed. The discs provide up to 120 minutes of recording time per disc. The pack is factory sealed and includes five discs, each in an individual jewel case. The jewel cases are made with 30% less plastic by weight compared to traditional cases, making them more environmentally friendly. Manufactured by Imation Enterprises Corp in Taiwan. The overall condition is new and unopened with no visible packaging damage. 5.5x5",
+    "score_reasons": [
+      "Target keyword 'memorex' in title (+3)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 4,
+        "relative_score": 0.111,
+        "score_reasons": [
+          "Target keyword 'memorex' in title (+3)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "memorex"
+        ]
+      }
+    ]
+  },
   "ctbids-47547-5556246": {
     "item_id": "ctbids-47547-5556246",
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5556246/THE-OFFICE-Funko-POP-TV-Figures-Character-Variants-Set-of-10",
@@ -786,6 +870,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5560776/Funko-POP-Harry-Potter-Patronus-Incredibles-2-Figures-Set-of-7",
     "images": [
       "https://image.ctbids.com/seller/2026-08-26Tec9678/5560776_eUyEHa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5594317": {
+    "item_id": "ctbids-48118-5594317",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5594317/Dufante-Ladies-Watch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5594317_DvKmCb.webp"
     ],
     "description": "",
     "score_reasons": [
