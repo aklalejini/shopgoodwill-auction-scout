@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-03T21:41:33.796915+00:00",
-  "active_count": 2642,
-  "high_priority_count": 41,
+  "generated_at": "2026-09-04T00:03:45.396729+00:00",
+  "active_count": 2633,
+  "high_priority_count": 40,
   "archived_count": 1000,
   "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
+    "GovDeals / 38635 + 50 mi: Request failed after limited retries: HTTPSConnectionPool(host='prod-seo.govdeals.com', port=443): Read timed out. (read timeout=25.0)"
   ],
-  "detail_requests_completed": 38,
-  "relevance_filtered_count": 669,
-  "potentially_high_value_count": 41,
+  "detail_requests_completed": 25,
+  "relevance_filtered_count": 678,
+  "potentially_high_value_count": 40,
   "ocr": {
     "available": true,
     "listings_processed": 12,
@@ -23,8 +24,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 590,
-      "detail_requests_attempted": 18
+      "active_count": 581,
+      "detail_requests_attempted": 5
     },
     {
       "id": "gsa-auctions",
@@ -49,12 +50,12 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 419
+      "active_count": 405
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 29
+      "active_count": 32
     },
     {
       "id": "vintage-electron-tubes",
@@ -64,12 +65,12 @@
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 54
+      "active_count": 53
     },
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 57
+      "active_count": 53
     },
     {
       "id": "glass-insulators",
