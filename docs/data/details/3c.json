@@ -1279,5 +1279,50 @@
         "matched_keywords": []
       }
     ]
+  },
+  "276223200": {
+    "item_id": "276223200",
+    "listing_url": "https://shopgoodwill.com/item/276223200",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot contains approximately 4 lbs of assorted mineral and rock specimens. Included are polished stones, rough mineral samples, geode fragments, and tumbled stones. Notable pieces include a purple amethyst cluster, a polished pink agate slice, white quartz, clear crystal points, and various other unidentified minerals and tumbled stones in natural shades. The collection also comes with a small plastic bag that may contain a description or identification guide. All items show signs of previous use but remain in good condition, featuring a combination of polished and raw surfaces. Suitable for collectors, educational use, or decorative purposes.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "4 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+28)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "4 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+28)"
+        ],
+        "matched_keywords": []
+      }
+    ]
   }
 }

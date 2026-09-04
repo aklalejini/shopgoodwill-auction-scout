@@ -139,6 +139,7 @@
     ],
     "description": "One 6 feet tall, 3 feet wide metal cabinet without the key sold as is",
     "score_reasons": [
+      "0 bids near close (+4)",
       "Pickup-only limits the opportunity (0)",
       "Base score (+8)"
     ],
@@ -146,9 +147,10 @@
       {
         "id": "local-government-surplus",
         "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
+        "score": 12,
+        "relative_score": 0.375,
         "score_reasons": [
+          "0 bids near close (+4)",
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
         ],
@@ -318,31 +320,6 @@
       }
     ]
   },
-  "govdeals-23862-752": {
-    "item_id": "govdeals-23862-752",
-    "listing_url": "https://www.govdeals.com/en/asset/752/23862",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/23862/23862_752_a077784e-3502-40d4-910e-a6b801581a0a.jpg?cb=260812123024"
-    ],
-    "description": "Up for auction is a Hydra Rib 72\" Basketball System.  Unit is in nice shape overall, but has hydraulic issues.  Winning bidder MUST bring help to load item, as loading assistance is not guaranteed!! To look at the item, please call 901-508-1982 or email at mwrautoskillsodr@gmail.com to schedule!",
-    "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
-        "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47576-5524559": {
     "item_id": "ctbids-47576-5524559",
     "listing_url": "https://ctbids.com/estate-sale/47576/item/5524559/Vintage-Strawberry-Decorated-And-Plain-Ceramic-Plates",
@@ -500,6 +477,31 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-23862-752": {
+    "item_id": "govdeals-23862-752",
+    "listing_url": "https://www.govdeals.com/en/asset/752/23862",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/23862/23862_752_a077784e-3502-40d4-910e-a6b801581a0a.jpg?cb=260812123024"
+    ],
+    "description": "Up for auction is a Hydra Rib 72\" Basketball System.  Unit is in nice shape overall, but has hydraulic issues.  Winning bidder MUST bring help to load item, as loading assistance is not guaranteed!! To look at the item, please call 901-508-1982 or email at mwrautoskillsodr@gmail.com to schedule!",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
         ],
         "matched_keywords": []
       }

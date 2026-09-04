@@ -926,31 +926,6 @@
       }
     ]
   },
-  "ctbids-46753-5434178": {
-    "item_id": "ctbids-46753-5434178",
-    "listing_url": "https://ctbids.com/estate-sale/46753/item/5434178/Original-Signed-Owl-Painting-Signed-by-REA",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-25T589b14/5434178_Z3NvLM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "275904105": {
     "item_id": "275904105",
     "listing_url": "https://shopgoodwill.com/item/275904105",
@@ -1087,6 +1062,39 @@
           "17 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+9)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276222118": {
+    "item_id": "276222118",
+    "listing_url": "https://shopgoodwill.com/item/276222118",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This listing includes assorted rock and mineral specimens totaling 8 pounds.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+13)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
       }
