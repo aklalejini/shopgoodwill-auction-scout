@@ -8,7 +8,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -16,11 +16,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -50,6 +50,64 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48023-5576518": {
+    "item_id": "ctbids-48023-5576518",
+    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576518/Vintage-bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400328_526krm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5589720": {
+    "item_id": "ctbids-48118-5589720",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5589720/Vtg-Cure-Support-Promise-Pink-Beanie-Babies-For-Breast-Cancer-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5571597_WiLnso.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -104,64 +162,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48023-5576518": {
-    "item_id": "ctbids-48023-5576518",
-    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576518/Vintage-bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400328_526krm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48023-5576539": {
-    "item_id": "ctbids-48023-5576539",
-    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576539/Vintage-bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400392_N636HZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -265,16 +265,15 @@
       }
     ]
   },
-  "ctbids-48118-5589720": {
-    "item_id": "ctbids-48118-5589720",
-    "listing_url": "https://ctbids.com/estate-sale/48118/item/5589720/Vtg-Cure-Support-Promise-Pink-Beanie-Babies-For-Breast-Cancer-Lot",
+  "ctbids-48023-5576539": {
+    "item_id": "ctbids-48023-5576539",
+    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576539/Vintage-bracelet",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5571597_WiLnso.webp"
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400392_N636HZ.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -282,11 +281,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -299,6 +297,60 @@
     "listing_url": "https://ctbids.com/estate-sale/48154/item/5594582/Clear-Glass-Irish-Coffee-Mug-Heavy-Pedestal-Base-4-Tall",
     "images": [
       "https://image.ctbids.com/seller/2026-09-03T479b27/5421503_UKJk6v.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5601015": {
+    "item_id": "ctbids-48118-5601015",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5601015/Soma-Dress",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5601015_wkldNq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5601020": {
+    "item_id": "ctbids-48118-5601020",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5601020/NWT-White-House-Black-Market-Dress",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5601020_QpFFA7.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -611,38 +663,6 @@
       }
     ]
   },
-  "276213293": {
-    "item_id": "276213293",
-    "listing_url": "https://shopgoodwill.com/item/276213293",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-03/012c0b75-7d76-4cfb-b9ef-6b2898d2728fPay2_09031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-03/feb2b674-4aff-4811-bca2-8bbc88d46763Pay2_09032.jpg"
-    ],
-    "description": "This lot includes five assorted raw mineral and rock specimens. The set features a purple amethyst, a mostly white quartz, a light yellowish citrine-like stone, and two speckled granite or similar igneous rocks. Each piece is unpolished and irregularly shaped, ranging from approximately 1 to 2 inches in size. All specimens are in natural, unmodified condition with no visible brand or model markings. Suitable for collectors or educational use.\n*All measurements are approximations.\n*All sales have three days from the date of delivery to report a discrepancy.\n*All sales are final after three days from delivery.\nReturns need to be shipped to:\nGoodwill2Go\n245 Deo Drive\nOpen Mon-Fri 9 am to 4 pm",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47547-5563282": {
     "item_id": "ctbids-47547-5563282",
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5563282/5-Funko-Pop-Hamilton-Schitt-s-Creek-Parks-and-Recreation-Sets-With-Exclusives",
@@ -670,7 +690,7 @@
   },
   "ctbids-48118-5596251": {
     "item_id": "ctbids-48118-5596251",
-    "listing_url": "https://ctbids.com/estate-sale/48118/item/5596251/Hand-Painted-Italian-Biscotti-Ceramic-Jar",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5596251/Rare-Vtg-Emporio-Italiano-Artistica-Deruta-of-Italy-Hand-Painted-Italian-Biscotti-Ceramic-Jar-w-COA",
     "images": [
       "https://image.ctbids.com/seller/2026-09-04T9db37b/5596251_bAWk1O.webp"
     ],
@@ -688,6 +708,38 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276213293": {
+    "item_id": "276213293",
+    "listing_url": "https://shopgoodwill.com/item/276213293",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-03/012c0b75-7d76-4cfb-b9ef-6b2898d2728fPay2_09031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-03/feb2b674-4aff-4811-bca2-8bbc88d46763Pay2_09032.jpg"
+    ],
+    "description": "This lot includes five assorted raw mineral and rock specimens. The set features a purple amethyst, a mostly white quartz, a light yellowish citrine-like stone, and two speckled granite or similar igneous rocks. Each piece is unpolished and irregularly shaped, ranging from approximately 1 to 2 inches in size. All specimens are in natural, unmodified condition with no visible brand or model markings. Suitable for collectors or educational use.\n*All measurements are approximations.\n*All sales have three days from the date of delivery to report a discrepancy.\n*All sales are final after three days from delivery.\nReturns need to be shipped to:\nGoodwill2Go\n245 Deo Drive\nOpen Mon-Fri 9 am to 4 pm",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in description (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in description (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1065,31 +1117,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47899/item/5557039/Havana-Original-Oil-Painting-By-David-Kennedy-24x39",
     "images": [
       "https://image.ctbids.com/seller/2026-08-27T3a0468/5557039_5DIzbH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46753-5434141": {
-    "item_id": "ctbids-46753-5434141",
-    "listing_url": "https://ctbids.com/estate-sale/46753/item/5434141/Signed-Barn-and-Wildflower-Landscape-Painting",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-26T1a902b/5434141_qsskPb.webp"
     ],
     "description": "",
     "score_reasons": [
