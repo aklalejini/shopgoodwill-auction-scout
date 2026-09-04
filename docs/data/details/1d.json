@@ -171,33 +171,6 @@
       }
     ]
   },
-  "govdeals-342-6654": {
-    "item_id": "govdeals-342-6654",
-    "listing_url": "https://www.govdeals.com/en/asset/6654/342",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/342/342_6654_314ab2ee-6f8b-4aab-9789-62f3112d6f9a.jpg?cb=260828134346"
-    ],
-    "description": "144 HP Intel core i7,8th gen . No ram or Hard drive in them sold as is",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 12,
-        "relative_score": 0.375,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "275786089": {
     "item_id": "275786089",
     "listing_url": "https://shopgoodwill.com/item/275786089",
@@ -273,35 +246,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48023-5576571": {
-    "item_id": "ctbids-48023-5576571",
-    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576571/Vintage-lamp-shade",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400377_lRFSpw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -320,15 +264,16 @@
       }
     ]
   },
-  "ctbids-48154-5599256": {
-    "item_id": "ctbids-48154-5599256",
-    "listing_url": "https://ctbids.com/estate-sale/48154/item/5599256/Bodum-Chambord-3-Cup-Glass-French-Press-Coffee-Maker-Chrome",
+  "ctbids-48023-5576571": {
+    "item_id": "ctbids-48023-5576571",
+    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576571/Vintage-lamp-shade",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599256_gldCi9.webp"
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400377_lRFSpw.webp"
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -336,10 +281,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -421,6 +367,60 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47807-5554506": {
+    "item_id": "ctbids-47807-5554506",
+    "listing_url": "https://ctbids.com/estate-sale/47807/item/5554506/White-Porcelain-Angel-Figurines-with-Gold-Accents",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5554506_mFn1ug.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48154-5599256": {
+    "item_id": "ctbids-48154-5599256",
+    "listing_url": "https://ctbids.com/estate-sale/48154/item/5599256/Bodum-Chambord-3-Cup-Glass-French-Press-Coffee-Maker-Chrome",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599256_gldCi9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -566,60 +566,6 @@
       }
     ]
   },
-  "ctbids-47807-5554506": {
-    "item_id": "ctbids-47807-5554506",
-    "listing_url": "https://ctbids.com/estate-sale/47807/item/5554506/White-Porcelain-Angel-Figurines-with-Gold-Accents",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5554506_mFn1ug.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48118-5597505": {
-    "item_id": "ctbids-48118-5597505",
-    "listing_url": "https://ctbids.com/estate-sale/48118/item/5597505/Peck-Peck-Ladies-Watch",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5597505_ze6wdg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47807-5554467": {
     "item_id": "ctbids-47807-5554467",
     "listing_url": "https://ctbids.com/estate-sale/47807/item/5554467/Fitz-Floyd-Colorful-Rooster-Hen-Tabletop-Figurines",
@@ -663,6 +609,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5597505": {
+    "item_id": "ctbids-48118-5597505",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5597505/Peck-Peck-Ladies-Watch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5597505_ze6wdg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -723,6 +696,38 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+15)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276244659": {
+    "item_id": "276244659",
+    "listing_url": "https://shopgoodwill.com/item/276244659",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-04/3aa57cff-b5d7-463e-a1ab-c6a6eac14705ospe_09041.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-04/3b487970-5806-461c-99ba-a1bbcfebf729ospe_09042.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-04/eb842156-4ab2-4c81-91aa-7a403bc28a16ospe_09043.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-04/118fcc33-3abb-4273-8f5f-46ad61573ff9ospe_09044.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of art supplies including watercolor pens with artist brush tips, multiple sets of colored pencils, assorted paintbrushes, a spiral-bound sketchbook, paint markers labeled 'Overseas,' artist oil paint tubes from brands such as Utrecht, assorted markers, colored drawing leads by Eagle Turquoise, and a pack of Logart red pencils.\n\nSpecifications:\n- Watercolor pens with brush tips\n- Colored pencils in multiple sets\n- Assorted paintbrushes\n- Brown spiral-bound sketchbook\n- Box of paint markers labeled 'Overseas'\n- Tubes of artist oil paint from various brands including Utrecht\n- Bags of assorted markers\n- Colored drawing leads by Eagle Turquoise\n- Pack of Logart red pencils\n\nPackaging and Condition:\nItems are in mixed condition with some in original packaging and others showing signs of use.",
+    "score_reasons": [
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Less relevant category 'Crafts' (-12)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 4,
+        "relative_score": 0.114,
+        "score_reasons": [
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Less relevant category 'Crafts' (-12)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

@@ -15,7 +15,6 @@
     "description": "Reserve is $50",
     "score_reasons": [
       "High-value signal '14k' in title (+22)",
-      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -23,11 +22,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 30,
-        "relative_score": 0.882,
+        "score": 28,
+        "relative_score": 0.824,
         "score_reasons": [
           "High-value signal '14k' in title (+22)",
-          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -99,39 +97,6 @@
       }
     ]
   },
-  "govdeals-6354-172": {
-    "item_id": "govdeals-6354-172",
-    "listing_url": "https://www.govdeals.com/en/asset/172/6354",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_25586a83-ae93-425b-816d-3cc768b7b1fb.jpg?cb=260828125857",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_971dbfbf-eb51-4316-be63-d2f4acf88284.jpg?cb=260828125852",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_a0b44ef0-802d-4f2e-88ac-34e6ff480de1.jpg?cb=260828125855",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_a45ff1d0-9f40-48f6-9fe6-b6d6a4ed533c.jpg?cb=260828125856",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_ae1ae93f-719b-4922-8d33-a947af58c278.jpg?cb=260828125853",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_ed3947ce-8ffb-4d16-9c29-def0f4cac7d5.jpg?cb=260828125851",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_172_f94759c0-6ee3-4cad-ac53-6c4b9dfe613a.jpg?cb=260828125854"
-    ],
-    "description": "2004 Ford Mustang COUPE 2-DR, 3.8L V6 OHV 12V.\n2004 Ford Mustang COUPE 2-DR, 3.8L V6 OHV 12V.\nVehicle was seized from a narcotics investigation on 05/16/2020 and was awarded to the Multi-Agency Gang Unit.\n- No maintenance records available.\n- Vehicle is sold as is, unknown condition, no guarantees as to whether it will crank/and or drive or how road worthy the vehicle is.\n- Buyer is responsible for shipping/transportation of vehicle.\n- Vehicle does come with ignition key.\nThe only documentation available for this vehicle is a court order from a judge with the Tennessee Department of Safety awarding this vehicle to the Multi-Agency Gang Unit when the narcotics case was resolved.\n***ALL SALES ARE FINAL***\n***Pick-ups are by appointment ONLY***\nCall Det. Mills @ 901-572-5185 for pickup appointments",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 12,
-        "relative_score": 0.375,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47547-5549350": {
     "item_id": "ctbids-47547-5549350",
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5549350/LENOX-Cobalt-Blue-Vintage-Glass-Dinnerware-Pitcher-Goblets-and-Serving-Pieces",
@@ -168,6 +133,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -175,10 +141,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -195,6 +162,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -202,10 +170,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -233,6 +202,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48021-5576866": {
+    "item_id": "ctbids-48021-5576866",
+    "listing_url": "https://ctbids.com/estate-sale/48021/item/5576866/2-Maritime-U-S-Navy-First-Day-Cover-Albums",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5576866_ZXT3X6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -322,33 +318,6 @@
       }
     ]
   },
-  "ctbids-48021-5576866": {
-    "item_id": "ctbids-48021-5576866",
-    "listing_url": "https://ctbids.com/estate-sale/48021/item/5576866/2-Maritime-U-S-Navy-First-Day-Cover-Albums",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5576866_ZXT3X6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47547-5555517": {
     "item_id": "ctbids-47547-5555517",
     "listing_url": "https://ctbids.com/estate-sale/47547/item/5555517/1965-Mexico-Un-Peso-Silver-Coin",
@@ -378,7 +347,7 @@
     "item_id": "ctbids-48118-5596960",
     "listing_url": "https://ctbids.com/estate-sale/48118/item/5596960/Fossil-Wallet",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5596960_iAzn0h.webp"
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5596960_RGTrlN.webp"
     ],
     "description": "",
     "score_reasons": [

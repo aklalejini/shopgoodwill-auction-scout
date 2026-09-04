@@ -158,7 +158,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -166,11 +165,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -187,6 +185,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -194,10 +193,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -214,6 +214,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -221,14 +222,49 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "276247298": {
+    "item_id": "276247298",
+    "listing_url": "https://shopgoodwill.com/item/276247298",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/5445e594-6ede-4782-b518-87111bb14590port_09041.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/d4c4eb95-3d9a-4bab-a03c-54a9b0397b12port_09042.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/441abe95-c5d1-4bbd-b57c-4c0426ff0638port_09043.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/50dece4d-9bfa-40c8-84d1-15d4616900e5port_09044.jpg"
+    ],
+    "description": "Imported Briar Tobacco Pipe\nA classic tobacco pipe crafted from briar wood. This piece features a traditional bowl shape and a smooth finish, suitable for collectors or enthusiasts of traditional smoking accessories.\nMaterial: Briar wood\nMarkings: \"IMPORTED BRIAR\" stamped on the shank\nStyle: Traditional bowl and stem design\nCondition:\nThis is a pre-owned tobacco pipe in used condition. There is visible carbon buildup inside the bowl and signs of wear on the stem consistent with regular use. Please see photos for details.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Target keyword 'briar' in title (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 12,
+        "relative_score": 0.343,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Target keyword 'briar' in title (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "briar"
+        ]
       }
     ]
   },
@@ -360,6 +396,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5600101": {
+    "item_id": "ctbids-48118-5600101",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5600101/Coldwater-Creek-Jacket",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5600101_HD1NmF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -575,7 +638,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -586,7 +649,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

@@ -55,6 +55,7 @@
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'assorted' in description (+2)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -62,14 +63,44 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 16,
+        "relative_score": 0.533,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'assorted' in description (+2)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48023-5576557": {
+    "item_id": "ctbids-48023-5576557",
+    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576557/Vintage-bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400457_wLZK4H.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -108,33 +139,6 @@
         "matched_keywords": [
           "briar"
         ]
-      }
-    ]
-  },
-  "ctbids-48023-5576557": {
-    "item_id": "ctbids-48023-5576557",
-    "listing_url": "https://ctbids.com/estate-sale/48023/item/5576557/Vintage-bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5400457_wLZK4H.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -219,11 +223,11 @@
       }
     ]
   },
-  "ctbids-48118-5589749": {
-    "item_id": "ctbids-48118-5589749",
-    "listing_url": "https://ctbids.com/estate-sale/48118/item/5589749/2-Handwoven-Metal-Ring-Handle-Baskets",
+  "ctbids-48118-5598219": {
+    "item_id": "ctbids-48118-5598219",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5598219/Womens-Top",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5575326_VKT2NM.webp"
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598219_NuW3U5.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -246,15 +250,15 @@
       }
     ]
   },
-  "ctbids-48118-5598219": {
-    "item_id": "ctbids-48118-5598219",
-    "listing_url": "https://ctbids.com/estate-sale/48118/item/5598219/Womens-Top",
+  "ctbids-48154-5599060": {
+    "item_id": "ctbids-48154-5599060",
+    "listing_url": "https://ctbids.com/estate-sale/48154/item/5599060/Birki-s-by-Birkenstock-Women-s-Sandals-Size-39-L8-M6-Multicolor-Thong-Cork-Germany",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598219_NuW3U5.webp"
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599060_sjXqQm.webp"
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -262,10 +266,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -300,11 +304,38 @@
       }
     ]
   },
-  "ctbids-48154-5599060": {
-    "item_id": "ctbids-48154-5599060",
-    "listing_url": "https://ctbids.com/estate-sale/48154/item/5599060/Birki-s-by-Birkenstock-Women-s-Sandals-Size-39-L8-M6-Multicolor-Thong-Cork-Germany",
+  "ctbids-48118-5589749": {
+    "item_id": "ctbids-48118-5589749",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5589749/2-Handwoven-Metal-Ring-Handle-Baskets",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599060_sjXqQm.webp"
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5575326_VKT2NM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48118-5589793": {
+    "item_id": "ctbids-48118-5589793",
+    "listing_url": "https://ctbids.com/estate-sale/48118/item/5589793/Stone-Mountain-Purple-Shoulder-Bag",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5576879_76ezzz.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -417,31 +448,6 @@
           "Opportunity term 'specimen' in title (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48118-5589793": {
-    "item_id": "ctbids-48118-5589793",
-    "listing_url": "https://ctbids.com/estate-sale/48118/item/5589793/Stone-Mountain-Purple-Shoulder-Bag",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5576879_76ezzz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
