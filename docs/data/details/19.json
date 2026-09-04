@@ -15,6 +15,7 @@
     "description": "Reserve is $50",
     "score_reasons": [
       "High-value signal '14k' in title (+22)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -22,10 +23,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 28,
-        "relative_score": 0.824,
+        "score": 30,
+        "relative_score": 0.882,
         "score_reasons": [
           "High-value signal '14k' in title (+22)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -211,6 +213,33 @@
       }
     ]
   },
+  "ctbids-48021-5576040": {
+    "item_id": "ctbids-48021-5576040",
+    "listing_url": "https://ctbids.com/estate-sale/48021/item/5576040/Lot-of-4-U-S-Mint-Uncirculated-Coin-Sets-2012-2013-Philadelphia-Denver-Original-Packaging",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5576040_pZD4c9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47576-5524578": {
     "item_id": "ctbids-47576-5524578",
     "listing_url": "https://ctbids.com/estate-sale/47576/item/5524578/Vintage-Strawberry-Decorated-Kitchen-Pots-And-Pans-And-misc-Kitchen-Appliances",
@@ -265,33 +294,6 @@
       }
     ]
   },
-  "ctbids-48021-5576040": {
-    "item_id": "ctbids-48021-5576040",
-    "listing_url": "https://ctbids.com/estate-sale/48021/item/5576040/Lot-of-4-U-S-Mint-Uncirculated-Coin-Sets-2012-2013-Philadelphia-Denver-Original-Packaging",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5576040_pZD4c9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "govdeals-13747-436": {
     "item_id": "govdeals-13747-436",
     "listing_url": "https://www.govdeals.com/en/asset/436/13747",
@@ -328,6 +330,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -335,9 +338,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -378,6 +382,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -385,9 +390,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
