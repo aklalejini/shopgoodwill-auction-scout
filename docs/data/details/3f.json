@@ -273,7 +273,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -281,10 +281,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -346,6 +346,31 @@
       }
     ]
   },
+  "ctbids-47843-5556521": {
+    "item_id": "ctbids-47843-5556521",
+    "listing_url": "https://ctbids.com/estate-sale/47843/item/5556521/Artisan-Style-Turquoise-Necklace-with-Dangly-Ball-Pendant",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5556521_fyMHJw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48047-5578193": {
     "item_id": "ctbids-48047-5578193",
     "listing_url": "https://ctbids.com/estate-sale/48047/item/5578193/Chic-Deep-Red-Faceted-Bead-Paperclip-Chain-Necklace",
@@ -354,7 +379,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -362,10 +386,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -381,7 +404,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -389,10 +411,34 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47576-5524580": {
+    "item_id": "ctbids-47576-5524580",
+    "listing_url": "https://ctbids.com/estate-sale/47576/item/5524580/Misc-Christmas-Items-Including-Hand-Towels-Throws-Table-Runners-Place-Settings-Flags-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-15Te3553a/5524580_4NCP8A.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -457,56 +503,6 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47843-5556521": {
-    "item_id": "ctbids-47843-5556521",
-    "listing_url": "https://ctbids.com/estate-sale/47843/item/5556521/Artisan-Style-Turquoise-Necklace-with-Dangly-Ball-Pendant",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5556521_fyMHJw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47576-5524580": {
-    "item_id": "ctbids-47576-5524580",
-    "listing_url": "https://ctbids.com/estate-sale/47576/item/5524580/Misc-Christmas-Items-Including-Hand-Towels-Throws-Table-Runners-Place-Settings-Flags-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-15Te3553a/5524580_4NCP8A.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
