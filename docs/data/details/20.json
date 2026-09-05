@@ -14,7 +14,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Opportunity term 'rocks' in title (+1)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -22,13 +22,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 24,
-        "relative_score": 0.8,
+        "score": 22,
+        "relative_score": 0.733,
         "score_reasons": [
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -1151,6 +1151,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47796/item/5573595/Craftsman-Hand-Tools",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5573595_SeAnRy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47919-5577707": {
+    "item_id": "ctbids-47919-5577707",
+    "listing_url": "https://ctbids.com/estate-sale/47919/item/5577707/Starting-Lineup-Baseball-Greats-Mickey-Mantle-Joe-DiMaggio-Kenner-Yankees-Figures",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577707_5ZtrG8.webp"
     ],
     "description": "",
     "score_reasons": [
