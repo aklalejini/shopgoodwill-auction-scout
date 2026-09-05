@@ -170,6 +170,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -177,10 +178,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -434,6 +436,33 @@
       }
     ]
   },
+  "ctbids-47843-5553417": {
+    "item_id": "ctbids-47843-5553417",
+    "listing_url": "https://ctbids.com/estate-sale/47843/item/5553417/Halliburton-Commemorative-Buckle-and-Travel-Clock",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553417_w5y5fg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46753-5498316": {
     "item_id": "ctbids-46753-5498316",
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5498316/Mixed-English-Staffordshire-Floral-Dinnerware-Lot-J-G-Meakin-Johnson-Bros",
@@ -543,31 +572,6 @@
           "Only 1 listing photo (-12)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47843-5553417": {
-    "item_id": "ctbids-47843-5553417",
-    "listing_url": "https://ctbids.com/estate-sale/47843/item/5553417/Halliburton-Commemorative-Buckle-and-Travel-Clock",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5553417_w5y5fg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
