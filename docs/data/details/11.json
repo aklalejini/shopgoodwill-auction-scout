@@ -16,7 +16,7 @@
     "description": "Reserve is $5",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -28,7 +28,7 @@
         "relative_score": 0.765,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -506,6 +506,31 @@
       }
     ]
   },
+  "ctbids-47843-5552805": {
+    "item_id": "ctbids-47843-5552805",
+    "listing_url": "https://ctbids.com/estate-sale/47843/item/5552805/Dallas-Cowboys-1973-Belt-Buckle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552805_8m3i5W.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48047-5582170": {
     "item_id": "ctbids-48047-5582170",
     "listing_url": "https://ctbids.com/estate-sale/48047/item/5582170/Lampwork-Glass-Hearts",
@@ -612,31 +637,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47843-5552805": {
-    "item_id": "ctbids-47843-5552805",
-    "listing_url": "https://ctbids.com/estate-sale/47843/item/5552805/Dallas-Cowboys-1973-Belt-Buckle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552805_8m3i5W.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

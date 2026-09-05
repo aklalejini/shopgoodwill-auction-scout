@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-09-05T16:02:36.484889+00:00",
-  "active_count": 2611,
+  "generated_at": "2026-09-05T18:15:35.965609+00:00",
+  "active_count": 2618,
   "high_priority_count": 34,
   "archived_count": 1000,
   "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
+    "GovDeals / 38635 + 50 mi: Request failed after limited retries: HTTPSConnectionPool(host='prod-seo.govdeals.com', port=443): Read timed out. (read timeout=25.0)"
   ],
-  "detail_requests_completed": 25,
-  "relevance_filtered_count": 669,
+  "detail_requests_completed": 28,
+  "relevance_filtered_count": 670,
   "potentially_high_value_count": 34,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 69
+    "images_processed": 64
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -23,8 +24,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 582,
-      "detail_requests_attempted": 5
+      "active_count": 589,
+      "detail_requests_attempted": 8
     },
     {
       "id": "gsa-auctions",
@@ -49,7 +50,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 398
+      "active_count": 402
     },
     {
       "id": "sealed-vintage-media",
@@ -59,7 +60,7 @@
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 15
+      "active_count": 16
     },
     {
       "id": "vintage-pens",
@@ -69,7 +70,7 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 60
+      "active_count": 64
     },
     {
       "id": "glass-insulators",
