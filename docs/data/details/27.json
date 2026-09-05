@@ -8,7 +8,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -16,11 +16,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -166,33 +166,6 @@
       }
     ]
   },
-  "ctbids-48047-5585165": {
-    "item_id": "ctbids-48047-5585165",
-    "listing_url": "https://ctbids.com/estate-sale/48047/item/5585165/Capodimonte-Porcelain-Box",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5585165_bRgQyV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46753-5453275": {
     "item_id": "ctbids-46753-5453275",
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5453275/Vintage-F-B-Rogers-Silver-Company-Footed-Tea-Coffee-Pot-With-Original-Box",
@@ -213,6 +186,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48047-5585165": {
+    "item_id": "ctbids-48047-5585165",
+    "listing_url": "https://ctbids.com/estate-sale/48047/item/5585165/Capodimonte-Porcelain-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5585165_bRgQyV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -299,6 +299,31 @@
       }
     ]
   },
+  "ctbids-47576-5529164": {
+    "item_id": "ctbids-47576-5529164",
+    "listing_url": "https://ctbids.com/estate-sale/47576/item/5529164/Anna-Lee-Mice-And-Precious-Moments-Dolls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5529164_RY5AM0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275838696": {
     "item_id": "275838696",
     "listing_url": "https://shopgoodwill.com/item/275838696",
@@ -333,31 +358,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "6 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47576-5529164": {
-    "item_id": "ctbids-47576-5529164",
-    "listing_url": "https://ctbids.com/estate-sale/47576/item/5529164/Anna-Lee-Mice-And-Precious-Moments-Dolls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5529164_RY5AM0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
