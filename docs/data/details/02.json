@@ -308,7 +308,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -316,12 +315,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -501,7 +499,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -512,7 +510,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -633,33 +631,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47920/item/5562981/For-Fun-Too-Black-Hooded-Jacket-with-Zip-In-Liner-Size-M",
     "images": [
       "https://image.ctbids.com/seller/2026-08-26Tec9678/5562981_aUFj3e.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46165-5568740": {
-    "item_id": "ctbids-46165-5568740",
-    "listing_url": "https://ctbids.com/estate-sale/46165/item/5568740/Cobalt-Calcite-Necklace-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568740_l9PJrz.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1168,6 +1139,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47814/item/5569853/Skagen-Wristwatch-And-Watch-Box",
     "images": [
       "https://image.ctbids.com/seller/2026-08-27T3a0468/5569853_ry7kt6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46165-5568740": {
+    "item_id": "ctbids-46165-5568740",
+    "listing_url": "https://ctbids.com/estate-sale/46165/item/5568740/Cobalt-Calcite-Necklace-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568740_l9PJrz.webp"
     ],
     "description": "",
     "score_reasons": [
