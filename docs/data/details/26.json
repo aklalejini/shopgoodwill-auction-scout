@@ -97,6 +97,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'specimen' in description (+4)",
       "Opportunity term 'minerals' in description (+1)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -104,14 +105,44 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 11,
-        "relative_score": 0.367,
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in description (+4)",
           "Opportunity term 'minerals' in description (+1)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47684-5566884": {
+    "item_id": "ctbids-47684-5566884",
+    "listing_url": "https://ctbids.com/estate-sale/47684/item/5566884/Vintage-Rugs-Bedding-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5566884_MTyepL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -126,6 +157,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -133,37 +165,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47914-5567266": {
-    "item_id": "ctbids-47914-5567266",
-    "listing_url": "https://ctbids.com/estate-sale/47914/item/5567266/Fiesta-Bowls-Navy-Lot-Of-8",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5567266_hQmz1p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -176,33 +182,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47684/item/5531643/Vintage-Fiber-Optic-Rotating-Flower-light",
     "images": [
       "https://image.ctbids.com/seller/2026-08-18T75c795/5531643_r4QlEv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47684-5566884": {
-    "item_id": "ctbids-47684-5566884",
-    "listing_url": "https://ctbids.com/estate-sale/47684/item/5566884/Vintage-Rugs-Bedding-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5566884_MTyepL.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -252,15 +231,15 @@
       }
     ]
   },
-  "ctbids-46753-5515280": {
-    "item_id": "ctbids-46753-5515280",
-    "listing_url": "https://ctbids.com/estate-sale/46753/item/5515280/K-Gordy-Signed-Floral-Still-Life-Painting-2",
+  "ctbids-47914-5567266": {
+    "item_id": "ctbids-47914-5567266",
+    "listing_url": "https://ctbids.com/estate-sale/47914/item/5567266/Fiesta-Bowls-Navy-Lot-Of-8",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5515280_u3Om8J.webp"
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5567266_hQmz1p.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -268,10 +247,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -360,6 +339,114 @@
       }
     ]
   },
+  "ctbids-47898-5556537": {
+    "item_id": "ctbids-47898-5556537",
+    "listing_url": "https://ctbids.com/estate-sale/47898/item/5556537/2-Original-Paintings-By-Ken-Orton",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5556537_vha0z4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47814-5574631": {
+    "item_id": "ctbids-47814-5574631",
+    "listing_url": "https://ctbids.com/estate-sale/47814/item/5574631/2003-Deluxe-NFL-2-Pack-action-figure-set-from-the-McFarlane-Toys-Official-Site",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5574631_Db4oXe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47919-5565677": {
+    "item_id": "ctbids-47919-5565677",
+    "listing_url": "https://ctbids.com/estate-sale/47919/item/5565677/1990-Score-Future-Superstar-Eric-Lindros-440-NHL-Hockey-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/4950922_6J5Lrz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47919-5559851": {
+    "item_id": "ctbids-47919-5559851",
+    "listing_url": "https://ctbids.com/estate-sale/47919/item/5559851/1978-Topps-Rookie-2nd-Basemen-704-Lou-Whitaker-Rookie-PSA-6-EX-MT",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5273713_wQP64K.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46753-5576137": {
     "item_id": "ctbids-46753-5576137",
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5576137/Nancy-Lee-Daisy-Floral-Still-Life-Painting",
@@ -390,6 +477,31 @@
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5505431/C-Britt-St-Bernard-Dog-Portrait-Painting",
     "images": [
       "https://image.ctbids.com/seller/2026-08-11T3eb7de/5505431_Fj97lq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46753-5515280": {
+    "item_id": "ctbids-46753-5515280",
+    "listing_url": "https://ctbids.com/estate-sale/46753/item/5515280/K-Gordy-Signed-Floral-Still-Life-Painting-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5515280_u3Om8J.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -660,31 +772,6 @@
       }
     ]
   },
-  "ctbids-47898-5556537": {
-    "item_id": "ctbids-47898-5556537",
-    "listing_url": "https://ctbids.com/estate-sale/47898/item/5556537/2-Original-Paintings-By-Ken-Orton",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5556537_vha0z4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47814-5569344": {
     "item_id": "ctbids-47814-5569344",
     "listing_url": "https://ctbids.com/estate-sale/47814/item/5569344/2001-Upper-Deck-Tiger-Woods-Rookie-Card-1-5",
@@ -760,56 +847,6 @@
       }
     ]
   },
-  "ctbids-47814-5574631": {
-    "item_id": "ctbids-47814-5574631",
-    "listing_url": "https://ctbids.com/estate-sale/47814/item/5574631/2003-Deluxe-NFL-2-Pack-action-figure-set-from-the-McFarlane-Toys-Official-Site",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5574631_Db4oXe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47919-5565677": {
-    "item_id": "ctbids-47919-5565677",
-    "listing_url": "https://ctbids.com/estate-sale/47919/item/5565677/1990-Score-Future-Superstar-Eric-Lindros-440-NHL-Hockey-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/4950922_6J5Lrz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47287-5522283": {
     "item_id": "ctbids-47287-5522283",
     "listing_url": "https://ctbids.com/estate-sale/47287/item/5522283/House-By-Jeremanko-Seriagraph-No-169",
@@ -865,31 +902,6 @@
     "listing_url": "https://ctbids.com/estate-sale/46165/item/5570578/Blue-Botswana-Druzy-Slice-Ring-Size-7-5",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5570578_19Sk3B.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47919-5559851": {
-    "item_id": "ctbids-47919-5559851",
-    "listing_url": "https://ctbids.com/estate-sale/47919/item/5559851/1978-Topps-Rookie-2nd-Basemen-704-Lou-Whitaker-Rookie-PSA-6-EX-MT",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5273713_wQP64K.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1014,6 +1026,77 @@
       }
     ]
   },
+  "275895928": {
+    "item_id": "275895928",
+    "listing_url": "https://shopgoodwill.com/item/275895928",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/7232cc4a-9eaf-4291-a116-ad6f67cdf837nger_09011.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/a235ff13-6e42-4048-a634-5fa460c43a21nger_09012.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/25eef6b7-0b9a-4a0e-9b64-7ce1b92fe5e8nger_09013.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/60aada23-35ac-4c30-8036-9e3df4e7a817nger_09014.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/ff5e38db-cd9f-44d8-82b3-406a658689d9nger_09015.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/fc696d46-7dd4-495b-ad6b-ee3482df4b10nger_09016.jpg"
+    ],
+    "description": "Light purple amethyst geode. 6x4x5\" & 2.2 lbs. Would benefit from a good cleaning.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275944252": {
+    "item_id": "275944252",
+    "listing_url": "https://shopgoodwill.com/item/275944252",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Set of 4 assorted mineral specimens including two black and brown polished geode halves, one rough rose quartz crystal, and one blue agate geode labeled 'Made in Brazil.' These are natural mineral specimens, cut and polished on one side.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275961338": {
     "item_id": "275961338",
     "listing_url": "https://shopgoodwill.com/item/275961338",
@@ -1059,68 +1142,28 @@
       }
     ]
   },
-  "275895928": {
-    "item_id": "275895928",
-    "listing_url": "https://shopgoodwill.com/item/275895928",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/7232cc4a-9eaf-4291-a116-ad6f67cdf837nger_09011.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/a235ff13-6e42-4048-a634-5fa460c43a21nger_09012.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/25eef6b7-0b9a-4a0e-9b64-7ce1b92fe5e8nger_09013.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/60aada23-35ac-4c30-8036-9e3df4e7a817nger_09014.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/ff5e38db-cd9f-44d8-82b3-406a658689d9nger_09015.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-01/fc696d46-7dd4-495b-ad6b-ee3482df4b10nger_09016.jpg"
-    ],
-    "description": "Light purple amethyst geode. 6x4x5\" & 2.2 lbs. Would benefit from a good cleaning.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+9)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+9)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275944252": {
-    "item_id": "275944252",
-    "listing_url": "https://shopgoodwill.com/item/275944252",
+  "275964131": {
+    "item_id": "275964131",
+    "listing_url": "https://shopgoodwill.com/item/275964131",
     "images": [
       "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "Set of 4 assorted mineral specimens including two black and brown polished geode halves, one rough rose quartz crystal, and one blue agate geode labeled 'Made in Brazil.' These are natural mineral specimens, cut and polished on one side.",
+    "description": "This listing includes vintage Cross writing instruments featuring two pen sets in original Cross-branded boxes. The pens are 14K and 10K gold-filled as marked on the barrels, with weights of 16.9 grams for the 14K gold-filled pen and 36.7 grams for the 10K gold-filled two-pen set. Each pen has a slim design with a gold tone finish, black plastic end caps, and the Cross pocket clip. The pens are in very good condition with minimal wear and original Cross stickers on the clips. Cross is a well-known brand established in 1846, recognized for quality writing instruments.",
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+9)"
+      "Only 1 listing photo (-12)",
+      "Flat shipping is only $0.01 (+9)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 2,
+        "relative_score": 0.057,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+9)"
+          "Only 1 listing photo (-12)",
+          "Flat shipping is only $0.01 (+9)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1154,33 +1197,6 @@
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)",
           "Score boundary adjustment (+11)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275964131": {
-    "item_id": "275964131",
-    "listing_url": "https://shopgoodwill.com/item/275964131",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This listing includes vintage Cross writing instruments featuring two pen sets in original Cross-branded boxes. The pens are 14K and 10K gold-filled as marked on the barrels, with weights of 16.9 grams for the 14K gold-filled pen and 36.7 grams for the 10K gold-filled two-pen set. Each pen has a slim design with a gold tone finish, black plastic end caps, and the Cross pocket clip. The pens are in very good condition with minimal wear and original Cross stickers on the clips. Cross is a well-known brand established in 1846, recognized for quality writing instruments.",
-    "score_reasons": [
-      "Only 1 listing photo (-12)",
-      "Flat shipping is only $0.01 (+9)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 2,
-        "relative_score": 0.057,
-        "score_reasons": [
-          "Only 1 listing photo (-12)",
-          "Flat shipping is only $0.01 (+9)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }

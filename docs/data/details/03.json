@@ -18,6 +18,7 @@
       "Opportunity term 'lot' in description (+5)",
       "High-value signal 'yellow or olive glass color' in image color analysis (+22)",
       "High-value signal 'amber glass color' in image color analysis (+14)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -25,14 +26,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 55,
-        "relative_score": 1.833,
+        "score": 60,
+        "relative_score": 2.0,
         "score_reasons": [
           "Opportunity term 'unknown' in description (+7)",
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in description (+5)",
           "High-value signal 'yellow or olive glass color' in image color analysis (+22)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -304,33 +306,6 @@
       }
     ]
   },
-  "ctbids-47860-5573844": {
-    "item_id": "ctbids-47860-5573844",
-    "listing_url": "https://ctbids.com/estate-sale/47860/item/5573844/Vintage-decorative-hardstone-and-wire-flower-arrangement-in-a-cast-iron-cart-Brass-And-Hookah",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5573844_yWbrdx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46253-5553524": {
     "item_id": "ctbids-46253-5553524",
     "listing_url": "https://ctbids.com/estate-sale/46253/item/5553524/Bold-Stylish-Fashion-Accessories-Collection-with-Wallets-Wristlets-Belt-Bag-Leather-Gloves",
@@ -378,6 +353,33 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47860-5573844": {
+    "item_id": "ctbids-47860-5573844",
+    "listing_url": "https://ctbids.com/estate-sale/47860/item/5573844/Vintage-decorative-hardstone-and-wire-flower-arrangement-in-a-cast-iron-cart-Brass-And-Hookah",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5573844_yWbrdx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -444,6 +446,87 @@
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5498493/Framed-Pumpkin-Flower-Botanical-Artwork-29-x-27",
     "images": [
       "https://image.ctbids.com/seller/2026-08-08T8f1aa7/5498493_MTXZkF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47920-5562762": {
+    "item_id": "ctbids-47920-5562762",
+    "listing_url": "https://ctbids.com/estate-sale/47920/item/5562762/J-K-Decor-Carlsbad-Germany-Porcelain-Decorative-Plate-Approx-6",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5562762_Am82wJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47898-5567441": {
+    "item_id": "ctbids-47898-5567441",
+    "listing_url": "https://ctbids.com/estate-sale/47898/item/5567441/Porch-Oil-On-Canvas-By-Ken-Orton-2003-10x8",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5567441_DWdAuf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47864-5577983": {
+    "item_id": "ctbids-47864-5577983",
+    "listing_url": "https://ctbids.com/estate-sale/47864/item/5577983/1-6ct-Natural-Lapis-Lazuli-Cabochon",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577983_xZwJxi.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -641,31 +724,6 @@
       }
     ]
   },
-  "ctbids-47920-5562762": {
-    "item_id": "ctbids-47920-5562762",
-    "listing_url": "https://ctbids.com/estate-sale/47920/item/5562762/J-K-Decor-Carlsbad-Germany-Porcelain-Decorative-Plate-Approx-6",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5562762_Am82wJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47919-5577686": {
     "item_id": "ctbids-47919-5577686",
     "listing_url": "https://ctbids.com/estate-sale/47919/item/5577686/1998-Upper-Deck-International-Michael-Jordan-25-MJ-Stickers-CCG-Mint-9-5-Bulls",
@@ -691,61 +749,11 @@
       }
     ]
   },
-  "ctbids-47898-5567441": {
-    "item_id": "ctbids-47898-5567441",
-    "listing_url": "https://ctbids.com/estate-sale/47898/item/5567441/Porch-Oil-On-Canvas-By-Ken-Orton-2003-10x8",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5567441_DWdAuf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47684-5571766": {
     "item_id": "ctbids-47684-5571766",
     "listing_url": "https://ctbids.com/estate-sale/47684/item/5571766/Lusterware-Clock-Figurines-And-Other",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5571766_9XZUsl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47864-5577983": {
-    "item_id": "ctbids-47864-5577983",
-    "listing_url": "https://ctbids.com/estate-sale/47864/item/5577983/1-6ct-Natural-Lapis-Lazuli-Cabochon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577983_xZwJxi.webp"
     ],
     "description": "",
     "score_reasons": [

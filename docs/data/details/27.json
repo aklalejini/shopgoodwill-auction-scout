@@ -63,6 +63,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -70,11 +71,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -299,6 +301,33 @@
       }
     ]
   },
+  "ctbids-48014-5583394": {
+    "item_id": "ctbids-48014-5583394",
+    "listing_url": "https://ctbids.com/estate-sale/48014/item/5583394/Cuisinart-Grill-Cover-Heavy-Duty-60-Inch-Gas-Barbecue-Protector",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583394_W81ejx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46753-5498325": {
     "item_id": "ctbids-46753-5498325",
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5498325/Josef-Fruehmesser-Original-Landscape-Painting",
@@ -412,6 +441,33 @@
     "listing_url": "https://ctbids.com/estate-sale/46753/item/5525955/Jimnez-1910-Nieuport-Early-Aviation-Artwork",
     "images": [
       "https://image.ctbids.com/seller/2026-08-17T6f1578/5525955_puDIta.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47919-5559831": {
+    "item_id": "ctbids-47919-5559831",
+    "listing_url": "https://ctbids.com/estate-sale/47919/item/5559831/1987-Topps-550-Pete-Incaviglia-Rookie-Texas-Rangers-PSA-5-EX",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/4799511_cX42Gb.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -834,61 +890,11 @@
       }
     ]
   },
-  "ctbids-47919-5559831": {
-    "item_id": "ctbids-47919-5559831",
-    "listing_url": "https://ctbids.com/estate-sale/47919/item/5559831/1987-Topps-550-Pete-Incaviglia-Rookie-Texas-Rangers-PSA-5-EX",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/4799511_cX42Gb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47814-5574665": {
     "item_id": "ctbids-47814-5574665",
     "listing_url": "https://ctbids.com/estate-sale/47814/item/5574665/Riddell-NFL-Speed-full-size-Football-Helmet-featuring-the-Los-Angeles-Chargers-Flash-Edition-design",
     "images": [
       "https://image.ctbids.com/seller/2026-08-29T6ea83f/5574665_KknaH5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48014-5583394": {
-    "item_id": "ctbids-48014-5583394",
-    "listing_url": "https://ctbids.com/estate-sale/48014/item/5583394/Cuisinart-Grill-Cover-Heavy-Duty-60-Inch-Gas-Barbecue-Protector",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583394_W81ejx.webp"
     ],
     "description": "",
     "score_reasons": [
