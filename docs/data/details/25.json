@@ -239,7 +239,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -252,7 +252,7 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -511,6 +511,33 @@
       }
     ]
   },
+  "ctbids-48198-5602609": {
+    "item_id": "ctbids-48198-5602609",
+    "listing_url": "https://ctbids.com/estate-sale/48198/item/5602609/Recycled-Glass-Grape-Vine-Decorative-Bottle-Made-in-Spain-Cork-Stopper",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5593507_nlCwb7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275939659": {
     "item_id": "275939659",
     "listing_url": "https://shopgoodwill.com/item/275939659",
@@ -538,6 +565,60 @@
           "Generic estate tube lot may hide factory rebrands (+14)",
           "Shipping is calculated and not included in the price (-5)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46753-5505990": {
+    "item_id": "ctbids-46753-5505990",
+    "listing_url": "https://ctbids.com/estate-sale/46753/item/5505990/Lala-Foster-Signed-European-Street-Market-Painting",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-11T3eb7de/5505990_e9r2cf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46753-5432438": {
+    "item_id": "ctbids-46753-5432438",
+    "listing_url": "https://ctbids.com/estate-sale/46753/item/5432438/James-Williams-Original-Oil-Painting-Winter-Windmill-Scene",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-22T8d504b/5432438_sLx29F.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -634,60 +715,6 @@
           "Opportunity term 'rocks' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46753-5505990": {
-    "item_id": "ctbids-46753-5505990",
-    "listing_url": "https://ctbids.com/estate-sale/46753/item/5505990/Lala-Foster-Signed-European-Street-Market-Painting",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-11T3eb7de/5505990_e9r2cf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46753-5432438": {
-    "item_id": "ctbids-46753-5432438",
-    "listing_url": "https://ctbids.com/estate-sale/46753/item/5432438/James-Williams-Original-Oil-Painting-Winter-Windmill-Scene",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-22T8d504b/5432438_sLx29F.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -794,56 +821,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46753-5510925": {
-    "item_id": "ctbids-46753-5510925",
-    "listing_url": "https://ctbids.com/estate-sale/46753/item/5510925/Signed-original-8x10-Sandra-Cape-Hoppman-in-Frame",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-12T30cbc3/5510925_agQIu8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47886-5558495": {
-    "item_id": "ctbids-47886-5558495",
-    "listing_url": "https://ctbids.com/estate-sale/47886/item/5558495/Philip-Rivers-Official-NFL-Pro-Grip-Football-Autographed-by-Long-time-Star-NFL-Quarterback",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5558495_XvRxpA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1056,6 +1033,106 @@
     "listing_url": "https://ctbids.com/estate-sale/46165/item/5570708/Carnelian-Earrings",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5570708_0OTiNb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47287-5516021": {
+    "item_id": "ctbids-47287-5516021",
+    "listing_url": "https://ctbids.com/estate-sale/47287/item/5516021/Star-Wars-World-Premier-T-Shirt-With-Vader-Cuff-Links",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5516021_H69AMA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47854-5556377": {
+    "item_id": "ctbids-47854-5556377",
+    "listing_url": "https://ctbids.com/estate-sale/47854/item/5556377/Watches-Timex-Adventurer-Indigo-Arenix-Wood-Faced-Japan-Movement-Watch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5556377_UwTo3k.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47854-5556420": {
+    "item_id": "ctbids-47854-5556420",
+    "listing_url": "https://ctbids.com/estate-sale/47854/item/5556420/Men-s-ALLEN-EDMONDS-Size-9-5-Fairfax-Brogue-Oxford",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5556420_IZr1pd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47941-5572425": {
+    "item_id": "ctbids-47941-5572425",
+    "listing_url": "https://ctbids.com/estate-sale/47941/item/5572425/Simon-Garfunkel-Cat-Stevens",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5572425_86ngLA.webp"
     ],
     "description": "",
     "score_reasons": [
