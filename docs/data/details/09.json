@@ -147,6 +147,35 @@
       }
     ]
   },
+  "ctbids-44006-5412789": {
+    "item_id": "ctbids-44006-5412789",
+    "listing_url": "https://ctbids.com/estate-sale/44006/item/5412789/Sterling-Silver-Girly-Jewelry-Lot-22-6g",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-16T4ed209/5412789_PeLXex.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 23,
+        "relative_score": 0.676,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "274729632": {
     "item_id": "274729632",
     "listing_url": "https://shopgoodwill.com/item/274729632",
@@ -247,35 +276,6 @@
       }
     ]
   },
-  "ctbids-47894-5558271": {
-    "item_id": "ctbids-47894-5558271",
-    "listing_url": "https://ctbids.com/estate-sale/47894/item/5558271/Vintage-Collection-Of-Steak-Knives-Trays-Food-Picks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5558271_xqVaJL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47740-5565820": {
     "item_id": "ctbids-47740-5565820",
     "listing_url": "https://ctbids.com/estate-sale/47740/item/5565820/Vintage-Mid-Century-Drinkware-Collection",
@@ -363,65 +363,11 @@
       }
     ]
   },
-  "ctbids-47016-5545299": {
-    "item_id": "ctbids-47016-5545299",
-    "listing_url": "https://ctbids.com/estate-sale/47016/item/5545299/Boat-Anchers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545299_6jeFxk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47992-5572377": {
     "item_id": "ctbids-47992-5572377",
     "listing_url": "https://ctbids.com/estate-sale/47992/item/5572377/Vintage-Mesh-Back-Trucker-Hats-From-The-North-Carolina-Farm-Region",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5572377_hKAmRP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44006-5214547": {
-    "item_id": "ctbids-44006-5214547",
-    "listing_url": "https://ctbids.com/estate-sale/44006/item/5214547/Red-Venetian-Glass-With-Silver-Overlay-Vintage-Decanter-And-Glass-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-05-21T59fd69/5214547_6xlmWr.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -462,6 +408,141 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47016-5545299": {
+    "item_id": "ctbids-47016-5545299",
+    "listing_url": "https://ctbids.com/estate-sale/47016/item/5545299/Boat-Anchers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545299_6jeFxk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48025-5575740": {
+    "item_id": "ctbids-48025-5575740",
+    "listing_url": "https://ctbids.com/estate-sale/48025/item/5575740/European-Market-Street-Vendor-Cloth-Dolls-c-1940s-1960s",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5575740_OfzEUS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47861-5577678": {
+    "item_id": "ctbids-47861-5577678",
+    "listing_url": "https://ctbids.com/estate-sale/47861/item/5577678/Artisan-Shell-Sea-Glass-Fish-Jewelry-Assortment",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577678_H56ELp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44006-5214547": {
+    "item_id": "ctbids-44006-5214547",
+    "listing_url": "https://ctbids.com/estate-sale/44006/item/5214547/Red-Venetian-Glass-With-Silver-Overlay-Vintage-Decanter-And-Glass-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-05-21T59fd69/5214547_6xlmWr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47950-5556421": {
+    "item_id": "ctbids-47950-5556421",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5556421/vintage-Westmoreland-milk-glass-vase-in-the-Paneled-Grape-pattern",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5277273_CqhYzl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -544,60 +625,6 @@
       }
     ]
   },
-  "ctbids-48025-5575740": {
-    "item_id": "ctbids-48025-5575740",
-    "listing_url": "https://ctbids.com/estate-sale/48025/item/5575740/European-Market-Street-Vendor-Cloth-Dolls-c-1940s-1960s",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5575740_OfzEUS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47861-5577678": {
-    "item_id": "ctbids-47861-5577678",
-    "listing_url": "https://ctbids.com/estate-sale/47861/item/5577678/Artisan-Shell-Sea-Glass-Fish-Jewelry-Assortment",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5577678_H56ELp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47952-5572836": {
     "item_id": "ctbids-47952-5572836",
     "listing_url": "https://ctbids.com/estate-sale/47952/item/5572836/Mid-Century-Opalescent-Glazed-Ceramic-Nativity-Scene-with-Arched-Column-Stable",
@@ -673,6 +700,31 @@
       }
     ]
   },
+  "ctbids-48076-5578197": {
+    "item_id": "ctbids-48076-5578197",
+    "listing_url": "https://ctbids.com/estate-sale/48076/item/5578197/Rose-Quartz-Pearl-Necklace-Pair-Double-Strand-Floral-Statement-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5578197_2CrT6B.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275911160": {
     "item_id": "275911160",
     "listing_url": "https://shopgoodwill.com/item/275911160",
@@ -705,11 +757,11 @@
       }
     ]
   },
-  "ctbids-48076-5578197": {
-    "item_id": "ctbids-48076-5578197",
-    "listing_url": "https://ctbids.com/estate-sale/48076/item/5578197/Rose-Quartz-Pearl-Necklace-Pair-Double-Strand-Floral-Statement-Necklace",
+  "ctbids-46761-5566909": {
+    "item_id": "ctbids-46761-5566909",
+    "listing_url": "https://ctbids.com/estate-sale/46761/item/5566909/RLM-Robert-Lee-Morris-3-Sterling-Necklaces-and-3-Sterling-Pairs-of-Earrings",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5578197_2CrT6B.webp"
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5566909_GsG8sv.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -730,11 +782,11 @@
       }
     ]
   },
-  "ctbids-46761-5566909": {
-    "item_id": "ctbids-46761-5566909",
-    "listing_url": "https://ctbids.com/estate-sale/46761/item/5566909/RLM-Robert-Lee-Morris-3-Sterling-Necklaces-and-3-Sterling-Pairs-of-Earrings",
+  "ctbids-47950-5556415": {
+    "item_id": "ctbids-47950-5556415",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5556415/Continental-Tea-Product-Co-Oolong-Tea-Decorative-Tin",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5566909_GsG8sv.webp"
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5285947_X6PcRy.webp"
     ],
     "description": "",
     "score_reasons": [
