@@ -16,6 +16,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,13 +24,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 38,
-        "relative_score": 1.267,
+        "score": 43,
+        "relative_score": 1.433,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -159,6 +161,33 @@
       }
     ]
   },
+  "ctbids-47950-5562852": {
+    "item_id": "ctbids-47950-5562852",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5562852/David-Urso-Flower-Brooch-Sterling-Silver-or-White-Bronze",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562852_j1N72H.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275881528": {
     "item_id": "275881528",
     "listing_url": "https://shopgoodwill.com/item/275881528",
@@ -225,64 +254,6 @@
       }
     ]
   },
-  "ctbids-48093-5583112": {
-    "item_id": "ctbids-48093-5583112",
-    "listing_url": "https://ctbids.com/estate-sale/48093/item/5583112/Vintage-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583112_aWsXqR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48093-5583211": {
-    "item_id": "ctbids-48093-5583211",
-    "listing_url": "https://ctbids.com/estate-sale/48093/item/5583211/Vintage-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583211_RJYnjS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276249376": {
     "item_id": "276249376",
     "listing_url": "https://shopgoodwill.com/item/276249376",
@@ -328,89 +299,6 @@
       }
     ]
   },
-  "ctbids-48093-5583237": {
-    "item_id": "ctbids-48093-5583237",
-    "listing_url": "https://ctbids.com/estate-sale/48093/item/5583237/Vintage-ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583237_3DbHTp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48093-5583184": {
-    "item_id": "ctbids-48093-5583184",
-    "listing_url": "https://ctbids.com/estate-sale/48093/item/5583184/Vintage-necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583184_6fJbpn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48093-5583107": {
-    "item_id": "ctbids-48093-5583107",
-    "listing_url": "https://ctbids.com/estate-sale/48093/item/5583107/Vintage-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583107_ir55vR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276447805": {
     "item_id": "276447805",
     "listing_url": "https://shopgoodwill.com/item/276447805",
@@ -443,15 +331,16 @@
       }
     ]
   },
-  "ctbids-48093-5583257": {
-    "item_id": "ctbids-48093-5583257",
-    "listing_url": "https://ctbids.com/estate-sale/48093/item/5583257/Vintage-Brooch",
+  "ctbids-47894-5558459": {
+    "item_id": "ctbids-47894-5558459",
+    "listing_url": "https://ctbids.com/estate-sale/47894/item/5558459/Vintage-Dressmaker-Tailor-Shears-w-Leather-Sheath-Smith-s-Sharpening-Kit-Scissors",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583257_QOZOPA.webp"
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5558459_mJKMtZ.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -459,10 +348,40 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47894-5567086": {
+    "item_id": "ctbids-47894-5567086",
+    "listing_url": "https://ctbids.com/estate-sale/47894/item/5567086/Vintage-Lily-Baltimore-Travel-Case-With-Mirror",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5567086_I4gsKA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -490,60 +409,6 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47894-5558459": {
-    "item_id": "ctbids-47894-5558459",
-    "listing_url": "https://ctbids.com/estate-sale/47894/item/5558459/Vintage-Dressmaker-Tailor-Shears-w-Leather-Sheath-Smith-s-Sharpening-Kit-Scissors",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5558459_mJKMtZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47894-5567086": {
-    "item_id": "ctbids-47894-5567086",
-    "listing_url": "https://ctbids.com/estate-sale/47894/item/5567086/Vintage-Lily-Baltimore-Travel-Case-With-Mirror",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5567086_I4gsKA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -737,6 +602,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48075/item/5552932/Vintage-Ladies-Glory-Watch-Swiss-Made-17-Jewels",
     "images": [
       "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552932_h6GMXs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47619-5549600": {
+    "item_id": "ctbids-47619-5549600",
+    "listing_url": "https://ctbids.com/estate-sale/47619/item/5549600/Vintage-Metal-Kermit-The-Frog-In-Car",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5549600_5ENXHV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1136,6 +1028,38 @@
       }
     ]
   },
+  "276451644": {
+    "item_id": "276451644",
+    "listing_url": "https://shopgoodwill.com/item/276451644",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/0f63d098-8119-436d-b5a3-3f9bf88a1f15evel_09071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/4fc8ebfc-8ee3-4ba5-b8c0-2cef30f19bcdevel_09072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/971f04ca-150d-4b36-a238-ba63d8985b0eevel_09073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/7d2559a8-b989-43d1-8706-9770cd1f35a1evel_09074.jpg"
+    ],
+    "description": "This listing includes a variety of raw mineral and rock specimens. The lot appears to contain quartz, agate, and other unidentified mineral samples. These specimens are suitable for collectors, educational purposes, or geological study.",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "275695170": {
     "item_id": "275695170",
     "listing_url": "https://shopgoodwill.com/item/275695170",
@@ -1201,6 +1125,56 @@
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+31)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47631-5569767": {
+    "item_id": "ctbids-47631-5569767",
+    "listing_url": "https://ctbids.com/estate-sale/47631/item/5569767/Framed-Chinese-Quote-With-Carved-Stone-Seals",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5569767_igD30N.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47619-5549704": {
+    "item_id": "ctbids-47619-5549704",
+    "listing_url": "https://ctbids.com/estate-sale/47619/item/5549704/Hand-Carved-Wooden-Eagle-Sculpture-Perched-On-A-Tree-Stump-Block-Other-Items",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5549704_ooqV6R.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
