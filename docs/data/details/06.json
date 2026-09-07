@@ -37,7 +37,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -45,11 +45,38 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47929-5562395": {
+    "item_id": "ctbids-47929-5562395",
+    "listing_url": "https://ctbids.com/estate-sale/47929/item/5562395/Heisey-No-500-Antique-Art-Deco-Flamingo-Pink-Elegant-Glassware-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562395_n1E6yO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -88,33 +115,6 @@
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47929-5562395": {
-    "item_id": "ctbids-47929-5562395",
-    "listing_url": "https://ctbids.com/estate-sale/47929/item/5562395/Heisey-No-500-Antique-Art-Deco-Flamingo-Pink-Elegant-Glassware-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562395_n1E6yO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -255,6 +255,60 @@
       }
     ]
   },
+  "ctbids-47016-5494776": {
+    "item_id": "ctbids-47016-5494776",
+    "listing_url": "https://ctbids.com/estate-sale/47016/item/5494776/5-56-Nato-Ammo-62-Grain-Green-Tip-Penetrator-Lot-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5494776_mNIAfy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47561-5557166": {
+    "item_id": "ctbids-47561-5557166",
+    "listing_url": "https://ctbids.com/estate-sale/47561/item/5557166/HJC-Helmet-Size-M",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5557166_EvVQ3i.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48025-5576636": {
     "item_id": "ctbids-48025-5576636",
     "listing_url": "https://ctbids.com/estate-sale/48025/item/5576636/Vintage-Child-Chaps-Stirrups-Cartridge-Holder",
@@ -309,114 +363,6 @@
       }
     ]
   },
-  "ctbids-47016-5494776": {
-    "item_id": "ctbids-47016-5494776",
-    "listing_url": "https://ctbids.com/estate-sale/47016/item/5494776/5-56-Nato-Ammo-62-Grain-Green-Tip-Penetrator-Lot-1",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5494776_mNIAfy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47561-5551414": {
-    "item_id": "ctbids-47561-5551414",
-    "listing_url": "https://ctbids.com/estate-sale/47561/item/5551414/VillaWare-Skillet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5551414_i6QNaJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47561-5557166": {
-    "item_id": "ctbids-47561-5557166",
-    "listing_url": "https://ctbids.com/estate-sale/47561/item/5557166/HJC-Helmet-Size-M",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5557166_EvVQ3i.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47952-5585514": {
-    "item_id": "ctbids-47952-5585514",
-    "listing_url": "https://ctbids.com/estate-sale/47952/item/5585514/Political-Memoirs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5585514_b6nvaR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48076-5556942": {
     "item_id": "ctbids-48076-5556942",
     "listing_url": "https://ctbids.com/estate-sale/48076/item/5556942/Antique-Pins-Coins-Badges-With-Case-Emerald-Seas-Coin",
@@ -437,6 +383,33 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47561-5551414": {
+    "item_id": "ctbids-47561-5551414",
+    "listing_url": "https://ctbids.com/estate-sale/47561/item/5551414/VillaWare-Skillet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5551414_i6QNaJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -466,67 +439,6 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47561-5563623": {
-    "item_id": "ctbids-47561-5563623",
-    "listing_url": "https://ctbids.com/estate-sale/47561/item/5563623/Winter-Fantasy-Barbies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563623_uKxBh6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276409015": {
-    "item_id": "276409015",
-    "listing_url": "https://shopgoodwill.com/item/276409015",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/f4d51260-ca7e-4871-85e1-1bd2aa40c06aauer_09061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/0f053a2c-c3fa-4cfa-92e4-47aa290ec763auer_09062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/01ce67c8-0b8d-46f1-8880-c6549d3774afauer_09063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/cc0c19e3-a606-487c-ad2d-1e64be2998d3auer_09064.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/83c4d89b-adea-4f5b-a83e-a0bd31f1edd6auer_09065.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/20464902-b179-4f8f-b913-728589607b56auer_09066.jpg"
-    ],
-    "description": "Product Overview:\nRaw Amazonite mineral specimen with pale blue-green coloration featuring white and beige inclusions. The specimen is unpolished and maintains its natural crystalline form.\n\nSpecifications:\n- Color: Pale blue-green with white and beige inclusions\n- Finish: Natural, unpolished\n- Form: Mixed smooth faces and rough fractured surfaces\n- Size: Approximately 2 inches widest point\n- Brand: None (natural mineral)",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'mixed' in description (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'mixed' in description (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -607,6 +519,31 @@
       }
     ]
   },
+  "ctbids-47561-5563623": {
+    "item_id": "ctbids-47561-5563623",
+    "listing_url": "https://ctbids.com/estate-sale/47561/item/5563623/Winter-Fantasy-Barbies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563623_uKxBh6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48025-5567981": {
     "item_id": "ctbids-48025-5567981",
     "listing_url": "https://ctbids.com/estate-sale/48025/item/5567981/Kenton-Cast-Iron-Horse-Drawn-HANSOM-CAB-Toy-Carriage-With-Driver",
@@ -627,6 +564,67 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47952-5585514": {
+    "item_id": "ctbids-47952-5585514",
+    "listing_url": "https://ctbids.com/estate-sale/47952/item/5585514/Political-Memoirs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5585514_b6nvaR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276409015": {
+    "item_id": "276409015",
+    "listing_url": "https://shopgoodwill.com/item/276409015",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/f4d51260-ca7e-4871-85e1-1bd2aa40c06aauer_09061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/0f053a2c-c3fa-4cfa-92e4-47aa290ec763auer_09062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/01ce67c8-0b8d-46f1-8880-c6549d3774afauer_09063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/cc0c19e3-a606-487c-ad2d-1e64be2998d3auer_09064.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/83c4d89b-adea-4f5b-a83e-a0bd31f1edd6auer_09065.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/20464902-b179-4f8f-b913-728589607b56auer_09066.jpg"
+    ],
+    "description": "Product Overview:\nRaw Amazonite mineral specimen with pale blue-green coloration featuring white and beige inclusions. The specimen is unpolished and maintains its natural crystalline form.\n\nSpecifications:\n- Color: Pale blue-green with white and beige inclusions\n- Finish: Natural, unpolished\n- Form: Mixed smooth faces and rough fractured surfaces\n- Size: Approximately 2 inches widest point\n- Brand: None (natural mineral)",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'mixed' in description (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
