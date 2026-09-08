@@ -203,6 +203,7 @@
       "Opportunity term 'specimen' in description (+3)",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
       "Lower-priority term 'decor' in description (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -210,16 +211,46 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'vintage' in description (+5)",
           "Opportunity term 'specimen' in description (+3)",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Lower-priority term 'decor' in description (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47514-5520452": {
+    "item_id": "ctbids-47514-5520452",
+    "listing_url": "https://ctbids.com/estate-sale/47514/item/5520452/Extensive-Collection-of-Star-Trek-VHS-Tapes-Collector-s-Editions",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-16T707ecf/5520452_IWupMJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -245,33 +276,6 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47514-5520452": {
-    "item_id": "ctbids-47514-5520452",
-    "listing_url": "https://ctbids.com/estate-sale/47514/item/5520452/Extensive-Collection-of-Star-Trek-VHS-Tapes-Collector-s-Editions",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-16T707ecf/5520452_IWupMJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -387,6 +391,39 @@
       }
     ]
   },
+  "275785972": {
+    "item_id": "275785972",
+    "listing_url": "https://shopgoodwill.com/item/275785972",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/397d1ee6-c10e-4784-8399-0d670eb15c49onro_08311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/32682ab7-cd9e-4d48-b00b-c5f6eec9d527onro_08312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/74816700-879a-4af0-9f25-9d02734632d4onro_08313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/789bc15d-35a9-4144-aacf-7933875aa58fonro_08314.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b6a98dea-4db6-4f60-bf07-0a1bd56360d0onro_08315.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b7cea079-d290-4ec6-8122-0cee208f6adconro_08316.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/a4f356da-8803-4f95-9268-15acf3735796onro_08317.jpg"
+    ],
+    "description": "A vintage textured tobacco smoking pipe with a curved stem and dark finish. The pipe is marked with engraved text indicating its origin or manufacturer.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46761-5553503": {
     "item_id": "ctbids-46761-5553503",
     "listing_url": "https://ctbids.com/estate-sale/46761/item/5553503/Lot-of-4-Honora-Cultured-Freshwater-Pearl-Leather-Necklaces-and-1-Pearl-Leather-Bracelet",
@@ -407,6 +444,168 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44006-5215815": {
+    "item_id": "ctbids-44006-5215815",
+    "listing_url": "https://ctbids.com/estate-sale/44006/item/5215815/Jewish-Heritage-Hebrew-Jewelry-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-05-21T59fd69/5215815_F6BTBI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48221-5604439": {
+    "item_id": "ctbids-48221-5604439",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604439/Clear-Hobnail-Glass-Clamp-Lid-Storage-Canister-Bubble-Texture",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5599228_tCa6eL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47514-5520552": {
+    "item_id": "ctbids-47514-5520552",
+    "listing_url": "https://ctbids.com/estate-sale/47514/item/5520552/Lot-of-13-Die-Cast-Pull-Back-Toy-Cars-5-Vehicles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-16T707ecf/5520552_Ejlw4C.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48048-5586142": {
+    "item_id": "ctbids-48048-5586142",
+    "listing_url": "https://ctbids.com/estate-sale/48048/item/5586142/Welcome-to-the-Farm-Farmhouse-Metal-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5586142_3QYLAh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48221-5604551": {
+    "item_id": "ctbids-48221-5604551",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604551/Photograph-of-Father-James-St-Mary-s-Catholic-Church",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5543935_Rc6Dcs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48221-5604604": {
+    "item_id": "ctbids-48221-5604604",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604604/Mind-of-Mencia-Uncensored-Season-2-DVD-Comedy-Central-Carlos-Mencia-Box-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5602423_kJ5J8M.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -449,48 +648,15 @@
       }
     ]
   },
-  "275785972": {
-    "item_id": "275785972",
-    "listing_url": "https://shopgoodwill.com/item/275785972",
+  "ctbids-47950-5564691": {
+    "item_id": "ctbids-47950-5564691",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5564691/Alda-Watercolor-of-Geese-in-Flight-for-Ueberroth-Bethlehem-Pennsylvania",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/397d1ee6-c10e-4784-8399-0d670eb15c49onro_08311.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/32682ab7-cd9e-4d48-b00b-c5f6eec9d527onro_08312.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/74816700-879a-4af0-9f25-9d02734632d4onro_08313.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/789bc15d-35a9-4144-aacf-7933875aa58fonro_08314.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b6a98dea-4db6-4f60-bf07-0a1bd56360d0onro_08315.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/b7cea079-d290-4ec6-8122-0cee208f6adconro_08316.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/a4f356da-8803-4f95-9268-15acf3735796onro_08317.jpg"
-    ],
-    "description": "A vintage textured tobacco smoking pipe with a curved stem and dark finish. The pipe is marked with engraved text indicating its origin or manufacturer.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44006-5215815": {
-    "item_id": "ctbids-44006-5215815",
-    "listing_url": "https://ctbids.com/estate-sale/44006/item/5215815/Jewish-Heritage-Hebrew-Jewelry-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-05-21T59fd69/5215815_F6BTBI.webp"
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5564691_qLFIgK.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -498,10 +664,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -509,15 +675,15 @@
       }
     ]
   },
-  "ctbids-47514-5520552": {
-    "item_id": "ctbids-47514-5520552",
-    "listing_url": "https://ctbids.com/estate-sale/47514/item/5520552/Lot-of-13-Die-Cast-Pull-Back-Toy-Cars-5-Vehicles",
+  "ctbids-47419-5504131": {
+    "item_id": "ctbids-47419-5504131",
+    "listing_url": "https://ctbids.com/estate-sale/47419/item/5504131/Morrison-Knudsen-Co-Advertising-Piece",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-16T707ecf/5520552_Ejlw4C.webp"
+      "https://image.ctbids.com/seller/2026-08-10T5403a6/5504131_Wf4cNz.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -525,10 +691,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -566,56 +732,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47631/item/5573667/11-Piece-Carved-Nativity-Set",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5573667_ntbY2Z.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47950-5564691": {
-    "item_id": "ctbids-47950-5564691",
-    "listing_url": "https://ctbids.com/estate-sale/47950/item/5564691/Alda-Watercolor-of-Geese-in-Flight-for-Ueberroth-Bethlehem-Pennsylvania",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5564691_qLFIgK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48221-5604439": {
-    "item_id": "ctbids-48221-5604439",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604439/Clear-Hobnail-Glass-Clamp-Lid-Storage-Canister-Bubble-Texture",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5599228_tCa6eL.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -761,31 +877,6 @@
       }
     ]
   },
-  "ctbids-48048-5586142": {
-    "item_id": "ctbids-48048-5586142",
-    "listing_url": "https://ctbids.com/estate-sale/48048/item/5586142/Welcome-to-the-Farm-Farmhouse-Metal-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5586142_3QYLAh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48107-5585972": {
     "item_id": "ctbids-48107-5585972",
     "listing_url": "https://ctbids.com/estate-sale/48107/item/5585972/1914-D-10-Cent-Barber-Dime-Uncirculated-Rare-Coin",
@@ -836,31 +927,6 @@
       }
     ]
   },
-  "ctbids-48221-5604551": {
-    "item_id": "ctbids-48221-5604551",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604551/Photograph-of-Father-James-St-Mary-s-Catholic-Church",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5543935_Rc6Dcs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47866-5602696": {
     "item_id": "ctbids-47866-5602696",
     "listing_url": "https://ctbids.com/estate-sale/47866/item/5602696/Animal-Pins-And-More",
@@ -891,56 +957,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47661/item/5593425/Snowman-Christmas",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5593425_E73a2X.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48221-5604604": {
-    "item_id": "ctbids-48221-5604604",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604604/Mind-of-Mencia-Uncensored-Season-2-DVD-Comedy-Central-Carlos-Mencia-Box-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5602423_kJ5J8M.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47419-5504131": {
-    "item_id": "ctbids-47419-5504131",
-    "listing_url": "https://ctbids.com/estate-sale/47419/item/5504131/Morrison-Knudsen-Co-Advertising-Piece",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-10T5403a6/5504131_Wf4cNz.webp"
     ],
     "description": "",
     "score_reasons": [

@@ -14,6 +14,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+5)"
     ],
@@ -21,13 +22,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 51,
-        "relative_score": 1.7,
+        "score": 56,
+        "relative_score": 1.867,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+5)"
         ],
@@ -52,6 +54,7 @@
       "Opportunity term 'specimen' in title (+4)",
       "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
       "Target keyword 'beryl' in description (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -59,14 +62,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 25,
-        "relative_score": 0.833,
+        "score": 27,
+        "relative_score": 0.9,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'specimen' in title (+4)",
           "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
           "Target keyword 'beryl' in description (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -193,6 +197,33 @@
       }
     ]
   },
+  "ctbids-47950-5558617": {
+    "item_id": "ctbids-47950-5558617",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5558617/Antique-China-Dishes-Feat-Davenport",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5558617_eF837M.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48076-5579391": {
     "item_id": "ctbids-48076-5579391",
     "listing_url": "https://ctbids.com/estate-sale/48076/item/5579391/Assorted-Vintage-Collectibles-Penguin-Avon-Wrigley",
@@ -240,33 +271,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47950-5558617": {
-    "item_id": "ctbids-47950-5558617",
-    "listing_url": "https://ctbids.com/estate-sale/47950/item/5558617/Antique-China-Dishes-Feat-Davenport",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5558617_eF837M.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -323,6 +327,119 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48221-5605463": {
+    "item_id": "ctbids-48221-5605463",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5605463/IKEA-Set-of-4-Glass-Floral-Mugs-Turquoise-Yellow-Retro-Daisy-Flower-Coffee-Cups",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5605463_og74ex.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44006-5440820": {
+    "item_id": "ctbids-44006-5440820",
+    "listing_url": "https://ctbids.com/estate-sale/44006/item/5440820/Glass-Squirrel-Figurines-Bookends-Barth-Leo-Ward-Blue-Bird",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-23T430735/5440820_KSvZgi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47104-5552657": {
+    "item_id": "ctbids-47104-5552657",
+    "listing_url": "https://ctbids.com/estate-sale/47104/item/5552657/Ambi-Toys-Spinnerscope-Box-Toy-1970s",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552657_w4D5uo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276475265": {
+    "item_id": "276475265",
+    "listing_url": "https://shopgoodwill.com/item/276475265",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/b5644c1f-db2b-448c-aed9-b9ef8996201fie88_09071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/cecc8b7b-3e9a-45e8-aad7-705004c9f5c4ie88_09072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/4ac9f33d-0aa4-4f9d-af02-542a7c2b1483ie88_09073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/40c16a20-fd87-4107-8213-c99368aa9b43ie88_09074.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/e5ccf2e2-49eb-436d-98c4-ffeecc531ee3ie88_09075.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/e3c57f8f-70ed-4f91-93c8-4dda6e671b36ie88_09076.jpg"
+    ],
+    "description": "3 Vintage Pens IOB; Cross + Garland\n*Not tested\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -403,38 +520,6 @@
       }
     ]
   },
-  "276475265": {
-    "item_id": "276475265",
-    "listing_url": "https://shopgoodwill.com/item/276475265",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/b5644c1f-db2b-448c-aed9-b9ef8996201fie88_09071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/cecc8b7b-3e9a-45e8-aad7-705004c9f5c4ie88_09072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/4ac9f33d-0aa4-4f9d-af02-542a7c2b1483ie88_09073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/40c16a20-fd87-4107-8213-c99368aa9b43ie88_09074.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/e5ccf2e2-49eb-436d-98c4-ffeecc531ee3ie88_09075.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-07/e3c57f8f-70ed-4f91-93c8-4dda6e671b36ie88_09076.jpg"
-    ],
-    "description": "3 Vintage Pens IOB; Cross + Garland\n*Not tested\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46761-5579525": {
     "item_id": "ctbids-46761-5579525",
     "listing_url": "https://ctbids.com/estate-sale/46761/item/5579525/American-Girl-Doll-Rebecca-NIB",
@@ -465,56 +550,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47629/item/5595382/Art-Glass-Bowl-Chamber-Pot-Makeup-Mirror-More",
     "images": [
       "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5595382_ntMu1D.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48221-5605463": {
-    "item_id": "ctbids-48221-5605463",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5605463/IKEA-Set-of-4-Glass-Floral-Mugs-Turquoise-Yellow-Retro-Daisy-Flower-Coffee-Cups",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5605463_og74ex.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44006-5440820": {
-    "item_id": "ctbids-44006-5440820",
-    "listing_url": "https://ctbids.com/estate-sale/44006/item/5440820/Glass-Squirrel-Figurines-Bookends-Barth-Leo-Ward-Blue-Bird",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-23T430735/5440820_KSvZgi.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -715,31 +750,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47686/item/5554948/Ashton-Drake-Galleries-Yolanda-s-Heaven-Sent-Babies-Lily-And-Daisy-Ann",
     "images": [
       "https://image.ctbids.com/seller/2026-08-25T50453d/5554948_zhyH36.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47104-5552657": {
-    "item_id": "ctbids-47104-5552657",
-    "listing_url": "https://ctbids.com/estate-sale/47104/item/5552657/Ambi-Toys-Spinnerscope-Box-Toy-1970s",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-24T1d8b86/5552657_w4D5uo.webp"
     ],
     "description": "",
     "score_reasons": [

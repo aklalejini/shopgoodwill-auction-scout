@@ -61,6 +61,7 @@
     "score_reasons": [
       "High-value signal 'strong blue glass color' in image color analysis (+20)",
       "High-value signal 'amber glass color' in image color analysis (+14)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -68,11 +69,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 35,
-        "relative_score": 1.167,
+        "score": 37,
+        "relative_score": 1.233,
         "score_reasons": [
           "High-value signal 'strong blue glass color' in image color analysis (+20)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -242,6 +244,37 @@
       }
     ]
   },
+  "ctbids-44006-5440369": {
+    "item_id": "ctbids-44006-5440369",
+    "listing_url": "https://ctbids.com/estate-sale/44006/item/5440369/Hat-Pin-Lot-2-Vintage-And-Antique-Jasper-Crystal-Limoges-Holder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-23T430735/5440369_GPktUJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 17,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276339472": {
     "item_id": "276339472",
     "listing_url": "https://shopgoodwill.com/item/276339472",
@@ -272,37 +305,6 @@
           "Only 1 listing photo (-12)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44006-5440369": {
-    "item_id": "ctbids-44006-5440369",
-    "listing_url": "https://ctbids.com/estate-sale/44006/item/5440369/Hat-Pin-Lot-2-Vintage-And-Antique-Jasper-Crystal-Limoges-Holder",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-23T430735/5440369_GPktUJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 17,
-        "relative_score": 0.5,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -346,6 +348,64 @@
         "matched_keywords": [
           "montblanc"
         ]
+      }
+    ]
+  },
+  "ctbids-47373-5547044": {
+    "item_id": "ctbids-47373-5547044",
+    "listing_url": "https://ctbids.com/estate-sale/47373/item/5547044/Vintage-Toys-80s-Clickets-Magnetic-Lunt-Ave-Marble-Club-Firebirds-Promo-Restaurant",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5547044_Mtxpsv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47514-5515560": {
+    "item_id": "ctbids-47514-5515560",
+    "listing_url": "https://ctbids.com/estate-sale/47514/item/5515560/Military-Patriotic-Travel-Themed-Adjustable-Baseball-Cap-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5515560_punslA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -472,33 +532,6 @@
       }
     ]
   },
-  "ctbids-47514-5515560": {
-    "item_id": "ctbids-47514-5515560",
-    "listing_url": "https://ctbids.com/estate-sale/47514/item/5515560/Military-Patriotic-Travel-Themed-Adjustable-Baseball-Cap-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5515560_punslA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47686-5579601": {
     "item_id": "ctbids-47686-5579601",
     "listing_url": "https://ctbids.com/estate-sale/47686/item/5579601/Modern-Vintage-Indigenous-Inspired-Jewelry-Variety",
@@ -526,15 +559,15 @@
       }
     ]
   },
-  "ctbids-47373-5547044": {
-    "item_id": "ctbids-47373-5547044",
-    "listing_url": "https://ctbids.com/estate-sale/47373/item/5547044/Vintage-Toys-80s-Clickets-Magnetic-Lunt-Ave-Marble-Club-Firebirds-Promo-Restaurant",
+  "ctbids-48221-5604437": {
+    "item_id": "ctbids-48221-5604437",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604437/Pushing-Daisies-Pie-Hole-Promotional-DVD-Case-Prop-Style-Collectible",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5547044_Mtxpsv.webp"
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5602446_uA3HdP.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -542,10 +575,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -580,11 +613,74 @@
       }
     ]
   },
+  "275936448": {
+    "item_id": "275936448",
+    "listing_url": "https://shopgoodwill.com/item/275936448",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/28f71f84-93c6-4b04-825c-a0394d03f9edie88_08251.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/f0ea9dd4-b52d-462a-8b6d-c1b2739c1d0eie88_08252.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/0046fdb1-8f2c-4bfa-a7aa-feba99253576ie88_08253.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/fbec6fc5-a058-4048-ba65-855497c8b1dfie88_08254.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/c7cf8788-9048-4b62-ac7d-1f8c9ee215faie88_08255.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/29c6f3a6-7d25-4dff-b48f-375abb4ec80fie88_08256.jpg"
+    ],
+    "description": "4 Vintage John Hancock Grand Cayman Island Marble/Mineral Drink Coasters IOB\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "$5.00 handling charge (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "$5.00 handling charge (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47958-5590482": {
     "item_id": "ctbids-47958-5590482",
     "listing_url": "https://ctbids.com/estate-sale/47958/item/5590482/2007-Founding-Jamestown-Silver-Dollar",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5590482_d4zoyY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47950-5556252": {
+    "item_id": "ctbids-47950-5556252",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5556252/Summer-Morning-By-Anthony-Thieme-Print",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/4867087_wwp4Qs.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -682,31 +778,6 @@
       }
     ]
   },
-  "ctbids-47950-5556252": {
-    "item_id": "ctbids-47950-5556252",
-    "listing_url": "https://ctbids.com/estate-sale/47950/item/5556252/Summer-Morning-By-Anthony-Thieme-Print",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/4867087_wwp4Qs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47514-5233043": {
     "item_id": "ctbids-47514-5233043",
     "listing_url": "https://ctbids.com/estate-sale/47514/item/5233043/NEW-Five-West-Paw-Dog-Toy-Sets-Made-with-Recycled-Ocean-Bound-Plastic",
@@ -762,31 +833,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47606/item/5565781/Waterford-Bottle-Coaster",
     "images": [
       "https://image.ctbids.com/seller/2026-08-27T3a0468/5565781_KBm46d.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48221-5604437": {
-    "item_id": "ctbids-48221-5604437",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604437/Pushing-Daisies-Pie-Hole-Promotional-DVD-Case-Prop-Style-Collectible",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5602446_uA3HdP.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -932,40 +978,6 @@
       }
     ]
   },
-  "275936448": {
-    "item_id": "275936448",
-    "listing_url": "https://shopgoodwill.com/item/275936448",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/28f71f84-93c6-4b04-825c-a0394d03f9edie88_08251.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/f0ea9dd4-b52d-462a-8b6d-c1b2739c1d0eie88_08252.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/0046fdb1-8f2c-4bfa-a7aa-feba99253576ie88_08253.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/fbec6fc5-a058-4048-ba65-855497c8b1dfie88_08254.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/c7cf8788-9048-4b62-ac7d-1f8c9ee215faie88_08255.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-08-25/29c6f3a6-7d25-4dff-b48f-375abb4ec80fie88_08256.jpg"
-    ],
-    "description": "4 Vintage John Hancock Grand Cayman Island Marble/Mineral Drink Coasters IOB\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Shipping is calculated and not included in the price (-6)",
-      "$5.00 handling charge (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Shipping is calculated and not included in the price (-6)",
-          "$5.00 handling charge (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47950-5558381": {
     "item_id": "ctbids-47950-5558381",
     "listing_url": "https://ctbids.com/estate-sale/47950/item/5558381/Metal-Vintage-Sylvester-The-Cat-Looney-Tubes-Figurine",
@@ -1000,6 +1012,37 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276221751": {
+    "item_id": "276221751",
+    "listing_url": "https://shopgoodwill.com/item/276221751",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis listing features vintage glass electrical insulators made from aqua and blue-green glass. They have embossed markings including 'PATENTED MAY 2 1893' and 'HEMINGRAY-16'.\n\nSpecifications:\n- Material: Glass\n- Colors: Aqua, Blue-Green\n- Markings: PATENTED MAY 2 1893, HEMINGRAY-16\n- Condition: Used with surface scratches and minor signs of wear\n- No significant chips or cracks visible",
+    "score_reasons": [
+      "0 bids near close (+5)",
+      "Only 1 listing photo (-12)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "0 bids near close (+5)",
+          "Only 1 listing photo (-12)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }
@@ -1123,30 +1166,34 @@
       }
     ]
   },
-  "276221751": {
-    "item_id": "276221751",
-    "listing_url": "https://shopgoodwill.com/item/276221751",
+  "276565385": {
+    "item_id": "276565385",
+    "listing_url": "https://shopgoodwill.com/item/276565385",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-08/971fabc8-555a-4045-b3e9-e69275cfbaacuirk_09081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-08/7fef0af9-1354-48f7-a36d-b664155f2992uirk_09082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-08/3b4b0e97-cb4a-480f-93e3-c7ec88942ea5uirk_09083.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-08/9fafd80b-c02e-4aa6-a641-25e5b76ec548uirk_09084.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-08/6df5bab8-42f7-47ce-9245-eec7781315a1uirk_09085.jpg"
     ],
-    "description": "Product Overview:\nThis listing features vintage glass electrical insulators made from aqua and blue-green glass. They have embossed markings including 'PATENTED MAY 2 1893' and 'HEMINGRAY-16'.\n\nSpecifications:\n- Material: Glass\n- Colors: Aqua, Blue-Green\n- Markings: PATENTED MAY 2 1893, HEMINGRAY-16\n- Condition: Used with surface scratches and minor signs of wear\n- No significant chips or cracks visible",
+    "description": "Item Description:\n12\" Selenite Crystal Tower\nApproximate Dimensions:\n5\" x 5\" x 12\"\nCondition:\nUsed Condition\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us using the \"Contact Seller\" tab in listing.\nWe describe our items to the best of our ability and try to incorporate as much research as possible, however, we are not experts in any field. Electronics are \"POWER TESTED ONLY\" and have\nNOT\nbeen function tested unless otherwise noted.\nGoodwill Industries of Ashtabula Inc. is changing lives through the power of work.\n**PLEASE NOTE** If the item is seasonal, it may be returned within 7 days of purchase BEFORE the holiday. If it is after the holiday, the return will NOT be processed.\nCustomer Service:\nOur Customer Service Department is accessible via the \"Contact Us\" link above. Customer messages are processed Monday through Friday between 8:00am to 4:00pm EST. We strive to respond to all customer messages within 48 hours.\nPayment:\nAuctions are easily and securely paid online using PayPal or Stripe. All major credit cards are accepted and processed through both. We cannot accept cash, checks or money orders. Effective 2020; Invoices include state sales tax on all orders, which is calculated using the total of the purchase price, handling, and shipping charges.",
     "score_reasons": [
-      "Only 1 listing photo (-12)",
-      "Shipping is calculated and not included in the price (-4)",
+      "Lower-priority term 'tower' in title (-5)",
+      "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+11)"
+      "Score boundary adjustment (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 0,
         "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-12)",
-          "Shipping is calculated and not included in the price (-4)",
+          "Lower-priority term 'tower' in title (-5)",
+          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+11)"
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }

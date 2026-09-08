@@ -54,6 +54,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -61,13 +62,45 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44006-5440426": {
+    "item_id": "ctbids-44006-5440426",
+    "listing_url": "https://ctbids.com/estate-sale/44006/item/5440426/Hat-Pin-Lot-3-Vintage-Antique-Jet-Glass-Limoges-Holder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-23T430735/5440426_E1uCi9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 17,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -110,17 +143,17 @@
       }
     ]
   },
-  "ctbids-44006-5440426": {
-    "item_id": "ctbids-44006-5440426",
-    "listing_url": "https://ctbids.com/estate-sale/44006/item/5440426/Hat-Pin-Lot-3-Vintage-Antique-Jet-Glass-Limoges-Holder",
+  "ctbids-48221-5604616": {
+    "item_id": "ctbids-48221-5604616",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604616/Vintage-Oakland-Raiders-Glass-Beer-Mug-Football-Shaped-Drinking-Glass-NFL-Lot-of-2",
     "images": [
-      "https://image.ctbids.com/seller/2026-07-23T430735/5440426_E1uCi9.webp"
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5603897_dJPbXg.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -128,12 +161,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 17,
-        "relative_score": 0.5,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -170,35 +203,6 @@
       }
     ]
   },
-  "ctbids-48221-5604616": {
-    "item_id": "ctbids-48221-5604616",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604616/Vintage-Oakland-Raiders-Glass-Beer-Mug-Football-Shaped-Drinking-Glass-NFL-Lot-of-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5603897_dJPbXg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47950-5563153": {
     "item_id": "ctbids-47950-5563153",
     "listing_url": "https://ctbids.com/estate-sale/47950/item/5563153/1891-Music-in-Its-Relation-to-Intellectual-Life-Romanticism-in-Music-Antique-Hardcover-Book",
@@ -223,6 +227,78 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47686-5579562": {
+    "item_id": "ctbids-47686-5579562",
+    "listing_url": "https://ctbids.com/estate-sale/47686/item/5579562/Vintage-Rustic-Decor-Variety",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5579562_bzWNCp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276214913": {
+    "item_id": "276214913",
+    "listing_url": "https://shopgoodwill.com/item/276214913",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of collectible gemstones and minerals, including polished and raw stones, geode slices, and small glass jars with labeled crystal chips. The jars are labeled with names such as Amethyst, Rose Quartz, Aventurine, Moonstone, Unakite, Strawberry Crystal, Labradorite, Chitlonite, and Colored Fluorite. The geode slices include teal and gray specimens. The collection features a wide range of colors and types.\n\nSpecifications:\n- Includes polished and raw gemstones and minerals\n- Small glass jars containing labeled crystal chips\n- Geode slices in teal and gray colors\n- Various gemstone types such as Amethyst, Rose Quartz, Aventurine, Moonstone, Unakite, Strawberry Crystal, Labradorite, Chitlonite, Colored Fluorite\n- Approximate total weight: 5 lbs",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Target keyword 'fluorite' in description (+9)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Target keyword 'fluorite' in description (+9)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
       }
     ]
   },
@@ -302,42 +378,6 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276020628": {
-    "item_id": "276020628",
-    "listing_url": "https://shopgoodwill.com/item/276020628",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/d092ba11-55d7-4aaa-95ce-5f44bbdd6715oung_09021.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/99128a9d-5fa7-4fc1-a9a3-e37645a2a5c6oung_09022.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/78902cac-81a7-4496-90df-990a4400a07aoung_09023.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/2ceb02f1-dd79-4d3d-8558-a1c82a1c1884oung_09024.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/5be06d61-fd6d-4a62-869c-f068b70556f8oung_09025.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/7a534e3f-b3a7-4b92-b7a6-a234005f6192oung_09026.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/eb16fa97-840a-43b2-bf4d-2078a4fbf61coung_09027.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/6c0327fe-213e-4322-b54a-e2eed26606dboung_09028.jpg"
-    ],
-    "description": "Title\n: Vintage CBS Tubes Blue Service Caddy\nCondition\n: Used\nBrand\n: CBS\nType\n: service caddy\nFeatures\n: multiple shelves, carry handle\nNumber of items\n: 1\nNumber of drawers\n: 0\nMaterial\n: wood\nSize\n: 16.6x16.4x11.4\nMpn\n: Not Applicable\nColor\n: blue\nFinish\n: matte\nCbs Blue wood service caddy vintage tube storage case\nCondition:\nUsed\nLength:\n16.6 inches\nWidth:\n16.4 inches\nHeight:\n11.4 inches\nWeight:\n13.3 pounds\nTested:\nNot Tested",
-    "score_reasons": [
-      "Lower-priority term 'used' in description (-4)",
-      "Generic estate tube lot may hide factory rebrands (+14)",
-      "Shipping is calculated and not included in the price (-5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 10,
-        "relative_score": 0.312,
-        "score_reasons": [
-          "Lower-priority term 'used' in description (-4)",
-          "Generic estate tube lot may hide factory rebrands (+14)",
-          "Shipping is calculated and not included in the price (-5)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -424,11 +464,11 @@
       }
     ]
   },
-  "ctbids-47686-5579562": {
-    "item_id": "ctbids-47686-5579562",
-    "listing_url": "https://ctbids.com/estate-sale/47686/item/5579562/Vintage-Rustic-Decor-Variety",
+  "ctbids-47373-5547013": {
+    "item_id": "ctbids-47373-5547013",
+    "listing_url": "https://ctbids.com/estate-sale/47373/item/5547013/Vintage-1991-GI-Joe-Patriot-Combat-Tank-Vehicle-Hasbro-G1-Desert-Camo-Toy-Action-Figure",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5579562_bzWNCp.webp"
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5547013_1uANu6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -451,15 +491,84 @@
       }
     ]
   },
-  "ctbids-47373-5547013": {
-    "item_id": "ctbids-47373-5547013",
-    "listing_url": "https://ctbids.com/estate-sale/47373/item/5547013/Vintage-1991-GI-Joe-Patriot-Combat-Tank-Vehicle-Hasbro-G1-Desert-Camo-Toy-Action-Figure",
+  "276020628": {
+    "item_id": "276020628",
+    "listing_url": "https://shopgoodwill.com/item/276020628",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5547013_1uANu6.webp"
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/d092ba11-55d7-4aaa-95ce-5f44bbdd6715oung_09021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/99128a9d-5fa7-4fc1-a9a3-e37645a2a5c6oung_09022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/78902cac-81a7-4496-90df-990a4400a07aoung_09023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/2ceb02f1-dd79-4d3d-8558-a1c82a1c1884oung_09024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/5be06d61-fd6d-4a62-869c-f068b70556f8oung_09025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/7a534e3f-b3a7-4b92-b7a6-a234005f6192oung_09026.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/eb16fa97-840a-43b2-bf4d-2078a4fbf61coung_09027.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-02/6c0327fe-213e-4322-b54a-e2eed26606dboung_09028.jpg"
+    ],
+    "description": "Title\n: Vintage CBS Tubes Blue Service Caddy\nCondition\n: Used\nBrand\n: CBS\nType\n: service caddy\nFeatures\n: multiple shelves, carry handle\nNumber of items\n: 1\nNumber of drawers\n: 0\nMaterial\n: wood\nSize\n: 16.6x16.4x11.4\nMpn\n: Not Applicable\nColor\n: blue\nFinish\n: matte\nCbs Blue wood service caddy vintage tube storage case\nCondition:\nUsed\nLength:\n16.6 inches\nWidth:\n16.4 inches\nHeight:\n11.4 inches\nWeight:\n13.3 pounds\nTested:\nNot Tested",
+    "score_reasons": [
+      "Lower-priority term 'used' in description (-4)",
+      "Generic estate tube lot may hide factory rebrands (+14)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 10,
+        "relative_score": 0.312,
+        "score_reasons": [
+          "Lower-priority term 'used' in description (-4)",
+          "Generic estate tube lot may hide factory rebrands (+14)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275891232": {
+    "item_id": "275891232",
+    "listing_url": "https://shopgoodwill.com/item/275891232",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07261.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07262.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07263.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07264.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07265.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07266.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07267.png"
+    ],
+    "description": "Goodwill Industries of Northeast Iowa, Inc.\nDESCRIPTION:\nNatural Blue Agate Geode Slice Shadow Box Wall Decoration 16x16\nYear of Manufacture: 2019\nNumber of Items: 1\nMaterial: Various\nMeasurements: See Photos\nCONDITION:\nAll items are in pre-owned condition, unless otherwise noted herein. They may show signs of wear, including, but not limited to, dust, scuffs, dents, soiling, tarnish, cracks, chips, crazing, fading, discoloration, stains, etc.\nAuthenticity is not guaranteed. Unless otherwise stated, items have not been authenticated or certified by a specialist. Items do not come with official certificates and will not include documentation. We try to incorporate as much research as we can, but we are not experts in any field. You are bidding with this knowledge in mind.\nThe condition descriptions marked by an \"X\" is/are applicable to this item:\n_x_ Good - Looks to be in good shape, shows minimal wear. May have some dirtiness.\n__ Fair\n__ Poor\n__ Damaged\nTESTINGS:\nIf applicable, will be noted below:\n__ Untested\n: This item is being sold untested. It may or may not be functional and is not eligible for return or refund if the item is found to be non-functional. You are bidding with this knowledge in mind.\n__ Tested\n: To the best of our limited knowledge, this item has been tested and found to be in working order. This does not ensure that the item has been fully tested, however. Please read through the description for a better understanding of what functions have been tested.\n__ Tested Not Working\n: This item was tested and is not working.\nIMPORTANT:\nWe do not retract bids, nor do we cancel un-paid for items. Winners who abandon their auction wins will be considered in default. Failure to pay can result in having your account inactivated due to non-payment.",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47732-5552286": {
+    "item_id": "ctbids-47732-5552286",
+    "listing_url": "https://ctbids.com/estate-sale/47732/item/5552286/Dragon-Fly-Lovers-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5552286_n8H1Qh.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -467,10 +576,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48221-5604523": {
+    "item_id": "ctbids-48221-5604523",
+    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604523/CRUX-Artisan-Series-5-Cup-Coffee-Maker-with-Glass-Carafe",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5261858_CI5jLv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -512,100 +648,38 @@
       }
     ]
   },
-  "275891232": {
-    "item_id": "275891232",
-    "listing_url": "https://shopgoodwill.com/item/275891232",
+  "ctbids-48076-5555794": {
+    "item_id": "ctbids-48076-5555794",
+    "listing_url": "https://ctbids.com/estate-sale/48076/item/5555794/Large-Amethyst-Rose-Quartz-Clear-Quartz-Crystal-Towers-5-Pc-Collection",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07261.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07262.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07263.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07264.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07265.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07266.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-07-26/c88a40b9-9d26-4ef7-ac39-c370d433519dlmer_07267.png"
-    ],
-    "description": "Goodwill Industries of Northeast Iowa, Inc.\nDESCRIPTION:\nNatural Blue Agate Geode Slice Shadow Box Wall Decoration 16x16\nYear of Manufacture: 2019\nNumber of Items: 1\nMaterial: Various\nMeasurements: See Photos\nCONDITION:\nAll items are in pre-owned condition, unless otherwise noted herein. They may show signs of wear, including, but not limited to, dust, scuffs, dents, soiling, tarnish, cracks, chips, crazing, fading, discoloration, stains, etc.\nAuthenticity is not guaranteed. Unless otherwise stated, items have not been authenticated or certified by a specialist. Items do not come with official certificates and will not include documentation. We try to incorporate as much research as we can, but we are not experts in any field. You are bidding with this knowledge in mind.\nThe condition descriptions marked by an \"X\" is/are applicable to this item:\n_x_ Good - Looks to be in good shape, shows minimal wear. May have some dirtiness.\n__ Fair\n__ Poor\n__ Damaged\nTESTINGS:\nIf applicable, will be noted below:\n__ Untested\n: This item is being sold untested. It may or may not be functional and is not eligible for return or refund if the item is found to be non-functional. You are bidding with this knowledge in mind.\n__ Tested\n: To the best of our limited knowledge, this item has been tested and found to be in working order. This does not ensure that the item has been fully tested, however. Please read through the description for a better understanding of what functions have been tested.\n__ Tested Not Working\n: This item was tested and is not working.\nIMPORTANT:\nWe do not retract bids, nor do we cancel un-paid for items. Winners who abandon their auction wins will be considered in default. Failure to pay can result in having your account inactivated due to non-payment.",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276214913": {
-    "item_id": "276214913",
-    "listing_url": "https://shopgoodwill.com/item/276214913",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of collectible gemstones and minerals, including polished and raw stones, geode slices, and small glass jars with labeled crystal chips. The jars are labeled with names such as Amethyst, Rose Quartz, Aventurine, Moonstone, Unakite, Strawberry Crystal, Labradorite, Chitlonite, and Colored Fluorite. The geode slices include teal and gray specimens. The collection features a wide range of colors and types.\n\nSpecifications:\n- Includes polished and raw gemstones and minerals\n- Small glass jars containing labeled crystal chips\n- Geode slices in teal and gray colors\n- Various gemstone types such as Amethyst, Rose Quartz, Aventurine, Moonstone, Unakite, Strawberry Crystal, Labradorite, Chitlonite, Colored Fluorite\n- Approximate total weight: 5 lbs",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Target keyword 'fluorite' in description (+9)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Target keyword 'fluorite' in description (+9)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "fluorite"
-        ]
-      }
-    ]
-  },
-  "ctbids-47732-5552286": {
-    "item_id": "ctbids-47732-5552286",
-    "listing_url": "https://ctbids.com/estate-sale/47732/item/5552286/Dragon-Fly-Lovers-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5552286_n8H1Qh.webp"
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5555794_rgWZQ9.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in title (+7)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -640,38 +714,26 @@
       }
     ]
   },
-  "ctbids-48076-5555794": {
-    "item_id": "ctbids-48076-5555794",
-    "listing_url": "https://ctbids.com/estate-sale/48076/item/5555794/Large-Amethyst-Rose-Quartz-Clear-Quartz-Crystal-Towers-5-Pc-Collection",
+  "ctbids-47661-5568531": {
+    "item_id": "ctbids-47661-5568531",
+    "listing_url": "https://ctbids.com/estate-sale/47661/item/5568531/Natural-Dried-Gourds-In-Various-Shapes",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5555794_rgWZQ9.webp"
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568531_vqfZn3.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -929,31 +991,6 @@
       }
     ]
   },
-  "ctbids-48221-5604523": {
-    "item_id": "ctbids-48221-5604523",
-    "listing_url": "https://ctbids.com/estate-sale/48221/item/5604523/CRUX-Artisan-Series-5-Cup-Coffee-Maker-with-Glass-Carafe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5261858_CI5jLv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47373-5496911": {
     "item_id": "ctbids-47373-5496911",
     "listing_url": "https://ctbids.com/estate-sale/47373/item/5496911/3-VTG-Baby-Spoons-Disney-Mickey-Mouse-Bonny-Oneida-Toddlertime-Gerber-Soft-Bite",
@@ -1009,31 +1046,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47661/item/5593334/Sterling-And-Blue-Glass-Ring",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5593334_LIpulO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47661-5568531": {
-    "item_id": "ctbids-47661-5568531",
-    "listing_url": "https://ctbids.com/estate-sale/47661/item/5568531/Natural-Dried-Gourds-In-Various-Shapes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5568531_vqfZn3.webp"
     ],
     "description": "",
     "score_reasons": [
