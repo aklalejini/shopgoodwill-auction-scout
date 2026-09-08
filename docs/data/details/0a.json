@@ -177,7 +177,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -185,11 +185,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -289,60 +289,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47686-5547391": {
-    "item_id": "ctbids-47686-5547391",
-    "listing_url": "https://ctbids.com/estate-sale/47686/item/5547391/Vintage-Bottle-And-Jar-Variety-25pcs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-22T273492/5547391_qZs5Kz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47631-5573636": {
-    "item_id": "ctbids-47631-5573636",
-    "listing_url": "https://ctbids.com/estate-sale/47631/item/5573636/Set-Of-6-Gold-Rimmed-Tequila-Sauza-Glasses",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5573636_H47LFM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -539,6 +485,33 @@
       }
     ]
   },
+  "ctbids-47686-5547391": {
+    "item_id": "ctbids-47686-5547391",
+    "listing_url": "https://ctbids.com/estate-sale/47686/item/5547391/Vintage-Bottle-And-Jar-Variety-25pcs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-22T273492/5547391_qZs5Kz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47419-5504046": {
     "item_id": "ctbids-47419-5504046",
     "listing_url": "https://ctbids.com/estate-sale/47419/item/5504046/Buffalo-Envelope-Company-Advertising-Paperweight",
@@ -566,11 +539,11 @@
       }
     ]
   },
-  "ctbids-47950-5564125": {
-    "item_id": "ctbids-47950-5564125",
-    "listing_url": "https://ctbids.com/estate-sale/47950/item/5564125/3-Wooden-Elephant-Figurines",
+  "ctbids-47631-5573636": {
+    "item_id": "ctbids-47631-5573636",
+    "listing_url": "https://ctbids.com/estate-sale/47631/item/5573636/Set-Of-6-Gold-Rimmed-Tequila-Sauza-Glasses",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5564125_nNHOqd.webp"
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5573636_H47LFM.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -586,6 +559,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47950-5564125": {
+    "item_id": "ctbids-47950-5564125",
+    "listing_url": "https://ctbids.com/estate-sale/47950/item/5564125/3-Wooden-Elephant-Figurines",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5564125_nNHOqd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -615,38 +615,6 @@
           "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276450931": {
-    "item_id": "276450931",
-    "listing_url": "https://shopgoodwill.com/item/276450931",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-06/bbff9541-2669-4d04-9b6c-ba02ffce5caePay2_09061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-06/29dfcae7-9d90-41fb-b538-c050c85f4233Pay2_09062.jpg"
-    ],
-    "description": "This lot includes five assorted raw mineral and rock specimens. The set features a purple amethyst, a mostly white quartz, a light yellowish citrine-like stone, and two speckled granite or similar igneous rocks. Each piece is unpolished and irregularly shaped, ranging from approximately 1 to 2 inches in size. All specimens are in natural, unmodified condition with no visible brand or model markings. Suitable for collectors or educational use.\n*All measurements are approximations.\n*All sales have three days from the date of delivery to report a discrepancy.\n*All sales are final after three days from delivery.\nReturns need to be shipped to:\nGoodwill2Go\n245 Deo Drive\nOpen Mon-Fri 9 am to 4 pm",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -922,6 +890,38 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276450931": {
+    "item_id": "276450931",
+    "listing_url": "https://shopgoodwill.com/item/276450931",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-06/bbff9541-2669-4d04-9b6c-ba02ffce5caePay2_09061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-06/29dfcae7-9d90-41fb-b538-c050c85f4233Pay2_09062.jpg"
+    ],
+    "description": "This lot includes five assorted raw mineral and rock specimens. The set features a purple amethyst, a mostly white quartz, a light yellowish citrine-like stone, and two speckled granite or similar igneous rocks. Each piece is unpolished and irregularly shaped, ranging from approximately 1 to 2 inches in size. All specimens are in natural, unmodified condition with no visible brand or model markings. Suitable for collectors or educational use.\n*All measurements are approximations.\n*All sales have three days from the date of delivery to report a discrepancy.\n*All sales are final after three days from delivery.\nReturns need to be shipped to:\nGoodwill2Go\n245 Deo Drive\nOpen Mon-Fri 9 am to 4 pm",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in description (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in description (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
