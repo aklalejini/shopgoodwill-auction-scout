@@ -156,6 +156,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -163,11 +164,41 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 15,
+        "relative_score": 0.441,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47619-5549614": {
+    "item_id": "ctbids-47619-5549614",
+    "listing_url": "https://ctbids.com/estate-sale/47619/item/5549614/Steve-Yzerman-Vintage-Glass-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5549614_MINspD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -276,6 +307,60 @@
       }
     ]
   },
+  "ctbids-48076-5556631": {
+    "item_id": "ctbids-48076-5556631",
+    "listing_url": "https://ctbids.com/estate-sale/48076/item/5556631/Skin-So-Soft-Vintage-Body-Oil-Container-Avon-Angel-Statues-Various-Tableside-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5556631_Uus6qm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48075-5562055": {
+    "item_id": "ctbids-48075-5562055",
+    "listing_url": "https://ctbids.com/estate-sale/48075/item/5562055/Swank-And-Other-Vintage-Cufflinks-Tie-Pins-Bracelets-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562055_jhNN5i.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276484805": {
     "item_id": "276484805",
     "listing_url": "https://shopgoodwill.com/item/276484805",
@@ -340,87 +425,6 @@
           "Opportunity term 'minerals' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48076-5556631": {
-    "item_id": "ctbids-48076-5556631",
-    "listing_url": "https://ctbids.com/estate-sale/48076/item/5556631/Skin-So-Soft-Vintage-Body-Oil-Container-Avon-Angel-Statues-Various-Tableside-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5556631_Uus6qm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48075-5562055": {
-    "item_id": "ctbids-48075-5562055",
-    "listing_url": "https://ctbids.com/estate-sale/48075/item/5562055/Swank-And-Other-Vintage-Cufflinks-Tie-Pins-Bracelets-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562055_jhNN5i.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47619-5549614": {
-    "item_id": "ctbids-47619-5549614",
-    "listing_url": "https://ctbids.com/estate-sale/47619/item/5549614/Steve-Yzerman-Vintage-Glass-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5549614_MINspD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -615,6 +619,33 @@
       }
     ]
   },
+  "ctbids-47631-5573662": {
+    "item_id": "ctbids-47631-5573662",
+    "listing_url": "https://ctbids.com/estate-sale/47631/item/5573662/7-Ellis-Peter-s-HardCover-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5573662_08u0mR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276411209": {
     "item_id": "276411209",
     "listing_url": "https://shopgoodwill.com/item/276411209",
@@ -643,31 +674,6 @@
           "Opportunity term 'specimen' in title (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47631-5573662": {
-    "item_id": "ctbids-47631-5573662",
-    "listing_url": "https://ctbids.com/estate-sale/47631/item/5573662/7-Ellis-Peter-s-HardCover-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5573662_08u0mR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -1128,6 +1134,56 @@
     "listing_url": "https://ctbids.com/estate-sale/47373/item/5547080/VTG-Fisher-Price-Toys-Movie-Viewer-Talk-To-Me-Player-1967-Toot-Toot-Train",
     "images": [
       "https://image.ctbids.com/seller/2026-08-31T06a3fa/5547080_osoKXO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47419-5504148": {
+    "item_id": "ctbids-47419-5504148",
+    "listing_url": "https://ctbids.com/estate-sale/47419/item/5504148/Compliment-Birmingham-Realtors-Cast-Iron-Advertising-Pig",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-10T5403a6/5504148_f4F4np.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47373-5498474": {
+    "item_id": "ctbids-47373-5498474",
+    "listing_url": "https://ctbids.com/estate-sale/47373/item/5498474/3-Racing-Diecast-Hot-Wheels-Action-Nascar-Mike-Wallace-Johnny-Benson-Steve-Park-Ltd-Edition",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5498474_fjYaMr.webp"
     ],
     "description": "",
     "score_reasons": [
