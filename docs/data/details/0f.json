@@ -17,7 +17,6 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "High-value signal 'first edition' in title (+16)",
-      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -25,12 +24,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 31,
-        "relative_score": 0.912,
+        "score": 29,
+        "relative_score": 0.853,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "High-value signal 'first edition' in title (+16)",
-          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -191,35 +189,6 @@
       }
     ]
   },
-  "ctbids-47890-5578577": {
-    "item_id": "ctbids-47890-5578577",
-    "listing_url": "https://ctbids.com/estate-sale/47890/item/5578577/Snail-Themed-Art-Figurines-D-cor-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5578577_cRHEZQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48221-5604578": {
     "item_id": "ctbids-48221-5604578",
     "listing_url": "https://ctbids.com/estate-sale/48221/item/5604578/Vintage-Santa-Claus-Christmas-Figurine-Doll-Holding-Bottle-Brush-Tree-Cloth-Outfit",
@@ -242,6 +211,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47890-5578577": {
+    "item_id": "ctbids-47890-5578577",
+    "listing_url": "https://ctbids.com/estate-sale/47890/item/5578577/Snail-Themed-Art-Figurines-D-cor-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5578577_cRHEZQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -357,6 +355,33 @@
       }
     ]
   },
+  "ctbids-47419-5519260": {
+    "item_id": "ctbids-47419-5519260",
+    "listing_url": "https://ctbids.com/estate-sale/47419/item/5519260/Vintage-ceramic-Pillsbury-Doughboy-Poppin-Fresh-salt-and-pepper-shakers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5519260_cKTnxJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46761-5560739": {
     "item_id": "ctbids-46761-5560739",
     "listing_url": "https://ctbids.com/estate-sale/46761/item/5560739/Lot-of-Cultured-Freshwater-Pearl-Necklace-Silver-Pearl-Bracelet-and-Earrings",
@@ -384,14 +409,15 @@
       }
     ]
   },
-  "ctbids-48076-5579285": {
-    "item_id": "ctbids-48076-5579285",
-    "listing_url": "https://ctbids.com/estate-sale/48076/item/5579285/Turquoise-Amethyst-Cross-Pendant-Beaded-Necklace-Pair",
+  "ctbids-47900-5578730": {
+    "item_id": "ctbids-47900-5578730",
+    "listing_url": "https://ctbids.com/estate-sale/47900/item/5578730/Womens-JACKETS-suit-sets-medium",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5579285_xi1f0K.webp"
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5578730_scgf4w.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -399,9 +425,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -554,63 +581,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47900-5578730": {
-    "item_id": "ctbids-47900-5578730",
-    "listing_url": "https://ctbids.com/estate-sale/47900/item/5578730/Womens-JACKETS-suit-sets-medium",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5578730_scgf4w.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276246852": {
-    "item_id": "276246852",
-    "listing_url": "https://shopgoodwill.com/item/276246852",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/20eac93f-a4b6-41ba-a7ef-2f31524af84bport_09041.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/a5302ef8-4ca4-4559-af30-01d61acd52abport_09042.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/06414932-ec24-432a-8ca5-e36fd4c59386port_09043.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/a6a35217-9a77-406e-8223-be1723f002f2port_09044.jpg"
-    ],
-    "description": "Vintage tobacco pipe featuring a vibrant red bowl and a contrasting black stem. This piece is designed for tobacco enthusiasts and collectors of classic smoking accessories.\nFeatures a smooth red finish on the bowl\nIncludes a black mouthpiece\nClassic pipe design\nCondition:\nThis is a pre-owned item with visible signs of use, including wear on the bowl rim and minor surface scuffs consistent with age and handling. Please see photos for details.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -791,33 +761,55 @@
       }
     ]
   },
-  "276548591": {
-    "item_id": "276548591",
-    "listing_url": "https://shopgoodwill.com/item/276548591",
+  "ctbids-47419-5523046": {
+    "item_id": "ctbids-47419-5523046",
+    "listing_url": "https://ctbids.com/estate-sale/47419/item/5523046/NyForm-Norwegian-troll-figurines",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/48821bef-6516-49ff-9aaa-6316e283f24didan_09081.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/32fdbbd4-9a8e-41a1-96df-84ffd6f7f79bidan_09082.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/5870b47e-caea-4791-8027-678180148cd6idan_09083.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/0cc2c47d-b0f3-4ed3-a4e1-aedf91b62234idan_09084.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/b12fa71e-b3c0-47c5-b689-3f068c305fe0idan_09085.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/11fe76b2-cc29-42b4-9448-0c45c3afda66idan_09086.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/19aacb8b-1ce7-4184-b9bd-779a6933d9d5idan_09087.jpg"
+      "https://image.ctbids.com/seller/2026-08-17T6f1578/5523046_DWMH60.webp"
     ],
-    "description": "Orthoceras Fossil Specimen Polished Nautiloid Cephalopod Shell Display\nThis fossil specimen features two Orthoceras fossils embedded in a dark gray to black matrix rock. Orthoceras is an extinct genus of nautiloid cephalopod characterized by long, tapered, conical shells with visible internal chamber lines. The matrix rock is rough and unpolished on the back and sides, while the fossilized shells on the front are polished to a glossy finish, highlighting their natural details and structure. The piece is in excellent natural condition with no visible repairs, suitable for fossil collectors or natural history displays.\nProduct Size:\n10 x 4 x 4 in\n2.2 lb",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276246852": {
+    "item_id": "276246852",
+    "listing_url": "https://shopgoodwill.com/item/276246852",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/20eac93f-a4b6-41ba-a7ef-2f31524af84bport_09041.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/a5302ef8-4ca4-4559-af30-01d61acd52abport_09042.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/06414932-ec24-432a-8ca5-e36fd4c59386port_09043.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-04/a6a35217-9a77-406e-8223-be1723f002f2port_09044.jpg"
+    ],
+    "description": "Vintage tobacco pipe featuring a vibrant red bowl and a contrasting black stem. This piece is designed for tobacco enthusiasts and collectors of classic smoking accessories.\nFeatures a smooth red finish on the bowl\nIncludes a black mouthpiece\nClassic pipe design\nCondition:\nThis is a pre-owned item with visible signs of use, including wear on the bowl rim and minor surface scuffs consistent with age and handling. Please see photos for details.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
         "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -871,6 +863,39 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276548591": {
+    "item_id": "276548591",
+    "listing_url": "https://shopgoodwill.com/item/276548591",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/48821bef-6516-49ff-9aaa-6316e283f24didan_09081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/32fdbbd4-9a8e-41a1-96df-84ffd6f7f79bidan_09082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/5870b47e-caea-4791-8027-678180148cd6idan_09083.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/0cc2c47d-b0f3-4ed3-a4e1-aedf91b62234idan_09084.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/b12fa71e-b3c0-47c5-b689-3f068c305fe0idan_09085.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/11fe76b2-cc29-42b4-9448-0c45c3afda66idan_09086.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-08/19aacb8b-1ce7-4184-b9bd-779a6933d9d5idan_09087.jpg"
+    ],
+    "description": "Orthoceras Fossil Specimen Polished Nautiloid Cephalopod Shell Display\nThis fossil specimen features two Orthoceras fossils embedded in a dark gray to black matrix rock. Orthoceras is an extinct genus of nautiloid cephalopod characterized by long, tapered, conical shells with visible internal chamber lines. The matrix rock is rough and unpolished on the back and sides, while the fossilized shells on the front are polished to a glossy finish, highlighting their natural details and structure. The piece is in excellent natural condition with no visible repairs, suitable for fossil collectors or natural history displays.\nProduct Size:\n10 x 4 x 4 in\n2.2 lb",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

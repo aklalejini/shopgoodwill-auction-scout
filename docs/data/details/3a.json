@@ -387,6 +387,33 @@
       }
     ]
   },
+  "ctbids-47419-5504047": {
+    "item_id": "ctbids-47419-5504047",
+    "listing_url": "https://ctbids.com/estate-sale/47419/item/5504047/Sandy-coal-miner-figurine-doorstop-made-by-Midwest-Foundry",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-10T5403a6/5504047_ySeXkV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276067366": {
     "item_id": "276067366",
     "listing_url": "https://shopgoodwill.com/item/276067366",
@@ -520,33 +547,6 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47419-5504047": {
-    "item_id": "ctbids-47419-5504047",
-    "listing_url": "https://ctbids.com/estate-sale/47419/item/5504047/Sandy-coal-miner-figurine-doorstop-made-by-Midwest-Foundry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-10T5403a6/5504047_ySeXkV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -714,6 +714,45 @@
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+11)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47419-5504151": {
+    "item_id": "ctbids-47419-5504151",
+    "listing_url": "https://ctbids.com/estate-sale/47419/item/5504151/Vintage-Attalla-Pipe-Foundry-Co-Cast-Iron-Advertising-Paperweight",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-11T3eb7de/5504151_mdj5kT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-12)",
+      "Base score (+5)",
+      "Score boundary adjustment (+7)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Only 1 listing photo (-12)",
+          "Base score (+5)",
+          "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
