@@ -348,33 +348,6 @@
       }
     ]
   },
-  "ctbids-47809-5593336": {
-    "item_id": "ctbids-47809-5593336",
-    "listing_url": "https://ctbids.com/estate-sale/47809/item/5593336/Traditional-Framed-Lion-Print-with-Ornate-Gold-Tone-Frame",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5593336_LTn60K.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47553-5525932": {
     "item_id": "ctbids-47553-5525932",
     "listing_url": "https://ctbids.com/estate-sale/47553/item/5525932/Sunbeam-Mid-Century-Electric-Frypan-Saucepan-Deep-Fryer-Duo",
@@ -436,6 +409,33 @@
           "Opportunity term 'lot' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47809-5593336": {
+    "item_id": "ctbids-47809-5593336",
+    "listing_url": "https://ctbids.com/estate-sale/47809/item/5593336/Traditional-Framed-Lion-Print-with-Ornate-Gold-Tone-Frame",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5593336_LTn60K.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -691,46 +691,6 @@
       }
     ]
   },
-  "ctbids-46967-5516528": {
-    "item_id": "ctbids-46967-5516528",
-    "listing_url": "https://ctbids.com/estate-sale/46967/item/5516528/Tasmanian-Stichtite-Amethyst-Set-DDR541",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5516528_XmQ3sY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276171991": {
     "item_id": "276171991",
     "listing_url": "https://shopgoodwill.com/item/276171991",
@@ -767,6 +727,46 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46967-5516528": {
+    "item_id": "ctbids-46967-5516528",
+    "listing_url": "https://ctbids.com/estate-sale/46967/item/5516528/Tasmanian-Stichtite-Amethyst-Set-DDR541",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5516528_XmQ3sY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }

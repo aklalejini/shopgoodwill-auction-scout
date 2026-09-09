@@ -280,7 +280,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -292,7 +292,7 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -497,33 +497,6 @@
       }
     ]
   },
-  "ctbids-47809-5562561": {
-    "item_id": "ctbids-47809-5562561",
-    "listing_url": "https://ctbids.com/estate-sale/47809/item/5562561/Framed-Decorative-Art-Prints-Zebra-Dragonflies-Figurative-Artwork-3",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5562561_O4rfcc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47553-5543164": {
     "item_id": "ctbids-47553-5543164",
     "listing_url": "https://ctbids.com/estate-sale/47553/item/5543164/White-Standard-Pillowcases-Scented-Candles",
@@ -591,7 +564,32 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47809-5562561": {
+    "item_id": "ctbids-47809-5562561",
+    "listing_url": "https://ctbids.com/estate-sale/47809/item/5562561/Framed-Decorative-Art-Prints-Zebra-Dragonflies-Figurative-Artwork-3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5562561_O4rfcc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -602,7 +600,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
