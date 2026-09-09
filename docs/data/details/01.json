@@ -13,6 +13,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'assorted' in title (+2)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "6 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -21,11 +22,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 33,
+        "relative_score": 1.1,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "6 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -147,6 +149,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -154,11 +157,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -176,6 +180,37 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 14,
+        "relative_score": 0.412,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47903-5575456": {
+    "item_id": "ctbids-47903-5575456",
+    "listing_url": "https://ctbids.com/estate-sale/47903/item/5575456/Vintage-Magazines-Featuring-1979-South-Carolina-Wildlife-1980-s-Wildlife-Art-News-And-Midwest-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5575456_PiHKkI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -187,7 +222,65 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47553-5543168": {
+    "item_id": "ctbids-47553-5543168",
+    "listing_url": "https://ctbids.com/estate-sale/47553/item/5543168/Green-Glass-Candle-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5543168_1orSvY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47792-5547629": {
+    "item_id": "ctbids-47792-5547629",
+    "listing_url": "https://ctbids.com/estate-sale/47792/item/5547629/Vintage-8mm-movie-cameras-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5547629_89B2Th.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -239,65 +332,11 @@
       }
     ]
   },
-  "ctbids-47553-5543168": {
-    "item_id": "ctbids-47553-5543168",
-    "listing_url": "https://ctbids.com/estate-sale/47553/item/5543168/Green-Glass-Candle-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5543168_1orSvY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47291-5480565": {
     "item_id": "ctbids-47291-5480565",
     "listing_url": "https://ctbids.com/estate-sale/47291/item/5480565/Vintage-Coleman-Green-Dual-Mantle-Camping-Lantern-Model-220H-Untested-As-Is",
     "images": [
       "https://image.ctbids.com/seller/2026-08-04Tad21cf/5480565_iwvsv0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47792-5547629": {
-    "item_id": "ctbids-47792-5547629",
-    "listing_url": "https://ctbids.com/estate-sale/47792/item/5547629/Vintage-8mm-movie-cameras-1",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5547629_89B2Th.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -347,15 +386,15 @@
       }
     ]
   },
-  "ctbids-47903-5575456": {
-    "item_id": "ctbids-47903-5575456",
-    "listing_url": "https://ctbids.com/estate-sale/47903/item/5575456/Vintage-Magazines-Featuring-1979-South-Carolina-Wildlife-1980-s-Wildlife-Art-News-And-Midwest-Art",
+  "ctbids-47809-5562194": {
+    "item_id": "ctbids-47809-5562194",
+    "listing_url": "https://ctbids.com/estate-sale/47809/item/5562194/Set-of-6-Clear-Fluted-Glass-Pitcher-Style-Tumblers-with-Handles",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-30T60ff0d/5575456_PiHKkI.webp"
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5562194_jY8Djx.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -363,10 +402,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -394,6 +433,60 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48063-5584018": {
+    "item_id": "ctbids-48063-5584018",
+    "listing_url": "https://ctbids.com/estate-sale/48063/item/5584018/Pair-of-Framed-Asian-Waterfront-Paintings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584018_vgAx2p.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46947-5573511": {
+    "item_id": "ctbids-46947-5573511",
+    "listing_url": "https://ctbids.com/estate-sale/46947/item/5573511/1908-Carl-Engel-Musical-Instruments-Victoria-Albert-Museum-Art-Handbook",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5573511_3jDkw8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -441,6 +534,60 @@
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47830-5563370": {
+    "item_id": "ctbids-47830-5563370",
+    "listing_url": "https://ctbids.com/estate-sale/47830/item/5563370/Gold-Trimmed-RC-Royal-China",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563370_JDfDc6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48011-5603865": {
+    "item_id": "ctbids-48011-5603865",
+    "listing_url": "https://ctbids.com/estate-sale/48011/item/5603865/Vtg-Petri-Telephoto-Lens-w-Case",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603865_HkK4av.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -542,31 +689,6 @@
     "listing_url": "https://ctbids.com/estate-sale/45916/item/5533311/Pier-1-Imports-li-bien-2019-Ornament",
     "images": [
       "https://image.ctbids.com/seller/2026-08-18T75c795/5533311_QRHp3T.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47809-5562194": {
-    "item_id": "ctbids-47809-5562194",
-    "listing_url": "https://ctbids.com/estate-sale/47809/item/5562194/Set-of-6-Clear-Fluted-Glass-Pitcher-Style-Tumblers-with-Handles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5562194_jY8Djx.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -762,106 +884,6 @@
       }
     ]
   },
-  "ctbids-47830-5563370": {
-    "item_id": "ctbids-47830-5563370",
-    "listing_url": "https://ctbids.com/estate-sale/47830/item/5563370/Gold-Trimmed-RC-Royal-China",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5563370_JDfDc6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48063-5584018": {
-    "item_id": "ctbids-48063-5584018",
-    "listing_url": "https://ctbids.com/estate-sale/48063/item/5584018/Pair-of-Framed-Asian-Waterfront-Paintings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584018_vgAx2p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46947-5573511": {
-    "item_id": "ctbids-46947-5573511",
-    "listing_url": "https://ctbids.com/estate-sale/46947/item/5573511/1908-Carl-Engel-Musical-Instruments-Victoria-Albert-Museum-Art-Handbook",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5573511_3jDkw8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48011-5603865": {
-    "item_id": "ctbids-48011-5603865",
-    "listing_url": "https://ctbids.com/estate-sale/48011/item/5603865/Vtg-Petri-Telephoto-Lens-w-Case",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603865_HkK4av.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47903-5575591": {
     "item_id": "ctbids-47903-5575591",
     "listing_url": "https://ctbids.com/estate-sale/47903/item/5575591/Waterford-Crystal-Glandore-Rose-Bowl-And-Royal-Vienna-Style-Cabinet-Plates",
@@ -960,6 +982,52 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276691884": {
+    "item_id": "276691884",
+    "listing_url": "https://shopgoodwill.com/item/276691884",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/557e80b3-2f4f-423c-be13-a6933f5269a0naph_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/0982c3b4-5a1b-41c8-b912-652779ae5d98naph_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/49236992-f331-42a8-a663-f39c55773ec3naph_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/1fb2fe59-d4e6-4836-b7ca-84b8080852f0naph_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/8d330697-ee41-4721-ba49-db55a3636b7enaph_09095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/a4f33bed-87cf-4198-80c9-d0e00f09ce63naph_09096.jpg"
+    ],
+    "description": "This listing includes a mixed lot of rough, unpolished mineral specimens and semi-precious stones. The collection features clear, rose, and possibly smoky quartz points, various agates, geodes with druzy crystal interiors, and chunks of calcite. Some pieces exhibit natural crystal formations, while others have slightly polished sections. Also included is a handmade crystal pendant with a copper wire tree design and small polished green and purple stones. Stone sizes, shapes, and colors vary throughout the lot. This assortment is suitable for collectors, crafters, or those interested in metaphysical properties.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in description (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "10.6 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "10.6 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+8)"
         ],
         "matched_keywords": []
       }
