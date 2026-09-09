@@ -46,6 +46,33 @@
       }
     ]
   },
+  "ctbids-46967-5501421": {
+    "item_id": "ctbids-46967-5501421",
+    "listing_url": "https://ctbids.com/estate-sale/46967/item/5501421/14k-CZ-Band-DDR501",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-10T5403a6/5501421_5K6tJJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal '14k' in title (+22)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 23,
+        "relative_score": 0.676,
+        "score_reasons": [
+          "High-value signal '14k' in title (+22)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276582713": {
     "item_id": "276582713",
     "listing_url": "https://shopgoodwill.com/item/276582713",
@@ -83,33 +110,6 @@
       }
     ]
   },
-  "ctbids-46967-5501421": {
-    "item_id": "ctbids-46967-5501421",
-    "listing_url": "https://ctbids.com/estate-sale/46967/item/5501421/14k-CZ-Band-DDR501",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-10T5403a6/5501421_5K6tJJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal '14k' in title (+22)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 23,
-        "relative_score": 0.676,
-        "score_reasons": [
-          "High-value signal '14k' in title (+22)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276247674": {
     "item_id": "276247674",
     "listing_url": "https://shopgoodwill.com/item/276247674",
@@ -125,6 +125,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Target keyword 'meerschaum' in description (+10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -132,17 +133,49 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 17,
-        "relative_score": 0.486,
+        "score": 21,
+        "relative_score": 0.6,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Target keyword 'meerschaum' in description (+10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": [
           "meerschaum"
         ]
+      }
+    ]
+  },
+  "ctbids-47291-5480603": {
+    "item_id": "ctbids-47291-5480603",
+    "listing_url": "https://ctbids.com/estate-sale/47291/item/5480603/Huge-Vintage-Automotive-Car-Show-Memorabilia-Lot-Dash-Plaques-Decals-Signs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5480603_Hp2o0M.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -212,37 +245,6 @@
       }
     ]
   },
-  "ctbids-47291-5480603": {
-    "item_id": "ctbids-47291-5480603",
-    "listing_url": "https://ctbids.com/estate-sale/47291/item/5480603/Huge-Vintage-Automotive-Car-Show-Memorabilia-Lot-Dash-Plaques-Decals-Signs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5480603_Hp2o0M.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276411267": {
     "item_id": "276411267",
     "listing_url": "https://shopgoodwill.com/item/276411267",
@@ -287,7 +289,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -295,11 +297,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -333,6 +335,40 @@
           "Opportunity term 'vintage' in title (+6)",
           "Lower-priority term 'ballpoint' in title (-4)",
           "Flat shipping is only $0.01 (+9)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "275919031": {
+    "item_id": "275919031",
+    "listing_url": "https://shopgoodwill.com/item/275919031",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/9bcfba1d-1424-405c-8285-a9237f247a87nter_09011.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/278ff6f9-0a85-4868-bed7-89773f1762b7nter_09012.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/c8c0c3ad-81c8-48bc-a43c-fb801e806c3cnter_09013.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/b49109b1-7d88-487b-8cfe-2c281afb99d4nter_09014.jpg"
+    ],
+    "description": "Educational mineral and rock collection kit featuring labeled samples from South Carolina. Includes minerals, metamorphic rocks, sedimentary rocks, and igneous rocks organized in a plastic case (14 x 9 x 2 inches).",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'rocks' in description (+1)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 8,
+        "relative_score": 0.267,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'rocks' in description (+1)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -377,69 +413,6 @@
       }
     ]
   },
-  "ctbids-47291-5592417": {
-    "item_id": "ctbids-47291-5592417",
-    "listing_url": "https://ctbids.com/estate-sale/47291/item/5592417/Heavy-Duty-Extension-Cords-Cord-Reels-Retractable-Shop-Light-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5592417_VnbSi6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "275919031": {
-    "item_id": "275919031",
-    "listing_url": "https://shopgoodwill.com/item/275919031",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/9bcfba1d-1424-405c-8285-a9237f247a87nter_09011.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/278ff6f9-0a85-4868-bed7-89773f1762b7nter_09012.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/c8c0c3ad-81c8-48bc-a43c-fb801e806c3cnter_09013.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-01/b49109b1-7d88-487b-8cfe-2c281afb99d4nter_09014.jpg"
-    ],
-    "description": "Educational mineral and rock collection kit featuring labeled samples from South Carolina. Includes minerals, metamorphic rocks, sedimentary rocks, and igneous rocks organized in a plastic case (14 x 9 x 2 inches).",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'rocks' in description (+1)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'rocks' in description (+1)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47849-5563237": {
     "item_id": "ctbids-47849-5563237",
     "listing_url": "https://ctbids.com/estate-sale/47849/item/5563237/Antique-19th-Century-Continental-Pewter-Bed-Warmer-with-Integrated-Drink-Well",
@@ -476,7 +449,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -488,7 +461,7 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -501,6 +474,35 @@
     "listing_url": "https://ctbids.com/estate-sale/47809/item/5562232/Contemporary-Green-Black-Decorative-Glass-Trays-2-Pc-Lot",
     "images": [
       "https://image.ctbids.com/seller/2026-09-03T479b27/5562232_26g9rI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47291-5592417": {
+    "item_id": "ctbids-47291-5592417",
+    "listing_url": "https://ctbids.com/estate-sale/47291/item/5592417/Heavy-Duty-Extension-Cords-Cord-Reels-Retractable-Shop-Light-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5592417_VnbSi6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -687,33 +689,6 @@
       }
     ]
   },
-  "ctbids-47291-5596258": {
-    "item_id": "ctbids-47291-5596258",
-    "listing_url": "https://ctbids.com/estate-sale/47291/item/5596258/Upper-Cabinets-w-Tupperware-Glasses-Dishes-Corelle-more",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5596258_GSp5qE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47291-5594028": {
     "item_id": "ctbids-47291-5594028",
     "listing_url": "https://ctbids.com/estate-sale/47291/item/5594028/Compact-Wooden-Secretary-Desk-Slant-Top-Writing-bfBureau-with-Integrated-Hutch",
@@ -780,15 +755,14 @@
       }
     ]
   },
-  "ctbids-47292-5478817": {
-    "item_id": "ctbids-47292-5478817",
-    "listing_url": "https://ctbids.com/estate-sale/47292/item/5478817/Beaded-Necklaces",
+  "ctbids-45916-5559585": {
+    "item_id": "ctbids-45916-5559585",
+    "listing_url": "https://ctbids.com/estate-sale/45916/item/5559585/Alexander-Doll-Company-Romeo-and-Juliet",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5478817_3MLodW.webp"
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5559585_w7yOrR.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -796,10 +770,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -807,11 +780,11 @@
       }
     ]
   },
-  "ctbids-45916-5559585": {
-    "item_id": "ctbids-45916-5559585",
-    "listing_url": "https://ctbids.com/estate-sale/45916/item/5559585/Alexander-Doll-Company-Romeo-and-Juliet",
+  "ctbids-47291-5596258": {
+    "item_id": "ctbids-47291-5596258",
+    "listing_url": "https://ctbids.com/estate-sale/47291/item/5596258/Upper-Cabinets-w-Tupperware-Glasses-Dishes-Corelle-more",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5559585_w7yOrR.webp"
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5596258_GSp5qE.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -957,6 +930,31 @@
       }
     ]
   },
+  "ctbids-47292-5478817": {
+    "item_id": "ctbids-47292-5478817",
+    "listing_url": "https://ctbids.com/estate-sale/47292/item/5478817/Beaded-Necklaces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-04Tad21cf/5478817_3MLodW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46967-5512733": {
     "item_id": "ctbids-46967-5512733",
     "listing_url": "https://ctbids.com/estate-sale/46967/item/5512733/Multicolored-Pearl-Jewelry-DDR530",
@@ -1082,6 +1080,45 @@
       }
     ]
   },
+  "276044746": {
+    "item_id": "276044746",
+    "listing_url": "https://shopgoodwill.com/item/276044746",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/606c33a6-0816-480d-9f10-707f2c3e6eb0neyR_09021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/d5d4ad8e-f07a-49ed-bf2e-88b45c3fc14eneyR_09022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/1f0e357a-06cd-4a11-b950-a243965b7cc6neyR_09023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/2aafc824-b318-4515-bc20-1d1fdecb4cb0neyR_09024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/aed331b2-20fd-467c-8947-51f47a4c35baneyR_09025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/8f53855b-441b-4bc3-b8eb-1bed0b68415cneyR_09026.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/e59f7217-e8c9-4004-8972-ab1c41044e11neyR_09027.jpg"
+    ],
+    "description": "This listing includes a lot of five fossilized seashells, likely from marine bivalves and gastropods. The shells are fully mineralized with earthy and stony textures in natural brown, tan, and gray tones. Sizes range from approximately 1.5 to 3 inches each, shown next to a ruler for scale. The total weight of the lot is 269.2 grams. All items are in used, natural condition with visible wear, embedded sediment, and some broken or incomplete sections typical for fossils. This Fossil Bivalves Grab Bag is suitable for fossil collectors, educational use, or natural decor.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'decor' in description (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'decor' in description (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276214624": {
     "item_id": "276214624",
     "listing_url": "https://shopgoodwill.com/item/276214624",
@@ -1128,45 +1165,6 @@
       }
     ]
   },
-  "276044746": {
-    "item_id": "276044746",
-    "listing_url": "https://shopgoodwill.com/item/276044746",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/606c33a6-0816-480d-9f10-707f2c3e6eb0neyR_09021.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/d5d4ad8e-f07a-49ed-bf2e-88b45c3fc14eneyR_09022.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/1f0e357a-06cd-4a11-b950-a243965b7cc6neyR_09023.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/2aafc824-b318-4515-bc20-1d1fdecb4cb0neyR_09024.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/aed331b2-20fd-467c-8947-51f47a4c35baneyR_09025.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/8f53855b-441b-4bc3-b8eb-1bed0b68415cneyR_09026.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-02/e59f7217-e8c9-4004-8972-ab1c41044e11neyR_09027.jpg"
-    ],
-    "description": "This listing includes a lot of five fossilized seashells, likely from marine bivalves and gastropods. The shells are fully mineralized with earthy and stony textures in natural brown, tan, and gray tones. Sizes range from approximately 1.5 to 3 inches each, shown next to a ruler for scale. The total weight of the lot is 269.2 grams. All items are in used, natural condition with visible wear, embedded sediment, and some broken or incomplete sections typical for fossils. This Fossil Bivalves Grab Bag is suitable for fossil collectors, educational use, or natural decor.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'decor' in description (-8)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+3)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'decor' in description (-8)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+3)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276446454": {
     "item_id": "276446454",
     "listing_url": "https://shopgoodwill.com/item/276446454",
@@ -1205,6 +1203,39 @@
       }
     ]
   },
+  "276721952": {
+    "item_id": "276721952",
+    "listing_url": "https://shopgoodwill.com/item/276721952",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-09/68944070-7e1b-4be3-bc98-f0415d849f71lace_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-09/39243b28-8117-431f-b89c-4a3404598c63lace_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-09/346e4880-bc71-48d0-aa3c-25af3a7b0c0flace_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-09/cfe15e90-265c-4142-bc1d-cf6aa899fb9blace_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-09/b2721a4b-5b97-4be4-9e31-c30c72e6338dlace_09095.jpg"
+    ],
+    "description": "This lot includes multiple Provo Craft Cricut cartridges such as Printing 101, George and Basic Shapes, My Community, Wedding Marriage, and Home Accents. Also included is a Cricut Standard Grip cutting mat in original packaging, a set of Cricut pens and markers, several instruction booklets, assorted USB and power cables, and a software CD (Shares DVD Video Player and Recorder). Cartridges and mat are mostly in original packaging; cables and booklets are sealed in a plastic bag. Items show gentle use, suitable for Cricut cutting machine users looking to expand their supplies. 15x4x16 sold as is.",
+    "score_reasons": [
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Less relevant category 'Crafts' (-12)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 4,
+        "relative_score": 0.114,
+        "score_reasons": [
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Less relevant category 'Crafts' (-12)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276152338": {
     "item_id": "276152338",
     "listing_url": "https://shopgoodwill.com/item/276152338",
@@ -1230,6 +1261,41 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276723290": {
+    "item_id": "276723290",
+    "listing_url": "https://shopgoodwill.com/item/276723290",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-09/00f1a435-bd33-419d-993f-d4d7b614919ankel_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-09/20e42c21-0b10-4753-8157-70894fea093fnkel_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-09/96f7f88b-9618-4889-94b0-8be413c61e15nkel_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-09/a3cb49cc-13a6-41c3-8899-78d0aaca7effnkel_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-09/94568920-ca5f-452d-b654-fe8e4b740923nkel_09095.jpg"
+    ],
+    "description": "Product Overview:\nThis is a polished blue agate geode specimen featuring a central drilled hole. The front face is polished to reveal vibrant blue crystalline formations with concentric banding, while the back retains a rough natural exterior. The drilled hole is clean and smooth.\n\nSpecifications:\n- Material: Blue agate geode\n- Surface: Polished front, natural rough back\n- Drilled hole: Central, clean and smooth\n- Shape: Circular\n- Display: Shown on a clear acrylic stand\n- Markings: No visible branding or manufacturer marks",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decor' in title (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decor' in title (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
