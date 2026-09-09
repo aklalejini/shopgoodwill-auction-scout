@@ -11,6 +11,7 @@
     "description": "The condition of all equipment is known as surplus only.  All items are sold as is. The equipment is in the TBE Memphis, TN warehouse. The facility has no loading dock.  A truck with a lift gate is required for pick up.  No equipment or help loading the machines is provided.  Buyer must supply all necessary manpower and equipment for removal of equipment purchased.  Pick up of all purchased items must be done on the date scheduled. Pick up times can be scheduled between Monday-Friday 8:00am-3:00PM CST.  Inspection of items can be scheduled prior to auction closing by appointment only.",
     "score_reasons": [
       "High-value signal 'truck' in description (+18)",
+      "0 bids near close (+4)",
       "Pickup-only limits the opportunity (0)",
       "Base score (+8)"
     ],
@@ -18,10 +19,11 @@
       {
         "id": "local-government-surplus",
         "label": "Local Government Surplus",
-        "score": 26,
-        "relative_score": 0.812,
+        "score": 30,
+        "relative_score": 0.938,
         "score_reasons": [
           "High-value signal 'truck' in description (+18)",
+          "0 bids near close (+4)",
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
         ],
@@ -263,6 +265,33 @@
       }
     ]
   },
+  "ctbids-47809-5566609": {
+    "item_id": "ctbids-47809-5566609",
+    "listing_url": "https://ctbids.com/estate-sale/47809/item/5566609/2-Piece-Framed-Elephant-Leopard-Safari-Art-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5566609_v9WpYO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276436691": {
     "item_id": "276436691",
     "listing_url": "https://shopgoodwill.com/item/276436691",
@@ -304,31 +333,6 @@
         "matched_keywords": [
           "tourmaline"
         ]
-      }
-    ]
-  },
-  "ctbids-47809-5566609": {
-    "item_id": "ctbids-47809-5566609",
-    "listing_url": "https://ctbids.com/estate-sale/47809/item/5566609/2-Piece-Framed-Elephant-Leopard-Safari-Art-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5566609_v9WpYO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
