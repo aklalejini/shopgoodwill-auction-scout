@@ -47,7 +47,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -55,12 +54,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -97,15 +95,15 @@
       }
     ]
   },
-  "ctbids-48110-5586719": {
-    "item_id": "ctbids-48110-5586719",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5586719/Lot-Of-4-Mens-Clothing",
+  "ctbids-48110-5586334": {
+    "item_id": "ctbids-48110-5586334",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5586334/Vintage-Hamilton-Beach-Electric-Knife",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5586719_OXOyOc.webp"
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5516153_Gn1M6X.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "Opportunity term 'vintage' in title (+5)",
       "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -114,10 +112,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -331,15 +329,15 @@
       }
     ]
   },
-  "ctbids-47896-5561391": {
-    "item_id": "ctbids-47896-5561391",
-    "listing_url": "https://ctbids.com/estate-sale/47896/item/5561391/2-Pewter-Berks-Heritage-Plates",
+  "ctbids-48110-5586719": {
+    "item_id": "ctbids-48110-5586719",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5586719/Lot-Of-4-Mens-Clothing",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5561391_OA01Fc.webp"
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5586719_OXOyOc.webp"
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -350,7 +348,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -451,6 +449,33 @@
       }
     ]
   },
+  "ctbids-47896-5561391": {
+    "item_id": "ctbids-47896-5561391",
+    "listing_url": "https://ctbids.com/estate-sale/47896/item/5561391/2-Pewter-Berks-Heritage-Plates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5561391_OA01Fc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48088-5586141": {
     "item_id": "ctbids-48088-5586141",
     "listing_url": "https://ctbids.com/estate-sale/48088/item/5586141/Wedgewood-Amherst-Bone-China-Place-Setting-For-Four",
@@ -498,33 +523,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47493-5564845": {
-    "item_id": "ctbids-47493-5564845",
-    "listing_url": "https://ctbids.com/estate-sale/47493/item/5564845/Kipling-and-Athletic-Wallets-Purse-And-Travel-Bags",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5564845_qhNGSa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -882,11 +880,11 @@
       }
     ]
   },
-  "ctbids-47833-5595659": {
-    "item_id": "ctbids-47833-5595659",
-    "listing_url": "https://ctbids.com/estate-sale/47833/item/5595659/Carved-Bone-Cane-or-Umbrella-Handle",
+  "ctbids-47493-5564845": {
+    "item_id": "ctbids-47493-5564845",
+    "listing_url": "https://ctbids.com/estate-sale/47493/item/5564845/Kipling-and-Athletic-Wallets-Purse-And-Travel-Bags",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5595659_ZDVyRw.webp"
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5564845_qhNGSa.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -907,33 +905,18 @@
       }
     ]
   },
-  "ctbids-47454-5543106": {
-    "item_id": "ctbids-47454-5543106",
-    "listing_url": "https://ctbids.com/estate-sale/47454/item/5543106/Chrysoprase-And-Jasper-Eight-Items",
+  "ctbids-47833-5595659": {
+    "item_id": "ctbids-47833-5595659",
+    "listing_url": "https://ctbids.com/estate-sale/47833/item/5595659/Carved-Bone-Cane-or-Umbrella-Handle",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5543106_2wRj8t.webp"
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5595659_ZDVyRw.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -978,6 +961,46 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+2)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47454-5543106": {
+    "item_id": "ctbids-47454-5543106",
+    "listing_url": "https://ctbids.com/estate-sale/47454/item/5543106/Chrysoprase-And-Jasper-Eight-Items",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5543106_2wRj8t.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
