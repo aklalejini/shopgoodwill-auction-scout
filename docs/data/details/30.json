@@ -15,7 +15,7 @@
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
-      "0 bids near close (+5)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,15 +23,50 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 48,
-        "relative_score": 1.6,
+        "score": 45,
+        "relative_score": 1.5,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
-          "0 bids near close (+5)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276863334": {
+    "item_id": "276863334",
+    "listing_url": "https://shopgoodwill.com/item/276863334",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/575bf000-905f-4a44-a43c-80497cef2cb1lens_07211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/cca224cd-a592-45f7-8fe5-29e9486925cblens_07212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/e1c87401-7025-4cbc-8b6e-09a233d017d0lens_07213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/e5598a8a-9cea-4c19-9874-ce89ab3001a0lens_07214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-21/767ba81e-57d8-4a9c-ab29-461fba192206lens_07215.jpg"
+    ],
+    "description": "This collection includes various rock and mineral specimens, featuring two polished geode halves, a round agate slice, and a natural stone sample. Total weight is 6 lbs.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Flat shipping is only $0.01 (+10)",
+      "6 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 29,
+        "relative_score": 0.967,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Flat shipping is only $0.01 (+10)",
+          "6 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -351,35 +386,6 @@
       }
     ]
   },
-  "ctbids-47323-5521020": {
-    "item_id": "ctbids-47323-5521020",
-    "listing_url": "https://ctbids.com/estate-sale/47323/item/5521020/Damaged-Mixed-Lot-of-10-Pieces-of-Rosenthal-Grill-Blue-Stainless-And-Porcelain-Flatware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-14T598939/5521020_eEnVuu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47925-5573550": {
     "item_id": "ctbids-47925-5573550",
     "listing_url": "https://ctbids.com/estate-sale/47925/item/5573550/Holly-Shiny-Brite-Heavy-Brass-Santa-Reindeer-Crinkle-Claus-More-Mystery-Lot",
@@ -517,6 +523,33 @@
       }
     ]
   },
+  "ctbids-47323-5521020": {
+    "item_id": "ctbids-47323-5521020",
+    "listing_url": "https://ctbids.com/estate-sale/47323/item/5521020/Damaged-Mixed-Lot-of-10-Pieces-of-Rosenthal-Grill-Blue-Stainless-And-Porcelain-Flatware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-14T598939/5521020_eEnVuu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "govdeals-1677-543": {
     "item_id": "govdeals-1677-543",
     "listing_url": "https://www.govdeals.com/en/asset/543/1677",
@@ -611,33 +644,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47493-5589623": {
-    "item_id": "ctbids-47493-5589623",
-    "listing_url": "https://ctbids.com/estate-sale/47493/item/5589623/SORELLE-Lead-Crystal-Miniature-Teapot-Set-Butterfly-Ashtray",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5589623_yVFknV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -898,6 +904,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48029/item/5589319/Costume-Jewelry-3",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5589319_jZG31Y.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47493-5589623": {
+    "item_id": "ctbids-47493-5589623",
+    "listing_url": "https://ctbids.com/estate-sale/47493/item/5589623/SORELLE-Lead-Crystal-Miniature-Teapot-Set-Butterfly-Ashtray",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5589623_yVFknV.webp"
     ],
     "description": "",
     "score_reasons": [
