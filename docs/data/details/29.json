@@ -75,6 +75,33 @@
       }
     ]
   },
+  "ctbids-47454-5570820": {
+    "item_id": "ctbids-47454-5570820",
+    "listing_url": "https://ctbids.com/estate-sale/47454/item/5570820/Ruby-White-Topaz-Sterling-Silver-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5570820_ZhTpDi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276247559": {
     "item_id": "276247559",
     "listing_url": "https://shopgoodwill.com/item/276247559",
@@ -144,6 +171,33 @@
     "listing_url": "https://ctbids.com/estate-sale/47493/item/5584981/Collection-of-Fenton-Glass-Animal-Figures",
     "images": [
       "https://image.ctbids.com/seller/2026-09-01Tb823be/5584981_7kocC3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47746-5545268": {
+    "item_id": "ctbids-47746-5545268",
+    "listing_url": "https://ctbids.com/estate-sale/47746/item/5545268/Tanker-Truck-Collection-Exxon-Citgo-Shell-BP",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545268_WfqH5S.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -948,6 +1002,31 @@
       }
     ]
   },
+  "ctbids-47493-5572925": {
+    "item_id": "ctbids-47493-5572925",
+    "listing_url": "https://ctbids.com/estate-sale/47493/item/5572925/Fenton-Glass-Hand-Painted-Pig-Figures",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5572925_wA7cXh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276750830": {
     "item_id": "276750830",
     "listing_url": "https://shopgoodwill.com/item/276750830",
@@ -1129,6 +1208,49 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276811355": {
+    "item_id": "276811355",
+    "listing_url": "https://shopgoodwill.com/item/276811355",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This listing is for a 4 lbs lot of assorted rough, uncut rocks, stones, minerals, and other specimens. The assortment includes various types of possibly other semi-precious stones. The collection contains both natural and a few tumbled stones, featuring colors from earthy browns and tans to whites, along with some unique patterned stones and a polished purple specimen. The stones vary in size from small fragments to larger chunks. All items are in raw, unprocessed condition, showing natural wear, dirt, and breakage typical of unprocessed mineral lots. Ideal for collectors, lapidary enthusiasts, or educational use. No specific brand or model is associated with this lot.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "4 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+16)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "4 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+16)"
         ],
         "matched_keywords": []
       }

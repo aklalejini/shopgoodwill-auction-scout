@@ -91,6 +91,33 @@
       }
     ]
   },
+  "ctbids-48013-5567194": {
+    "item_id": "ctbids-48013-5567194",
+    "listing_url": "https://ctbids.com/estate-sale/48013/item/5567194/Antique-Couple-Portrait-in-Heavy-Ornate-Metal-Frame",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5567194_RpdHAs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48029-5581233": {
     "item_id": "ctbids-48029-5581233",
     "listing_url": "https://ctbids.com/estate-sale/48029/item/5581233/King-Size-Refinery-29-Home-Collection-King-Size-Amazon-Basics-Pink-Micromink-Sherpa-Comforter-Sets",
@@ -751,6 +778,31 @@
       }
     ]
   },
+  "ctbids-47747-5563347": {
+    "item_id": "ctbids-47747-5563347",
+    "listing_url": "https://ctbids.com/estate-sale/47747/item/5563347/Sterling-David-Andersen-Norway-Viking-Design-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5563347_z2wKnc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276548591": {
     "item_id": "276548591",
     "listing_url": "https://shopgoodwill.com/item/276548591",
@@ -779,6 +831,47 @@
           "Opportunity term 'specimen' in title (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276810643": {
+    "item_id": "276810643",
+    "listing_url": "https://shopgoodwill.com/item/276810643",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes a variety of rocks, minerals, and gemstones in polished and rough forms. Types featured are quartz, amethyst, selenite, agate slice, and other unidentified stones. The collection contains polished stones, rough mineral specimens, small tumbled gems, and a small vial with tiny gemstone chips. Additionally, there is a carved stone figure resembling a cat. All items are in good condition, suitable for collectors, educational use, or crafting projects.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+13)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
       }
