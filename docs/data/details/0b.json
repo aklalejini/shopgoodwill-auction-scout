@@ -32,6 +32,7 @@
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
       "High-value signal 'sterling silver' in title (+18)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -39,12 +40,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 33,
-        "relative_score": 0.971,
+        "score": 35,
+        "relative_score": 1.029,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
           "High-value signal 'sterling silver' in title (+18)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -87,6 +89,43 @@
       }
     ]
   },
+  "276191779": {
+    "item_id": "276191779",
+    "listing_url": "https://shopgoodwill.com/item/276191779",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/5b9861bf-feb2-4770-8eeb-dc2d30bf7234manD_09031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/40e4a291-2ed7-4058-bf9e-f066d2e5b91amanD_09032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/9a59f8ec-08de-40de-bb0d-4b152e2e0649manD_09033.jpg"
+    ],
+    "description": "This listing is for a spindle pack of 25 Philips CD-R discs. Each disc has a capacity of 700 MB and supports up to 80 minutes of audio recording. The discs have a maximum write speed of 52x. The spindle is housed in a clear plastic case with a black base and lid. The discs are unused and appear to be in new condition. The outer packaging shows some dust and signs of wear. Each disc has a standard silver recording surface with Philips branding and capacity information clearly labeled on the spindle wrapper. Unable to test, may or may not work, may be used for parts or repair, may have scratches,  may have staining, may have chipping, may not be a complete set, May have missing pieces, sold as is",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'unused' in description (+8)",
+      "Opportunity term 'pack' in title (+4)",
+      "Lower-priority term 'as is' in description (-3)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 26,
+        "relative_score": 0.722,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'unused' in description (+8)",
+          "Opportunity term 'pack' in title (+4)",
+          "Lower-priority term 'as is' in description (-3)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47896-5561889": {
     "item_id": "ctbids-47896-5561889",
     "listing_url": "https://ctbids.com/estate-sale/47896/item/5561889/Empire-Sterling-Silver-Candlesticks-Weighted",
@@ -109,41 +148,6 @@
           "High-value signal 'sterling silver' in title (+18)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276191779": {
-    "item_id": "276191779",
-    "listing_url": "https://shopgoodwill.com/item/276191779",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/5b9861bf-feb2-4770-8eeb-dc2d30bf7234manD_09031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/40e4a291-2ed7-4058-bf9e-f066d2e5b91amanD_09032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-03/9a59f8ec-08de-40de-bb0d-4b152e2e0649manD_09033.jpg"
-    ],
-    "description": "This listing is for a spindle pack of 25 Philips CD-R discs. Each disc has a capacity of 700 MB and supports up to 80 minutes of audio recording. The discs have a maximum write speed of 52x. The spindle is housed in a clear plastic case with a black base and lid. The discs are unused and appear to be in new condition. The outer packaging shows some dust and signs of wear. Each disc has a standard silver recording surface with Philips branding and capacity information clearly labeled on the spindle wrapper. Unable to test, may or may not work, may be used for parts or repair, may have scratches,  may have staining, may have chipping, may not be a complete set, May have missing pieces, sold as is",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+12)",
-      "Opportunity term 'unused' in description (+8)",
-      "Opportunity term 'pack' in title (+4)",
-      "Lower-priority term 'as is' in description (-3)",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 22,
-        "relative_score": 0.611,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+12)",
-          "Opportunity term 'unused' in description (+8)",
-          "Opportunity term 'pack' in title (+4)",
-          "Lower-priority term 'as is' in description (-3)",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
         ],
         "matched_keywords": []
       }
@@ -209,6 +213,72 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48096-5587614": {
+    "item_id": "ctbids-48096-5587614",
+    "listing_url": "https://ctbids.com/estate-sale/48096/item/5587614/Lot-of-4-New-Green-Outdoor-Chair-Covers-3-New-in-Package",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5587614_venrpW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276822155": {
+    "item_id": "276822155",
+    "listing_url": "https://shopgoodwill.com/item/276822155",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-09-10/44189101-242e-4ba5-a1af-309d40e900d0labs_09101.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-09-10/c4f4f767-b12d-4434-87de-46e3b61cebeclabs_09102.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-09-10/246a4694-90fa-4a34-850e-ee1965d49e4blabs_09103.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-09-10/2db64c2f-edc3-4828-9ac8-ff217f175f78labs_09104.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-09-10/3caabd0d-693b-4568-ae2a-33527d6d9d88labs_09105.jpg"
+    ],
+    "description": "Glo Minerals & Glo Skin Beauty\nPressed Base Powder Foundation Lot - 4 Pieces\nMixed Shades: Golden Light, Medium, Dark, and Natural Fair\nA professional-grade collection of mineral-based pressed powder foundations featuring products from both the Glo Minerals and Glo Skin Beauty eras. This high-pigment foundation is formulated to provide sheer to full coverage while nourishing the skin with a blend of antioxidants including Green Tea and Vitamins A, C, and E. Ideal for makeup artists or individuals looking for a versatile range of tones for various complexions.\nFour distinct shades included: Golden Light, Golden Medium, Golden Dark, and Natural Fair\nEach compact features a built-in mirror and includes an application sponge\nTriple-milled mineral formula designed for a natural, semi-matte finish with skin-protective benefits\nIndividual net weights range from 0.31 oz (9g) to 0.35 oz (9.9g) per compact\nCondition:\nThe items are in open-box condition. Powder surfaces appear largely intact, though minor surface handling marks or light dust from the sponges may be present. The original cardboard boxes are included but show visible shelf wear, scuffing, and small pen markings on the shade labels. All compact hinges and mirrors are intact and functional.\nTHANK YOU FOR YOUR PURCHASE!\nIf you’re happy and you know it, please leave a 5-star rating! If there is a problem with your order, please contact us via Shop Goodwill before opening returns/claims. We strive to return all messages within one business day.\nPlease click the shipping estimate link in the listing to get the shipping costs directly from FedEx.  There will be no discounts or price changes after an auction has ended.\nOur shipping team works hard to get out all orders as quickly as possible, that being said it may take up to 5 business days after payment for your order to ship out.  Once it ships out you will receive tracking information.\n***IMPORTANT*** If your item was damaged in transit, do not throw away anything, including the box or packing materials until we have authorized you to do so. Photos will be required to file insurance claims.\nOur Business hours: Monday - Friday  8:00 am to 4:00 pm Central\nNew items and unique treasures are added daily, come back soon!",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 10,
+        "relative_score": 0.333,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -295,60 +365,6 @@
       }
     ]
   },
-  "govdeals-29941-125": {
-    "item_id": "govdeals-29941-125",
-    "listing_url": "https://www.govdeals.com/en/asset/125/29941",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/29941/29941_125_19d86e87-2d48-4ec8-bd33-07517453aedf.png?cb=260716152604",
-      "https://webassets.lqdt1.com/assets/photos/29941/29941_125_a3a61df7-8839-47e8-bfcb-4a0e837818a0.jpg?cb=260716152646",
-      "https://webassets.lqdt1.com/assets/photos/29941/29941_125_b7c498f9-2402-4cec-bbff-16b846079a19.jpg?cb=260716152549"
-    ],
-    "description": "Military-grade Meals Ready to Eat (MREs) inspection date 5/25 the ultimate solution for camping, survival, and disaster preparedness.\nThis auction is for a pallet of mixed A and B cases.  There are 96 cases and 12 meals per case.  Total of 1,152 meals in this auction.\nMenus 1–12 Include:\nChili with Beans\nBeef Shredded in Barbecue Sauce\nChicken with Dumplings\nSpaghetti with Beef and Sauce\nChicken Chunks\nBeef Taco\nBrisket Entrée\nMeatballs in Marinara\nBeef Stew\nChili and Macaroni\nVegetable Crumbles with Pasta (Vegetarian)\nElbow Macaroni in Tomato Sauce (Vegetarian)\nMenus 13–24 Include:\nCheese Tortellini in Tomato Sauce (Vegetarian)\nMeatballs in Marinara\nShredded Beef in Barbecue Sauce\nPork Sausage Patty\nChicken Burrito Bowl\nItalian Sausage with Peppers & Onions\nCreamy Spinach Fettuccine (Vegetarian)\nChicken Egg Noodles and Vegetables\nBeef Patty Jalapeño Pepper Jack\nChicken, Pesto Pasta\nMaple Pork Sausage\nTuna, Lemon Pepper",
-    "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
-        "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48096-5587614": {
-    "item_id": "ctbids-48096-5587614",
-    "listing_url": "https://ctbids.com/estate-sale/48096/item/5587614/Lot-of-4-New-Green-Outdoor-Chair-Covers-3-New-in-Package",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5587614_venrpW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47323-5517182": {
     "item_id": "ctbids-47323-5517182",
     "listing_url": "https://ctbids.com/estate-sale/47323/item/5517182/8-Piece-Mixed-Lot-of-Rosenthal-Grill-Blue-Porcelain-And-Stainless-Flatware",
@@ -423,6 +439,87 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48049-5597506": {
+    "item_id": "ctbids-48049-5597506",
+    "listing_url": "https://ctbids.com/estate-sale/48049/item/5597506/Stripes-Swirls-Original-Paintings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5597506_Yyonqd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-29941-125": {
+    "item_id": "govdeals-29941-125",
+    "listing_url": "https://www.govdeals.com/en/asset/125/29941",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/29941/29941_125_19d86e87-2d48-4ec8-bd33-07517453aedf.png?cb=260716152604",
+      "https://webassets.lqdt1.com/assets/photos/29941/29941_125_a3a61df7-8839-47e8-bfcb-4a0e837818a0.jpg?cb=260716152646",
+      "https://webassets.lqdt1.com/assets/photos/29941/29941_125_b7c498f9-2402-4cec-bbff-16b846079a19.jpg?cb=260716152549"
+    ],
+    "description": "Military-grade Meals Ready to Eat (MREs) inspection date 5/25 the ultimate solution for camping, survival, and disaster preparedness.\nThis auction is for a pallet of mixed A and B cases.  There are 96 cases and 12 meals per case.  Total of 1,152 meals in this auction.\nMenus 1–12 Include:\nChili with Beans\nBeef Shredded in Barbecue Sauce\nChicken with Dumplings\nSpaghetti with Beef and Sauce\nChicken Chunks\nBeef Taco\nBrisket Entrée\nMeatballs in Marinara\nBeef Stew\nChili and Macaroni\nVegetable Crumbles with Pasta (Vegetarian)\nElbow Macaroni in Tomato Sauce (Vegetarian)\nMenus 13–24 Include:\nCheese Tortellini in Tomato Sauce (Vegetarian)\nMeatballs in Marinara\nShredded Beef in Barbecue Sauce\nPork Sausage Patty\nChicken Burrito Bowl\nItalian Sausage with Peppers & Onions\nCreamy Spinach Fettuccine (Vegetarian)\nChicken Egg Noodles and Vegetables\nBeef Patty Jalapeño Pepper Jack\nChicken, Pesto Pasta\nMaple Pork Sausage\nTuna, Lemon Pepper",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48096-5599436": {
+    "item_id": "ctbids-48096-5599436",
+    "listing_url": "https://ctbids.com/estate-sale/48096/item/5599436/iBUYPOWER-RGB-Gaming-Keyboard-SteelSeries-Headset-No-Aux-Cable",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599436_TMyTa9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -810,56 +907,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47493/item/5564620/Heavenly-Woods-Carved-Wood-Religious-Sculptures",
     "images": [
       "https://image.ctbids.com/seller/2026-08-26Tec9678/5564620_EEJHz4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48049-5597506": {
-    "item_id": "ctbids-48049-5597506",
-    "listing_url": "https://ctbids.com/estate-sale/48049/item/5597506/Stripes-Swirls-Original-Paintings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5597506_Yyonqd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48096-5599436": {
-    "item_id": "ctbids-48096-5599436",
-    "listing_url": "https://ctbids.com/estate-sale/48096/item/5599436/iBUYPOWER-RGB-Gaming-Keyboard-SteelSeries-Headset-No-Aux-Cable",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599436_TMyTa9.webp"
     ],
     "description": "",
     "score_reasons": [

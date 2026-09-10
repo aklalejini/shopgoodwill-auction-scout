@@ -55,6 +55,7 @@
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'ballpoint' in title (-4)",
       "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -62,8 +63,8 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 28,
-        "relative_score": 0.8,
+        "score": 30,
+        "relative_score": 0.857,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
@@ -71,6 +72,7 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'ballpoint' in title (-4)",
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -98,6 +100,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Opportunity term 'minerals' in title (+1)",
       "Target keyword 'fluorite' in description (+9)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -105,13 +108,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 18,
-        "relative_score": 0.6,
+        "score": 22,
+        "relative_score": 0.733,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'mixed' in title (+2)",
           "Opportunity term 'minerals' in title (+1)",
           "Target keyword 'fluorite' in description (+9)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -190,6 +194,68 @@
       }
     ]
   },
+  "ctbids-48110-5598646": {
+    "item_id": "ctbids-48110-5598646",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5598646/Lot-Of-Vintage-Machine-Design-Magazines",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598646_2MF3rd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48110-5598845": {
+    "item_id": "ctbids-48110-5598845",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5598845/Lot-Of-Vintage-Engineering-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598845_u4vHfC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47323-5485195": {
     "item_id": "ctbids-47323-5485195",
     "listing_url": "https://ctbids.com/estate-sale/47323/item/5485195/Vintage-Estate-Lot-Real-Mink-Fur-Scarf-Stole-Silver-Toned-Clam-Shell-Clutch-Bag-Set",
@@ -219,16 +285,16 @@
       }
     ]
   },
-  "ctbids-48110-5598646": {
-    "item_id": "ctbids-48110-5598646",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5598646/Lot-Of-Vintage-Machine-Design-Magazines",
+  "ctbids-47323-5515602": {
+    "item_id": "ctbids-47323-5515602",
+    "listing_url": "https://ctbids.com/estate-sale/47323/item/5515602/Vintage-Moriyama-Mori-Machi-Lusterware-Plates-Teacup-Set-7pc-Hand-Painted-1930s",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598646_2MF3rd.webp"
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5515602_H6XJGn.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -236,40 +302,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48110-5598845": {
-    "item_id": "ctbids-48110-5598845",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5598845/Lot-Of-Vintage-Engineering-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598845_u4vHfC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -309,33 +346,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48000/item/5590033/CM25-Vintage-Satsuma-Style-Japanese-Lidded-Jar",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5590033_SPX7Tp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47323-5515602": {
-    "item_id": "ctbids-47323-5515602",
-    "listing_url": "https://ctbids.com/estate-sale/47323/item/5515602/Vintage-Moriyama-Mori-Machi-Lusterware-Plates-Teacup-Set-7pc-Hand-Painted-1930s",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5515602_H6XJGn.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -439,6 +449,179 @@
       }
     ]
   },
+  "276400809": {
+    "item_id": "276400809",
+    "listing_url": "https://shopgoodwill.com/item/276400809",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/69442472-3ef0-4a52-9c3c-df1b4e8393cemoss_09061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/7786f0a6-64d5-461d-9250-1d6f6b3b0202moss_09062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/961d85dc-3d00-4748-8dc7-9a552b2d244emoss_09063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/227c5ec7-412b-456a-82be-844e1d77ec8fmoss_09064.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of natural mineral and rock specimens including quartz geode, amethyst cluster, agate, jasper, petrified wood, and banded onyx. The assortment features multiple colors such as purple, red, beige, grey, and brown, with diverse textures including banding and crystal formations.\n\nSpecifications:\n- Weight: 8 pounds\n- Material Types: Quartz, Amethyst, Agate, Jasper, Petrified Wood, Banded Onyx, and other minerals\n- Condition: Natural, raw or semi-polished specimens with visible chips and rough edges\n- Colors: Purple, red, beige, grey, brown\n- Features: Crystal formations, banded patterns, porous textures\n- Appearance: Mixed sizes and shapes, no brand or manufacturer markings",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in description (+1)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in description (+1)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47896-5561660": {
+    "item_id": "ctbids-47896-5561660",
+    "listing_url": "https://ctbids.com/estate-sale/47896/item/5561660/Clam-and-Lobster-Steamer-Pot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5561660_zOXuXd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47747-5557898": {
+    "item_id": "ctbids-47747-5557898",
+    "listing_url": "https://ctbids.com/estate-sale/47747/item/5557898/11-Royal-Grafton-Majestic-Bone-China-Large-Soup-Bowls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5557898_jv8R7f.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48029-5587701": {
+    "item_id": "ctbids-48029-5587701",
+    "listing_url": "https://ctbids.com/estate-sale/48029/item/5587701/Women-s-New-Size-5-1-2-6-Just-So-So-and-Adidas-Running-Shoes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5587701_PIJqVM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47282-5494839": {
+    "item_id": "ctbids-47282-5494839",
+    "listing_url": "https://ctbids.com/estate-sale/47282/item/5494839/Framed-Floral-Wall-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5494839_TlQWlG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48049-5592479": {
+    "item_id": "ctbids-48049-5592479",
+    "listing_url": "https://ctbids.com/estate-sale/48049/item/5592479/Porter-Cable-Disc-Belt-Sander",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5592479_labh6J.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276545079": {
     "item_id": "276545079",
     "listing_url": "https://shopgoodwill.com/item/276545079",
@@ -480,31 +663,6 @@
       }
     ]
   },
-  "ctbids-47896-5561660": {
-    "item_id": "ctbids-47896-5561660",
-    "listing_url": "https://ctbids.com/estate-sale/47896/item/5561660/Clam-and-Lobster-Steamer-Pot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5561660_zOXuXd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48029-5587120": {
     "item_id": "ctbids-48029-5587120",
     "listing_url": "https://ctbids.com/estate-sale/48029/item/5587120/G-I-Joe-25th-Anniversary-3-75-Action-Figures-and-2-Figure-Sets",
@@ -530,61 +688,11 @@
       }
     ]
   },
-  "ctbids-47747-5557898": {
-    "item_id": "ctbids-47747-5557898",
-    "listing_url": "https://ctbids.com/estate-sale/47747/item/5557898/11-Royal-Grafton-Majestic-Bone-China-Large-Soup-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5557898_jv8R7f.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47493-5584812": {
     "item_id": "ctbids-47493-5584812",
     "listing_url": "https://ctbids.com/estate-sale/47493/item/5584812/Fenton-Glass-Pair-of-Hand-Painted-Cat-Trinket-Boxes",
     "images": [
       "https://image.ctbids.com/seller/2026-09-01Tb823be/5584812_lKteZg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48029-5587701": {
-    "item_id": "ctbids-48029-5587701",
-    "listing_url": "https://ctbids.com/estate-sale/48029/item/5587701/Women-s-New-Size-5-1-2-6-Just-So-So-and-Adidas-Running-Shoes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5587701_PIJqVM.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -635,31 +743,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47454/item/5543091/Turquoise-Pearl-And-More-Trio",
     "images": [
       "https://image.ctbids.com/seller/2026-08-20Tbe87db/5543091_UjRAQP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47282-5494839": {
-    "item_id": "ctbids-47282-5494839",
-    "listing_url": "https://ctbids.com/estate-sale/47282/item/5494839/Framed-Floral-Wall-Art",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-07Tf0c187/5494839_TlQWlG.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -880,31 +963,6 @@
       }
     ]
   },
-  "ctbids-48049-5592479": {
-    "item_id": "ctbids-48049-5592479",
-    "listing_url": "https://ctbids.com/estate-sale/48049/item/5592479/Porter-Cable-Disc-Belt-Sander",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5592479_labh6J.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48029-5582661": {
     "item_id": "ctbids-48029-5582661",
     "listing_url": "https://ctbids.com/estate-sale/48029/item/5582661/Mega-Bloks-Collector-Series-Assassin-s-Creed-Gunboat-Takeover-Costruction-Set-Open-Box",
@@ -1023,42 +1081,6 @@
           "Opportunity term 'vintage' in title (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "$5.00 handling charge (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276400809": {
-    "item_id": "276400809",
-    "listing_url": "https://shopgoodwill.com/item/276400809",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/69442472-3ef0-4a52-9c3c-df1b4e8393cemoss_09061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/7786f0a6-64d5-461d-9250-1d6f6b3b0202moss_09062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/961d85dc-3d00-4748-8dc7-9a552b2d244emoss_09063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-06/227c5ec7-412b-456a-82be-844e1d77ec8fmoss_09064.jpg"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of natural mineral and rock specimens including quartz geode, amethyst cluster, agate, jasper, petrified wood, and banded onyx. The assortment features multiple colors such as purple, red, beige, grey, and brown, with diverse textures including banding and crystal formations.\n\nSpecifications:\n- Weight: 8 pounds\n- Material Types: Quartz, Amethyst, Agate, Jasper, Petrified Wood, Banded Onyx, and other minerals\n- Condition: Natural, raw or semi-polished specimens with visible chips and rough edges\n- Colors: Purple, red, beige, grey, brown\n- Features: Crystal formations, banded patterns, porous textures\n- Appearance: Mixed sizes and shapes, no brand or manufacturer markings",
-    "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "8 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "8 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []

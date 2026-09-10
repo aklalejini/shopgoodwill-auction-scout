@@ -59,6 +59,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
       "Lower-priority term 'possibly' in description (-4)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -66,14 +67,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 22,
-        "relative_score": 0.733,
+        "score": 26,
+        "relative_score": 0.867,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
           "Lower-priority term 'possibly' in description (-4)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -208,6 +210,64 @@
       }
     ]
   },
+  "ctbids-48110-5594786": {
+    "item_id": "ctbids-48110-5594786",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5594786/Lot-Of-Various-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5594786_Zqxkj2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48110-5596521": {
+    "item_id": "ctbids-48110-5596521",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5596521/Lot-of-40-Books-History-Finance-and-Investing-Fiction-Health-Etc",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5596521_dOXQuS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48000-5585412": {
     "item_id": "ctbids-48000-5585412",
     "listing_url": "https://ctbids.com/estate-sale/48000/item/5585412/CF77-Stamp-Collection-C",
@@ -316,65 +376,11 @@
       }
     ]
   },
-  "ctbids-48110-5594786": {
-    "item_id": "ctbids-48110-5594786",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5594786/Lot-Of-Various-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5594786_Zqxkj2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48110-5598773": {
     "item_id": "ctbids-48110-5598773",
     "listing_url": "https://ctbids.com/estate-sale/48110/item/5598773/Lot-Of-Home-Decor-Including-Wall-Pockets",
     "images": [
       "https://image.ctbids.com/seller/2026-09-04T9db37b/5598773_T0UWMA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48110-5596521": {
-    "item_id": "ctbids-48110-5596521",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5596521/Lot-of-40-Books-History-Finance-and-Investing-Fiction-Health-Etc",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5596521_dOXQuS.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -417,6 +423,222 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48110-5598805": {
+    "item_id": "ctbids-48110-5598805",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5598805/1970s-The-Americana-Encyclopedias",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598805_U2goGl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48049-5597464": {
+    "item_id": "ctbids-48049-5597464",
+    "listing_url": "https://ctbids.com/estate-sale/48049/item/5597464/Set-Of-3-Adjustable-Work-Tables",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5597464_FZ0VD0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48049-5592481": {
+    "item_id": "ctbids-48049-5592481",
+    "listing_url": "https://ctbids.com/estate-sale/48049/item/5592481/Trio-Of-Wood-And-Metal-Storage-Shelves",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5592481_sAE4Rz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48049-5581769": {
+    "item_id": "ctbids-48049-5581769",
+    "listing_url": "https://ctbids.com/estate-sale/48049/item/5581769/Custom-Built-Office-Workspace-L-Shaped",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5581769_6XhEeg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48049-5587496": {
+    "item_id": "ctbids-48049-5587496",
+    "listing_url": "https://ctbids.com/estate-sale/48049/item/5587496/Oak-Typewriter-Table",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5587496_CsqhrO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47746-5545227": {
+    "item_id": "ctbids-47746-5545227",
+    "listing_url": "https://ctbids.com/estate-sale/47746/item/5545227/Bronze-Finish-Decorative-Double-Basket-With-Glass-Fruit-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545227_Z7ovOW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48060-5581568": {
+    "item_id": "ctbids-48060-5581568",
+    "listing_url": "https://ctbids.com/estate-sale/48060/item/5581568/Fall-Is-Coming",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5581568_ZqkFpu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48110-5599462": {
+    "item_id": "ctbids-48110-5599462",
+    "listing_url": "https://ctbids.com/estate-sale/48110/item/5599462/2-Lenox-Fine-China-Vases-Bowls-with-Floral-Patterns-Gold-Toned-Rims",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599462_ukiSoj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -571,31 +793,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48117/item/5591108/Susan-Glazner-Hound-Puppies-in-Pickup-Truck-Framed-Print",
     "images": [
       "https://image.ctbids.com/seller/2026-09-03T479b27/5591108_hRqaty.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48049-5581769": {
-    "item_id": "ctbids-48049-5581769",
-    "listing_url": "https://ctbids.com/estate-sale/48049/item/5581769/Custom-Built-Office-Workspace-L-Shaped",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5581769_6XhEeg.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -791,31 +988,6 @@
       }
     ]
   },
-  "ctbids-48049-5587496": {
-    "item_id": "ctbids-48049-5587496",
-    "listing_url": "https://ctbids.com/estate-sale/48049/item/5587496/Oak-Typewriter-Table",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5587496_CsqhrO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47454-5543104": {
     "item_id": "ctbids-47454-5543104",
     "listing_url": "https://ctbids.com/estate-sale/47454/item/5543104/Topaz-Statement-Ring",
@@ -866,31 +1038,6 @@
       }
     ]
   },
-  "ctbids-47746-5545227": {
-    "item_id": "ctbids-47746-5545227",
-    "listing_url": "https://ctbids.com/estate-sale/47746/item/5545227/Bronze-Finish-Decorative-Double-Basket-With-Glass-Fruit-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5545227_Z7ovOW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48088-5597886": {
     "item_id": "ctbids-48088-5597886",
     "listing_url": "https://ctbids.com/estate-sale/48088/item/5597886/Carved-Native-Totem-Pole-Wood-Mask-Hanging-And-Stool",
@@ -916,86 +1063,11 @@
       }
     ]
   },
-  "ctbids-48110-5598805": {
-    "item_id": "ctbids-48110-5598805",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5598805/1970s-The-Americana-Encyclopedias",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598805_U2goGl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48060-5581568": {
-    "item_id": "ctbids-48060-5581568",
-    "listing_url": "https://ctbids.com/estate-sale/48060/item/5581568/Fall-Is-Coming",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5581568_ZqkFpu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47833-5595398": {
     "item_id": "ctbids-47833-5595398",
     "listing_url": "https://ctbids.com/estate-sale/47833/item/5595398/Group-of-10-Classic-Books-Published-By-The-Franklin-Library",
     "images": [
       "https://image.ctbids.com/seller/2026-09-03T479b27/5595398_6B2zw6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48049-5597464": {
-    "item_id": "ctbids-48049-5597464",
-    "listing_url": "https://ctbids.com/estate-sale/48049/item/5597464/Set-Of-3-Adjustable-Work-Tables",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5597464_FZ0VD0.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1071,56 +1143,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48088/item/5592168/Brass-Owls-Pineapples-Bell-Fish-Keys",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5592168_SBIJP6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48049-5592481": {
-    "item_id": "ctbids-48049-5592481",
-    "listing_url": "https://ctbids.com/estate-sale/48049/item/5592481/Trio-Of-Wood-And-Metal-Storage-Shelves",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5592481_sAE4Rz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48110-5599462": {
-    "item_id": "ctbids-48110-5599462",
-    "listing_url": "https://ctbids.com/estate-sale/48110/item/5599462/2-Lenox-Fine-China-Vases-Bowls-with-Floral-Patterns-Gold-Toned-Rims",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599462_ukiSoj.webp"
     ],
     "description": "",
     "score_reasons": [
