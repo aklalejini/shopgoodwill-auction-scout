@@ -16,6 +16,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "5.05 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -24,13 +25,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 35,
+        "relative_score": 1.167,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "5.05 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -204,6 +206,64 @@
       }
     ]
   },
+  "ctbids-47975-5570560": {
+    "item_id": "ctbids-47975-5570560",
+    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570560/vintage-1977-Norman-Rockwell-collector-plate-titled-Baby-s-First-Step-vintage-1977-Norman-Rockwell",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5570560_LiHmnq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47975-5570446": {
+    "item_id": "ctbids-47975-5570446",
+    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570446/vintage-1979-Norman-Rockwell-Saturday-Evening-Post-character-toby-mug-designed-by-Dave-Grossman",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5570446_6E3rot.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "govdeals-19334-1138": {
     "item_id": "govdeals-19334-1138",
     "listing_url": "https://www.govdeals.com/en/asset/1138/19334",
@@ -237,35 +297,6 @@
       }
     ]
   },
-  "ctbids-48202-5603217": {
-    "item_id": "ctbids-48202-5603217",
-    "listing_url": "https://ctbids.com/estate-sale/48202/item/5603217/U-S-Military-First-Day-Cover-Collection-West-Point-MacArthur-Eisenhower-Grant-Famous-General",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5603217_p53KaL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48050-5585146": {
     "item_id": "ctbids-48050-5585146",
     "listing_url": "https://ctbids.com/estate-sale/48050/item/5585146/Pressed-Glass-Lot-For-Your-Gatherings",
@@ -287,6 +318,91 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48202-5603217": {
+    "item_id": "ctbids-48202-5603217",
+    "listing_url": "https://ctbids.com/estate-sale/48202/item/5603217/U-S-Military-First-Day-Cover-Collection-West-Point-MacArthur-Eisenhower-Grant-Famous-General",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5603217_p53KaL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48145-5598945": {
+    "item_id": "ctbids-48145-5598945",
+    "listing_url": "https://ctbids.com/estate-sale/48145/item/5598945/Trio-of-Vintage-Foil-Landscape-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598945_DFogD2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47975-5570478": {
+    "item_id": "ctbids-47975-5570478",
+    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570478/vintage-ornate-brass-wall-sconce",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5570478_NiXowQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -376,146 +492,11 @@
       }
     ]
   },
-  "ctbids-48201-5602984": {
-    "item_id": "ctbids-48201-5602984",
-    "listing_url": "https://ctbids.com/estate-sale/48201/item/5602984/c1890-1915-Gr-fenthal-Neoclassical-Female-Lute-Player-Cherub-Bisque-Porcelain-Figurine-See-Desc",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5602984_rJtoGc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48201-5616876": {
-    "item_id": "ctbids-48201-5616876",
-    "listing_url": "https://ctbids.com/estate-sale/48201/item/5616876/2-Vtg-Hardcover-Garden-Design-Coffee-Table-Books-World-of-Garden-Design-The-Garden-Design-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616876_MiUtm8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48145-5598945": {
-    "item_id": "ctbids-48145-5598945",
-    "listing_url": "https://ctbids.com/estate-sale/48145/item/5598945/Trio-of-Vintage-Foil-Landscape-Art",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598945_DFogD2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48145-5604166": {
     "item_id": "ctbids-48145-5604166",
     "listing_url": "https://ctbids.com/estate-sale/48145/item/5604166/Vintage-White-Seed-Bead-and-Onyx-Necklace",
     "images": [
       "https://image.ctbids.com/seller/2026-09-06T6db43c/5604166_PJ40WA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47975-5570560": {
-    "item_id": "ctbids-47975-5570560",
-    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570560/vintage-1977-Norman-Rockwell-collector-plate-titled-Baby-s-First-Step-vintage-1977-Norman-Rockwell",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5570560_LiHmnq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47975-5570446": {
-    "item_id": "ctbids-47975-5570446",
-    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570446/vintage-1979-Norman-Rockwell-Saturday-Evening-Post-character-toby-mug-designed-by-Dave-Grossman",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5570446_6E3rot.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -565,15 +546,15 @@
       }
     ]
   },
-  "ctbids-47975-5570478": {
-    "item_id": "ctbids-47975-5570478",
-    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570478/vintage-ornate-brass-wall-sconce",
+  "ctbids-48201-5616876": {
+    "item_id": "ctbids-48201-5616876",
+    "listing_url": "https://ctbids.com/estate-sale/48201/item/5616876/2-Vtg-Hardcover-Garden-Design-Coffee-Table-Books-World-of-Garden-Design-The-Garden-Design-Book",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5570478_NiXowQ.webp"
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616876_MiUtm8.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -581,10 +562,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47975-5570539": {
+    "item_id": "ctbids-47975-5570539",
+    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570539/Prairie-Pals-collector-plate-from-the-Proud-Young-Spirits-series-by-artist-Gregory-Perillo-relea",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5570539_7a6gtS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -641,7 +649,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -649,37 +656,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48201-5603223": {
-    "item_id": "ctbids-48201-5603223",
-    "listing_url": "https://ctbids.com/estate-sale/48201/item/5603223/1991-The-Age-Of-Innocence-by-Edith-Whatton-Vtg-Hardcover-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603223_41LAlp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -787,6 +766,87 @@
       }
     ]
   },
+  "ctbids-48201-5602984": {
+    "item_id": "ctbids-48201-5602984",
+    "listing_url": "https://ctbids.com/estate-sale/48201/item/5602984/c1890-1915-Gr-fenthal-Neoclassical-Female-Lute-Player-Cherub-Bisque-Porcelain-Figurine-See-Desc",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5602984_rJtoGc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48201-5603223": {
+    "item_id": "ctbids-48201-5603223",
+    "listing_url": "https://ctbids.com/estate-sale/48201/item/5603223/1991-The-Age-Of-Innocence-by-Edith-Whatton-Vtg-Hardcover-Book",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603223_41LAlp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48145-5603959": {
+    "item_id": "ctbids-48145-5603959",
+    "listing_url": "https://ctbids.com/estate-sale/48145/item/5603959/Metal-Serving-Platter",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603959_oKFq0b.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276411412": {
     "item_id": "276411412",
     "listing_url": "https://shopgoodwill.com/item/276411412",
@@ -816,56 +876,6 @@
           "Opportunity term 'specimen' in title (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48145-5603959": {
-    "item_id": "ctbids-48145-5603959",
-    "listing_url": "https://ctbids.com/estate-sale/48145/item/5603959/Metal-Serving-Platter",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603959_oKFq0b.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47975-5570539": {
-    "item_id": "ctbids-47975-5570539",
-    "listing_url": "https://ctbids.com/estate-sale/47975/item/5570539/Prairie-Pals-collector-plate-from-the-Proud-Young-Spirits-series-by-artist-Gregory-Perillo-relea",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5570539_7a6gtS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
