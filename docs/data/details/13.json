@@ -622,31 +622,6 @@
       }
     ]
   },
-  "ctbids-48208-5615675": {
-    "item_id": "ctbids-48208-5615675",
-    "listing_url": "https://ctbids.com/estate-sale/48208/item/5615675/Gold-Rolled-Cross-Pin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615675_ER2jAH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48208-5612639": {
     "item_id": "ctbids-48208-5612639",
     "listing_url": "https://ctbids.com/estate-sale/48208/item/5612639/Sbicca-Handmade-in-CA-Women-s-Platform-Wedge-Sandals-w-Floral-Cutout-Accents",
@@ -702,6 +677,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47995/item/5593017/Fun-Happy-Halloween-Decorations",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5593017_QCTLrh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48207-5624078": {
+    "item_id": "ctbids-48207-5624078",
+    "listing_url": "https://ctbids.com/estate-sale/48207/item/5624078/5-1980-Good-Cook-Techniques-Recipes-Series-by-Time-Life-Books-Hardcover-Cookbook-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5616585_nbHXkr.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1154,6 +1154,46 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48208-5615675": {
+    "item_id": "ctbids-48208-5615675",
+    "listing_url": "https://ctbids.com/estate-sale/48208/item/5615675/Vtg-10k-Gold-Filled-Cross-Classic-Century-Ballpoint-Pen",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615675_ER2jAH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)",
+      "Score boundary adjustment (+11)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)",
+          "Score boundary adjustment (+11)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
