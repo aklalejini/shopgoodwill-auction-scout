@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-12T00:15:41.480925+00:00",
-  "active_count": 2657,
+  "generated_at": "2026-09-12T04:35:44.123063+00:00",
+  "active_count": 2604,
   "high_priority_count": 28,
   "archived_count": 1000,
   "search_failures": [
-    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
-    "GovDeals / 38635 + 50 mi: Request failed after limited retries: HTTPSConnectionPool(host='prod-seo.govdeals.com', port=443): Read timed out. (read timeout=25.0)"
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 31,
-  "relevance_filtered_count": 709,
+  "detail_requests_completed": 50,
+  "relevance_filtered_count": 687,
   "potentially_high_value_count": 28,
   "ocr": {
     "available": true,
@@ -24,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 623,
-      "detail_requests_attempted": 11
+      "active_count": 570,
+      "detail_requests_attempted": 30
     },
     {
       "id": "gsa-auctions",
@@ -50,12 +49,12 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 439
+      "active_count": 416
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 32
+      "active_count": 30
     },
     {
       "id": "vintage-electron-tubes",
@@ -65,17 +64,17 @@
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 54
+      "active_count": 47
     },
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 61
+      "active_count": 50
     },
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 32
+      "active_count": 28
     },
     {
       "id": "local-government-surplus",
