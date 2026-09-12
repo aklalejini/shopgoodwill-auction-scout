@@ -43,6 +43,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -50,10 +51,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 21,
+        "relative_score": 0.618,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -282,6 +284,35 @@
       }
     ]
   },
+  "ctbids-48208-5603354": {
+    "item_id": "ctbids-48208-5603354",
+    "listing_url": "https://ctbids.com/estate-sale/48208/item/5603354/Beach-Themed-Decorative-Items-Sandals-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5571575_7jC6RT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48151-5593606": {
     "item_id": "ctbids-48151-5593606",
     "listing_url": "https://ctbids.com/estate-sale/48151/item/5593606/1976-TCMA-American-League-Umpires-Don-Denkinger-Larry-Barnett-2-Card-Lot-Vintage",
@@ -429,33 +460,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48208-5603354": {
-    "item_id": "ctbids-48208-5603354",
-    "listing_url": "https://ctbids.com/estate-sale/48208/item/5603354/Beach-Themed-Decorative-Items-Sandals-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5571575_7jC6RT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -652,14 +656,15 @@
       }
     ]
   },
-  "ctbids-48208-5612767": {
-    "item_id": "ctbids-48208-5612767",
-    "listing_url": "https://ctbids.com/estate-sale/48208/item/5612767/Brighton-Charlene-Veruca-Latte-Ladies-Purse-w-Embellished-Buckle-Strap-Stack-Accent",
+  "ctbids-48208-5612773": {
+    "item_id": "ctbids-48208-5612773",
+    "listing_url": "https://ctbids.com/estate-sale/48208/item/5612773/Brighton-Ofelia-Black-Leather-Thong-Sandals-w-Dainty-Silver-Tone-Heart-Charm-And-Bow-Detail-sz-8-5",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5612767_DYvtgn.webp"
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5612773_VUUKge.webp"
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -667,9 +672,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -677,11 +683,11 @@
       }
     ]
   },
-  "ctbids-48208-5612773": {
-    "item_id": "ctbids-48208-5612773",
-    "listing_url": "https://ctbids.com/estate-sale/48208/item/5612773/Brighton-Ofelia-Black-Leather-Thong-Sandals-w-Dainty-Silver-Tone-Heart-Charm-And-Bow-Detail-sz-8-5",
+  "ctbids-48208-5612767": {
+    "item_id": "ctbids-48208-5612767",
+    "listing_url": "https://ctbids.com/estate-sale/48208/item/5612767/Brighton-Charlene-Veruca-Latte-Ladies-Purse-w-Embellished-Buckle-Strap-Stack-Accent",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5612773_VUUKge.webp"
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5612767_DYvtgn.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -822,6 +828,42 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276354613": {
+    "item_id": "276354613",
+    "listing_url": "https://shopgoodwill.com/item/276354613",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/93a29b97-f380-4aee-94be-de0f0c67b5a4inal_09051.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/32299936-bdc6-4029-bc55-7a8aaa9d8f0binal_09052.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/8acd6ddc-9a83-4d8d-af8a-d92771d29885inal_09053.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/95bc95d1-f9ae-4440-8ffc-5e2d9f48713einal_09054.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/fc1251dc-8455-4273-b403-3397cccf2e9final_09055.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/53da43be-b852-4b3f-828a-c7e62cc65473inal_09056.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/cd0d1289-ee42-4acf-91a0-36bbec497069inal_09057.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/6934fa28-664e-4445-98d9-fad063e86fc4inal_09058.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/42d98fbf-d18d-41c0-b3e6-09b474385ce3inal_09059.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/d5572a76-1290-406c-8c7f-6706c8229419inal_090510.jpg"
+    ],
+    "description": "This lot includes various fossils of different sizes and shapes, totaling 570 grams. The assortment includes fossilized shells, ammonites, and other marine fossils. Perfect for collectors, educational purposes, or display.\nDue to the nature of grab bag assortments, some may have minor damage not noted and there may be mismatched or incomplete items. These are not eligible for return or refund. Please refer to photos to further evaluate condition. Sold as is. We are unable to answer questions about specific items within a grab bag. Please view the provided photographs to determine general contents.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1322,42 +1364,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276354613": {
-    "item_id": "276354613",
-    "listing_url": "https://shopgoodwill.com/item/276354613",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/93a29b97-f380-4aee-94be-de0f0c67b5a4inal_09051.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/32299936-bdc6-4029-bc55-7a8aaa9d8f0binal_09052.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/8acd6ddc-9a83-4d8d-af8a-d92771d29885inal_09053.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/95bc95d1-f9ae-4440-8ffc-5e2d9f48713einal_09054.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/fc1251dc-8455-4273-b403-3397cccf2e9final_09055.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/53da43be-b852-4b3f-828a-c7e62cc65473inal_09056.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/cd0d1289-ee42-4acf-91a0-36bbec497069inal_09057.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/6934fa28-664e-4445-98d9-fad063e86fc4inal_09058.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/42d98fbf-d18d-41c0-b3e6-09b474385ce3inal_09059.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-05/d5572a76-1290-406c-8c7f-6706c8229419inal_090510.jpg"
-    ],
-    "description": "This lot includes various fossils of different sizes and shapes, totaling 570 grams. The assortment includes fossilized shells, ammonites, and other marine fossils. Perfect for collectors, educational purposes, or display.\nDue to the nature of grab bag assortments, some may have minor damage not noted and there may be mismatched or incomplete items. These are not eligible for return or refund. Please refer to photos to further evaluate condition. Sold as is. We are unable to answer questions about specific items within a grab bag. Please view the provided photographs to determine general contents.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
