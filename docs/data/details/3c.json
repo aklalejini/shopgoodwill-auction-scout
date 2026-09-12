@@ -388,7 +388,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -399,7 +399,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -502,36 +502,9 @@
       }
     ]
   },
-  "ctbids-47701-5573330": {
-    "item_id": "ctbids-47701-5573330",
-    "listing_url": "https://ctbids.com/estate-sale/47701/item/5573330/Doll-Lot-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5573330_I68rYl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48207-5604416": {
     "item_id": "ctbids-48207-5604416",
-    "listing_url": "https://ctbids.com/estate-sale/48207/item/5604416/Silver-Tone-Tennis-Style-Bracelet",
+    "listing_url": "https://ctbids.com/estate-sale/48207/item/5604416/Vtg-c1937-1953-Crown-Trifari-Calibre-Cut-Rhinestone-Line-Bracelet",
     "images": [
       "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5604416_bnbagX.webp"
     ],
@@ -556,7 +529,7 @@
   },
   "ctbids-48207-5605029": {
     "item_id": "ctbids-48207-5605029",
-    "listing_url": "https://ctbids.com/estate-sale/48207/item/5605029/Vtg-Large-Pendant",
+    "listing_url": "https://ctbids.com/estate-sale/48207/item/5605029/Vtg-Large-Teardrop-Faux-Pearl-Multicolor-Rhinestone-Chunky-Gold-Tone-Maltese-Cross-Pendant",
     "images": [
       "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5605029_6355Uc.webp"
     ],
@@ -572,6 +545,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47701-5573330": {
+    "item_id": "ctbids-47701-5573330",
+    "listing_url": "https://ctbids.com/estate-sale/47701/item/5573330/Doll-Lot-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5573330_I68rYl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
