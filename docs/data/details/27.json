@@ -254,7 +254,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -262,11 +261,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -274,28 +272,40 @@
       }
     ]
   },
-  "ctbids-48208-5615582": {
-    "item_id": "ctbids-48208-5615582",
-    "listing_url": "https://ctbids.com/estate-sale/48208/item/5615582/Hot-Pink-Frosted-Glass-Vase",
+  "276478193": {
+    "item_id": "276478193",
+    "listing_url": "https://shopgoodwill.com/item/276478193",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615582_ifhU97.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/04e516e9-0981-448d-a706-cb41cb3f90d5nkel_09071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/a83af7c8-8d47-4826-8b74-b346d97afc81nkel_09072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/a7cb243d-7d21-4ea2-9473-75c5bf31296fnkel_09073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/f918787b-c93f-45ff-b279-53a7b8700cfenkel_09074.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/cc2292b8-6cfd-46cd-aacd-c7cbc536b984nkel_09075.jpg"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis collection contains assorted collectible minerals, gemstones, and crystals, including both raw and polished specimens. The assortment features various types of stones in different shapes and sizes.\n\nSpecifications:\n- Includes amethyst clusters with silver figurine accents\n- Rose quartz, citrine, pyrite, obsidian, jade, and other semi-precious minerals\n- One heart-shaped genuine jade pendant with a gold tag labeled 'Made in Taiwan, Republic of China'\n- Variety of shapes including chips, clusters, rough pieces, and polished stones\n\nNo additional information regarding condition, age, origin, or specific use is provided.",
     "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 5,
-        "relative_score": 0.147,
+        "relative_score": 0.167,
         "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -508,6 +518,60 @@
       }
     ]
   },
+  "ctbids-48208-5615582": {
+    "item_id": "ctbids-48208-5615582",
+    "listing_url": "https://ctbids.com/estate-sale/48208/item/5615582/Hot-Pink-Frosted-Glass-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615582_ifhU97.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48207-5616824": {
+    "item_id": "ctbids-48207-5616824",
+    "listing_url": "https://ctbids.com/estate-sale/48207/item/5616824/Artwork",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616824_l7nJOG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48151-5593568": {
     "item_id": "ctbids-48151-5593568",
     "listing_url": "https://ctbids.com/estate-sale/48151/item/5593568/Joe-Namath-Card-Lot-Jets-Prizm-Donruss-Pro-Set-Inserts-Legends",
@@ -562,43 +626,6 @@
       }
     ]
   },
-  "276478193": {
-    "item_id": "276478193",
-    "listing_url": "https://shopgoodwill.com/item/276478193",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/04e516e9-0981-448d-a706-cb41cb3f90d5nkel_09071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/a83af7c8-8d47-4826-8b74-b346d97afc81nkel_09072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/a7cb243d-7d21-4ea2-9473-75c5bf31296fnkel_09073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/f918787b-c93f-45ff-b279-53a7b8700cfenkel_09074.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-07/cc2292b8-6cfd-46cd-aacd-c7cbc536b984nkel_09075.jpg"
-    ],
-    "description": "Product Overview:\nThis collection contains assorted collectible minerals, gemstones, and crystals, including both raw and polished specimens. The assortment features various types of stones in different shapes and sizes.\n\nSpecifications:\n- Includes amethyst clusters with silver figurine accents\n- Rose quartz, citrine, pyrite, obsidian, jade, and other semi-precious minerals\n- One heart-shaped genuine jade pendant with a gold tag labeled 'Made in Taiwan, Republic of China'\n- Variety of shapes including chips, clusters, rough pieces, and polished stones\n\nNo additional information regarding condition, age, origin, or specific use is provided.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48208-5612717": {
     "item_id": "ctbids-48208-5612717",
     "listing_url": "https://ctbids.com/estate-sale/48208/item/5612717/Vtg-Velez-Tan-Pebbled-Leather-Hobo-Bag-Purse-Matching-Trifold-Wallet-Set",
@@ -624,28 +651,42 @@
       }
     ]
   },
-  "ctbids-48207-5616824": {
-    "item_id": "ctbids-48207-5616824",
-    "listing_url": "https://ctbids.com/estate-sale/48207/item/5616824/Artwork",
+  "277067527": {
+    "item_id": "277067527",
+    "listing_url": "https://shopgoodwill.com/item/277067527",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616824_l7nJOG.webp"
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/ff72876a-30f7-4fc8-bba3-c19b2516853dlose_07201.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/ff72876a-30f7-4fc8-bba3-c19b2516853dlose_07202.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/ff72876a-30f7-4fc8-bba3-c19b2516853dlose_07203.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/ff72876a-30f7-4fc8-bba3-c19b2516853dlose_07204.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/ff72876a-30f7-4fc8-bba3-c19b2516853dlose_07205.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/ff72876a-30f7-4fc8-bba3-c19b2516853dlose_07206.png"
     ],
-    "description": "",
+    "description": "For your bidding pleasure, we present a Dr. Grabow Freehand Textured Smoking Pipe.\nFeatures Rusticated Red Briar Bowl\nCrafted from Mediterranean Briar\nBent Black Stem with White Spade Logo\nMeasures Approx. 5-3/4\" Length, 1-1/4\" Bowl Diameter, 3/4\" Interior Bowl Diameter\nItem Shows Signs of Use, and General Wear and Tear\nGood luck and happy bidding!\nAll sales have three days from the date of delivery to report a discrepancy.\nAll sales are final after three days from delivery.\nThank you for supporting Licking/Knox Goodwill; your patronage provides training, employment, and supportive services to individuals with disabilities and other barriers to employment.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Lower-priority term 'dr. grabow' in title (-12)",
+      "Target keyword 'freehand' in title (+8)",
+      "Target keyword 'briar' in description (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 2,
+        "relative_score": 0.057,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Lower-priority term 'dr. grabow' in title (-12)",
+          "Target keyword 'freehand' in title (+8)",
+          "Target keyword 'briar' in description (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
-        "matched_keywords": []
+        "matched_keywords": [
+          "briar",
+          "freehand"
+        ]
       }
     ]
   },

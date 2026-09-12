@@ -170,6 +170,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -177,9 +178,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -195,6 +197,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -202,9 +205,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -523,6 +527,42 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277066124": {
+    "item_id": "277066124",
+    "listing_url": "https://shopgoodwill.com/item/277066124",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/16c38848-7387-4565-83d0-642364e9dab2t099_09121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/6a71c7c7-9358-4826-8b63-52680b9b5304t099_09122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/15cff415-75fc-4462-a3b0-b108c5b7cb21t099_09123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/c7c5dcaa-5527-4aee-8e00-2e2eaa8eb087t099_09124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/9a65442f-35ab-43f5-810c-1ccb76070033t099_09125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/a73d4374-e16d-4597-bc28-8619eb316373t099_09126.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/10cce7d5-1dbc-44a4-9ebc-7cd4a1d533f3t099_09127.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-09-12/1ad3c248-c80d-4a3e-906d-90717cf1df47t099_09128.jpg"
+    ],
+    "description": "Inland Craft\nConvertible Max Electric Glass Grinder\nModel: Convertible Max\nThis professional-grade electric glass grinder is designed for shaping, smoothing, and edging glass, tile, and ceramic materials. The Convertible Max features a high-torque motor and a versatile work surface suitable for stained glass projects, mosaic work, and other lapidary applications. The machine's design incorporates an integrated water reservoir system to keep the grinding bit cool and lubricated during use, ensuring a clean and precise finish on various materials.\nDurable high-impact housing designed for longevity in a workshop environment\nRemovable work surface grid for easy maintenance and debris management\nStandard grinding head included for immediate setup and various edging applications\nCondition:\nGood overall physical condition with expected wear from professional or hobbyist shop use. The red casing shows minor surface scuffs and some residue consistent with previous glass work. The power cord and on/off rocker switch are intact. This item is untested.",
+    "score_reasons": [
+      "Lower-priority term 'craft' in title (-6)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+7)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'craft' in title (-6)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       }
