@@ -231,6 +231,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -238,9 +239,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -766,6 +768,45 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277115031": {
+    "item_id": "277115031",
+    "listing_url": "https://shopgoodwill.com/item/277115031",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis lot includes a variety of semi-precious stones and minerals featuring polished and carved specimens. Included are large agate geode bookends with natural banding in grey, pink, and red hues. The collection also contains polished agate slices in purple and pink tones, a heart-shaped rose quartz, a yellow-green onyx dolphin figurine, a polished orange-red jasper or agate stone, and a green onyx or marble piece.\n\nSpecifications:\n- Large agate geode bookends with visible banding patterns\n- Polished agate slices in purple and pink colors\n- Heart-shaped rose quartz stone\n- Yellow-green onyx dolphin figurine\n- Polished orange-red jasper or agate stone\n- Green onyx or marble stone\n\nAll items are presented without significant chips or cracks visible.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'carved' in title (-7)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+7)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'carved' in title (-7)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       }
