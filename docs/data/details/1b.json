@@ -263,6 +263,33 @@
       }
     ]
   },
+  "ctbids-48151-5594207": {
+    "item_id": "ctbids-48151-5594207",
+    "listing_url": "https://ctbids.com/estate-sale/48151/item/5594207/Topps-236-N-League-1966-Pitching-Leaders-Koufax-Marichal-Gibson-Perry",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5549941_1VbtGy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276411101": {
     "item_id": "276411101",
     "listing_url": "https://shopgoodwill.com/item/276411101",
@@ -291,33 +318,6 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48151-5594207": {
-    "item_id": "ctbids-48151-5594207",
-    "listing_url": "https://ctbids.com/estate-sale/48151/item/5594207/Topps-236-N-League-1966-Pitching-Leaders-Koufax-Marichal-Gibson-Perry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5549941_1VbtGy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -358,7 +358,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -369,7 +369,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -731,47 +731,6 @@
       }
     ]
   },
-  "ctbids-48127-5597563": {
-    "item_id": "ctbids-48127-5597563",
-    "listing_url": "https://ctbids.com/estate-sale/48127/item/5597563/EICO-Model-221-Vacuum-Tube-Voltmeter",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5597563_StNOWU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47499-5549088": {
     "item_id": "ctbids-47499-5549088",
     "listing_url": "https://ctbids.com/estate-sale/47499/item/5549088/Micky-Mantle-Insert-Baseball-Cards",
@@ -840,6 +799,47 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48127-5597563": {
+    "item_id": "ctbids-48127-5597563",
+    "listing_url": "https://ctbids.com/estate-sale/48127/item/5597563/EICO-Model-221-Vacuum-Tube-Voltmeter",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5597563_StNOWU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

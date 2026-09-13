@@ -100,6 +100,33 @@
       }
     ]
   },
+  "ctbids-48081-5587808": {
+    "item_id": "ctbids-48081-5587808",
+    "listing_url": "https://ctbids.com/estate-sale/48081/item/5587808/Sterling-Silver-Meadow-Rose-4pc",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5587808_Hd2yi3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276739044": {
     "item_id": "276739044",
     "listing_url": "https://shopgoodwill.com/item/276739044",
@@ -153,7 +180,7 @@
       "Opportunity term 'sealed' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -161,40 +188,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 20,
-        "relative_score": 0.588,
+        "score": 18,
+        "relative_score": 0.529,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48081-5587808": {
-    "item_id": "ctbids-48081-5587808",
-    "listing_url": "https://ctbids.com/estate-sale/48081/item/5587808/Sterling-Silver-Meadow-Rose-4pc",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5587808_Hd2yi3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
-        "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -347,60 +347,6 @@
       }
     ]
   },
-  "ctbids-47487-5599868": {
-    "item_id": "ctbids-47487-5599868",
-    "listing_url": "https://ctbids.com/estate-sale/47487/item/5599868/Vintage-Hand-painted-Floral-Gone-with-the-Wind-Hurricane-Parlor-Lamp",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5534509_JQAgGw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47349-5610307": {
-    "item_id": "ctbids-47349-5610307",
-    "listing_url": "https://ctbids.com/estate-sale/47349/item/5610307/Vintage-Colorful-Multi-Gemstone-Clip-On-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-09Tb64532/5599702_sxqAx4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48104-5609327": {
     "item_id": "ctbids-48104-5609327",
     "listing_url": "https://ctbids.com/estate-sale/48104/item/5609327/Collection-Of-43-Pok-mon-Trading-Cards-4-Sleeves",
@@ -455,11 +401,92 @@
       }
     ]
   },
+  "ctbids-47487-5599868": {
+    "item_id": "ctbids-47487-5599868",
+    "listing_url": "https://ctbids.com/estate-sale/47487/item/5599868/Vintage-Hand-painted-Floral-Gone-with-the-Wind-Hurricane-Parlor-Lamp",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5534509_JQAgGw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47349-5610307": {
+    "item_id": "ctbids-47349-5610307",
+    "listing_url": "https://ctbids.com/estate-sale/47349/item/5610307/Vintage-Colorful-Multi-Gemstone-Clip-On-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-09Tb64532/5599702_sxqAx4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47701-5541365": {
     "item_id": "ctbids-47701-5541365",
     "listing_url": "https://ctbids.com/estate-sale/47701/item/5541365/National-Geographic-Magazine-Lot",
     "images": [
       "https://image.ctbids.com/seller/2026-08-20Tbe87db/5541365_FOBpyK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47901-5556463": {
+    "item_id": "ctbids-47901-5556463",
+    "listing_url": "https://ctbids.com/estate-sale/47901/item/5556463/PlayStation-2-Console-Games-Lot-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5556463_lInQMc.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -515,33 +542,6 @@
           "Opportunity term 'minerals' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47901-5556463": {
-    "item_id": "ctbids-47901-5556463",
-    "listing_url": "https://ctbids.com/estate-sale/47901/item/5556463/PlayStation-2-Console-Games-Lot-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5556463_lInQMc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
