@@ -48,7 +48,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'lot' in title (+2)",
-      "2 bids near close (+2)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -56,12 +55,11 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 24,
+        "relative_score": 0.8,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'lot' in title (+2)",
-          "2 bids near close (+2)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -270,6 +268,35 @@
       }
     ]
   },
+  "ctbids-48101-5584613": {
+    "item_id": "ctbids-48101-5584613",
+    "listing_url": "https://ctbids.com/estate-sale/48101/item/5584613/Vintage-Pyrex-No-208-8-Inch-Clear-Glass-Pie-Plate",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584613_YnwaQl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276811860": {
     "item_id": "276811860",
     "listing_url": "https://shopgoodwill.com/item/276811860",
@@ -310,35 +337,6 @@
           "tung-sol",
           "zenith"
         ]
-      }
-    ]
-  },
-  "ctbids-48101-5584613": {
-    "item_id": "ctbids-48101-5584613",
-    "listing_url": "https://ctbids.com/estate-sale/48101/item/5584613/Vintage-Pyrex-No-208-8-Inch-Clear-Glass-Pie-Plate",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584613_YnwaQl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -464,6 +462,33 @@
       }
     ]
   },
+  "ctbids-47487-5590239": {
+    "item_id": "ctbids-47487-5590239",
+    "listing_url": "https://ctbids.com/estate-sale/47487/item/5590239/Vintage-Wood-Breadbox-And-Metal-Picnic-Basket-Tin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-02T953ca6/5590239_uPRgeh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48082-5586085": {
     "item_id": "ctbids-48082-5586085",
     "listing_url": "https://ctbids.com/estate-sale/48082/item/5586085/Antique-Wooden-Hand-Planes-Level",
@@ -550,33 +575,6 @@
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47487-5590239": {
-    "item_id": "ctbids-47487-5590239",
-    "listing_url": "https://ctbids.com/estate-sale/47487/item/5590239/Vintage-Wood-Breadbox-And-Metal-Picnic-Basket-Tin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5590239_uPRgeh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

@@ -273,7 +273,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -281,11 +281,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -325,33 +325,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47820/item/5591569/Vintage-Newman-s-Cashmere-Black-Coat-w-Fur-Collar",
     "images": [
       "https://image.ctbids.com/seller/2026-09-04T9db37b/5591569_ojCoD1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48104-5608145": {
-    "item_id": "ctbids-48104-5608145",
-    "listing_url": "https://ctbids.com/estate-sale/48104/item/5608145/Clear-Pale-Blue-Pressed-Vintage-Glass-Tiara-Exclusives-Eagles-Stars",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5608145_UbST3j.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -421,6 +394,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48104-5608145": {
+    "item_id": "ctbids-48104-5608145",
+    "listing_url": "https://ctbids.com/estate-sale/48104/item/5608145/Clear-Pale-Blue-Pressed-Vintage-Glass-Tiara-Exclusives-Eagles-Stars",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5608145_UbST3j.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -536,6 +536,60 @@
       }
     ]
   },
+  "ctbids-48203-5604675": {
+    "item_id": "ctbids-48203-5604675",
+    "listing_url": "https://ctbids.com/estate-sale/48203/item/5604675/1986-Ellis-Island-Silver-Dollar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5604675_6CTJtg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47487-5535965": {
+    "item_id": "ctbids-47487-5535965",
+    "listing_url": "https://ctbids.com/estate-sale/47487/item/5535965/Kids-Ski-Pants-Obermeyer-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-19T869be6/5535965_vb0U2W.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277057705": {
     "item_id": "277057705",
     "listing_url": "https://shopgoodwill.com/item/277057705",
@@ -570,60 +624,6 @@
           "Lower-priority term 'decorative' in title (-8)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48203-5604675": {
-    "item_id": "ctbids-48203-5604675",
-    "listing_url": "https://ctbids.com/estate-sale/48203/item/5604675/1986-Ellis-Island-Silver-Dollar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5604675_6CTJtg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47487-5535965": {
-    "item_id": "ctbids-47487-5535965",
-    "listing_url": "https://ctbids.com/estate-sale/47487/item/5535965/Kids-Ski-Pants-Obermeyer-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-19T869be6/5535965_vb0U2W.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -791,69 +791,6 @@
       }
     ]
   },
-  "ctbids-48151-5604342": {
-    "item_id": "ctbids-48151-5604342",
-    "listing_url": "https://ctbids.com/estate-sale/48151/item/5604342/2025-Panini-Select-Ashton-Jeanty-Copper-Shock-899-104-Rookie-RC-PSA-8-Raiders",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5565020_43b7XC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276706943": {
-    "item_id": "276706943",
-    "listing_url": "https://shopgoodwill.com/item/276706943",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/4760abca-06ae-4b86-a748-94fd03600776ith2_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/3780c94d-e5dc-4c95-9392-9fc2e66428deith2_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/33425dce-8441-41c0-a595-33a22d1df3e1ith2_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/ea8283f9-4cec-4bbc-85c5-3f622f5824eeith2_09094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/37523b5d-bb55-4580-9654-291d1aa26c41ith2_09095.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/af520a4a-ed57-4298-ba95-8a26844f02d5ith2_09096.jpg"
-    ],
-    "description": "Material(s):\nStone\nCondition:\nCondition varies across items in lot.\nImperfection(s):\nMarkings/Scuffs, Needs Cleaning, Scratches",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48127-5597725": {
     "item_id": "ctbids-48127-5597725",
     "listing_url": "https://ctbids.com/estate-sale/48127/item/5597725/Scuba-Gear",
@@ -954,49 +891,6 @@
       }
     ]
   },
-  "ctbids-47349-5607132": {
-    "item_id": "ctbids-47349-5607132",
-    "listing_url": "https://ctbids.com/estate-sale/47349/item/5607132/Vintage-Waterman-H-misph-re-Blue-Lauqer-Ballpoint-Pen",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607132_Kmp1RY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Lower-priority term 'ballpoint' in title (-4)",
-      "Target keyword 'waterman' in title (+12)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Lower-priority term 'ballpoint' in title (-4)",
-          "Target keyword 'waterman' in title (+12)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "waterman"
-        ]
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48066-5597541": {
     "item_id": "ctbids-48066-5597541",
     "listing_url": "https://ctbids.com/estate-sale/48066/item/5597541/Kirks-Folly-Dragonfly-Drop-Earings",
@@ -1042,6 +936,85 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47349-5607132": {
+    "item_id": "ctbids-47349-5607132",
+    "listing_url": "https://ctbids.com/estate-sale/47349/item/5607132/Vintage-Waterman-H-misph-re-Blue-Lauqer-Ballpoint-Pen",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607132_Kmp1RY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "Target keyword 'waterman' in title (+12)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "Target keyword 'waterman' in title (+12)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "waterman"
+        ]
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276706943": {
+    "item_id": "276706943",
+    "listing_url": "https://shopgoodwill.com/item/276706943",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/4760abca-06ae-4b86-a748-94fd03600776ith2_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/3780c94d-e5dc-4c95-9392-9fc2e66428deith2_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/33425dce-8441-41c0-a595-33a22d1df3e1ith2_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/ea8283f9-4cec-4bbc-85c5-3f622f5824eeith2_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/37523b5d-bb55-4580-9654-291d1aa26c41ith2_09095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/af520a4a-ed57-4298-ba95-8a26844f02d5ith2_09096.jpg"
+    ],
+    "description": "Material(s):\nStone\nCondition:\nCondition varies across items in lot.\nImperfection(s):\nMarkings/Scuffs, Needs Cleaning, Scratches",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1127,6 +1100,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48077/item/5605260/Tonal-Mexican-Folk-Art-Hand-Carved-Ironwood-Duck-More",
     "images": [
       "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5605260_wQSvSk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48151-5604342": {
+    "item_id": "ctbids-48151-5604342",
+    "listing_url": "https://ctbids.com/estate-sale/48151/item/5604342/2025-Panini-Select-Ashton-Jeanty-Copper-Shock-899-104-Rookie-RC-PSA-8-Raiders",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5565020_43b7XC.webp"
     ],
     "description": "",
     "score_reasons": [

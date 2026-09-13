@@ -144,7 +144,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -152,12 +152,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -504,41 +504,6 @@
       }
     ]
   },
-  "276741974": {
-    "item_id": "276741974",
-    "listing_url": "https://shopgoodwill.com/item/276741974",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/975bdc4f-435c-4ad9-b9df-49cb5c9d63e0ward_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/37bdbde3-1011-4d51-b0dc-2af7db88b1ecward_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/4b8f0f91-cb5a-4624-988f-a7a89614501eward_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/68848af2-c5a8-45b4-af0f-a8624d4a1a14ward_09094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/141fc24b-039e-470d-8b80-44bd1315d674ward_09095.jpg"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48136-5597382": {
     "item_id": "ctbids-48136-5597382",
     "listing_url": "https://ctbids.com/estate-sale/48136/item/5597382/Dakota-West-Turkish-Leather-Mesh-Leaf-Fringed-Short-Jacket-Black-Small",
@@ -789,6 +754,41 @@
       }
     ]
   },
+  "276741974": {
+    "item_id": "276741974",
+    "listing_url": "https://shopgoodwill.com/item/276741974",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/975bdc4f-435c-4ad9-b9df-49cb5c9d63e0ward_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/37bdbde3-1011-4d51-b0dc-2af7db88b1ecward_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/4b8f0f91-cb5a-4624-988f-a7a89614501eward_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/68848af2-c5a8-45b4-af0f-a8624d4a1a14ward_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/141fc24b-039e-470d-8b80-44bd1315d674ward_09095.jpg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47901-5585046": {
     "item_id": "ctbids-47901-5585046",
     "listing_url": "https://ctbids.com/estate-sale/47901/item/5585046/Miscellaneous-Cars-Hot-Wheels-Carrying-Case-5",
@@ -960,6 +960,46 @@
         "score_reasons": [
           "Opportunity term 'specimen' in description (+4)",
           "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277123755": {
+    "item_id": "277123755",
+    "listing_url": "https://shopgoodwill.com/item/277123755",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-13/7b810fe8-3f4a-4771-aeef-e1e9af093517ns43_09131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-13/69bdf075-f24f-413d-afa7-fdc13d21ca56ns43_09132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-13/2b8cffa1-c2b1-4963-b4cb-2852752735b5ns43_09133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-13/0f37c0fb-a6f8-4f31-8a49-6fe7c9e6516dns43_09134.jpg"
+    ],
+    "description": "Product Overview:\nThis lot features a variety of polished and raw semi-precious gemstone specimens. Included are agate slices with gold-toned edges in shades of gray, brown, and green, some showing banding and crystalline structures. Also present are colorful tumbled stones in multiple hues, a carved stone star, and a small bag of additional tumbled stones. The collection includes Brazilian-made agate coasters that are not food safe.\n\nSpecifications:\n- Agate slices with gold-toned edges\n- Various shades: gray, brown, green\n- Banding and crystalline formations visible on some slices\n- Colorful tumbled stones in purple, blue, green, pink, and clear\n- Carved stone star included\n- Small bag of additional tumbled stones\n- Agate coasters from Brazil (not food safe)\n- Mixed polished and raw mineral specimens",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'tumbled stones' in title (-10)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+7)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'tumbled stones' in title (-10)",
+          "Lower-priority term 'carved' in description (-7)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+7)"
