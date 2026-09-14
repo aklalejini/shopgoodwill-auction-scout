@@ -75,7 +75,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:1",
-      "count": 29,
+      "count": 31,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -113,6 +113,10 @@
     "high_priority": true,
     "score_high_priority": true,
     "potentially_high_value": true,
+    "ocr_hits": [
+      "14K",
+      "585"
+    ],
     "location": "Seffner, Florida, 33584",
     "review_priority": 80,
     "review_reasons": [
@@ -142,82 +146,15 @@
       "pickup_only": false,
       "carrier": "Shipping available"
     },
-    "evidence_types": [],
+    "evidence_types": [
+      "ocr"
+    ],
     "seller_cluster": {
       "id": "ctbids-609:1",
       "count": 3,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
-  },
-  {
-    "item_id": "276437738",
-    "source": "shopgoodwill",
-    "source_label": "ShopGoodwill",
-    "source_native_id": "276437738",
-    "title": "Geoscience Industries Mineral Hardness Test Kit 9 Specimens W/ Study Guide",
-    "price": 8.99,
-    "buy_now_price": 0.0,
-    "has_buy_now": false,
-    "bids": 0,
-    "seller": "Goodwill Industries of South Texas",
-    "seller_id": 133,
-    "start_time": "2026-09-06T19:32:11-07:00",
-    "end_time": "2026-09-13T20:14:00-07:00",
-    "category": "Science & Education",
-    "discovered_by": [
-      "mineral",
-      "specimen",
-      "specimens"
-    ],
-    "hunt_categories": [
-      "minerals-geology"
-    ],
-    "hunt_labels": [
-      "Minerals & Geology"
-    ],
-    "matched_keywords": [
-      "beryl",
-      "fluorite"
-    ],
-    "primary_hunt": {
-      "id": "minerals-geology",
-      "label": "Minerals & Geology"
-    },
-    "score": 33,
-    "high_priority": true,
-    "score_high_priority": true,
-    "potentially_high_value": true,
-    "review_priority": 78,
-    "review_reasons": [
-      "Evidence calibrated to Minerals & Geology (+61)",
-      "Ranks in the top 1% of this category (+8)",
-      "Ends within 6 hours (+9)"
-    ],
-    "category_percentile": 100,
-    "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/133/Items/2026-08-16/aaede529-b50d-4228-956b-12904eb3ecc4joew_0816t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/133/Items/2026-08-16/b9bfb4f5-432f-4d07-80dc-ce4ad2b52f28joew_0816t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/133/Items/2026-08-16/1a04b921-67be-4b07-beca-7a1887e4b17ejoew_0816t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/133/Items/2026-08-16/4916349f-9ac9-40de-b710-d93e306830bcjoew_0816t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/133/Items/2026-08-16/c8f9b782-362c-4b29-95ce-0d98d6c8fb74joew_0816t5.jpeg"
-    ],
-    "photo_count": 6,
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Target keyword 'beryl' in description (+10)",
-      "Target keyword 'fluorite' in description (+8)"
-    ],
-    "detail_bucket": "27",
-    "shipping": {
-      "listed_price": 0.0,
-      "handling_price": 2.0,
-      "pickup_only": false,
-      "carrier": "FedEx"
-    },
-    "evidence_types": []
   },
   {
     "item_id": "govdeals-26717-41",
@@ -253,11 +190,11 @@
     "score_high_priority": true,
     "potentially_high_value": true,
     "location": "Oxford, Mississippi, USA",
-    "review_priority": 76,
+    "review_priority": 79,
     "review_reasons": [
       "Evidence calibrated to Local Government Surplus (+62)",
       "Ranks in the top 1% of this category (+8)",
-      "Ends within 12 hours (+6)"
+      "Ends within 6 hours (+9)"
     ],
     "category_percentile": 100,
     "thumbnails": [
@@ -354,15 +291,92 @@
     }
   },
   {
+    "item_id": "276525939",
+    "source": "shopgoodwill",
+    "source_label": "ShopGoodwill",
+    "source_native_id": "276525939",
+    "title": "Lot of 4 Vintage Glass Electrical Insulators Hemingray-16 & Whitall Tatum",
+    "price": 7.99,
+    "buy_now_price": 10.99,
+    "has_buy_now": true,
+    "bids": 0,
+    "seller": "Wellsboro NCPA",
+    "seller_id": 371,
+    "start_time": "2026-09-07T19:46:37.093000-07:00",
+    "end_time": "2026-09-14T18:17:00-07:00",
+    "category": "Collectibles > Cups, Trays, Vases",
+    "discovered_by": [
+      "Hemingray insulator",
+      "glass insulator lot",
+      "vintage glass insulators"
+    ],
+    "hunt_categories": [
+      "glass-insulators"
+    ],
+    "hunt_labels": [
+      "Glass Insulators"
+    ],
+    "matched_keywords": [],
+    "primary_hunt": {
+      "id": "glass-insulators",
+      "label": "Glass Insulators"
+    },
+    "score": 44,
+    "high_priority": true,
+    "score_high_priority": true,
+    "potentially_high_value": true,
+    "visual_hits": [
+      "green or teal glass color"
+    ],
+    "review_priority": 76,
+    "review_reasons": [
+      "Evidence calibrated to Glass Insulators (+65)",
+      "Ranks in the top 4% of this category (+8)",
+      "Ends within 24 hours (+3)"
+    ],
+    "category_percentile": 96,
+    "thumbnails": [
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/6a612247-1523-4c27-a883-02e1814710c8ron1_0907t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/4a256838-29d6-4cfb-b7c8-cbc74abfdf41ron1_0907t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/d8ea4374-1b87-4b2d-84c4-aa33c72d3578ron1_0907t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/e34f0c48-388d-4c65-9e76-eaf83406e041ron1_0907t4.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/1354c291-6586-4b26-af2f-a9094cfc8d8aron1_0907t5.jpeg"
+    ],
+    "photo_count": 5,
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+6)",
+      "Opportunity term 'lot' in title (+5)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)"
+    ],
+    "detail_bucket": "3d",
+    "shipping": {
+      "listed_price": 0.0,
+      "handling_price": 1.99,
+      "pickup_only": false,
+      "carrier": "FedEx"
+    },
+    "evidence_types": [
+      "visual"
+    ],
+    "seller_cluster": {
+      "id": "371:1",
+      "count": 2,
+      "combined_shipping_unavailable": false,
+      "close_window_hours": 72
+    }
+  },
+  {
     "item_id": "ctbids-48017-5601627",
     "source": "ctbids",
     "source_label": "CTBids",
     "source_native_id": "5601627",
     "title": "14k Pendant with Sterling Silver Chain ",
-    "price": 29.0,
+    "price": 46.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 22,
+    "bids": 26,
     "seller": "Boerne, Fredericksburg, and Kerrville",
     "seller_id": "ctbids-467",
     "start_time": "2026-09-05T18:00:01+00:00",
@@ -417,85 +431,8 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-467:1",
-      "count": 52,
+      "count": 78,
       "combined_shipping_unavailable": false,
-      "close_window_hours": 72
-    }
-  },
-  {
-    "item_id": "276670068",
-    "source": "shopgoodwill",
-    "source_label": "ShopGoodwill",
-    "source_native_id": "276670068",
-    "title": "Vintage Hemingray Glass Insulator Collection",
-    "price": 8.99,
-    "buy_now_price": 0.0,
-    "has_buy_now": false,
-    "bids": 0,
-    "seller": "Goodwill Monocacy Valley",
-    "seller_id": 69,
-    "start_time": "2026-09-08T20:12:48-07:00",
-    "end_time": "2026-09-13T20:10:00-07:00",
-    "category": "Collectibles",
-    "discovered_by": [
-      "Hemingray insulator",
-      "insulator collection"
-    ],
-    "hunt_categories": [
-      "glass-insulators"
-    ],
-    "hunt_labels": [
-      "Glass Insulators"
-    ],
-    "matched_keywords": [],
-    "primary_hunt": {
-      "id": "glass-insulators",
-      "label": "Glass Insulators"
-    },
-    "score": 34,
-    "high_priority": true,
-    "score_high_priority": true,
-    "potentially_high_value": true,
-    "visual_hits": [
-      "green or teal glass color"
-    ],
-    "review_priority": 75,
-    "review_reasons": [
-      "Evidence calibrated to Glass Insulators (+61)",
-      "Ranks in the top 8% of this category (+7)",
-      "Ends within 6 hours (+9)",
-      "Seller does not allow combined shipping (-2)"
-    ],
-    "category_percentile": 92,
-    "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/1e85494e-f74d-4a8d-829b-3aad7704e876amfo_0819t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/0a51f4b0-c420-44e1-a33a-4ee26cfababaamfo_0819t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/150860e8-e0f7-431a-bfa7-ea47c661e863amfo_0819t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/e9eb9c45-3435-49ce-9895-5adcbdfeea30amfo_0819t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-19/4f3f4fc4-a103-429c-b619-1d9009146885amfo_0819t5.jpeg"
-    ],
-    "photo_count": 6,
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Lower-priority term 'chipping' in description (-10)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Multi-piece insulator lot can hide one scarce color or mold (+10)"
-    ],
-    "detail_bucket": "36",
-    "shipping": {
-      "listed_price": 0.0,
-      "handling_price": 3.99,
-      "pickup_only": false,
-      "carrier": "FedEx"
-    },
-    "evidence_types": [
-      "visual"
-    ],
-    "seller_cluster": {
-      "id": "69:1",
-      "count": 4,
-      "combined_shipping_unavailable": true,
       "close_window_hours": 72
     }
   },
@@ -567,7 +504,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:2",
-      "count": 30,
+      "count": 29,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -640,30 +577,29 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:1",
-      "count": 29,
+      "count": 31,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
   },
   {
-    "item_id": "276525939",
+    "item_id": "277138751",
     "source": "shopgoodwill",
     "source_label": "ShopGoodwill",
-    "source_native_id": "276525939",
-    "title": "Lot of 4 Vintage Glass Electrical Insulators Hemingray-16 & Whitall Tatum",
-    "price": 7.99,
-    "buy_now_price": 10.99,
-    "has_buy_now": true,
+    "source_native_id": "277138751",
+    "title": "Antique Utility Insulator Glass Electric Pole Clear Blue Lot Assorted Lot",
+    "price": 12.99,
+    "buy_now_price": 0.0,
+    "has_buy_now": false,
     "bids": 0,
-    "seller": "Wellsboro NCPA",
-    "seller_id": 371,
-    "start_time": "2026-09-07T19:46:37.093000-07:00",
-    "end_time": "2026-09-14T18:17:00-07:00",
-    "category": "Collectibles > Cups, Trays, Vases",
+    "seller": "Goodwill of North Central Wisconsin",
+    "seller_id": 134,
+    "start_time": "2026-09-13T18:22:41-07:00",
+    "end_time": "2026-09-20T20:24:00-07:00",
+    "category": "Antiques",
     "discovered_by": [
-      "Hemingray insulator",
-      "glass insulator lot",
-      "vintage glass insulators"
+      "antique glass insulator",
+      "glass insulator lot"
     ],
     "hunt_categories": [
       "glass-insulators"
@@ -676,50 +612,43 @@
       "id": "glass-insulators",
       "label": "Glass Insulators"
     },
-    "score": 44,
+    "score": 48,
     "high_priority": true,
     "score_high_priority": true,
     "potentially_high_value": true,
     "visual_hits": [
       "green or teal glass color"
     ],
-    "review_priority": 73,
+    "review_priority": 74,
     "review_reasons": [
-      "Evidence calibrated to Glass Insulators (+65)",
+      "Evidence calibrated to Glass Insulators (+66)",
       "Ranks in the top 1% of this category (+8)"
     ],
     "category_percentile": 100,
     "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/6a612247-1523-4c27-a883-02e1814710c8ron1_0907t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/4a256838-29d6-4cfb-b7c8-cbc74abfdf41ron1_0907t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/d8ea4374-1b87-4b2d-84c4-aa33c72d3578ron1_0907t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/e34f0c48-388d-4c65-9e76-eaf83406e041ron1_0907t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-09-07/1354c291-6586-4b26-af2f-a9094cfc8d8aron1_0907t5.jpeg"
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-27/840c6455-7e4c-42aa-9998-64fde651a786lund_0827t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-27/b6d97004-c2c3-4a28-a9f8-596c0f0fb30elund_0827t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-27/1588a8d3-cbb5-4e31-9476-0a91fb39fe72lund_0827t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-08-27/6247b7fc-dbf4-42ed-bede-40827dac6358lund_0827t4.jpeg"
     ],
-    "photo_count": 5,
+    "photo_count": 4,
     "score_reasons": [
       "Opportunity term 'collection' in description (+6)",
       "Opportunity term 'lot' in title (+5)",
+      "Opportunity term 'assorted' in title (+4)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Multi-piece insulator lot can hide one scarce color or mold (+10)"
+      "High-value signal 'teal glass' in image color analysis (+10)"
     ],
-    "detail_bucket": "3d",
+    "detail_bucket": "2e",
     "shipping": {
       "listed_price": 0.0,
-      "handling_price": 1.99,
+      "handling_price": 3.99,
       "pickup_only": false,
       "carrier": "FedEx"
     },
     "evidence_types": [
       "visual"
-    ],
-    "seller_cluster": {
-      "id": "371:1",
-      "count": 2,
-      "combined_shipping_unavailable": false,
-      "close_window_hours": 72
-    }
+    ]
   },
   {
     "item_id": "277004632",
@@ -789,7 +718,90 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:2",
-      "count": 30,
+      "count": 29,
+      "combined_shipping_unavailable": false,
+      "close_window_hours": 72
+    }
+  },
+  {
+    "item_id": "277158563",
+    "source": "shopgoodwill",
+    "source_label": "ShopGoodwill",
+    "source_native_id": "277158563",
+    "title": "Vintage Blank Audio Cassette Tapes Mixed Lot Sony TDK Maxell Memorex Radio Shack",
+    "price": 49.99,
+    "buy_now_price": 0.0,
+    "has_buy_now": false,
+    "bids": 0,
+    "seller": "Goodwill of the Olympics and Rainier Region",
+    "seller_id": 122,
+    "start_time": "2026-09-13T20:25:25.930000-07:00",
+    "end_time": "2026-09-20T21:36:00-07:00",
+    "category": "Computers & Electronics > Home Electronics > VCRs/DVDs/DVRs/Blu-ray",
+    "discovered_by": [
+      "TDK MA-R cassette",
+      "blank audio cassette",
+      "blank cassette tapes"
+    ],
+    "hunt_categories": [
+      "sealed-vintage-media"
+    ],
+    "hunt_labels": [
+      "Sealed Vintage Media"
+    ],
+    "matched_keywords": [
+      "high bias",
+      "maxell",
+      "memorex",
+      "sony",
+      "tdk",
+      "vhs-c"
+    ],
+    "primary_hunt": {
+      "id": "sealed-vintage-media",
+      "label": "Sealed Vintage Media"
+    },
+    "score": 49,
+    "high_priority": true,
+    "score_high_priority": true,
+    "potentially_high_value": true,
+    "ocr_hits": [
+      "750"
+    ],
+    "review_priority": 73,
+    "review_reasons": [
+      "Evidence calibrated to Sealed Vintage Media (+65)",
+      "Ranks in the top 4% of this category (+8)"
+    ],
+    "category_percentile": 96,
+    "thumbnails": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-13/5d7ca94b-649f-4e98-9c47-758623a8737eford_0913t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-13/521bfe87-6c1d-4aaa-a393-634c4e6db44fford_0913t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-13/328753b7-c403-4e70-ab49-d73691c8fa05ford_0913t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-13/d52d608c-18c5-4704-8b44-f486f6ccf523ford_0913t4.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-13/5d5618db-e2c1-4311-92b3-c19420262ad3ford_0913t5.jpeg"
+    ],
+    "photo_count": 6,
+    "score_reasons": [
+      "Opportunity term 'sealed' in description (+12)",
+      "Opportunity term 'lot' in title (+4)",
+      "Opportunity term 'pack' in description (+4)",
+      "Target keyword 'high bias' in description (+7)",
+      "Target keyword 'maxell' in title (+5)"
+    ],
+    "detail_bucket": "2d",
+    "shipping": {
+      "listed_price": 0.01,
+      "handling_price": 0.0,
+      "pickup_only": false,
+      "carrier": "FedEx"
+    },
+    "evidence_types": [
+      "ocr"
+    ],
+    "seller_cluster": {
+      "id": "122:3",
+      "count": 2,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -800,10 +812,10 @@
     "source_label": "CTBids",
     "source_native_id": "5599015",
     "title": "18K Gold Pocket Watch 49.29 Grams & More Pocket Watches *Updated",
-    "price": 1226.0,
+    "price": 1277.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 42,
+    "bids": 44,
     "seller": "Brazos Valley and The Woodlands",
     "seller_id": "ctbids-130",
     "start_time": "2026-09-04T13:00:01+00:00",
@@ -858,7 +870,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-130:1",
-      "count": 25,
+      "count": 40,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -945,22 +957,21 @@
     }
   },
   {
-    "item_id": "276944379",
+    "item_id": "276707476",
     "source": "shopgoodwill",
     "source_label": "ShopGoodwill",
-    "source_native_id": "276944379",
-    "title": "Lot of Vintage Hemingray Glass Insulators 1907",
+    "source_native_id": "276707476",
+    "title": "Vintage Lot of Hemmingway 42 Electronical Glass Insulators - Aqua Blue",
     "price": 14.99,
     "buy_now_price": 0.0,
     "has_buy_now": false,
     "bids": 0,
     "seller": "Goodwill of Central & Southern Indiana",
     "seller_id": 5,
-    "start_time": "2026-09-11T06:00:00-07:00",
-    "end_time": "2026-09-16T18:01:00-07:00",
+    "start_time": "2026-09-09T07:00:00-07:00",
+    "end_time": "2026-09-14T18:40:00-07:00",
     "category": "Collectibles > Cups, Trays, Vases",
     "discovered_by": [
-      "Hemingray insulator",
       "glass insulator lot",
       "vintage glass insulators"
     ],
@@ -975,35 +986,36 @@
       "id": "glass-insulators",
       "label": "Glass Insulators"
     },
-    "score": 42,
+    "score": 32,
     "high_priority": true,
     "score_high_priority": true,
     "potentially_high_value": true,
     "visual_hits": [
       "green or teal glass color"
     ],
-    "review_priority": 72,
+    "review_priority": 71,
     "review_reasons": [
-      "Evidence calibrated to Glass Insulators (+64)",
-      "Ranks in the top 4% of this category (+8)"
+      "Evidence calibrated to Glass Insulators (+61)",
+      "Ranks in the top 13% of this category (+7)",
+      "Ends within 24 hours (+3)"
     ],
-    "category_percentile": 96,
+    "category_percentile": 87,
     "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/9ffc5eae-a635-481f-a19a-84001cc30931opec_0911t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/8f51839b-14f0-4315-8093-ba403c563048opec_0911t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/32310cc9-069a-4d0a-bcd5-b0a98f8f5bf7opec_0911t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/68c37395-525d-45e0-be1a-edd3ebf62964opec_0911t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/9e35e3b4-43b5-4dd7-918f-690ab833bef1opec_0911t5.jpeg"
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/ac1ecc0a-dd88-45b4-9211-467b8de02285opec_0909t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/1eab8dd2-ca27-4e97-a7cc-f1c2e352fd59opec_0909t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/4d531430-f251-4e4a-ad52-2d8c40f87642opec_0909t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/fe42a061-998a-4578-9db7-24e65317b485opec_0909t4.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/86af47f9-11bd-4e88-9a1e-3c19088ae6a9opec_0909t5.jpeg"
     ],
     "photo_count": 6,
     "score_reasons": [
       "Opportunity term 'lot' in title (+5)",
       "Opportunity term 'see photos' in description (+4)",
+      "Lower-priority term 'hemingray-42' in description (-10)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Multi-piece insulator lot can hide one scarce color or mold (+10)"
+      "High-value signal 'teal glass' in image color analysis (+10)"
     ],
-    "detail_bucket": "00",
+    "detail_bucket": "3d",
     "shipping": {
       "listed_price": 0.0,
       "handling_price": 2.0,
@@ -1015,7 +1027,7 @@
     ],
     "seller_cluster": {
       "id": "5:1",
-      "count": 18,
+      "count": 19,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1085,7 +1097,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1096,10 +1108,10 @@
     "source_label": "CTBids",
     "source_native_id": "5580242",
     "title": "925 Sterling Silver Black Onyx Ring Collection – 6 Rings",
-    "price": 37.0,
+    "price": 41.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 21,
+    "bids": 23,
     "seller": "Northwest St. Louis, MO",
     "seller_id": "ctbids-526",
     "start_time": "2026-09-08T15:39:51+00:00",
@@ -1155,7 +1167,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1225,7 +1237,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1236,10 +1248,10 @@
     "source_label": "CTBids",
     "source_native_id": "5592714",
     "title": "Sterling Silver 925 Rings, Faux Pearl & Rhinestone Jewelry Collection",
-    "price": 5.0,
+    "price": 10.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 3,
+    "bids": 6,
     "seller": "Northwest St. Louis, MO",
     "seller_id": "ctbids-526",
     "start_time": "2026-09-08T15:39:51+00:00",
@@ -1295,7 +1307,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1306,10 +1318,10 @@
     "source_label": "CTBids",
     "source_native_id": "5601753",
     "title": "Antique 14k GOLD SEWING THIMBLE  ",
-    "price": 211.0,
+    "price": 280.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 21,
+    "bids": 25,
     "seller": "Boerne, Fredericksburg, and Kerrville",
     "seller_id": "ctbids-467",
     "start_time": "2026-09-05T18:00:01+00:00",
@@ -1364,7 +1376,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-467:1",
-      "count": 52,
+      "count": 78,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1375,10 +1387,10 @@
     "source_label": "CTBids",
     "source_native_id": "5605272",
     "title": "Sterling Silver 925 Rings, Earrings & Pendant Jewelry Collection",
-    "price": 47.0,
+    "price": 52.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 16,
+    "bids": 18,
     "seller": "Northwest St. Louis, MO",
     "seller_id": "ctbids-526",
     "start_time": "2026-09-08T15:39:51+00:00",
@@ -1434,7 +1446,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1445,10 +1457,10 @@
     "source_label": "CTBids",
     "source_native_id": "5605541",
     "title": "Sterling Silver 925 Ring & Faux Pearl Jewelry Collection with Anne Klein",
-    "price": 1.0,
+    "price": 6.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 1,
+    "bids": 3,
     "seller": "Northwest St. Louis, MO",
     "seller_id": "ctbids-526",
     "start_time": "2026-09-08T15:39:51+00:00",
@@ -1504,7 +1516,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1515,10 +1527,10 @@
     "source_label": "CTBids",
     "source_native_id": "5605647",
     "title": "Sterling Silver 925 Howlite Ring Collection, Earrings & Blue Beaded Jewelry",
-    "price": 16.0,
+    "price": 21.0,
     "buy_now_price": 0.0,
     "has_buy_now": false,
-    "bids": 11,
+    "bids": 13,
     "seller": "Northwest St. Louis, MO",
     "seller_id": "ctbids-526",
     "start_time": "2026-09-08T15:39:51+00:00",
@@ -1574,7 +1586,83 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "ctbids-526:1",
-      "count": 34,
+      "count": 42,
+      "combined_shipping_unavailable": false,
+      "close_window_hours": 72
+    }
+  },
+  {
+    "item_id": "276944379",
+    "source": "shopgoodwill",
+    "source_label": "ShopGoodwill",
+    "source_native_id": "276944379",
+    "title": "Lot of Vintage Hemingray Glass Insulators 1907",
+    "price": 14.99,
+    "buy_now_price": 0.0,
+    "has_buy_now": false,
+    "bids": 0,
+    "seller": "Goodwill of Central & Southern Indiana",
+    "seller_id": 5,
+    "start_time": "2026-09-11T06:00:00-07:00",
+    "end_time": "2026-09-16T18:01:00-07:00",
+    "category": "Collectibles > Cups, Trays, Vases",
+    "discovered_by": [
+      "Hemingray insulator",
+      "glass insulator lot",
+      "vintage glass insulators"
+    ],
+    "hunt_categories": [
+      "glass-insulators"
+    ],
+    "hunt_labels": [
+      "Glass Insulators"
+    ],
+    "matched_keywords": [],
+    "primary_hunt": {
+      "id": "glass-insulators",
+      "label": "Glass Insulators"
+    },
+    "score": 42,
+    "high_priority": true,
+    "score_high_priority": true,
+    "potentially_high_value": true,
+    "visual_hits": [
+      "green or teal glass color"
+    ],
+    "review_priority": 71,
+    "review_reasons": [
+      "Evidence calibrated to Glass Insulators (+64)",
+      "Ranks in the top 9% of this category (+7)"
+    ],
+    "category_percentile": 91,
+    "thumbnails": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/9ffc5eae-a635-481f-a19a-84001cc30931opec_0911t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/8f51839b-14f0-4315-8093-ba403c563048opec_0911t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/32310cc9-069a-4d0a-bcd5-b0a98f8f5bf7opec_0911t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/68c37395-525d-45e0-be1a-edd3ebf62964opec_0911t4.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-11/9e35e3b4-43b5-4dd7-918f-690ab833bef1opec_0911t5.jpeg"
+    ],
+    "photo_count": 6,
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "Opportunity term 'see photos' in description (+4)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)"
+    ],
+    "detail_bucket": "00",
+    "shipping": {
+      "listed_price": 0.0,
+      "handling_price": 2.0,
+      "pickup_only": false,
+      "carrier": "FedEx"
+    },
+    "evidence_types": [
+      "visual"
+    ],
+    "seller_cluster": {
+      "id": "5:1",
+      "count": 19,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1647,76 +1735,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:2",
-      "count": 30,
-      "combined_shipping_unavailable": false,
-      "close_window_hours": 72
-    }
-  },
-  {
-    "item_id": "276659572",
-    "source": "shopgoodwill",
-    "source_label": "ShopGoodwill",
-    "source_native_id": "276659572",
-    "title": "Vintage Bicknell Farmhouse Pen and Ink Drawings Framed Art Lot",
-    "price": 24.99,
-    "buy_now_price": 0.0,
-    "has_buy_now": false,
-    "bids": 0,
-    "seller": "Goodwill Industries of South Central Wisconsin, Inc.",
-    "seller_id": 108,
-    "start_time": "2026-09-08T19:32:44-07:00",
-    "end_time": "2026-09-16T18:07:00-07:00",
-    "category": "Art > Prints",
-    "discovered_by": [
-      "vintage ink pen"
-    ],
-    "hunt_categories": [
-      "vintage-pens"
-    ],
-    "hunt_labels": [
-      "Vintage Pens"
-    ],
-    "matched_keywords": [],
-    "primary_hunt": {
-      "id": "vintage-pens",
-      "label": "Vintage Pens"
-    },
-    "score": 40,
-    "high_priority": true,
-    "score_high_priority": true,
-    "potentially_high_value": true,
-    "review_priority": 70,
-    "review_reasons": [
-      "Evidence calibrated to Vintage Pens (+62)",
-      "Ranks in the top 6% of this category (+8)"
-    ],
-    "category_percentile": 94,
-    "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/46d0af44-32b9-440e-a823-3433c4dcdadascwi_0831t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/4d51c0fb-e43d-4ddc-bcc6-70beb271815escwi_0831t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/1ce0a58b-1885-441c-a1b7-65df09151a88scwi_0831t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/b0157501-85a5-4b98-bde8-88085546dc13scwi_0831t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/9191a6bc-932a-4db0-a747-5a6e98b6c296scwi_0831t5.jpeg"
-    ],
-    "photo_count": 8,
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Opportunity term 'lot' in title (+5)",
-      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-      "Flat shipping is only $0.01 (+9)",
-      "Base score (+5)"
-    ],
-    "detail_bucket": "2b",
-    "shipping": {
-      "listed_price": 0.01,
-      "handling_price": 0.0,
-      "pickup_only": false,
-      "carrier": "FedEx"
-    },
-    "evidence_types": [],
-    "seller_cluster": {
-      "id": "108:1",
-      "count": 2,
+      "count": 29,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -1761,9 +1780,9 @@
     "review_priority": 70,
     "review_reasons": [
       "Evidence calibrated to Vintage Pens (+62)",
-      "Ranks in the top 4% of this category (+8)"
+      "Ranks in the top 5% of this category (+8)"
     ],
-    "category_percentile": 96,
+    "category_percentile": 95,
     "thumbnails": [
       "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/30186c6d-d6eb-4305-8132-92e5f950c877dmin_0909t1.jpeg",
       "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/9d25c1fa-58cb-4d50-9f3d-6e7f78d37c19dmin_0909t2.jpeg",
@@ -1860,76 +1879,70 @@
     }
   },
   {
-    "item_id": "276707476",
+    "item_id": "276659572",
     "source": "shopgoodwill",
     "source_label": "ShopGoodwill",
-    "source_native_id": "276707476",
-    "title": "Vintage Lot of Hemmingway 42 Electronical Glass Insulators - Aqua Blue",
-    "price": 14.99,
+    "source_native_id": "276659572",
+    "title": "Vintage Bicknell Farmhouse Pen and Ink Drawings Framed Art Lot",
+    "price": 24.99,
     "buy_now_price": 0.0,
     "has_buy_now": false,
     "bids": 0,
-    "seller": "Goodwill of Central & Southern Indiana",
-    "seller_id": 5,
-    "start_time": "2026-09-09T07:00:00-07:00",
-    "end_time": "2026-09-14T18:40:00-07:00",
-    "category": "Collectibles > Cups, Trays, Vases",
+    "seller": "Goodwill Industries of South Central Wisconsin, Inc.",
+    "seller_id": 108,
+    "start_time": "2026-09-08T19:32:44-07:00",
+    "end_time": "2026-09-16T18:07:00-07:00",
+    "category": "Art > Prints",
     "discovered_by": [
-      "glass insulator lot",
-      "vintage glass insulators"
+      "vintage ink pen"
     ],
     "hunt_categories": [
-      "glass-insulators"
+      "vintage-pens"
     ],
     "hunt_labels": [
-      "Glass Insulators"
+      "Vintage Pens"
     ],
     "matched_keywords": [],
     "primary_hunt": {
-      "id": "glass-insulators",
-      "label": "Glass Insulators"
+      "id": "vintage-pens",
+      "label": "Vintage Pens"
     },
-    "score": 32,
+    "score": 40,
     "high_priority": true,
     "score_high_priority": true,
     "potentially_high_value": true,
-    "visual_hits": [
-      "green or teal glass color"
-    ],
-    "review_priority": 68,
+    "review_priority": 69,
     "review_reasons": [
-      "Evidence calibrated to Glass Insulators (+61)",
-      "Ranks in the top 12% of this category (+7)"
+      "Evidence calibrated to Vintage Pens (+62)",
+      "Ranks in the top 7% of this category (+7)"
     ],
-    "category_percentile": 88,
+    "category_percentile": 93,
     "thumbnails": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/ac1ecc0a-dd88-45b4-9211-467b8de02285opec_0909t1.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/1eab8dd2-ca27-4e97-a7cc-f1c2e352fd59opec_0909t2.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/4d531430-f251-4e4a-ad52-2d8c40f87642opec_0909t3.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/fe42a061-998a-4578-9db7-24e65317b485opec_0909t4.jpeg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-09/86af47f9-11bd-4e88-9a1e-3c19088ae6a9opec_0909t5.jpeg"
+      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/46d0af44-32b9-440e-a823-3433c4dcdadascwi_0831t1.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/4d51c0fb-e43d-4ddc-bcc6-70beb271815escwi_0831t2.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/1ce0a58b-1885-441c-a1b7-65df09151a88scwi_0831t3.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/b0157501-85a5-4b98-bde8-88085546dc13scwi_0831t4.jpeg",
+      "https://shopgoodwillimages.azureedge.net/production/108/Items/2026-08-31/9191a6bc-932a-4db0-a747-5a6e98b6c296scwi_0831t5.jpeg"
     ],
-    "photo_count": 6,
+    "photo_count": 8,
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
       "Opportunity term 'lot' in title (+5)",
-      "Opportunity term 'see photos' in description (+4)",
-      "Lower-priority term 'hemingray-42' in description (-10)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)"
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Flat shipping is only $0.01 (+9)",
+      "Base score (+5)"
     ],
-    "detail_bucket": "3d",
+    "detail_bucket": "2b",
     "shipping": {
-      "listed_price": 0.0,
-      "handling_price": 2.0,
+      "listed_price": 0.01,
+      "handling_price": 0.0,
       "pickup_only": false,
       "carrier": "FedEx"
     },
-    "evidence_types": [
-      "visual"
-    ],
+    "evidence_types": [],
     "seller_cluster": {
-      "id": "5:1",
-      "count": 18,
+      "id": "108:1",
+      "count": 2,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -2000,7 +2013,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:1",
-      "count": 29,
+      "count": 31,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -2075,7 +2088,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:1",
-      "count": 29,
+      "count": 31,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -2148,7 +2161,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:2",
-      "count": 30,
+      "count": 29,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
@@ -2194,7 +2207,7 @@
       "Evidence calibrated to Minerals & Geology (+60)",
       "Ranks in the top 1% of this category (+8)"
     ],
-    "category_percentile": 99,
+    "category_percentile": 100,
     "thumbnails": [
       "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-11/c32b79cf-a47d-4857-ba8a-e7aadc7768c3llen_0911t1.jpeg",
       "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-11/d0e08746-30ce-443b-9b2a-a3689c7fd4a5llen_0911t2.jpeg",
@@ -2220,7 +2233,7 @@
     "evidence_types": [],
     "seller_cluster": {
       "id": "122:2",
-      "count": 30,
+      "count": 29,
       "combined_shipping_unavailable": false,
       "close_window_hours": 72
     }
