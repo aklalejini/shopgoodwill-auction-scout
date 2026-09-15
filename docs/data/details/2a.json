@@ -74,6 +74,41 @@
       }
     ]
   },
+  "277345001": {
+    "item_id": "277345001",
+    "listing_url": "https://shopgoodwill.com/item/277345001",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-15/9dff698d-9d75-4981-97a0-48a91a2e89d9evel_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-15/147d1ad4-f4a1-4f3e-b250-6aa867239068evel_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-15/8b41a65c-65b6-4d57-8e97-098f176ed133evel_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-15/58e0b2e0-dbef-4b05-9f9b-7bceb55608f1evel_09154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-15/9232d63e-54b7-4d74-b81c-731b75e8ebe9evel_09155.jpg"
+    ],
+    "description": "Product Overview:\nThis lot includes vintage electrical insulators made from ceramic/glass composite and pressed glass materials. The brown insulators are marked with 'Ohio Brass Co.' and feature glazed stoneware with a glossy finish and visible manufacturer stamps. The purple insulator is marked 'Whitall Tatum Co. No. 1' and is made of thick pressed glass with embossed branding.\n\nSpecifications:\n- Material: Brown insulators are glazed ceramic/glass composite; purple insulator is pressed glass\n- Markings: Ohio Brass Co. on brown insulators; Whitall Tatum Co. No. 1 on purple insulator\n- Finish: Brown insulators have a glossy glazed finish\n- Branding: Manufacturer stamps and embossed branding visible on respective insulators",
+    "score_reasons": [
+      "Opportunity term 'lot' in description (+5)",
+      "High-value signal 'purple glass color' in image color analysis (+22)",
+      "High-value signal 'amber glass color' in image color analysis (+14)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 42,
+        "relative_score": 1.4,
+        "score_reasons": [
+          "Opportunity term 'lot' in description (+5)",
+          "High-value signal 'purple glass color' in image color analysis (+22)",
+          "High-value signal 'amber glass color' in image color analysis (+14)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47865-5612566": {
     "item_id": "ctbids-47865-5612566",
     "listing_url": "https://ctbids.com/estate-sale/47865/item/5612566/Sterling-Silver-Mother-of-Pearl-Bracelet-Pendant-Earrings",
@@ -217,35 +252,6 @@
       }
     ]
   },
-  "ctbids-48085-5606612": {
-    "item_id": "ctbids-48085-5606612",
-    "listing_url": "https://ctbids.com/estate-sale/48085/item/5606612/Lot-of-5-Reference-Guide-Books-Carpentry-Construction-Florida-Law-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5606612_4kFbti.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276932629": {
     "item_id": "276932629",
     "listing_url": "https://shopgoodwill.com/item/276932629",
@@ -283,33 +289,6 @@
       }
     ]
   },
-  "ctbids-48085-5599631": {
-    "item_id": "ctbids-48085-5599631",
-    "listing_url": "https://ctbids.com/estate-sale/48085/item/5599631/Apple-Themed-Kitchen-Decorative-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599631_XxBmY5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47902-5563177": {
     "item_id": "ctbids-47902-5563177",
     "listing_url": "https://ctbids.com/estate-sale/47902/item/5563177/Pocket-Devotional-Prayer-And-Protective-Icons-Vintage",
@@ -332,6 +311,62 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48085-5606612": {
+    "item_id": "ctbids-48085-5606612",
+    "listing_url": "https://ctbids.com/estate-sale/48085/item/5606612/Lot-of-5-Reference-Guide-Books-Carpentry-Construction-Florida-Law-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5606612_4kFbti.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48085-5599631": {
+    "item_id": "ctbids-48085-5599631",
+    "listing_url": "https://ctbids.com/estate-sale/48085/item/5599631/Apple-Themed-Kitchen-Decorative-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599631_XxBmY5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -388,6 +423,60 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-40912-5591538": {
+    "item_id": "ctbids-40912-5591538",
+    "listing_url": "https://ctbids.com/estate-sale/40912/item/5591538/Vintage-Crochet-Bag",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5591538_UECJe7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47961-5608774": {
+    "item_id": "ctbids-47961-5608774",
+    "listing_url": "https://ctbids.com/estate-sale/47961/item/5608774/Vintage-Electrinics",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5608774_F96COh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -469,60 +558,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-40912-5591538": {
-    "item_id": "ctbids-40912-5591538",
-    "listing_url": "https://ctbids.com/estate-sale/40912/item/5591538/Vintage-Crochet-Bag",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5591538_UECJe7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47961-5608774": {
-    "item_id": "ctbids-47961-5608774",
-    "listing_url": "https://ctbids.com/estate-sale/47961/item/5608774/Vintage-Electrinics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5608774_F96COh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -837,38 +872,6 @@
       }
     ]
   },
-  "277204757": {
-    "item_id": "277204757",
-    "listing_url": "https://shopgoodwill.com/item/277204757",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/e92e8d8f-bf61-4f9b-9eba-637e383f2b64azyl_07241.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/161e7dfc-958f-4aaa-99e7-65eacd95959bazyl_07242.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/42b1f911-6d86-400d-877b-05ff9ff1d4f5azyl_07243.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/fff3510f-0e10-45cc-bfc3-b4c36a772d76azyl_07244.jpg"
-    ],
-    "description": "The Jesse Stone Collection includes 8 thrilling films starring Tom Selleck and a collector's cap. This sealed box set features all eight mystery films based on the bestselling novels by Robert B. Parker.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Less relevant category 'Music' (-18)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Less relevant category 'Music' (-18)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48152-5599823": {
     "item_id": "ctbids-48152-5599823",
     "listing_url": "https://ctbids.com/estate-sale/48152/item/5599823/Theodore-Alexander-Wall-Mirror-Vase-With-Faux-Foliage-And-A-Decorative-Sconce-With",
@@ -1014,6 +1017,38 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277204757": {
+    "item_id": "277204757",
+    "listing_url": "https://shopgoodwill.com/item/277204757",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/e92e8d8f-bf61-4f9b-9eba-637e383f2b64azyl_07241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/161e7dfc-958f-4aaa-99e7-65eacd95959bazyl_07242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/42b1f911-6d86-400d-877b-05ff9ff1d4f5azyl_07243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-24/fff3510f-0e10-45cc-bfc3-b4c36a772d76azyl_07244.jpg"
+    ],
+    "description": "The Jesse Stone Collection includes 8 thrilling films starring Tom Selleck and a collector's cap. This sealed box set features all eight mystery films based on the bestselling novels by Robert B. Parker.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Less relevant category 'Music' (-18)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Less relevant category 'Music' (-18)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

@@ -208,7 +208,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -216,12 +216,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 17,
-        "relative_score": 0.5,
+        "score": 15,
+        "relative_score": 0.441,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -318,33 +318,6 @@
       }
     ]
   },
-  "ctbids-47778-5585007": {
-    "item_id": "ctbids-47778-5585007",
-    "listing_url": "https://ctbids.com/estate-sale/47778/item/5585007/W-B-Romeling-October-Mud-Lake-Large-Framed-Watercolor-Sherry-Holmes-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5585007_gL2W3G.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47755-5595843": {
     "item_id": "ctbids-47755-5595843",
     "listing_url": "https://ctbids.com/estate-sale/47755/item/5595843/Antique-Hibbard-Kitchen-Scale-and-More",
@@ -365,6 +338,33 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47778-5585007": {
+    "item_id": "ctbids-47778-5585007",
+    "listing_url": "https://ctbids.com/estate-sale/47778/item/5585007/W-B-Romeling-October-Mud-Lake-Large-Framed-Watercolor-Sherry-Holmes-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5585007_gL2W3G.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -404,6 +404,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48214/item/5612681/Vintage-Barbotine-Majolica-Pottery-Bowl-Cachepot-With-Red-Roses",
     "images": [
       "https://image.ctbids.com/seller/2026-09-09Tb64532/5612681_RJjPfC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47755-5597678": {
+    "item_id": "ctbids-47755-5597678",
+    "listing_url": "https://ctbids.com/estate-sale/47755/item/5597678/Vintage-Wooden-Kitchen-Utensils-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5597678_B74DKD.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -588,33 +615,6 @@
       }
     ]
   },
-  "ctbids-47755-5597678": {
-    "item_id": "ctbids-47755-5597678",
-    "listing_url": "https://ctbids.com/estate-sale/47755/item/5597678/Vintage-Wooden-Kitchen-Utensils-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5597678_B74DKD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "govdeals-19334-1143": {
     "item_id": "govdeals-19334-1143",
     "listing_url": "https://www.govdeals.com/en/asset/1143/19334",
@@ -790,46 +790,6 @@
       }
     ]
   },
-  "277327424": {
-    "item_id": "277327424",
-    "listing_url": "https://shopgoodwill.com/item/277327424",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/03723f4f-4e86-4dcb-b39d-664e5dff03dfamps_09151.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/2e70cecc-d8c3-41c6-b366-37873182de1bamps_09152.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/ba38fcd6-182d-49df-8a57-87dd19d7660eamps_09153.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/58730795-ff89-4f36-8796-4aff66b9004damps_09154.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/55831a11-0dfe-4026-9d50-e6d858f3097eamps_09155.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/af18165e-4460-40b6-b9ed-109657f072a3amps_09156.jpg"
-    ],
-    "description": "Title\n: Assorted Minerals Crystals Fossils Collection Bag Case Home Decor Display\nCategory\n: Collectibles & Art\nCondition\n: Used\nType\n: Minerals & Fossils Assortment\nMaterial\n: Stone\nColor\n: Multi-color\nStyle\n: Natural\nTheme\n: Nature\nRoom\n: Any Room\nUnit type\n: Unit\nBrand\n: Unbranded\nDescription\n: Elevate your home decor or add to your mineral collection with this assorted lot of minerals, crystals, and fossils. This collection includes a variety of natural stones, some in small individual bags, rough specimens, tumbled crystals displayed in a plastic organizer, and additional stones housed in a zippered plastic bag. Some larger and smaller pieces are visible, alongside a small green cloth, making the lot ideal for collectors, hobbyists, or educational use.\nEach specimen showcases unique colors, textures, and natural forms, adding a touch of natural beauty wherever displayed. The collection's variety enhances its appeal for beginner collectors or anyone seeking to explore the diversity of minerals and crystals.\nItems display signs of previous handling, with some wear and visible imperfections. Please review all photos for a detailed view of the included specimens and their condition. Overall, this lot offers an accessible way to expand your mineral or fossil assortment with genuine visual interest and practical educational value.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Lower-priority term 'decor' in title (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Lower-priority term 'decor' in title (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47500-5579035": {
     "item_id": "ctbids-47500-5579035",
     "listing_url": "https://ctbids.com/estate-sale/47500/item/5579035/Philadelphia-Eagles-Donovan-McNabb-Bobbleheads",
@@ -1000,6 +960,46 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277327424": {
+    "item_id": "277327424",
+    "listing_url": "https://shopgoodwill.com/item/277327424",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/03723f4f-4e86-4dcb-b39d-664e5dff03dfamps_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/2e70cecc-d8c3-41c6-b366-37873182de1bamps_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/ba38fcd6-182d-49df-8a57-87dd19d7660eamps_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/58730795-ff89-4f36-8796-4aff66b9004damps_09154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/55831a11-0dfe-4026-9d50-e6d858f3097eamps_09155.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-15/af18165e-4460-40b6-b9ed-109657f072a3amps_09156.jpg"
+    ],
+    "description": "Title\n: Assorted Minerals Crystals Fossils Collection Bag Case Home Decor Display\nCategory\n: Collectibles & Art\nCondition\n: Used\nType\n: Minerals & Fossils Assortment\nMaterial\n: Stone\nColor\n: Multi-color\nStyle\n: Natural\nTheme\n: Nature\nRoom\n: Any Room\nUnit type\n: Unit\nBrand\n: Unbranded\nDescription\n: Elevate your home decor or add to your mineral collection with this assorted lot of minerals, crystals, and fossils. This collection includes a variety of natural stones, some in small individual bags, rough specimens, tumbled crystals displayed in a plastic organizer, and additional stones housed in a zippered plastic bag. Some larger and smaller pieces are visible, alongside a small green cloth, making the lot ideal for collectors, hobbyists, or educational use.\nEach specimen showcases unique colors, textures, and natural forms, adding a touch of natural beauty wherever displayed. The collection's variety enhances its appeal for beginner collectors or anyone seeking to explore the diversity of minerals and crystals.\nItems display signs of previous handling, with some wear and visible imperfections. Please review all photos for a detailed view of the included specimens and their condition. Overall, this lot offers an accessible way to expand your mineral or fossil assortment with genuine visual interest and practical educational value.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'decor' in title (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'decor' in title (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
