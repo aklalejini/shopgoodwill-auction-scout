@@ -16,6 +16,7 @@
       "Opportunity term 'specimen' in title (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -23,14 +24,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 33,
-        "relative_score": 1.1,
+        "score": 37,
+        "relative_score": 1.233,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'specimen' in title (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -137,6 +139,36 @@
       }
     ]
   },
+  "277310950": {
+    "item_id": "277310950",
+    "listing_url": "https://shopgoodwill.com/item/277310950",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-15/b8a326ff-7b32-4dd5-877e-7f91501307aaletM_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-15/4c09fb9e-99f0-414b-871c-851730f399c8letM_09152.jpg"
+    ],
+    "description": "This is a medium-sized piece of petrified wood or fossilized mineral specimen. It features an irregular, rough shape with a combination of gray, white, and brown hues. The surface shows natural striations, texture, and layering indicative of mineralization and fossilization processes. The specimen exhibits natural wear and has no brand markings. Suitable for collectors or enthusiasts of geology and fossils.",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 13,
+        "relative_score": 0.433,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48085-5606154": {
     "item_id": "ctbids-48085-5606154",
     "listing_url": "https://ctbids.com/estate-sale/48085/item/5606154/Whimsical-Country-Farmhouse-Decor-Collection-Duck-Bird-Floral-Accents",
@@ -195,6 +227,33 @@
       }
     ]
   },
+  "ctbids-47968-5582238": {
+    "item_id": "ctbids-47968-5582238",
+    "listing_url": "https://ctbids.com/estate-sale/47968/item/5582238/Elvis-Presley-Portrait-Robert-Charles-Howe-1993-Commemorative-Stamp-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5582238_uqTTXM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47961-5608399": {
     "item_id": "ctbids-47961-5608399",
     "listing_url": "https://ctbids.com/estate-sale/47961/item/5608399/Vintage-Camera-Lenses",
@@ -217,33 +276,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47968-5582238": {
-    "item_id": "ctbids-47968-5582238",
-    "listing_url": "https://ctbids.com/estate-sale/47968/item/5582238/Elvis-Presley-Portrait-Robert-Charles-Howe-1993-Commemorative-Stamp-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5582238_uqTTXM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -305,6 +337,33 @@
       }
     ]
   },
+  "ctbids-47778-5584671": {
+    "item_id": "ctbids-47778-5584671",
+    "listing_url": "https://ctbids.com/estate-sale/47778/item/5584671/Pair-Sherry-Holmes-Great-Horned-Owl-Signed-Numbered-Limited-Edition-Prints-130-131-1000",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584671_ltQ6OI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47961-5597037": {
     "item_id": "ctbids-47961-5597037",
     "listing_url": "https://ctbids.com/estate-sale/47961/item/5597037/Vintage-Gold-Filled-Jacoby-Bender-Coro-Narrative-Charm-Bracelet",
@@ -332,55 +391,32 @@
       }
     ]
   },
-  "ctbids-48446-5630852": {
-    "item_id": "ctbids-48446-5630852",
-    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630852/Decorative-Solid-Wood-Shadow-Box-Picture-Frame-5x7-Photo-Display-w-Double-Mat-Glass",
+  "276552463": {
+    "item_id": "276552463",
+    "listing_url": "https://shopgoodwill.com/item/276552463",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5345837_JsrISJ.webp"
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-08/83e8499f-99be-4927-a204-dcbacef18c63rson_09081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-08/8b764efe-5c4d-4cd0-8741-cd31360a5b51rson_09082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-08/5a3658e7-ba64-49d8-8038-0710c1460356rson_09083.jpg"
     ],
-    "description": "",
+    "description": "Title\n: Amethyst Geode in Frame\nCondition\n: Used\nType\n: Framed art\nSubject\n: Amethyst geode\nMaterial\n: Amethyst, glass, wood\nTheme\n: Geode\nStyle\n: Contemporary\nFeatures\n: Framed\nProduction technique\n: Mixed media\nFraming\n: Matted & Framed\nUnit of sale\n: Single Piece\nPeriod\n: Contemporary\nUnit type\n: Unit\nType of Art:\nFramed art\nDescription:\nAmethyst Geode in Frame, Product Category: Art Framed art of Amethyst geode Contemporary Matted & Framed\nArtwork Condition:\nUsed\nSize (in inches):\n17 x 16.8 x 2.4\nFrame Included:\nYes\nAdditional Details:\nThis piece embraces minimalistic elements such as colors and simple silhouettes, creating a sleek, detail oriented aesthetic. Perfect addition to any space.",
     "score_reasons": [
+      "Opportunity term 'mixed' in description (+2)",
       "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 5,
-        "relative_score": 0.147,
+        "relative_score": 0.167,
         "score_reasons": [
+          "Opportunity term 'mixed' in description (+2)",
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47778-5584671": {
-    "item_id": "ctbids-47778-5584671",
-    "listing_url": "https://ctbids.com/estate-sale/47778/item/5584671/Pair-Sherry-Holmes-Great-Horned-Owl-Signed-Numbered-Limited-Edition-Prints-130-131-1000",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584671_ltQ6OI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -484,6 +520,60 @@
       }
     ]
   },
+  "ctbids-48446-5630852": {
+    "item_id": "ctbids-48446-5630852",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630852/Decorative-Solid-Wood-Shadow-Box-Picture-Frame-5x7-Photo-Display-w-Double-Mat-Glass",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5345837_JsrISJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48085-5598956": {
+    "item_id": "ctbids-48085-5598956",
+    "listing_url": "https://ctbids.com/estate-sale/48085/item/5598956/Insignia-CD-Boombox-with-AM-FM-Radio-Model-NS-B4111",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598956_JkDIsr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277192596": {
     "item_id": "277192596",
     "listing_url": "https://shopgoodwill.com/item/277192596",
@@ -553,33 +643,6 @@
       }
     ]
   },
-  "ctbids-48085-5598956": {
-    "item_id": "ctbids-48085-5598956",
-    "listing_url": "https://ctbids.com/estate-sale/48085/item/5598956/Insignia-CD-Boombox-with-AM-FM-Radio-Model-NS-B4111",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598956_JkDIsr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48152-5599822": {
     "item_id": "ctbids-48152-5599822",
     "listing_url": "https://ctbids.com/estate-sale/48152/item/5599822/Bernhardt-Tall-Chest-of-Drawers",
@@ -615,7 +678,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -626,7 +689,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -911,6 +974,48 @@
       }
     ]
   },
+  "276636207": {
+    "item_id": "276636207",
+    "listing_url": "https://shopgoodwill.com/item/276636207",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/2279ede4-93c6-48a1-aa00-c02caea182abiRum_09081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/f5e88810-dbac-4a24-975b-58c4186d40aaiRum_09082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/9c711011-2ccb-4f50-9627-419da8884d50iRum_09083.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/6ab55468-05ed-47f8-809e-847b252e190biRum_09084.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/7f452a7c-71ce-40c9-bda1-d81f3dab220biRum_09085.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/9162edec-c2fd-4d39-824f-1c40259d4400iRum_09086.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/b16075fa-8df2-486d-a9c4-520f1c94e16biRum_09087.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/8a45f161-1139-4d84-a8c3-9f89380b5e0eiRum_09088.jpg"
+    ],
+    "description": "This large specimen weighs approximately 4 lbs 13.9 oz and measures 6x5x2.75 inches. It features a polished face revealing beautiful agate and mineral banding in shades of brown, cream, and tan, characteristic of thunder egg agate. The back and sides remain natural and uncut, while the polished side offers a glossy surface showcasing the internal structure. This specimen serves as a display piece suitable for collectors, educational purposes, or as a decorative natural mineral.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "4 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "4 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47865-5617269": {
     "item_id": "ctbids-47865-5617269",
     "listing_url": "https://ctbids.com/estate-sale/47865/item/5617269/1971-Eisenhower-Dollar-1972-Kennedy-Half-Dollar",
@@ -1061,77 +1166,6 @@
       }
     ]
   },
-  "276636207": {
-    "item_id": "276636207",
-    "listing_url": "https://shopgoodwill.com/item/276636207",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/2279ede4-93c6-48a1-aa00-c02caea182abiRum_09081.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/f5e88810-dbac-4a24-975b-58c4186d40aaiRum_09082.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/9c711011-2ccb-4f50-9627-419da8884d50iRum_09083.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/6ab55468-05ed-47f8-809e-847b252e190biRum_09084.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/7f452a7c-71ce-40c9-bda1-d81f3dab220biRum_09085.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/9162edec-c2fd-4d39-824f-1c40259d4400iRum_09086.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/b16075fa-8df2-486d-a9c4-520f1c94e16biRum_09087.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-08/8a45f161-1139-4d84-a8c3-9f89380b5e0eiRum_09088.jpg"
-    ],
-    "description": "This large specimen weighs approximately 4 lbs 13.9 oz and measures 6x5x2.75 inches. It features a polished face revealing beautiful agate and mineral banding in shades of brown, cream, and tan, characteristic of thunder egg agate. The back and sides remain natural and uncut, while the polished side offers a glossy surface showcasing the internal structure. This specimen serves as a display piece suitable for collectors, educational purposes, or as a decorative natural mineral.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "4 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "4 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276552463": {
-    "item_id": "276552463",
-    "listing_url": "https://shopgoodwill.com/item/276552463",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-08/83e8499f-99be-4927-a204-dcbacef18c63rson_09081.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-08/8b764efe-5c4d-4cd0-8741-cd31360a5b51rson_09082.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-08/5a3658e7-ba64-49d8-8038-0710c1460356rson_09083.jpg"
-    ],
-    "description": "Title\n: Amethyst Geode in Frame\nCondition\n: Used\nType\n: Framed art\nSubject\n: Amethyst geode\nMaterial\n: Amethyst, glass, wood\nTheme\n: Geode\nStyle\n: Contemporary\nFeatures\n: Framed\nProduction technique\n: Mixed media\nFraming\n: Matted & Framed\nUnit of sale\n: Single Piece\nPeriod\n: Contemporary\nUnit type\n: Unit\nType of Art:\nFramed art\nDescription:\nAmethyst Geode in Frame, Product Category: Art Framed art of Amethyst geode Contemporary Matted & Framed\nArtwork Condition:\nUsed\nSize (in inches):\n17 x 16.8 x 2.4\nFrame Included:\nYes\nAdditional Details:\nThis piece embraces minimalistic elements such as colors and simple silhouettes, creating a sleek, detail oriented aesthetic. Perfect addition to any space.",
-    "score_reasons": [
-      "Opportunity term 'mixed' in description (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
-        "score_reasons": [
-          "Opportunity term 'mixed' in description (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276557591": {
     "item_id": "276557591",
     "listing_url": "https://shopgoodwill.com/item/276557591",
@@ -1146,10 +1180,11 @@
       "Opportunity term 'specimen' in title (+4)",
       "Lower-priority term 'decor' in description (-8)",
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "12 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+21)"
+      "Score boundary adjustment (+17)"
     ],
     "hunt_scores": [
       {
@@ -1161,10 +1196,11 @@
           "Opportunity term 'specimen' in title (+4)",
           "Lower-priority term 'decor' in description (-8)",
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "12 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+21)"
+          "Score boundary adjustment (+17)"
         ],
         "matched_keywords": []
       }

@@ -13,6 +13,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'assorted' in title (+2)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "4.8 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -21,11 +22,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 33,
+        "relative_score": 1.1,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "4.8 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -170,6 +172,39 @@
       }
     ]
   },
+  "276584862": {
+    "item_id": "276584862",
+    "listing_url": "https://shopgoodwill.com/item/276584862",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-10/21ef4ffb-c2db-43dd-8ec6-61783a91773elens_07101.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-10/d2c06ec9-c119-432b-84b2-ead7b675a59elens_07102.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-10/9996c8bf-835f-46c4-81d6-2bde6b5d5079lens_07103.jpg"
+    ],
+    "description": "Includes a bag of assorted polished stones weighing 1.65 lbs and a striped mineral slab.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "0 bids near close (+4)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 15,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "0 bids near close (+4)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48085-5607750": {
     "item_id": "ctbids-48085-5607750",
     "listing_url": "https://ctbids.com/estate-sale/48085/item/5607750/Vintage-Handmade-Stuffed-Animal-Collection-Plush-Toys-Rag-Dolls-5-Pc",
@@ -250,32 +285,30 @@
       }
     ]
   },
-  "276584862": {
-    "item_id": "276584862",
-    "listing_url": "https://shopgoodwill.com/item/276584862",
+  "ctbids-48214-5616661": {
+    "item_id": "ctbids-48214-5616661",
+    "listing_url": "https://ctbids.com/estate-sale/48214/item/5616661/Vintage-Mahogany-Media-Console",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-10/21ef4ffb-c2db-43dd-8ec6-61783a91773elens_07101.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-10/d2c06ec9-c119-432b-84b2-ead7b675a59elens_07102.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-07-10/9996c8bf-835f-46c4-81d6-2bde6b5d5079lens_07103.jpg"
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5616661_Mh26OD.webp"
     ],
-    "description": "Includes a bag of assorted polished stones weighing 1.65 lbs and a striped mineral slab.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'assorted' in description (+2)",
-      "Lower-priority term 'polished stones' in title (-6)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 11,
-        "relative_score": 0.367,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'assorted' in description (+2)",
-          "Lower-priority term 'polished stones' in title (-6)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -286,35 +319,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48446/item/5631056/Vintage-Red-Suede-Shoulder-Bag-Purse-Ruched-Pleated-Design",
     "images": [
       "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631056_Q2IFlX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48214-5616661": {
-    "item_id": "ctbids-48214-5616661",
-    "listing_url": "https://ctbids.com/estate-sale/48214/item/5616661/Vintage-Mahogany-Media-Console",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5616661_Mh26OD.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -361,6 +365,114 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47956-5615851": {
+    "item_id": "ctbids-47956-5615851",
+    "listing_url": "https://ctbids.com/estate-sale/47956/item/5615851/Rimless-Rectangular-Eyeglasses-with-Blue-Case-Cleaning-Cloth",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5615851_LCSTdr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5630930": {
+    "item_id": "ctbids-48446-5630930",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630930/1959-Edd-Byrnes-Connie-Stevens-Kookie-Kookie-Lend-Me-Your-Comb-45-RPM-WB-5047",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5463428_26EbAH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47968-5602821": {
+    "item_id": "ctbids-47968-5602821",
+    "listing_url": "https://ctbids.com/estate-sale/47968/item/5602821/Goebel-Hummel-Farm-Feathered-Friends-Figurine-Lot-6-Chicken-Licken-Goose-Girl-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5602821_LyuhcU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5631002": {
+    "item_id": "ctbids-48446-5631002",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5631002/Amanda-Smith-Pale-Pink-Faux-Leather-Crossbody-Shoulder-Bag-Purse",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631002_qywrjM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -514,114 +626,6 @@
       }
     ]
   },
-  "ctbids-47956-5615851": {
-    "item_id": "ctbids-47956-5615851",
-    "listing_url": "https://ctbids.com/estate-sale/47956/item/5615851/Rimless-Rectangular-Eyeglasses-with-Blue-Case-Cleaning-Cloth",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5615851_LCSTdr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48446-5630930": {
-    "item_id": "ctbids-48446-5630930",
-    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630930/1959-Edd-Byrnes-Connie-Stevens-Kookie-Kookie-Lend-Me-Your-Comb-45-RPM-WB-5047",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5463428_26EbAH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47968-5602821": {
-    "item_id": "ctbids-47968-5602821",
-    "listing_url": "https://ctbids.com/estate-sale/47968/item/5602821/Goebel-Hummel-Farm-Feathered-Friends-Figurine-Lot-6-Chicken-Licken-Goose-Girl-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5602821_LyuhcU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48446-5631002": {
-    "item_id": "ctbids-48446-5631002",
-    "listing_url": "https://ctbids.com/estate-sale/48446/item/5631002/Amanda-Smith-Pale-Pink-Faux-Leather-Crossbody-Shoulder-Bag-Purse",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631002_qywrjM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47778-5596767": {
     "item_id": "ctbids-47778-5596767",
     "listing_url": "https://ctbids.com/estate-sale/47778/item/5596767/W-B-Romeling-Evening-Chores-Pair-Signed-Numbered-Limited-Edition-Prints-204-600-239-600",
@@ -696,6 +700,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5631534": {
+    "item_id": "ctbids-48446-5631534",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5631534/1979-Franklin-Porcelain-The-Frog-Prince-Miniature-Collector-Plate",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631534_Yn6zR5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1127,10 +1158,11 @@
       "Opportunity term 'lot' in title (+2)",
       "Opportunity term 'rocks' in title (+1)",
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "46 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+14)"
+      "Score boundary adjustment (+10)"
     ],
     "hunt_scores": [
       {
@@ -1142,10 +1174,11 @@
           "Opportunity term 'lot' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "46 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+14)"
+          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }

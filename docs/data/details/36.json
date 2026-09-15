@@ -34,6 +34,42 @@
       }
     ]
   },
+  "277312904": {
+    "item_id": "277312904",
+    "listing_url": "https://shopgoodwill.com/item/277312904",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-15/e84694fa-7bcc-4ac6-a6c8-23438e2b68e4irth_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-15/d6ee3d05-c063-45de-822b-cfddf6075ea4irth_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-15/58a590bf-97bc-4702-b6c6-f1073fd8ad02irth_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-15/b3f8e49b-e338-4884-b05a-599c835c5114irth_09154.jpg"
+    ],
+    "description": "Vintage Genuine Block Meerschaum Pipe In Hard Case, Made In Austria\nType:\nVintage Genuine Block Meerschaum Pipe In Hard Case, Made In Austria\nCondition:\nGood - shows some sign of wear\nApproximate Measurements (inches):\n6.25L x 1.75W x 2.5H",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Target keyword 'meerschaum' in title (+10)",
+      "Collector evidence 'block meerschaum' in title (+17)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 34,
+        "relative_score": 0.971,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Target keyword 'meerschaum' in title (+10)",
+          "Collector evidence 'block meerschaum' in title (+17)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "meerschaum"
+        ]
+      }
+    ]
+  },
   "ctbids-47781-5573088": {
     "item_id": "ctbids-47781-5573088",
     "listing_url": "https://ctbids.com/estate-sale/47781/item/5573088/Tiffany-Co-Makers-Pierced-Serving-Piece",
@@ -96,35 +132,6 @@
       }
     ]
   },
-  "ctbids-47968-5588237": {
-    "item_id": "ctbids-47968-5588237",
-    "listing_url": "https://ctbids.com/estate-sale/47968/item/5588237/Garmin-GPS-48-Handheld-GPS-with-Power-Cable-Case-Road-Atlas-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5588237_gce6q6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276585193": {
     "item_id": "276585193",
     "listing_url": "https://shopgoodwill.com/item/276585193",
@@ -137,6 +144,7 @@
     "description": "A sealed spindle of Memorex CD-RW discs for data storage or media burning.",
     "score_reasons": [
       "Target keyword 'memorex' in title (+3)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+4)"
     ],
@@ -144,10 +152,11 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 15,
-        "relative_score": 0.417,
+        "score": 19,
+        "relative_score": 0.528,
         "score_reasons": [
           "Target keyword 'memorex' in title (+3)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+4)"
         ],
@@ -178,6 +187,35 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47968-5588237": {
+    "item_id": "ctbids-47968-5588237",
+    "listing_url": "https://ctbids.com/estate-sale/47968/item/5588237/Garmin-GPS-48-Handheld-GPS-with-Power-Cable-Case-Road-Atlas-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5588237_gce6q6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -409,33 +447,6 @@
       }
     ]
   },
-  "ctbids-48184-5616136": {
-    "item_id": "ctbids-48184-5616136",
-    "listing_url": "https://ctbids.com/estate-sale/48184/item/5616136/Avigo-Aluminum-Camera-Tripod",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616136_cYc1k4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276549276": {
     "item_id": "276549276",
     "listing_url": "https://shopgoodwill.com/item/276549276",
@@ -465,6 +476,33 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48184-5616136": {
+    "item_id": "ctbids-48184-5616136",
+    "listing_url": "https://ctbids.com/estate-sale/48184/item/5616136/Avigo-Aluminum-Camera-Tripod",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616136_cYc1k4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -575,111 +613,6 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48184-5623922": {
-    "item_id": "ctbids-48184-5623922",
-    "listing_url": "https://ctbids.com/estate-sale/48184/item/5623922/Christmas-Ready",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5623922_6jh8OL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277278502": {
-    "item_id": "277278502",
-    "listing_url": "https://shopgoodwill.com/item/277278502",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/e91d15e3-453b-495d-b57d-4769b1abc2e7cher_09141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/5377c7a5-2d7a-4d25-abf7-167da63f0dd0cher_09142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/facbecb4-0993-48c1-bdbf-ea732bc4ec51cher_09143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/e2a9c280-cf4b-4c28-a1c2-829795e2c998cher_09144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/0a5f3a1b-ab79-4a45-b2ec-f42255732defcher_09145.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/d042e426-dcf1-4adb-9456-9e35351aed89cher_09146.jpg"
-    ],
-    "description": "This listing includes two vintage glass insulators, one light blue/aqua Hemingray and one clear AM Tel & Tel Co. The Hemingray insulator has surface wear, scratches, and minor internal bubbles consistent with antique glass. The clear AM Tel & Tel Co insulator features embossed lettering around the base and shows vintage wear, including some dirt and minor chips. Both insulators have cylindrical shapes with ridged tops and threaded interiors. No major cracks or breaks are visible. See photos for condition details.",
-    "score_reasons": [
-      "Opportunity term 'see photos' in description (+4)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'see photos' in description (+4)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276932615": {
-    "item_id": "276932615",
-    "listing_url": "https://shopgoodwill.com/item/276932615",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-10/c9c571b5-20b6-4b1d-b478-92fe44b7d148Por2_09101.jpg"
-    ],
-    "description": "This lot includes three Sony T-120 VHS blank video cassette tapes, each sealed in original packaging. These premium grade tapes offer up to 6 hours of recording time in EP (Extended Play) mode. The tapes are designed for VHS recorders and provide brilliant color and sound quality with high durability. Packaging is blue and features an image of a smiling couple. Suitable for video recording and archiving.\nAttribute\nValue\nBrand:\nSony\nType:\nVHS\nUntested functionality unknown\nComes with what is shown; full completeness unknown\n-Items are sold AS IS; No refunds will be given\n*All measurements are approximations.\n*All sales have three days from the date of delivery to report a discrepancy.\n*All sales are final after three days from delivery.\nReturns need to be shipped to:\nGoodwill2Go\n245 Deo Drive\nOpen Mon-Fri 9 am to 4 pm",
-    "score_reasons": [
-      "Opportunity term 'sealed' in description (+12)",
-      "Opportunity term 'lot of' in title (+6)",
-      "Opportunity term 'lot' in title (+4)",
-      "Lower-priority term 'as is' in description (-3)",
-      "Lower-priority term 'untested' in description (-4)",
-      "Lower-priority term 't-120' in title (-12)",
-      "Target keyword 't-120' in title (+5)",
-      "Target keyword 'sony' in title (+3)",
-      "Only 1 listing photo (-6)",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 6,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'sealed' in description (+12)",
-          "Opportunity term 'lot of' in title (+6)",
-          "Opportunity term 'lot' in title (+4)",
-          "Lower-priority term 'as is' in description (-3)",
-          "Lower-priority term 'untested' in description (-4)",
-          "Lower-priority term 't-120' in title (-12)",
-          "Target keyword 't-120' in title (+5)",
-          "Target keyword 'sony' in title (+3)",
-          "Only 1 listing photo (-6)",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
-        ],
-        "matched_keywords": [
-          "sony",
-          "t-120"
-        ]
       }
     ]
   },
@@ -883,6 +816,77 @@
       }
     ]
   },
+  "276932615": {
+    "item_id": "276932615",
+    "listing_url": "https://shopgoodwill.com/item/276932615",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/386/Item/2026-09-10/c9c571b5-20b6-4b1d-b478-92fe44b7d148Por2_09101.jpg"
+    ],
+    "description": "This lot includes three Sony T-120 VHS blank video cassette tapes, each sealed in original packaging. These premium grade tapes offer up to 6 hours of recording time in EP (Extended Play) mode. The tapes are designed for VHS recorders and provide brilliant color and sound quality with high durability. Packaging is blue and features an image of a smiling couple. Suitable for video recording and archiving.\nAttribute\nValue\nBrand:\nSony\nType:\nVHS\nUntested functionality unknown\nComes with what is shown; full completeness unknown\n-Items are sold AS IS; No refunds will be given\n*All measurements are approximations.\n*All sales have three days from the date of delivery to report a discrepancy.\n*All sales are final after three days from delivery.\nReturns need to be shipped to:\nGoodwill2Go\n245 Deo Drive\nOpen Mon-Fri 9 am to 4 pm",
+    "score_reasons": [
+      "Opportunity term 'sealed' in description (+12)",
+      "Opportunity term 'lot of' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Lower-priority term 'as is' in description (-3)",
+      "Lower-priority term 'untested' in description (-4)",
+      "Lower-priority term 't-120' in title (-12)",
+      "Target keyword 't-120' in title (+5)",
+      "Target keyword 'sony' in title (+3)",
+      "Only 1 listing photo (-6)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 6,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'sealed' in description (+12)",
+          "Opportunity term 'lot of' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "Lower-priority term 'as is' in description (-3)",
+          "Lower-priority term 'untested' in description (-4)",
+          "Lower-priority term 't-120' in title (-12)",
+          "Target keyword 't-120' in title (+5)",
+          "Target keyword 'sony' in title (+3)",
+          "Only 1 listing photo (-6)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "sony",
+          "t-120"
+        ]
+      }
+    ]
+  },
+  "ctbids-48184-5623922": {
+    "item_id": "ctbids-48184-5623922",
+    "listing_url": "https://ctbids.com/estate-sale/48184/item/5623922/Christmas-Ready",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5623922_6jh8OL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47368-5588160": {
     "item_id": "ctbids-47368-5588160",
     "listing_url": "https://ctbids.com/estate-sale/47368/item/5588160/Joseph-Emmert-Original-Watercolor-Painting",
@@ -1053,6 +1057,38 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277278502": {
+    "item_id": "277278502",
+    "listing_url": "https://shopgoodwill.com/item/277278502",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/e91d15e3-453b-495d-b57d-4769b1abc2e7cher_09141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/5377c7a5-2d7a-4d25-abf7-167da63f0dd0cher_09142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/facbecb4-0993-48c1-bdbf-ea732bc4ec51cher_09143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/e2a9c280-cf4b-4c28-a1c2-829795e2c998cher_09144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/0a5f3a1b-ab79-4a45-b2ec-f42255732defcher_09145.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-09-14/d042e426-dcf1-4adb-9456-9e35351aed89cher_09146.jpg"
+    ],
+    "description": "This listing includes two vintage glass insulators, one light blue/aqua Hemingray and one clear AM Tel & Tel Co. The Hemingray insulator has surface wear, scratches, and minor internal bubbles consistent with antique glass. The clear AM Tel & Tel Co insulator features embossed lettering around the base and shows vintage wear, including some dirt and minor chips. Both insulators have cylindrical shapes with ridged tops and threaded interiors. No major cracks or breaks are visible. See photos for condition details.",
+    "score_reasons": [
+      "Opportunity term 'see photos' in description (+4)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'see photos' in description (+4)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

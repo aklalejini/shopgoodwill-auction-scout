@@ -36,7 +36,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -44,12 +44,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 16,
-        "relative_score": 0.471,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -86,35 +86,6 @@
       }
     ]
   },
-  "ctbids-47968-5588163": {
-    "item_id": "ctbids-47968-5588163",
-    "listing_url": "https://ctbids.com/estate-sale/47968/item/5588163/Classic-Antique-Automobile-Club-Publications-Magazines-Collectibles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5588163_hzvyST.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47956-5605449": {
     "item_id": "ctbids-47956-5605449",
     "listing_url": "https://ctbids.com/estate-sale/47956/item/5605449/Assorted-DVD-Movie-Collection-Lot-Action-Drama-Comedy-Thriller",
@@ -137,6 +108,35 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47968-5588163": {
+    "item_id": "ctbids-47968-5588163",
+    "listing_url": "https://ctbids.com/estate-sale/47968/item/5588163/Classic-Antique-Automobile-Club-Publications-Magazines-Collectibles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5588163_hzvyST.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -168,6 +168,36 @@
           "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277322787": {
+    "item_id": "277322787",
+    "listing_url": "https://shopgoodwill.com/item/277322787",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-09-15/fc42cfdd-a059-4194-ada1-537269f748b5rimm_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-09-15/f5287323-0ad9-49c4-acab-b666da796531rimm_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-09-15/07b5edb0-a26f-425b-8a29-801a8ec3e076rimm_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-09-15/e3f50dd3-2299-4afa-a13d-108313b3667erimm_09154.jpg"
+    ],
+    "description": "This is a vintage Hemingray-14 glass insulator made in the USA, marked with 'HEMINGRAY-14' and 'MADE IN U.S.A. 20-49'. The insulator is clear glass with discoloration and age-related wear consistent with use. Originally used on telegraph, telephone, or electric power lines, this piece represents historical utility equipment. It is a collectible item valued for its industrial heritage.",
+    "score_reasons": [
+      "High-value signal 'amber glass color' in image color analysis (+14)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 15,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "High-value signal 'amber glass color' in image color analysis (+14)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -231,33 +261,6 @@
       }
     ]
   },
-  "ctbids-47755-5600100": {
-    "item_id": "ctbids-47755-5600100",
-    "listing_url": "https://ctbids.com/estate-sale/47755/item/5600100/Vintage-Fostoria-Square-Cake-Stand",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5600100_7R6mjB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47781-5573094": {
     "item_id": "ctbids-47781-5573094",
     "listing_url": "https://ctbids.com/estate-sale/47781/item/5573094/Collection-Of-Vintage-Promotional-Advertising-Pens-Mechanical-Pencils",
@@ -290,6 +293,60 @@
         "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5630922": {
+    "item_id": "ctbids-48446-5630922",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630922/1959-Jack-Scott-The-Way-I-Walk-Carlton-514-Rockabilly-45-RPM-Vinyl-Record",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5432769_epepi0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47755-5600100": {
+    "item_id": "ctbids-47755-5600100",
+    "listing_url": "https://ctbids.com/estate-sale/47755/item/5600100/Vintage-Fostoria-Square-Cake-Stand",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5600100_7R6mjB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -345,33 +402,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48446-5630922": {
-    "item_id": "ctbids-48446-5630922",
-    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630922/1959-Jack-Scott-The-Way-I-Walk-Carlton-514-Rockabilly-45-RPM-Vinyl-Record",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5432769_epepi0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -512,44 +542,6 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277159301": {
-    "item_id": "277159301",
-    "listing_url": "https://shopgoodwill.com/item/277159301",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/bd1ee776-2836-4889-8b6f-3d6c4eef378crton_09071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/dc172c3a-144b-4de4-87c6-4a8c0b8f2d8erton_09072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/2bf52ba1-d022-484c-afc0-96874e1f9011rton_09073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/fa355447-539e-42d2-b0f7-5aff6e8a064erton_09074.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/31e91c56-9e45-467d-a7ad-739337d10377rton_09075.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/1b4480d4-3f1a-4dbc-a4b5-9d73e9ccf99arton_09076.jpg"
-    ],
-    "description": "Item Description:\nRocks, Minerals - Amethyst, Quartz, etc.\nApproximate Measurements (inches):\n5.5 x 3.5 x 1.5 Sizes Vary\nWeight (in lbs):\n0.7\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -725,6 +717,84 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47719-5596941": {
+    "item_id": "ctbids-47719-5596941",
+    "listing_url": "https://ctbids.com/estate-sale/47719/item/5596941/Five-Pieces-Of-Unpolished-Amethyst",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5596941_cXj1WM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277159301": {
+    "item_id": "277159301",
+    "listing_url": "https://shopgoodwill.com/item/277159301",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/bd1ee776-2836-4889-8b6f-3d6c4eef378crton_09071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/dc172c3a-144b-4de4-87c6-4a8c0b8f2d8erton_09072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/2bf52ba1-d022-484c-afc0-96874e1f9011rton_09073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/fa355447-539e-42d2-b0f7-5aff6e8a064erton_09074.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/31e91c56-9e45-467d-a7ad-739337d10377rton_09075.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-07/1b4480d4-3f1a-4dbc-a4b5-9d73e9ccf99arton_09076.jpg"
+    ],
+    "description": "Item Description:\nRocks, Minerals - Amethyst, Quartz, etc.\nApproximate Measurements (inches):\n5.5 x 3.5 x 1.5 Sizes Vary\nWeight (in lbs):\n0.7\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -917,46 +987,6 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47719-5596941": {
-    "item_id": "ctbids-47719-5596941",
-    "listing_url": "https://ctbids.com/estate-sale/47719/item/5596941/Five-Pieces-Of-Unpolished-Amethyst",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5596941_cXj1WM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",

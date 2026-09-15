@@ -13,7 +13,6 @@
       "Opportunity term 'collection' in description (+6)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
-      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -21,13 +20,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 29,
+        "relative_score": 0.967,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
-          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -75,6 +73,55 @@
       }
     ]
   },
+  "276682103": {
+    "item_id": "276682103",
+    "listing_url": "https://shopgoodwill.com/item/276682103",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes 4.9 pounds of assorted minerals, crystals, rocks, and geode specimens. The collection features a variety of raw and polished stones including quartz, amethyst, agate slice, fluorite, chalcedony, and possibly some fossilized or volcanic rocks. Also included is an abalone shell piece and a metal-wire holder with a purple amethyst cluster base, which can be used as a tealight candle holder or display stand. The stones vary in color including purple, green, clear, brown, white, and pink, and are in good used or natural condition with minor wear typical of raw mineral specimens. The metal-wire holder is noted as made in Brazil on the label. This lot is suitable for collectors, educators, or decorative displays.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Target keyword 'fluorite' in description (+9)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "4.9 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 16,
+        "relative_score": 0.533,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Target keyword 'fluorite' in description (+9)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "4.9 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
+      }
+    ]
+  },
   "276753997": {
     "item_id": "276753997",
     "listing_url": "https://shopgoodwill.com/item/276753997",
@@ -112,82 +159,6 @@
       }
     ]
   },
-  "ctbids-48161-5599517": {
-    "item_id": "ctbids-48161-5599517",
-    "listing_url": "https://ctbids.com/estate-sale/48161/item/5599517/Vintage-Gold-Trimmed-Glassware-Set-Etched-Crystal-Stemware-Collection-Multiple-Sizes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599517_JEytv6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276682103": {
-    "item_id": "276682103",
-    "listing_url": "https://shopgoodwill.com/item/276682103",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This lot includes 4.9 pounds of assorted minerals, crystals, rocks, and geode specimens. The collection features a variety of raw and polished stones including quartz, amethyst, agate slice, fluorite, chalcedony, and possibly some fossilized or volcanic rocks. Also included is an abalone shell piece and a metal-wire holder with a purple amethyst cluster base, which can be used as a tealight candle holder or display stand. The stones vary in color including purple, green, clear, brown, white, and pink, and are in good used or natural condition with minor wear typical of raw mineral specimens. The metal-wire holder is noted as made in Brazil on the label. This lot is suitable for collectors, educators, or decorative displays.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'possibly' in description (-4)",
-      "Target keyword 'fluorite' in description (+9)",
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "4.9 lb lot has unusually favorable flat shipping (+5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'possibly' in description (-4)",
-          "Target keyword 'fluorite' in description (+9)",
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "4.9 lb lot has unusually favorable flat shipping (+5)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "fluorite"
-        ]
-      }
-    ]
-  },
   "ctbids-47775-5544689": {
     "item_id": "ctbids-47775-5544689",
     "listing_url": "https://ctbids.com/estate-sale/47775/item/5544689/Marvel-Superhero-Trading-Card-Collection-Lot-18",
@@ -210,6 +181,35 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48161-5599517": {
+    "item_id": "ctbids-48161-5599517",
+    "listing_url": "https://ctbids.com/estate-sale/48161/item/5599517/Vintage-Gold-Trimmed-Glassware-Set-Etched-Crystal-Stemware-Collection-Multiple-Sizes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599517_JEytv6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -246,6 +246,33 @@
       }
     ]
   },
+  "ctbids-47775-5550935": {
+    "item_id": "ctbids-47775-5550935",
+    "listing_url": "https://ctbids.com/estate-sale/47775/item/5550935/Dallas-Cowboys-Clothing-Books-Super-Bowl-DVD-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5550935_qzTGsn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48085-5607764": {
     "item_id": "ctbids-48085-5607764",
     "listing_url": "https://ctbids.com/estate-sale/48085/item/5607764/Vintage-1977-Ceramic-Serving-Set-Elegant-White-Green-Scroll-Design",
@@ -268,33 +295,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47775-5550935": {
-    "item_id": "ctbids-47775-5550935",
-    "listing_url": "https://ctbids.com/estate-sale/47775/item/5550935/Dallas-Cowboys-Clothing-Books-Super-Bowl-DVD-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5550935_qzTGsn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -410,33 +410,6 @@
       }
     ]
   },
-  "ctbids-47500-5593891": {
-    "item_id": "ctbids-47500-5593891",
-    "listing_url": "https://ctbids.com/estate-sale/47500/item/5593891/Kenwood-CD-Player-DP-1510",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5593891_V8aMMy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47778-5562335": {
     "item_id": "ctbids-47778-5562335",
     "listing_url": "https://ctbids.com/estate-sale/47778/item/5562335/Pair-of-Sherry-Holmes-Original-Watercolors-Royal-Mountain-Cloud-Study",
@@ -513,42 +486,6 @@
           "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276691564": {
-    "item_id": "276691564",
-    "listing_url": "https://shopgoodwill.com/item/276691564",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/a4098825-23b6-414d-9e93-b700f19f7dafith2_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/db037af7-5930-42da-926d-d2b7e335ebf4ith2_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/f3618710-832d-485e-b1c9-b05c5af9e852ith2_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/30bc3f80-305b-4f36-8366-9c6cc92af652ith2_09094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/9af0f78f-750b-487b-a4f4-00c5bf4c4a2aith2_09095.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/8aa9dc8c-d3ce-4367-a776-0e9cff23df3eith2_09096.jpg"
-    ],
-    "description": "Material(s):\nStone\nCondition:\nCondition varies across items in lot.\nImperfection(s):\nMarkings/Scuffs, Needs Cleaning, Scratches",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -829,6 +766,79 @@
       }
     ]
   },
+  "276691564": {
+    "item_id": "276691564",
+    "listing_url": "https://shopgoodwill.com/item/276691564",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/a4098825-23b6-414d-9e93-b700f19f7dafith2_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/db037af7-5930-42da-926d-d2b7e335ebf4ith2_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/f3618710-832d-485e-b1c9-b05c5af9e852ith2_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/30bc3f80-305b-4f36-8366-9c6cc92af652ith2_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/9af0f78f-750b-487b-a4f4-00c5bf4c4a2aith2_09095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-09/8aa9dc8c-d3ce-4367-a776-0e9cff23df3eith2_09096.jpg"
+    ],
+    "description": "Material(s):\nStone\nCondition:\nCondition varies across items in lot.\nImperfection(s):\nMarkings/Scuffs, Needs Cleaning, Scratches",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276615342": {
+    "item_id": "276615342",
+    "listing_url": "https://shopgoodwill.com/item/276615342",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/196/Items/2026-09-08/faadd890-9802-4983-beaa-ebbb09180e05dson_09081.jpg"
+    ],
+    "description": "Condition: New, sealed\nThank you for supporting Goodwill Industries of Greater Detroit.\nFor service please enter a support ticket via your \"Customer Service\" tab or by using the \"Contact Seller\" link within the listing page.\nWe strive to respond to all inquiries within 2 business days. WHEN A TICKET IS CLOSED IT SIMPLY MEANS WE HAVE RESPONDED TO YOU. IT DOES NOT MEAN WE ARE NOT HANDLING THE ISSUE OR CONCERN.\nThank you for supporting Goodwill Industries of Greater Detroit. Our operational hours are Monday through Friday 7-3:330. Our pick days are Mondays and Wednesday 9am-300pm. You can contact us at 313-964-3900 Ext 1006, 1007",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'lot of' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Lower-priority term 'vhs tapes' in title (-18)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-6)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 3,
+        "relative_score": 0.083,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'lot of' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "Lower-priority term 'vhs tapes' in title (-18)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-6)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47500-5616162": {
     "item_id": "ctbids-47500-5616162",
     "listing_url": "https://ctbids.com/estate-sale/47500/item/5616162/Schrade-USA-152-Knife",
@@ -979,6 +989,31 @@
       }
     ]
   },
+  "ctbids-47500-5593891": {
+    "item_id": "ctbids-47500-5593891",
+    "listing_url": "https://ctbids.com/estate-sale/47500/item/5593891/Kenwood-CD-Player-DP-1510",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5593891_V8aMMy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47500-5595421": {
     "item_id": "ctbids-47500-5595421",
     "listing_url": "https://ctbids.com/estate-sale/47500/item/5595421/Legends-of-the-Field-Football-Bobbleheads",
@@ -1074,43 +1109,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276615342": {
-    "item_id": "276615342",
-    "listing_url": "https://shopgoodwill.com/item/276615342",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/196/Items/2026-09-08/faadd890-9802-4983-beaa-ebbb09180e05dson_09081.jpg"
-    ],
-    "description": "Condition: New, sealed\nThank you for supporting Goodwill Industries of Greater Detroit.\nFor service please enter a support ticket via your \"Customer Service\" tab or by using the \"Contact Seller\" link within the listing page.\nWe strive to respond to all inquiries within 2 business days. WHEN A TICKET IS CLOSED IT SIMPLY MEANS WE HAVE RESPONDED TO YOU. IT DOES NOT MEAN WE ARE NOT HANDLING THE ISSUE OR CONCERN.\nThank you for supporting Goodwill Industries of Greater Detroit. Our operational hours are Monday through Friday 7-3:330. Our pick days are Mondays and Wednesday 9am-300pm. You can contact us at 313-964-3900 Ext 1006, 1007",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+12)",
-      "Opportunity term 'lot of' in title (+6)",
-      "Opportunity term 'lot' in title (+4)",
-      "Lower-priority term 'vhs tapes' in title (-18)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-6)",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 3,
-        "relative_score": 0.083,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+12)",
-          "Opportunity term 'lot of' in title (+6)",
-          "Opportunity term 'lot' in title (+4)",
-          "Lower-priority term 'vhs tapes' in title (-18)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-6)",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
         ],
         "matched_keywords": []
       }

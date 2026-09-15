@@ -53,6 +53,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'rocks' in title (+1)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -60,11 +61,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 27,
+        "relative_score": 0.9,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'rocks' in title (+1)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -197,35 +199,6 @@
           "maxell",
           "tdk"
         ]
-      }
-    ]
-  },
-  "ctbids-48446-5630831": {
-    "item_id": "ctbids-48446-5630831",
-    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630831/Vintage-Red-Suede-Leather-Accordion-Wallet-Coin-Purse-Triple-Zip-Snap-Closure",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5625214_PNacn4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -372,6 +345,33 @@
       }
     ]
   },
+  "ctbids-48446-5630831": {
+    "item_id": "ctbids-48446-5630831",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630831/Vintage-Red-Suede-Leather-Accordion-Wallet-Coin-Purse-Triple-Zip-Snap-Closure",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5625214_PNacn4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "276959537": {
     "item_id": "276959537",
     "listing_url": "https://shopgoodwill.com/item/276959537",
@@ -424,33 +424,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47755-5613421": {
-    "item_id": "ctbids-47755-5613421",
-    "listing_url": "https://ctbids.com/estate-sale/47755/item/5613421/Vintage-Baby-Clothing-and-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-09Tb64532/5613421_y21MSA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -539,15 +512,15 @@
       }
     ]
   },
-  "ctbids-47778-5584921": {
-    "item_id": "ctbids-47778-5584921",
-    "listing_url": "https://ctbids.com/estate-sale/47778/item/5584921/W-B-Romeling-The-Sugar-Shack-Signed-Numbered-Limited-Edition-Print-986-1000",
+  "ctbids-47755-5613421": {
+    "item_id": "ctbids-47755-5613421",
+    "listing_url": "https://ctbids.com/estate-sale/47755/item/5613421/Vintage-Baby-Clothing-and-Accessories",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584921_NYBKKF.webp"
+      "https://image.ctbids.com/seller/2026-09-09Tb64532/5613421_y21MSA.webp"
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -555,10 +528,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -803,6 +776,33 @@
       }
     ]
   },
+  "ctbids-47778-5584921": {
+    "item_id": "ctbids-47778-5584921",
+    "listing_url": "https://ctbids.com/estate-sale/47778/item/5584921/W-B-Romeling-The-Sugar-Shack-Signed-Numbered-Limited-Edition-Print-986-1000",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584921_NYBKKF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48085-5606619": {
     "item_id": "ctbids-48085-5606619",
     "listing_url": "https://ctbids.com/estate-sale/48085/item/5606619/Felt-Furniture-Pads-Floor-Protectors-Assorted-Sizes",
@@ -823,72 +823,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48184-5618898": {
-    "item_id": "ctbids-48184-5618898",
-    "listing_url": "https://ctbids.com/estate-sale/48184/item/5618898/German-Beer-Stein-Relief-Tavern-Scene",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5618898_Ale1cT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-40912-5601187": {
-    "item_id": "ctbids-40912-5601187",
-    "listing_url": "https://ctbids.com/estate-sale/40912/item/5601187/World-Traveler-s-Rock-Mineral-Fossil-Geological-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5601187_Qmx4fC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1016,6 +950,90 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-40912-5601187": {
+    "item_id": "ctbids-40912-5601187",
+    "listing_url": "https://ctbids.com/estate-sale/40912/item/5601187/World-Traveler-s-Rock-Mineral-Fossil-Geological-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5601187_Qmx4fC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276478534": {
+    "item_id": "276478534",
+    "listing_url": "https://shopgoodwill.com/item/276478534",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/8c3bcb50-245f-4ca7-b884-769b738e6f2dinal_09071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/3c12a4f5-0ab0-4268-87dc-23a35907f5e0inal_09072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/9c95b3d4-b1b3-40a8-bc67-8c378a61a721inal_09073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/79e0e1a0-53d4-4fa5-9ab7-515ac5557066inal_09074.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/cc1ccdd3-5558-4cda-8c0b-9f051087b1f7inal_09075.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/af0229eb-6517-4c5e-ab7f-c69a6d8a0d49inal_09076.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/01433f20-013d-4156-b7c7-e093308ae52ainal_09077.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/fa1f2836-1c3a-4c04-b2e9-0624f89a6d14inal_09078.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/7ccbd9c7-430a-4c50-be80-2e23867b08b2inal_09079.jpg"
+    ],
+    "description": "A collection of assorted petrified wood slices/slabs with a total weight of 382 grams. These natural specimens showcase a variety of colors and patterns, ideal for crafts, display, or geological study.\nDue to the nature of grab bag assortments, some may have minor damage not noted and there may be mismatched or incomplete items. These are not eligible for return or refund. Please refer to photos to further evaluate condition. Sold as is. We are unable to answer questions about specific items within a grab bag. Please view the provided photographs to determine general contents.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'decor' in title (-8)",
+      "Lower-priority term 'craft' in title (-6)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'decor' in title (-8)",
+          "Lower-priority term 'craft' in title (-6)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+4)"
         ],
         "matched_keywords": []
       }
@@ -1196,6 +1214,31 @@
       }
     ]
   },
+  "ctbids-48184-5618898": {
+    "item_id": "ctbids-48184-5618898",
+    "listing_url": "https://ctbids.com/estate-sale/48184/item/5618898/German-Beer-Stein-Relief-Tavern-Scene",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5618898_Ale1cT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47781-5574142": {
     "item_id": "ctbids-47781-5574142",
     "listing_url": "https://ctbids.com/estate-sale/47781/item/5574142/Bentwood-Grain-Sieve-or-Flour-Sifter-Spiral-Wrought-Iron-Candle-Holder-Butter-Mold",
@@ -1278,51 +1321,6 @@
       }
     ]
   },
-  "276478534": {
-    "item_id": "276478534",
-    "listing_url": "https://shopgoodwill.com/item/276478534",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/8c3bcb50-245f-4ca7-b884-769b738e6f2dinal_09071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/3c12a4f5-0ab0-4268-87dc-23a35907f5e0inal_09072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/9c95b3d4-b1b3-40a8-bc67-8c378a61a721inal_09073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/79e0e1a0-53d4-4fa5-9ab7-515ac5557066inal_09074.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/cc1ccdd3-5558-4cda-8c0b-9f051087b1f7inal_09075.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/af0229eb-6517-4c5e-ab7f-c69a6d8a0d49inal_09076.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/01433f20-013d-4156-b7c7-e093308ae52ainal_09077.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/fa1f2836-1c3a-4c04-b2e9-0624f89a6d14inal_09078.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-07/7ccbd9c7-430a-4c50-be80-2e23867b08b2inal_09079.jpg"
-    ],
-    "description": "A collection of assorted petrified wood slices/slabs with a total weight of 382 grams. These natural specimens showcase a variety of colors and patterns, ideal for crafts, display, or geological study.\nDue to the nature of grab bag assortments, some may have minor damage not noted and there may be mismatched or incomplete items. These are not eligible for return or refund. Please refer to photos to further evaluate condition. Sold as is. We are unable to answer questions about specific items within a grab bag. Please view the provided photographs to determine general contents.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'decor' in title (-8)",
-      "Lower-priority term 'craft' in title (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'decor' in title (-8)",
-          "Lower-priority term 'craft' in title (-6)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+4)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276558343": {
     "item_id": "276558343",
     "listing_url": "https://shopgoodwill.com/item/276558343",
@@ -1338,10 +1336,11 @@
     "score_reasons": [
       "Lower-priority term 'chakra' in title (-12)",
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "64 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+29)"
+      "Score boundary adjustment (+25)"
     ],
     "hunt_scores": [
       {
@@ -1352,10 +1351,11 @@
         "score_reasons": [
           "Lower-priority term 'chakra' in title (-12)",
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "64 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+29)"
+          "Score boundary adjustment (+25)"
         ],
         "matched_keywords": []
       }
@@ -1383,9 +1383,10 @@
       "Lower-priority term 'decorative' in description (-8)",
       "Lower-priority term 'decor' in description (-8)",
       "Lower-priority term 'craft' in description (-6)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+12)"
+      "Score boundary adjustment (+8)"
     ],
     "hunt_scores": [
       {
@@ -1401,9 +1402,10 @@
           "Lower-priority term 'decorative' in description (-8)",
           "Lower-priority term 'decor' in description (-8)",
           "Lower-priority term 'craft' in description (-6)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+12)"
+          "Score boundary adjustment (+8)"
         ],
         "matched_keywords": []
       }
