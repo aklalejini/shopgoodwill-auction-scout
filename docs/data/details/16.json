@@ -13,6 +13,7 @@
       "Opportunity term 'collection' in description (+6)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -20,12 +21,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 31,
+        "relative_score": 1.033,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -49,6 +51,7 @@
       "Lower-priority term 'corn cob' in title (-9)",
       "Target keyword 'meerschaum' in title (+10)",
       "Collector evidence 'amber stem' in description (+16)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -56,12 +59,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 18,
-        "relative_score": 0.514,
+        "score": 22,
+        "relative_score": 0.629,
         "score_reasons": [
           "Lower-priority term 'corn cob' in title (-9)",
           "Target keyword 'meerschaum' in title (+10)",
           "Collector evidence 'amber stem' in description (+16)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -103,6 +107,35 @@
           "Opportunity term 'collection' in title (+7)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48161-5599517": {
+    "item_id": "ctbids-48161-5599517",
+    "listing_url": "https://ctbids.com/estate-sale/48161/item/5599517/Vintage-Gold-Trimmed-Glassware-Set-Etched-Crystal-Stemware-Collection-Multiple-Sizes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599517_JEytv6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -155,64 +188,6 @@
       }
     ]
   },
-  "ctbids-47781-5575772": {
-    "item_id": "ctbids-47781-5575772",
-    "listing_url": "https://ctbids.com/estate-sale/47781/item/5575772/Antique-Vintage-Delft-Tile",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-29T6ea83f/5575772_d3yg3z.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48161-5599517": {
-    "item_id": "ctbids-48161-5599517",
-    "listing_url": "https://ctbids.com/estate-sale/48161/item/5599517/Vintage-Gold-Trimmed-Glassware-Set-Etched-Crystal-Stemware-Collection-Multiple-Sizes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599517_JEytv6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47775-5544689": {
     "item_id": "ctbids-47775-5544689",
     "listing_url": "https://ctbids.com/estate-sale/47775/item/5544689/Marvel-Superhero-Trading-Card-Collection-Lot-18",
@@ -235,6 +210,64 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47778-5585298": {
+    "item_id": "ctbids-47778-5585298",
+    "listing_url": "https://ctbids.com/estate-sale/47778/item/5585298/W-B-Romeling-Cornelius-Brook-Large-Framed-Watercolor-Sherry-Holmes-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5585298_pKJLcv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48085-5607764": {
+    "item_id": "ctbids-48085-5607764",
+    "listing_url": "https://ctbids.com/estate-sale/48085/item/5607764/Vintage-1977-Ceramic-Serving-Set-Elegant-White-Green-Scroll-Design",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607764_YcSbep.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -269,87 +302,6 @@
       }
     ]
   },
-  "ctbids-47778-5585298": {
-    "item_id": "ctbids-47778-5585298",
-    "listing_url": "https://ctbids.com/estate-sale/47778/item/5585298/W-B-Romeling-Cornelius-Brook-Large-Framed-Watercolor-Sherry-Holmes-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5585298_pKJLcv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48085-5607764": {
-    "item_id": "ctbids-48085-5607764",
-    "listing_url": "https://ctbids.com/estate-sale/48085/item/5607764/Vintage-1977-Ceramic-Serving-Set-Elegant-White-Green-Scroll-Design",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607764_YcSbep.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47822-5593246": {
-    "item_id": "ctbids-47822-5593246",
-    "listing_url": "https://ctbids.com/estate-sale/47822/item/5593246/Mystery-Box-Of-Vintage-Home-Office-Items-Bible-Dictionary-Ethan-Allen-Stye-Book-Gospel-CDs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5593246_h0nD6u.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47956-5615826": {
     "item_id": "ctbids-47956-5615826",
     "listing_url": "https://ctbids.com/estate-sale/47956/item/5615826/Assorted-Metal-Safety-Notice-Exit-No-Parking-Sign-Lot",
@@ -370,6 +322,195 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5630907": {
+    "item_id": "ctbids-48446-5630907",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630907/Style-Co-Women-s-Black-Tailored-Three-Button-Blazer-Size-16",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5626120_UG6VnE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5630951": {
+    "item_id": "ctbids-48446-5630951",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630951/Framed-Western-Cowboy-Spurs-Photography-Print-Silver-Engraved-Spurs-Horse-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5615435_K3cppJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48446-5630962": {
+    "item_id": "ctbids-48446-5630962",
+    "listing_url": "https://ctbids.com/estate-sale/48446/item/5630962/Fall-Sunflower-Mason-Jar-Floral-Arrangement-Rustic-Farmhouse-Autumn-D-cor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5625514_sej9B5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47500-5593891": {
+    "item_id": "ctbids-47500-5593891",
+    "listing_url": "https://ctbids.com/estate-sale/47500/item/5593891/Kenwood-CD-Player-DP-1510",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5593891_V8aMMy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47778-5562335": {
+    "item_id": "ctbids-47778-5562335",
+    "listing_url": "https://ctbids.com/estate-sale/47778/item/5562335/Pair-of-Sherry-Holmes-Original-Watercolors-Royal-Mountain-Cloud-Study",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562335_TS2zGT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47778-5583991": {
+    "item_id": "ctbids-47778-5583991",
+    "listing_url": "https://ctbids.com/estate-sale/47778/item/5583991/Pair-of-Sherry-Holmes-Signed-Original-Watercolors-Wally-s-Fish-House-Lake-Road-Otsego-Lake",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583991_WzpeyJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48214-5608437": {
+    "item_id": "ctbids-48214-5608437",
+    "listing_url": "https://ctbids.com/estate-sale/48214/item/5608437/Modern-Oval-Glass-Console-Table",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-09Tb64532/5608437_mrZoVY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -563,31 +704,6 @@
       }
     ]
   },
-  "ctbids-47778-5562335": {
-    "item_id": "ctbids-47778-5562335",
-    "listing_url": "https://ctbids.com/estate-sale/47778/item/5562335/Pair-of-Sherry-Holmes-Original-Watercolors-Royal-Mountain-Cloud-Study",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562335_TS2zGT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47368-5592776": {
     "item_id": "ctbids-47368-5592776",
     "listing_url": "https://ctbids.com/estate-sale/47368/item/5592776/Galluba-and-Hoffman-Porcelain-Vase",
@@ -618,56 +734,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47778/item/5579483/Pair-of-Sherry-Holmes-Signed-Original-Watercolors-Echo-Lake-Beyond-Buttermilk-Bay",
     "images": [
       "https://image.ctbids.com/seller/2026-09-02T953ca6/5579483_SH3azY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47778-5583991": {
-    "item_id": "ctbids-47778-5583991",
-    "listing_url": "https://ctbids.com/estate-sale/47778/item/5583991/Pair-of-Sherry-Holmes-Signed-Original-Watercolors-Wally-s-Fish-House-Lake-Road-Otsego-Lake",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5583991_WzpeyJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48214-5608437": {
-    "item_id": "ctbids-48214-5608437",
-    "listing_url": "https://ctbids.com/estate-sale/48214/item/5608437/Modern-Oval-Glass-Console-Table",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-09Tb64532/5608437_mrZoVY.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -913,31 +979,6 @@
       }
     ]
   },
-  "ctbids-47500-5593891": {
-    "item_id": "ctbids-47500-5593891",
-    "listing_url": "https://ctbids.com/estate-sale/47500/item/5593891/Kenwood-CD-Player-DP-1510",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5593891_V8aMMy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47500-5595421": {
     "item_id": "ctbids-47500-5595421",
     "listing_url": "https://ctbids.com/estate-sale/47500/item/5595421/Legends-of-the-Field-Football-Bobbleheads",
@@ -1038,56 +1079,6 @@
       }
     ]
   },
-  "ctbids-48193-5608954": {
-    "item_id": "ctbids-48193-5608954",
-    "listing_url": "https://ctbids.com/estate-sale/48193/item/5608954/Apple-Mac-Mini-and-Air-Port-and-HP-laptop",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5608954_KXKYvo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47500-5607432": {
-    "item_id": "ctbids-47500-5607432",
-    "listing_url": "https://ctbids.com/estate-sale/47500/item/5607432/JFK-Collectible-Model-Car",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607432_8dfPlc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276615342": {
     "item_id": "276615342",
     "listing_url": "https://shopgoodwill.com/item/276615342",
@@ -1100,26 +1091,60 @@
       "Opportunity term 'lot of' in title (+6)",
       "Opportunity term 'lot' in title (+4)",
       "Lower-priority term 'vhs tapes' in title (-18)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-6)",
       "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)",
-      "Score boundary adjustment (+1)"
+      "Base score (+4)"
     ],
     "hunt_scores": [
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 0,
-        "relative_score": 0.0,
+        "score": 3,
+        "relative_score": 0.083,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+12)",
           "Opportunity term 'lot of' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
           "Lower-priority term 'vhs tapes' in title (-18)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-6)",
           "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)",
-          "Score boundary adjustment (+1)"
+          "Base score (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277301444": {
+    "item_id": "277301444",
+    "listing_url": "https://shopgoodwill.com/item/277301444",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-15/e3bde117-4a29-4ea2-9978-2abe2936fe850828_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-15/3975ccbd-18bf-4b12-b39c-796ccc054a150828_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-15/6864ea84-e66f-4422-bbd8-fb669b4083fd0828_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-15/871e31eb-66a8-456e-8d03-b024ed412fe20828_09154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-15/a68e3a67-ea03-4d07-b061-2357aa56ab2b0828_09155.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-09-15/ffec1eab-21a6-4b6b-903f-826f7e110dc00828_09156.jpg"
+    ],
+    "description": "Lot of Assorted Colorful Gemstones & Crystals\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
