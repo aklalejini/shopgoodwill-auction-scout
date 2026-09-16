@@ -1,4 +1,45 @@
 {
+  "277428042": {
+    "item_id": "277428042",
+    "listing_url": "https://shopgoodwill.com/item/277428042",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/d0e56675-5d1a-4964-96d6-c508f3f33e00lose_07201.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/d0e56675-5d1a-4964-96d6-c508f3f33e00lose_07202.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/d0e56675-5d1a-4964-96d6-c508f3f33e00lose_07203.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/d0e56675-5d1a-4964-96d6-c508f3f33e00lose_07204.png",
+      "https://shopgoodwillimages.azureedge.net/production/32/Items/2026-07-20/d0e56675-5d1a-4964-96d6-c508f3f33e00lose_07205.png"
+    ],
+    "description": "For your bidding pleasure, we present a Vintage Yello-Bole Estate Tobacco Pipe.\nMade from Imported Briar\nBlack Finish\nBent Billiard Shape\nBranded Stem with Signature Yello-Bole Circular Logo\nMeasures Approx. 5-1/4\" Length, 1-1/4\" Bowl Diameter, 3/4\" Interior Bowl Diameter\nItem Shows Signs of Use, and General Wear and Tear\nGood luck and happy bidding!\nAll sales have three days from the date of delivery to report a discrepancy.\nAll sales are final after three days from delivery.\nThank you for supporting Licking/Knox Goodwill; your patronage provides training, employment, and supportive services to individuals with disabilities and other barriers to employment.",
+    "score_reasons": [
+      "Opportunity term 'estate' in title (+11)",
+      "Opportunity term 'vintage' in title (+6)",
+      "Lower-priority term 'yello-bole' in title (-11)",
+      "Target keyword 'briar' in description (+5)",
+      "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 27,
+        "relative_score": 0.771,
+        "score_reasons": [
+          "Opportunity term 'estate' in title (+11)",
+          "Opportunity term 'vintage' in title (+6)",
+          "Lower-priority term 'yello-bole' in title (-11)",
+          "Target keyword 'briar' in description (+5)",
+          "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "briar"
+        ]
+      }
+    ]
+  },
   "ctbids-48138-5593559": {
     "item_id": "ctbids-48138-5593559",
     "listing_url": "https://ctbids.com/estate-sale/48138/item/5593559/Beau-Sterling-Silver-Three-Roses-Ring",
@@ -84,28 +125,30 @@
       }
     ]
   },
-  "govdeals-25803-2517": {
-    "item_id": "govdeals-25803-2517",
-    "listing_url": "https://www.govdeals.com/en/asset/2517/25803",
+  "ctbids-48484-5635281": {
+    "item_id": "ctbids-48484-5635281",
+    "listing_url": "https://ctbids.com/estate-sale/48484/item/5635281/2006-Special-Olympics-Southern-California-Winter-Games-Volunteer-Lapel-Pin-New-Sealed",
     "images": [
-      "https://webassets.lqdt1.com/assets/photos/25803/25803_2517_9bdaf315-ffdb-4815-9522-354f097ab74d.jpg?cb=260914134741"
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5178451_mAeoMa.webp"
     ],
-    "description": "Auction is for 250 used Wood Pallets.\nMost pallets measure 40\"x48\"\nMust take all pallets",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
+      "Opportunity term 'sealed' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 13,
-        "relative_score": 0.406,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
+          "Opportunity term 'sealed' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -133,6 +176,99 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-25803-2517": {
+    "item_id": "govdeals-25803-2517",
+    "listing_url": "https://www.govdeals.com/en/asset/2517/25803",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/25803/25803_2517_9bdaf315-ffdb-4815-9522-354f097ab74d.jpg?cb=260914134741"
+    ],
+    "description": "Auction is for 250 used Wood Pallets.\nMost pallets measure 40\"x48\"\nMust take all pallets",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 13,
+        "relative_score": 0.406,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+5)",
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276741974": {
+    "item_id": "276741974",
+    "listing_url": "https://shopgoodwill.com/item/276741974",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/975bdc4f-435c-4ad9-b9df-49cb5c9d63e0ward_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/37bdbde3-1011-4d51-b0dc-2af7db88b1ecward_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/4b8f0f91-cb5a-4624-988f-a7a89614501eward_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/68848af2-c5a8-45b4-af0f-a8624d4a1a14ward_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/141fc24b-039e-470d-8b80-44bd1315d674ward_09095.jpg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 8,
+        "relative_score": 0.267,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47790-5609566": {
+    "item_id": "ctbids-47790-5609566",
+    "listing_url": "https://ctbids.com/estate-sale/47790/item/5609566/Vintage-Bears-Includes-Bride-And-Groom",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5609566_R8KtJI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -275,33 +411,6 @@
       }
     ]
   },
-  "ctbids-47790-5609566": {
-    "item_id": "ctbids-47790-5609566",
-    "listing_url": "https://ctbids.com/estate-sale/47790/item/5609566/Vintage-Bears-Includes-Bride-And-Groom",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5609566_R8KtJI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48012-5484614": {
     "item_id": "ctbids-48012-5484614",
     "listing_url": "https://ctbids.com/estate-sale/48012/item/5484614/Vintage-Peleter-a-El-Sol-Leather-Jacket-Size-40",
@@ -349,6 +458,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48484-5635319": {
+    "item_id": "ctbids-48484-5635319",
+    "listing_url": "https://ctbids.com/estate-sale/48484/item/5635319/Laura-Branigan-How-Am-I-Supposed-to-Live-Without-You-All-Night-With-Me-Atlantic-Oldies-45-RP",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5422749_jwYdjq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -448,15 +584,15 @@
       }
     ]
   },
-  "ctbids-48287-5613041": {
-    "item_id": "ctbids-48287-5613041",
-    "listing_url": "https://ctbids.com/estate-sale/48287/item/5613041/Adlake-Non-Sweating-Lamp-Lot-1-TR",
+  "ctbids-47984-5615083": {
+    "item_id": "ctbids-47984-5615083",
+    "listing_url": "https://ctbids.com/estate-sale/47984/item/5615083/VTG-Hand-Painted-Japanese-Tea-Set",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5613041_Sdl3b3.webp"
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5615083_IfNges.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -464,10 +600,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -475,35 +611,70 @@
       }
     ]
   },
-  "276741974": {
-    "item_id": "276741974",
-    "listing_url": "https://shopgoodwill.com/item/276741974",
+  "ctbids-47984-5602644": {
+    "item_id": "ctbids-47984-5602644",
+    "listing_url": "https://ctbids.com/estate-sale/47984/item/5602644/Costume-Jewelry",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/975bdc4f-435c-4ad9-b9df-49cb5c9d63e0ward_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/37bdbde3-1011-4d51-b0dc-2af7db88b1ecward_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/4b8f0f91-cb5a-4624-988f-a7a89614501eward_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/68848af2-c5a8-45b4-af0f-a8624d4a1a14ward_09094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-09-09/141fc24b-039e-470d-8b80-44bd1315d674ward_09095.jpg"
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5602644_6NqeXO.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276729363": {
+    "item_id": "276729363",
+    "listing_url": "https://shopgoodwill.com/item/276729363",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/5f571445-b178-4d41-b51c-25b4cd73b3c9acob_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/0abeefea-e1af-4770-ab50-5a291b905addacob_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/f12a6fad-c92e-4bd1-8721-1f017ab087b8acob_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/7de0737f-d80a-4a79-b242-bb0ab34bb92bacob_09094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/2213099c-a6f4-4699-a280-d9c9f987415eacob_09095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/05fe3861-c66a-4616-a39a-53680e36e164acob_09096.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/bee42dc5-2829-4697-8010-8a0126bdced8acob_09097.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/e1bf8edb-9c59-4fbf-b253-3ef5d3333b1dacob_09098.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/6ab239dd-4d2d-4d15-b559-e84084143659acob_09099.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/f135a8b3-bea4-4b15-bffc-dda63d6630c3acob_090910.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/190b25a8-4d94-4923-87d3-0c8207b991e5acob_090911.jpg"
+    ],
+    "description": "Stone 9 Lbs Of Rocks And Crystal Samples Various Sizes & Types\nType:\n9 Lbs Of Rocks And Crystal Samples Various Sizes & Types\nMaterial:\nStone\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n14\nItem Width (in):\n10\nItem Height (in):\n10\nWeight (lbs oz):\n9\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
+    "score_reasons": [
+      "Opportunity term 'mixed' in description (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
+      "9 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
+        "score": 2,
+        "relative_score": 0.067,
         "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
+          "9 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -515,31 +686,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47954/item/5600926/Montblanc-Meisterstck-Classique-Rollerball-Pen",
     "images": [
       "https://image.ctbids.com/seller/2026-09-04T9db37b/5600926_8u6s5A.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47984-5615083": {
-    "item_id": "ctbids-47984-5615083",
-    "listing_url": "https://ctbids.com/estate-sale/47984/item/5615083/VTG-Hand-Painted-Japanese-Tea-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5615083_IfNges.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -590,31 +736,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47691/item/5607334/2021-American-Gold-Eagle-25-Type-1-NGC-MS70-First-Day-of-Release-Edmund-C-Moy-Signed-Label",
     "images": [
       "https://image.ctbids.com/seller/2026-09-08T80e0c6/5384000_MZWYT5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47984-5602644": {
-    "item_id": "ctbids-47984-5602644",
-    "listing_url": "https://ctbids.com/estate-sale/47984/item/5602644/Costume-Jewelry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5602644_6NqeXO.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -885,131 +1006,6 @@
       }
     ]
   },
-  "ctbids-47922-5599383": {
-    "item_id": "ctbids-47922-5599383",
-    "listing_url": "https://ctbids.com/estate-sale/47922/item/5599383/Let-s-Go-PENS",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5599383_9oBXaw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47870-5580493": {
-    "item_id": "ctbids-47870-5580493",
-    "listing_url": "https://ctbids.com/estate-sale/47870/item/5580493/Coral-Bead-Necklace-with-Earrings-Italy-Milor-Sterling-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5580493_yb0hNi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47870-5580542": {
-    "item_id": "ctbids-47870-5580542",
-    "listing_url": "https://ctbids.com/estate-sale/47870/item/5580542/14-K-White-Gold-Milor-Italy-Cross-Sterling-Italy-Chain-11g",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5580542_0ysli8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48138-5616856": {
-    "item_id": "ctbids-48138-5616856",
-    "listing_url": "https://ctbids.com/estate-sale/48138/item/5616856/Men-s-Italian-Cotton-PVC-Leather-Look-Coat",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5616856_xN6j7T.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48103-5588444": {
-    "item_id": "ctbids-48103-5588444",
-    "listing_url": "https://ctbids.com/estate-sale/48103/item/5588444/Assorted-Jewelry-Wrist-Watches",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5588444_vfbhB9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276755062": {
     "item_id": "276755062",
     "listing_url": "https://shopgoodwill.com/item/276755062",
@@ -1034,49 +1030,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276729363": {
-    "item_id": "276729363",
-    "listing_url": "https://shopgoodwill.com/item/276729363",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/5f571445-b178-4d41-b51c-25b4cd73b3c9acob_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/0abeefea-e1af-4770-ab50-5a291b905addacob_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/f12a6fad-c92e-4bd1-8721-1f017ab087b8acob_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/7de0737f-d80a-4a79-b242-bb0ab34bb92bacob_09094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/2213099c-a6f4-4699-a280-d9c9f987415eacob_09095.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/05fe3861-c66a-4616-a39a-53680e36e164acob_09096.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/bee42dc5-2829-4697-8010-8a0126bdced8acob_09097.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/e1bf8edb-9c59-4fbf-b253-3ef5d3333b1dacob_09098.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/6ab239dd-4d2d-4d15-b559-e84084143659acob_09099.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/f135a8b3-bea4-4b15-bffc-dda63d6630c3acob_090910.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-09/190b25a8-4d94-4923-87d3-0c8207b991e5acob_090911.jpg"
-    ],
-    "description": "Stone 9 Lbs Of Rocks And Crystal Samples Various Sizes & Types\nType:\n9 Lbs Of Rocks And Crystal Samples Various Sizes & Types\nMaterial:\nStone\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n14\nItem Width (in):\n10\nItem Height (in):\n10\nWeight (lbs oz):\n9\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
-    "score_reasons": [
-      "Opportunity term 'mixed' in description (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "9 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+2)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'mixed' in description (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "9 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+2)"
         ],
         "matched_keywords": []
       }
