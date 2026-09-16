@@ -43,6 +43,7 @@
     "score_reasons": [
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'rocks' in title (+1)",
+      "2 bids near close (+2)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -50,11 +51,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 18,
-        "relative_score": 0.6,
+        "score": 20,
+        "relative_score": 0.667,
         "score_reasons": [
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
+          "2 bids near close (+2)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -149,40 +151,6 @@
       }
     ]
   },
-  "276944859": {
-    "item_id": "276944859",
-    "listing_url": "https://shopgoodwill.com/item/276944859",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09031.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09032.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09033.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09034.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09035.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09036.png"
-    ],
-    "description": "Title\n: Vintage Amy & Addy \"The Gray Rock Collection\" Wolf Duo Resin Sculpture Statue\nDimensions\n: see last photo\nCondition\n: Pre-owned. Shows wear from use. Will need to be spot cleaned. Some minor chips from handling.\nAny changes are the buyer's responsibility.\nSee photos for further details.\nSold as-is.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 11,
-        "relative_score": 0.367,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48169-5610201": {
     "item_id": "ctbids-48169-5610201",
     "listing_url": "https://ctbids.com/estate-sale/48169/item/5610201/Hamilton-Open-Face-Pocket-Watch-w-Antique-Masonic-Bob",
@@ -232,6 +200,40 @@
           "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "276944859": {
+    "item_id": "276944859",
+    "listing_url": "https://shopgoodwill.com/item/276944859",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09031.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09032.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09033.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09034.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09035.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-09-03/2ca90ca3-681d-44c5-8b5a-88266adcb8b4andi_09036.png"
+    ],
+    "description": "Title\n: Vintage Amy & Addy \"The Gray Rock Collection\" Wolf Duo Resin Sculpture Statue\nDimensions\n: see last photo\nCondition\n: Pre-owned. Shows wear from use. Will need to be spot cleaned. Some minor chips from handling.\nAny changes are the buyer's responsibility.\nSee photos for further details.\nSold as-is.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 11,
+        "relative_score": 0.367,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -463,33 +465,6 @@
       }
     ]
   },
-  "ctbids-48306-5617563": {
-    "item_id": "ctbids-48306-5617563",
-    "listing_url": "https://ctbids.com/estate-sale/48306/item/5617563/Flower-Embroidered-Pillows-And-Various-Blankets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617563_S6An6D.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48149-5600970": {
     "item_id": "ctbids-48149-5600970",
     "listing_url": "https://ctbids.com/estate-sale/48149/item/5600970/Pink-Depression-Glassware-Glasses",
@@ -544,15 +519,14 @@
       }
     ]
   },
-  "ctbids-47935-5609172": {
-    "item_id": "ctbids-47935-5609172",
-    "listing_url": "https://ctbids.com/estate-sale/47935/item/5609172/Bless-this-Home",
+  "ctbids-48169-5601775": {
+    "item_id": "ctbids-48169-5601775",
+    "listing_url": "https://ctbids.com/estate-sale/48169/item/5601775/Pentax-IQZoom-160-Camera",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5609172_6zHNGv.webp"
+      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5601775_ipS9te.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -560,10 +534,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -571,43 +544,11 @@
       }
     ]
   },
-  "277258927": {
-    "item_id": "277258927",
-    "listing_url": "https://shopgoodwill.com/item/277258927",
+  "ctbids-48306-5617563": {
+    "item_id": "ctbids-48306-5617563",
+    "listing_url": "https://ctbids.com/estate-sale/48306/item/5617563/Flower-Embroidered-Pillows-And-Various-Blankets",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/a159d33d-7ab0-47e2-a589-32cec5b5317donro_09141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/ddc750f2-2904-4453-a100-c03026078d0bonro_09142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/1ac52074-6423-468f-b27b-6cfabc6b3bb8onro_09143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/ab2f947f-429d-48ef-9a1b-cf4e0fc8c644onro_09144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/99b893f5-62b5-4fd8-b40a-f50581ec544eonro_09145.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/799cb397-e662-43bd-b34a-e7dcc5214e75onro_09146.jpg"
-    ],
-    "description": "Vintage Tobacco pipe 5 inch Italy",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48169-5601775": {
-    "item_id": "ctbids-48169-5601775",
-    "listing_url": "https://ctbids.com/estate-sale/48169/item/5601775/Pentax-IQZoom-160-Camera",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-05Tbc7a45/5601775_ipS9te.webp"
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617563_S6An6D.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -848,6 +789,63 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47935-5609172": {
+    "item_id": "ctbids-47935-5609172",
+    "listing_url": "https://ctbids.com/estate-sale/47935/item/5609172/Bless-this-Home",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5609172_6zHNGv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277258927": {
+    "item_id": "277258927",
+    "listing_url": "https://shopgoodwill.com/item/277258927",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/a159d33d-7ab0-47e2-a589-32cec5b5317donro_09141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/ddc750f2-2904-4453-a100-c03026078d0bonro_09142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/1ac52074-6423-468f-b27b-6cfabc6b3bb8onro_09143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/ab2f947f-429d-48ef-9a1b-cf4e0fc8c644onro_09144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/99b893f5-62b5-4fd8-b40a-f50581ec544eonro_09145.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-14/799cb397-e662-43bd-b34a-e7dcc5214e75onro_09146.jpg"
+    ],
+    "description": "Vintage Tobacco pipe 5 inch Italy",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
