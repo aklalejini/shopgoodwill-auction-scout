@@ -73,7 +73,6 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -81,11 +80,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 21,
-        "relative_score": 0.618,
+        "score": 19,
+        "relative_score": 0.559,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -120,6 +118,44 @@
       }
     ]
   },
+  "277549050": {
+    "item_id": "277549050",
+    "listing_url": "https://shopgoodwill.com/item/277549050",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/fd478ecc-3772-4396-b1e9-a4567cd8915eonro_08311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/1e001f36-44e5-4b75-95e9-a5cec9ce5166onro_08312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/61e6b02b-ab60-48c2-85d2-e4036796379eonro_08313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/ff888006-b126-4a40-9fe6-f93f82d777feonro_08314.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/8fab0b85-c24b-45c5-8ef5-c0c39cd4ad6bonro_08315.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/02b7c189-18b8-4880-ab15-d961e04a0d5fonro_08316.jpg"
+    ],
+    "description": "A vintage Missouri Meerschaum corn cob pipe with a 5.5-inch length, featuring a curved amber stem and a textured corn cob bowl. Made in the USA.",
+    "score_reasons": [
+      "Lower-priority term 'corn cob' in title (-9)",
+      "Target keyword 'meerschaum' in title (+10)",
+      "Collector evidence 'amber stem' in description (+16)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 18,
+        "relative_score": 0.514,
+        "score_reasons": [
+          "Lower-priority term 'corn cob' in title (-9)",
+          "Target keyword 'meerschaum' in title (+10)",
+          "Collector evidence 'amber stem' in description (+16)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "meerschaum"
+        ]
+      }
+    ]
+  },
   "ctbids-46909-5434559": {
     "item_id": "ctbids-46909-5434559",
     "listing_url": "https://ctbids.com/estate-sale/46909/item/5434559/Vintage-CorningWare-Blue-Cornflower-Baking-Dish-Collection-17-Pieces-with-5-Glass-Lids",
@@ -142,6 +178,64 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47808-5624859": {
+    "item_id": "ctbids-47808-5624859",
+    "listing_url": "https://ctbids.com/estate-sale/47808/item/5624859/Reproduction-Antique-Currency",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5624859_iXIGJd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46909-5440867": {
+    "item_id": "ctbids-46909-5440867",
+    "listing_url": "https://ctbids.com/estate-sale/46909/item/5440867/Vintage-H-D-Hudson-Suburban-Pull-Behind-Garden-Sprayer-Trailer-Parts-or-Repairs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-23T430735/5440867_B9EX9o.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -205,55 +299,39 @@
       }
     ]
   },
-  "ctbids-47808-5624859": {
-    "item_id": "ctbids-47808-5624859",
-    "listing_url": "https://ctbids.com/estate-sale/47808/item/5624859/Reproduction-Antique-Currency",
+  "276410717": {
+    "item_id": "276410717",
+    "listing_url": "https://shopgoodwill.com/item/276410717",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5624859_iXIGJd.webp"
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/4b324809-00c2-4df2-b622-110e1544198fnce9_09061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/57619f8e-ca02-4d18-88a4-31bb025b6cb3nce9_09062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/35aabf7c-6db8-42e9-be4e-efaef87b2f1ence9_09063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/fcae8a1f-c701-4312-8c43-812b417f5c44nce9_09064.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/ebdf109e-cfff-4d64-a0d8-dd93a127359bnce9_09065.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/133235d5-b981-4617-9915-1c64340591c9nce9_09066.jpg"
     ],
-    "description": "",
+    "description": "This listing includes a collection of natural, rough, uncut mineral stones primarily consisting of quartz and possibly feldspar or other common minerals. The stones vary in size, with most being less then 1 inch long and display a range of colors including white, gray, light pink, beige, and some with darker inclusions. Each piece is unpolished and retains natural textures and crystalline structures. The stones are unused and show no signs of wear or processing. Suitable for collectors, educational use, or lapidary projects. No brand or manufacturer information is available.",
     "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
         "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48027-5603828": {
-    "item_id": "ctbids-48027-5603828",
-    "listing_url": "https://ctbids.com/estate-sale/48027/item/5603828/Set-of-Four-4-Vintage-Culver-Valencia-Footed-Glasses-w-22-Carat-Gold-Moorish-Inspired-Design",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603828_pHBuQW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -286,6 +364,33 @@
       }
     ]
   },
+  "ctbids-48513-5641260": {
+    "item_id": "ctbids-48513-5641260",
+    "listing_url": "https://ctbids.com/estate-sale/48513/item/5641260/PRISM-Michael-Jackson-Baseball-Buddies-500-Piece-Puppy-Jigsaw-Puzzle-Frame-Your-Puzzle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5625240_DTr6G5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48513-5641178": {
     "item_id": "ctbids-48513-5641178",
     "listing_url": "https://ctbids.com/estate-sale/48513/item/5641178/Pair-of-Improv-Comedy-Showcase-Irvine-CA-Souvenir-Hurricane-Pilsner-Glasses",
@@ -306,6 +411,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48027-5603828": {
+    "item_id": "ctbids-48027-5603828",
+    "listing_url": "https://ctbids.com/estate-sale/48027/item/5603828/Set-of-Four-4-Vintage-Culver-Valencia-Footed-Glasses-w-22-Carat-Gold-Moorish-Inspired-Design",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603828_pHBuQW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -394,33 +526,6 @@
       }
     ]
   },
-  "ctbids-46909-5440867": {
-    "item_id": "ctbids-46909-5440867",
-    "listing_url": "https://ctbids.com/estate-sale/46909/item/5440867/Vintage-H-D-Hudson-Suburban-Pull-Behind-Garden-Sprayer-Trailer-Parts-or-Repairs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-23T430735/5440867_B9EX9o.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48272-5618282": {
     "item_id": "ctbids-48272-5618282",
     "listing_url": "https://ctbids.com/estate-sale/48272/item/5618282/Vintage-German-Porcelain-Figurine-Man-on-Horse-Woman",
@@ -448,6 +553,33 @@
       }
     ]
   },
+  "ctbids-47808-5625555": {
+    "item_id": "ctbids-47808-5625555",
+    "listing_url": "https://ctbids.com/estate-sale/47808/item/5625555/Nico-Repro-Copy-Outfit-Stand-for-Photography",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5625555_P4gqaV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47844-5579783": {
     "item_id": "ctbids-47844-5579783",
     "listing_url": "https://ctbids.com/estate-sale/47844/item/5579783/Women-s-Mixed-Lot-Of-Any-Season-Styles-Size-3x-Bundle-Of-6",
@@ -468,6 +600,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48027-5617674": {
+    "item_id": "ctbids-48027-5617674",
+    "listing_url": "https://ctbids.com/estate-sale/48027/item/5617674/Size-13-Boot-Foot-Fishing-Waders-With-Adjustable-Straps",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617674_wPOQSK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -537,6 +696,33 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48309-5614115": {
+    "item_id": "ctbids-48309-5614115",
+    "listing_url": "https://ctbids.com/estate-sale/48309/item/5614115/2004-2006-Westward-Journey-Nickels-with-Ocean-In-View-and-Monticello-Nickels",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-09Tb64532/5614115_W86rVo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
       "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -551,42 +737,6 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "276410717": {
-    "item_id": "276410717",
-    "listing_url": "https://shopgoodwill.com/item/276410717",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/4b324809-00c2-4df2-b622-110e1544198fnce9_09061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/57619f8e-ca02-4d18-88a4-31bb025b6cb3nce9_09062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/35aabf7c-6db8-42e9-be4e-efaef87b2f1ence9_09063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/fcae8a1f-c701-4312-8c43-812b417f5c44nce9_09064.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/ebdf109e-cfff-4d64-a0d8-dd93a127359bnce9_09065.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-06/133235d5-b981-4617-9915-1c64340591c9nce9_09066.jpg"
-    ],
-    "description": "This listing includes a collection of natural, rough, uncut mineral stones primarily consisting of quartz and possibly feldspar or other common minerals. The stones vary in size, with most being less then 1 inch long and display a range of colors including white, gray, light pink, beige, and some with darker inclusions. Each piece is unpolished and retains natural textures and crystalline structures. The stones are unused and show no signs of wear or processing. Suitable for collectors, educational use, or lapidary projects. No brand or manufacturer information is available.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Lower-priority term 'possibly' in description (-4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Lower-priority term 'possibly' in description (-4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -622,31 +772,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48216/item/5611112/Coach-Soho-Pleated-Hobo-Bag",
     "images": [
       "https://image.ctbids.com/seller/2026-09-09Tb64532/5611112_IiSybP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47808-5625555": {
-    "item_id": "ctbids-47808-5625555",
-    "listing_url": "https://ctbids.com/estate-sale/47808/item/5625555/Nico-Repro-Copy-Outfit-Stand-for-Photography",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5625555_P4gqaV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -767,81 +892,6 @@
       }
     ]
   },
-  "ctbids-48513-5641260": {
-    "item_id": "ctbids-48513-5641260",
-    "listing_url": "https://ctbids.com/estate-sale/48513/item/5641260/PRISM-Michael-Jackson-Baseball-Buddies-500-Piece-Puppy-Jigsaw-Puzzle-Frame-Your-Puzzle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5625240_DTr6G5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48027-5617674": {
-    "item_id": "ctbids-48027-5617674",
-    "listing_url": "https://ctbids.com/estate-sale/48027/item/5617674/Size-13-Boot-Foot-Fishing-Waders-With-Adjustable-Straps",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617674_wPOQSK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48309-5614115": {
-    "item_id": "ctbids-48309-5614115",
-    "listing_url": "https://ctbids.com/estate-sale/48309/item/5614115/2004-2006-Westward-Journey-Nickels-with-Ocean-In-View-and-Monticello-Nickels",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-09Tb64532/5614115_W86rVo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48216-5609061": {
     "item_id": "ctbids-48216-5609061",
     "listing_url": "https://ctbids.com/estate-sale/48216/item/5609061/Galway-Irish-Crystal-More",
@@ -887,45 +937,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277330377": {
-    "item_id": "277330377",
-    "listing_url": "https://shopgoodwill.com/item/277330377",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09061.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09062.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09063.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09064.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09065.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09066.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09067.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09068.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09069.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_090610.png",
-      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_090611.png"
-    ],
-    "description": "Goodwill Industries of Northeast Iowa, Inc.\nDESCRIPTION:\nLot Of 10 Small Polished &Raw Minerals Tumbled Stone, Crystal Clusters &Others\nYear of Manufacture: Various\nNumber of Items:  10\nMaterial: Various\nMeasurements:  Various\nCONDITION:\nAll items are in pre-owned condition, unless otherwise noted herein. They may show signs of wear, including, but not limited to, dust, scuffs, dents, soiling, tarnish, cracks, chips, crazing, fading, discoloration, stains, etc.\nAuthenticity is not guaranteed. Unless otherwise stated, items have not been authenticated or certified by a specialist. Items do not come with official certificates and will not include documentation. We try to incorporate as much research as we can, but we are not experts in any field. You are bidding with this knowledge in mind.\nThe condition descriptions marked by an \"X\" is/are applicable to this item:\n__ Good\nx__ Fair All Different\n__ Poor\n__ Damaged\nTESTINGS:\nIf applicable, will be noted below:\n__ Untested\n: This item is being sold untested. It may or may not be functional and is not eligible for return or refund if the item is found to be non-functional. You are bidding with this knowledge in mind.\n__ Tested\n: To the best of our limited knowledge, this item has been tested and found to be in working order. This does not ensure that the item has been fully tested, however. Please read through the description for a better understanding of what functions have been tested.\n__ Tested Not Working\n: This item was tested and is not working.\nIMPORTANT:\nWe do not retract bids, nor do we cancel un-paid for items. Winners who abandon their auction wins will be considered in default. Failure to pay can result in having your account inactivated due to non-payment.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -980,9 +991,10 @@
     "description": "",
     "score_reasons": [
       "Less relevant category 'Jewelry' (-12)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-10)",
       "Base score (+5)",
-      "Score boundary adjustment (+17)"
+      "Score boundary adjustment (+15)"
     ],
     "hunt_scores": [
       {
@@ -992,18 +1004,20 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Less relevant category 'Jewelry' (-12)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-10)",
           "Base score (+5)",
-          "Score boundary adjustment (+17)"
+          "Score boundary adjustment (+15)"
         ],
         "matched_keywords": []
       },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1050,6 +1064,45 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277330377": {
+    "item_id": "277330377",
+    "listing_url": "https://shopgoodwill.com/item/277330377",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09061.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09062.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09063.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09064.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09065.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09066.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09067.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09068.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_09069.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_090610.png",
+      "https://shopgoodwillimages.azureedge.net/production/171/Items/2026-09-06/567cfa07-aee8-4d9c-8fb0-2f43cb8dc1efling_090611.png"
+    ],
+    "description": "Goodwill Industries of Northeast Iowa, Inc.\nDESCRIPTION:\nLot Of 10 Small Polished &Raw Minerals Tumbled Stone, Crystal Clusters &Others\nYear of Manufacture: Various\nNumber of Items:  10\nMaterial: Various\nMeasurements:  Various\nCONDITION:\nAll items are in pre-owned condition, unless otherwise noted herein. They may show signs of wear, including, but not limited to, dust, scuffs, dents, soiling, tarnish, cracks, chips, crazing, fading, discoloration, stains, etc.\nAuthenticity is not guaranteed. Unless otherwise stated, items have not been authenticated or certified by a specialist. Items do not come with official certificates and will not include documentation. We try to incorporate as much research as we can, but we are not experts in any field. You are bidding with this knowledge in mind.\nThe condition descriptions marked by an \"X\" is/are applicable to this item:\n__ Good\nx__ Fair All Different\n__ Poor\n__ Damaged\nTESTINGS:\nIf applicable, will be noted below:\n__ Untested\n: This item is being sold untested. It may or may not be functional and is not eligible for return or refund if the item is found to be non-functional. You are bidding with this knowledge in mind.\n__ Tested\n: To the best of our limited knowledge, this item has been tested and found to be in working order. This does not ensure that the item has been fully tested, however. Please read through the description for a better understanding of what functions have been tested.\n__ Tested Not Working\n: This item was tested and is not working.\nIMPORTANT:\nWe do not retract bids, nor do we cancel un-paid for items. Winners who abandon their auction wins will be considered in default. Failure to pay can result in having your account inactivated due to non-payment.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
