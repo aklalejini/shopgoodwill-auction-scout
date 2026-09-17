@@ -9,7 +9,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -17,12 +17,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -59,15 +59,15 @@
       }
     ]
   },
-  "ctbids-47808-5624868": {
-    "item_id": "ctbids-47808-5624868",
-    "listing_url": "https://ctbids.com/estate-sale/47808/item/5624868/Antique-Connecticut-Civil-War-Book",
+  "ctbids-48309-5619099": {
+    "item_id": "ctbids-48309-5619099",
+    "listing_url": "https://ctbids.com/estate-sale/48309/item/5619099/Lincoln-Cent-Partial-Collection-Starting-In-1941",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5624868_HWeRYY.webp"
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619099_9Hpag4.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
+      "Opportunity term 'collection' in title (+6)",
       "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -76,10 +76,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'collection' in title (+6)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -135,16 +135,16 @@
       }
     ]
   },
-  "ctbids-48309-5619099": {
-    "item_id": "ctbids-48309-5619099",
-    "listing_url": "https://ctbids.com/estate-sale/48309/item/5619099/Lincoln-Cent-Partial-Collection-Starting-In-1941",
+  "ctbids-47808-5625341": {
+    "item_id": "ctbids-47808-5625341",
+    "listing_url": "https://ctbids.com/estate-sale/47808/item/5625341/Two-Vintage-Women-s-Coat-And-Cape",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619099_9Hpag4.webp"
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5625341_9APEV8.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -152,11 +152,38 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47808-5624868": {
+    "item_id": "ctbids-47808-5624868",
+    "listing_url": "https://ctbids.com/estate-sale/47808/item/5624868/Antique-Connecticut-Civil-War-Book",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5624868_HWeRYY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -191,35 +218,6 @@
       }
     ]
   },
-  "ctbids-47808-5625341": {
-    "item_id": "ctbids-47808-5625341",
-    "listing_url": "https://ctbids.com/estate-sale/47808/item/5625341/Two-Vintage-Women-s-Coat-And-Cape",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5625341_9APEV8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47808-5625544": {
     "item_id": "ctbids-47808-5625544",
     "listing_url": "https://ctbids.com/estate-sale/47808/item/5625544/Lot-of-Camera-Flash-Attachments",
@@ -242,60 +240,6 @@
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48224-5606653": {
-    "item_id": "ctbids-48224-5606653",
-    "listing_url": "https://ctbids.com/estate-sale/48224/item/5606653/Patriotic-Banner",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5606653_c22OVG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48513-5641283": {
-    "item_id": "ctbids-48513-5641283",
-    "listing_url": "https://ctbids.com/estate-sale/48513/item/5641283/Set-of-4-Clear-Glass-Footed-Tumblers-Dessert-Cups-Ribbed-Design",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5630770_ocaSPr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -384,6 +328,60 @@
       }
     ]
   },
+  "ctbids-48224-5606653": {
+    "item_id": "ctbids-48224-5606653",
+    "listing_url": "https://ctbids.com/estate-sale/48224/item/5606653/Patriotic-Banner",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5606653_c22OVG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48513-5641283": {
+    "item_id": "ctbids-48513-5641283",
+    "listing_url": "https://ctbids.com/estate-sale/48513/item/5641283/Set-of-4-Clear-Glass-Footed-Tumblers-Dessert-Cups-Ribbed-Design",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5630770_ocaSPr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48513-5641239": {
     "item_id": "ctbids-48513-5641239",
     "listing_url": "https://ctbids.com/estate-sale/48513/item/5641239/1960-Jack-Scott-What-in-the-World-s-Come-Over-You-4-Song-EP-45-RPM-w-Picture-Sleeve-REX-1001",
@@ -431,117 +429,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47808-5624946": {
-    "item_id": "ctbids-47808-5624946",
-    "listing_url": "https://ctbids.com/estate-sale/47808/item/5624946/Foam-and-Foam-Backed-Posters-Men-Women-Portraits-Paintings-Black-and-White-Clown",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5624946_Gbnhmn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48309-5619130": {
-    "item_id": "ctbids-48309-5619130",
-    "listing_url": "https://ctbids.com/estate-sale/48309/item/5619130/1946-1949-US-Wheat-Pennies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619130_b6Y297.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277504409": {
-    "item_id": "277504409",
-    "listing_url": "https://shopgoodwill.com/item/277504409",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/0ec25593-880e-40b4-a6ed-d0ba77872e0assee_09161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/cce8e1aa-d819-463e-8018-d41bc25d0f24ssee_09162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/be74a1b5-f238-467b-9b76-c9ffd99dfa6cssee_09163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/16650cb1-254c-4128-98e8-269704f9a106ssee_09164.jpg"
-    ],
-    "description": "Presentations Crystal Collection footed cake plate set includes an  clear pressed glass dome. The set is versatile and can also be used as a punch bowl. Both glass components are in good condition with no visible chips or cracks. Original packaging included, shows some wear from storage.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47844-5556290": {
-    "item_id": "ctbids-47844-5556290",
-    "listing_url": "https://ctbids.com/estate-sale/47844/item/5556290/Women-s-Bundle-Of-Stretch-And-Pants-24W",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5556290_Jgm6ky.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -657,6 +544,90 @@
       }
     ]
   },
+  "ctbids-47808-5624946": {
+    "item_id": "ctbids-47808-5624946",
+    "listing_url": "https://ctbids.com/estate-sale/47808/item/5624946/Foam-and-Foam-Backed-Posters-Men-Women-Portraits-Paintings-Black-and-White-Clown",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5624946_Gbnhmn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48309-5619130": {
+    "item_id": "ctbids-48309-5619130",
+    "listing_url": "https://ctbids.com/estate-sale/48309/item/5619130/1946-1949-US-Wheat-Pennies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619130_b6Y297.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277504409": {
+    "item_id": "277504409",
+    "listing_url": "https://shopgoodwill.com/item/277504409",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/0ec25593-880e-40b4-a6ed-d0ba77872e0assee_09161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/cce8e1aa-d819-463e-8018-d41bc25d0f24ssee_09162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/be74a1b5-f238-467b-9b76-c9ffd99dfa6cssee_09163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-16/16650cb1-254c-4128-98e8-269704f9a106ssee_09164.jpg"
+    ],
+    "description": "Presentations Crystal Collection footed cake plate set includes an  clear pressed glass dome. The set is versatile and can also be used as a punch bowl. Both glass components are in good condition with no visible chips or cracks. Original packaging included, shows some wear from storage.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48328-5618351": {
     "item_id": "ctbids-48328-5618351",
     "listing_url": "https://ctbids.com/estate-sale/48328/item/5618351/British-Military-Medals",
@@ -737,6 +708,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48329/item/5621199/Koi-Bowl-Coral-Candle-Holder",
     "images": [
       "https://image.ctbids.com/seller/2026-09-11Ta10121/5621199_qTMaTQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47844-5556290": {
+    "item_id": "ctbids-47844-5556290",
+    "listing_url": "https://ctbids.com/estate-sale/47844/item/5556290/Women-s-Bundle-Of-Stretch-And-Pants-24W",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5556290_Jgm6ky.webp"
     ],
     "description": "",
     "score_reasons": [
