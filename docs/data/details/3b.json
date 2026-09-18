@@ -188,6 +188,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -195,10 +196,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -215,6 +217,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -222,10 +225,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -341,15 +345,15 @@
       }
     ]
   },
-  "ctbids-48372-5623773": {
-    "item_id": "ctbids-48372-5623773",
-    "listing_url": "https://ctbids.com/estate-sale/48372/item/5623773/Matchbook-Collection",
+  "ctbids-48043-5582753": {
+    "item_id": "ctbids-48043-5582753",
+    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582753/Fitbit-bracelet",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5623773_1KCmBV.webp"
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5473903_O892N5.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -357,10 +361,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -389,6 +393,33 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48372-5623773": {
+    "item_id": "ctbids-48372-5623773",
+    "listing_url": "https://ctbids.com/estate-sale/48372/item/5623773/Matchbook-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5623773_1KCmBV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -629,31 +660,6 @@
       }
     ]
   },
-  "ctbids-48043-5582753": {
-    "item_id": "ctbids-48043-5582753",
-    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582753/Fitbit-bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5473903_O892N5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "276967027": {
     "item_id": "276967027",
     "listing_url": "https://shopgoodwill.com/item/276967027",
@@ -668,9 +674,10 @@
     "description": "Polished Natural Agate Geode Crystal Bookend Decor\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
     "score_reasons": [
       "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+9)"
+      "Score boundary adjustment (+5)"
     ],
     "hunt_scores": [
       {
@@ -680,9 +687,10 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+9)"
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
@@ -1071,6 +1079,44 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277675373": {
+    "item_id": "277675373",
+    "listing_url": "https://shopgoodwill.com/item/277675373",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-18/58d1da44-cdd0-412a-a5e9-0a9aedd3d82edmin_09181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-18/d742ad30-48a4-4467-b0ec-1234f3b6a037dmin_09182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-18/623feb84-b13f-438a-9bd3-dd72c24a278fdmin_09183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-18/ee1fb71a-d86d-465a-9e1b-796d65ec4bcedmin_09184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-18/33621941-ee2c-425d-a6cb-643a72df2bc9dmin_09185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-18/e0e50939-9a6a-45f7-89d1-d35aefb9ef9ddmin_09186.jpg"
+    ],
+    "description": "Artist Unknown\nRose Quartz Flame Cut\nPolished Rose Quartz Mineral Specimen\nApprox. 6\" Length\nUnsigned\nThis striking rose quartz sculpture features a dynamic \"flame cut\" design, characterized by elegant, swirling polished facets that emphasize the stone's natural translucency and soft pink hues. Carved from a single large specimen, the piece showcases the classic crystalline structure and internal veining characteristic of high-quality rose quartz. The sculptural form transforms a raw mineral into a sophisticated piece of contemporary decor, highlighting the interplay of light within the stone's depths.\nExpertly polished surface with a high-gloss finish highlighting natural inclusions\nSubstantial freeform base allows for stable display on flat surfaces\nContemporary aesthetic suitable for modern interior decor or mineral collections\nOriginal retail labeling present on base indicates a \"Flame Cut\" classification\nCondition:\nExcellent condition with a smooth, professional polish throughout. The stone exhibits natural internal fractures and cloudy inclusions inherent to the mineral's formation. No significant chips, cracks, or surface damage beyond its natural geological characteristics.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decor' in title (-8)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+12)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decor' in title (-8)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+12)"
         ],
         "matched_keywords": []
       }

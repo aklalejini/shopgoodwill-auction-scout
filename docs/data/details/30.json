@@ -76,6 +76,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -83,10 +84,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -114,33 +116,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48535-5645325": {
-    "item_id": "ctbids-48535-5645325",
-    "listing_url": "https://ctbids.com/estate-sale/48535/item/5645325/Hobby-Lobby-Farmhouse-Family-Wood-Wall-Sign-Rustic-Home-Decor-10-x-8",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5419094_srBMVe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -195,6 +170,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48535-5645325": {
+    "item_id": "ctbids-48535-5645325",
+    "listing_url": "https://ctbids.com/estate-sale/48535/item/5645325/Hobby-Lobby-Farmhouse-Family-Wood-Wall-Sign-Rustic-Home-Decor-10-x-8",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5419094_srBMVe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -526,6 +528,33 @@
       }
     ]
   },
+  "ctbids-48043-5582535": {
+    "item_id": "ctbids-48043-5582535",
+    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582535/earrings-from-Peru",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5480507_JITUkl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47760-5542150": {
     "item_id": "ctbids-47760-5542150",
     "listing_url": "https://ctbids.com/estate-sale/47760/item/5542150/2-London-Fog-Coats-with-Zip-Out-Liners-Black-Large-and-Tan-Hooded-Medium-RN-34460",
@@ -615,31 +644,6 @@
           "$5.00 handling charge (-4)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48043-5582535": {
-    "item_id": "ctbids-48043-5582535",
-    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582535/earrings-from-Peru",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5480507_JITUkl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

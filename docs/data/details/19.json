@@ -480,6 +480,31 @@
       }
     ]
   },
+  "ctbids-48283-5623595": {
+    "item_id": "ctbids-48283-5623595",
+    "listing_url": "https://ctbids.com/estate-sale/48283/item/5623595/1999-Yellowstone-National-Park-Silver-Dollar-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5623595_c5GXNs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277307753": {
     "item_id": "277307753",
     "listing_url": "https://shopgoodwill.com/item/277307753",
@@ -540,31 +565,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48283-5623595": {
-    "item_id": "ctbids-48283-5623595",
-    "listing_url": "https://ctbids.com/estate-sale/48283/item/5623595/1999-Yellowstone-National-Park-Silver-Dollar-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5623595_c5GXNs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -701,9 +701,10 @@
       "Lower-priority term 'decorative' in description (-8)",
       "Lower-priority term 'decor' in description (-8)",
       "Lower-priority term 'carved' in description (-7)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+20)"
+      "Score boundary adjustment (+16)"
     ],
     "hunt_scores": [
       {
@@ -719,9 +720,10 @@
           "Lower-priority term 'decorative' in description (-8)",
           "Lower-priority term 'decor' in description (-8)",
           "Lower-priority term 'carved' in description (-7)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+20)"
+          "Score boundary adjustment (+16)"
         ],
         "matched_keywords": []
       }

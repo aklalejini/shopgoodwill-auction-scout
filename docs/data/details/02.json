@@ -15,6 +15,7 @@
       "Target keyword 'peterson' in title (+11)",
       "Target keyword 'briar' in title (+5)",
       "Collector evidence 'made in ireland' in title (+14)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+9)",
       "Base score (+5)"
     ],
@@ -22,12 +23,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 44,
-        "relative_score": 1.257,
+        "score": 48,
+        "relative_score": 1.371,
         "score_reasons": [
           "Target keyword 'peterson' in title (+11)",
           "Target keyword 'briar' in title (+5)",
           "Collector evidence 'made in ireland' in title (+14)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
         ],
@@ -102,33 +104,6 @@
       }
     ]
   },
-  "ctbids-48043-5582584": {
-    "item_id": "ctbids-48043-5582584",
-    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582584/Vintage-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5508508_aTehcU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48043-5582688": {
     "item_id": "ctbids-48043-5582688",
     "listing_url": "https://ctbids.com/estate-sale/48043/item/5582688/Vintage-Necklace",
@@ -138,6 +113,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -145,37 +121,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48043-5582746": {
-    "item_id": "ctbids-48043-5582746",
-    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582746/Vintage-Guess-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5473980_Xm6oMV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -192,6 +142,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -199,10 +150,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48043-5582584": {
+    "item_id": "ctbids-48043-5582584",
+    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582584/Vintage-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5508508_aTehcU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48043-5582746": {
+    "item_id": "ctbids-48043-5582746",
+    "listing_url": "https://ctbids.com/estate-sale/48043/item/5582746/Vintage-Guess-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5473980_Xm6oMV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -219,6 +229,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -226,10 +237,78 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277693771": {
+    "item_id": "277693771",
+    "listing_url": "https://shopgoodwill.com/item/277693771",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-09-18/7f6f683c-99fb-4e72-ad63-a63507bb76a2sokc_09181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-09-18/a9a29800-a0a8-4846-bf3a-461d56de558dsokc_09182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-09-18/871e70f2-59ac-49ff-95ad-b3bdd789157bsokc_09183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-09-18/e8dab5fd-32bb-4857-87e8-e46c7bc5a1acsokc_09184.jpg"
+    ],
+    "description": "You are purchasing a \"3 LBS Rocks, Crystals, And Fossils Lot \" in \"Used\" condition.\nAdd instant character and curiosity to your collection or classroom with this assorted lot of raw rocks and mineral specimens. This group includes a wide variety of natural pieces in different colors and textures, from rough stone chunks to more distinct mineral samples, plus at least one clearly labeled piece of chrysocolla. These specimens are ideal for beginners, hobby geologists, educators, or anyone who loves unique natural decor. Display them in bowls or trays, use them for hands-on geology lessons, or sort and study the different formations and textures. The mix includes both loose pieces and several bags of smaller specimens, giving you plenty to explore. If you enjoy identifying rocks and minerals or want a ready-made assortment for crafts, collecting, or teaching, this lot offers a fun and interesting variety in one convenient bundle. Keywords: rock collection, mineral specimens, geology lot, raw stones, crystal rocks, teaching set, chrysocolla, earth science, specimen assortment, natural stone pieces. Preowned items may have dusty/debris, light odors, and discoloration.  Item has not been cleaned & may need cleaning. AS IS: Can't Verify Contents & if All Pieces are Included.\nCondition Notes:\nMixed lot of various rocks, minerals, and specimens, including raw chunks, tumbled or broken pieces, and a labeled chrysocolla piece. Surfaces show natural roughness, fractures, and irregular edges typical of unpolished stones. Several specimens are stored in clear plastic bags with some loose particulate and dust present. No major recent damage is visible beyond inherent natural cracks and chips in the material.\nAspects:\nItem Weight: 3.58 LB",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+1)",
+      "Only the top 3 opportunity term matches count; 5 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'decor' in description (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 9,
+        "relative_score": 0.3,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+1)",
+          "Only the top 3 opportunity term matches count; 5 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'decor' in description (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47994-5621967": {
+    "item_id": "ctbids-47994-5621967",
+    "listing_url": "https://ctbids.com/estate-sale/47994/item/5621967/Contemporary-mirror-with-stand-for-dresser",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5603835_maosO9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -291,6 +370,36 @@
       }
     ]
   },
+  "277041788": {
+    "item_id": "277041788",
+    "listing_url": "https://shopgoodwill.com/item/277041788",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/26937589-6169-499a-9eed-76d02dbb2747ch11_09111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/da9e0977-c914-43a2-881a-de351ac346c4ch11_09112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/d9edcfec-7e99-4189-9e94-450c86d41562ch11_09113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/9876e155-768a-4ac9-8c40-ea40d7991ac6ch11_09114.jpg"
+    ],
+    "description": "May have some gentle wear. May have markings, staining, scuff markings, scratches and damage that was missed when photographing. May have discoloration. May have tearing. May have chipping and or paint loss. May be incomplete. May be missing pieces. May have cracks. May have previous stickers on the item(s) from previous storing or use. This item has been used or stored. May have a smell from being stored and may have discoloration. May have damage of the packaging. photos closely for more information. Sold as is. Needs cleaned. Approx in inches: 5.5 W. Unsure what mineral this item is made out of but it is some type of stone mineral. Not crystal.",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48180-5599292": {
     "item_id": "ctbids-48180-5599292",
     "listing_url": "https://ctbids.com/estate-sale/48180/item/5599292/Vintage-bracelet",
@@ -345,58 +454,37 @@
       }
     ]
   },
-  "277041788": {
-    "item_id": "277041788",
-    "listing_url": "https://shopgoodwill.com/item/277041788",
+  "277306291": {
+    "item_id": "277306291",
+    "listing_url": "https://shopgoodwill.com/item/277306291",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/26937589-6169-499a-9eed-76d02dbb2747ch11_09111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/da9e0977-c914-43a2-881a-de351ac346c4ch11_09112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/d9edcfec-7e99-4189-9e94-450c86d41562ch11_09113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-09-11/9876e155-768a-4ac9-8c40-ea40d7991ac6ch11_09114.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09091.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09092.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09093.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09094.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09095.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09096.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09097.png",
+      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09098.png"
     ],
-    "description": "May have some gentle wear. May have markings, staining, scuff markings, scratches and damage that was missed when photographing. May have discoloration. May have tearing. May have chipping and or paint loss. May be incomplete. May be missing pieces. May have cracks. May have previous stickers on the item(s) from previous storing or use. This item has been used or stored. May have a smell from being stored and may have discoloration. May have damage of the packaging. photos closely for more information. Sold as is. Needs cleaned. Approx in inches: 5.5 W. Unsure what mineral this item is made out of but it is some type of stone mineral. Not crystal.",
+    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION - NO INDIVIDUAL INFORMATION IS AVAILABLE. LOTS AUCTIONS ARE PROVIDED AS-IS PLEASE BID ACCORDINGLY.  THANK YOU.\nDESCRIPTION:\nNUMBER OF ITEMS:\nWEIGHT OF LOT:",
     "score_reasons": [
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Less relevant category 'Crafts' (-12)",
+      "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 4,
+        "relative_score": 0.114,
         "score_reasons": [
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Less relevant category 'Crafts' (-12)",
+          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47994-5621967": {
-    "item_id": "ctbids-47994-5621967",
-    "listing_url": "https://ctbids.com/estate-sale/47994/item/5621967/Contemporary-mirror-with-stand-for-dresser",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5603835_maosO9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -478,42 +566,6 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277306291": {
-    "item_id": "277306291",
-    "listing_url": "https://shopgoodwill.com/item/277306291",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09091.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09092.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09093.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09094.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09095.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09096.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09097.png",
-      "https://shopgoodwillimages.azureedge.net/production/192/Items/2026-09-09/428204be-b900-46c7-adef-24874ba718a6oniH_09098.png"
-    ],
-    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION - NO INDIVIDUAL INFORMATION IS AVAILABLE. LOTS AUCTIONS ARE PROVIDED AS-IS PLEASE BID ACCORDINGLY.  THANK YOU.\nDESCRIPTION:\nNUMBER OF ITEMS:\nWEIGHT OF LOT:",
-    "score_reasons": [
-      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-      "Less relevant category 'Crafts' (-12)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 4,
-        "relative_score": 0.114,
-        "score_reasons": [
-          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-          "Less relevant category 'Crafts' (-12)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
