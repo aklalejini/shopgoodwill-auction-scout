@@ -100,7 +100,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -108,11 +108,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -232,6 +232,33 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47760-5563227": {
+    "item_id": "ctbids-47760-5563227",
+    "listing_url": "https://ctbids.com/estate-sale/47760/item/5563227/Folding-Wire-Shopping-Cart-Full-of-Gift-Wrap-Christmas-Paper-Bags-Tins-and-Ribbon",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5563227_JWW2QW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -438,33 +465,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47760-5563227": {
-    "item_id": "ctbids-47760-5563227",
-    "listing_url": "https://ctbids.com/estate-sale/47760/item/5563227/Folding-Wire-Shopping-Cart-Full-of-Gift-Wrap-Christmas-Paper-Bags-Tins-and-Ribbon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5563227_JWW2QW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
