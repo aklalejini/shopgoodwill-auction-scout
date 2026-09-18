@@ -15,6 +15,7 @@
       "Opportunity term 'assorted' in description (+2)",
       "Opportunity term 'rocks' in description (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "5.9 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -23,13 +24,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 30,
-        "relative_score": 1.0,
+        "score": 34,
+        "relative_score": 1.133,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in description (+2)",
           "Opportunity term 'rocks' in description (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "5.9 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -54,6 +56,7 @@
       "Opportunity term 'lot' in title (+5)",
       "Target keyword 'briar' in title (+5)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -61,13 +64,14 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 32,
-        "relative_score": 0.914,
+        "score": 36,
+        "relative_score": 1.029,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Target keyword 'briar' in title (+5)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -152,6 +156,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -159,10 +164,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -554,6 +560,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -561,9 +568,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48235-5625376": {
+    "item_id": "ctbids-48235-5625376",
+    "listing_url": "https://ctbids.com/estate-sale/48235/item/5625376/Vtg-Brighton-XX-Croc-Embossed-Leather-Belt",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5605056_qU69h6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47878-5622358": {
+    "item_id": "ctbids-47878-5622358",
+    "listing_url": "https://ctbids.com/estate-sale/47878/item/5622358/Awesome-Office-Chair-And-Supplies-To-Go-With-It",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622358_N2WdL4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48235-5630801": {
+    "item_id": "ctbids-48235-5630801",
+    "listing_url": "https://ctbids.com/estate-sale/48235/item/5630801/Vtg-St-Michael-by-Marks-Spencer-women-s-plush-boucl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5630801_OWlpjJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -621,31 +710,6 @@
       }
     ]
   },
-  "ctbids-48235-5625376": {
-    "item_id": "ctbids-48235-5625376",
-    "listing_url": "https://ctbids.com/estate-sale/48235/item/5625376/Vtg-Brighton-XX-Croc-Embossed-Leather-Belt",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5605056_qU69h6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48235-5631055": {
     "item_id": "ctbids-48235-5631055",
     "listing_url": "https://ctbids.com/estate-sale/48235/item/5631055/c1900-Victorian-Porcelain-Blue-Gilt-Floral-Lidded-Trinket-Box-Biscuit-Jar",
@@ -671,61 +735,11 @@
       }
     ]
   },
-  "ctbids-47878-5622358": {
-    "item_id": "ctbids-47878-5622358",
-    "listing_url": "https://ctbids.com/estate-sale/47878/item/5622358/Awesome-Office-Chair-And-Supplies-To-Go-With-It",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622358_N2WdL4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47760-5603982": {
     "item_id": "ctbids-47760-5603982",
     "listing_url": "https://ctbids.com/estate-sale/47760/item/5603982/Sterling-Demitasse-Spoons-Twisted-Stems-Floral-Bowls-Monogram-73-48g",
     "images": [
       "https://image.ctbids.com/seller/2026-09-07Tcf8bcf/5603982_5dtYk9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48235-5630801": {
-    "item_id": "ctbids-48235-5630801",
-    "listing_url": "https://ctbids.com/estate-sale/48235/item/5630801/Vtg-St-Michael-by-Marks-Spencer-women-s-plush-boucl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5630801_OWlpjJ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1050,31 +1064,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48255/item/5609481/Teal-Glass-Vase-And-Powder-Jar",
     "images": [
       "https://image.ctbids.com/seller/2026-09-08T80e0c6/5609481_IzmUq1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47638-5559796": {
-    "item_id": "ctbids-47638-5559796",
-    "listing_url": "https://ctbids.com/estate-sale/47638/item/5559796/Variety-Of-Tools",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5559796_Jj42Pq.webp"
     ],
     "description": "",
     "score_reasons": [

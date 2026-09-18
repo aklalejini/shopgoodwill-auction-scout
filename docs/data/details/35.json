@@ -16,6 +16,7 @@
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Target keyword 'malachite' in description (+9)",
       "Target keyword 'fluorite' in description (+9)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "5 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -24,8 +25,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 24,
-        "relative_score": 0.8,
+        "score": 26,
+        "relative_score": 0.867,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
@@ -33,6 +34,7 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Target keyword 'malachite' in description (+9)",
           "Target keyword 'fluorite' in description (+9)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -64,6 +66,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Pen-and-pencil set resale premium (+10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -71,11 +74,12 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 17,
-        "relative_score": 0.486,
+        "score": 21,
+        "relative_score": 0.6,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Pen-and-pencil set resale premium (+10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -104,6 +108,7 @@
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "20 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -112,16 +117,46 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "score": 12,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48535-5645348": {
+    "item_id": "ctbids-48535-5645348",
+    "listing_url": "https://ctbids.com/estate-sale/48535/item/5645348/Vintage-Multicolor-Faux-Marble-Picture-Frame-Teal-Red-Gold-Tone-Tabletop-Photo-Frame",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5571139_CVAvEo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -317,6 +352,60 @@
           "Only 1 listing photo (-12)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48535-5645317": {
+    "item_id": "ctbids-48535-5645317",
+    "listing_url": "https://ctbids.com/estate-sale/48535/item/5645317/Charlie-Rich-The-Most-Beautiful-Girl-I-Feel-Like-Going-Home-45-RPM-Vinyl-Epic-1973",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5422750_bNO3qV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48235-5625404": {
+    "item_id": "ctbids-48235-5625404",
+    "listing_url": "https://ctbids.com/estate-sale/48235/item/5625404/5-1980-Good-Cook-Techniques-Recipes-Series-by-Time-Life-Books-Hardcover-Cookbook-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5616585_EJCD4q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -592,6 +681,33 @@
       }
     ]
   },
+  "ctbids-48235-5625366": {
+    "item_id": "ctbids-48235-5625366",
+    "listing_url": "https://ctbids.com/estate-sale/48235/item/5625366/Vtg-Silver-Tone-Puffy-Knotted-Heart-Clip-on-Earrings-w-Checkerboard-Engrave-Style",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5604030_L3EjkE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47760-5562262": {
     "item_id": "ctbids-47760-5562262",
     "listing_url": "https://ctbids.com/estate-sale/47760/item/5562262/Crystal-Bells-w-Glass-Lamp-Lenox-1992-Porcelain-Flower-Bell-Enesco-March",
@@ -617,61 +733,11 @@
       }
     ]
   },
-  "ctbids-48235-5625366": {
-    "item_id": "ctbids-48235-5625366",
-    "listing_url": "https://ctbids.com/estate-sale/48235/item/5625366/Vtg-Silver-Tone-Puffy-Knotted-Heart-Clip-on-Earrings-w-Checkerboard-Engrave-Style",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5604030_L3EjkE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48235-5631034": {
     "item_id": "ctbids-48235-5631034",
     "listing_url": "https://ctbids.com/estate-sale/48235/item/5631034/c1880-Carl-Tielsch-CT-Altwasser-Germany-Hand-Painted-Blue-Gilt-Lilac-Hydrangea-Demitasse-Cups",
     "images": [
       "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631034_afp0HT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48235-5625404": {
-    "item_id": "ctbids-48235-5625404",
-    "listing_url": "https://ctbids.com/estate-sale/48235/item/5625404/5-1980-Good-Cook-Techniques-Recipes-Series-by-Time-Life-Books-Hardcover-Cookbook-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5616585_EJCD4q.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1022,31 +1088,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48332/item/5621502/Orchard-Jubilee-10-5-Dinner-Plates-6-Hand-Painted",
     "images": [
       "https://image.ctbids.com/seller/2026-09-11Ta10121/5621502_MjE2OI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48332-5621901": {
-    "item_id": "ctbids-48332-5621901",
-    "listing_url": "https://ctbids.com/estate-sale/48332/item/5621901/3-Faux-Pearl-Necklaces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5621901_6TJAyT.webp"
     ],
     "description": "",
     "score_reasons": [
