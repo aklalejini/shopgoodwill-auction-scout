@@ -15,6 +15,7 @@
       "Opportunity term 'estate' in title (+11)",
       "Opportunity term 'vintage' in title (+6)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,12 +23,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 33,
-        "relative_score": 0.943,
+        "score": 37,
+        "relative_score": 1.057,
         "score_reasons": [
           "Opportunity term 'estate' in title (+11)",
           "Opportunity term 'vintage' in title (+6)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -44,6 +46,7 @@
     "description": "Auction is for 250 used Wood Pallets.\nMost pallets measure 40\"x48\"\nMust take all pallets",
     "score_reasons": [
       "Opportunity term 'lot' in title (+5)",
+      "0 bids near close (+4)",
       "Pickup-only limits the opportunity (0)",
       "Base score (+8)"
     ],
@@ -51,10 +54,11 @@
       {
         "id": "local-government-surplus",
         "label": "Local Government Surplus",
-        "score": 13,
-        "relative_score": 0.406,
+        "score": 17,
+        "relative_score": 0.531,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
+          "0 bids near close (+4)",
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
         ],
