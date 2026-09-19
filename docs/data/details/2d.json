@@ -132,6 +132,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -139,10 +140,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -454,6 +456,60 @@
       }
     ]
   },
+  "ctbids-48236-5630316": {
+    "item_id": "ctbids-48236-5630316",
+    "listing_url": "https://ctbids.com/estate-sale/48236/item/5630316/Rare-Dennis-Smith-2002-Winter-Olympics-Bronze-Statue-Tobogganers-Signed-Marble-Base",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5630316_tp9CCQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48236-5634315": {
+    "item_id": "ctbids-48236-5634315",
+    "listing_url": "https://ctbids.com/estate-sale/48236/item/5634315/1995-BEST-Rookie-Baseball-Cards",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5634315_VP083r.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48349-5625861": {
     "item_id": "ctbids-48349-5625861",
     "listing_url": "https://ctbids.com/estate-sale/48349/item/5625861/1988-Topps-Baseball-Trading-Card-Lot-Spring-Fever-Bonus-Offer-Cards",
@@ -526,51 +582,36 @@
       }
     ]
   },
-  "ctbids-48236-5630316": {
-    "item_id": "ctbids-48236-5630316",
-    "listing_url": "https://ctbids.com/estate-sale/48236/item/5630316/Rare-Dennis-Smith-2002-Winter-Olympics-Bronze-Statue-Tobogganers-Signed-Marble-Base",
+  "277291715": {
+    "item_id": "277291715",
+    "listing_url": "https://shopgoodwill.com/item/277291715",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5630316_tp9CCQ.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis is a polished blue agate geode specimen featuring a central drilled hole. The front face is polished to reveal vibrant blue crystalline formations with concentric banding, while the back retains a rough natural exterior. The drilled hole is clean and smooth.\n\nSpecifications:\n- Material: Blue agate geode\n- Surface: Polished front, natural rough back\n- Drilled hole: Central, clean and smooth\n- Shape: Circular\n- Display: Shown on a clear acrylic stand\n- Markings: No visible branding or manufacturer marks",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+11)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48236-5634315": {
-    "item_id": "ctbids-48236-5634315",
-    "listing_url": "https://ctbids.com/estate-sale/48236/item/5634315/1995-BEST-Rookie-Baseball-Cards",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5634315_VP083r.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+11)"
         ],
         "matched_keywords": []
       }
@@ -646,39 +687,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277291715": {
-    "item_id": "277291715",
-    "listing_url": "https://shopgoodwill.com/item/277291715",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis is a polished blue agate geode specimen featuring a central drilled hole. The front face is polished to reveal vibrant blue crystalline formations with concentric banding, while the back retains a rough natural exterior. The drilled hole is clean and smooth.\n\nSpecifications:\n- Material: Blue agate geode\n- Surface: Polished front, natural rough back\n- Drilled hole: Central, clean and smooth\n- Shape: Circular\n- Display: Shown on a clear acrylic stand\n- Markings: No visible branding or manufacturer marks",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'decor' in title (-8)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+15)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'decor' in title (-8)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+15)"
         ],
         "matched_keywords": []
       }

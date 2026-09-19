@@ -286,6 +286,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -293,10 +294,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -493,6 +495,33 @@
       }
     ]
   },
+  "ctbids-48236-5640611": {
+    "item_id": "ctbids-48236-5640611",
+    "listing_url": "https://ctbids.com/estate-sale/48236/item/5640611/Coins",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5640611_G52hvp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277259704": {
     "item_id": "277259704",
     "listing_url": "https://shopgoodwill.com/item/277259704",
@@ -614,26 +643,34 @@
       }
     ]
   },
-  "ctbids-48236-5640611": {
-    "item_id": "ctbids-48236-5640611",
-    "listing_url": "https://ctbids.com/estate-sale/48236/item/5640611/Coins",
+  "277289349": {
+    "item_id": "277289349",
+    "listing_url": "https://shopgoodwill.com/item/277289349",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5640611_G52hvp.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis listing includes a set of polished mineral specimens featuring Ruby in Zoisite, Ruby Fuchsite, and Ruby in Matrix. Each specimen has distinct coloration and patterning with polished surfaces.\n\nSpecifications:\n- Ruby in Zoisite: Dark green and black matrix with pink-red ruby inclusions.\n- Ruby Fuchsite: Bright pink to magenta hues with white and dark mineral inclusions, cut in a triangular shape.\n- Ruby in Matrix: Rougher texture with ruby crystals embedded in white and gray host rock.\n- All specimens are tumbled and polished.\n- Approximate largest specimen size: 1.5 inches.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in description (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in description (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }
@@ -689,32 +726,35 @@
       }
     ]
   },
-  "277289349": {
-    "item_id": "277289349",
-    "listing_url": "https://shopgoodwill.com/item/277289349",
+  "277742420": {
+    "item_id": "277742420",
+    "listing_url": "https://shopgoodwill.com/item/277742420",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/565790a3-2c3e-488e-a796-1dd9ff6c151awood_09181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/ec30cbfc-022a-4dd9-99a6-f42ddbbda0cdwood_09182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/9bb97ab2-6e42-4a3d-bbb8-3ff88c810af2wood_09183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/69466823-5ffa-4f75-9a45-24069e825cddwood_09184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/e32e019c-3991-4e8f-990f-f68338ef1e3dwood_09185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/ac3ea951-71c9-4306-bbb6-02a1c923d4edwood_09186.jpg"
     ],
-    "description": "Product Overview:\nThis listing includes a set of polished mineral specimens featuring Ruby in Zoisite, Ruby Fuchsite, and Ruby in Matrix. Each specimen has distinct coloration and patterning with polished surfaces.\n\nSpecifications:\n- Ruby in Zoisite: Dark green and black matrix with pink-red ruby inclusions.\n- Ruby Fuchsite: Bright pink to magenta hues with white and dark mineral inclusions, cut in a triangular shape.\n- Ruby in Matrix: Rougher texture with ruby crystals embedded in white and gray host rock.\n- All specimens are tumbled and polished.\n- Approximate largest specimen size: 1.5 inches.",
+    "description": "Scholastic Rocks and Minerals Kit 9 Labeled Specimens with Booklet Ages 7+\nScholastic Rocks and Minerals collector's kit featuring 9 labeled specimens: Tiger Eye, Unakite, Red Jasper, Rhodonite, Lemon Jade, Crystal Quartz, Dalmatian Jasper, Amazonite, and Amethyst. Includes a 32-page informational booklet with facts and a glossary about rocks and minerals. Specimens are displayed in a custom tray inside a cardboard box. The box shows wear including bent corners and scuffs, but contents are organized and intact. Suitable for educational purposes and collectors aged 7 and up.\nDetails",
     "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Only 1 listing photo (-10)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Opportunity term 'minerals' in title (+1)",
       "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+7)"
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
+        "score": 1,
+        "relative_score": 0.033,
         "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Only 1 listing photo (-10)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Opportunity term 'minerals' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+7)"
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -965,40 +1005,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277742420": {
-    "item_id": "277742420",
-    "listing_url": "https://shopgoodwill.com/item/277742420",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/565790a3-2c3e-488e-a796-1dd9ff6c151awood_09181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/ec30cbfc-022a-4dd9-99a6-f42ddbbda0cdwood_09182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/9bb97ab2-6e42-4a3d-bbb8-3ff88c810af2wood_09183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/69466823-5ffa-4f75-9a45-24069e825cddwood_09184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/e32e019c-3991-4e8f-990f-f68338ef1e3dwood_09185.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-09-18/ac3ea951-71c9-4306-bbb6-02a1c923d4edwood_09186.jpg"
-    ],
-    "description": "Scholastic Rocks and Minerals Kit 9 Labeled Specimens with Booklet Ages 7+\nScholastic Rocks and Minerals collector's kit featuring 9 labeled specimens: Tiger Eye, Unakite, Red Jasper, Rhodonite, Lemon Jade, Crystal Quartz, Dalmatian Jasper, Amazonite, and Amethyst. Includes a 32-page informational booklet with facts and a glossary about rocks and minerals. Specimens are displayed in a custom tray inside a cardboard box. The box shows wear including bent corners and scuffs, but contents are organized and intact. Suitable for educational purposes and collectors aged 7 and up.\nDetails",
-    "score_reasons": [
-      "Opportunity term 'rocks' in title (+1)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
-        "score_reasons": [
-          "Opportunity term 'rocks' in title (+1)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }

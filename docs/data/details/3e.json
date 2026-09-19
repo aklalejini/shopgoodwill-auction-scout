@@ -13,6 +13,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -20,11 +21,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -196,6 +198,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -203,10 +206,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -454,6 +458,33 @@
       }
     ]
   },
+  "ctbids-48236-5635406": {
+    "item_id": "ctbids-48236-5635406",
+    "listing_url": "https://ctbids.com/estate-sale/48236/item/5635406/1895-1898-Indian-Head-Pennies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635406_pyaqSF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47689-5031812": {
     "item_id": "ctbids-47689-5031812",
     "listing_url": "https://ctbids.com/estate-sale/47689/item/5031812/The-Amazing-Spider-Man-Lot",
@@ -567,31 +598,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48331/item/5622618/Rivas-Ballena-Bay-Pewter-Dragon-Mug-Signed-339-400-Dated-1984-With-Second-Mug",
     "images": [
       "https://image.ctbids.com/seller/2026-09-12Te01775/5622618_ghPJFm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48236-5635406": {
-    "item_id": "ctbids-48236-5635406",
-    "listing_url": "https://ctbids.com/estate-sale/48236/item/5635406/1895-1898-Indian-Head-Pennies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635406_pyaqSF.webp"
     ],
     "description": "",
     "score_reasons": [
