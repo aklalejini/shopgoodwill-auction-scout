@@ -319,7 +319,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -327,11 +326,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -370,6 +368,33 @@
       }
     ]
   },
+  "ctbids-48236-5640893": {
+    "item_id": "ctbids-48236-5640893",
+    "listing_url": "https://ctbids.com/estate-sale/48236/item/5640893/Rare-1867-King-Wilhelm-I-A-Prussia-2-Pfennig-Coin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5640893_IuvYp5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277695337": {
     "item_id": "277695337",
     "listing_url": "https://shopgoodwill.com/item/277695337",
@@ -403,33 +428,6 @@
           "Opportunity term 'lot' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48236-5640893": {
-    "item_id": "ctbids-48236-5640893",
-    "listing_url": "https://ctbids.com/estate-sale/48236/item/5640893/Coin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5640893_IuvYp5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -489,33 +487,6 @@
       }
     ]
   },
-  "ctbids-48325-5628162": {
-    "item_id": "ctbids-48325-5628162",
-    "listing_url": "https://ctbids.com/estate-sale/48325/item/5628162/Vintage-Coach-Other-Purses",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5628162_BM13Lf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48372-5623739": {
     "item_id": "ctbids-48372-5623739",
     "listing_url": "https://ctbids.com/estate-sale/48372/item/5623739/Tacoma-Union-Station-Print",
@@ -524,7 +495,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -535,7 +506,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -578,7 +549,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -589,7 +560,34 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48325-5628162": {
+    "item_id": "ctbids-48325-5628162",
+    "listing_url": "https://ctbids.com/estate-sale/48325/item/5628162/Vintage-Coach-Other-Purses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5628162_BM13Lf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
