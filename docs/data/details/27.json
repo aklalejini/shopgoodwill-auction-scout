@@ -132,6 +132,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -139,11 +140,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 25,
+        "relative_score": 0.833,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -334,15 +336,16 @@
       }
     ]
   },
-  "ctbids-47398-5580184": {
-    "item_id": "ctbids-47398-5580184",
-    "listing_url": "https://ctbids.com/estate-sale/47398/item/5580184/Vintage-Women-s-Clothing",
+  "ctbids-48349-5625463": {
+    "item_id": "ctbids-48349-5625463",
+    "listing_url": "https://ctbids.com/estate-sale/48349/item/5625463/Luka-Doncic-Basketball-Card-Lot-of-6-Optic-Select-Donruss-Bowman-NBA-Hoops-Mavericks-Lakers",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5580184_4SuC0S.webp"
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5472838_kHvWhg.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -350,10 +353,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -390,16 +394,16 @@
       }
     ]
   },
-  "ctbids-48349-5625463": {
-    "item_id": "ctbids-48349-5625463",
-    "listing_url": "https://ctbids.com/estate-sale/48349/item/5625463/Luka-Doncic-Basketball-Card-Lot-of-6-Optic-Select-Donruss-Bowman-NBA-Hoops-Mavericks-Lakers",
+  "ctbids-48353-5622290": {
+    "item_id": "ctbids-48353-5622290",
+    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622290/Vintage-Ring",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5472838_kHvWhg.webp"
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622290_BA26lg.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -407,11 +411,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48353-5622355": {
+    "item_id": "ctbids-48353-5622355",
+    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622355/Vintage-bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622355_uemcnG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48089-5610806": {
+    "item_id": "ctbids-48089-5610806",
+    "listing_url": "https://ctbids.com/estate-sale/48089/item/5610806/Vintage-1984-American-Greetings-AmToy-Silly-Snake-Plush-Toy",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5610806_SQg3D6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -527,16 +589,15 @@
       }
     ]
   },
-  "ctbids-48353-5622290": {
-    "item_id": "ctbids-48353-5622290",
-    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622290/Vintage-Ring",
+  "ctbids-48353-5622273": {
+    "item_id": "ctbids-48353-5622273",
+    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622273/Vintage-Ring",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622290_BA26lg.webp"
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622273_Y6POxn.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -544,11 +605,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48353-5622288": {
+    "item_id": "ctbids-48353-5622288",
+    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622288/Vintage-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622288_worRUY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -630,60 +717,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48353-5622273": {
-    "item_id": "ctbids-48353-5622273",
-    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622273/Vintage-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622273_Y6POxn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48353-5622288": {
-    "item_id": "ctbids-48353-5622288",
-    "listing_url": "https://ctbids.com/estate-sale/48353/item/5622288/Vintage-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5622288_worRUY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -952,6 +985,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47697/item/5540088/Bushnell-Binoculars-7x35",
     "images": [
       "https://image.ctbids.com/seller/2026-08-30T60ff0d/5540088_Jyt4kx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47942-5572740": {
+    "item_id": "ctbids-47942-5572740",
+    "listing_url": "https://ctbids.com/estate-sale/47942/item/5572740/Lodge-Cast-Iron-Stir-Fry-Skillet-Mini-Wok",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5572740_4ouVQS.webp"
     ],
     "description": "",
     "score_reasons": [
