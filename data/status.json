@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-20T06:12:09.267449+00:00",
-  "active_count": 2556,
-  "high_priority_count": 32,
+  "generated_at": "2026-09-20T11:18:28.725429+00:00",
+  "active_count": 2560,
+  "high_priority_count": 33,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC"
   ],
-  "detail_requests_completed": 41,
-  "relevance_filtered_count": 680,
-  "potentially_high_value_count": 32,
+  "detail_requests_completed": 25,
+  "relevance_filtered_count": 672,
+  "potentially_high_value_count": 33,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 71
+    "images_processed": 62
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -23,8 +23,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 513,
-      "detail_requests_attempted": 21
+      "active_count": 517,
+      "detail_requests_attempted": 5
     },
     {
       "id": "gsa-auctions",
@@ -49,7 +49,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 348
+      "active_count": 352
     },
     {
       "id": "sealed-vintage-media",

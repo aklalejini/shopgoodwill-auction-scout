@@ -161,6 +161,37 @@
       }
     ]
   },
+  "ctbids-48332-5621339": {
+    "item_id": "ctbids-48332-5621339",
+    "listing_url": "https://ctbids.com/estate-sale/48332/item/5621339/Antique-Vintage-Glass-Plate-Photos-5",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5621339_TunIag.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 15,
+        "relative_score": 0.441,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277259823": {
     "item_id": "277259823",
     "listing_url": "https://shopgoodwill.com/item/277259823",
@@ -184,7 +215,6 @@
       "Target keyword 'tdk' in description (+5)",
       "Target keyword 'vhs-c' in description (+4)",
       "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
-      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-3)",
       "Base score (+4)"
     ],
@@ -192,8 +222,8 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 17,
-        "relative_score": 0.472,
+        "score": 15,
+        "relative_score": 0.417,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+12)",
           "Opportunity term 'lot of' in description (+6)",
@@ -205,7 +235,6 @@
           "Target keyword 'tdk' in description (+5)",
           "Target keyword 'vhs-c' in description (+4)",
           "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
-          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
         ],
@@ -215,35 +244,6 @@
           "tdk",
           "vhs-c"
         ]
-      }
-    ]
-  },
-  "ctbids-48332-5621339": {
-    "item_id": "ctbids-48332-5621339",
-    "listing_url": "https://ctbids.com/estate-sale/48332/item/5621339/Antique-Vintage-Glass-Plate-Photos-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5621339_TunIag.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -419,7 +419,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -427,10 +427,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
