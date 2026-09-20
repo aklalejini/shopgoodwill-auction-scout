@@ -13,6 +13,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'mixed' in description (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -20,13 +21,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 30,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in description (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -292,6 +294,35 @@
       }
     ]
   },
+  "ctbids-48573-5649771": {
+    "item_id": "ctbids-48573-5649771",
+    "listing_url": "https://ctbids.com/estate-sale/48573/item/5649771/Vintage-Clear-Pressed-Glass-Pedestal-Compote-Bowl-Diamond-Ribbed-Pattern",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-20T075c3c/5628197_xEqeKT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47398-5552131": {
     "item_id": "ctbids-47398-5552131",
     "listing_url": "https://ctbids.com/estate-sale/47398/item/5552131/Vintage-Kitchen-Linens",
@@ -312,6 +343,35 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48349-5625441": {
+    "item_id": "ctbids-48349-5625441",
+    "listing_url": "https://ctbids.com/estate-sale/48349/item/5625441/1971-1975-1976-Topps-Hank-Aaron-Baseball-Card-Lot-Braves-Brewers-HOF-3-Cards",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5449047_JQy8jS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -373,85 +433,6 @@
       }
     ]
   },
-  "ctbids-48573-5649771": {
-    "item_id": "ctbids-48573-5649771",
-    "listing_url": "https://ctbids.com/estate-sale/48573/item/5649771/Vintage-Clear-Pressed-Glass-Pedestal-Compote-Bowl-Diamond-Ribbed-Pattern",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-20T075c3c/5628197_xEqeKT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48317-5623956": {
-    "item_id": "ctbids-48317-5623956",
-    "listing_url": "https://ctbids.com/estate-sale/48317/item/5623956/Hand-Painted-Ceramic-Border-Tile-Trim-6-Pieces-Blue-Acanthus-Gold-Scroll",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5623956_GgWrbX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "govdeals-13747-442": {
-    "item_id": "govdeals-13747-442",
-    "listing_url": "https://www.govdeals.com/en/asset/442/13747",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/13747/13747_442_2604fb16-2f0b-44f3-adf4-0633f4f33a1e.jpg?cb=260918100526"
-    ],
-    "description": "18 Plastic chairs",
-    "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
-        "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48349-5620046": {
     "item_id": "ctbids-48349-5620046",
     "listing_url": "https://ctbids.com/estate-sale/48349/item/5620046/Shohei-Ohtani-Baseball-Card-Lot-14-Cards-Angels-Dodgers-Topps-Chrome-Heritage",
@@ -472,6 +453,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48349-5625862": {
+    "item_id": "ctbids-48349-5625862",
+    "listing_url": "https://ctbids.com/estate-sale/48349/item/5625862/One-Piece-Series-2-Holographic-Trading-Stickers-2-Packs-5-Stickers-Gear-5-Luffy-Chase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5625862_uu6VTm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -506,15 +514,15 @@
       }
     ]
   },
-  "ctbids-48349-5625441": {
-    "item_id": "ctbids-48349-5625441",
-    "listing_url": "https://ctbids.com/estate-sale/48349/item/5625441/1971-1975-1976-Topps-Hank-Aaron-Baseball-Card-Lot-Braves-Brewers-HOF-3-Cards",
+  "ctbids-48337-5621544": {
+    "item_id": "ctbids-48337-5621544",
+    "listing_url": "https://ctbids.com/estate-sale/48337/item/5621544/Jill-Whitlow-Jason-Lively-signed-8-10-Photo-Cynthia-Chris-Night-of-the-Creeps",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5449047_JQy8jS.webp"
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5621544_fXRY7e.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -525,7 +533,111 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48444-5635967": {
+    "item_id": "ctbids-48444-5635967",
+    "listing_url": "https://ctbids.com/estate-sale/48444/item/5635967/PICK-UP-GUIDELINES",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635967_d6HDTl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48349-5626549": {
+    "item_id": "ctbids-48349-5626549",
+    "listing_url": "https://ctbids.com/estate-sale/48349/item/5626549/2020-Bowman-1st-Edition-Robert-Puason-BFE145-PSA-9-Oakland-Athletics",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5042612_w0k24B.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-13747-442": {
+    "item_id": "govdeals-13747-442",
+    "listing_url": "https://www.govdeals.com/en/asset/442/13747",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/13747/13747_442_2604fb16-2f0b-44f3-adf4-0633f4f33a1e.jpg?cb=260918100526"
+    ],
+    "description": "18 Plastic chairs",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48317-5623956": {
+    "item_id": "ctbids-48317-5623956",
+    "listing_url": "https://ctbids.com/estate-sale/48317/item/5623956/Hand-Painted-Ceramic-Border-Tile-Trim-6-Pieces-Blue-Acanthus-Gold-Scroll",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5623956_GgWrbX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -553,6 +665,60 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48264-5617699": {
+    "item_id": "ctbids-48264-5617699",
+    "listing_url": "https://ctbids.com/estate-sale/48264/item/5617699/Traditional-Japanese-Style-Multi-Colored-Striped-Glaze-Rice-Bowls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617699_QyNDxX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47697-5561947": {
+    "item_id": "ctbids-47697-5561947",
+    "listing_url": "https://ctbids.com/estate-sale/47697/item/5561947/Ardalt-Japan-Kewpie-Dolls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5561947_t3gyrc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -785,56 +951,6 @@
       }
     ]
   },
-  "ctbids-48264-5617699": {
-    "item_id": "ctbids-48264-5617699",
-    "listing_url": "https://ctbids.com/estate-sale/48264/item/5617699/Traditional-Japanese-Style-Multi-Colored-Striped-Glaze-Rice-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617699_QyNDxX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48349-5625862": {
-    "item_id": "ctbids-48349-5625862",
-    "listing_url": "https://ctbids.com/estate-sale/48349/item/5625862/One-Piece-Series-2-Holographic-Trading-Stickers-2-Packs-5-Stickers-Gear-5-Luffy-Chase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5625862_uu6VTm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48229-5623945": {
     "item_id": "ctbids-48229-5623945",
     "listing_url": "https://ctbids.com/estate-sale/48229/item/5623945/Contemporary-Oval-Glass-Top-Dining-Table-with-Sculptural-Wood-Base",
@@ -865,31 +981,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48337/item/5617199/NECA-Halloween-2018-Laurie-Strode-Figure-Jamie-Lee-Curtis-Horror-Myers-New",
     "images": [
       "https://image.ctbids.com/seller/2026-09-13T622b70/5617199_yrPEUx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48337-5621544": {
-    "item_id": "ctbids-48337-5621544",
-    "listing_url": "https://ctbids.com/estate-sale/48337/item/5621544/Jill-Whitlow-Jason-Lively-signed-8-10-Photo-Cynthia-Chris-Night-of-the-Creeps",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5621544_fXRY7e.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -960,81 +1051,6 @@
       }
     ]
   },
-  "ctbids-47697-5561947": {
-    "item_id": "ctbids-47697-5561947",
-    "listing_url": "https://ctbids.com/estate-sale/47697/item/5561947/Ardalt-Japan-Kewpie-Dolls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5561947_t3gyrc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48444-5635967": {
-    "item_id": "ctbids-48444-5635967",
-    "listing_url": "https://ctbids.com/estate-sale/48444/item/5635967/PICK-UP-GUIDELINES",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635967_d6HDTl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48349-5626549": {
-    "item_id": "ctbids-48349-5626549",
-    "listing_url": "https://ctbids.com/estate-sale/48349/item/5626549/2020-Bowman-1st-Edition-Robert-Puason-BFE145-PSA-9-Oakland-Athletics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5042612_w0k24B.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "277431851": {
     "item_id": "277431851",
     "listing_url": "https://shopgoodwill.com/item/277431851",
@@ -1069,36 +1085,6 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Lower-priority term 'tumbled stones' in title (-10)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277320426": {
-    "item_id": "277320426",
-    "listing_url": "https://shopgoodwill.com/item/277320426",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/2bfe251e-f006-436f-8eac-4434e20be6fadmin_09151.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/7894e18a-5c95-4345-b59e-5daa66a2dfd8dmin_09152.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/fd642dbb-0288-40b0-88db-31c205cd86cedmin_09153.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/211df7d0-1462-4d2b-8640-285e3d726351dmin_09154.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/deb56e2c-9ad5-4076-9c3f-82cd2a1bf7f7dmin_09155.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/653c1258-e055-4e90-8a3e-7771a21a6e8admin_09156.jpg"
-    ],
-    "description": "Joyoldelf Tobacco Pipe Set\nTobacco Smoking Pipe with Accessories\nWood-Grain Finish Resin/Wood, Set Includes Box, Pouch, and Guide\nA complete tobacco pipe smoking set by Joyoldelf, designed for both beginners and experienced enthusiasts. The set features a classic curved stem pipe with a decorative wood-grain finish bowl, offering a traditional aesthetic combined with modern durability. Included instructional materials and protective accessories make this a comprehensive kit for those entering the hobby of pipe smoking.\nJoyoldelf branded tobacco pipe with a brown wood-grain finish and black acrylic stem\nSilver-toned band accent with 'S' insignia marking the stem transition\nIncludes original Joyoldelf textured storage box and a soft brown drawstring protective pouch\nAccompanied by the \"Joyoldelf Beginners Guide to Tobacco Pipe Smoking\" instructional booklet\nCondition:\nPipe appears to be in unused condition with a clean bowl interior and high-gloss finish on the stem. The exterior of the bowl is free of chips, cracks, or heat damage. The storage box is structurally sound but shows light surface wear and remains of a circular adhesive label on one side. The fabric pouch and guide booklet are intact and in good condition.",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -1147,34 +1133,6 @@
       }
     ]
   },
-  "277549053": {
-    "item_id": "277549053",
-    "listing_url": "https://shopgoodwill.com/item/277549053",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/71f8784d-39c3-490a-bf51-5df53000d120onro_08311.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/eb7d4f8f-de6f-416a-9d5d-34932f350188onro_08312.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/650cc10b-f2c0-4efd-aea8-02033c3653e4onro_08313.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/3da6449e-b5c2-46b7-8dad-e1b430ed1ca2onro_08314.jpg"
-    ],
-    "description": "Prohibited Item",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "277828056": {
     "item_id": "277828056",
     "listing_url": "https://shopgoodwill.com/item/277828056",
@@ -1203,6 +1161,64 @@
           "9 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+13)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277320426": {
+    "item_id": "277320426",
+    "listing_url": "https://shopgoodwill.com/item/277320426",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/2bfe251e-f006-436f-8eac-4434e20be6fadmin_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/7894e18a-5c95-4345-b59e-5daa66a2dfd8dmin_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/fd642dbb-0288-40b0-88db-31c205cd86cedmin_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/211df7d0-1462-4d2b-8640-285e3d726351dmin_09154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/deb56e2c-9ad5-4076-9c3f-82cd2a1bf7f7dmin_09155.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-15/653c1258-e055-4e90-8a3e-7771a21a6e8admin_09156.jpg"
+    ],
+    "description": "Joyoldelf Tobacco Pipe Set\nTobacco Smoking Pipe with Accessories\nWood-Grain Finish Resin/Wood, Set Includes Box, Pouch, and Guide\nA complete tobacco pipe smoking set by Joyoldelf, designed for both beginners and experienced enthusiasts. The set features a classic curved stem pipe with a decorative wood-grain finish bowl, offering a traditional aesthetic combined with modern durability. Included instructional materials and protective accessories make this a comprehensive kit for those entering the hobby of pipe smoking.\nJoyoldelf branded tobacco pipe with a brown wood-grain finish and black acrylic stem\nSilver-toned band accent with 'S' insignia marking the stem transition\nIncludes original Joyoldelf textured storage box and a soft brown drawstring protective pouch\nAccompanied by the \"Joyoldelf Beginners Guide to Tobacco Pipe Smoking\" instructional booklet\nCondition:\nPipe appears to be in unused condition with a clean bowl interior and high-gloss finish on the stem. The exterior of the bowl is free of chips, cracks, or heat damage. The storage box is structurally sound but shows light surface wear and remains of a circular adhesive label on one side. The fabric pouch and guide booklet are intact and in good condition.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277549053": {
+    "item_id": "277549053",
+    "listing_url": "https://shopgoodwill.com/item/277549053",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/71f8784d-39c3-490a-bf51-5df53000d120onro_08311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/eb7d4f8f-de6f-416a-9d5d-34932f350188onro_08312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/650cc10b-f2c0-4efd-aea8-02033c3653e4onro_08313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/3da6449e-b5c2-46b7-8dad-e1b430ed1ca2onro_08314.jpg"
+    ],
+    "description": "Prohibited Item",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
