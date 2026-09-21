@@ -17,7 +17,6 @@
       "Opportunity term 'lot' in title (+5)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
-      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -25,15 +24,52 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 37,
-        "relative_score": 1.057,
+        "score": 35,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'as found' in description (+8)",
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
-          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277948525": {
+    "item_id": "277948525",
+    "listing_url": "https://shopgoodwill.com/item/277948525",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/193/Items/2026-07-30/1faa6da2-e076-4984-a902-93d86c7fabcdkson_07301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/193/Items/2026-07-30/83e84fde-e124-4899-a5b1-9de861b02c6bkson_07302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/193/Items/2026-07-30/c0b63e8b-7331-4504-a795-33374cbcf4cbkson_07303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/193/Items/2026-07-30/c0aa415f-ad41-4c9f-ba2c-5de32caf93d3kson_07304.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/193/Items/2026-07-30/dbb36d3a-9491-49bb-9f9b-849b0b76a294kson_07305.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/193/Items/2026-07-30/9845e2e1-3cf6-47f8-9230-b38e7184881ekson_07306.jpg"
+    ],
+    "description": "Set of two vintage glass insulators, one in clear glass and the other in blue-green glass, each approximately 4 inches tall.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 38,
+        "relative_score": 1.267,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+5)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -145,37 +181,6 @@
       }
     ]
   },
-  "ctbids-48510-5641495": {
-    "item_id": "ctbids-48510-5641495",
-    "listing_url": "https://ctbids.com/estate-sale/48510/item/5641495/Vintage-Book-Collection-Bookend-Display",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641495_pvzCuc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 16,
-        "relative_score": 0.471,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48510-5641035": {
     "item_id": "ctbids-48510-5641035",
     "listing_url": "https://ctbids.com/estate-sale/48510/item/5641035/Collection-of-Antique-Chess-Reference-Books",
@@ -198,6 +203,37 @@
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48510-5641495": {
+    "item_id": "ctbids-48510-5641495",
+    "listing_url": "https://ctbids.com/estate-sale/48510/item/5641495/Vintage-Book-Collection-Bookend-Display",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641495_pvzCuc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 14,
+        "relative_score": 0.412,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -321,60 +357,6 @@
       }
     ]
   },
-  "govdeals-19334-1152": {
-    "item_id": "govdeals-19334-1152",
-    "listing_url": "https://www.govdeals.com/en/asset/1152/19334",
-    "images": [],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 13,
-        "relative_score": 0.406,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "govdeals-26030-225": {
-    "item_id": "govdeals-26030-225",
-    "listing_url": "https://www.govdeals.com/en/asset/225/26030",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/26030/26030_225_5d5e7eb9-d49f-418c-b430-6284468dfc0f.jpg?cb=260918114924",
-      "https://webassets.lqdt1.com/assets/photos/26030/26030_225_7df46f21-ebc2-4581-a44e-ca82d7d3f5b7.jpg?cb=260918114924",
-      "https://webassets.lqdt1.com/assets/photos/26030/26030_225_b0e75662-9d4d-45b6-ab0e-567f4ea95a44.jpg?cb=260918114920"
-    ],
-    "description": "Lot of 15 lenovo Thinkpads .\nREMOVAL TERMS: Buyer is responsible for removal. LOADOUT IS BY LOCAL PICK UP ONLY.\nThe buyer is responsible for all aspects of pick-up / removal, including but not limited to packing, loading, transportation and exporting. Note: LOCAL PICK UP ONLY. MUST HAVE ACCESS TO LOCAL MILITARY BASE IN MILLINGTON, TN. All items must be removed within 10 (ten) business days from auction closure, unless otherwise stated in the asset description. If any item(s) is not removed within the allotted timeframe, the item(s) may be declared abandoned.\nThis item offered is used and may contain defects not immediately detectable. All property is offered for sale \"AS IS, WHERE IS\". Millington Naval Base-Gov Deals makes no warranty, guarantee or representation of any kind, expressed or implied, as to the merchantability or fitness for any purpose of the property offered for sale. All information is believed accurate, but no warranties are made.\nAll items must be picked-up / removed within 10 (ten) business days from auction closure, unless otherwise stated in the asset description. If any item(s) is not removed within the allotted timeframe, the item(s) may be declared abandoned.\n“All laptops are fully tested and operational. Units are in used condition and may have cosmetic scratches or scuffs. NO OPERATING SYSTEM, NO POWER SUPPLY.”",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 13,
-        "relative_score": 0.406,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48407-5633514": {
     "item_id": "ctbids-48407-5633514",
     "listing_url": "https://ctbids.com/estate-sale/48407/item/5633514/Vintage-German-Beer-Steins",
@@ -431,39 +413,57 @@
       }
     ]
   },
-  "277840405": {
-    "item_id": "277840405",
-    "listing_url": "https://shopgoodwill.com/item/277840405",
+  "govdeals-19334-1152": {
+    "item_id": "govdeals-19334-1152",
+    "listing_url": "https://www.govdeals.com/en/asset/1152/19334",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/6fcdd2c0-6562-43d1-8ea0-fc6b7027d096auer_09201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/e0e86e01-dfa2-4daf-988f-09a0b3a310f5auer_09202.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/ca1cd38d-6976-4602-b1c1-d3a5b9fa08aaauer_09203.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/2f768706-030f-4773-8b93-f1e5f6eb2447auer_09204.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/ca899a75-b9e3-45a0-adbf-3ff8751e2391auer_09205.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/76fe671f-abd2-4c57-8eb0-d2e5f51ad780auer_09206.jpg"
+      "https://webassets.lqdt1.com/assets/photos/19334/19334_1152_c6174901-8ba0-49f4-942a-9a4cbd5ac17f.jpg?cb=260921105117"
     ],
-    "description": "Product Overview:\nThis listing features a mixed lot of assorted mineral and crystal specimens including various geodes, rough stones, and crystal fragments. The collection contains quartz geodes with visible crystal interiors, amethyst clusters, and other colorful minerals in shades of purple, blue, white, and brown.\n\nSpecifications:\n- Natural, unpolished mineral and crystal specimens\n- Includes quartz geodes with crystalline interiors\n- Contains amethyst clusters and assorted minerals\n- Varied sizes from small fragments to larger specimens\n- Approximate total weight: 3 pounds\n\nThis lot consists of minerals and crystals in used or found condition.",
+    "description": "Sales to Employees:       Pursuant to MS Code 25-4-105 (3) (b), school board members and district employees, as well as the spouses and dependent children of the school board members and the district employees of the Seller are *NOT ELIGIBLE TO BID* on the property listed for auction.\n***** PLEASE NOTE ... DUE TO THE COST OF MATERIALS, THE FOLLOWING CHANGES HAVE BEEN MADE:\n⭐ Buyer arranged shipping will be accepted (see below for materials/handling fees by Seller), but the Buyer will be responsible for selecting their own carrier, negotiate rates, shipping terms, and will remit payment directly to the carrier/shipper of their choice. At NO time will the Seller be liable for any shipping fees. Buyer will provide their own shipping insurance and will NOT hold the Seller liable for any damage incurred during shipping.\n⭐ The Seller will shrink wrap the pallet and apply the prepaid label to the outside of the pallet/box. Every effort will be made to package the items in a safe and secure manner, but the Seller is NOT liable for damages incurred during shipping.\n⭐ A 'Prepaid Label Shipping Waiver for Assets Won on GovDeals' MUST be completed and returned to the Seller prior to pick up. If this is not completed, the Seller will NOT release the items.\n⭐ IF the Buyer arranges their own shipping, there will be a materials/handling FEE of $50.00 PER PALLET or LOT. Additional fees will be applied if boxes are requested ... $5.00 per box and $50.00 per Gaylord.\n* Items MUST be picked up within 10 days after auction ends (or your account could be locked).\n✳️   See attached Video & PDF files for serial numbers, model info, device capacity, and any known defects that were found.\nNO further testing was done on these.\n* These have been password unlocked, wiped, reset to factory settings, disowned from our school district, and brought back to \"HELLO' screen or main screen to verify they are working.\n✳️✳️   Please remember ... all purchases from GovDeals are AS IS, with NO guarantees or warranties.  If you would like to inspect this lot prior to bidding, you MUST schedule an appointment to do so.\n* In regard to accessories, attachments, manuals, cords, etc., if it is NOT PICTURED, it is NOT INCLUDED in the sale of the item.\n* Call 901-584-7664 or e-mail kay.shelton@dcsms.org for scheduling.",
     "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "Opportunity term 'lot' in title (+5)",
+      "Shipping is calculated and not included in the price (0)",
+      "Base score (+8)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 13,
+        "relative_score": 0.406,
         "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "Opportunity term 'lot' in title (+5)",
+          "Shipping is calculated and not included in the price (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-26030-225": {
+    "item_id": "govdeals-26030-225",
+    "listing_url": "https://www.govdeals.com/en/asset/225/26030",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/26030/26030_225_5d5e7eb9-d49f-418c-b430-6284468dfc0f.jpg?cb=260918114924",
+      "https://webassets.lqdt1.com/assets/photos/26030/26030_225_7df46f21-ebc2-4581-a44e-ca82d7d3f5b7.jpg?cb=260918114924",
+      "https://webassets.lqdt1.com/assets/photos/26030/26030_225_b0e75662-9d4d-45b6-ab0e-567f4ea95a44.jpg?cb=260918114920"
+    ],
+    "description": "Lot of 15 lenovo Thinkpads .\nREMOVAL TERMS: Buyer is responsible for removal. LOADOUT IS BY LOCAL PICK UP ONLY.\nThe buyer is responsible for all aspects of pick-up / removal, including but not limited to packing, loading, transportation and exporting. Note: LOCAL PICK UP ONLY. MUST HAVE ACCESS TO LOCAL MILITARY BASE IN MILLINGTON, TN. All items must be removed within 10 (ten) business days from auction closure, unless otherwise stated in the asset description. If any item(s) is not removed within the allotted timeframe, the item(s) may be declared abandoned.\nThis item offered is used and may contain defects not immediately detectable. All property is offered for sale \"AS IS, WHERE IS\". Millington Naval Base-Gov Deals makes no warranty, guarantee or representation of any kind, expressed or implied, as to the merchantability or fitness for any purpose of the property offered for sale. All information is believed accurate, but no warranties are made.\nAll items must be picked-up / removed within 10 (ten) business days from auction closure, unless otherwise stated in the asset description. If any item(s) is not removed within the allotted timeframe, the item(s) may be declared abandoned.\n“All laptops are fully tested and operational. Units are in used condition and may have cosmetic scratches or scuffs. NO OPERATING SYSTEM, NO POWER SUPPLY.”",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 13,
+        "relative_score": 0.406,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+5)",
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
         ],
         "matched_keywords": []
       }
@@ -523,60 +523,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48566-5649816": {
-    "item_id": "ctbids-48566-5649816",
-    "listing_url": "https://ctbids.com/estate-sale/48566/item/5649816/Housewares-International-Cream-Fluted-Stoneware-Coffee-Mug-16-oz",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-20T075c3c/5335505_DRXLzs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48407-5627985": {
-    "item_id": "ctbids-48407-5627985",
-    "listing_url": "https://ctbids.com/estate-sale/48407/item/5627985/Mystery-Lot-Beanie-Babies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5627985_TWiATH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -692,29 +638,120 @@
       }
     ]
   },
-  "govdeals-182-583": {
-    "item_id": "govdeals-182-583",
-    "listing_url": "https://www.govdeals.com/en/asset/583/182",
+  "277840405": {
+    "item_id": "277840405",
+    "listing_url": "https://shopgoodwill.com/item/277840405",
     "images": [
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_1dceb07e-409e-4154-8638-fb32d31b1b55.jpg?cb=260914091603",
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_ace9c61c-1bd9-4477-86e9-98d6988a3c91.jpg?cb=260914091603",
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_c1c9e53a-ae69-48ce-a046-56219283d5fa.jpg?cb=260914091603",
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_ec5e3e06-14e8-40ec-b308-707811301645.jpg?cb=260914091603"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/6fcdd2c0-6562-43d1-8ea0-fc6b7027d096auer_09201.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/e0e86e01-dfa2-4daf-988f-09a0b3a310f5auer_09202.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/ca1cd38d-6976-4602-b1c1-d3a5b9fa08aaauer_09203.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/2f768706-030f-4773-8b93-f1e5f6eb2447auer_09204.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/ca899a75-b9e3-45a0-adbf-3ff8751e2391auer_09205.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-20/76fe671f-abd2-4c57-8eb0-d2e5f51ad780auer_09206.jpg"
     ],
-    "description": "Winchester Ranger-00 buck (9 pellet) shotgun shells-45 boxes (250 round boxes) total=11250\nWinchester Ranger-slugs-1 box (250 round box) total=250\nFederal Ammunition-00 buck (9 pellet) shotgun shells-31 boxes (250 round box) total=7750\nWinchester Ranger .38 special +P-1 box (500 round box) total=500\nWinchester Ranger .380-1 box (550 round box) total=500\nPrecision Delta .40 cal-5 boxes (1000 round box) total=5000",
+    "description": "Product Overview:\nThis listing features a mixed lot of assorted mineral and crystal specimens including various geodes, rough stones, and crystal fragments. The collection contains quartz geodes with visible crystal interiors, amethyst clusters, and other colorful minerals in shades of purple, blue, white, and brown.\n\nSpecifications:\n- Natural, unpolished mineral and crystal specimens\n- Includes quartz geodes with crystalline interiors\n- Contains amethyst clusters and assorted minerals\n- Varied sizes from small fragments to larger specimens\n- Approximate total weight: 3 pounds\n\nThis lot consists of minerals and crystals in used or found condition.",
     "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 10,
+        "relative_score": 0.333,
         "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48566-5649816": {
+    "item_id": "ctbids-48566-5649816",
+    "listing_url": "https://ctbids.com/estate-sale/48566/item/5649816/Housewares-International-Cream-Fluted-Stoneware-Coffee-Mug-16-oz",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-20T075c3c/5335505_DRXLzs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48407-5627985": {
+    "item_id": "ctbids-48407-5627985",
+    "listing_url": "https://ctbids.com/estate-sale/48407/item/5627985/Mystery-Lot-Beanie-Babies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5627985_TWiATH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48510-5652939": {
+    "item_id": "ctbids-48510-5652939",
+    "listing_url": "https://ctbids.com/estate-sale/48510/item/5652939/Cutlery-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5652939_cOiqhs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -796,6 +833,34 @@
           "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "govdeals-182-583": {
+    "item_id": "govdeals-182-583",
+    "listing_url": "https://www.govdeals.com/en/asset/583/182",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_1dceb07e-409e-4154-8638-fb32d31b1b55.jpg?cb=260914091603",
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_ace9c61c-1bd9-4477-86e9-98d6988a3c91.jpg?cb=260914091603",
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_c1c9e53a-ae69-48ce-a046-56219283d5fa.jpg?cb=260914091603",
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_ec5e3e06-14e8-40ec-b308-707811301645.jpg?cb=260914091603"
+    ],
+    "description": "Winchester Ranger-00 buck (9 pellet) shotgun shells-45 boxes (250 round boxes) total=11250\nWinchester Ranger-slugs-1 box (250 round box) total=250\nFederal Ammunition-00 buck (9 pellet) shotgun shells-31 boxes (250 round box) total=7750\nWinchester Ranger .38 special +P-1 box (500 round box) total=500\nWinchester Ranger .380-1 box (550 round box) total=500\nPrecision Delta .40 cal-5 boxes (1000 round box) total=5000",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
         ],
         "matched_keywords": []
       }
