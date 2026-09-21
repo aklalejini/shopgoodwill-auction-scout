@@ -17,6 +17,7 @@
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Target keyword 'briar' in title (+5)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -24,8 +25,8 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 43,
-        "relative_score": 1.229,
+        "score": 45,
+        "relative_score": 1.286,
         "score_reasons": [
           "Opportunity term 'pipe lot' in title (+9)",
           "Opportunity term 'collection' in description (+7)",
@@ -33,6 +34,7 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Target keyword 'briar' in title (+5)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -122,11 +124,67 @@
       }
     ]
   },
+  "ctbids-47511-5607754": {
+    "item_id": "ctbids-47511-5607754",
+    "listing_url": "https://ctbids.com/estate-sale/47511/item/5607754/Vintage-Painted-Porcelain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5477354_DhIgeB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47263-5568716": {
     "item_id": "ctbids-47263-5568716",
     "listing_url": "https://ctbids.com/estate-sale/47263/item/5568716/Vintage-Phone",
     "images": [
       "https://image.ctbids.com/seller/2026-08-27T3a0468/5568716_ELcD0K.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48407-5631837": {
+    "item_id": "ctbids-48407-5631837",
+    "listing_url": "https://ctbids.com/estate-sale/48407/item/5631837/Vintage-Men-s-Gray-Suede-Lederhosen",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631837_AgXmuC.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -176,15 +234,15 @@
       }
     ]
   },
-  "ctbids-48407-5631837": {
-    "item_id": "ctbids-48407-5631837",
-    "listing_url": "https://ctbids.com/estate-sale/48407/item/5631837/Vintage-Men-s-Gray-Suede-Lederhosen",
+  "ctbids-47679-5590389": {
+    "item_id": "ctbids-47679-5590389",
+    "listing_url": "https://ctbids.com/estate-sale/47679/item/5590389/Perfume-Bottle-Trinket-Dish-Lot-with-Mikasa-Snowflake-Ornament",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631837_AgXmuC.webp"
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5590389_hb2d69.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -192,10 +250,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -358,60 +416,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47511-5607754": {
-    "item_id": "ctbids-47511-5607754",
-    "listing_url": "https://ctbids.com/estate-sale/47511/item/5607754/Vintage-Painted-Porcelain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5477354_DhIgeB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47679-5590389": {
-    "item_id": "ctbids-47679-5590389",
-    "listing_url": "https://ctbids.com/estate-sale/47679/item/5590389/Perfume-Bottle-Trinket-Dish-Lot-with-Mikasa-Snowflake-Ornament",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5590389_hb2d69.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -827,6 +831,49 @@
       }
     ]
   },
+  "277243041": {
+    "item_id": "277243041",
+    "listing_url": "https://shopgoodwill.com/item/277243041",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/337a3544-972e-48b8-884f-de64bb8b8ca7mvan_09141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/bc032acf-cc9f-4485-9629-eed4b37ba4bamvan_09142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/ad60346d-5d5c-42cc-926a-4a5f1ad8bda7mvan_09143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/bac17736-8a44-4ba5-b41c-486b21dfe0f4mvan_09144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/0d8e93ca-b06e-4b6a-87d4-7523ff7d9dc7mvan_09145.jpg"
+    ],
+    "description": "Primary Item:\nBrand:\nUnbranded\nStone(s)\n: Assorted Gemstones\n**\nPlease Note\n: Gemstones/precious stones are tested using Presidium gem testers. The Presidium tester does not differentiate between natural and lab created stones.**\nMaterial\n: Silver Tone\nType\n: Mixed Stone\nCondition:\nPre-owned - Good\nTotal Weight:\n2.8lbs\nIMPORTANT! HANDLING TIMES ON ALL ORDERS MAY TAKE UP TO 5 BUSSINESS DAYS TO SHIP.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'craft' in title (-6)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+9)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'craft' in title (-6)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+9)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277344611": {
     "item_id": "277344611",
     "listing_url": "https://shopgoodwill.com/item/277344611",
@@ -858,47 +905,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277243041": {
-    "item_id": "277243041",
-    "listing_url": "https://shopgoodwill.com/item/277243041",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/337a3544-972e-48b8-884f-de64bb8b8ca7mvan_09141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/bc032acf-cc9f-4485-9629-eed4b37ba4bamvan_09142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/ad60346d-5d5c-42cc-926a-4a5f1ad8bda7mvan_09143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/bac17736-8a44-4ba5-b41c-486b21dfe0f4mvan_09144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-14/0d8e93ca-b06e-4b6a-87d4-7523ff7d9dc7mvan_09145.jpg"
-    ],
-    "description": "Primary Item:\nBrand:\nUnbranded\nStone(s)\n: Assorted Gemstones\n**\nPlease Note\n: Gemstones/precious stones are tested using Presidium gem testers. The Presidium tester does not differentiate between natural and lab created stones.**\nMaterial\n: Silver Tone\nType\n: Mixed Stone\nCondition:\nPre-owned - Good\nTotal Weight:\n2.8lbs\nIMPORTANT! HANDLING TIMES ON ALL ORDERS MAY TAKE UP TO 5 BUSSINESS DAYS TO SHIP.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'craft' in title (-6)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+13)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'craft' in title (-6)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
       }
