@@ -15,6 +15,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,11 +23,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 25,
+        "relative_score": 0.833,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -74,6 +76,35 @@
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47636-5631609": {
+    "item_id": "ctbids-47636-5631609",
+    "listing_url": "https://ctbids.com/estate-sale/47636/item/5631609/Men-s-Vintage-Cuff-Links",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631609_D1vXyI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -128,6 +159,44 @@
           "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277344611": {
+    "item_id": "277344611",
+    "listing_url": "https://shopgoodwill.com/item/277344611",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/c0b5e8ec-c1e2-40e3-9256-178b01a5226auirk_09151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/f9b7f21b-d7d4-4615-9cf5-ff5e1a7f3d93uirk_09152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/e1ea438b-45d7-4bfd-856e-49860f6f7617uirk_09153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/8a971973-2c07-46b1-bca6-39ddc8134737uirk_09154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/1091ae92-959d-4b63-a428-595adef7f752uirk_09155.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/1463790f-56ce-44e8-9a34-85c8229d7cbduirk_09156.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/fde770a6-17bb-4d4d-923d-043c3ea7239duirk_09157.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/0cfbfe02-f12c-4539-b3b6-a3fc24895ec4uirk_09158.jpg"
+    ],
+    "description": "Item Description:\nLot of Cool Natural Treasures: Rocks, Crystals, Shells, Etc.\nApproximate Dimensions:\n13\" x 6\" x 8\"\nCondition:\nUsed Condition\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us using the \"Contact Seller\" tab in listing.\nWe describe our items to the best of our ability and try to incorporate as much research as possible, however, we are not experts in any field. Electronics are \"POWER TESTED ONLY\" and have\nNOT\nbeen function tested unless otherwise noted.\nGoodwill Industries of Ashtabula Inc. is changing lives through the power of work.\n**PLEASE NOTE** If the item is seasonal, it may be returned within 7 days of purchase BEFORE the holiday. If it is after the holiday, the return will NOT be processed.\nCustomer Service:\nOur Customer Service Department is accessible via the \"Contact Us\" link above. Customer messages are processed Monday through Friday between 8:00am to 4:00pm EST. We strive to respond to all customer messages within 48 hours.\nPayment:\nAuctions are easily and securely paid online using PayPal or Stripe. All major credit cards are accepted and processed through both. We cannot accept cash, checks or money orders. Effective 2020; Invoices include state sales tax on all orders, which is calculated using the total of the purchase price, handling, and shipping charges.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -214,33 +283,6 @@
       }
     ]
   },
-  "ctbids-47636-5631609": {
-    "item_id": "ctbids-47636-5631609",
-    "listing_url": "https://ctbids.com/estate-sale/47636/item/5631609/Men-s-Vintage-Cuff-Links",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631609_D1vXyI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48358-5620014": {
     "item_id": "ctbids-48358-5620014",
     "listing_url": "https://ctbids.com/estate-sale/48358/item/5620014/Vintage-Baseball-Cards-Pete-Rose-Johnny-Bench-Reggie-Jackson-and-More",
@@ -268,6 +310,87 @@
       }
     ]
   },
+  "ctbids-48601-5651291": {
+    "item_id": "ctbids-48601-5651291",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651291/Photograph-of-Father-James-St-Mary-s-Catholic-Church",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5543935_dZ4yXC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48601-5651334": {
+    "item_id": "ctbids-48601-5651334",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651334/Large-Clear-Glass-Hourglass-Vase-or-Hurricane-Candle-Holder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5277941_StbxEs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48443-5631884": {
+    "item_id": "ctbids-48443-5631884",
+    "listing_url": "https://ctbids.com/estate-sale/48443/item/5631884/Light-Blue-Armchairs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631884_Cmd1u3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48298-5613455": {
     "item_id": "ctbids-48298-5613455",
     "listing_url": "https://ctbids.com/estate-sale/48298/item/5613455/Vintage-Quilt",
@@ -288,6 +411,168 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47131-5637847": {
+    "item_id": "ctbids-47131-5637847",
+    "listing_url": "https://ctbids.com/estate-sale/47131/item/5637847/Monsac-Nardelli-And-black-leather-bag-with-crocodile-Embossed-Flap",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5637847_lgJvgf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47949-5644543": {
+    "item_id": "ctbids-47949-5644543",
+    "listing_url": "https://ctbids.com/estate-sale/47949/item/5644543/Entertain-The-Kids",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5644543_34u2Bo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47947-5639213": {
+    "item_id": "ctbids-47947-5639213",
+    "listing_url": "https://ctbids.com/estate-sale/47947/item/5639213/Thai-Temple-Rubbings-Not-Framed-in-Plastic-Protector",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639213_9uNnho.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47949-5627422": {
+    "item_id": "ctbids-47949-5627422",
+    "listing_url": "https://ctbids.com/estate-sale/47949/item/5627422/Need-A-Tan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5537179_mz93xl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48358-5619966": {
+    "item_id": "ctbids-48358-5619966",
+    "listing_url": "https://ctbids.com/estate-sale/48358/item/5619966/1963-Topps-Baseball-Card-Lou-Burdette-Milwaukee-Braves-Card-429",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5619966_nTBVgf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47949-5639354": {
+    "item_id": "ctbids-47949-5639354",
+    "listing_url": "https://ctbids.com/estate-sale/47949/item/5639354/Air-Force-Dress-Coat",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639354_UNIEm2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -326,42 +611,6 @@
       }
     ]
   },
-  "277344611": {
-    "item_id": "277344611",
-    "listing_url": "https://shopgoodwill.com/item/277344611",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/c0b5e8ec-c1e2-40e3-9256-178b01a5226auirk_09151.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/f9b7f21b-d7d4-4615-9cf5-ff5e1a7f3d93uirk_09152.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/e1ea438b-45d7-4bfd-856e-49860f6f7617uirk_09153.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/8a971973-2c07-46b1-bca6-39ddc8134737uirk_09154.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/1091ae92-959d-4b63-a428-595adef7f752uirk_09155.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/1463790f-56ce-44e8-9a34-85c8229d7cbduirk_09156.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/fde770a6-17bb-4d4d-923d-043c3ea7239duirk_09157.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/97/Items/2026-09-15/0cfbfe02-f12c-4539-b3b6-a3fc24895ec4uirk_09158.jpg"
-    ],
-    "description": "Item Description:\nLot of Cool Natural Treasures: Rocks, Crystals, Shells, Etc.\nApproximate Dimensions:\n13\" x 6\" x 8\"\nCondition:\nUsed Condition\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us using the \"Contact Seller\" tab in listing.\nWe describe our items to the best of our ability and try to incorporate as much research as possible, however, we are not experts in any field. Electronics are \"POWER TESTED ONLY\" and have\nNOT\nbeen function tested unless otherwise noted.\nGoodwill Industries of Ashtabula Inc. is changing lives through the power of work.\n**PLEASE NOTE** If the item is seasonal, it may be returned within 7 days of purchase BEFORE the holiday. If it is after the holiday, the return will NOT be processed.\nCustomer Service:\nOur Customer Service Department is accessible via the \"Contact Us\" link above. Customer messages are processed Monday through Friday between 8:00am to 4:00pm EST. We strive to respond to all customer messages within 48 hours.\nPayment:\nAuctions are easily and securely paid online using PayPal or Stripe. All major credit cards are accepted and processed through both. We cannot accept cash, checks or money orders. Effective 2020; Invoices include state sales tax on all orders, which is calculated using the total of the purchase price, handling, and shipping charges.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47131-5579629": {
     "item_id": "ctbids-47131-5579629",
     "listing_url": "https://ctbids.com/estate-sale/47131/item/5579629/Maurizio-Taiuti-Leopard-Print-Calf-Hair-Leather-Bag",
@@ -392,56 +641,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47131/item/5638046/Brahmin-croc-embossed-Purse-And-Tote",
     "images": [
       "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5638046_FhsBcE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47131-5637847": {
-    "item_id": "ctbids-47131-5637847",
-    "listing_url": "https://ctbids.com/estate-sale/47131/item/5637847/Monsac-Nardelli-And-black-leather-bag-with-crocodile-Embossed-Flap",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5637847_lgJvgf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48601-5651291": {
-    "item_id": "ctbids-48601-5651291",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651291/Photograph-of-Father-James-St-Mary-s-Catholic-Church",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5543935_dZ4yXC.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -512,61 +711,11 @@
       }
     ]
   },
-  "ctbids-48601-5651334": {
-    "item_id": "ctbids-48601-5651334",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651334/Large-Clear-Glass-Hourglass-Vase-or-Hurricane-Candle-Holder",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5277941_StbxEs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47949-5627207": {
     "item_id": "ctbids-47949-5627207",
     "listing_url": "https://ctbids.com/estate-sale/47949/item/5627207/Color-Jeans",
     "images": [
       "https://image.ctbids.com/seller/2026-09-14T038590/5538952_tTDYY7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47949-5644543": {
-    "item_id": "ctbids-47949-5644543",
-    "listing_url": "https://ctbids.com/estate-sale/47949/item/5644543/Entertain-The-Kids",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5644543_34u2Bo.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -637,61 +786,11 @@
       }
     ]
   },
-  "ctbids-47947-5639213": {
-    "item_id": "ctbids-47947-5639213",
-    "listing_url": "https://ctbids.com/estate-sale/47947/item/5639213/Thai-Temple-Rubbings-Not-Framed-in-Plastic-Protector",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639213_9uNnho.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47949-5627404": {
     "item_id": "ctbids-47949-5627404",
     "listing_url": "https://ctbids.com/estate-sale/47949/item/5627404/Natural-Look",
     "images": [
       "https://image.ctbids.com/seller/2026-09-14T038590/5538113_OCRyMh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47949-5627422": {
-    "item_id": "ctbids-47949-5627422",
-    "listing_url": "https://ctbids.com/estate-sale/47949/item/5627422/Need-A-Tan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5537179_mz93xl.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -742,31 +841,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48415/item/5548667/Mini-Lane-Chest-and-More",
     "images": [
       "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548667_r3DFCZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48358-5619966": {
-    "item_id": "ctbids-48358-5619966",
-    "listing_url": "https://ctbids.com/estate-sale/48358/item/5619966/1963-Topps-Baseball-Card-Lou-Burdette-Milwaukee-Braves-Card-429",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5619966_nTBVgf.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -862,61 +936,11 @@
       }
     ]
   },
-  "ctbids-47949-5639354": {
-    "item_id": "ctbids-47949-5639354",
-    "listing_url": "https://ctbids.com/estate-sale/47949/item/5639354/Air-Force-Dress-Coat",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639354_UNIEm2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48358-5620010": {
     "item_id": "ctbids-48358-5620010",
     "listing_url": "https://ctbids.com/estate-sale/48358/item/5620010/1991-Hank-Aaron-Baseball-Hologram-Insert-Card-HH1",
     "images": [
       "https://image.ctbids.com/seller/2026-09-12Te01775/5620010_u1OPHW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48443-5631884": {
-    "item_id": "ctbids-48443-5631884",
-    "listing_url": "https://ctbids.com/estate-sale/48443/item/5631884/Light-Blue-Armchairs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631884_Cmd1u3.webp"
     ],
     "description": "",
     "score_reasons": [

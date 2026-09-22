@@ -197,6 +197,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -204,11 +205,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -226,6 +228,37 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48601-5651337": {
+    "item_id": "ctbids-48601-5651337",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651337/Vintage-Jim-Reeves-He-ll-Have-to-Go-RCA-Victor-47-7643-45-RPM-Vinyl-Record",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5433516_4eAtvW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -237,9 +270,43 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277786509": {
+    "item_id": "277786509",
+    "listing_url": "https://shopgoodwill.com/item/277786509",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/ddf670d5-e5d3-4d5f-86e6-ca7e209435a3ason_09191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/8b0e74fa-e666-4349-9293-f5280721e6cfason_09192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/db5a924c-1265-4faa-9200-4fc71b729b01ason_09193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/3b24fb5a-c894-412b-b710-b4071d561609ason_09194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/79057a79-8221-46d6-bd49-8a4f668fee12ason_09195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/9f7f0eab-30cb-43bd-b21b-35fd89f9c37bason_09196.jpg"
+    ],
+    "description": "Item Description:\nQuartz Pyrite Specimen\nApproximate Measurements (inches):\n5.5 x 4 x 3\nWeight (in lbs):\n2.2\nCondition:\nGood. Wear includes chips, discoloration, dust/dirt, scratches, scuffs\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -299,15 +366,16 @@
       }
     ]
   },
-  "ctbids-48601-5651337": {
-    "item_id": "ctbids-48601-5651337",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651337/Vintage-Jim-Reeves-He-ll-Have-to-Go-RCA-Victor-47-7643-45-RPM-Vinyl-Record",
+  "ctbids-48486-5645250": {
+    "item_id": "ctbids-48486-5645250",
+    "listing_url": "https://ctbids.com/estate-sale/48486/item/5645250/Power-Tool-Lot-Chicago-Electric-Shear-Multi-Tool-Drill-Master-Grinder",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5433516_4eAtvW.webp"
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645250_rVM4bd.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -315,10 +383,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -434,15 +503,15 @@
       }
     ]
   },
-  "ctbids-48486-5645250": {
-    "item_id": "ctbids-48486-5645250",
-    "listing_url": "https://ctbids.com/estate-sale/48486/item/5645250/Power-Tool-Lot-Chicago-Electric-Shear-Multi-Tool-Drill-Master-Grinder",
+  "ctbids-48601-5651305": {
+    "item_id": "ctbids-48601-5651305",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651305/BW-Next-Multicolor-Striped-Rectangular-Ceramic-Serving-Platter-Tray",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645250_rVM4bd.webp"
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5604215_6l6eOF.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -453,7 +522,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -483,6 +552,87 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48053-5585895": {
+    "item_id": "ctbids-48053-5585895",
+    "listing_url": "https://ctbids.com/estate-sale/48053/item/5585895/Things-That-Go-Vroom-Assorted-Toy-Cars-Trucks-Motorcycles-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5585895_BqE7wA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48358-5620031": {
+    "item_id": "ctbids-48358-5620031",
+    "listing_url": "https://ctbids.com/estate-sale/48358/item/5620031/2026-Topps-Flagship-Football-Jadarian-Price-Rookie-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5620031_jwLd7k.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47947-5649191": {
+    "item_id": "ctbids-47947-5649191",
+    "listing_url": "https://ctbids.com/estate-sale/47947/item/5649191/3-Double-Sided-Hanging-Jewelry-Storage",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5649191_lLB84g.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -551,63 +701,6 @@
       }
     ]
   },
-  "277786509": {
-    "item_id": "277786509",
-    "listing_url": "https://shopgoodwill.com/item/277786509",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/ddf670d5-e5d3-4d5f-86e6-ca7e209435a3ason_09191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/8b0e74fa-e666-4349-9293-f5280721e6cfason_09192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/db5a924c-1265-4faa-9200-4fc71b729b01ason_09193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/3b24fb5a-c894-412b-b710-b4071d561609ason_09194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/79057a79-8221-46d6-bd49-8a4f668fee12ason_09195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-19/9f7f0eab-30cb-43bd-b21b-35fd89f9c37bason_09196.jpg"
-    ],
-    "description": "Item Description:\nQuartz Pyrite Specimen\nApproximate Measurements (inches):\n5.5 x 4 x 3\nWeight (in lbs):\n2.2\nCondition:\nGood. Wear includes chips, discoloration, dust/dirt, scratches, scuffs\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48418-5631829": {
-    "item_id": "ctbids-48418-5631829",
-    "listing_url": "https://ctbids.com/estate-sale/48418/item/5631829/Limited-Edition-Holiday-Barbie-s-05-04-01-And-2011",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631829_4KKYkl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "277988317": {
     "item_id": "277988317",
     "listing_url": "https://shopgoodwill.com/item/277988317",
@@ -635,6 +728,31 @@
           "Opportunity term 'vintage' in title (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48418-5631829": {
+    "item_id": "ctbids-48418-5631829",
+    "listing_url": "https://ctbids.com/estate-sale/48418/item/5631829/Limited-Edition-Holiday-Barbie-s-05-04-01-And-2011",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631829_4KKYkl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -690,56 +808,6 @@
       }
     ]
   },
-  "ctbids-48601-5651305": {
-    "item_id": "ctbids-48601-5651305",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651305/BW-Next-Multicolor-Striped-Rectangular-Ceramic-Serving-Platter-Tray",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5604215_6l6eOF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48053-5585895": {
-    "item_id": "ctbids-48053-5585895",
-    "listing_url": "https://ctbids.com/estate-sale/48053/item/5585895/Things-That-Go-Vroom-Assorted-Toy-Cars-Trucks-Motorcycles-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5585895_BqE7wA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48371-5648389": {
     "item_id": "ctbids-48371-5648389",
     "listing_url": "https://ctbids.com/estate-sale/48371/item/5648389/Husky-Commercial-Trash-Cans-With-Lids",
@@ -770,31 +838,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47636/item/5527186/Square-Pastel-Beaded-Necklace",
     "images": [
       "https://image.ctbids.com/seller/2026-08-17T6f1578/5527186_EjfEQk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48358-5620031": {
-    "item_id": "ctbids-48358-5620031",
-    "listing_url": "https://ctbids.com/estate-sale/48358/item/5620031/2026-Topps-Flagship-Football-Jadarian-Price-Rookie-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5620031_jwLd7k.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -995,31 +1038,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47636/item/5627400/Armitron-Anne-Klein-Timex-Indiglo-and-More-Ladies-Watches",
     "images": [
       "https://image.ctbids.com/seller/2026-09-14T038590/5627400_hsp2c5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47947-5649191": {
-    "item_id": "ctbids-47947-5649191",
-    "listing_url": "https://ctbids.com/estate-sale/47947/item/5649191/3-Double-Sided-Hanging-Jewelry-Storage",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5649191_lLB84g.webp"
     ],
     "description": "",
     "score_reasons": [

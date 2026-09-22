@@ -62,6 +62,7 @@
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'specimen' in description (+4)",
       "Lower-priority term 'possibly' in description (-4)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -69,13 +70,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 27,
-        "relative_score": 0.9,
+        "score": 31,
+        "relative_score": 1.033,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'specimen' in description (+4)",
           "Lower-priority term 'possibly' in description (-4)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -113,6 +115,35 @@
         "score_reasons": [
           "High-value signal '14k' in title (+22)",
           "Shipping is calculated and not included in the price (0)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47636-5617378": {
+    "item_id": "ctbids-47636-5617378",
+    "listing_url": "https://ctbids.com/estate-sale/47636/item/5617378/Sterling-Silver-Rhinestone-Encrusted-Round-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617378_saom9R.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 21,
+        "relative_score": 0.618,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
         "matched_keywords": []
@@ -173,15 +204,16 @@
       }
     ]
   },
-  "ctbids-47636-5617378": {
-    "item_id": "ctbids-47636-5617378",
-    "listing_url": "https://ctbids.com/estate-sale/47636/item/5617378/Sterling-Silver-Rhinestone-Encrusted-Round-Ring",
+  "ctbids-48030-5628443": {
+    "item_id": "ctbids-48030-5628443",
+    "listing_url": "https://ctbids.com/estate-sale/48030/item/5628443/Vintage-Photography-Collection-Kodak-Brownie-Polaroid-Viewers",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617378_saom9R.webp"
+      "https://image.ctbids.com/seller/2026-09-14T038590/5628443_nRYEg7.webp"
     ],
     "description": "",
     "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -189,10 +221,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -232,16 +265,16 @@
       }
     ]
   },
-  "ctbids-48030-5628443": {
-    "item_id": "ctbids-48030-5628443",
-    "listing_url": "https://ctbids.com/estate-sale/48030/item/5628443/Vintage-Photography-Collection-Kodak-Brownie-Polaroid-Viewers",
+  "ctbids-48601-5651262": {
+    "item_id": "ctbids-48601-5651262",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651262/Andy-Williams-Madrigal-45-RPM-Columbia-4-43015-Vintage-Vinyl-Record",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5628443_nRYEg7.webp"
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5420984_bCTDrY.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -249,11 +282,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48486-5641027": {
+    "item_id": "ctbids-48486-5641027",
+    "listing_url": "https://ctbids.com/estate-sale/48486/item/5641027/Vintage-Large-Glass-Demijohn-Jug-16-Inches-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641027_V8Ag39.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48448-5645303": {
+    "item_id": "ctbids-48448-5645303",
+    "listing_url": "https://ctbids.com/estate-sale/48448/item/5645303/Christmas-Pinecone-Wreath-Festive-Garden-Flag-Lot-HOMZ-Storage-Case-Dog-Angel-Banners",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645303_Pzyv8l.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -308,33 +399,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48601-5651262": {
-    "item_id": "ctbids-48601-5651262",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651262/Andy-Williams-Madrigal-45-RPM-Columbia-4-43015-Vintage-Vinyl-Record",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5420984_bCTDrY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -450,42 +514,15 @@
       }
     ]
   },
-  "ctbids-48486-5641027": {
-    "item_id": "ctbids-48486-5641027",
-    "listing_url": "https://ctbids.com/estate-sale/48486/item/5641027/Vintage-Large-Glass-Demijohn-Jug-16-Inches-Tall",
+  "ctbids-48601-5651292": {
+    "item_id": "ctbids-48601-5651292",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651292/Don-Pendleton-Mack-Bolan-Ballistic-Force-1508-Gold-Eagle-Paperback-Action-Thriller",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641027_V8Ag39.webp"
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5370752_AEnvhH.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48448-5645303": {
-    "item_id": "ctbids-48448-5645303",
-    "listing_url": "https://ctbids.com/estate-sale/48448/item/5645303/Christmas-Pinecone-Wreath-Festive-Garden-Flag-Lot-HOMZ-Storage-Case-Dog-Angel-Banners",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645303_Pzyv8l.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -496,7 +533,34 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48601-5651322": {
+    "item_id": "ctbids-48601-5651322",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651322/Alabama-Feels-So-Right-See-the-Embers-Feel-the-Flame-RCA-PB-12236-45-RPM-1981",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5631148_HnQvQh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -524,6 +588,87 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48391-5624493": {
+    "item_id": "ctbids-48391-5624493",
+    "listing_url": "https://ctbids.com/estate-sale/48391/item/5624493/1921-Certificate-of-Honor-Military-Photo",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5624493_88DZVb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48371-5647490": {
+    "item_id": "ctbids-48371-5647490",
+    "listing_url": "https://ctbids.com/estate-sale/48371/item/5647490/These-are-CSX-Transportation-16-oz-Tervis-Tumblers-the-classic-yellow",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647490_MzX3RI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47949-5627295": {
+    "item_id": "ctbids-47949-5627295",
+    "listing_url": "https://ctbids.com/estate-sale/47949/item/5627295/Fossil-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5541371_TBNqYL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -581,111 +726,11 @@
       }
     ]
   },
-  "ctbids-48391-5624493": {
-    "item_id": "ctbids-48391-5624493",
-    "listing_url": "https://ctbids.com/estate-sale/48391/item/5624493/1921-Certificate-of-Honor-Military-Photo",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5624493_88DZVb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48601-5651292": {
-    "item_id": "ctbids-48601-5651292",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651292/Don-Pendleton-Mack-Bolan-Ballistic-Force-1508-Gold-Eagle-Paperback-Action-Thriller",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5370752_AEnvhH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48391-5628541": {
     "item_id": "ctbids-48391-5628541",
     "listing_url": "https://ctbids.com/estate-sale/48391/item/5628541/Black-Americana-Housekeeper-Ceramic-Wood-Spoon-Holder-Coin-Bank-More",
     "images": [
       "https://image.ctbids.com/seller/2026-09-15Tb9129c/5628541_JLEAYm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48371-5647490": {
-    "item_id": "ctbids-48371-5647490",
-    "listing_url": "https://ctbids.com/estate-sale/48371/item/5647490/These-are-CSX-Transportation-16-oz-Tervis-Tumblers-the-classic-yellow",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647490_MzX3RI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48601-5651322": {
-    "item_id": "ctbids-48601-5651322",
-    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651322/Alabama-Feels-So-Right-See-the-Embers-Feel-the-Flame-RCA-PB-12236-45-RPM-1981",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5631148_HnQvQh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -906,31 +951,6 @@
       }
     ]
   },
-  "ctbids-47949-5627295": {
-    "item_id": "ctbids-47949-5627295",
-    "listing_url": "https://ctbids.com/estate-sale/47949/item/5627295/Fossil-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5541371_TBNqYL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47949-5637317": {
     "item_id": "ctbids-47949-5637317",
     "listing_url": "https://ctbids.com/estate-sale/47949/item/5637317/Rhinestone-Style",
@@ -968,9 +988,10 @@
     "description": "Garnet Quartz Loose Gemstones\nMaterial & Karats (if applicable):\nWeight:\n10 grams\nMarkings:\nCondition:\nFair - shows signs of wear\nGemstone(s):\nDisclaimer:\nGem stones are tested with the Presidium Gem Tester and are identified as such in the listing. However, differentiating between natural stones and synthetic stones is beyond the capability of our machine. Natural and synthetic stones may have minor flaws, scratches, or inclusions beyond our ability to identify precisely. You are bidding with this knowledge in mind.",
     "score_reasons": [
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+13)"
+      "Score boundary adjustment (+9)"
     ],
     "hunt_scores": [
       {
@@ -980,9 +1001,10 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+13)"
+          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }
