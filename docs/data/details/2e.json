@@ -124,6 +124,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -131,11 +132,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 16,
+        "relative_score": 0.471,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -371,14 +373,15 @@
       }
     ]
   },
-  "ctbids-48414-5630499": {
-    "item_id": "ctbids-48414-5630499",
-    "listing_url": "https://ctbids.com/estate-sale/48414/item/5630499/Christmas-music-box-in-working-condition-with-wind-up-key-in-back",
+  "ctbids-48486-5635885": {
+    "item_id": "ctbids-48486-5635885",
+    "listing_url": "https://ctbids.com/estate-sale/48486/item/5635885/Hot-Wheels-Lot-2004-Treasure-Hunts-T-Hunt-2-12-6-12-F1-Aston-Martin-Cards",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5630499_zUg6Nc.webp"
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635885_Ee6U9S.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -386,9 +389,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -478,33 +482,6 @@
         "score_reasons": [
           "Pickup-only limits the opportunity (0)",
           "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48486-5635885": {
-    "item_id": "ctbids-48486-5635885",
-    "listing_url": "https://ctbids.com/estate-sale/48486/item/5635885/Hot-Wheels-Lot-2004-Treasure-Hunts-T-Hunt-2-12-6-12-F1-Aston-Martin-Cards",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635885_Ee6U9S.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -717,6 +694,31 @@
     "listing_url": "https://ctbids.com/estate-sale/47636/item/5607212/Silver-tone-Blue-Glass-Stone-Artisan-Bracelet",
     "images": [
       "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607212_WLEgHO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48601-5651349": {
+    "item_id": "ctbids-48601-5651349",
+    "listing_url": "https://ctbids.com/estate-sale/48601/item/5651349/Laura-Branigan-How-Am-I-Supposed-to-Live-Without-You-All-Night-With-Me-Atlantic-Oldies-45-RP",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5422749_4Q3rGd.webp"
     ],
     "description": "",
     "score_reasons": [
