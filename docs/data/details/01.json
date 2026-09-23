@@ -23,6 +23,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in description (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "10 lb lot has unresolved shipping cost (-3)",
       "Base score (+5)"
@@ -31,14 +32,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 32,
-        "relative_score": 1.067,
+        "score": 34,
+        "relative_score": 1.133,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Lower-priority term 'roughness' in description (-3)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in description (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "10 lb lot has unresolved shipping cost (-3)",
           "Base score (+5)"
@@ -200,7 +202,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -208,11 +209,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -308,33 +308,6 @@
     "listing_url": "https://ctbids.com/estate-sale/41977/item/5596788/Update-To-Terms-And-Conditions",
     "images": [
       "https://image.ctbids.com/seller/2026-09-03T479b27/5589534_VxdiQe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-41977-4813367": {
-    "item_id": "ctbids-41977-4813367",
-    "listing_url": "https://ctbids.com/estate-sale/41977/item/4813367/1974-1978-Lithograph-Prints-By-William-Eagan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-01-22T7ecce2/4813367_AmTN31.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -465,6 +438,33 @@
       }
     ]
   },
+  "ctbids-41977-4813367": {
+    "item_id": "ctbids-41977-4813367",
+    "listing_url": "https://ctbids.com/estate-sale/41977/item/4813367/1974-1978-Lithograph-Prints-By-William-Eagan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-01-22T7ecce2/4813367_AmTN31.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46747-5577284": {
     "item_id": "ctbids-46747-5577284",
     "listing_url": "https://ctbids.com/estate-sale/46747/item/5577284/Tourmaster-Pivot-2-Men-s-Pants-Touring-Jacket-M-42-Lot-B",
@@ -571,6 +571,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48078/item/5581461/Waterford-Crystal-Assortment",
     "images": [
       "https://image.ctbids.com/seller/2026-08-31T06a3fa/5581461_lDFsC7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47718-5626535": {
+    "item_id": "ctbids-47718-5626535",
+    "listing_url": "https://ctbids.com/estate-sale/47718/item/5626535/Glass-Floral-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5626535_5V1hHI.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -763,37 +790,6 @@
       }
     ]
   },
-  "278130697": {
-    "item_id": "278130697",
-    "listing_url": "https://shopgoodwill.com/item/278130697",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/691196e9-5dfb-4733-be62-bcfef2b58a35list_09081.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/8459dc6e-8fed-4352-a4ed-85c20d4a00a2list_09082.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/ea8c0277-e090-4708-a189-f08d82f02fa3list_09083.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/1b459d13-c447-4431-8da7-2e49c939d057list_09084.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/f46474fc-310c-4ea5-bfc2-353001f0841blist_09085.jpg"
-    ],
-    "description": "You are purchasing a \"Long Decorative Smoking Pipe With Accessories Set Preowned \" in \"Used\" condition.\nPlease Note (conditions listed below)\nWe believe in offering items in good faith, exactly as they are, and as you see them in the photographs. We do our best to describe each item based on the information available at the time of listing. While we can’t guarantee every detail, we offer these descriptions as general guidelines to help you get to know the item better. This includes things like measurements, weights, materials, and other features you may be interested in.\nBecause each item is unique, we encourage you to take a close look at the photographs provided. If you have any questions or would like additional details, we’re happy to provide more information when possible.\nWhen you make a purchase, either through \"Buy Now\" or by placing a bid, you’re accepting the item just as it is, in the condition it’s in at the time of sale. Remember, the information we provide is not guarantees or promises, just helpful guidelines to give you a clearer picture. We trust that you’ll make your decision thoughtfully, based on the photos and information we’ve shared.\nOur items are sold as-is, as photographed (no props), and we offer them with kindness and transparency. If, for any reason, the item you receive is delivered in a condition substantially different from that shown in the photographs, we’re happy to find a solution when a picture of the packaging and box label, a picture of the item upon opening, and return of the item within our return period. In order to request a return, we ask that you click the \"Contact Seller\" link above and open a Support Ticket so our team can help you without any unnecessary delay.\nWe always do our best to photograph everything as clearly as possible, but items may have imperfections that make them special, unique, or perhaps explain why they have been donated. These characteristics might not be immediately obvious in the photos, so we encourage you to look the pictures over carefully. When you choose to purchase an item either by bidding or using the \"Buy Now\" option you are agreeing to purchase the item in its as-is, where-is, with-all-faults condition. All sales are final and no returns are permitted, except or unless in the limited circumstances of receiving damaged goods upon arrival as described above.\nWe trust that you’ve taken the time to review the photos and ask any questions before making your decision. Your participation in the sale reflects that trust and agreement. By placing a bid or making a purchase, you acknowledge that you understand and accept these terms. We hope your experience is a positive one, and we’re always here if you need further assistance.\n*************************************************************************************Condition:\nAppears New\n- Cosmetically item appears to be New. Item was donated with no knowledge of previous history. We have not powered it on or tested this item. It has not been tested for functionality in any capacity and functionality is not guaranteed. We do our best to identify all items, but cannot SOLD AS-IS. Please refer to pictures for more details and ask any questions before bidding.\nPre-Owned\n- Cosmetically Item appears to be in pre-owned condition and previously used. Item was donated with no knowledge of previous history. Please refer to pictures for more details and ask any questions before bidding. Cosmetic wear marks noted.  Unless stated or pictured, any battery (batteries may need to be replaced as-is) cord/adaptor is not included with the item.\nMedia Pre-Owned\n- Item appears to be in pre-owned condition and previously used. Disks may contain scratches. Packaging may show signs of wear. The cover art, liner notes, and inserts may have considerable wear, markings, be damaged or not included, codes may be used. Functionality not tested. Sold AS-IS\nNot Tested\n- Items have NOT BEEN TESTED for function. This auction is SOLD AS-IS No returns or refunds will issued. Please keep this in mind when bidding.  Unless stated or pictured, any battery (batteries may need to be replaced as-is) cord/adaptor is not included with the item.\nFunctionality:\nParts ONLY\n- Not tested and function is unknown. No returns or refunds accepted for this auction. Keep this in mind when bidding. SOLD AS-IS.\nPowered on/ Reset\n- Item appears to power on or have operable mechanisms when plugged in. This item has been RESET. It has not been tested for functionality in any capacity and functionality is not guaranteed. Unless stated or pictured, any battery (batteries may need to be replaced as-is), cord/adaptor is not included with the item. We do our best to identify all items but cannot guarantee accuracy. You are bidding with this in mind. SOLD AS-IS\nNot Tested/Not Powered on\n- Item has not been plugged in or powered on. It has not been tested for functionality in any capacity and functionality is not guaranteed. Unless stated or pictured, any battery (batteries may need to be replaced as-is) cord/adaptor is not included with the item. We do our be SOLD AS-IS.\nNew\n- This item appears to be new; however, it is a donated item. We have not powered it on or tested this item. It has not been tested for functionality in any capacity and functionality is not guaranteed. We do our best to identify all items, but cannot SOLD AS-IS\nDisclaimers:\nUnless stated item does not include power cords, cables, a/c adapters or batteries. Any included batteries may require replacement\nItems that include the original box, we cannot verify or guarantee that all contents are included. Please review pictures for more details. \"In Open Box\" otherwise known as \"IOB\" auctions are\nSOLD AS-IS\nPlease see photos for overall cosmetic condition. We are not experts at grading conditions/s of donated items. Unless stated otherwise, expect items to have wear from use. Item may require cleaning.\nSorted LEGO’s\n- We have carefully sorted and removed as many non-LEGO pieces as possible. Keep in mind though we are human and unintentionally may have missed some. This is not done intentionally. This lot may include KNex, Megabloks, Tyco, or other brands of building blocks and toys. The pieces are used and are no longer in their original packaging. It's possible other items not described exist in this auction. Due to the amount and variety in this bundle, we are unable to provide specific information for individual items. Please refer to the pictures. Please ask any questions about this auction before bidding.\nUnsorted LEGO\n’s - this lot may include KNex, Megabloks, Tyco, or other brands of building blocks and toys. May also include minifigures or minifigure pieces. The pieces are used and are no longer in their original packaging. We cannot guarantee that all pieces are present or authentic to set. It's possible other items not described exist in this auction. Due to the amount and variety in this bundle, we are unable to provide specific information for individual items. Please refer to the pictures. Please ask any questions about this auction before bidding.\nLego Manuals\n-Cosmetic wear, may be missing pages, rips tears noted\nOpen Box\nMay not be complete open box only pictured items included\nArt Used\n- We are not professional art appraisers, and we do not certify or authenticate art, artist signatures, artist numerical editions and artist markings. Items are used and may have defects, cracks, chips, damage see pictures.\nAll items are described to the best of our abilities.\nAll measurements are approximate and measured in inches.\nPlease ask all questions prior to bidding.",
-    "score_reasons": [
-      "Opportunity term 'lot' in description (+5)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 6,
-        "relative_score": 0.171,
-        "score_reasons": [
-          "Opportunity term 'lot' in description (+5)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48456-5642091": {
     "item_id": "ctbids-48456-5642091",
     "listing_url": "https://ctbids.com/estate-sale/48456/item/5642091/Men-s-Pulsar-Chronograph-Stainless-Steel-Watch",
@@ -849,31 +845,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47718/item/5622628/Purple-Revo-Suitcase",
     "images": [
       "https://image.ctbids.com/seller/2026-09-11Ta10121/5622628_zyRsdZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47718-5626535": {
-    "item_id": "ctbids-47718-5626535",
-    "listing_url": "https://ctbids.com/estate-sale/47718/item/5626535/Glass-Floral-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5626535_5V1hHI.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1044,6 +1015,115 @@
       }
     ]
   },
+  "278130697": {
+    "item_id": "278130697",
+    "listing_url": "https://shopgoodwill.com/item/278130697",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/691196e9-5dfb-4733-be62-bcfef2b58a35list_09081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/8459dc6e-8fed-4352-a4ed-85c20d4a00a2list_09082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/ea8c0277-e090-4708-a189-f08d82f02fa3list_09083.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/1b459d13-c447-4431-8da7-2e49c939d057list_09084.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/81/Items/2026-09-08/f46474fc-310c-4ea5-bfc2-353001f0841blist_09085.jpg"
+    ],
+    "description": "You are purchasing a \"Long Decorative Smoking Pipe With Accessories Set Preowned \" in \"Used\" condition.\nPlease Note (conditions listed below)\nWe believe in offering items in good faith, exactly as they are, and as you see them in the photographs. We do our best to describe each item based on the information available at the time of listing. While we can’t guarantee every detail, we offer these descriptions as general guidelines to help you get to know the item better. This includes things like measurements, weights, materials, and other features you may be interested in.\nBecause each item is unique, we encourage you to take a close look at the photographs provided. If you have any questions or would like additional details, we’re happy to provide more information when possible.\nWhen you make a purchase, either through \"Buy Now\" or by placing a bid, you’re accepting the item just as it is, in the condition it’s in at the time of sale. Remember, the information we provide is not guarantees or promises, just helpful guidelines to give you a clearer picture. We trust that you’ll make your decision thoughtfully, based on the photos and information we’ve shared.\nOur items are sold as-is, as photographed (no props), and we offer them with kindness and transparency. If, for any reason, the item you receive is delivered in a condition substantially different from that shown in the photographs, we’re happy to find a solution when a picture of the packaging and box label, a picture of the item upon opening, and return of the item within our return period. In order to request a return, we ask that you click the \"Contact Seller\" link above and open a Support Ticket so our team can help you without any unnecessary delay.\nWe always do our best to photograph everything as clearly as possible, but items may have imperfections that make them special, unique, or perhaps explain why they have been donated. These characteristics might not be immediately obvious in the photos, so we encourage you to look the pictures over carefully. When you choose to purchase an item either by bidding or using the \"Buy Now\" option you are agreeing to purchase the item in its as-is, where-is, with-all-faults condition. All sales are final and no returns are permitted, except or unless in the limited circumstances of receiving damaged goods upon arrival as described above.\nWe trust that you’ve taken the time to review the photos and ask any questions before making your decision. Your participation in the sale reflects that trust and agreement. By placing a bid or making a purchase, you acknowledge that you understand and accept these terms. We hope your experience is a positive one, and we’re always here if you need further assistance.\n*************************************************************************************Condition:\nAppears New\n- Cosmetically item appears to be New. Item was donated with no knowledge of previous history. We have not powered it on or tested this item. It has not been tested for functionality in any capacity and functionality is not guaranteed. We do our best to identify all items, but cannot SOLD AS-IS. Please refer to pictures for more details and ask any questions before bidding.\nPre-Owned\n- Cosmetically Item appears to be in pre-owned condition and previously used. Item was donated with no knowledge of previous history. Please refer to pictures for more details and ask any questions before bidding. Cosmetic wear marks noted.  Unless stated or pictured, any battery (batteries may need to be replaced as-is) cord/adaptor is not included with the item.\nMedia Pre-Owned\n- Item appears to be in pre-owned condition and previously used. Disks may contain scratches. Packaging may show signs of wear. The cover art, liner notes, and inserts may have considerable wear, markings, be damaged or not included, codes may be used. Functionality not tested. Sold AS-IS\nNot Tested\n- Items have NOT BEEN TESTED for function. This auction is SOLD AS-IS No returns or refunds will issued. Please keep this in mind when bidding.  Unless stated or pictured, any battery (batteries may need to be replaced as-is) cord/adaptor is not included with the item.\nFunctionality:\nParts ONLY\n- Not tested and function is unknown. No returns or refunds accepted for this auction. Keep this in mind when bidding. SOLD AS-IS.\nPowered on/ Reset\n- Item appears to power on or have operable mechanisms when plugged in. This item has been RESET. It has not been tested for functionality in any capacity and functionality is not guaranteed. Unless stated or pictured, any battery (batteries may need to be replaced as-is), cord/adaptor is not included with the item. We do our best to identify all items but cannot guarantee accuracy. You are bidding with this in mind. SOLD AS-IS\nNot Tested/Not Powered on\n- Item has not been plugged in or powered on. It has not been tested for functionality in any capacity and functionality is not guaranteed. Unless stated or pictured, any battery (batteries may need to be replaced as-is) cord/adaptor is not included with the item. We do our be SOLD AS-IS.\nNew\n- This item appears to be new; however, it is a donated item. We have not powered it on or tested this item. It has not been tested for functionality in any capacity and functionality is not guaranteed. We do our best to identify all items, but cannot SOLD AS-IS\nDisclaimers:\nUnless stated item does not include power cords, cables, a/c adapters or batteries. Any included batteries may require replacement\nItems that include the original box, we cannot verify or guarantee that all contents are included. Please review pictures for more details. \"In Open Box\" otherwise known as \"IOB\" auctions are\nSOLD AS-IS\nPlease see photos for overall cosmetic condition. We are not experts at grading conditions/s of donated items. Unless stated otherwise, expect items to have wear from use. Item may require cleaning.\nSorted LEGO’s\n- We have carefully sorted and removed as many non-LEGO pieces as possible. Keep in mind though we are human and unintentionally may have missed some. This is not done intentionally. This lot may include KNex, Megabloks, Tyco, or other brands of building blocks and toys. The pieces are used and are no longer in their original packaging. It's possible other items not described exist in this auction. Due to the amount and variety in this bundle, we are unable to provide specific information for individual items. Please refer to the pictures. Please ask any questions about this auction before bidding.\nUnsorted LEGO\n’s - this lot may include KNex, Megabloks, Tyco, or other brands of building blocks and toys. May also include minifigures or minifigure pieces. The pieces are used and are no longer in their original packaging. We cannot guarantee that all pieces are present or authentic to set. It's possible other items not described exist in this auction. Due to the amount and variety in this bundle, we are unable to provide specific information for individual items. Please refer to the pictures. Please ask any questions about this auction before bidding.\nLego Manuals\n-Cosmetic wear, may be missing pages, rips tears noted\nOpen Box\nMay not be complete open box only pictured items included\nArt Used\n- We are not professional art appraisers, and we do not certify or authenticate art, artist signatures, artist numerical editions and artist markings. Items are used and may have defects, cracks, chips, damage see pictures.\nAll items are described to the best of our abilities.\nAll measurements are approximate and measured in inches.\nPlease ask all questions prior to bidding.",
+    "score_reasons": [
+      "Opportunity term 'lot' in description (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 6,
+        "relative_score": 0.171,
+        "score_reasons": [
+          "Opportunity term 'lot' in description (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277771743": {
+    "item_id": "277771743",
+    "listing_url": "https://shopgoodwill.com/item/277771743",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/ded00e57-aa92-47a0-a68c-95601921400bns43_09191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/dba6d8a1-452e-4ca1-9f84-fbb61e23f868ns43_09192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/688c7dab-78b2-40c9-a309-6bb357b0dd91ns43_09193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/b54c18e4-fa5f-40d5-a757-9f7980e66460ns43_09194.jpg"
+    ],
+    "description": "Product Overview:\nThis lot features a variety of polished and raw semi-precious gemstone specimens. Included are agate slices with gold-toned edges in shades of gray, brown, and green, some showing banding and crystalline structures. Also present are colorful tumbled stones in multiple hues, a carved stone star, and a small bag of additional tumbled stones. The collection includes Brazilian-made agate coasters that are not food safe.\n\nSpecifications:\n- Agate slices with gold-toned edges\n- Various shades: gray, brown, green\n- Banding and crystalline formations visible on some slices\n- Colorful tumbled stones in purple, blue, green, pink, and clear\n- Carved stone star included\n- Small bag of additional tumbled stones\n- Agate coasters from Brazil (not food safe)\n- Mixed polished and raw mineral specimens",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'tumbled stones' in title (-10)",
+      "Lower-priority term 'carved' in description (-7)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'tumbled stones' in title (-10)",
+          "Lower-priority term 'carved' in description (-7)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277490719": {
+    "item_id": "277490719",
+    "listing_url": "https://shopgoodwill.com/item/277490719",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/f4be9556-b514-4742-9962-d18f9b9699canold_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/fda92603-698f-486e-b241-d7e2d3c7eabenold_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/d50df19e-42d2-45cb-87f9-3259e10c16c3nold_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/69246776-c94c-4118-a73b-207e61e1978fnold_09094.jpg"
+    ],
+    "description": "Measurements:\n\"\nTotal Weight:\ngrams\nCONDITION: Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
+    "score_reasons": [
+      "Opportunity term 'minerals' in title (+1)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'minerals' in title (+1)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "278055127": {
     "item_id": "278055127",
     "listing_url": "https://shopgoodwill.com/item/278055127",
@@ -1076,80 +1156,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "13 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277771743": {
-    "item_id": "277771743",
-    "listing_url": "https://shopgoodwill.com/item/277771743",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/ded00e57-aa92-47a0-a68c-95601921400bns43_09191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/dba6d8a1-452e-4ca1-9f84-fbb61e23f868ns43_09192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/688c7dab-78b2-40c9-a309-6bb357b0dd91ns43_09193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-19/b54c18e4-fa5f-40d5-a757-9f7980e66460ns43_09194.jpg"
-    ],
-    "description": "Product Overview:\nThis lot features a variety of polished and raw semi-precious gemstone specimens. Included are agate slices with gold-toned edges in shades of gray, brown, and green, some showing banding and crystalline structures. Also present are colorful tumbled stones in multiple hues, a carved stone star, and a small bag of additional tumbled stones. The collection includes Brazilian-made agate coasters that are not food safe.\n\nSpecifications:\n- Agate slices with gold-toned edges\n- Various shades: gray, brown, green\n- Banding and crystalline formations visible on some slices\n- Colorful tumbled stones in purple, blue, green, pink, and clear\n- Carved stone star included\n- Small bag of additional tumbled stones\n- Agate coasters from Brazil (not food safe)\n- Mixed polished and raw mineral specimens",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'tumbled stones' in title (-10)",
-      "Lower-priority term 'carved' in description (-7)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+7)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'tumbled stones' in title (-10)",
-          "Lower-priority term 'carved' in description (-7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+7)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277490719": {
-    "item_id": "277490719",
-    "listing_url": "https://shopgoodwill.com/item/277490719",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/f4be9556-b514-4742-9962-d18f9b9699canold_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/fda92603-698f-486e-b241-d7e2d3c7eabenold_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/d50df19e-42d2-45cb-87f9-3259e10c16c3nold_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-09/69246776-c94c-4118-a73b-207e61e1978fnold_09094.jpg"
-    ],
-    "description": "Measurements:\n\"\nTotal Weight:\ngrams\nCONDITION: Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
-    "score_reasons": [
-      "Opportunity term 'minerals' in title (+1)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+12)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'minerals' in title (+1)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+12)"
         ],
         "matched_keywords": []
       }

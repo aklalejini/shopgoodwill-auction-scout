@@ -11,6 +11,7 @@
       "Opportunity term 'see photos' in description (+4)",
       "Target keyword 'beehive' in description (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Only 1 listing photo (-12)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
@@ -19,13 +20,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 18,
-        "relative_score": 0.6,
+        "score": 23,
+        "relative_score": 0.767,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Opportunity term 'see photos' in description (+4)",
           "Target keyword 'beehive' in description (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Only 1 listing photo (-12)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
@@ -33,6 +35,37 @@
         "matched_keywords": [
           "beehive"
         ]
+      }
+    ]
+  },
+  "277528487": {
+    "item_id": "277528487",
+    "listing_url": "https://shopgoodwill.com/item/277528487",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This natural agate geode bookend features a polished front displaying a crystal cavity and banded patterns in gray, white, cream, and brown. The back remains rough and natural. The bookend weighs 5.4 lbs and has felt pads on the bottom to protect surfaces. A Goodwill price sticker is attached, indicating the weight. The piece shows no visible damage.",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "5.4 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 14,
+        "relative_score": 0.467,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "5.4 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -68,62 +101,6 @@
           "Pen-and-pencil set resale premium (+10)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277528487": {
-    "item_id": "277528487",
-    "listing_url": "https://shopgoodwill.com/item/277528487",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This natural agate geode bookend features a polished front displaying a crystal cavity and banded patterns in gray, white, cream, and brown. The back remains rough and natural. The bookend weighs 5.4 lbs and has felt pads on the bottom to protect surfaces. A Goodwill price sticker is attached, indicating the weight. The piece shows no visible damage.",
-    "score_reasons": [
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "5.4 lb lot has unusually favorable flat shipping (+5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
-        "score_reasons": [
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "5.4 lb lot has unusually favorable flat shipping (+5)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-41977-4807967": {
-    "item_id": "ctbids-41977-4807967",
-    "listing_url": "https://ctbids.com/estate-sale/41977/item/4807967/Vintage-Leather-Kids-Cowboy-Holster-Vest-Belts",
-    "images": [
-      "https://image.ctbids.com/seller/2026-01-21T093f16/4807967_tAuRY0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -210,6 +187,33 @@
       }
     ]
   },
+  "ctbids-41977-4807967": {
+    "item_id": "ctbids-41977-4807967",
+    "listing_url": "https://ctbids.com/estate-sale/41977/item/4807967/Vintage-Leather-Kids-Cowboy-Holster-Vest-Belts",
+    "images": [
+      "https://image.ctbids.com/seller/2026-01-21T093f16/4807967_tAuRY0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48226-5616021": {
     "item_id": "ctbids-48226-5616021",
     "listing_url": "https://ctbids.com/estate-sale/48226/item/5616021/Vintage-Silhouette-Art-Glass-Candlesticks-Glassware-Floral-Porcelain",
@@ -264,6 +268,60 @@
       }
     ]
   },
+  "ctbids-48456-5642114": {
+    "item_id": "ctbids-48456-5642114",
+    "listing_url": "https://ctbids.com/estate-sale/48456/item/5642114/Wood-Glass-Coffee-Table-With-Brass-Accents",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642114_LdvacO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48456-5645591": {
+    "item_id": "ctbids-48456-5645591",
+    "listing_url": "https://ctbids.com/estate-sale/48456/item/5645591/Curved-Bookcase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645591_Sim8lF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48327-5632934": {
     "item_id": "ctbids-48327-5632934",
     "listing_url": "https://ctbids.com/estate-sale/48327/item/5632934/Brand-New-Bedding-Mystery-Lot",
@@ -291,15 +349,15 @@
       }
     ]
   },
-  "ctbids-41977-4801562": {
-    "item_id": "ctbids-41977-4801562",
-    "listing_url": "https://ctbids.com/estate-sale/41977/item/4801562/Art-Glass-Fish",
+  "ctbids-48456-5644239": {
+    "item_id": "ctbids-48456-5644239",
+    "listing_url": "https://ctbids.com/estate-sale/48456/item/5644239/Mikasa-Frosted-Serving-And-Individual-Bowls",
     "images": [
-      "https://image.ctbids.com/seller/2026-01-19T247055/4801562_zYwcRg.webp"
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5644239_k4Bc5S.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -310,7 +368,59 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48456-5645603": {
+    "item_id": "ctbids-48456-5645603",
+    "listing_url": "https://ctbids.com/estate-sale/48456/item/5645603/Cafe-De-Nice-Lady-in-Red-by-Miguel-Dominguez",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645603_cqpvC7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-41977-4801562": {
+    "item_id": "ctbids-41977-4801562",
+    "listing_url": "https://ctbids.com/estate-sale/41977/item/4801562/Art-Glass-Fish",
+    "images": [
+      "https://image.ctbids.com/seller/2026-01-19T247055/4801562_zYwcRg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -443,71 +553,6 @@
       }
     ]
   },
-  "277726077": {
-    "item_id": "277726077",
-    "listing_url": "https://shopgoodwill.com/item/277726077",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/b3a500bb-b704-42a7-9876-b2912688c810lson_09141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/2b49d107-85ca-4aac-b378-de3201b23d40lson_09142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/4ac21d4a-b38d-4253-b9da-80c399a6f192lson_09143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/aa3d3b6f-a983-40fc-aed0-bec7cc87f7d2lson_09144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/0bbd9c20-9bdc-4201-9d29-07745369a0d8lson_09145.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/95db84cd-45e2-403e-b63e-05ce8666a4fdlson_09146.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/73bff41e-7c65-4fe5-b4cd-3efc2ad625e2lson_09147.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/dc871a37-6e68-480f-845b-a22840e78358lson_09148.jpg"
-    ],
-    "description": "Material(s):\nPlastic, Wood\nCondition:\nModerate signs of use\nImperfection(s):\nCrack(s), Markings/Scuffs, Needs Cleaning",
-    "score_reasons": [
-      "Opportunity term 'needs cleaning' in description (+5)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 6,
-        "relative_score": 0.171,
-        "score_reasons": [
-          "Opportunity term 'needs cleaning' in description (+5)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278137946": {
-    "item_id": "278137946",
-    "listing_url": "https://shopgoodwill.com/item/278137946",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/67e9dfdc-0338-45da-9a76-1b71e84ea29dauer_09231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/27f0474e-d9ef-4089-a27a-e73ffb7fa754auer_09232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/3847e400-58e6-45e4-b410-1c65129ee78dauer_09233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/83fb59b8-7dd5-4a88-9d3a-90f9e0b6d0bcauer_09234.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/4813b1e2-6533-4b97-8a57-04af5f15b74aauer_09235.jpg"
-    ],
-    "description": "Product Overview:\nThis natural quartz crystal cluster features clear to milky white quartz points growing from a common matrix. The specimen is in raw, natural condition with minor inclusions and slight tan mineral staining.\n\nSpecifications:\n- Crystal Type: Quartz\n- Color: Clear to milky white\n- Condition: Raw, natural\n- Approximate Height: 3.5 inches\n- Additional Markings: Handwritten text \"Carol Hands Off\" on underside\n\nThe cluster includes a prominent largest crystal point surrounded by smaller points radiating outward. The specimen is unbranded and intended as a mineral specimen.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48131-5645844": {
     "item_id": "ctbids-48131-5645844",
     "listing_url": "https://ctbids.com/estate-sale/48131/item/5645844/Corgi-Aviation-Archive-Fokker-Dr1-Triplane-Spad-XIII-No-23-Sqn-RFC",
@@ -538,56 +583,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48456/item/5646484/Emart-Studio-Umbrella-Lighting-Kit",
     "images": [
       "https://image.ctbids.com/seller/2026-09-18T2e28a0/5646484_D3EL4k.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48456-5642114": {
-    "item_id": "ctbids-48456-5642114",
-    "listing_url": "https://ctbids.com/estate-sale/48456/item/5642114/Wood-Glass-Coffee-Table-With-Brass-Accents",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642114_LdvacO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48456-5644239": {
-    "item_id": "ctbids-48456-5644239",
-    "listing_url": "https://ctbids.com/estate-sale/48456/item/5644239/Mikasa-Frosted-Serving-And-Individual-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5644239_k4Bc5S.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -658,31 +653,6 @@
       }
     ]
   },
-  "ctbids-48456-5645591": {
-    "item_id": "ctbids-48456-5645591",
-    "listing_url": "https://ctbids.com/estate-sale/48456/item/5645591/Curved-Bookcase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645591_Sim8lF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-44382-5621575": {
     "item_id": "ctbids-44382-5621575",
     "listing_url": "https://ctbids.com/estate-sale/44382/item/5621575/925-1976-Reed-Barton-Christmas-Cross-Pendant-1-Assorted-925-Sterling-Jewelry-5",
@@ -713,31 +683,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48197/item/5634368/Xavier-Robert-s-Cabbage-Patch-Doll-Crayola-Collectors-Colors",
     "images": [
       "https://image.ctbids.com/seller/2026-09-16T2152c1/5634368_sbSMku.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48456-5645603": {
-    "item_id": "ctbids-48456-5645603",
-    "listing_url": "https://ctbids.com/estate-sale/48456/item/5645603/Cafe-De-Nice-Lady-in-Red-by-Miguel-Dominguez",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645603_cqpvC7.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -833,6 +778,71 @@
       }
     ]
   },
+  "277726077": {
+    "item_id": "277726077",
+    "listing_url": "https://shopgoodwill.com/item/277726077",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/b3a500bb-b704-42a7-9876-b2912688c810lson_09141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/2b49d107-85ca-4aac-b378-de3201b23d40lson_09142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/4ac21d4a-b38d-4253-b9da-80c399a6f192lson_09143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/aa3d3b6f-a983-40fc-aed0-bec7cc87f7d2lson_09144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/0bbd9c20-9bdc-4201-9d29-07745369a0d8lson_09145.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/95db84cd-45e2-403e-b63e-05ce8666a4fdlson_09146.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/73bff41e-7c65-4fe5-b4cd-3efc2ad625e2lson_09147.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-09-14/dc871a37-6e68-480f-845b-a22840e78358lson_09148.jpg"
+    ],
+    "description": "Material(s):\nPlastic, Wood\nCondition:\nModerate signs of use\nImperfection(s):\nCrack(s), Markings/Scuffs, Needs Cleaning",
+    "score_reasons": [
+      "Opportunity term 'needs cleaning' in description (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 6,
+        "relative_score": 0.171,
+        "score_reasons": [
+          "Opportunity term 'needs cleaning' in description (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278137946": {
+    "item_id": "278137946",
+    "listing_url": "https://shopgoodwill.com/item/278137946",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/67e9dfdc-0338-45da-9a76-1b71e84ea29dauer_09231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/27f0474e-d9ef-4089-a27a-e73ffb7fa754auer_09232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/3847e400-58e6-45e4-b410-1c65129ee78dauer_09233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/83fb59b8-7dd5-4a88-9d3a-90f9e0b6d0bcauer_09234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-23/4813b1e2-6533-4b97-8a57-04af5f15b74aauer_09235.jpg"
+    ],
+    "description": "Product Overview:\nThis natural quartz crystal cluster features clear to milky white quartz points growing from a common matrix. The specimen is in raw, natural condition with minor inclusions and slight tan mineral staining.\n\nSpecifications:\n- Crystal Type: Quartz\n- Color: Clear to milky white\n- Condition: Raw, natural\n- Approximate Height: 3.5 inches\n- Additional Markings: Handwritten text \"Carol Hands Off\" on underside\n\nThe cluster includes a prominent largest crystal point surrounded by smaller points radiating outward. The specimen is unbranded and intended as a mineral specimen.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277680106": {
     "item_id": "277680106",
     "listing_url": "https://shopgoodwill.com/item/277680106",
@@ -893,6 +903,46 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+13)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278166407": {
+    "item_id": "278166407",
+    "listing_url": "https://shopgoodwill.com/item/278166407",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/6d2540fb-1ed8-409b-a811-a638cbe969baah11_09231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/6a689948-18f5-44ce-b7f3-6c4e850f331aah11_09232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/30a24702-24e7-42ab-a928-a6dbaa92d3c5ah11_09233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/3c4e020b-7b86-4267-a6de-6fce7a23b2b3ah11_09234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/9165408f-8f0c-447e-9d01-7fb0ab02554bah11_09235.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/65c895a1-5c63-4f43-a609-efed026c76d8ah11_09236.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/a5666887-31f0-4ef9-b799-884c3afff9b8ah11_09237.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/b1848b96-8901-4727-957a-c355ea9b0ceaah11_09238.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/93f73365-80fb-4db5-9c6d-f58d16d02c92ah11_09239.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-09-23/e648a39d-bd1f-42af-82ea-71aa8fc6b871ah11_092310.jpg"
+    ],
+    "description": "3 Vintage Smoking Pipes\n1 pipe is missing stem\nProduct Size:\n7 x 3 x 1.5 in\n0.25 lb",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Lower-priority term 'missing stem' in description (-25)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+18)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Lower-priority term 'missing stem' in description (-25)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+18)"
         ],
         "matched_keywords": []
       }

@@ -55,6 +55,7 @@
     "score_reasons": [
       "Opportunity term 'lot' in title (+2)",
       "Proven source for visually strong specimen lots (+26)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "8 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -63,11 +64,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 27,
+        "relative_score": 0.9,
         "score_reasons": [
           "Opportunity term 'lot' in title (+2)",
           "Proven source for visually strong specimen lots (+26)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "8 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -217,6 +219,62 @@
       }
     ]
   },
+  "ctbids-48312-5612544": {
+    "item_id": "ctbids-48312-5612544",
+    "listing_url": "https://ctbids.com/estate-sale/48312/item/5612544/Vintage-Sunglasses-incl-Rayban-Ralph-Lauren",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-09Tb64532/5612544_nfwZ9P.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48402-5616237": {
+    "item_id": "ctbids-48402-5616237",
+    "listing_url": "https://ctbids.com/estate-sale/48402/item/5616237/Vintage-Women-s-Western-Equestrian-Button-Down-Shirts-M-L",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5616237_cYJ9jk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277840405": {
     "item_id": "277840405",
     "listing_url": "https://shopgoodwill.com/item/277840405",
@@ -275,33 +333,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48312-5612544": {
-    "item_id": "ctbids-48312-5612544",
-    "listing_url": "https://ctbids.com/estate-sale/48312/item/5612544/Vintage-Sunglasses-incl-Rayban-Ralph-Lauren",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-09Tb64532/5612544_nfwZ9P.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -390,65 +421,11 @@
       }
     ]
   },
-  "ctbids-48315-5635036": {
-    "item_id": "ctbids-48315-5635036",
-    "listing_url": "https://ctbids.com/estate-sale/48315/item/5635036/Spare-Change-American-Coins-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635036_zkVgk5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48402-5615485": {
     "item_id": "ctbids-48402-5615485",
     "listing_url": "https://ctbids.com/estate-sale/48402/item/5615485/Vintage-1980s-90s-Sportswear-Puma-Wilson-Koret-Colorblock-Separates-M-L-XL",
     "images": [
       "https://image.ctbids.com/seller/2026-09-14T038590/5615485_mvNEPa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48402-5616237": {
-    "item_id": "ctbids-48402-5616237",
-    "listing_url": "https://ctbids.com/estate-sale/48402/item/5616237/Vintage-Women-s-Western-Equestrian-Button-Down-Shirts-M-L",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5616237_cYJ9jk.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -552,29 +529,28 @@
       }
     ]
   },
-  "govdeals-182-583": {
-    "item_id": "govdeals-182-583",
-    "listing_url": "https://www.govdeals.com/en/asset/583/182",
+  "ctbids-48315-5635036": {
+    "item_id": "ctbids-48315-5635036",
+    "listing_url": "https://ctbids.com/estate-sale/48315/item/5635036/Spare-Change-American-Coins-Lot",
     "images": [
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_1dceb07e-409e-4154-8638-fb32d31b1b55.jpg?cb=260914091603",
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_ace9c61c-1bd9-4477-86e9-98d6988a3c91.jpg?cb=260914091603",
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_c1c9e53a-ae69-48ce-a046-56219283d5fa.jpg?cb=260914091603",
-      "https://webassets.lqdt1.com/assets/photos/182/182_583_ec5e3e06-14e8-40ec-b308-707811301645.jpg?cb=260914091603"
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5635036_zkVgk5.webp"
     ],
-    "description": "Winchester Ranger-00 buck (9 pellet) shotgun shells-45 boxes (250 round boxes) total=11250\nWinchester Ranger-slugs-1 box (250 round box) total=250\nFederal Ammunition-00 buck (9 pellet) shotgun shells-31 boxes (250 round box) total=7750\nWinchester Ranger .38 special +P-1 box (500 round box) total=500\nWinchester Ranger .380-1 box (550 round box) total=500\nPrecision Delta .40 cal-5 boxes (1000 round box) total=5000",
+    "description": "",
     "score_reasons": [
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 8,
-        "relative_score": 0.25,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -634,6 +610,34 @@
       }
     ]
   },
+  "govdeals-182-583": {
+    "item_id": "govdeals-182-583",
+    "listing_url": "https://www.govdeals.com/en/asset/583/182",
+    "images": [
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_1dceb07e-409e-4154-8638-fb32d31b1b55.jpg?cb=260914091603",
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_ace9c61c-1bd9-4477-86e9-98d6988a3c91.jpg?cb=260914091603",
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_c1c9e53a-ae69-48ce-a046-56219283d5fa.jpg?cb=260914091603",
+      "https://webassets.lqdt1.com/assets/photos/182/182_583_ec5e3e06-14e8-40ec-b308-707811301645.jpg?cb=260914091603"
+    ],
+    "description": "Winchester Ranger-00 buck (9 pellet) shotgun shells-45 boxes (250 round boxes) total=11250\nWinchester Ranger-slugs-1 box (250 round box) total=250\nFederal Ammunition-00 buck (9 pellet) shotgun shells-31 boxes (250 round box) total=7750\nWinchester Ranger .38 special +P-1 box (500 round box) total=500\nWinchester Ranger .380-1 box (550 round box) total=500\nPrecision Delta .40 cal-5 boxes (1000 round box) total=5000",
+    "score_reasons": [
+      "Pickup-only limits the opportunity (0)",
+      "Base score (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-government-surplus",
+        "label": "Local Government Surplus",
+        "score": 8,
+        "relative_score": 0.25,
+        "score_reasons": [
+          "Pickup-only limits the opportunity (0)",
+          "Base score (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48456-5638947": {
     "item_id": "ctbids-48456-5638947",
     "listing_url": "https://ctbids.com/estate-sale/48456/item/5638947/Grey-Foam-Couch",
@@ -669,6 +673,33 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47718-5632329": {
+    "item_id": "ctbids-47718-5632329",
+    "listing_url": "https://ctbids.com/estate-sale/47718/item/5632329/Soon-Its-Firecrackin-Flagwavin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5137715_PKjQc8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
       "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -681,6 +712,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47718-5559102": {
+    "item_id": "ctbids-47718-5559102",
+    "listing_url": "https://ctbids.com/estate-sale/47718/item/5559102/Email-De-Limoges-Porcelaine-D-Auteuil",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-25T50453d/5559102_5O4aqg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -888,61 +946,11 @@
       }
     ]
   },
-  "ctbids-47718-5632329": {
-    "item_id": "ctbids-47718-5632329",
-    "listing_url": "https://ctbids.com/estate-sale/47718/item/5632329/Soon-Its-Firecrackin-Flagwavin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5137715_PKjQc8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48456-5645614": {
     "item_id": "ctbids-48456-5645614",
     "listing_url": "https://ctbids.com/estate-sale/48456/item/5645614/Painted-Jewelry-Chest",
     "images": [
       "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645614_WU6asu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47718-5559102": {
-    "item_id": "ctbids-47718-5559102",
-    "listing_url": "https://ctbids.com/estate-sale/47718/item/5559102/Email-De-Limoges-Porcelaine-D-Auteuil",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5559102_5O4aqg.webp"
     ],
     "description": "",
     "score_reasons": [
