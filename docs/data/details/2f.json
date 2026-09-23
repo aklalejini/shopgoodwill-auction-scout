@@ -15,6 +15,7 @@
       "Opportunity term 'estate' in title (+11)",
       "Opportunity term 'vintage' in title (+6)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,12 +23,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 33,
-        "relative_score": 0.943,
+        "score": 37,
+        "relative_score": 1.057,
         "score_reasons": [
           "Opportunity term 'estate' in title (+11)",
           "Opportunity term 'vintage' in title (+6)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -126,6 +128,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'rocks' in title (+1)",
       "Opportunity term 'minerals' in title (+1)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -133,68 +136,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "score": 12,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'rocks' in title (+1)",
           "Opportunity term 'minerals' in title (+1)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48315-5630352": {
-    "item_id": "ctbids-48315-5630352",
-    "listing_url": "https://ctbids.com/estate-sale/48315/item/5630352/Collection-of-Western-Hats",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5630352_XbN353.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48518-5643370": {
-    "item_id": "ctbids-48518-5643370",
-    "listing_url": "https://ctbids.com/estate-sale/48518/item/5643370/Children-s-VHS-Collection-Disney-Barney-Barbie-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5643370_RKY7bI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -281,15 +231,15 @@
       }
     ]
   },
-  "ctbids-47718-5626916": {
-    "item_id": "ctbids-47718-5626916",
-    "listing_url": "https://ctbids.com/estate-sale/47718/item/5626916/Barbie-Vintage-Townhome",
+  "ctbids-48315-5630352": {
+    "item_id": "ctbids-48315-5630352",
+    "listing_url": "https://ctbids.com/estate-sale/48315/item/5630352/Collection-of-Western-Hats",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5626916_1bvz4w.webp"
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5630352_XbN353.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'collection' in title (+6)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -297,10 +247,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48518-5643370": {
+    "item_id": "ctbids-48518-5643370",
+    "listing_url": "https://ctbids.com/estate-sale/48518/item/5643370/Children-s-VHS-Collection-Disney-Barney-Barbie-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5643370_RKY7bI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -328,6 +305,114 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47718-5626916": {
+    "item_id": "ctbids-47718-5626916",
+    "listing_url": "https://ctbids.com/estate-sale/47718/item/5626916/Barbie-Vintage-Townhome",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5626916_1bvz4w.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-41977-4814483": {
+    "item_id": "ctbids-41977-4814483",
+    "listing_url": "https://ctbids.com/estate-sale/41977/item/4814483/China-Pieces-Ideal-Germany-Lefton-T-V-France-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-01-22T7ecce2/4814483_LoZV9L.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48078-5599660": {
+    "item_id": "ctbids-48078-5599660",
+    "listing_url": "https://ctbids.com/estate-sale/48078/item/5599660/Woven-Sewing-Basket-with-Landscape",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5599660_RGTPiB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48456-5646244": {
+    "item_id": "ctbids-48456-5646244",
+    "listing_url": "https://ctbids.com/estate-sale/48456/item/5646244/Whalen-L-Shaped-Desk",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5646244_amLxgq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -460,31 +545,6 @@
       }
     ]
   },
-  "ctbids-41977-4814483": {
-    "item_id": "ctbids-41977-4814483",
-    "listing_url": "https://ctbids.com/estate-sale/41977/item/4814483/China-Pieces-Ideal-Germany-Lefton-T-V-France-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-01-22T7ecce2/4814483_LoZV9L.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48298-5629054": {
     "item_id": "ctbids-48298-5629054",
     "listing_url": "https://ctbids.com/estate-sale/48298/item/5629054/Crystals-And-Stones",
@@ -540,56 +600,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48131/item/5612264/Cookie-Cutters-And-Other-Things",
     "images": [
       "https://image.ctbids.com/seller/2026-09-09Tb64532/5612264_xqfICn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48078-5599660": {
-    "item_id": "ctbids-48078-5599660",
-    "listing_url": "https://ctbids.com/estate-sale/48078/item/5599660/Woven-Sewing-Basket-with-Landscape",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5599660_RGTPiB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48456-5646244": {
-    "item_id": "ctbids-48456-5646244",
-    "listing_url": "https://ctbids.com/estate-sale/48456/item/5646244/Whalen-L-Shaped-Desk",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5646244_amLxgq.webp"
     ],
     "description": "",
     "score_reasons": [
