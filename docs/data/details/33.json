@@ -139,6 +139,37 @@
       }
     ]
   },
+  "278318479": {
+    "item_id": "278318479",
+    "listing_url": "https://shopgoodwill.com/item/278318479",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-24/67424c6e-7b7a-4c1b-9189-f23bb384e522gwco_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-24/844829c5-8cc6-490f-bc2b-3a1df147b960gwco_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-24/aeb6e0c5-bf34-4539-a242-5083e57666e1gwco_09243.jpg"
+    ],
+    "description": "Title:\nRock On 48 Ultimate Rockin Collection Mineral Specimens Set Guide Tray\nDepartment:\nCollectibles & Art\nCondition:\nUsed\nCategory:\nCollectibles & Art\nDescription:\nBring home an exciting educational experience with this 48-piece rock and mineral collection kit. The set includes an original display box, a blue plastic tray with 48 slots (a few may be missing stones), and a colorful fold-out poster with vivid images and information for each rock and mineral featured in the collection. Included are a variety of polished and raw stones, from classic rose quartz to unique textured specimens and a heart-shaped clear stone. The kit offers a wonderful visual and tactile variety for collectors, students, or those curious about geology. Each item is photographed to display its specific characteristics, while the included guide enhances learning and identification for each stone. The set as shown is in used condition with some stones potentially missing and visible wear to the packaging. Perfect for an educational gift, a hands-on science tool, or a starter set for amateur collectors",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 16,
+        "relative_score": 0.533,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48701-5665478": {
     "item_id": "ctbids-48701-5665478",
     "listing_url": "https://ctbids.com/estate-sale/48701/item/5665478/Weeds-Season-4-DVD-Set-Showtime-Lionsgate-Mary-Louise-Parker-Factory-Sealed",
@@ -226,35 +257,6 @@
       }
     ]
   },
-  "ctbids-48296-5620897": {
-    "item_id": "ctbids-48296-5620897",
-    "listing_url": "https://ctbids.com/estate-sale/48296/item/5620897/Youth-Sports-Equipment-Lot-Lacrosse-Baseball-Protective-Gear",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5620897_wmXo2b.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47655-5566491": {
     "item_id": "ctbids-47655-5566491",
     "listing_url": "https://ctbids.com/estate-sale/47655/item/5566491/Department-56-Heritage-Village-Collection-Accessory-Figurine-Group-17-Trees-Snow",
@@ -275,6 +277,60 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48307-5623248": {
+    "item_id": "ctbids-48307-5623248",
+    "listing_url": "https://ctbids.com/estate-sale/48307/item/5623248/Rabbit-Lantern-Statue-Planters",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5623248_6x9M6t.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48296-5620897": {
+    "item_id": "ctbids-48296-5620897",
+    "listing_url": "https://ctbids.com/estate-sale/48296/item/5620897/Youth-Sports-Equipment-Lot-Lacrosse-Baseball-Protective-Gear",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5620897_wmXo2b.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -336,87 +392,6 @@
       }
     ]
   },
-  "ctbids-47705-5544170": {
-    "item_id": "ctbids-47705-5544170",
-    "listing_url": "https://ctbids.com/estate-sale/47705/item/5544170/Toaster-oven-Black-Decker",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5544170_CD0utV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48307-5623248": {
-    "item_id": "ctbids-48307-5623248",
-    "listing_url": "https://ctbids.com/estate-sale/48307/item/5623248/Rabbit-Lantern-Statue-Planters",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5623248_6x9M6t.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48310-5641047": {
-    "item_id": "ctbids-48310-5641047",
-    "listing_url": "https://ctbids.com/estate-sale/48310/item/5641047/Pair-of-Native-American-Style-Figurines-with-Eagles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641047_wH6rJL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48033-5629639": {
     "item_id": "ctbids-48033-5629639",
     "listing_url": "https://ctbids.com/estate-sale/48033/item/5629639/Women-s-Pants-and-Skirts-from-Various-Brands",
@@ -444,11 +419,38 @@
       }
     ]
   },
-  "ctbids-48307-5623031": {
-    "item_id": "ctbids-48307-5623031",
-    "listing_url": "https://ctbids.com/estate-sale/48307/item/5623031/Milk-Glass-Vase-Assortment",
+  "ctbids-47705-5544170": {
+    "item_id": "ctbids-47705-5544170",
+    "listing_url": "https://ctbids.com/estate-sale/47705/item/5544170/Toaster-oven-Black-Decker",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5623031_e09p5K.webp"
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5544170_CD0utV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48701-5667948": {
+    "item_id": "ctbids-48701-5667948",
+    "listing_url": "https://ctbids.com/estate-sale/48701/item/5667948/Spectrum-70mm-Refractor-Telescope-with-Adjustable-Tripod",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5667948_ocwdPm.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -471,11 +473,11 @@
       }
     ]
   },
-  "ctbids-48307-5621634": {
-    "item_id": "ctbids-48307-5621634",
-    "listing_url": "https://ctbids.com/estate-sale/48307/item/5621634/Malta-Tile-Mixed-Kitchenware-with-Pyrex-Bowls",
+  "ctbids-48310-5641047": {
+    "item_id": "ctbids-48310-5641047",
+    "listing_url": "https://ctbids.com/estate-sale/48310/item/5641047/Pair-of-Native-American-Style-Figurines-with-Eagles",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5621634_ztvkxH.webp"
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641047_wH6rJL.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -525,14 +527,15 @@
       }
     ]
   },
-  "ctbids-47705-5542669": {
-    "item_id": "ctbids-47705-5542669",
-    "listing_url": "https://ctbids.com/estate-sale/47705/item/5542669/Norelco-Series-5000-Razor",
+  "ctbids-47212-5618585": {
+    "item_id": "ctbids-47212-5618585",
+    "listing_url": "https://ctbids.com/estate-sale/47212/item/5618585/7-Boxed-Funko-Pop-Vinyl-Figures-from-Various-Franchises",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5542669_eDuRxm.webp"
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5618585_ERaelp.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -540,9 +543,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -645,6 +649,89 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278306583": {
+    "item_id": "278306583",
+    "listing_url": "https://shopgoodwill.com/item/278306583",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/bf01c1a9-b253-468e-bfcf-098f9f0f3505llen_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/89a323ef-bba7-4388-8a2b-0b8407cc102allen_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/02482f5d-93f4-45ba-9dfd-01b1c7e89f1bllen_09243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/679c3bcc-f8ca-4302-81cf-3ff89e91ce8bllen_09244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/f710ed7c-c423-4003-87a1-c7643a4c41a7llen_09245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/7a52a9f2-01c3-45cd-b004-cd1521715b2dllen_09246.jpg"
+    ],
+    "description": "This lot features a variety of polished stones and minerals, including tumbled stones, slabs, chips, and rough pieces. The collection includes specimens that appear to be agate, jasper, quartz, amethyst, sodalite, petrified wood, and possibly a fossilized shark tooth. The stones come in different shapes, colors, and patterns, with both natural and polished finishes. The pieces show minor surface wear consistent with handling but have no significant damage visible.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277602161": {
+    "item_id": "277602161",
+    "listing_url": "https://shopgoodwill.com/item/277602161",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/97cbe5a9-d59d-49e2-beda-ec1631ab0aaaneyR_09171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/49f8d76f-b921-4c22-ae8b-2136f0afb1faneyR_09172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/a6fc534d-cbb0-48d3-bcbe-671afa14a188neyR_09173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/b4f165ac-1083-4406-83d8-67cc759ab6daneyR_09174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/009d8f12-e85b-494d-90c4-30aff5e731cfneyR_09175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/3abecc9f-c8b2-4e9a-9b64-c3f2b046082cneyR_09176.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/f89fd9b8-6f8c-4e69-a2e3-2fa9c0bf264eneyR_09177.jpg"
+    ],
+    "description": "This listing includes a lot of five fossilized seashells, likely from marine bivalves and gastropods. The shells are fully mineralized with earthy and stony textures in natural brown, tan, and gray tones. Sizes range from approximately 1.5 to 3 inches each, shown next to a ruler for scale. The total weight of the lot is 269.2 grams. All items are in used, natural condition with visible wear, embedded sediment, and some broken or incomplete sections typical for fossils. This Fossil Bivalves Grab Bag is suitable for fossil collectors, educational use, or natural decor.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'decor' in description (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'decor' in description (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }
@@ -870,45 +957,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277602161": {
-    "item_id": "277602161",
-    "listing_url": "https://shopgoodwill.com/item/277602161",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/97cbe5a9-d59d-49e2-beda-ec1631ab0aaaneyR_09171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/49f8d76f-b921-4c22-ae8b-2136f0afb1faneyR_09172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/a6fc534d-cbb0-48d3-bcbe-671afa14a188neyR_09173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/b4f165ac-1083-4406-83d8-67cc759ab6daneyR_09174.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/009d8f12-e85b-494d-90c4-30aff5e731cfneyR_09175.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/3abecc9f-c8b2-4e9a-9b64-c3f2b046082cneyR_09176.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-17/f89fd9b8-6f8c-4e69-a2e3-2fa9c0bf264eneyR_09177.jpg"
-    ],
-    "description": "This listing includes a lot of five fossilized seashells, likely from marine bivalves and gastropods. The shells are fully mineralized with earthy and stony textures in natural brown, tan, and gray tones. Sizes range from approximately 1.5 to 3 inches each, shown next to a ruler for scale. The total weight of the lot is 269.2 grams. All items are in used, natural condition with visible wear, embedded sediment, and some broken or incomplete sections typical for fossils. This Fossil Bivalves Grab Bag is suitable for fossil collectors, educational use, or natural decor.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'decor' in description (-8)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+3)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'decor' in description (-8)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }
