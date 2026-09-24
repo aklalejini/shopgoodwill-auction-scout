@@ -121,6 +121,7 @@
       "Lower-priority term 'as is' in description (-3)",
       "Target keyword 'lightscribe' in title (+10)",
       "High-value signal 'lightscribe' in title (+12)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-3)",
       "Base score (+4)"
     ],
@@ -128,12 +129,13 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 20,
-        "relative_score": 0.556,
+        "score": 22,
+        "relative_score": 0.611,
         "score_reasons": [
           "Lower-priority term 'as is' in description (-3)",
           "Target keyword 'lightscribe' in title (+10)",
           "High-value signal 'lightscribe' in title (+12)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
         ],
@@ -161,6 +163,7 @@
       "Target keyword 'tdk' in title (+5)",
       "Target keyword 't-120' in description (+5)",
       "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-6)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+4)"
@@ -169,8 +172,8 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 15,
-        "relative_score": 0.417,
+        "score": 19,
+        "relative_score": 0.528,
         "score_reasons": [
           "Opportunity term 'factory sealed' in description (+18)",
           "Opportunity term 'sealed' in title (+6)",
@@ -182,6 +185,7 @@
           "Target keyword 'tdk' in title (+5)",
           "Target keyword 't-120' in description (+5)",
           "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-6)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+4)"
@@ -193,6 +197,52 @@
           "t-120",
           "tdk"
         ]
+      }
+    ]
+  },
+  "277798287": {
+    "item_id": "277798287",
+    "listing_url": "https://shopgoodwill.com/item/277798287",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/513d7b57-8d98-4046-932e-a2dbf8dbf52fcker_09031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/299dc5f9-6453-4764-a7aa-eecefd20fa1dcker_09032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/73c1cfed-f1b4-4542-a151-59fd84f0ea90cker_09033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/6e64bb92-d8ea-443e-96ae-2464a4a4eadbcker_09034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/02a30d36-fd1d-4980-a7fe-07208774bd4dcker_09035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/e0086a64-879d-44e2-b7ab-efc607236862cker_09036.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/99232503-bc0f-47f3-b183-22a72633851fcker_09037.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/f5eb6eb3-a443-4f2f-b70d-16eaebcd3c81cker_09038.jpg"
+    ],
+    "description": "Title\n: Bag Of Mineral Geodes\nOptional title\n: Assorted Mineral Geodes & Rock Collection Decor Lot\nMaterial\n: Stone\nColor\n: Multicolored\nStyle\n: Natural\nTheme\n: Geology\nRoom\n: Any Room\nCare instructions\n: Wipe clean with a dry cloth\nUnit type\n: Unit\nCategory\n: Collectibles & Art\nCondition\n: Used\nBrand\n: Unbranded\nType\n: Geodes\nDepartment\n: Home Decor\nDescription\n: This listing features a diverse lot of natural mineral geodes and rock specimens, perfect for adding an organic touch to your home decor. The collection includes dozens of natural stone pieces, some with rough exteriors and others showing unique interior crystalline and banded patterns. The mix includes both large and small pieces, with varying colors and textures visible in the images provided.\nIdeal for display on shelves, desks, or as distinctive accent decor, these rocks offer both visual interest and tactile appeal. Their natural formation ensures every piece is unique, creating a striking Earth-inspired aesthetic. The display rack shown in the images is included, making it easy to showcase the entire collection.\nAll items are pre-owned and show typical natural surface textures and edges. Please study the photos carefully to ensure they meet your needs and expectations. A beautiful find for rock, mineral, and geology enthusiasts alike.",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+1)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'decor' in description (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 13,
+        "relative_score": 0.433,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+1)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'decor' in description (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -234,118 +284,88 @@
       }
     ]
   },
-  "277798287": {
-    "item_id": "277798287",
-    "listing_url": "https://shopgoodwill.com/item/277798287",
+  "ctbids-48182-5645662": {
+    "item_id": "ctbids-48182-5645662",
+    "listing_url": "https://ctbids.com/estate-sale/48182/item/5645662/Vintage-leather-carving-Book-Tools-And-Leather-Pcs",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/513d7b57-8d98-4046-932e-a2dbf8dbf52fcker_09031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/299dc5f9-6453-4764-a7aa-eecefd20fa1dcker_09032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/73c1cfed-f1b4-4542-a151-59fd84f0ea90cker_09033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/6e64bb92-d8ea-443e-96ae-2464a4a4eadbcker_09034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/02a30d36-fd1d-4980-a7fe-07208774bd4dcker_09035.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/e0086a64-879d-44e2-b7ab-efc607236862cker_09036.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/99232503-bc0f-47f3-b183-22a72633851fcker_09037.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-03/f5eb6eb3-a443-4f2f-b70d-16eaebcd3c81cker_09038.jpg"
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645662_mGvgao.webp"
     ],
-    "description": "Title\n: Bag Of Mineral Geodes\nOptional title\n: Assorted Mineral Geodes & Rock Collection Decor Lot\nMaterial\n: Stone\nColor\n: Multicolored\nStyle\n: Natural\nTheme\n: Geology\nRoom\n: Any Room\nCare instructions\n: Wipe clean with a dry cloth\nUnit type\n: Unit\nCategory\n: Collectibles & Art\nCondition\n: Used\nBrand\n: Unbranded\nType\n: Geodes\nDepartment\n: Home Decor\nDescription\n: This listing features a diverse lot of natural mineral geodes and rock specimens, perfect for adding an organic touch to your home decor. The collection includes dozens of natural stone pieces, some with rough exteriors and others showing unique interior crystalline and banded patterns. The mix includes both large and small pieces, with varying colors and textures visible in the images provided.\nIdeal for display on shelves, desks, or as distinctive accent decor, these rocks offer both visual interest and tactile appeal. Their natural formation ensures every piece is unique, creating a striking Earth-inspired aesthetic. The display rack shown in the images is included, making it easy to showcase the entire collection.\nAll items are pre-owned and show typical natural surface textures and edges. Please study the photos carefully to ensure they meet your needs and expectations. A beautiful find for rock, mineral, and geology enthusiasts alike.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'geology' in description (+10)",
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in description (+1)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Opportunity term cap limited keyword stacking; effective contributions are shown",
-      "Lower-priority term 'decor' in description (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
-        "score_reasons": [
-          "Opportunity term 'geology' in description (+10)",
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in description (+1)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Opportunity term cap limited keyword stacking; effective contributions are shown",
-          "Lower-priority term 'decor' in description (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277854112": {
-    "item_id": "277854112",
-    "listing_url": "https://shopgoodwill.com/item/277854112",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/97255b09-ffb7-4caa-bad5-a3eaeb06ac3eixon_08261.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/f4b14b01-61c1-40b8-8ac9-2b68e042cec4ixon_08262.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/3e725241-ac74-4b1f-8a5e-0319861e42d6ixon_08263.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/fd14b62c-c4ef-4f12-a60a-46375ddc0337ixon_08264.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/874647ac-f6e5-4a5b-afb1-b550fcdd6444ixon_08265.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/6ef8e7d8-75ba-44ea-9523-df4d3a087ebcixon_08266.jpg"
-    ],
-    "description": "Stone, Crystal, Fossil, and Mineral Specimen Collection\nItem Details:\nPlease see attached photos for included items. Listing includes only items shown in attached photographs. May be missing originally included items.\nCondition:\nFair - Shows some signs of wear.\nPre-owned. Sold As Is. Products condition is consistent with age and gentle use.\nPlease refer to attached photographs and bid accordingly.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278098935": {
-    "item_id": "278098935",
-    "listing_url": "https://shopgoodwill.com/item/278098935",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/18bfca50-6f1e-49bd-ad98-8d76c8166118ospe_09221.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/885ae5ca-c776-4b2b-b0bd-173fd2d06254ospe_09222.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/f7dcd21d-845e-41b5-aaf0-a2188f373c17ospe_09223.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/ad218cf0-eb24-443a-816a-096062574085ospe_09224.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/6c426e45-4411-4eee-b691-9b87b09fc58dospe_09225.jpg"
-    ],
-    "description": "Product Overview:\nThis collection features a variety of mineral and rock specimens along with fossilized or mineralized plant material. Included are samples with different colors such as white, black, gray, red, orange, yellow, and purple. Some mineral samples are crystalline while others are more opaque. The collection also contains elongated reddish-brown pieces resembling petrified wood or fossilized plant stems, plus a larger specimen with star-shaped patterns.\n\nSpecifications:\n- Material: Mineral and rock specimens, fossilized and mineralized plant material\n- Color Variations: White, black, gray, red, orange, yellow, purple\n- Types: Crystalline minerals, opaque minerals, petrified wood/fossilized stems\n- Weight: Approximately 5 pounds\n- Condition: Natural wear and chipping consistent with geological samples",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
         "score": 8,
-        "relative_score": 0.267,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48182-5624488": {
+    "item_id": "ctbids-48182-5624488",
+    "listing_url": "https://ctbids.com/estate-sale/48182/item/5624488/Vintage-Asian-Doll-in-Kimono",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5624488_DY98lc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48182-5649279": {
+    "item_id": "ctbids-48182-5649279",
+    "listing_url": "https://ctbids.com/estate-sale/48182/item/5649279/vintage-Polaroid-Super-Colorpack-Land-Camera-a-rigid-body-camera-Leather-Case",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5649279_Djrnpr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -405,82 +425,35 @@
       }
     ]
   },
-  "ctbids-48701-5665534": {
-    "item_id": "ctbids-48701-5665534",
-    "listing_url": "https://ctbids.com/estate-sale/48701/item/5665534/Alabama-Feels-So-Right-See-the-Embers-Feel-the-Flame-RCA-PB-12236-45-RPM-1981",
+  "277854112": {
+    "item_id": "277854112",
+    "listing_url": "https://shopgoodwill.com/item/277854112",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5631148_ifFOGQ.webp"
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/97255b09-ffb7-4caa-bad5-a3eaeb06ac3eixon_08261.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/f4b14b01-61c1-40b8-8ac9-2b68e042cec4ixon_08262.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/3e725241-ac74-4b1f-8a5e-0319861e42d6ixon_08263.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/fd14b62c-c4ef-4f12-a60a-46375ddc0337ixon_08264.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/874647ac-f6e5-4a5b-afb1-b550fcdd6444ixon_08265.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-08-26/6ef8e7d8-75ba-44ea-9523-df4d3a087ebcixon_08266.jpg"
     ],
-    "description": "",
+    "description": "Stone, Crystal, Fossil, and Mineral Specimen Collection\nItem Details:\nPlease see attached photos for included items. Listing includes only items shown in attached photographs. May be missing originally included items.\nCondition:\nFair - Shows some signs of wear.\nPre-owned. Sold As Is. Products condition is consistent with age and gentle use.\nPlease refer to attached photographs and bid accordingly.",
     "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 10,
+        "relative_score": 0.333,
         "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48182-5645662": {
-    "item_id": "ctbids-48182-5645662",
-    "listing_url": "https://ctbids.com/estate-sale/48182/item/5645662/Vintage-leather-carving-Book-Tools-And-Leather-Pcs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645662_mGvgao.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48182-5624488": {
-    "item_id": "ctbids-48182-5624488",
-    "listing_url": "https://ctbids.com/estate-sale/48182/item/5624488/Vintage-Asian-Doll-in-Kimono",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5624488_DY98lc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -540,11 +513,11 @@
       }
     ]
   },
-  "ctbids-48182-5649279": {
-    "item_id": "ctbids-48182-5649279",
-    "listing_url": "https://ctbids.com/estate-sale/48182/item/5649279/vintage-Polaroid-Super-Colorpack-Land-Camera-a-rigid-body-camera-Leather-Case",
+  "ctbids-48182-5642704": {
+    "item_id": "ctbids-48182-5642704",
+    "listing_url": "https://ctbids.com/estate-sale/48182/item/5642704/Vintage-Christmas-decorations-4",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5649279_Djrnpr.webp"
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642704_WykLeq.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -567,15 +540,54 @@
       }
     ]
   },
-  "ctbids-48182-5642704": {
-    "item_id": "ctbids-48182-5642704",
-    "listing_url": "https://ctbids.com/estate-sale/48182/item/5642704/Vintage-Christmas-decorations-4",
+  "278098935": {
+    "item_id": "278098935",
+    "listing_url": "https://shopgoodwill.com/item/278098935",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642704_WykLeq.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/18bfca50-6f1e-49bd-ad98-8d76c8166118ospe_09221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/885ae5ca-c776-4b2b-b0bd-173fd2d06254ospe_09222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/f7dcd21d-845e-41b5-aaf0-a2188f373c17ospe_09223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/ad218cf0-eb24-443a-816a-096062574085ospe_09224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-22/6c426e45-4411-4eee-b691-9b87b09fc58dospe_09225.jpg"
+    ],
+    "description": "Product Overview:\nThis collection features a variety of mineral and rock specimens along with fossilized or mineralized plant material. Included are samples with different colors such as white, black, gray, red, orange, yellow, and purple. Some mineral samples are crystalline while others are more opaque. The collection also contains elongated reddish-brown pieces resembling petrified wood or fossilized plant stems, plus a larger specimen with star-shaped patterns.\n\nSpecifications:\n- Material: Mineral and rock specimens, fossilized and mineralized plant material\n- Color Variations: White, black, gray, red, orange, yellow, purple\n- Types: Crystalline minerals, opaque minerals, petrified wood/fossilized stems\n- Weight: Approximately 5 pounds\n- Condition: Natural wear and chipping consistent with geological samples",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 8,
+        "relative_score": 0.267,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48701-5665534": {
+    "item_id": "ctbids-48701-5665534",
+    "listing_url": "https://ctbids.com/estate-sale/48701/item/5665534/Alabama-Feels-So-Right-See-the-Embers-Feel-the-Flame-RCA-PB-12236-45-RPM-1981",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5631148_ifFOGQ.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -583,10 +595,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48701-5665558": {
+    "item_id": "ctbids-48701-5665558",
+    "listing_url": "https://ctbids.com/estate-sale/48701/item/5665558/Everybody-Loves-Raymond-Complete-Third-Season-DVD-5-Disc-Set-26-Episodes-2005",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5599241_YP0q1c.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48307-5623101": {
+    "item_id": "ctbids-48307-5623101",
+    "listing_url": "https://ctbids.com/estate-sale/48307/item/5623101/Oil-Lamps-and-Candle-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5623101_EHRhJP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -688,56 +754,6 @@
       }
     ]
   },
-  "ctbids-48701-5665558": {
-    "item_id": "ctbids-48701-5665558",
-    "listing_url": "https://ctbids.com/estate-sale/48701/item/5665558/Everybody-Loves-Raymond-Complete-Third-Season-DVD-5-Disc-Set-26-Episodes-2005",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5599241_YP0q1c.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48307-5623101": {
-    "item_id": "ctbids-48307-5623101",
-    "listing_url": "https://ctbids.com/estate-sale/48307/item/5623101/Oil-Lamps-and-Candle-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5623101_EHRhJP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47705-5544022": {
     "item_id": "ctbids-47705-5544022",
     "listing_url": "https://ctbids.com/estate-sale/47705/item/5544022/Set-Of-Nesting-Tables",
@@ -746,6 +762,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -753,11 +770,109 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47705-5544197": {
+    "item_id": "ctbids-47705-5544197",
+    "listing_url": "https://ctbids.com/estate-sale/47705/item/5544197/George-Foreman-Grill-George-Forman-grill",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5544197_HHTBq5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48507-5648071": {
+    "item_id": "ctbids-48507-5648071",
+    "listing_url": "https://ctbids.com/estate-sale/48507/item/5648071/Greenhouse-With-Gardening-Supplies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5648071_WaS6AK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277455888": {
+    "item_id": "277455888",
+    "listing_url": "https://shopgoodwill.com/item/277455888",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/20d213b8-3f71-4512-a6b5-c99628f7d2c8inal_09161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/f9f5a551-d3b3-4387-a6ad-92898fa2c6f7inal_09162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/2a4157ec-427c-45d5-a90a-df8bfc40abc5inal_09163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/c3730dd7-ec71-4487-9116-9f9c918cbb3einal_09164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/441b1ef1-ed13-493d-bd91-80ae85df38cainal_09165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/d12058fd-2b74-4bdd-ab12-71d4667cd61ainal_09166.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/d27da7c6-65ab-4fdf-be7c-910db1a131f8inal_09167.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/b4c3c1cf-ef6d-477c-9a79-1e1780d5fe41inal_09168.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/d377b947-e792-45b1-bed3-6a848fe2cf9binal_09169.jpg"
+    ],
+    "description": "A collection of quartz points and mixed crystals weighing 1198 grams. Includes clear quartz, clusters, and a colored crystal piece.\nDue to the nature of grab bag assortments, some may have minor damage not noted and there may be mismatched or incomplete items. These are not eligible for return or refund. Please refer to photos to further evaluate condition. Sold as is. Items have not been tested for functionality unless specified. Items may be in need of repairs or adjustments. We are unable to answer questions about specific items within a grab bag. Please view the provided photographs to determine general contents.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -793,31 +908,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48404/item/5571618/Men-s-Hickey-Freeman-Sport-And-Pants-Tux-Jacket-And-Shirt-And-Accessories",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5571618_aFbb1f.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47705-5544197": {
-    "item_id": "ctbids-47705-5544197",
-    "listing_url": "https://ctbids.com/estate-sale/47705/item/5544197/George-Foreman-Grill-George-Forman-grill",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5544197_HHTBq5.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1158,99 +1248,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48507-5648071": {
-    "item_id": "ctbids-48507-5648071",
-    "listing_url": "https://ctbids.com/estate-sale/48507/item/5648071/Greenhouse-With-Gardening-Supplies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5648071_WaS6AK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47392-5606116": {
-    "item_id": "ctbids-47392-5606116",
-    "listing_url": "https://ctbids.com/estate-sale/47392/item/5606116/Two-Framed-Boundary-Waters-Prints-From-national-parks-series",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5606116_35ptc1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277455888": {
-    "item_id": "277455888",
-    "listing_url": "https://shopgoodwill.com/item/277455888",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/20d213b8-3f71-4512-a6b5-c99628f7d2c8inal_09161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/f9f5a551-d3b3-4387-a6ad-92898fa2c6f7inal_09162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/2a4157ec-427c-45d5-a90a-df8bfc40abc5inal_09163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/c3730dd7-ec71-4487-9116-9f9c918cbb3einal_09164.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/441b1ef1-ed13-493d-bd91-80ae85df38cainal_09165.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/d12058fd-2b74-4bdd-ab12-71d4667cd61ainal_09166.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/d27da7c6-65ab-4fdf-be7c-910db1a131f8inal_09167.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/b4c3c1cf-ef6d-477c-9a79-1e1780d5fe41inal_09168.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-09-16/d377b947-e792-45b1-bed3-6a848fe2cf9binal_09169.jpg"
-    ],
-    "description": "A collection of quartz points and mixed crystals weighing 1198 grams. Includes clear quartz, clusters, and a colored crystal piece.\nDue to the nature of grab bag assortments, some may have minor damage not noted and there may be mismatched or incomplete items. These are not eligible for return or refund. Please refer to photos to further evaluate condition. Sold as is. Items have not been tested for functionality unless specified. Items may be in need of repairs or adjustments. We are unable to answer questions about specific items within a grab bag. Please view the provided photographs to determine general contents.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+2)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+2)"
         ],
         "matched_keywords": []
       }

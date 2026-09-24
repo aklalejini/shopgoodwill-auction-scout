@@ -147,6 +147,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
       "Lower-priority term 'possibly' in description (-4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-10)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
@@ -155,14 +156,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 14,
+        "relative_score": 0.467,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
           "Lower-priority term 'possibly' in description (-4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-10)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
@@ -201,6 +203,35 @@
           "Generic estate tube lot may hide factory rebrands (+14)",
           "Shipping is calculated and not included in the price (-5)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48182-5641638": {
+    "item_id": "ctbids-48182-5641638",
+    "listing_url": "https://ctbids.com/estate-sale/48182/item/5641638/Vintage-Mike-Schmidt-Stadium-Giveaway-SGA-bobblehead-issued-by-the-Reading-Phillies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641638_spnnLd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -250,33 +281,6 @@
         "matched_keywords": [
           "fluorite"
         ]
-      }
-    ]
-  },
-  "ctbids-48701-5665485": {
-    "item_id": "ctbids-48701-5665485",
-    "listing_url": "https://ctbids.com/estate-sale/48701/item/5665485/Russ-Hamilton-Rainbow-We-Will-Make-Love-1957-Kapp-K-184X-7-Inch-45-RPM-Record",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5463897_Pfkm0y.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -334,15 +338,15 @@
       }
     ]
   },
-  "ctbids-48182-5641638": {
-    "item_id": "ctbids-48182-5641638",
-    "listing_url": "https://ctbids.com/estate-sale/48182/item/5641638/Vintage-Mike-Schmidt-Stadium-Giveaway-SGA-bobblehead-issued-by-the-Reading-Phillies",
+  "ctbids-48701-5665485": {
+    "item_id": "ctbids-48701-5665485",
+    "listing_url": "https://ctbids.com/estate-sale/48701/item/5665485/Russ-Hamilton-Rainbow-We-Will-Make-Love-1957-Kapp-K-184X-7-Inch-45-RPM-Record",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641638_spnnLd.webp"
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5463897_Pfkm0y.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -350,10 +354,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -369,6 +373,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -376,9 +381,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -394,6 +400,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -401,9 +408,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -419,6 +427,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -426,9 +435,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48507-5647266": {
+    "item_id": "ctbids-48507-5647266",
+    "listing_url": "https://ctbids.com/estate-sale/48507/item/5647266/Enamel-Pins-and-Buttons",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647266_DIOUU5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -616,31 +653,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48404/item/5557170/Vases",
     "images": [
       "https://image.ctbids.com/seller/2026-09-16T2152c1/5557170_o3YLE6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48507-5647266": {
-    "item_id": "ctbids-48507-5647266",
-    "listing_url": "https://ctbids.com/estate-sale/48507/item/5647266/Enamel-Pins-and-Buttons",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647266_DIOUU5.webp"
     ],
     "description": "",
     "score_reasons": [
