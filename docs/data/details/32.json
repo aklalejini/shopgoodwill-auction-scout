@@ -35,6 +35,56 @@
       }
     ]
   },
+  "278296131": {
+    "item_id": "278296131",
+    "listing_url": "https://shopgoodwill.com/item/278296131",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/385/Item/2026-09-24/32f47267-d800-4866-9ccb-b9ca99dc298eton1_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/385/Item/2026-09-24/7da2cb52-3023-4b57-a474-41b51bb30ccfton1_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/385/Item/2026-09-24/b77ac711-030c-4b42-bd9f-09699b2c385cton1_09243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/385/Item/2026-09-24/025c9fd2-c410-4b7e-ad39-1e32a9e36b67ton1_09244.jpg"
+    ],
+    "description": "This lot contains multiple packs of blank audio cassette tapes from Maxell, TDK, and Fuji. Maxell packs include XLII 90 High Bias and UR Normal Bias types, with pack sizes from 4 to 8 tapes, featuring gold and black packaging. TDK packs are D60 IEC I/Type I High Output cassettes in 8-pack sizes with dark blue and red packaging. Fuji contributes DR-I 60 Normal Bias cassettes in 5-pack black and gold packaging. All packs are sealed and unopened, standard size, with 60 or 90 minutes recording time. Pre-owned item with normal wear from previous use, age, and storage. May show scratches, scuffs, marks, discoloration, fading, dust, or other cosmetic imperfections consistent with a used item. Please review all photos carefully as they are part of the description and show the exact condition. Any accessories, parts, or components included are only those shown in the photos unless otherwise stated. Sold as-is. Do not make assumptions about functionality, completeness, or condition.",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'unopened' in description (+12)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Target keyword 'xlii' in description (+8)",
+      "Target keyword 'high bias' in description (+7)",
+      "Target keyword 'maxell' in title (+5)",
+      "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 45,
+        "relative_score": 1.25,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'unopened' in description (+12)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Target keyword 'xlii' in description (+8)",
+          "Target keyword 'high bias' in description (+7)",
+          "Target keyword 'maxell' in title (+5)",
+          "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "fuji",
+          "high bias",
+          "maxell",
+          "tdk",
+          "xlii"
+        ]
+      }
+    ]
+  },
   "278075894": {
     "item_id": "278075894",
     "listing_url": "https://shopgoodwill.com/item/278075894",
@@ -164,35 +214,6 @@
       }
     ]
   },
-  "ctbids-48310-5641038": {
-    "item_id": "ctbids-48310-5641038",
-    "listing_url": "https://ctbids.com/estate-sale/48310/item/5641038/Thomas-Kinkade-A-Holiday-Gathering-Collector-Plate-Vintage-Wood-Weather-Station",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641038_Cg2uQx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47705-5551832": {
     "item_id": "ctbids-47705-5551832",
     "listing_url": "https://ctbids.com/estate-sale/47705/item/5551832/Coffee-Table-Collection",
@@ -244,6 +265,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48310-5641038": {
+    "item_id": "ctbids-48310-5641038",
+    "listing_url": "https://ctbids.com/estate-sale/48310/item/5641038/Thomas-Kinkade-A-Holiday-Gathering-Collector-Plate-Vintage-Wood-Weather-Station",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641038_Cg2uQx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -332,45 +382,28 @@
       }
     ]
   },
-  "278196061": {
-    "item_id": "278196061",
-    "listing_url": "https://shopgoodwill.com/item/278196061",
+  "ctbids-48307-5621635": {
+    "item_id": "ctbids-48307-5621635",
+    "listing_url": "https://ctbids.com/estate-sale/48307/item/5621635/Clear-Glass-Drinkware-Set",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/071deecb-cf2b-4c30-9628-6ee64169a148anay_09231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/0d42ed8d-f69a-47de-80c2-6cc4c8679781anay_09232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/43603eef-3aa0-4420-8a10-b60755ee840eanay_09233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/2c8d46b1-631e-4d73-aa36-a2e6aa16c719anay_09234.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c3ba17d9-e177-4b88-b7d1-6216b173815aanay_09235.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/5c380f58-3e84-4ccf-980d-0162c8b1cb22anay_09236.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/ae80fd2e-75d6-4bb5-b556-b1333b7e515canay_09237.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c831c5d0-cbf9-404b-a317-f3ac94873da3anay_09238.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/3f080118-f396-4c1f-ae17-46b895a53dabanay_09239.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7ab78a39-ccd1-4c73-a663-cd0f13ce1260anay_092310.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/47b0f976-6012-44b4-94e3-1b7d1d4ce080anay_092311.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7584d455-9acb-4086-af90-4257ae368cc9anay_092312.jpg"
+      "https://image.ctbids.com/seller/2026-09-14T038590/5621635_F6uFIp.webp"
     ],
-    "description": "Condition:\nItem(s) tarnished and scratched. Clean before use.\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Richland\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "20 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "20 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -457,33 +490,6 @@
       }
     ]
   },
-  "ctbids-48307-5621635": {
-    "item_id": "ctbids-48307-5621635",
-    "listing_url": "https://ctbids.com/estate-sale/48307/item/5621635/Clear-Glass-Drinkware-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5621635_F6uFIp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48403-5643717": {
     "item_id": "ctbids-48403-5643717",
     "listing_url": "https://ctbids.com/estate-sale/48403/item/5643717/Large-Silverplate-Entertaining-And-Serving-Lot",
@@ -506,6 +512,50 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278196061": {
+    "item_id": "278196061",
+    "listing_url": "https://shopgoodwill.com/item/278196061",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/071deecb-cf2b-4c30-9628-6ee64169a148anay_09231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/0d42ed8d-f69a-47de-80c2-6cc4c8679781anay_09232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/43603eef-3aa0-4420-8a10-b60755ee840eanay_09233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/2c8d46b1-631e-4d73-aa36-a2e6aa16c719anay_09234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c3ba17d9-e177-4b88-b7d1-6216b173815aanay_09235.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/5c380f58-3e84-4ccf-980d-0162c8b1cb22anay_09236.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/ae80fd2e-75d6-4bb5-b556-b1333b7e515canay_09237.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c831c5d0-cbf9-404b-a317-f3ac94873da3anay_09238.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/3f080118-f396-4c1f-ae17-46b895a53dabanay_09239.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7ab78a39-ccd1-4c73-a663-cd0f13ce1260anay_092310.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/47b0f976-6012-44b4-94e3-1b7d1d4ce080anay_092311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7584d455-9acb-4086-af90-4257ae368cc9anay_092312.jpg"
+    ],
+    "description": "Condition:\nItem(s) tarnished and scratched. Clean before use.\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Richland\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "20 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 8,
+        "relative_score": 0.267,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "20 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -546,7 +596,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -557,7 +607,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -641,39 +691,6 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277899477": {
-    "item_id": "277899477",
-    "listing_url": "https://shopgoodwill.com/item/277899477",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/d677f52d-9a7a-48a1-bab1-61bb0a6ce933kcgw_09211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/63117227-2694-4265-b8ab-1e6e45de05d5kcgw_09212.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/790c1ebd-b069-4e0b-9052-b04a355219e9kcgw_09213.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/5081d53b-0434-4022-afb5-150d50f539e9kcgw_09214.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/66d94f62-a212-4e44-b17d-2f3512d420bbkcgw_09215.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/624fc9d6-1728-452d-a313-640b6c53de18kcgw_09216.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/6b9e63e1-068a-465f-a31a-3961afbbf1d5kcgw_09217.jpg"
-    ],
-    "description": "Alfco NY\nNautical Fisherman with Pipe\nHand Painted Composition / Resin\n14.25\" H x 5.5\" W x 5.5\" L\nUnsigned (Stamped on base)\nThis vintage figurine by Alfco NY depicts a classic maritime character, a sea-weathered fisherman clad in a traditional yellow-orange slicker and sou'wester hat while smoking a pipe. The piece is crafted from a durable composition resin designed to emulate the texture and weight of a hand-carved wood sculpture, featuring deep, expressive graining and a warm, aged patina. The character's jovial expression and detailed attire make it a quintessential piece of mid-to-late 20th-century nautical decor.\nAuthentically marked with the \" ALFCO-NY\" stamp on the rear of the base\nDetailed hand-painted finish highlights the weathered textures of the rain gear and facial features\nSubstantial 2.2-pound weight provides stability for display on shelves or mantels\nCondition:\nGood vintage condition. There is a prominent chip and material loss on the top of the hat as shown in photos. The remainder of the figure shows light surface wear and minor scuffing consistent with age. The base is stable and features a circular opening as manufactured.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1054,6 +1071,39 @@
       }
     ]
   },
+  "277899477": {
+    "item_id": "277899477",
+    "listing_url": "https://shopgoodwill.com/item/277899477",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/d677f52d-9a7a-48a1-bab1-61bb0a6ce933kcgw_09211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/63117227-2694-4265-b8ab-1e6e45de05d5kcgw_09212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/790c1ebd-b069-4e0b-9052-b04a355219e9kcgw_09213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/5081d53b-0434-4022-afb5-150d50f539e9kcgw_09214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/66d94f62-a212-4e44-b17d-2f3512d420bbkcgw_09215.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/624fc9d6-1728-452d-a313-640b6c53de18kcgw_09216.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-09-21/6b9e63e1-068a-465f-a31a-3961afbbf1d5kcgw_09217.jpg"
+    ],
+    "description": "Alfco NY\nNautical Fisherman with Pipe\nHand Painted Composition / Resin\n14.25\" H x 5.5\" W x 5.5\" L\nUnsigned (Stamped on base)\nThis vintage figurine by Alfco NY depicts a classic maritime character, a sea-weathered fisherman clad in a traditional yellow-orange slicker and sou'wester hat while smoking a pipe. The piece is crafted from a durable composition resin designed to emulate the texture and weight of a hand-carved wood sculpture, featuring deep, expressive graining and a warm, aged patina. The character's jovial expression and detailed attire make it a quintessential piece of mid-to-late 20th-century nautical decor.\nAuthentically marked with the \" ALFCO-NY\" stamp on the rear of the base\nDetailed hand-painted finish highlights the weathered textures of the rain gear and facial features\nSubstantial 2.2-pound weight provides stability for display on shelves or mantels\nCondition:\nGood vintage condition. There is a prominent chip and material loss on the top of the hat as shown in photos. The remainder of the figure shows light surface wear and minor scuffing consistent with age. The base is stable and features a circular opening as manufactured.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277547472": {
     "item_id": "277547472",
     "listing_url": "https://shopgoodwill.com/item/277547472",
@@ -1093,6 +1143,50 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278288975": {
+    "item_id": "278288975",
+    "listing_url": "https://shopgoodwill.com/item/278288975",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/e7fe2a66-a517-4e70-a78c-909c76c1776ccnh_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/cee57f89-08f0-43c6-bd06-dfa40db9c294cnh_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/1deb17e5-bf7c-4548-8f6e-6c01f0eba8cacnh_09243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/5f05566f-dd1e-41f9-90fc-0657fb5254aacnh_09244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/016ff402-ff4f-4c01-80f1-12b26bac035dcnh_09245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/7e9b2b18-b37e-4c81-8369-e3058a767c90cnh_09246.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/a0ea0df6-b0bb-4a79-8e58-4887366f3052cnh_09247.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/e4387cc0-e39c-42ee-b8d1-4d2e192dbaeecnh_09248.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/b11e9d8b-d710-40cd-b96c-a75e65ac2070cnh_09249.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/bc5d4029-8e69-4504-aa99-2b7cd047f206cnh_092410.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/8065d0a3-f794-4e07-a1c5-985e65753749cnh_092411.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-09-24/08815f09-f391-4594-b8bd-c50827cd789bcnh_092412.jpg"
+    ],
+    "description": "Condition\n: Preowned/AS-IS - Items arrive as they were donated and are being sold AS-IS, as-donated (no returns accepted/no refunds will be offered). All items show signs of previous handling/wear throughout and will need a clean. Some items feature nicks/chips and most items feature distressing throughout as would be expected for loose or raw items. Included items vary in size; Please see last photo for overview size comparison with a standard footlong ruler. ***For more information regarding auction contents and general condition, please see photos attached.***\nApproximate Combined Lot Weight:\n5lb+\nPlease see images for further detail and ask any questions you may have BEFORE making a bid.\nWe describe items to the best of our ability but are not experts in any field. Items are represented to the best of our ability. Items may be previously used and may contain unseen faults which we are unable to ascertain and for which we do not take responsibility. Items are not officially appraised or certified. We do not verify authenticity of signed or autographed items. Unless otherwise stated in the listing, items do not come with official certificates and will not include documentation. You are bidding with this in mind.\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\n**All items are sold AS-IS. Bidders are responsible to check for updates to listings. Refer to SELLER INFO tab for further details concerning Bidding, Payments, Shipping, Local Pickup and Return policies. Please ask any questions prior to bidding. **",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1209,6 +1303,39 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278280791": {
+    "item_id": "278280791",
+    "listing_url": "https://shopgoodwill.com/item/278280791",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-24/128a20b4-bb5e-45a8-bc00-c2a057380413auer_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-24/13487c0e-86a3-4cf0-993e-74ac02c9b4deauer_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-24/b9e80754-e874-4143-9c83-d7ede638059dauer_09243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-24/a00126c2-3b46-4601-8f1b-d4dc47b19298auer_09244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-24/95269929-8271-4d72-bbc9-5cc9a09cd155auer_09245.jpg"
+    ],
+    "description": "Product Overview:\nThis listing includes natural agate geode bookends featuring sliced and polished surfaces with concentric bands in white, rust, and orange hues. The inner surfaces are polished to display the crystalline centers, while the outer edges remain rough and natural.\n\nSpecifications:\n- Material: Natural agate geode\n- Finish: Polished inner surfaces, rough outer edges\n- Color: Shades of white, rust, and orange\n- Weight: Approximately 8 pounds total",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
