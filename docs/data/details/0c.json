@@ -87,40 +87,6 @@
       }
     ]
   },
-  "govdeals-6354-173": {
-    "item_id": "govdeals-6354-173",
-    "listing_url": "https://www.govdeals.com/en/asset/173/6354",
-    "images": [
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_43988fed-acc1-44d6-aeaf-d43e28c5a36d.jpg?cb=260828130634",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_43ea7129-5d9b-45e0-b7b2-03a6d89312be.jpg?cb=260828130637",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_511ddde2-34b4-4093-bd56-f7874b2cac81.jpg?cb=260828130635",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_84caabf9-a83f-4c4b-9437-748be617589a.jpg?cb=260828130638",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_9b0050da-aea0-4cf1-bdd9-d690d789ed30.jpg?cb=260828130633",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_9c9c5a31-2221-4bd8-a504-d57f7616f95e.jpg?cb=260828130639",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_b8c235d2-1666-4057-b7cf-9244e5f07364.jpg?cb=260828130638",
-      "https://webassets.lqdt1.com/assets/photos/6354/6354_173_dd636844-807d-40be-8c24-79bc920c8802.jpg?cb=260828130636"
-    ],
-    "description": "2003 Infiniti G35 SEDAN 4-DR, 3.5L V6 DOHC 24V.\nVehicle was seized from a narcotics investigation on 07/20/2019 and was awarded to the Multi-Agency Gang Unit.\n- No maintenance records available.\n- Vehicle is sold as is, unknown condition, no guarantees as to whether it will crank/and or drive or how road worthy the vehicle is.\n- Buyer is responsible for shipping/transportation of vehicle.\n- Vehicle does come with ignition key.\nThe only documentation available for this vehicle is a court order from a judge with the Tennessee Department of Safety awarding this vehicle to the Multi-Agency Gang Unit when the narcotics case was resolved.\n***ALL SALES ARE FINAL***\n***Pick-ups are by appointment ONLY***\nCall Det. Mills @ 901-572-5185 for pickup appointment",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Pickup-only limits the opportunity (0)",
-      "Base score (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-government-surplus",
-        "label": "Local Government Surplus",
-        "score": 12,
-        "relative_score": 0.375,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Pickup-only limits the opportunity (0)",
-          "Base score (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "278003947": {
     "item_id": "278003947",
     "listing_url": "https://shopgoodwill.com/item/278003947",
@@ -250,7 +216,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Opportunity term 'dirty' in description (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "20 lb lot has unresolved shipping cost (-3)",
       "Base score (+5)"
@@ -259,44 +225,15 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 12,
-        "relative_score": 0.343,
+        "score": 10,
+        "relative_score": 0.286,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'dirty' in description (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "20 lb lot has unresolved shipping cost (-3)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48594-5636881": {
-    "item_id": "ctbids-48594-5636881",
-    "listing_url": "https://ctbids.com/estate-sale/48594/item/5636881/Vintage-Eccentric-Chunky-Boho-Beaded-Necklace-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636881_ETYFeA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -340,6 +277,62 @@
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48594-5636881": {
+    "item_id": "ctbids-48594-5636881",
+    "listing_url": "https://ctbids.com/estate-sale/48594/item/5636881/Vintage-Eccentric-Chunky-Boho-Beaded-Necklace-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636881_ETYFeA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48344-5619423": {
+    "item_id": "ctbids-48344-5619423",
+    "listing_url": "https://ctbids.com/estate-sale/48344/item/5619423/Vintage-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619423_GirjTV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -399,33 +392,6 @@
       }
     ]
   },
-  "ctbids-48344-5619423": {
-    "item_id": "ctbids-48344-5619423",
-    "listing_url": "https://ctbids.com/estate-sale/48344/item/5619423/Vintage-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619423_GirjTV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "278382573": {
     "item_id": "278382573",
     "listing_url": "https://shopgoodwill.com/item/278382573",
@@ -452,6 +418,33 @@
           "Lower-priority term 'metaphysical' in description (-10)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47921-5570425": {
+    "item_id": "ctbids-47921-5570425",
+    "listing_url": "https://ctbids.com/estate-sale/47921/item/5570425/Slava-17-Jewel-Watch-and-Assorted-Costume-Jewelry",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5570425_QARr4i.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -648,83 +641,6 @@
       }
     ]
   },
-  "ctbids-48438-5632290": {
-    "item_id": "ctbids-48438-5632290",
-    "listing_url": "https://ctbids.com/estate-sale/48438/item/5632290/Update-To-Terms-And-Conditions",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5589534_I2ht3p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48516-5642660": {
-    "item_id": "ctbids-48516-5642660",
-    "listing_url": "https://ctbids.com/estate-sale/48516/item/5642660/Cherry-Jewelry-Box",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642660_M666wk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47921-5570425": {
-    "item_id": "ctbids-47921-5570425",
-    "listing_url": "https://ctbids.com/estate-sale/47921/item/5570425/Slava-17-Jewel-Watch-and-Assorted-Costume-Jewelry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5570425_QARr4i.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47921-5614428": {
     "item_id": "ctbids-47921-5614428",
     "listing_url": "https://ctbids.com/estate-sale/47921/item/5614428/Crystalline-Pyrite-fool-s-Gold-Mineral-Specimen",
@@ -759,6 +675,31 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48516-5642660": {
+    "item_id": "ctbids-48516-5642660",
+    "listing_url": "https://ctbids.com/estate-sale/48516/item/5642660/Cherry-Jewelry-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642660_M666wk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -816,35 +757,6 @@
       }
     ]
   },
-  "278164527": {
-    "item_id": "278164527",
-    "listing_url": "https://shopgoodwill.com/item/278164527",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/c2ed09a7-083b-4e50-9fe6-29d63c9f1cd6nner_08131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/7d61b713-2a82-482f-810b-497096528224nner_08132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/747574b0-e140-4430-943f-43fb267bb2c2nner_08133.jpg"
-    ],
-    "description": "Lindenwold garnet gemstone in a protective plastic case, made in the USA. Includes a comparison coin for size reference.",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "277734316": {
     "item_id": "277734316",
     "listing_url": "https://shopgoodwill.com/item/277734316",
@@ -876,6 +788,35 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278164527": {
+    "item_id": "278164527",
+    "listing_url": "https://shopgoodwill.com/item/278164527",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/c2ed09a7-083b-4e50-9fe6-29d63c9f1cd6nner_08131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/7d61b713-2a82-482f-810b-497096528224nner_08132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/747574b0-e140-4430-943f-43fb267bb2c2nner_08133.jpg"
+    ],
+    "description": "Lindenwold garnet gemstone in a protective plastic case, made in the USA. Includes a comparison coin for size reference.",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

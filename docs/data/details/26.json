@@ -263,35 +263,6 @@
       }
     ]
   },
-  "ctbids-46726-5585589": {
-    "item_id": "ctbids-46726-5585589",
-    "listing_url": "https://ctbids.com/estate-sale/46726/item/5585589/Cookbook-Lover-s-Collection-Vintage-Handwritten-Recipes-Recipe-Box-Silverplate-Tray",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5585589_av1KoW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46639-5621002": {
     "item_id": "ctbids-46639-5621002",
     "listing_url": "https://ctbids.com/estate-sale/46639/item/5621002/Vintage-1936-The-Saturday-Evening-Post-Fantasy-Honeymoon-by-J-C-Leyendecker",
@@ -341,6 +312,35 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46726-5585589": {
+    "item_id": "ctbids-46726-5585589",
+    "listing_url": "https://ctbids.com/estate-sale/46726/item/5585589/Cookbook-Lover-s-Collection-Vintage-Handwritten-Recipes-Recipe-Box-Silverplate-Tray",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5585589_av1KoW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -500,7 +500,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -508,10 +508,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1372,6 +1372,46 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278445717": {
+    "item_id": "278445717",
+    "listing_url": "https://shopgoodwill.com/item/278445717",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/42/Items/2026-09-25/5023275d-4413-4c3b-9abf-238279cc18aetate_09251.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/42/Items/2026-09-25/f677f0d6-8569-4d1a-98b8-9101a842ea27tate_09252.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/42/Items/2026-09-25/ab93eb1c-32d5-486f-94a3-2b0478b4c6f1tate_09253.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/42/Items/2026-09-25/e148c432-fca0-4077-bbe2-cb67133922bbtate_09254.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/42/Items/2026-09-25/1b2e94c6-4332-4bae-8ece-1cb07a47c5fetate_09255.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/42/Items/2026-09-25/59240313-f781-462e-beba-f17b1b18790etate_09256.jpg"
+    ],
+    "description": "63 PCS Natural Rocks & Minerals w/ Pyrite Quartz Jasper Jadeite Sodalite and More 819.27g\nCondition\n: Pre-owned\nTesting Protocol for Precious Metals and Gemstones :All precious metals have been rigorously using the Niton DXL Precious Metal Analyzer. This state-of-the-art device employs X-ray fluorescence (XRF) technology, ensuring accurate and reliable\nGemstone Testing: Gemstone testing is conducted with precision using the Presidium Gem Tester II and Gemoro testing equipment. The Presidium Gem Tester II utilizes thermal conductivity to differentiate between various gemstones and their simulants.\nNote: Stones tested to discern type (we DO distinguish diamond from moissanite, but stones are not tested for clarity or quality level). We also cannot determine if a stone is natural or lab created. If a Certificate of Authentication (COA) is shown, please print for your records. COA will not be shipped with this item.",
+    "score_reasons": [
+      "Opportunity term 'rocks' in title (+1)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Less relevant category 'Jewelry' (-12)",
+      "Shipping is calculated and not included in the price (-6)",
+      "$5.00 handling charge (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+15)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'rocks' in title (+1)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Less relevant category 'Jewelry' (-12)",
+          "Shipping is calculated and not included in the price (-6)",
+          "$5.00 handling charge (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+15)"
         ],
         "matched_keywords": []
       }

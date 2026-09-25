@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T18:33:53.101661+00:00",
-  "active_count": 2636,
+  "generated_at": "2026-09-25T22:17:27.411303+00:00",
+  "active_count": 2641,
   "high_priority_count": 27,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
     "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
   ],
-  "detail_requests_completed": 42,
-  "relevance_filtered_count": 693,
+  "detail_requests_completed": 33,
+  "relevance_filtered_count": 704,
   "potentially_high_value_count": 27,
   "ocr": {
     "available": true,
@@ -24,8 +24,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 589,
-      "detail_requests_attempted": 22
+      "active_count": 599,
+      "detail_requests_attempted": 13
     },
     {
       "id": "gsa-auctions",
@@ -36,7 +36,7 @@
     {
       "id": "govdeals",
       "label": "GovDeals",
-      "active_count": 47,
+      "active_count": 42,
       "detail_requests_attempted": 4
     },
     {
@@ -50,7 +50,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 423
+      "active_count": 432
     },
     {
       "id": "sealed-vintage-media",
@@ -80,7 +80,7 @@
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "active_count": 47
+      "active_count": 42
     },
     {
       "id": "local-estate-auctions",
