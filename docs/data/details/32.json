@@ -99,7 +99,6 @@
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -107,13 +106,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 17,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -256,35 +254,6 @@
       }
     ]
   },
-  "ctbids-46639-5639400": {
-    "item_id": "ctbids-46639-5639400",
-    "listing_url": "https://ctbids.com/estate-sale/46639/item/5639400/Antique-Wooden-Collectibles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639400_8mGaNo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48702-5669865": {
     "item_id": "ctbids-48702-5669865",
     "listing_url": "https://ctbids.com/estate-sale/48702/item/5669865/Vintage-Jim-Reeves-He-ll-Have-to-Go-RCA-Victor-47-7643-45-RPM-Vinyl-Record",
@@ -307,35 +276,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46639-5620983": {
-    "item_id": "ctbids-46639-5620983",
-    "listing_url": "https://ctbids.com/estate-sale/46639/item/5620983/7-antique-Victorian-era-black-and-white-art-prints-Various-Artists",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5620983_i5WKdM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -372,6 +312,62 @@
       }
     ]
   },
+  "ctbids-46639-5639400": {
+    "item_id": "ctbids-46639-5639400",
+    "listing_url": "https://ctbids.com/estate-sale/46639/item/5639400/Antique-Wooden-Collectibles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639400_8mGaNo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46639-5620983": {
+    "item_id": "ctbids-46639-5620983",
+    "listing_url": "https://ctbids.com/estate-sale/46639/item/5620983/7-antique-Victorian-era-black-and-white-art-prints-Various-Artists",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5620983_i5WKdM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48045-5598131": {
     "item_id": "ctbids-48045-5598131",
     "listing_url": "https://ctbids.com/estate-sale/48045/item/5598131/Feltman-Brothers-Vintage-Baby-Clothing-Collection",
@@ -401,45 +397,59 @@
       }
     ]
   },
-  "278196061": {
-    "item_id": "278196061",
-    "listing_url": "https://shopgoodwill.com/item/278196061",
+  "ctbids-48344-5619424": {
+    "item_id": "ctbids-48344-5619424",
+    "listing_url": "https://ctbids.com/estate-sale/48344/item/5619424/Vintage-Bracelet",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/071deecb-cf2b-4c30-9628-6ee64169a148anay_09231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/0d42ed8d-f69a-47de-80c2-6cc4c8679781anay_09232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/43603eef-3aa0-4420-8a10-b60755ee840eanay_09233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/2c8d46b1-631e-4d73-aa36-a2e6aa16c719anay_09234.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c3ba17d9-e177-4b88-b7d1-6216b173815aanay_09235.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/5c380f58-3e84-4ccf-980d-0162c8b1cb22anay_09236.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/ae80fd2e-75d6-4bb5-b556-b1333b7e515canay_09237.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c831c5d0-cbf9-404b-a317-f3ac94873da3anay_09238.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/3f080118-f396-4c1f-ae17-46b895a53dabanay_09239.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7ab78a39-ccd1-4c73-a663-cd0f13ce1260anay_092310.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/47b0f976-6012-44b4-94e3-1b7d1d4ce080anay_092311.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7584d455-9acb-4086-af90-4257ae368cc9anay_092312.jpg"
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619424_65v9GU.webp"
     ],
-    "description": "Condition:\nItem(s) tarnished and scratched. Clean before use.\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Richland\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "20 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
         "score": 8,
-        "relative_score": 0.267,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "20 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48344-5619502": {
+    "item_id": "ctbids-48344-5619502",
+    "listing_url": "https://ctbids.com/estate-sale/48344/item/5619502/Vintage-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619502_0Wn5Jn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -526,42 +536,59 @@
       }
     ]
   },
-  "ctbids-48344-5619424": {
-    "item_id": "ctbids-48344-5619424",
-    "listing_url": "https://ctbids.com/estate-sale/48344/item/5619424/Vintage-Bracelet",
+  "278196061": {
+    "item_id": "278196061",
+    "listing_url": "https://shopgoodwill.com/item/278196061",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619424_65v9GU.webp"
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/071deecb-cf2b-4c30-9628-6ee64169a148anay_09231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/0d42ed8d-f69a-47de-80c2-6cc4c8679781anay_09232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/43603eef-3aa0-4420-8a10-b60755ee840eanay_09233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/2c8d46b1-631e-4d73-aa36-a2e6aa16c719anay_09234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c3ba17d9-e177-4b88-b7d1-6216b173815aanay_09235.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/5c380f58-3e84-4ccf-980d-0162c8b1cb22anay_09236.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/ae80fd2e-75d6-4bb5-b556-b1333b7e515canay_09237.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/c831c5d0-cbf9-404b-a317-f3ac94873da3anay_09238.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/3f080118-f396-4c1f-ae17-46b895a53dabanay_09239.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7ab78a39-ccd1-4c73-a663-cd0f13ce1260anay_092310.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/47b0f976-6012-44b4-94e3-1b7d1d4ce080anay_092311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-09-23/7584d455-9acb-4086-af90-4257ae368cc9anay_092312.jpg"
     ],
-    "description": "",
+    "description": "Condition:\nItem(s) tarnished and scratched. Clean before use.\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Richland\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "20 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 8,
+        "relative_score": 0.267,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "20 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "ctbids-48344-5619502": {
-    "item_id": "ctbids-48344-5619502",
-    "listing_url": "https://ctbids.com/estate-sale/48344/item/5619502/Vintage-Bracelet",
+  "ctbids-48516-5642581": {
+    "item_id": "ctbids-48516-5642581",
+    "listing_url": "https://ctbids.com/estate-sale/48516/item/5642581/Three-Little-Mice",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5619502_0Wn5Jn.webp"
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642581_VWKchV.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -569,10 +596,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -715,15 +742,14 @@
       }
     ]
   },
-  "ctbids-48516-5642581": {
-    "item_id": "ctbids-48516-5642581",
-    "listing_url": "https://ctbids.com/estate-sale/48516/item/5642581/Three-Little-Mice",
+  "ctbids-48516-5642657": {
+    "item_id": "ctbids-48516-5642657",
+    "listing_url": "https://ctbids.com/estate-sale/48516/item/5642657/25-Hot-Wheels-2",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642581_VWKchV.webp"
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642657_GILSht.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -731,10 +757,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -770,31 +795,6 @@
           "Opportunity term 'vintage' in title (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48516-5642657": {
-    "item_id": "ctbids-48516-5642657",
-    "listing_url": "https://ctbids.com/estate-sale/48516/item/5642657/25-Hot-Wheels-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642657_GILSht.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -836,9 +836,10 @@
     "description": "Unbranded Non-precious Metal Jewelry Set\nMaterial & Karats (if applicable):\nNon-precious Metal\nTotal Weight of Set:\n0.7 grams\nCondition:\nFair - shows signs of wear\nAdditional Details:\nSize: Various sizes",
     "score_reasons": [
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+13)"
+      "Score boundary adjustment (+9)"
     ],
     "hunt_scores": [
       {
@@ -848,9 +849,10 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+13)"
+          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }

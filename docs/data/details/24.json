@@ -21,7 +21,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "High-value signal 'sterling silver' in title (+18)",
-      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -29,12 +28,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 32,
-        "relative_score": 0.941,
+        "score": 30,
+        "relative_score": 0.882,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "High-value signal 'sterling silver' in title (+18)",
-          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -148,6 +146,33 @@
       }
     ]
   },
+  "ctbids-47921-5570470": {
+    "item_id": "ctbids-47921-5570470",
+    "listing_url": "https://ctbids.com/estate-sale/47921/item/5570470/Italian-925-Sterling-Silver-Snake-Chain-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5570470_5vkN2K.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277876477": {
     "item_id": "277876477",
     "listing_url": "https://shopgoodwill.com/item/277876477",
@@ -186,11 +211,38 @@
       }
     ]
   },
-  "ctbids-47921-5570470": {
-    "item_id": "ctbids-47921-5570470",
-    "listing_url": "https://ctbids.com/estate-sale/47921/item/5570470/Italian-925-Sterling-Silver-Snake-Chain-Necklace",
+  "ctbids-48478-5639205": {
+    "item_id": "ctbids-48478-5639205",
+    "listing_url": "https://ctbids.com/estate-sale/48478/item/5639205/Sterling-Silver-Blue-Stone-Heart-Drop-Earrings",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5570470_5vkN2K.webp"
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639205_3pAMZi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48478-5643725": {
+    "item_id": "ctbids-48478-5643725",
+    "listing_url": "https://ctbids.com/estate-sale/48478/item/5643725/Chunky-Turquoise-Heart-Sterling-Silver-Pendant",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5643725_7uMlZE.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -251,60 +303,6 @@
       }
     ]
   },
-  "ctbids-48478-5639205": {
-    "item_id": "ctbids-48478-5639205",
-    "listing_url": "https://ctbids.com/estate-sale/48478/item/5639205/Sterling-Silver-Blue-Stone-Heart-Drop-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639205_3pAMZi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
-        "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48478-5643725": {
-    "item_id": "ctbids-48478-5643725",
-    "listing_url": "https://ctbids.com/estate-sale/48478/item/5643725/Chunky-Turquoise-Heart-Sterling-Silver-Pendant",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5643725_7uMlZE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
-        "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "278247103": {
     "item_id": "278247103",
     "listing_url": "https://shopgoodwill.com/item/278247103",
@@ -352,7 +350,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -360,11 +358,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -401,6 +399,49 @@
       }
     ]
   },
+  "277767326": {
+    "item_id": "277767326",
+    "listing_url": "https://shopgoodwill.com/item/277767326",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This collection includes a variety of tumbled stones such as amethyst, agate, jasper, and quartz, along with raw mineral chunks, crystal clusters, and geode slices with metallic edging. A decorative gemstone bonsai tree features metal wire branches adorned with small gemstone chips and pink glass or enamel flowers. The items are stored in a clear plastic bin bearing a Goodwill sticker and a handwritten lot number. The total weight of the lot is approximately 6.6 lbs, and some stones show natural wear and surface marks.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "6.6 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "6.6 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46639-5639401": {
     "item_id": "ctbids-46639-5639401",
     "listing_url": "https://ctbids.com/estate-sale/46639/item/5639401/Vintage-Art-Books-Featuring-GAUGUIN-ROUAULT-1948-1954",
@@ -428,33 +469,6 @@
       }
     ]
   },
-  "ctbids-48472-5639154": {
-    "item_id": "ctbids-48472-5639154",
-    "listing_url": "https://ctbids.com/estate-sale/48472/item/5639154/Antique-Railroad-Signal-Lanterns-with-Colored-Glass-Lenses",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639154_rPJpYl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48438-5632297": {
     "item_id": "ctbids-48438-5632297",
     "listing_url": "https://ctbids.com/estate-sale/48438/item/5632297/Pick-Up-Information",
@@ -475,6 +489,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48472-5639154": {
+    "item_id": "ctbids-48472-5639154",
+    "listing_url": "https://ctbids.com/estate-sale/48472/item/5639154/Antique-Railroad-Signal-Lanterns-with-Colored-Glass-Lenses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639154_rPJpYl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -693,47 +734,6 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277767326": {
-    "item_id": "277767326",
-    "listing_url": "https://shopgoodwill.com/item/277767326",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This collection includes a variety of tumbled stones such as amethyst, agate, jasper, and quartz, along with raw mineral chunks, crystal clusters, and geode slices with metallic edging. A decorative gemstone bonsai tree features metal wire branches adorned with small gemstone chips and pink glass or enamel flowers. The items are stored in a clear plastic bin bearing a Goodwill sticker and a handwritten lot number. The total weight of the lot is approximately 6.6 lbs, and some stones show natural wear and surface marks.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "6.6 lb lot has unusually favorable flat shipping (+5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "6.6 lb lot has unusually favorable flat shipping (+5)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
