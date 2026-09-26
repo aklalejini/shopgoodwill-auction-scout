@@ -16,6 +16,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,13 +24,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 38,
-        "relative_score": 1.267,
+        "score": 40,
+        "relative_score": 1.333,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -564,6 +566,31 @@
       }
     ]
   },
+  "ctbids-48642-5674411": {
+    "item_id": "ctbids-48642-5674411",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5674411/Vtg-Gunmetal-Black-Rhinestone-Navette-Teardrop-Crystal-Bib-Statement-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674411_9S9pv1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48300-5654713": {
     "item_id": "ctbids-48300-5654713",
     "listing_url": "https://ctbids.com/estate-sale/48300/item/5654713/Smaller-Christmas-Forest-Creatures",
@@ -819,81 +846,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48450/item/5655608/Sesame-Street-Library-Book-with-Dictionary-and-Bedtime-Storybook",
     "images": [
       "https://image.ctbids.com/seller/2026-09-22Tad643b/5655608_yKjZPx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48497-5662853": {
-    "item_id": "ctbids-48497-5662853",
-    "listing_url": "https://ctbids.com/estate-sale/48497/item/5662853/Set-of-3-Honora-Freshwater-Pearl-Stretch-Bracelets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5662853_vsWI6t.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48375-5628081": {
-    "item_id": "ctbids-48375-5628081",
-    "listing_url": "https://ctbids.com/estate-sale/48375/item/5628081/Colorful-Cloisonn-Jewelry-Treasure-Trove-Earrings-Brooches-Pendants-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5628081_u8oo5c.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48375-5628271": {
-    "item_id": "ctbids-48375-5628271",
-    "listing_url": "https://ctbids.com/estate-sale/48375/item/5628271/Italian-GBL-Figural-Pendant-Trifari-Style-Glass-Cameo-Pendant-Necklace-Duo",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5628271_2HC0v6.webp"
     ],
     "description": "",
     "score_reasons": [
