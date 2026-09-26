@@ -145,6 +145,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -152,10 +153,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -172,6 +174,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -179,10 +182,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -199,6 +203,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -206,10 +211,65 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48758-5673893": {
+    "item_id": "ctbids-48758-5673893",
+    "listing_url": "https://ctbids.com/estate-sale/48758/item/5673893/Moe-Joe-Moe-Bandy-Joe-Stampley-Tell-Ole-I-Ain-t-Here-He-Better-Get-on-Home-Only-the-Ba",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673893_xbgqI0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48642-5655383": {
+    "item_id": "ctbids-48642-5655383",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5655383/Yankee-Candle-Christmas-Blue-Red-Birds-with-Pinecones-Votive-Tea-Cup-See-Photos-Chip-on-Rim",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5655383_TEc224.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -423,24 +483,45 @@
       }
     ]
   },
-  "ctbids-48642-5655383": {
-    "item_id": "ctbids-48642-5655383",
-    "listing_url": "https://ctbids.com/estate-sale/48642/item/5655383/Yankee-Candle-Christmas-Blue-Red-Birds-with-Pinecones-Votive-Tea-Cup-See-Photos-Chip-on-Rim",
+  "ctbids-48642-5674399": {
+    "item_id": "ctbids-48642-5674399",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5674399/Polished-Gemstones-Lot-Carnelian-Sodalite-Jasper-Crystal-Healing-Stones",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5655383_TEc224.webp"
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674399_s5XeCp.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'healing' in title (-12)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+11)"
     ],
     "hunt_scores": [
       {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'healing' in title (-12)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+11)"
+        ],
+        "matched_keywords": []
+      },
+      {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -482,49 +563,6 @@
           "Lower-priority term 'decorative' in description (-8)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48642-5674399": {
-    "item_id": "ctbids-48642-5674399",
-    "listing_url": "https://ctbids.com/estate-sale/48642/item/5674399/Polished-Gemstones-Lot-Carnelian-Sodalite-Jasper-Crystal-Healing-Stones",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674399_s5XeCp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'healing' in title (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+15)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'healing' in title (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+15)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

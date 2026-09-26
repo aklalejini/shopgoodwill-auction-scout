@@ -105,6 +105,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'first edition' in title (+16)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -112,12 +113,46 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 17,
-        "relative_score": 0.5,
+        "score": 19,
+        "relative_score": 0.559,
         "score_reasons": [
           "High-value signal 'first edition' in title (+16)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277060750": {
+    "item_id": "277060750",
+    "listing_url": "https://shopgoodwill.com/item/277060750",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This listing includes a variety of raw mineral and rock specimens. The lot appears to contain quartz, agate, and other unidentified mineral samples. These specimens are suitable for collectors, educational purposes, or geological study.",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 13,
+        "relative_score": 0.433,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -161,35 +196,6 @@
       }
     ]
   },
-  "ctbids-48758-5674069": {
-    "item_id": "ctbids-48758-5674069",
-    "listing_url": "https://ctbids.com/estate-sale/48758/item/5674069/Al-Martino-Tears-and-Roses-A-Year-Ago-Tonight-Capitol-5183-Vintage-45-RPM",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5463901_me8B8p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "277792607": {
     "item_id": "277792607",
     "listing_url": "https://shopgoodwill.com/item/277792607",
@@ -224,32 +230,59 @@
       }
     ]
   },
-  "277060750": {
-    "item_id": "277060750",
-    "listing_url": "https://shopgoodwill.com/item/277060750",
+  "ctbids-48758-5674069": {
+    "item_id": "ctbids-48758-5674069",
+    "listing_url": "https://ctbids.com/estate-sale/48758/item/5674069/Al-Martino-Tears-and-Roses-A-Year-Ago-Tonight-Capitol-5183-Vintage-45-RPM",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5463901_me8B8p.webp"
     ],
-    "description": "This listing includes a variety of raw mineral and rock specimens. The lot appears to contain quartz, agate, and other unidentified mineral samples. These specimens are suitable for collectors, educational purposes, or geological study.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48696-5669495": {
+    "item_id": "ctbids-48696-5669495",
+    "listing_url": "https://ctbids.com/estate-sale/48696/item/5669495/Vintage-earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5669495_M5YTPL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -290,6 +323,64 @@
       }
     ]
   },
+  "ctbids-48696-5664806": {
+    "item_id": "ctbids-48696-5664806",
+    "listing_url": "https://ctbids.com/estate-sale/48696/item/5664806/Vintage-coins",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5664806_oq3638.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48345-5619822": {
+    "item_id": "ctbids-48345-5619822",
+    "listing_url": "https://ctbids.com/estate-sale/48345/item/5619822/Vintage-bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5619822_vXgenp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48450-5655571": {
     "item_id": "ctbids-48450-5655571",
     "listing_url": "https://ctbids.com/estate-sale/48450/item/5655571/Vintage-Doll-Trunk-Toy-Lot-with-Wicker-Furniture-Nun-Doll-Baby-Doll-and-Clothing",
@@ -314,137 +405,6 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48696-5669495": {
-    "item_id": "ctbids-48696-5669495",
-    "listing_url": "https://ctbids.com/estate-sale/48696/item/5669495/Vintage-earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5669495_M5YTPL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48696-5664806": {
-    "item_id": "ctbids-48696-5664806",
-    "listing_url": "https://ctbids.com/estate-sale/48696/item/5664806/Vintage-coins",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5664806_oq3638.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48345-5619822": {
-    "item_id": "ctbids-48345-5619822",
-    "listing_url": "https://ctbids.com/estate-sale/48345/item/5619822/Vintage-bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5619822_vXgenp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278125989": {
-    "item_id": "278125989",
-    "listing_url": "https://shopgoodwill.com/item/278125989",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/5e7e38a3-09a9-4647-9b51-541fb704865atrgi_09111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/87610723-8f59-4d4a-ae60-8c6854ece917trgi_09112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/09b41379-d2e2-4ae9-97d5-405982455da2trgi_09113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1959dbc7-8028-45dd-840b-da98cb294142trgi_09114.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/28e3a130-d3b8-413c-ae38-5c5ad76d967dtrgi_09115.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1d81ebaf-cdc3-40e6-b17e-2d966e2bb467trgi_09116.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/57d27783-6e52-41e5-9067-832b110889e2trgi_09117.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/dc84e5ab-0f0c-474f-966b-b0203a59786ctrgi_09118.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/8c6471f1-eabd-4b69-b860-8d911d3091b0trgi_09119.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/688e3cf4-b3f3-4204-b8e6-947b0d7cd035trgi_091110.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/afe7db22-f55a-4925-a4d5-69b9f9f28dd7trgi_091111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/e683ffcf-3410-4bbf-b653-fc01229a42d7trgi_091112.jpg"
-    ],
-    "description": "Glass Insulator Lot - 3 Pieces\nHemingray, Ohio Valley Glass Co. (O.V.G. Co.)\nAqua and Teal Green, Vintage\nCollection of three vintage glass insulators originally utilized for telegraph and telephone line insulation. This lot features insulators from prominent American manufacturers, showcasing the industrial aqua and teal green glass common to early 20th-century utility production. These heavy pressed glass pieces are sought after for their historical industrial aesthetic and display appeal.\nPieces Included:\nInsulator, Aqua, marked \"O.V.G. CO.\" - features a large chip on the side and base\nInsulator, Teal Green, marked \"N 21\" - internal vertical crack visible on the crown\nInsulator, Aqua/Teal, marked \"HEMINGRAY\" - exhibits surface scratching and minor flea bites\nCondition:\nThe lot is in damaged vintage condition as noted and photographed. One insulator has a significant chip loss on the lower body. A second piece shows a distinct crack through the glass dome. The Hemingray piece retains its shape but shows signs of outdoor weathering and light surface wear. Recommended for rustic decor or craft projects.\nPlease Note:\nThis is a pre-owned item being sold\nas-is\n. We do our best to describe items accurately and include research where possible, but we are not experts in every category. Please note that if the title or description states \"Tested\" that we only test to make sure the unit \"\nPOWERS ON\"\n.\nNo further testing takes place unless stated otherwise and items are considered untested.\nPlease remember all items are used and are sold as is, no refunds.If you have questions, please contact us before bidding.\nFor all vintage clothing, please research sizing before placing a bid.\nItems from different time periods may have measurements that differ from today’s standard sizing.\nCustomer Service:\nReach us via the “Contact Us” link above or by calling\n(540) 361-6550\n. Messages are handled Monday–Friday, 8:00 AM–4:00 PM ET, and we strive to respond within 48 hours.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+6)",
-      "Opportunity term 'lot' in title (+5)",
-      "Lower-priority term 'crack' in description (-20)",
-      "Lower-priority term 'chip' in description (-15)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 9,
-        "relative_score": 0.3,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+6)",
-          "Opportunity term 'lot' in title (+5)",
-          "Lower-priority term 'crack' in description (-20)",
-          "Lower-priority term 'chip' in description (-15)",
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -504,6 +464,137 @@
       }
     ]
   },
+  "ctbids-48642-5674387": {
+    "item_id": "ctbids-48642-5674387",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5674387/Vtg-Black-Oval-Faceted-Rhinestone-Halo-Gold-Tone-Statement-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674387_Stc0vE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48642-5663445": {
+    "item_id": "ctbids-48642-5663445",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5663445/Beautiful-Mackintosh-style-interwoven-Blue-Crystal-Locking-Clamp-Cuff-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5663445_CiBQih.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48300-5651764": {
+    "item_id": "ctbids-48300-5651764",
+    "listing_url": "https://ctbids.com/estate-sale/48300/item/5651764/Christmas-Mugs-Dinnerware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5651764_tkZwO8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278125989": {
+    "item_id": "278125989",
+    "listing_url": "https://shopgoodwill.com/item/278125989",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/5e7e38a3-09a9-4647-9b51-541fb704865atrgi_09111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/87610723-8f59-4d4a-ae60-8c6854ece917trgi_09112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/09b41379-d2e2-4ae9-97d5-405982455da2trgi_09113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1959dbc7-8028-45dd-840b-da98cb294142trgi_09114.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/28e3a130-d3b8-413c-ae38-5c5ad76d967dtrgi_09115.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1d81ebaf-cdc3-40e6-b17e-2d966e2bb467trgi_09116.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/57d27783-6e52-41e5-9067-832b110889e2trgi_09117.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/dc84e5ab-0f0c-474f-966b-b0203a59786ctrgi_09118.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/8c6471f1-eabd-4b69-b860-8d911d3091b0trgi_09119.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/688e3cf4-b3f3-4204-b8e6-947b0d7cd035trgi_091110.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/afe7db22-f55a-4925-a4d5-69b9f9f28dd7trgi_091111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/e683ffcf-3410-4bbf-b653-fc01229a42d7trgi_091112.jpg"
+    ],
+    "description": "Glass Insulator Lot - 3 Pieces\nHemingray, Ohio Valley Glass Co. (O.V.G. Co.)\nAqua and Teal Green, Vintage\nCollection of three vintage glass insulators originally utilized for telegraph and telephone line insulation. This lot features insulators from prominent American manufacturers, showcasing the industrial aqua and teal green glass common to early 20th-century utility production. These heavy pressed glass pieces are sought after for their historical industrial aesthetic and display appeal.\nPieces Included:\nInsulator, Aqua, marked \"O.V.G. CO.\" - features a large chip on the side and base\nInsulator, Teal Green, marked \"N 21\" - internal vertical crack visible on the crown\nInsulator, Aqua/Teal, marked \"HEMINGRAY\" - exhibits surface scratching and minor flea bites\nCondition:\nThe lot is in damaged vintage condition as noted and photographed. One insulator has a significant chip loss on the lower body. A second piece shows a distinct crack through the glass dome. The Hemingray piece retains its shape but shows signs of outdoor weathering and light surface wear. Recommended for rustic decor or craft projects.\nPlease Note:\nThis is a pre-owned item being sold\nas-is\n. We do our best to describe items accurately and include research where possible, but we are not experts in every category. Please note that if the title or description states \"Tested\" that we only test to make sure the unit \"\nPOWERS ON\"\n.\nNo further testing takes place unless stated otherwise and items are considered untested.\nPlease remember all items are used and are sold as is, no refunds.If you have questions, please contact us before bidding.\nFor all vintage clothing, please research sizing before placing a bid.\nItems from different time periods may have measurements that differ from today’s standard sizing.\nCustomer Service:\nReach us via the “Contact Us” link above or by calling\n(540) 361-6550\n. Messages are handled Monday–Friday, 8:00 AM–4:00 PM ET, and we strive to respond within 48 hours.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+6)",
+      "Opportunity term 'lot' in title (+5)",
+      "Lower-priority term 'crack' in description (-20)",
+      "Lower-priority term 'chip' in description (-15)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 9,
+        "relative_score": 0.3,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+6)",
+          "Opportunity term 'lot' in title (+5)",
+          "Lower-priority term 'crack' in description (-20)",
+          "Lower-priority term 'chip' in description (-15)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48450-5668646": {
     "item_id": "ctbids-48450-5668646",
     "listing_url": "https://ctbids.com/estate-sale/48450/item/5668646/Fur-Collection-Mink-Pelts-Coat-Collars",
@@ -524,60 +615,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48290-5615488": {
-    "item_id": "ctbids-48290-5615488",
-    "listing_url": "https://ctbids.com/estate-sale/48290/item/5615488/Malibu-International-1965-Shelby-AC-Cobra-1-87-Scale-Model-Collection-Item-101",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615488_CWnof2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48594-5633156": {
-    "item_id": "ctbids-48594-5633156",
-    "listing_url": "https://ctbids.com/estate-sale/48594/item/5633156/Vintage-Thai-Lapis-Tribal-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5633156_5W4kWO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -662,6 +699,87 @@
         "matched_keywords": [
           "meerschaum"
         ]
+      }
+    ]
+  },
+  "ctbids-48594-5633156": {
+    "item_id": "ctbids-48594-5633156",
+    "listing_url": "https://ctbids.com/estate-sale/48594/item/5633156/Vintage-Thai-Lapis-Tribal-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5633156_5W4kWO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48642-5655427": {
+    "item_id": "ctbids-48642-5655427",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5655427/Stunning-Vtg-Avon-Two-Tone-Calla-Lilly-Double-Dangle-Lariat-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5655427_mkLMKW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48642-5670611": {
+    "item_id": "ctbids-48642-5670611",
+    "listing_url": "https://ctbids.com/estate-sale/48642/item/5670611/Vtg-Disney-Store-Edition-Mickey-Mouse-Disney-Time-Works-Watch-On-Black-Leather-Strap",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5670611_0QeWUX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -769,169 +887,11 @@
       }
     ]
   },
-  "278045248": {
-    "item_id": "278045248",
-    "listing_url": "https://shopgoodwill.com/item/278045248",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/acae3763-cec7-44c6-8902-9c5d3e1db123ckcs_09221.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/ba37c2bd-02cc-4e60-95c1-2b90aec406e3ckcs_09222.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/cb72d455-6c1e-4c02-933a-21aae2f11424ckcs_09223.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/bfd2c32c-2034-40ae-854d-f0e087a4ddb3ckcs_09224.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/7eb48a80-916c-4e65-aedd-52d1a24cd8e6ckcs_09225.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/6b6cb49f-f82f-49fa-8070-9bc79b2048c0ckcs_09226.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/d3006862-d857-416a-9ee6-f4376d3cf560ckcs_09227.jpg"
-    ],
-    "description": "Unbranded Polished Sparkly Quartz Druzy Center   Natural  Agate Geode Specimen\nBrand:\nUnbranded\nStyle:\nPolished Sparkly Quartz Druzy Center\nType:\nAgate Geode Specimen\nMaterial:\nNatural\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n8\nItem Width (in):\n5\nItem Height (in):\n6\nWeight (lbs oz):\n3.5\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48276-5622267": {
     "item_id": "ctbids-48276-5622267",
     "listing_url": "https://ctbids.com/estate-sale/48276/item/5622267/University-of-Kentucky-Wildcats-Sweaters-Jackets-6",
     "images": [
       "https://image.ctbids.com/seller/2026-09-11Ta10121/5622267_eObHYY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48642-5674387": {
-    "item_id": "ctbids-48642-5674387",
-    "listing_url": "https://ctbids.com/estate-sale/48642/item/5674387/Vtg-Black-Oval-Faceted-Rhinestone-Halo-Gold-Tone-Statement-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674387_Stc0vE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48642-5663445": {
-    "item_id": "ctbids-48642-5663445",
-    "listing_url": "https://ctbids.com/estate-sale/48642/item/5663445/Beautiful-Mackintosh-style-interwoven-Blue-Crystal-Locking-Clamp-Cuff-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5663445_CiBQih.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48642-5655427": {
-    "item_id": "ctbids-48642-5655427",
-    "listing_url": "https://ctbids.com/estate-sale/48642/item/5655427/Stunning-Vtg-Avon-Two-Tone-Calla-Lilly-Double-Dangle-Lariat-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5655427_mkLMKW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48300-5651764": {
-    "item_id": "ctbids-48300-5651764",
-    "listing_url": "https://ctbids.com/estate-sale/48300/item/5651764/Christmas-Mugs-Dinnerware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5651764_tkZwO8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48642-5670611": {
-    "item_id": "ctbids-48642-5670611",
-    "listing_url": "https://ctbids.com/estate-sale/48642/item/5670611/Vtg-Disney-Store-Edition-Mickey-Mouse-Disney-Time-Works-Watch-On-Black-Leather-Strap",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5670611_0QeWUX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -968,9 +928,10 @@
       "Opportunity term 'lot' in title (+2)",
       "Lower-priority term 'decorative' in description (-8)",
       "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+15)"
+      "Score boundary adjustment (+11)"
     ],
     "hunt_scores": [
       {
@@ -982,9 +943,10 @@
           "Opportunity term 'lot' in title (+2)",
           "Lower-priority term 'decorative' in description (-8)",
           "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+15)"
+          "Score boundary adjustment (+11)"
         ],
         "matched_keywords": []
       }
@@ -1009,10 +971,11 @@
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Lower-priority term 'tumbled stones' in description (-10)",
       "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "12 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+12)"
+      "Score boundary adjustment (+8)"
     ],
     "hunt_scores": [
       {
@@ -1027,10 +990,44 @@
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Lower-priority term 'tumbled stones' in description (-10)",
           "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "12 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+12)"
+          "Score boundary adjustment (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278045248": {
+    "item_id": "278045248",
+    "listing_url": "https://shopgoodwill.com/item/278045248",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/acae3763-cec7-44c6-8902-9c5d3e1db123ckcs_09221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/ba37c2bd-02cc-4e60-95c1-2b90aec406e3ckcs_09222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/cb72d455-6c1e-4c02-933a-21aae2f11424ckcs_09223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/bfd2c32c-2034-40ae-854d-f0e087a4ddb3ckcs_09224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/7eb48a80-916c-4e65-aedd-52d1a24cd8e6ckcs_09225.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/6b6cb49f-f82f-49fa-8070-9bc79b2048c0ckcs_09226.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-09-22/d3006862-d857-416a-9ee6-f4376d3cf560ckcs_09227.jpg"
+    ],
+    "description": "Unbranded Polished Sparkly Quartz Druzy Center   Natural  Agate Geode Specimen\nBrand:\nUnbranded\nStyle:\nPolished Sparkly Quartz Druzy Center\nType:\nAgate Geode Specimen\nMaterial:\nNatural\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n8\nItem Width (in):\n5\nItem Height (in):\n6\nWeight (lbs oz):\n3.5\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1333,6 +1330,35 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278528715": {
+    "item_id": "278528715",
+    "listing_url": "https://shopgoodwill.com/item/278528715",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/353c3f45-e242-4423-a472-1520e7b9ddb9eman_09221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/5886065d-7983-4f00-ac76-25d73ee3f26feman_09222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/2db51e00-9769-466d-9ee9-460bd697cf0ceman_09223.jpg"
+    ],
+    "description": "Item Description: Polished Slice of Agate Geode\nSize: 2.5x1x2\nAll Electronics are\nUNTESTED\nunless otherwise stated. All of our items featured are DONATIONS and all sales are FINAL. All BIDS are placed by the buyer with the understanding that this is a donated item that may contain unseen faults by our staff and is ultimately SOLD AS-IS as all available information is presented. Items come strictly as pictured and should be assumed to be AS-IS with possible unseen defects. We are NOT experts in any field. SOLD AS IS.\nThis is a USED item donated to Palmetto Goodwill. This item is pre-owned and may contain unseen flaws and imperfections in addition to the information listed here. Please see images for further detail and ask any questions you may have before making a bid.Due to inconsistencies in monitor display, colors shown may not be true to item's actual color. Please expect a slight color shift. Item may have wear and tear from usage. SOLD AS IS.\nAll items are sold AS-IS. We do our very best to describe and list items accurately. With that said, we are not experts in any one particular field. If you see a mistake we have made, please feel free to let us know.\nNo refunds will be issued without prior authorization and all requests are handled on a case by case basis. If you have a question about an item, please ask prior to bidding.\nPlease be aware that we will not permit refunds for items lost by shipping agency.\nPlease be aware that our customer service is monitored Monday-Friday 8am-4pm. Any emails sent outside those business hours or on holidays will be responded to the following business day.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }
