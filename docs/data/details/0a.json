@@ -122,6 +122,7 @@
     "score_reasons": [
       "Opportunity term 'specimen' in title (+4)",
       "Target keyword 'malachite' in title (+9)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -129,11 +130,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 16,
+        "relative_score": 0.533,
         "score_reasons": [
           "Opportunity term 'specimen' in title (+4)",
           "Target keyword 'malachite' in title (+9)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -153,6 +155,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -160,11 +163,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 15,
+        "relative_score": 0.441,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -209,6 +213,64 @@
           "Lower-priority term 'possibly' in description (-4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48584-5650756": {
+    "item_id": "ctbids-48584-5650756",
+    "listing_url": "https://ctbids.com/estate-sale/48584/item/5650756/Paul-Molitor-Topps-Baseball-Card-Lot-Brewers-All-Star-Hall-of-Fame-5-Cards",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-20T075c3c/5472968_JCdnJY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48584-5650622": {
+    "item_id": "ctbids-48584-5650622",
+    "listing_url": "https://ctbids.com/estate-sale/48584/item/5650622/Kareem-Abdul-Jabbar-1991-Collegiate-Collection-2-UCLA-Prototype-WCG-10-Gem-MT-Graded-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-20T075c3c/5123051_a72ZNw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -286,6 +348,35 @@
       }
     ]
   },
+  "ctbids-48450-5668643": {
+    "item_id": "ctbids-48450-5668643",
+    "listing_url": "https://ctbids.com/estate-sale/48450/item/5668643/Baby-Christening-Gown-Slip-Bonnet-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5668643_ORiGYj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48375-5628012": {
     "item_id": "ctbids-48375-5628012",
     "listing_url": "https://ctbids.com/estate-sale/48375/item/5628012/Shades-of-Green-Blush-Beaded-Jewelry-Collection",
@@ -318,33 +409,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48450/item/5665231/Yard-and-Garden-Tools-Collection-with-Wheelbarrow",
     "images": [
       "https://image.ctbids.com/seller/2026-09-24T71f4c2/5665231_ihmvgr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48584-5650622": {
-    "item_id": "ctbids-48584-5650622",
-    "listing_url": "https://ctbids.com/estate-sale/48584/item/5650622/Kareem-Abdul-Jabbar-1991-Collegiate-Collection-2-UCLA-Prototype-WCG-10-Gem-MT-Graded-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-20T075c3c/5123051_a72ZNw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -529,15 +593,15 @@
       }
     ]
   },
-  "ctbids-48584-5650756": {
-    "item_id": "ctbids-48584-5650756",
-    "listing_url": "https://ctbids.com/estate-sale/48584/item/5650756/Paul-Molitor-Topps-Baseball-Card-Lot-Brewers-All-Star-Hall-of-Fame-5-Cards",
+  "ctbids-48450-5655657": {
+    "item_id": "ctbids-48450-5655657",
+    "listing_url": "https://ctbids.com/estate-sale/48450/item/5655657/Yankee-Candle-The-White-Barn-Candle-Co-Mixed-Scented-Votive-Candle",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-20T075c3c/5472968_JCdnJY.webp"
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5655657_2BUhoM.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -548,7 +612,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -556,15 +620,15 @@
       }
     ]
   },
-  "ctbids-48450-5668643": {
-    "item_id": "ctbids-48450-5668643",
-    "listing_url": "https://ctbids.com/estate-sale/48450/item/5668643/Baby-Christening-Gown-Slip-Bonnet-Lot",
+  "ctbids-48450-5648812": {
+    "item_id": "ctbids-48450-5648812",
+    "listing_url": "https://ctbids.com/estate-sale/48450/item/5648812/Karrite-Hardshell-Cartop-Carrier-U-Bolt-Accessory-Kit-Mounting-Hooks-and-Tarp-Outdoor",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5668643_ORiGYj.webp"
+      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5648812_HOIqiW.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -575,7 +639,142 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48541-5647434": {
+    "item_id": "ctbids-48541-5647434",
+    "listing_url": "https://ctbids.com/estate-sale/48541/item/5647434/1-Gram-VALCAMBI-999-9-Gold-Bar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647434_NPXbAv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48175-5639881": {
+    "item_id": "ctbids-48175-5639881",
+    "listing_url": "https://ctbids.com/estate-sale/48175/item/5639881/Rectangular-Lamp",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5639881_POL6Dw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48450-5664746": {
+    "item_id": "ctbids-48450-5664746",
+    "listing_url": "https://ctbids.com/estate-sale/48450/item/5664746/Mixed-Brand-Golf-Clubs-Set-with-Bags-and-Gold-Eagle-Golf-Pull-Cart",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5664746_xRB5L0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48290-5615571": {
+    "item_id": "ctbids-48290-5615571",
+    "listing_url": "https://ctbids.com/estate-sale/48290/item/5615571/Philadelphia-Phillies-Tribeca-MLB-Laptop-Sleeve-12-14-Inch-Black-2010",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615571_gsgKMM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47390-5497929": {
+    "item_id": "ctbids-47390-5497929",
+    "listing_url": "https://ctbids.com/estate-sale/47390/item/5497929/Women-s-Western-Wear-Outfit-Bill-Blass-Blue-Paisley-Pattern-Matching-Long-Skirt-L-Top-XL",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-08T8f1aa7/5497929_85aFqZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -613,31 +812,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48388/item/5644249/Men-s-Leather-Gloves-With-Rabbit-Fur-Lining",
     "images": [
       "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5644249_VRLOGD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48541-5647434": {
-    "item_id": "ctbids-48541-5647434",
-    "listing_url": "https://ctbids.com/estate-sale/48541/item/5647434/1-Gram-VALCAMBI-999-9-Gold-Bar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647434_NPXbAv.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -708,81 +882,6 @@
       }
     ]
   },
-  "ctbids-48175-5639881": {
-    "item_id": "ctbids-48175-5639881",
-    "listing_url": "https://ctbids.com/estate-sale/48175/item/5639881/Rectangular-Lamp",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5639881_POL6Dw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48450-5664746": {
-    "item_id": "ctbids-48450-5664746",
-    "listing_url": "https://ctbids.com/estate-sale/48450/item/5664746/Mixed-Brand-Golf-Clubs-Set-with-Bags-and-Gold-Eagle-Golf-Pull-Cart",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5664746_xRB5L0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48450-5655657": {
-    "item_id": "ctbids-48450-5655657",
-    "listing_url": "https://ctbids.com/estate-sale/48450/item/5655657/Yankee-Candle-The-White-Barn-Candle-Co-Mixed-Scented-Votive-Candle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5655657_2BUhoM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48259-5607900": {
     "item_id": "ctbids-48259-5607900",
     "listing_url": "https://ctbids.com/estate-sale/48259/item/5607900/Dell-Inspiron-15-15-Laptop-Computer",
@@ -833,31 +932,6 @@
       }
     ]
   },
-  "ctbids-48290-5615571": {
-    "item_id": "ctbids-48290-5615571",
-    "listing_url": "https://ctbids.com/estate-sale/48290/item/5615571/Philadelphia-Phillies-Tribeca-MLB-Laptop-Sleeve-12-14-Inch-Black-2010",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5615571_gsgKMM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48175-5629526": {
     "item_id": "ctbids-48175-5629526",
     "listing_url": "https://ctbids.com/estate-sale/48175/item/5629526/Cuckoo-Clock",
@@ -888,56 +962,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48584/item/5650583/Pokemon-TCG-Mega-Kangaskhan-ex-Box-Promo-Lenticular-Card-4-Booster-Packs",
     "images": [
       "https://image.ctbids.com/seller/2026-09-20T075c3c/5577171_slBR7V.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48450-5648812": {
-    "item_id": "ctbids-48450-5648812",
-    "listing_url": "https://ctbids.com/estate-sale/48450/item/5648812/Karrite-Hardshell-Cartop-Carrier-U-Bolt-Accessory-Kit-Mounting-Hooks-and-Tarp-Outdoor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5648812_HOIqiW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47390-5497929": {
-    "item_id": "ctbids-47390-5497929",
-    "listing_url": "https://ctbids.com/estate-sale/47390/item/5497929/Women-s-Western-Wear-Outfit-Bill-Blass-Blue-Paisley-Pattern-Matching-Long-Skirt-L-Top-XL",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-08T8f1aa7/5497929_85aFqZ.webp"
     ],
     "description": "",
     "score_reasons": [

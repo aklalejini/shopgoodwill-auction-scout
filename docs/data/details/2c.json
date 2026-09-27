@@ -14,6 +14,7 @@
       "Opportunity term 'lot' in title (+5)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -21,16 +22,88 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 33,
-        "relative_score": 0.943,
+        "score": 35,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48450-5666122": {
+    "item_id": "ctbids-48450-5666122",
+    "listing_url": "https://ctbids.com/estate-sale/48450/item/5666122/Steubenville-Woodfield-Teapot-and-Vintage-Art-Pottery-Tableware-Stack-Retro-Bowls-Round-Serving",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_cb5Pbv.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_TNC66Q.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_XlGNu5.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_2uIVHx.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_PcYeB1.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_4nSEwm.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_nYDLiu.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_nYWiyV.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_7p5Fpb.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_MM5fdb.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_KPOfeW.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_6HqY2B.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_Ncg0kY.webp",
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_Y4FKwH.webp"
+    ],
+    "description": "Vintage 1940s Steubenville Woodfield Teapot with Lid, Golden Fawn Mustard Yellow and What a Dish! Retro Bowls & Round Serving Platters",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "High-value signal 'art pottery' in title (+14)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (0)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 29,
+        "relative_score": 0.853,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "High-value signal 'art pottery' in title (+14)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (0)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46726-5639025": {
+    "item_id": "ctbids-46726-5639025",
+    "listing_url": "https://ctbids.com/estate-sale/46726/item/5639025/14K-1-Excellence-Tie-Pin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639025_zZdFDQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal '14k' in title (+22)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 23,
+        "relative_score": 0.676,
+        "score_reasons": [
+          "High-value signal '14k' in title (+22)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -82,33 +155,6 @@
       }
     ]
   },
-  "ctbids-46726-5639025": {
-    "item_id": "ctbids-46726-5639025",
-    "listing_url": "https://ctbids.com/estate-sale/46726/item/5639025/14K-1-Excellence-Tie-Pin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5639025_zZdFDQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal '14k' in title (+22)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 23,
-        "relative_score": 0.676,
-        "score_reasons": [
-          "High-value signal '14k' in title (+22)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "278518453": {
     "item_id": "278518453",
     "listing_url": "https://shopgoodwill.com/item/278518453",
@@ -144,35 +190,6 @@
           "Lower-priority term 'polished stones' in description (-6)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48450-5666122": {
-    "item_id": "ctbids-48450-5666122",
-    "listing_url": "https://ctbids.com/estate-sale/48450/item/5666122/Steubenville-Woodfield-Teapot-and-Vintage-Art-Pottery-Tableware-Stack-Retro-Bowls-Round-Serving",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666122_cb5Pbv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "High-value signal 'art pottery' in title (+14)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 20,
-        "relative_score": 0.588,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "High-value signal 'art pottery' in title (+14)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -269,6 +286,35 @@
       }
     ]
   },
+  "ctbids-48410-5663476": {
+    "item_id": "ctbids-48410-5663476",
+    "listing_url": "https://ctbids.com/estate-sale/48410/item/5663476/Vintage-necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5663476_babfSo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "278426693": {
     "item_id": "278426693",
     "listing_url": "https://shopgoodwill.com/item/278426693",
@@ -309,6 +355,35 @@
       }
     ]
   },
+  "ctbids-48259-5606856": {
+    "item_id": "ctbids-48259-5606856",
+    "listing_url": "https://ctbids.com/estate-sale/48259/item/5606856/Vintage-Tabletop-Emerson-Radio",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-12Te01775/5606856_nDo8Yg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46726-5450500": {
     "item_id": "ctbids-46726-5450500",
     "listing_url": "https://ctbids.com/estate-sale/46726/item/5450500/Sewing-Machine-Cabinet-Distressed-French-Country-Farmhouse-Vintage",
@@ -336,15 +411,15 @@
       }
     ]
   },
-  "ctbids-48259-5606856": {
-    "item_id": "ctbids-48259-5606856",
-    "listing_url": "https://ctbids.com/estate-sale/48259/item/5606856/Vintage-Tabletop-Emerson-Radio",
+  "ctbids-48450-5655683": {
+    "item_id": "ctbids-48450-5655683",
+    "listing_url": "https://ctbids.com/estate-sale/48450/item/5655683/Edwin-M-Knowles-Norman-Rockwell-Collector-Plates-and-Certificates",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5606856_nDo8Yg.webp"
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5655683_C9qrBU.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -352,37 +427,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48410-5663476": {
-    "item_id": "ctbids-48410-5663476",
-    "listing_url": "https://ctbids.com/estate-sale/48410/item/5663476/Vintage-necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5663476_babfSo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -415,6 +463,100 @@
           "Opportunity term 'collection' in title (+7)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48584-5650785": {
+    "item_id": "ctbids-48584-5650785",
+    "listing_url": "https://ctbids.com/estate-sale/48584/item/5650785/2005-Score-Tom-Brady-314-PSA-9-Mint-New-England-Patriots-Football-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-20T075c3c/5449152_abkpuA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48451-5636822": {
+    "item_id": "ctbids-48451-5636822",
+    "listing_url": "https://ctbids.com/estate-sale/48451/item/5636822/Oxford-Bone-China-Meadowlark-Dinnerware-Set-27-Pieces-Made-in-USA",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636822_pwTEDi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "277131306": {
+    "item_id": "277131306",
+    "listing_url": "https://shopgoodwill.com/item/277131306",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/41a33c95-d34a-4651-a1e4-578efd44092csey9_09131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/a1ad2373-eff9-460b-bf24-fc02525fd720sey9_09132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/38a656a5-b5ee-4160-8d12-b73d1f8e0d9csey9_09133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/171132ed-3cc8-4e47-9a17-259fab127394sey9_09134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/9b839c81-f076-4140-a393-f663542e7aa1sey9_09135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/42ae85f8-c956-488d-8c62-99f3ea6bc2a8sey9_09136.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/37690487-a51e-4ebb-89f3-5b7ab7931faasey9_09137.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/ba4d5734-2a33-4b52-b108-449f9c73a4dbsey9_09138.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/d31afc95-1961-49f0-a532-1993554a945asey9_09139.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/c92df734-cb68-4ff5-86a0-02dea6193f0bsey9_091310.jpg"
+    ],
+    "description": "This listing includes three natural amethyst crystal clusters with deep purple formations on rough stone bases. The largest cluster measures approximately 3.5 to 4 inches wide, while the other two range from 2 to 3 inches wide. Each cluster features well-formed crystals displaying vibrant purple hues, along with some white and translucent areas. All pieces are raw and unpolished, suitable for collectors, display, or metaphysical purposes. These are natural mineral specimens with no brand or model.",
+    "score_reasons": [
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+7)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       }
@@ -570,61 +712,11 @@
       }
     ]
   },
-  "ctbids-48584-5650785": {
-    "item_id": "ctbids-48584-5650785",
-    "listing_url": "https://ctbids.com/estate-sale/48584/item/5650785/2005-Score-Tom-Brady-314-PSA-9-Mint-New-England-Patriots-Football-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-20T075c3c/5449152_abkpuA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48585-5637935": {
     "item_id": "ctbids-48585-5637935",
     "listing_url": "https://ctbids.com/estate-sale/48585/item/5637935/1940s-Centre-College-Letter-Jacket",
     "images": [
       "https://image.ctbids.com/seller/2026-09-16T2152c1/5637935_1VypeD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48450-5655683": {
-    "item_id": "ctbids-48450-5655683",
-    "listing_url": "https://ctbids.com/estate-sale/48450/item/5655683/Edwin-M-Knowles-Norman-Rockwell-Collector-Plates-and-Certificates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5655683_C9qrBU.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -720,31 +812,6 @@
       }
     ]
   },
-  "ctbids-48451-5636822": {
-    "item_id": "ctbids-48451-5636822",
-    "listing_url": "https://ctbids.com/estate-sale/48451/item/5636822/Oxford-Bone-China-Meadowlark-Dinnerware-Set-27-Pieces-Made-in-USA",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636822_pwTEDi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48451-5651550": {
     "item_id": "ctbids-48451-5651550",
     "listing_url": "https://ctbids.com/estate-sale/48451/item/5651550/Pyrex-Lovers-Mystery-Delight",
@@ -765,44 +832,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277131306": {
-    "item_id": "277131306",
-    "listing_url": "https://shopgoodwill.com/item/277131306",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/41a33c95-d34a-4651-a1e4-578efd44092csey9_09131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/a1ad2373-eff9-460b-bf24-fc02525fd720sey9_09132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/38a656a5-b5ee-4160-8d12-b73d1f8e0d9csey9_09133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/171132ed-3cc8-4e47-9a17-259fab127394sey9_09134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/9b839c81-f076-4140-a393-f663542e7aa1sey9_09135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/42ae85f8-c956-488d-8c62-99f3ea6bc2a8sey9_09136.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/37690487-a51e-4ebb-89f3-5b7ab7931faasey9_09137.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/ba4d5734-2a33-4b52-b108-449f9c73a4dbsey9_09138.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/d31afc95-1961-49f0-a532-1993554a945asey9_09139.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/12/Item/2026-09-13/c92df734-cb68-4ff5-86a0-02dea6193f0bsey9_091310.jpg"
-    ],
-    "description": "This listing includes three natural amethyst crystal clusters with deep purple formations on rough stone bases. The largest cluster measures approximately 3.5 to 4 inches wide, while the other two range from 2 to 3 inches wide. Each cluster features well-formed crystals displaying vibrant purple hues, along with some white and translucent areas. All pieces are raw and unpolished, suitable for collectors, display, or metaphysical purposes. These are natural mineral specimens with no brand or model.",
-    "score_reasons": [
-      "Lower-priority term 'metaphysical' in description (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+11)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'metaphysical' in description (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+11)"
         ],
         "matched_keywords": []
       }
