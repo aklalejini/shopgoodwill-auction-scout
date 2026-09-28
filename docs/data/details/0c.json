@@ -13,6 +13,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'assorted' in title (+2)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -20,12 +21,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 28,
-        "relative_score": 0.933,
+        "score": 32,
+        "relative_score": 1.067,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'assorted' in title (+2)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -55,6 +57,7 @@
       "Opportunity term 'specimen' in description (+1)",
       "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "10.4 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -63,17 +66,76 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 13,
-        "relative_score": 0.433,
+        "score": 15,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in description (+1)",
           "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "10.4 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48520-5657430": {
+    "item_id": "ctbids-48520-5657430",
+    "listing_url": "https://ctbids.com/estate-sale/48520/item/5657430/Kalaty-Soumak-Collection-Rug",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5657430_Cbpx6e.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47415-5603737": {
+    "item_id": "ctbids-47415-5603737",
+    "listing_url": "https://ctbids.com/estate-sale/47415/item/5603737/Red-And-Yellow-Vintage-Necklaces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603737_feG9Ls.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -101,60 +163,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48520-5657430": {
-    "item_id": "ctbids-48520-5657430",
-    "listing_url": "https://ctbids.com/estate-sale/48520/item/5657430/Kalaty-Soumak-Collection-Rug",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5657430_Cbpx6e.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47415-5603737": {
-    "item_id": "ctbids-47415-5603737",
-    "listing_url": "https://ctbids.com/estate-sale/47415/item/5603737/Red-And-Yellow-Vintage-Necklaces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603737_feG9Ls.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -270,6 +278,33 @@
       }
     ]
   },
+  "ctbids-48466-5642946": {
+    "item_id": "ctbids-48466-5642946",
+    "listing_url": "https://ctbids.com/estate-sale/48466/item/5642946/Leggett-Platt-Split-King-Dual-Adjustable-Power-Bed-Base",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642946_Mfc1Jr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "278382573": {
     "item_id": "278382573",
     "listing_url": "https://shopgoodwill.com/item/278382573",
@@ -296,33 +331,6 @@
           "Lower-priority term 'metaphysical' in description (-10)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48422-5664326": {
-    "item_id": "ctbids-48422-5664326",
-    "listing_url": "https://ctbids.com/estate-sale/48422/item/5664326/Vintage-Craig-Biggio-Bobblehead-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5664326_nH6zm1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -372,43 +380,15 @@
       }
     ]
   },
-  "278164527": {
-    "item_id": "278164527",
-    "listing_url": "https://shopgoodwill.com/item/278164527",
+  "ctbids-48422-5664326": {
+    "item_id": "ctbids-48422-5664326",
+    "listing_url": "https://ctbids.com/estate-sale/48422/item/5664326/Vintage-Craig-Biggio-Bobblehead-And-More",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/c2ed09a7-083b-4e50-9fe6-29d63c9f1cd6nner_08131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/7d61b713-2a82-482f-810b-497096528224nner_08132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/747574b0-e140-4430-943f-43fb267bb2c2nner_08133.jpg"
-    ],
-    "description": "Lindenwold garnet gemstone in a protective plastic case, made in the USA. Includes a comparison coin for size reference.",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48466-5642946": {
-    "item_id": "ctbids-48466-5642946",
-    "listing_url": "https://ctbids.com/estate-sale/48466/item/5642946/Leggett-Platt-Split-King-Dual-Adjustable-Power-Bed-Base",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642946_Mfc1Jr.webp"
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5664326_nH6zm1.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -416,9 +396,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48278-5612268": {
+    "item_id": "ctbids-48278-5612268",
+    "listing_url": "https://ctbids.com/estate-sale/48278/item/5612268/Revolutionary-War-Declaration-of-Independence-Historical-Prints-1776-Map-Documents-Assorted",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5612268_vFzGJW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -576,31 +584,6 @@
       }
     ]
   },
-  "ctbids-48278-5612268": {
-    "item_id": "ctbids-48278-5612268",
-    "listing_url": "https://ctbids.com/estate-sale/48278/item/5612268/Revolutionary-War-Declaration-of-Independence-Historical-Prints-1776-Map-Documents-Assorted",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5612268_vFzGJW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48520-5652271": {
     "item_id": "ctbids-48520-5652271",
     "listing_url": "https://ctbids.com/estate-sale/48520/item/5652271/Rustic-Console-Table-W-Lift-Top",
@@ -696,6 +679,35 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278164527": {
+    "item_id": "278164527",
+    "listing_url": "https://shopgoodwill.com/item/278164527",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/c2ed09a7-083b-4e50-9fe6-29d63c9f1cd6nner_08131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/7d61b713-2a82-482f-810b-497096528224nner_08132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/342/Items/2026-08-13/747574b0-e140-4430-943f-43fb267bb2c2nner_08133.jpg"
+    ],
+    "description": "Lindenwold garnet gemstone in a protective plastic case, made in the USA. Includes a comparison coin for size reference.",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
