@@ -390,7 +390,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -402,7 +402,34 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48775-5677355": {
+    "item_id": "ctbids-48775-5677355",
+    "listing_url": "https://ctbids.com/estate-sale/48775/item/5677355/Artificial-Bonsai-Tree-in-White-Planter",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5677355_7S5ULm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -464,33 +491,6 @@
       }
     ]
   },
-  "ctbids-48651-5658713": {
-    "item_id": "ctbids-48651-5658713",
-    "listing_url": "https://ctbids.com/estate-sale/48651/item/5658713/2-Antique-Readers-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658713_S6eA9r.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "277991214": {
     "item_id": "277991214",
     "listing_url": "https://shopgoodwill.com/item/277991214",
@@ -516,60 +516,6 @@
           "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48775-5677261": {
-    "item_id": "ctbids-48775-5677261",
-    "listing_url": "https://ctbids.com/estate-sale/48775/item/5677261/Butterfly-Print-Tote-Bag-with-Adjustable-Shoulder-Strap",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5677261_clKKam.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48775-5677355": {
-    "item_id": "ctbids-48775-5677355",
-    "listing_url": "https://ctbids.com/estate-sale/48775/item/5677355/Artificial-Bonsai-Tree-in-White-Planter",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5677355_7S5ULm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -683,6 +629,85 @@
       }
     ]
   },
+  "ctbids-48775-5677261": {
+    "item_id": "ctbids-48775-5677261",
+    "listing_url": "https://ctbids.com/estate-sale/48775/item/5677261/Butterfly-Print-Tote-Bag-with-Adjustable-Shoulder-Strap",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5677261_clKKam.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48651-5658713": {
+    "item_id": "ctbids-48651-5658713",
+    "listing_url": "https://ctbids.com/estate-sale/48651/item/5658713/2-Antique-Readers-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658713_S6eA9r.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48466-5632250": {
+    "item_id": "ctbids-48466-5632250",
+    "listing_url": "https://ctbids.com/estate-sale/48466/item/5632250/Diane-Von-Furstenberg-Silk-Embellished-Separates-Tops-Elastic-Waist-Pants-Size-L",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5632250_bjtSP5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48422-5667735": {
     "item_id": "ctbids-48422-5667735",
     "listing_url": "https://ctbids.com/estate-sale/48422/item/5667735/Expansive-CD-Collection",
@@ -730,85 +755,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48471-5649542": {
-    "item_id": "ctbids-48471-5649542",
-    "listing_url": "https://ctbids.com/estate-sale/48471/item/5649542/Silver-Tone-Jewelry-with-Monogram-Pendant-and-Pearl-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5649542_We426M.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47774-5562309": {
-    "item_id": "ctbids-47774-5562309",
-    "listing_url": "https://ctbids.com/estate-sale/47774/item/5562309/Small-Lot-Of-Steel-Pennies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562309_S8RlLn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48466-5632250": {
-    "item_id": "ctbids-48466-5632250",
-    "listing_url": "https://ctbids.com/estate-sale/48466/item/5632250/Diane-Von-Furstenberg-Silk-Embellished-Separates-Tops-Elastic-Waist-Pants-Size-L",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5632250_bjtSP5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -871,6 +817,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48347/item/5657525/4-Depression-Uranium-Etched-Glass-Salad-Plates-9",
     "images": [
       "https://image.ctbids.com/seller/2026-09-22Tad643b/5657525_vmfl0R.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48471-5649542": {
+    "item_id": "ctbids-48471-5649542",
+    "listing_url": "https://ctbids.com/estate-sale/48471/item/5649542/Silver-Tone-Jewelry-with-Monogram-Pendant-and-Pearl-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5649542_We426M.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1084,6 +1055,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47774-5562309": {
+    "item_id": "ctbids-47774-5562309",
+    "listing_url": "https://ctbids.com/estate-sale/47774/item/5562309/Small-Lot-Of-Steel-Pennies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-26Tec9678/5562309_S8RlLn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
