@@ -52,6 +52,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
       "Known shipping cost at or below $8 (+4)",
       "Base score (+5)"
     ],
@@ -59,100 +60,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 18,
-        "relative_score": 0.6,
+        "score": 22,
+        "relative_score": 0.733,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
           "Known shipping cost at or below $8 (+4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48775-5676935": {
-    "item_id": "ctbids-48775-5676935",
-    "listing_url": "https://ctbids.com/estate-sale/48775/item/5676935/Vintage-Sears-Whisper-Matic-Remote-Control-35mm-Slide-Projector-Model-837-98720",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5405171_1kR476.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48278-5607640": {
-    "item_id": "ctbids-48278-5607640",
-    "listing_url": "https://ctbids.com/estate-sale/48278/item/5607640/Vintage-NFL-College-Football-Pennant-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5607640_e6Ne6f.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48278-5608610": {
-    "item_id": "ctbids-48278-5608610",
-    "listing_url": "https://ctbids.com/estate-sale/48278/item/5608610/Vintage-Playing-Cards-Pinochle-Card-Games-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5608610_IsBkQF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -163,35 +78,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48410/item/5664421/Vintage-watch",
     "images": [
       "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5664421_7C2BXP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48410-5664063": {
-    "item_id": "ctbids-48410-5664063",
-    "listing_url": "https://ctbids.com/estate-sale/48410/item/5664063/Vintage-necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5664063_zV3ENu.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -275,6 +161,62 @@
       }
     ]
   },
+  "ctbids-48410-5664063": {
+    "item_id": "ctbids-48410-5664063",
+    "listing_url": "https://ctbids.com/estate-sale/48410/item/5664063/Vintage-necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5664063_zV3ENu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48520-5656627": {
+    "item_id": "ctbids-48520-5656627",
+    "listing_url": "https://ctbids.com/estate-sale/48520/item/5656627/Large-Collection-of-Hand-Painted-Folk-Art-Metal-Garden-D-cor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5656627_UWZ6P3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48410-5664103": {
     "item_id": "ctbids-48410-5664103",
     "listing_url": "https://ctbids.com/estate-sale/48410/item/5664103/Vintage-necklace",
@@ -304,15 +246,16 @@
       }
     ]
   },
-  "ctbids-48634-5624720": {
-    "item_id": "ctbids-48634-5624720",
-    "listing_url": "https://ctbids.com/estate-sale/48634/item/5624720/Vintage-Embroidery-Supplies",
+  "ctbids-48291-5628232": {
+    "item_id": "ctbids-48291-5628232",
+    "listing_url": "https://ctbids.com/estate-sale/48291/item/5628232/Vintage-Toy-Car-Lot-1",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-12Te01775/5624720_bQzwrr.webp"
+      "https://image.ctbids.com/seller/2026-09-14T038590/5628232_2jLyeO.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -320,64 +263,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48278-5607571": {
-    "item_id": "ctbids-48278-5607571",
-    "listing_url": "https://ctbids.com/estate-sale/48278/item/5607571/Longaberger-Pottery-Star-Mugs-Casserole-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607571_3nAPu2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48520-5656627": {
-    "item_id": "ctbids-48520-5656627",
-    "listing_url": "https://ctbids.com/estate-sale/48520/item/5656627/Large-Collection-of-Hand-Painted-Folk-Art-Metal-Garden-D-cor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5656627_UWZ6P3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -420,87 +310,6 @@
       }
     ]
   },
-  "ctbids-47415-5626382": {
-    "item_id": "ctbids-47415-5626382",
-    "listing_url": "https://ctbids.com/estate-sale/47415/item/5626382/American-Art-Vintage-Clown-Cookie-Jar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5626382_MFSn0h.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48447-5634696": {
-    "item_id": "ctbids-48447-5634696",
-    "listing_url": "https://ctbids.com/estate-sale/48447/item/5634696/Vintage-Carnival-Glass-Iridescent-Green-Northwood",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5634696_GiJc4R.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48447-5632103": {
-    "item_id": "ctbids-48447-5632103",
-    "listing_url": "https://ctbids.com/estate-sale/48447/item/5632103/Vintage-Mid-Century-Hand-Blown-Art-Glass",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5632103_F9pTkW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48410-5664358": {
     "item_id": "ctbids-48410-5664358",
     "listing_url": "https://ctbids.com/estate-sale/48410/item/5664358/Vintage-necklace",
@@ -521,167 +330,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48784-5676748": {
-    "item_id": "ctbids-48784-5676748",
-    "listing_url": "https://ctbids.com/estate-sale/48784/item/5676748/Charlie-Rich-The-Most-Beautiful-Girl-I-Feel-Like-Going-Home-45-RPM-Vinyl-Epic-1973",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5422750_zxcI5c.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48784-5676743": {
-    "item_id": "ctbids-48784-5676743",
-    "listing_url": "https://ctbids.com/estate-sale/48784/item/5676743/Walt-Disney-s-Alice-in-Wonderland-Part-1-Concluded-RCA-Victor-45-RPM-Little-Nipper-Giant-Serie",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5673918_catWrp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48784-5676760": {
-    "item_id": "ctbids-48784-5676760",
-    "listing_url": "https://ctbids.com/estate-sale/48784/item/5676760/Glenn-Yarbrough-Ain-t-No-Way-You-Can-t-Ever-Go-Home-Again-RCA-47-8745-45-RPM",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5463895_XzFDUT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "277913803": {
-    "item_id": "277913803",
-    "listing_url": "https://shopgoodwill.com/item/277913803",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-21/272b6e47-8e1a-4c58-8bba-0a300e205d65ssee_09211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-21/fe63d668-7dc7-43e6-b11a-2b4a6419f607ssee_09212.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-21/54fa0d89-82ef-4871-aa9b-00a678d240c6ssee_09213.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-09-21/24686541-0de6-400f-a5ea-8179e179e071ssee_09214.jpg"
-    ],
-    "description": "This is a natural polished pink and white agate geode slice featuring a central crystal formation surrounded by concentric bands of pink, red, and white. The slice has a flat polished face with rough, unpolished edges. Made of natural agate quartz, the piece is approximately the size of a coaster. It is used but well-preserved, showing natural mineral inclusions and minor edge chipping. No brand or manufacturer markings are present.",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47706-5628448": {
-    "item_id": "ctbids-47706-5628448",
-    "listing_url": "https://ctbids.com/estate-sale/47706/item/5628448/Wedgewood-serving-platter-Louisiana-Pattern",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5628448_ughQnt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47706-5628461": {
-    "item_id": "ctbids-47706-5628461",
-    "listing_url": "https://ctbids.com/estate-sale/47706/item/5628461/Or-Decorative-Cordial-Glasses-With-Silver-Colored-Base",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5628461_D1eTeF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -721,6 +369,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48258/item/5572434/Large-Collection-Of-Artisan-Jewelry-Pieces",
     "images": [
       "https://image.ctbids.com/seller/2026-08-28T33352f/5572434_Q6gGCw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48739-5673819": {
+    "item_id": "ctbids-48739-5673819",
+    "listing_url": "https://ctbids.com/estate-sale/48739/item/5673819/1956-Topps-Baseball-Cards-Major-League-Star-Hall-of-Fame-Collection-Stack",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673819_MZdzo4.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -824,14 +499,15 @@
       }
     ]
   },
-  "ctbids-48303-5616268": {
-    "item_id": "ctbids-48303-5616268",
-    "listing_url": "https://ctbids.com/estate-sale/48303/item/5616268/Krementz-Trifari-Avon-More-Brooches-Pins",
+  "ctbids-48431-5632144": {
+    "item_id": "ctbids-48431-5632144",
+    "listing_url": "https://ctbids.com/estate-sale/48431/item/5632144/Vintage-Maritime-Boat-Steering-Wheel-Mounting-Base",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5616268_fwpYBJ.webp"
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5632144_ZHMx0T.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -839,9 +515,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -849,14 +526,15 @@
       }
     ]
   },
-  "ctbids-48303-5647809": {
-    "item_id": "ctbids-48303-5647809",
-    "listing_url": "https://ctbids.com/estate-sale/48303/item/5647809/Assorted-Handmade-Vases-By-Artist-DC",
+  "ctbids-48291-5627190": {
+    "item_id": "ctbids-48291-5627190",
+    "listing_url": "https://ctbids.com/estate-sale/48291/item/5627190/Vintage-Iron-Chainlink-Candlesticks",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5647809_8rKj3Q.webp"
+      "https://image.ctbids.com/seller/2026-09-14T038590/5627190_IEeGPC.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -864,9 +542,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -874,14 +553,15 @@
       }
     ]
   },
-  "ctbids-47415-5543260": {
-    "item_id": "ctbids-47415-5543260",
-    "listing_url": "https://ctbids.com/estate-sale/47415/item/5543260/Food-Saver-V3880-Vacuum-Sealing-System",
+  "ctbids-48498-5659105": {
+    "item_id": "ctbids-48498-5659105",
+    "listing_url": "https://ctbids.com/estate-sale/48498/item/5659105/Vintage-Doilies-Hand-Sewn-Dresser-Scarves",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5543260_80Cq5i.webp"
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5659105_AOH6lP.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -889,9 +569,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -899,14 +580,15 @@
       }
     ]
   },
-  "ctbids-48447-5632817": {
-    "item_id": "ctbids-48447-5632817",
-    "listing_url": "https://ctbids.com/estate-sale/48447/item/5632817/Marigold-Carnival-Glass",
+  "ctbids-48739-5674003": {
+    "item_id": "ctbids-48739-5674003",
+    "listing_url": "https://ctbids.com/estate-sale/48739/item/5674003/1959-Topps-Sandy-Koufax-163-Los-Angeles-Dodgers-Vintage-Baseball-Trading-Card",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5632817_mgeSvu.webp"
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674003_L3nWPU.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -914,9 +596,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48291-5641796": {
+    "item_id": "ctbids-48291-5641796",
+    "listing_url": "https://ctbids.com/estate-sale/48291/item/5641796/Small-Vintage-Metal-Serving-Trays",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641796_JFmgze.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1186,6 +896,181 @@
     "listing_url": "https://ctbids.com/estate-sale/48422/item/5639273/Blue-Beauties",
     "images": [
       "https://image.ctbids.com/seller/2026-09-16T2152c1/5639273_q45qZj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48422-5640175": {
+    "item_id": "ctbids-48422-5640175",
+    "listing_url": "https://ctbids.com/estate-sale/48422/item/5640175/1970S-London-Fog-Men-s-Overcoat-42-Long",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5640175_dXUN2y.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48431-5632977": {
+    "item_id": "ctbids-48431-5632977",
+    "listing_url": "https://ctbids.com/estate-sale/48431/item/5632977/Oneida-Silversmiths-Silverplate-Fluted-Serving-Bowls-Pair",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5632977_jMhQbo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48436-5662550": {
+    "item_id": "ctbids-48436-5662550",
+    "listing_url": "https://ctbids.com/estate-sale/48436/item/5662550/1966-Topps-Baseball-Card-Bob-Clemente-300",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/4202220_q6l0or.jpeg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48539-5662993": {
+    "item_id": "ctbids-48539-5662993",
+    "listing_url": "https://ctbids.com/estate-sale/48539/item/5662993/Two-Framed-Civil-War-Ship-Wood-Engraving-Prints",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5662993_xurmSr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48477-5651640": {
+    "item_id": "ctbids-48477-5651640",
+    "listing_url": "https://ctbids.com/estate-sale/48477/item/5651640/Men-s-Outdoor-Workwear-Clothing",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5651640_JPzZgo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48664-5658089": {
+    "item_id": "ctbids-48664-5658089",
+    "listing_url": "https://ctbids.com/estate-sale/48664/item/5658089/2000-2001-2005-2006-2007-US-Mint-Proof-Statehood-Quarter-Sets-Original-Proof-Sets",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658089_dIeVDp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48422-5653301": {
+    "item_id": "ctbids-48422-5653301",
+    "listing_url": "https://ctbids.com/estate-sale/48422/item/5653301/Noritake-Chocolate-teapot-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5653301_mGAwtn.webp"
     ],
     "description": "",
     "score_reasons": [
