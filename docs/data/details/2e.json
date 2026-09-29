@@ -20,6 +20,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "9 lb lot has unresolved shipping cost (-3)",
       "Base score (+5)"
@@ -28,8 +29,8 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 43,
-        "relative_score": 1.433,
+        "score": 45,
+        "relative_score": 1.5,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
@@ -38,6 +39,7 @@
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "9 lb lot has unresolved shipping cost (-3)",
           "Base score (+5)"
@@ -177,34 +179,6 @@
       }
     ]
   },
-  "278829062": {
-    "item_id": "278829062",
-    "listing_url": "https://shopgoodwill.com/item/278829062",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/a7e7015f-f998-4475-ac62-6722ed62e530raic_06041.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/f6b769d7-c100-447f-b506-2a7d4df6e28eraic_06042.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/b5f94cb9-109b-46ff-b11c-5b94c1887bearaic_06043.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/d2624cdd-4425-48d8-a83f-4ee6302640f1raic_06044.jpg"
-    ],
-    "description": "Two mineral specimens: one white quartz geode featuring crystalline formations inside, and one brown and clear quartz crystal cluster with visible multiple crystal points.",
-    "score_reasons": [
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 15,
-        "relative_score": 0.5,
-        "score_reasons": [
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48431-5632983": {
     "item_id": "ctbids-48431-5632983",
     "listing_url": "https://ctbids.com/estate-sale/48431/item/5632983/Vintage-Reed-Barton-Silverplate-Serving-Dish-Collection",
@@ -234,6 +208,34 @@
       }
     ]
   },
+  "278829062": {
+    "item_id": "278829062",
+    "listing_url": "https://shopgoodwill.com/item/278829062",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/a7e7015f-f998-4475-ac62-6722ed62e530raic_06041.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/f6b769d7-c100-447f-b506-2a7d4df6e28eraic_06042.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/b5f94cb9-109b-46ff-b11c-5b94c1887bearaic_06043.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-04/d2624cdd-4425-48d8-a83f-4ee6302640f1raic_06044.jpg"
+    ],
+    "description": "Two mineral specimens: one white quartz geode featuring crystalline formations inside, and one brown and clear quartz crystal cluster with visible multiple crystal points.",
+    "score_reasons": [
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 15,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48291-5637087": {
     "item_id": "ctbids-48291-5637087",
     "listing_url": "https://ctbids.com/estate-sale/48291/item/5637087/Vintage-1960s-Italian-Ceramic-Novelty-Wine-Decanter",
@@ -256,33 +258,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48422-5657668": {
-    "item_id": "ctbids-48422-5657668",
-    "listing_url": "https://ctbids.com/estate-sale/48422/item/5657668/The-Art-of-Disney-Muppets-Stamp-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5657668_VvqPi0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -337,6 +312,114 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48732-5679992": {
+    "item_id": "ctbids-48732-5679992",
+    "listing_url": "https://ctbids.com/estate-sale/48732/item/5679992/Bonjour-Scholastic-Records-No-2-Parts-1-2-33-RPM-November-1966",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5679992_0ToHsN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48732-5680444": {
+    "item_id": "ctbids-48732-5680444",
+    "listing_url": "https://ctbids.com/estate-sale/48732/item/5680444/Avon-Floral-Light-Lavender-Candle-and-Clear-Glass-Votive",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5676356_NTQ0Gu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48732-5680477": {
+    "item_id": "ctbids-48732-5680477",
+    "listing_url": "https://ctbids.com/estate-sale/48732/item/5680477/NEW-Case-Mate-Twinkle-Stardust-Glitter-Case-for-iPhone-8-Plus-7-Plus-6s-Plus",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5262328_3E5dEA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48732-5680532": {
+    "item_id": "ctbids-48732-5680532",
+    "listing_url": "https://ctbids.com/estate-sale/48732/item/5680532/Hard-Rock-Caf-Salt-Lake-City-Shot-Glass-Heavy-Base-Rocks-Glass-Set-of-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5127318_A5LUf0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -456,33 +539,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48422/item/5659144/1970-s-American-Kitchen",
     "images": [
       "https://image.ctbids.com/seller/2026-09-22Tad643b/5659144_izayUY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48512-5660074": {
-    "item_id": "ctbids-48512-5660074",
-    "listing_url": "https://ctbids.com/estate-sale/48512/item/5660074/Sweetheart-Barbie-1998-Mattel-18608-New-in-Box-Pink-Valentine-Dress-Reserve-10",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5478416_sveeEw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -826,81 +882,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48431/item/5630995/Lenox-Rutledge-Fine-China-5-Piece-Place-Setting-Floral-Gold-Trim-A",
     "images": [
       "https://image.ctbids.com/seller/2026-09-15Tb9129c/5630995_PC4UA4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48018-5603647": {
-    "item_id": "ctbids-48018-5603647",
-    "listing_url": "https://ctbids.com/estate-sale/48018/item/5603647/Kenner-M-A-S-K-Figures-with-Masks-Rhino-4x4-Pickup-Tonka-Car-Toy-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-06T6db43c/5603647_4CXLlE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48422-5664389": {
-    "item_id": "ctbids-48422-5664389",
-    "listing_url": "https://ctbids.com/estate-sale/48422/item/5664389/Cast-Iron-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5664389_6G66lV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48477-5657742": {
-    "item_id": "ctbids-48477-5657742",
-    "listing_url": "https://ctbids.com/estate-sale/48477/item/5657742/Frankoma-Pottery-Teen-Agers-of-the-Bible-Collector-Plates-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5657742_dIYGBl.webp"
     ],
     "description": "",
     "score_reasons": [
