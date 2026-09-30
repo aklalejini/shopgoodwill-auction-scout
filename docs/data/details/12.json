@@ -10,7 +10,6 @@
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -18,13 +17,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 17,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -126,33 +124,6 @@
       }
     ]
   },
-  "ctbids-48640-5673215": {
-    "item_id": "ctbids-48640-5673215",
-    "listing_url": "https://ctbids.com/estate-sale/48640/item/5673215/Antique-Kitchen-Textile-Mill-Relics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5673215_d6OsmX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48210-5600499": {
     "item_id": "ctbids-48210-5600499",
     "listing_url": "https://ctbids.com/estate-sale/48210/item/5600499/Vintage-Kay-Unger-Silk-Silk-Blend-Skirt-Suit-Sets-2-Size-6",
@@ -207,6 +178,33 @@
       }
     ]
   },
+  "ctbids-48640-5673215": {
+    "item_id": "ctbids-48640-5673215",
+    "listing_url": "https://ctbids.com/estate-sale/48640/item/5673215/Antique-Kitchen-Textile-Mill-Relics",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5673215_d6OsmX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48256-5650334": {
     "item_id": "ctbids-48256-5650334",
     "listing_url": "https://ctbids.com/estate-sale/48256/item/5650334/Vintage-American-Bisque-Jack-In-The-Box-Cookie-Jar",
@@ -227,33 +225,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48614-5656370": {
-    "item_id": "ctbids-48614-5656370",
-    "listing_url": "https://ctbids.com/estate-sale/48614/item/5656370/Berkley-Square-By-Oneida-Community-Plate",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5656370_kAr7yB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -288,33 +259,6 @@
       }
     ]
   },
-  "ctbids-48558-5648916": {
-    "item_id": "ctbids-48558-5648916",
-    "listing_url": "https://ctbids.com/estate-sale/48558/item/5648916/Scottish-Songbooks-And-Collectibles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5648916_aONEYp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48640-5670232": {
     "item_id": "ctbids-48640-5670232",
     "listing_url": "https://ctbids.com/estate-sale/48640/item/5670232/Various-Kitchen-Appliances",
@@ -342,33 +286,28 @@
       }
     ]
   },
-  "278669618": {
-    "item_id": "278669618",
-    "listing_url": "https://shopgoodwill.com/item/278669618",
+  "ctbids-48614-5656370": {
+    "item_id": "ctbids-48614-5656370",
+    "listing_url": "https://ctbids.com/estate-sale/48614/item/5656370/Berkley-Square-By-Oneida-Community-Plate",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09111.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09112.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09113.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09114.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09115.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09116.png"
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5656370_kAr7yB.webp"
     ],
-    "description": "Description:\nSmall Collection of Tumbled/Raw Stones & Crystals (B22F)\nManufacturer/Markings:\nUnmarked\nMaterial:\nTumbled/Raw Stones & Crystals\nLength x Width x Height:\n(largest) 2x2x1.5\nCondition:\nDonated/ pre-owned. Scuffs, scratches, dust/dirt residue, chips, marks, discoloration\nExtras Included:\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\n” and is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -417,6 +356,88 @@
       }
     ]
   },
+  "ctbids-48586-5652310": {
+    "item_id": "ctbids-48586-5652310",
+    "listing_url": "https://ctbids.com/estate-sale/48586/item/5652310/New-Lane-Furniture-Rustic-China-Cabinet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5652310_6ExjKp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48558-5648916": {
+    "item_id": "ctbids-48558-5648916",
+    "listing_url": "https://ctbids.com/estate-sale/48558/item/5648916/Scottish-Songbooks-And-Collectibles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5648916_aONEYp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278669618": {
+    "item_id": "278669618",
+    "listing_url": "https://shopgoodwill.com/item/278669618",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09111.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09112.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09113.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09114.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09115.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-11/65f5b040-f4c6-4151-9a13-59934134d5a0ton1_09116.png"
+    ],
+    "description": "Description:\nSmall Collection of Tumbled/Raw Stones & Crystals (B22F)\nManufacturer/Markings:\nUnmarked\nMaterial:\nTumbled/Raw Stones & Crystals\nLength x Width x Height:\n(largest) 2x2x1.5\nCondition:\nDonated/ pre-owned. Scuffs, scratches, dust/dirt residue, chips, marks, discoloration\nExtras Included:\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\n” and is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "278975419": {
     "item_id": "278975419",
     "listing_url": "https://shopgoodwill.com/item/278975419",
@@ -442,81 +463,6 @@
           "Opportunity term 'collection' in description (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47666-5593547": {
-    "item_id": "ctbids-47666-5593547",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5593547/Neiman-Marcus-Silveplated-Tray-Bell",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-09Tb64532/5593547_v5QS9Q.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48558-5658939": {
-    "item_id": "ctbids-48558-5658939",
-    "listing_url": "https://ctbids.com/estate-sale/48558/item/5658939/The-White-House-Historical-Association-Christmas-Ornaments-2019",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658939_6Giti6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48586-5652310": {
-    "item_id": "ctbids-48586-5652310",
-    "listing_url": "https://ctbids.com/estate-sale/48586/item/5652310/New-Lane-Furniture-Rustic-China-Cabinet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5652310_6ExjKp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -577,6 +523,81 @@
     "listing_url": "https://ctbids.com/estate-sale/48256/item/5650322/Pyrex-Amish-Butterprint-Mixing-Bowls-Set-of-3",
     "images": [
       "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5650322_HqTlv7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48434-5648901": {
+    "item_id": "ctbids-48434-5648901",
+    "listing_url": "https://ctbids.com/estate-sale/48434/item/5648901/Lladro-Japanese-Woman-Arranging-Flowers-Porcelain-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-19Tdc7d6a/5648901_cXnxHG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48321-5658437": {
+    "item_id": "ctbids-48321-5658437",
+    "listing_url": "https://ctbids.com/estate-sale/48321/item/5658437/10K-Yellow-Gold-6-Diamond-Butterfly-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658437_nCOosP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48321-5658675": {
+    "item_id": "ctbids-48321-5658675",
+    "listing_url": "https://ctbids.com/estate-sale/48321/item/5658675/10K-White-Gold-9-Diamond-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658675_ygJ0b9.webp"
     ],
     "description": "",
     "score_reasons": [

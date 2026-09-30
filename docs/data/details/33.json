@@ -125,7 +125,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -133,11 +133,38 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48256-5643994": {
+    "item_id": "ctbids-48256-5643994",
+    "listing_url": "https://ctbids.com/estate-sale/48256/item/5643994/Handmade-Basket-w-Vintage-Wood-Blocks",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5643994_wnujds.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -174,33 +201,6 @@
       }
     ]
   },
-  "ctbids-48256-5643994": {
-    "item_id": "ctbids-48256-5643994",
-    "listing_url": "https://ctbids.com/estate-sale/48256/item/5643994/Handmade-Basket-w-Vintage-Wood-Blocks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5643994_wnujds.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48210-5616174": {
     "item_id": "ctbids-48210-5616174",
     "listing_url": "https://ctbids.com/estate-sale/48210/item/5616174/Vintage-Barbour-Wide-Brim-Outdoor-Hat-Made-in-Scotland-Size-L",
@@ -228,60 +228,6 @@
       }
     ]
   },
-  "ctbids-47666-5555207": {
-    "item_id": "ctbids-47666-5555207",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5555207/VTG-Aynsley-Pembrooke-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-25T50453d/5555207_hdjY7V.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47666-5548634": {
-    "item_id": "ctbids-47666-5548634",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5548634/Rosenthal-Pine-Cone-Needles-Vegetable-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548634_6Ijomy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48649-5658849": {
     "item_id": "ctbids-48649-5658849",
     "listing_url": "https://ctbids.com/estate-sale/48649/item/5658849/Craftsman-Wooden-Clamps-2",
@@ -290,7 +236,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -298,10 +243,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -314,152 +258,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48614/item/5652011/Serving-Trays",
     "images": [
       "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5652011_7ypMcy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47666-5539789": {
-    "item_id": "ctbids-47666-5539789",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5539789/SPODE-Cups",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-20Tbe87db/5539789_Sr42Za.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278306583": {
-    "item_id": "278306583",
-    "listing_url": "https://shopgoodwill.com/item/278306583",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/bf01c1a9-b253-468e-bfcf-098f9f0f3505llen_09241.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/89a323ef-bba7-4388-8a2b-0b8407cc102allen_09242.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/02482f5d-93f4-45ba-9dfd-01b1c7e89f1bllen_09243.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/679c3bcc-f8ca-4302-81cf-3ff89e91ce8bllen_09244.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/f710ed7c-c423-4003-87a1-c7643a4c41a7llen_09245.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/7a52a9f2-01c3-45cd-b004-cd1521715b2dllen_09246.jpg"
-    ],
-    "description": "This lot features a variety of polished stones and minerals, including tumbled stones, slabs, chips, and rough pieces. The collection includes specimens that appear to be agate, jasper, quartz, amethyst, sodalite, petrified wood, and possibly a fossilized shark tooth. The stones come in different shapes, colors, and patterns, with both natural and polished finishes. The pieces show minor surface wear consistent with handling but have no significant damage visible.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'polished stones' in title (-6)",
-      "Lower-priority term 'possibly' in description (-4)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'polished stones' in title (-6)",
-          "Lower-priority term 'possibly' in description (-4)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47666-5664541": {
-    "item_id": "ctbids-47666-5664541",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5664541/VTG-Herend-Large-Salad-Serving-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5523025_OVBMMa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47666-5548643": {
-    "item_id": "ctbids-47666-5548643",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5548643/VTG-Johann-Haviland-Blue-Garland-Salad-Plates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-23T6f3bc7/5548643_vdLb83.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48558-5656233": {
-    "item_id": "ctbids-48558-5656233",
-    "listing_url": "https://ctbids.com/estate-sale/48558/item/5656233/Workshop-Power-Tools",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5656233_gy8Qh9.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -705,6 +503,50 @@
       }
     ]
   },
+  "278306583": {
+    "item_id": "278306583",
+    "listing_url": "https://shopgoodwill.com/item/278306583",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/bf01c1a9-b253-468e-bfcf-098f9f0f3505llen_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/89a323ef-bba7-4388-8a2b-0b8407cc102allen_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/02482f5d-93f4-45ba-9dfd-01b1c7e89f1bllen_09243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/679c3bcc-f8ca-4302-81cf-3ff89e91ce8bllen_09244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/f710ed7c-c423-4003-87a1-c7643a4c41a7llen_09245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/7a52a9f2-01c3-45cd-b004-cd1521715b2dllen_09246.jpg"
+    ],
+    "description": "This lot features a variety of polished stones and minerals, including tumbled stones, slabs, chips, and rough pieces. The collection includes specimens that appear to be agate, jasper, quartz, amethyst, sodalite, petrified wood, and possibly a fossilized shark tooth. The stones come in different shapes, colors, and patterns, with both natural and polished finishes. The pieces show minor surface wear consistent with handling but have no significant damage visible.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48321-5666732": {
     "item_id": "ctbids-48321-5666732",
     "listing_url": "https://ctbids.com/estate-sale/48321/item/5666732/1891-Carson-City-Mint-Morgan-Silver-Dollar",
@@ -860,6 +702,106 @@
     "listing_url": "https://ctbids.com/estate-sale/48256/item/5641683/1893-Colombian-Half-Dollar-1947-Panamanian-Balboa",
     "images": [
       "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5641683_8vHTsg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48125-5596836": {
+    "item_id": "ctbids-48125-5596836",
+    "listing_url": "https://ctbids.com/estate-sale/48125/item/5596836/Herend-Miniature-Rust-Fishnet-Ear-Up-Rabbit-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5596836_zO4dp6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48256-5650394": {
+    "item_id": "ctbids-48256-5650394",
+    "listing_url": "https://ctbids.com/estate-sale/48256/item/5650394/Shawnee-Pottery-Winnie-Pig-Cookie-Jar-w-Salt-Pepper-Shakers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5650394_9cIGkn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48369-5650314": {
+    "item_id": "ctbids-48369-5650314",
+    "listing_url": "https://ctbids.com/estate-sale/48369/item/5650314/Ovenware-1-Quart-Covered-Casserole-Dish",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-20T075c3c/5650314_6h6Hf9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48125-5647811": {
+    "item_id": "ctbids-48125-5647811",
+    "listing_url": "https://ctbids.com/estate-sale/48125/item/5647811/KitchenAid-Ultra-Power-Tilt-Head-Stand-Mixer-Model-KSM90",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5647811_wOZKk2.webp"
     ],
     "description": "",
     "score_reasons": [

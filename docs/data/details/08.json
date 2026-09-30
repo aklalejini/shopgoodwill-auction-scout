@@ -163,7 +163,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -171,11 +171,38 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48205-5673674": {
+    "item_id": "ctbids-48205-5673674",
+    "listing_url": "https://ctbids.com/estate-sale/48205/item/5673674/Antique-1891-Waltham-Appleton-Tracey-And-Co-Pocket-Watch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673674_76WN7A.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -220,33 +247,6 @@
       }
     ]
   },
-  "ctbids-48205-5673674": {
-    "item_id": "ctbids-48205-5673674",
-    "listing_url": "https://ctbids.com/estate-sale/48205/item/5673674/Antique-1891-Waltham-Appleton-Tracey-And-Co-Pocket-Watch",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673674_liycCH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48480-5640173": {
     "item_id": "ctbids-48480-5640173",
     "listing_url": "https://ctbids.com/estate-sale/48480/item/5640173/Lot-Two-Piece-Of-The-Berlin-Wall",
@@ -269,60 +269,6 @@
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48160-5643091": {
-    "item_id": "ctbids-48160-5643091",
-    "listing_url": "https://ctbids.com/estate-sale/48160/item/5643091/Kodak-50th-Anniversary-Memorabilia-Desk-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5643091_hSzHun.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48558-5661918": {
-    "item_id": "ctbids-48558-5661918",
-    "listing_url": "https://ctbids.com/estate-sale/48558/item/5661918/Vintage-Earring-Grab-Bag",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5661918_FAL260.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -438,6 +384,33 @@
       }
     ]
   },
+  "ctbids-48160-5643091": {
+    "item_id": "ctbids-48160-5643091",
+    "listing_url": "https://ctbids.com/estate-sale/48160/item/5643091/Kodak-50th-Anniversary-Memorabilia-Desk-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5643091_hSzHun.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48210-5616730": {
     "item_id": "ctbids-48210-5616730",
     "listing_url": "https://ctbids.com/estate-sale/48210/item/5616730/Vintage-Dr-Martens-3-Eye-Oxford-Made-In-England-Shoes-Size-US-Men-s-7-Women-s-8-UK-6",
@@ -519,11 +492,38 @@
       }
     ]
   },
-  "ctbids-48662-5660322": {
-    "item_id": "ctbids-48662-5660322",
-    "listing_url": "https://ctbids.com/estate-sale/48662/item/5660322/Mets-Blue-Jays-and-Red-Sox-Ephemera",
+  "ctbids-48393-5631320": {
+    "item_id": "ctbids-48393-5631320",
+    "listing_url": "https://ctbids.com/estate-sale/48393/item/5631320/Vintage-Fenton-Thumprint-Amber-Glass-WH8",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5660322_14imp9.webp"
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631320_mVtntS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48855-5685992": {
+    "item_id": "ctbids-48855-5685992",
+    "listing_url": "https://ctbids.com/estate-sale/48855/item/5685992/Multi-Grip-Doorway-Pull-Up-Chin-Up-Exercise-Bar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-30T072869/5667738_5urYeA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -539,85 +539,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47938-5562480": {
-    "item_id": "ctbids-47938-5562480",
-    "listing_url": "https://ctbids.com/estate-sale/47938/item/5562480/Celadon-Lamp-With-Raised-Detail",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5562480_Py0E8k.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48321-5637416": {
-    "item_id": "ctbids-48321-5637416",
-    "listing_url": "https://ctbids.com/estate-sale/48321/item/5637416/East-African-Ebony-and-Ironwood-Figural-Sculptures",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5536346_qQQnJw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48558-5633887": {
-    "item_id": "ctbids-48558-5633887",
-    "listing_url": "https://ctbids.com/estate-sale/48558/item/5633887/The-Willow-Man-Totem",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5633887_6lkIyl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -700,11 +621,61 @@
       }
     ]
   },
+  "ctbids-48662-5660322": {
+    "item_id": "ctbids-48662-5660322",
+    "listing_url": "https://ctbids.com/estate-sale/48662/item/5660322/Mets-Blue-Jays-and-Red-Sox-Ephemera",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5660322_14imp9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48210-5601600": {
     "item_id": "ctbids-48210-5601600",
     "listing_url": "https://ctbids.com/estate-sale/48210/item/5601600/Polo-Ralph-Lauren-NWT-The-Limited-American-Flag-Wool-Wool-Blend-Scarves",
     "images": [
       "https://image.ctbids.com/seller/2026-09-09Tb64532/5601600_LQvpDf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48321-5637416": {
+    "item_id": "ctbids-48321-5637416",
+    "listing_url": "https://ctbids.com/estate-sale/48321/item/5637416/East-African-Ebony-and-Ironwood-Figural-Sculptures",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5536346_qQQnJw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -955,6 +926,56 @@
     "listing_url": "https://ctbids.com/estate-sale/48393/item/5631314/Spode-Blue-Italian-Dinnerware-More-WH8",
     "images": [
       "https://image.ctbids.com/seller/2026-09-15Tb9129c/5631314_iyPTlE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48256-5642493": {
+    "item_id": "ctbids-48256-5642493",
+    "listing_url": "https://ctbids.com/estate-sale/48256/item/5642493/Mystery-American-Coins",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642493_UX0Itr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48160-5622979": {
+    "item_id": "ctbids-48160-5622979",
+    "listing_url": "https://ctbids.com/estate-sale/48160/item/5622979/Brass-Inlay-Decorative-Wooden-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5622979_uSTCkM.webp"
     ],
     "description": "",
     "score_reasons": [
