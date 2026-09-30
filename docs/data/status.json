@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-09-30T13:39:26.402734+00:00",
-  "active_count": 2527,
-  "high_priority_count": 32,
+  "generated_at": "2026-09-30T19:16:33.045175+00:00",
+  "active_count": 2557,
+  "high_priority_count": 34,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
-    "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
+    "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards",
+    "CTBids / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://seller.ctbids.com/services/api/v1/search/item/new/list",
+    "CTBids / nationwide shippable: Request failed after limited retries: 403 Client Error: Forbidden for url: https://seller.ctbids.com/services/api/v1/search/item/new/list"
   ],
-  "detail_requests_completed": 40,
-  "relevance_filtered_count": 708,
-  "potentially_high_value_count": 32,
+  "detail_requests_completed": 39,
+  "relevance_filtered_count": 709,
+  "potentially_high_value_count": 34,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 72
+    "images_processed": 68
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -24,8 +26,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 513,
-      "detail_requests_attempted": 20
+      "active_count": 549,
+      "detail_requests_attempted": 39
     },
     {
       "id": "gsa-auctions",
@@ -36,7 +38,7 @@
     {
       "id": "govdeals",
       "label": "GovDeals",
-      "active_count": 14,
+      "active_count": 8,
       "detail_requests_attempted": 4
     },
     {
@@ -50,17 +52,17 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 359
+      "active_count": 382
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 24
+      "active_count": 25
     },
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 13
+      "active_count": 15
     },
     {
       "id": "vintage-pens",
@@ -70,17 +72,17 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 67
+      "active_count": 73
     },
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 25
+      "active_count": 29
     },
     {
       "id": "local-government-surplus",
       "label": "Local Government Surplus",
-      "active_count": 14
+      "active_count": 8
     },
     {
       "id": "local-estate-auctions",

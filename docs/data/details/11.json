@@ -13,6 +13,7 @@
       "Opportunity term 'vintage' in title (+6)",
       "Opportunity term 'lot' in title (+5)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -20,12 +21,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 27,
-        "relative_score": 0.771,
+        "score": 29,
+        "relative_score": 0.829,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -76,7 +78,44 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 15,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278243650": {
+    "item_id": "278243650",
+    "listing_url": "https://shopgoodwill.com/item/278243650",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/360f46f0-c0e0-4bff-8a75-df5bde86753cpugl_09061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/94db548b-fe87-4a2c-93f6-66ca512dd60epugl_09062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/e237385e-f0d3-45c5-974d-990c62a77898pugl_09063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/1a994e49-58cf-4c94-8130-8fcd97b5cc96pugl_09064.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/da2f5a50-79e4-4063-a8df-44c240b06807pugl_09065.jpg"
+    ],
+    "description": "Loose Gemstones Jewelry Set\nMaterial & Karats (if applicable):\nLoose Gemstones\nTotal Weight of Set:\n351 grams\nCondition:\nGood - shows some sign of wear\nEvergreen Goodwill helps people get jobs across Northwest Washington by offering high-quality free job training, education and job placement. We empower individuals to overcome barriers to working by providing comprehensive support and connecting them with life-changing job opportunities, ensuring they are career-ready and can support themselves and their families.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Target keyword 'tourmaline' in title (+10)",
+      "Less relevant category 'Jewelry' (-12)",
+      "1 bid near close (+2)",
+      "Known shipping cost at or below $8 (+4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
@@ -86,12 +125,16 @@
         "score": 11,
         "relative_score": 0.367,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Shipping is calculated and not included in the price (-6)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Target keyword 'tourmaline' in title (+10)",
+          "Less relevant category 'Jewelry' (-12)",
+          "1 bid near close (+2)",
+          "Known shipping cost at or below $8 (+4)",
           "Base score (+5)"
         ],
-        "matched_keywords": []
+        "matched_keywords": [
+          "tourmaline"
+        ]
       }
     ]
   },
@@ -117,6 +160,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47666-5578183": {
+    "item_id": "ctbids-47666-5578183",
+    "listing_url": "https://ctbids.com/estate-sale/47666/item/5578183/Tipperary-Crystal-Stefan-Collection-Punch-Bowl-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5578183_NfCmv2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -153,16 +225,15 @@
       }
     ]
   },
-  "ctbids-47666-5578183": {
-    "item_id": "ctbids-47666-5578183",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5578183/Tipperary-Crystal-Stefan-Collection-Punch-Bowl-Set",
+  "ctbids-48205-5673643": {
+    "item_id": "ctbids-48205-5673643",
+    "listing_url": "https://ctbids.com/estate-sale/48205/item/5673643/Buffalo-Nickel-Partial-Collection",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5578183_NfCmv2.webp"
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673643_YmOZNO.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -170,11 +241,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -215,89 +285,15 @@
       }
     ]
   },
-  "278243650": {
-    "item_id": "278243650",
-    "listing_url": "https://shopgoodwill.com/item/278243650",
+  "ctbids-47666-5627916": {
+    "item_id": "ctbids-47666-5627916",
+    "listing_url": "https://ctbids.com/estate-sale/47666/item/5627916/3-pc-Bell-Lot",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/360f46f0-c0e0-4bff-8a75-df5bde86753cpugl_09061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/94db548b-fe87-4a2c-93f6-66ca512dd60epugl_09062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/e237385e-f0d3-45c5-974d-990c62a77898pugl_09063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/1a994e49-58cf-4c94-8130-8fcd97b5cc96pugl_09064.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-09-06/da2f5a50-79e4-4063-a8df-44c240b06807pugl_09065.jpg"
-    ],
-    "description": "Loose Gemstones Jewelry Set\nMaterial & Karats (if applicable):\nLoose Gemstones\nTotal Weight of Set:\n351 grams\nCondition:\nGood - shows some sign of wear\nEvergreen Goodwill helps people get jobs across Northwest Washington by offering high-quality free job training, education and job placement. We empower individuals to overcome barriers to working by providing comprehensive support and connecting them with life-changing job opportunities, ensuring they are career-ready and can support themselves and their families.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Target keyword 'tourmaline' in title (+10)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Known shipping cost at or below $8 (+4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Target keyword 'tourmaline' in title (+10)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Known shipping cost at or below $8 (+4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "tourmaline"
-        ]
-      }
-    ]
-  },
-  "278719705": {
-    "item_id": "278719705",
-    "listing_url": "https://shopgoodwill.com/item/278719705",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/2e80a6f3-84e2-4b36-9af7-f9e6a9b69494gewc_09281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/7f4bd0de-b8cd-45b0-af7f-3cdb7f3863bfgewc_09282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/4f3cd63e-2049-4bb4-9e92-b68e6b9e6aefgewc_09283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/4ebefd0c-80d3-477c-b59b-ad06891bae71gewc_09284.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/2f8e1089-5b3e-4c0e-9cfb-d4dadd68141fgewc_09285.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/2c3ad028-ab9c-4187-9cda-bde9fa5125fagewc_09286.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/0621b06c-4a39-477d-b99e-cc7e974d83dfgewc_09287.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/b637847b-4c78-463f-85ef-b41855f224b0gewc_09288.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/4a33c50a-fb12-42f4-8938-60597e004fc4gewc_09289.jpg"
-    ],
-    "description": "Description\nOffered for online auction is the following item: Waterman Charleston Fountain Pen, Black W/gold\nFunctionality:\nDoes not apply to this item\nCondition:\nGood: Item is in Good Condition showing some signs of use. Gently Worn/Used. Please bid accordingly.\nEngraved with \"Timothy Ragh\"\nInformation regarding power supply:\nDoes not apply to this item\nMeasurements:\nLength in inches: 7\nWidth in inches: 3\nHeight in inches: 2.5",
-    "score_reasons": [
-      "Target keyword 'waterman' in title (+12)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 13,
-        "relative_score": 0.371,
-        "score_reasons": [
-          "Target keyword 'waterman' in title (+12)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "waterman"
-        ]
-      }
-    ]
-  },
-  "ctbids-48205-5673643": {
-    "item_id": "ctbids-48205-5673643",
-    "listing_url": "https://ctbids.com/estate-sale/48205/item/5673643/Buffalo-Nickel-Partial-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673643_YmOZNO.webp"
+      "https://image.ctbids.com/seller/2026-09-14T038590/5627916_tE6orH.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -305,10 +301,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -478,30 +474,40 @@
       }
     ]
   },
-  "ctbids-47666-5627916": {
-    "item_id": "ctbids-47666-5627916",
-    "listing_url": "https://ctbids.com/estate-sale/47666/item/5627916/3-pc-Bell-Lot",
+  "278719705": {
+    "item_id": "278719705",
+    "listing_url": "https://shopgoodwill.com/item/278719705",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5627916_tE6orH.webp"
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/2e80a6f3-84e2-4b36-9af7-f9e6a9b69494gewc_09281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/7f4bd0de-b8cd-45b0-af7f-3cdb7f3863bfgewc_09282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/4f3cd63e-2049-4bb4-9e92-b68e6b9e6aefgewc_09283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/4ebefd0c-80d3-477c-b59b-ad06891bae71gewc_09284.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/2f8e1089-5b3e-4c0e-9cfb-d4dadd68141fgewc_09285.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/2c3ad028-ab9c-4187-9cda-bde9fa5125fagewc_09286.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/0621b06c-4a39-477d-b99e-cc7e974d83dfgewc_09287.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/b637847b-4c78-463f-85ef-b41855f224b0gewc_09288.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-09-28/4a33c50a-fb12-42f4-8938-60597e004fc4gewc_09289.jpg"
     ],
-    "description": "",
+    "description": "Description\nOffered for online auction is the following item: Waterman Charleston Fountain Pen, Black W/gold\nFunctionality:\nDoes not apply to this item\nCondition:\nGood: Item is in Good Condition showing some signs of use. Gently Worn/Used. Please bid accordingly.\nEngraved with \"Timothy Ragh\"\nInformation regarding power supply:\nDoes not apply to this item\nMeasurements:\nLength in inches: 7\nWidth in inches: 3\nHeight in inches: 2.5",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Target keyword 'waterman' in title (+12)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 13,
+        "relative_score": 0.371,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Target keyword 'waterman' in title (+12)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
-        "matched_keywords": []
+        "matched_keywords": [
+          "waterman"
+        ]
       }
     ]
   },
@@ -581,75 +587,6 @@
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278667217": {
-    "item_id": "278667217",
-    "listing_url": "https://shopgoodwill.com/item/278667217",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09041.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09042.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09043.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09044.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09045.png"
-    ],
-    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION. NO individual information is available.\n--->> LOT AUCTIONS ARE NON-RETURNABLE! NO Refunds or RETURNS.\nItem(s) are sold AS-IS. While we do our best to show all flaws, some minor marks, stains, or signs of wear may not be visible in photos. Item(s) may or may not need to be laundered.\nPlease bid accordingly! Thank you for your support of our Goodwill Auctions.\nDESCRIPTION: Mixed Crystal & Rock Collection Lot with Heartthrob Affirmations Card Deck\nNUMBER OF ITEMS:\nWEIGHT OF LOT:  11LBS\nATTENTION:\nNO Refunds or RETURNS\nOur location is now doing pickups on Tuesday and Thursdays from 10am - 2pm!! Pick up at 7000 W. State St. Garden City, ID 83714",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "11 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "11 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278621946": {
-    "item_id": "278621946",
-    "listing_url": "https://shopgoodwill.com/item/278621946",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/6ead2658-39c5-425b-b5d2-d585a060828frton_09221.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/7a6eaeb5-8f47-4da8-81fc-1bdd3a1cc4b1rton_09222.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/7d8cf25c-659e-433b-976d-4276d97b8b92rton_09223.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/412e4894-1b64-4c94-abda-81c2365ccf16rton_09224.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/cf154280-d305-4106-a6c0-b1e2ba3a3efarton_09225.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/8debc53e-4c31-468e-803b-083295fe11f6rton_09226.jpg"
-    ],
-    "description": "Item Description:\nAmethyst Geode W/ Silver Tone Frog Figure\nApproximate Measurements (inches):\n2 x 2 x 1.5\nWeight (in lbs):\n0.35\nCondition:\nGood. Wear includes dust/dirt, scuffs\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -763,47 +700,6 @@
       }
     ]
   },
-  "278925249": {
-    "item_id": "278925249",
-    "listing_url": "https://shopgoodwill.com/item/278925249",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of natural mineral and rock specimens including quartz, amethyst, rose quartz, fluorite, pyrite, geodes, calcite, and other minerals. The collection features both polished and raw samples with a range of colors such as clear, white, purple, blue, green, pink, and gold.\n\nSpecifications:\n- Types of Minerals: Quartz, Amethyst, Rose Quartz, Fluorite, Pyrite, Geodes, Calcite, and others\n- Finishing: Polished and raw samples\n- Color Range: Clear, white, purple, blue, green, pink, gold\n- Weight: 5 pounds\n- Surface Texture: Natural textures with some minor wear",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Target keyword 'fluorite' in description (+9)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Target keyword 'fluorite' in description (+9)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "fluorite"
-        ]
-      }
-    ]
-  },
   "ctbids-47666-5545669": {
     "item_id": "ctbids-47666-5545669",
     "listing_url": "https://ctbids.com/estate-sale/47666/item/5545669/BIRKS-Silverplated-Salt-Cellars",
@@ -851,6 +747,116 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "278667217": {
+    "item_id": "278667217",
+    "listing_url": "https://shopgoodwill.com/item/278667217",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09041.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09042.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09043.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09044.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-09-04/662217f3-efee-457c-a49c-bb6898c72684nneC_09045.png"
+    ],
+    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION. NO individual information is available.\n--->> LOT AUCTIONS ARE NON-RETURNABLE! NO Refunds or RETURNS.\nItem(s) are sold AS-IS. While we do our best to show all flaws, some minor marks, stains, or signs of wear may not be visible in photos. Item(s) may or may not need to be laundered.\nPlease bid accordingly! Thank you for your support of our Goodwill Auctions.\nDESCRIPTION: Mixed Crystal & Rock Collection Lot with Heartthrob Affirmations Card Deck\nNUMBER OF ITEMS:\nWEIGHT OF LOT:  11LBS\nATTENTION:\nNO Refunds or RETURNS\nOur location is now doing pickups on Tuesday and Thursdays from 10am - 2pm!! Pick up at 7000 W. State St. Garden City, ID 83714",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "11 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "11 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278621946": {
+    "item_id": "278621946",
+    "listing_url": "https://shopgoodwill.com/item/278621946",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/6ead2658-39c5-425b-b5d2-d585a060828frton_09221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/7a6eaeb5-8f47-4da8-81fc-1bdd3a1cc4b1rton_09222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/7d8cf25c-659e-433b-976d-4276d97b8b92rton_09223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/412e4894-1b64-4c94-abda-81c2365ccf16rton_09224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/cf154280-d305-4106-a6c0-b1e2ba3a3efarton_09225.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-22/8debc53e-4c31-468e-803b-083295fe11f6rton_09226.jpg"
+    ],
+    "description": "Item Description:\nAmethyst Geode W/ Silver Tone Frog Figure\nApproximate Measurements (inches):\n2 x 2 x 1.5\nWeight (in lbs):\n0.35\nCondition:\nGood. Wear includes dust/dirt, scuffs\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278925249": {
+    "item_id": "278925249",
+    "listing_url": "https://shopgoodwill.com/item/278925249",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of natural mineral and rock specimens including quartz, amethyst, rose quartz, fluorite, pyrite, geodes, calcite, and other minerals. The collection features both polished and raw samples with a range of colors such as clear, white, purple, blue, green, pink, and gold.\n\nSpecifications:\n- Types of Minerals: Quartz, Amethyst, Rose Quartz, Fluorite, Pyrite, Geodes, Calcite, and others\n- Finishing: Polished and raw samples\n- Color Range: Clear, white, purple, blue, green, pink, gold\n- Weight: 5 pounds\n- Surface Texture: Natural textures with some minor wear",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Target keyword 'fluorite' in description (+9)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Target keyword 'fluorite' in description (+9)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
       }
     ]
   },
