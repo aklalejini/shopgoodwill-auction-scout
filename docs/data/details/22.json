@@ -11,7 +11,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'sterling silver' in title (+18)",
-      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -19,12 +18,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 31,
-        "relative_score": 0.912,
+        "score": 29,
+        "relative_score": 0.853,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'sterling silver' in title (+18)",
-          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -120,7 +118,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -132,42 +130,9 @@
         "relative_score": 0.618,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278916068": {
-    "item_id": "278916068",
-    "listing_url": "https://shopgoodwill.com/item/278916068",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/b2010a48-d2b2-4f50-8dd1-d58b4c1265e5hols_09141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/d33e77ee-9354-41d7-8111-c1b5233464c2hols_09142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/4c746043-65e7-453f-a500-ff9f9bb9adf8hols_09143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/09a6c9bf-5055-4459-8a55-a1802e89d895hols_09144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/d59125fa-106a-4454-9c5b-640af8407177hols_09145.jpg"
-    ],
-    "description": "Type:\nGrab Bag Vintage Style Glass Insulators\nCondition:\nGood - shows some sign of wear",
-    "score_reasons": [
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
-        "score_reasons": [
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -249,6 +214,39 @@
           "High-value signal 'sterling silver' in title (+18)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278916068": {
+    "item_id": "278916068",
+    "listing_url": "https://shopgoodwill.com/item/278916068",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/b2010a48-d2b2-4f50-8dd1-d58b4c1265e5hols_09141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/d33e77ee-9354-41d7-8111-c1b5233464c2hols_09142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/4c746043-65e7-453f-a500-ff9f9bb9adf8hols_09143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/09a6c9bf-5055-4459-8a55-a1802e89d895hols_09144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-09-14/d59125fa-106a-4454-9c5b-640af8407177hols_09145.jpg"
+    ],
+    "description": "Type:\nGrab Bag Vintage Style Glass Insulators\nCondition:\nGood - shows some sign of wear",
+    "score_reasons": [
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 23,
+        "relative_score": 0.767,
+        "score_reasons": [
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -474,33 +472,6 @@
       }
     ]
   },
-  "ctbids-48390-5651556": {
-    "item_id": "ctbids-48390-5651556",
-    "listing_url": "https://ctbids.com/estate-sale/48390/item/5651556/18-Blu-ray-Movie",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5651556_vdp4Ot.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48621-5659199": {
     "item_id": "ctbids-48621-5659199",
     "listing_url": "https://ctbids.com/estate-sale/48621/item/5659199/Elephant-Decor-Featuring-Carved-Bone-Figures-A-Stone-Figure-And-More",
@@ -523,6 +494,45 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278327145": {
+    "item_id": "278327145",
+    "listing_url": "https://shopgoodwill.com/item/278327145",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/89622460-1a9b-450b-9a09-f2365c61fe3ekane_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/d6643e7c-82d8-40df-bdcd-114d8eb36576kane_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/00fc9510-5e47-44d9-af10-89582ad44eb3kane_09243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/63da95a5-5e1b-42fb-8d7e-10cce06649b1kane_09244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/c2321489-73f7-4f10-849d-a23855c63a9ekane_09245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/c1c0c105-2684-45da-abf2-32e62a3ec4f6kane_09246.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/5ca7c6d3-f41f-4848-bef9-dcc4c02f198dkane_09247.jpg"
+    ],
+    "description": "This collectible specimen features raw variscite mineral formations on a slate slab base. The variscite measures approximately 3 x 2.5 x 2 inches and displays green botryoidal mineral texture. The slate slab base measures 3.75 x 3.75 inches and has been customized with handpainted text and illustrations, including references to 'ET Full Moon,' 'Area 51,' 'Marathon,' and '1st W 30:39,' along with a small alien face. Total weight of the specimen and base is 557.9 grams. The piece is in used condition with visible mineral crystallization and surface texture suitable for display.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'painted' in title (-15)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+10)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'painted' in title (-15)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }
@@ -658,6 +668,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48457/item/5654294/Hand-Painted-Metal-Bucket",
     "images": [
       "https://image.ctbids.com/seller/2026-09-21T30ce5b/5654294_SeOeV0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48390-5651556": {
+    "item_id": "ctbids-48390-5651556",
+    "listing_url": "https://ctbids.com/estate-sale/48390/item/5651556/18-Blu-ray-Movie",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5651556_vdp4Ot.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1012,45 +1047,6 @@
           "Less relevant category 'Crafts' (-12)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278327145": {
-    "item_id": "278327145",
-    "listing_url": "https://shopgoodwill.com/item/278327145",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/89622460-1a9b-450b-9a09-f2365c61fe3ekane_09241.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/d6643e7c-82d8-40df-bdcd-114d8eb36576kane_09242.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/00fc9510-5e47-44d9-af10-89582ad44eb3kane_09243.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/63da95a5-5e1b-42fb-8d7e-10cce06649b1kane_09244.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/c2321489-73f7-4f10-849d-a23855c63a9ekane_09245.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/c1c0c105-2684-45da-abf2-32e62a3ec4f6kane_09246.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-09-24/5ca7c6d3-f41f-4848-bef9-dcc4c02f198dkane_09247.jpg"
-    ],
-    "description": "This collectible specimen features raw variscite mineral formations on a slate slab base. The variscite measures approximately 3 x 2.5 x 2 inches and displays green botryoidal mineral texture. The slate slab base measures 3.75 x 3.75 inches and has been customized with handpainted text and illustrations, including references to 'ET Full Moon,' 'Area 51,' 'Marathon,' and '1st W 30:39,' along with a small alien face. Total weight of the specimen and base is 557.9 grams. The piece is in used condition with visible mineral crystallization and surface texture suitable for display.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'painted' in title (-15)",
-      "1 bid near close (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+10)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'painted' in title (-15)",
-          "1 bid near close (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }
