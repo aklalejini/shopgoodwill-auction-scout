@@ -149,7 +149,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -157,11 +157,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -549,6 +549,33 @@
       }
     ]
   },
+  "ctbids-47976-5570325": {
+    "item_id": "ctbids-47976-5570325",
+    "listing_url": "https://ctbids.com/estate-sale/47976/item/5570325/Art-Glass-Bowls-2-Including-Blenko-Glass-And-DKL-Studios",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-28T33352f/5570325_xL5ViV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "278816788": {
     "item_id": "278816788",
     "listing_url": "https://shopgoodwill.com/item/278816788",
@@ -637,60 +664,6 @@
       }
     ]
   },
-  "ctbids-47976-5570325": {
-    "item_id": "ctbids-47976-5570325",
-    "listing_url": "https://ctbids.com/estate-sale/47976/item/5570325/Art-Glass-Bowls-2-Including-Blenko-Glass-And-DKL-Studios",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-28T33352f/5570325_xL5ViV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48785-5679749": {
-    "item_id": "ctbids-48785-5679749",
-    "listing_url": "https://ctbids.com/estate-sale/48785/item/5679749/Signed-Drag-Racing-NASCAR-Driver-Promo-Photo-Hand-Signed-Lot-Ft-Jim-Yates-Shawn-Langdon-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5679749_P6iGA8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48002-5594354": {
     "item_id": "ctbids-48002-5594354",
     "listing_url": "https://ctbids.com/estate-sale/48002/item/5594354/Kate-Spade-New-York-by-Lenox-Polka-Dot-Glass-Vase-with-Original-Box",
@@ -759,6 +732,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48785-5679749": {
+    "item_id": "ctbids-48785-5679749",
+    "listing_url": "https://ctbids.com/estate-sale/48785/item/5679749/Signed-Drag-Racing-NASCAR-Driver-Promo-Photo-Hand-Signed-Lot-Ft-Jim-Yates-Shawn-Langdon-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5679749_P6iGA8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
