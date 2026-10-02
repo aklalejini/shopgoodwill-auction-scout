@@ -16,6 +16,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,8 +24,8 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 48,
-        "relative_score": 1.6,
+        "score": 53,
+        "relative_score": 1.767,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
@@ -32,6 +33,7 @@
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -179,35 +181,6 @@
       }
     ]
   },
-  "ctbids-47077-5546472": {
-    "item_id": "ctbids-47077-5546472",
-    "listing_url": "https://ctbids.com/estate-sale/47077/item/5546472/Vintage-Antique-Pewter-Copper-Leaf-Dishes-With-Designs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5546472_fjg0D3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "279116629": {
     "item_id": "279116629",
     "listing_url": "https://shopgoodwill.com/item/279116629",
@@ -251,6 +224,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -258,9 +232,39 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47077-5546472": {
+    "item_id": "ctbids-47077-5546472",
+    "listing_url": "https://ctbids.com/estate-sale/47077/item/5546472/Vintage-Antique-Pewter-Copper-Leaf-Dishes-With-Designs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5546472_fjg0D3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 13,
+        "relative_score": 0.382,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -278,6 +282,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -285,10 +290,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -305,6 +311,35 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48543-5650089": {
+    "item_id": "ctbids-48543-5650089",
+    "listing_url": "https://ctbids.com/estate-sale/48543/item/5650089/Framed-Nature-Landscape-Watercolor-Painting-Pair-with-Birch-Trees-and-Cattails",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-27T66079a/5650089_vRjlTF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -315,7 +350,88 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48543-5679161": {
+    "item_id": "ctbids-48543-5679161",
+    "listing_url": "https://ctbids.com/estate-sale/48543/item/5679161/Mid-Century-Modern-Ceramic-Table-Lamp-and-Small-Adjustable-Desk-Lamp",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679161_S5VIq1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5668258": {
+    "item_id": "ctbids-48234-5668258",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5668258/Vtg-Wide-Band-Heart-Cutout-Silver-Tone-Ring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5668258_KKL48z.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5668617": {
+    "item_id": "ctbids-48234-5668617",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5668617/Vtg-Chic-Purple-Faux-Pearl-Fringe-Cluster-Faceted-Red-Rhinestone-Lariat-Drop-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5668617_mgmNKn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -370,6 +486,114 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47976-5598450": {
+    "item_id": "ctbids-47976-5598450",
+    "listing_url": "https://ctbids.com/estate-sale/47976/item/5598450/Woven-Wicker-And-Woodsewing-Basket-With-Padded-Fabric-Lid-And-Contents",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598450_MGV36R.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5625318": {
+    "item_id": "ctbids-48234-5625318",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5625318/Route-66-Black-Faux-Leather-Triple-Buckle-Fold-Over-Ankle-Booties-Sz-8",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5613751_I5hSMz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5625320": {
+    "item_id": "ctbids-48234-5625320",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5625320/Coldwater-Creek-Multi-Strand-Faux-Copper-Bronze-Pearl-Beads-Gold-Cord-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5614798_2s1O1w.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5686116": {
+    "item_id": "ctbids-48234-5686116",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5686116/Vtg-Disney-Tinker-Bell-Pixie-Dust-Long-Wallet-Purse-Canvas-Blue-Piping",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5686116_uiBXOH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -470,56 +694,6 @@
       }
     ]
   },
-  "ctbids-47976-5598450": {
-    "item_id": "ctbids-47976-5598450",
-    "listing_url": "https://ctbids.com/estate-sale/47976/item/5598450/Woven-Wicker-And-Woodsewing-Basket-With-Padded-Fabric-Lid-And-Contents",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-04T9db37b/5598450_MGV36R.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48543-5650089": {
-    "item_id": "ctbids-48543-5650089",
-    "listing_url": "https://ctbids.com/estate-sale/48543/item/5650089/Framed-Nature-Landscape-Watercolor-Painting-Pair-with-Birch-Trees-and-Cattails",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-27T66079a/5650089_vRjlTF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48509-5667058": {
     "item_id": "ctbids-48509-5667058",
     "listing_url": "https://ctbids.com/estate-sale/48509/item/5667058/Two-Hand-Painted-Orientalist-Style-Desert-Landscape-Paintings-Framed-Canvas",
@@ -550,156 +724,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48509/item/5647367/Hand-Knotted-Tribal-Wool-Tent-Trapping-Jalar-Wall-Hanging-Braided-Top-Tassels-60-x-93-In",
     "images": [
       "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5647367_MAfFyv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48543-5679161": {
-    "item_id": "ctbids-48543-5679161",
-    "listing_url": "https://ctbids.com/estate-sale/48543/item/5679161/Mid-Century-Modern-Ceramic-Table-Lamp-and-Small-Adjustable-Desk-Lamp",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679161_S5VIq1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5668258": {
-    "item_id": "ctbids-48234-5668258",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5668258/Vtg-Wide-Band-Heart-Cutout-Silver-Tone-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5668258_KKL48z.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5668617": {
-    "item_id": "ctbids-48234-5668617",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5668617/Vtg-Chic-Purple-Faux-Pearl-Fringe-Cluster-Faceted-Red-Rhinestone-Lariat-Drop-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5668617_mgmNKn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5625318": {
-    "item_id": "ctbids-48234-5625318",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5625318/Route-66-Black-Faux-Leather-Triple-Buckle-Fold-Over-Ankle-Booties-Sz-8",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5613751_I5hSMz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5625320": {
-    "item_id": "ctbids-48234-5625320",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5625320/Coldwater-Creek-Multi-Strand-Faux-Copper-Bronze-Pearl-Beads-Gold-Cord-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5614798_2s1O1w.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5686116": {
-    "item_id": "ctbids-48234-5686116",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5686116/Vtg-Disney-Tinker-Bell-Pixie-Dust-Long-Wallet-Purse-Canvas-Blue-Piping",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5686116_uiBXOH.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1070,26 +1094,31 @@
       }
     ]
   },
-  "ctbids-48423-5631601": {
-    "item_id": "ctbids-48423-5631601",
-    "listing_url": "https://ctbids.com/estate-sale/48423/item/5631601/5-Glass-Perfume-Bottles",
+  "279206114": {
+    "item_id": "279206114",
+    "listing_url": "https://shopgoodwill.com/item/279206114",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5631601_oQcTFz.webp"
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/4d1c52f7-e51d-449d-a911-286e91f6b865eman_09221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/06fa89e3-3b4f-40b5-aad5-2d80dd1d934feman_09222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/431fabb4-302c-4871-bbdf-25afa913e54ceman_09223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/177/Items/2026-09-22/8622bba5-f8a7-4997-81a3-4ed4a3be6cd5eman_09224.jpg"
     ],
-    "description": "",
+    "description": "Item Description: Quartz Geode\nSize:  6x2x7\nAll Electronics are\nUNTESTED\nunless otherwise stated. All of our items featured are DONATIONS and all sales are FINAL. All BIDS are placed by the buyer with the understanding that this is a donated item that may contain unseen faults by our staff and is ultimately SOLD AS-IS as all available information is presented. Items come strictly as pictured and should be assumed to be AS-IS with possible unseen defects. We are NOT experts in any field. SOLD AS IS.\nThis is a USED item donated to Palmetto Goodwill. This item is pre-owned and may contain unseen flaws and imperfections in addition to the information listed here. Please see images for further detail and ask any questions you may have before making a bid.Due to inconsistencies in monitor display, colors shown may not be true to item's actual color. Please expect a slight color shift. Item may have wear and tear from usage. SOLD AS IS.\nAll items are sold AS-IS. We do our very best to describe and list items accurately. With that said, we are not experts in any one particular field. If you see a mistake we have made, please feel free to let us know.\nNo refunds will be issued without prior authorization and all requests are handled on a case by case basis. If you have a question about an item, please ask prior to bidding.\nPlease be aware that we will not permit refunds for items lost by shipping agency.\nPlease be aware that our customer service is monitored Monday-Friday 8am-4pm. Any emails sent outside those business hours or on holidays will be responded to the following business day.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }

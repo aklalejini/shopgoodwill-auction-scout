@@ -58,6 +58,7 @@
       "Opportunity term 'mixed' in description (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Lower-priority term 'polished stones' in description (-6)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -65,14 +66,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 20,
-        "relative_score": 0.667,
+        "score": 24,
+        "relative_score": 0.8,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in description (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Lower-priority term 'polished stones' in description (-6)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -117,6 +119,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'sealed' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -124,11 +127,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 17,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'sealed' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -146,6 +150,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -153,11 +158,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -185,6 +191,7 @@
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -192,14 +199,73 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
+        "score": 12,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48908-5694365": {
+    "item_id": "ctbids-48908-5694365",
+    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694365/Vintage-Al-Caiola-Speak-Low-Autumn-in-Cheyenne-45-RPM-Record-UA-347-United-Artists",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5589040_65bfKL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48725-5681029": {
+    "item_id": "ctbids-48725-5681029",
+    "listing_url": "https://ctbids.com/estate-sale/48725/item/5681029/Vintage-decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681029_QYk6dl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -261,15 +327,15 @@
       }
     ]
   },
-  "ctbids-48908-5694365": {
-    "item_id": "ctbids-48908-5694365",
-    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694365/Vintage-Al-Caiola-Speak-Low-Autumn-in-Cheyenne-45-RPM-Record-UA-347-United-Artists",
+  "ctbids-48908-5694420": {
+    "item_id": "ctbids-48908-5694420",
+    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694420/Red-Foley-You-Little-So-and-So-Plantation-Boogie-Decca-9-29517-45-RPM",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5589040_65bfKL.webp"
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5680417_eDICea.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -277,10 +343,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -288,15 +354,15 @@
       }
     ]
   },
-  "ctbids-48725-5681029": {
-    "item_id": "ctbids-48725-5681029",
-    "listing_url": "https://ctbids.com/estate-sale/48725/item/5681029/Vintage-decor",
+  "ctbids-48908-5694238": {
+    "item_id": "ctbids-48908-5694238",
+    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694238/The-Royal-Guardsmen-Sweetmeats-Slide-The-Return-of-the-Red-Baron-Laurie-45-RPM-LR-3379",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681029_QYk6dl.webp"
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5680370_Nv8JA6.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -304,10 +370,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48908-5694271": {
+    "item_id": "ctbids-48908-5694271",
+    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694271/Mind-of-Mencia-Uncensored-Season-2-DVD-Comedy-Central-Carlos-Mencia-Box-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5602423_9qSTH4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48908-5694328": {
+    "item_id": "ctbids-48908-5694328",
+    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694328/Al-Goodman-and-His-Orchestra-South-Pacific-Hits-Part-1-Concluded-RCA-Victor-45-RPM-52-0022",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5674356_A1hWB2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -369,15 +489,15 @@
       }
     ]
   },
-  "ctbids-48459-5656325": {
-    "item_id": "ctbids-48459-5656325",
-    "listing_url": "https://ctbids.com/estate-sale/48459/item/5656325/Vintage-Egyptian-Small-Blue-Scarab-Handcarved-Bead",
+  "ctbids-48543-5678305": {
+    "item_id": "ctbids-48543-5678305",
+    "listing_url": "https://ctbids.com/estate-sale/48543/item/5678305/Handmade-Crochet-Knit-Needlepoint-Christmas-Ornament",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5656325_gbupnD.webp"
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5678305_XuVFuh.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -385,10 +505,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5686125": {
+    "item_id": "ctbids-48234-5686125",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5686125/Elegant-Silvestri-Deep-Red-Wrap-Bags-And-NIB-Rolled-Red-Napkin-And-Ring-Holder-Sets",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5686125_GZY3Z4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48234-5625315": {
+    "item_id": "ctbids-48234-5625315",
+    "listing_url": "https://ctbids.com/estate-sale/48234/item/5625315/Vtg-Italian-Shoemakers-Lime-Green-Leather-Crossover-Ribbon-Ladies-Sandals-Made-in-Italy-sz-8-5",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-13T622b70/5612374_Wdm9li.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -455,181 +629,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48002/item/5509183/Pair-of-Ren-Wil-Framed-Classical-Female-Portraits-Made-in-Canada",
     "images": [
       "https://image.ctbids.com/seller/2026-08-12T30cbc3/5509183_V5d86u.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48543-5678305": {
-    "item_id": "ctbids-48543-5678305",
-    "listing_url": "https://ctbids.com/estate-sale/48543/item/5678305/Handmade-Crochet-Knit-Needlepoint-Christmas-Ornament",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5678305_XuVFuh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48908-5694420": {
-    "item_id": "ctbids-48908-5694420",
-    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694420/Red-Foley-You-Little-So-and-So-Plantation-Boogie-Decca-9-29517-45-RPM",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5680417_eDICea.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48908-5694238": {
-    "item_id": "ctbids-48908-5694238",
-    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694238/The-Royal-Guardsmen-Sweetmeats-Slide-The-Return-of-the-Red-Baron-Laurie-45-RPM-LR-3379",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5680370_Nv8JA6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48908-5694271": {
-    "item_id": "ctbids-48908-5694271",
-    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694271/Mind-of-Mencia-Uncensored-Season-2-DVD-Comedy-Central-Carlos-Mencia-Box-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5602423_9qSTH4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48908-5694328": {
-    "item_id": "ctbids-48908-5694328",
-    "listing_url": "https://ctbids.com/estate-sale/48908/item/5694328/Al-Goodman-and-His-Orchestra-South-Pacific-Hits-Part-1-Concluded-RCA-Victor-45-RPM-52-0022",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5674356_A1hWB2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5686125": {
-    "item_id": "ctbids-48234-5686125",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5686125/Elegant-Silvestri-Deep-Red-Wrap-Bags-And-NIB-Rolled-Red-Napkin-And-Ring-Holder-Sets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5686125_GZY3Z4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48234-5625315": {
-    "item_id": "ctbids-48234-5625315",
-    "listing_url": "https://ctbids.com/estate-sale/48234/item/5625315/Vtg-Italian-Shoemakers-Lime-Green-Leather-Crossover-Ribbon-Ladies-Sandals-Made-in-Italy-sz-8-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-13T622b70/5612374_Wdm9li.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -905,31 +904,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48693/item/5642845/Hand-Blown-Iridescent-Marigold-Glass-Ornament",
     "images": [
       "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642845_ULwuJj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47394-5646170": {
-    "item_id": "ctbids-47394-5646170",
-    "listing_url": "https://ctbids.com/estate-sale/47394/item/5646170/Attn-DISNEY-PIXAR-CARS-3-FANS",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5646170_FTNwdJ.webp"
     ],
     "description": "",
     "score_reasons": [
