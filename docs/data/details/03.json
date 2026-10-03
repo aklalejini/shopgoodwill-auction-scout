@@ -93,7 +93,6 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -101,16 +100,53 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 15,
-        "relative_score": 0.441,
+        "score": 13,
+        "relative_score": 0.382,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "279324617": {
+    "item_id": "279324617",
+    "listing_url": "https://shopgoodwill.com/item/279324617",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/fd478ecc-3772-4396-b1e9-a4567cd8915eonro_08311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/1e001f36-44e5-4b75-95e9-a5cec9ce5166onro_08312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/61e6b02b-ab60-48c2-85d2-e4036796379eonro_08313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/ff888006-b126-4a40-9fe6-f93f82d777feonro_08314.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/8fab0b85-c24b-45c5-8ef5-c0c39cd4ad6bonro_08315.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Items/2026-08-31/02b7c189-18b8-4880-ab15-d961e04a0d5fonro_08316.jpg"
+    ],
+    "description": "A vintage Missouri Meerschaum corn cob pipe with a 5.5-inch length, featuring a curved amber stem and a textured corn cob bowl. Made in the USA.",
+    "score_reasons": [
+      "Lower-priority term 'corn cob' in title (-9)",
+      "Target keyword 'meerschaum' in title (+10)",
+      "Collector evidence 'amber stem' in description (+16)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 18,
+        "relative_score": 0.514,
+        "score_reasons": [
+          "Lower-priority term 'corn cob' in title (-9)",
+          "Target keyword 'meerschaum' in title (+10)",
+          "Collector evidence 'amber stem' in description (+16)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "meerschaum"
+        ]
       }
     ]
   },
@@ -181,35 +217,6 @@
       }
     ]
   },
-  "ctbids-48785-5681199": {
-    "item_id": "ctbids-48785-5681199",
-    "listing_url": "https://ctbids.com/estate-sale/48785/item/5681199/1986-Topps-Baseball-A-L-All-Star-7-Card-Lot-George-Brett-Fisk-Guidry-Saberhagen",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5681199_bMkaCW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48856-5686137": {
     "item_id": "ctbids-48856-5686137",
     "listing_url": "https://ctbids.com/estate-sale/48856/item/5686137/3-Vintage-Colorful-Abstract-Collectible-Miniature-Resin-Stiletto-Heels",
@@ -231,6 +238,35 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48785-5681199": {
+    "item_id": "ctbids-48785-5681199",
+    "listing_url": "https://ctbids.com/estate-sale/48785/item/5681199/1986-Topps-Baseball-A-L-All-Star-7-Card-Lot-George-Brett-Fisk-Guidry-Saberhagen",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5681199_bMkaCW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -401,87 +437,6 @@
       }
     ]
   },
-  "ctbids-48320-5672135": {
-    "item_id": "ctbids-48320-5672135",
-    "listing_url": "https://ctbids.com/estate-sale/48320/item/5672135/Hard-Helmets-and-vintage-Metal-Bee-smoker",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5672135_0HXPK2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47875-5665799": {
-    "item_id": "ctbids-47875-5665799",
-    "listing_url": "https://ctbids.com/estate-sale/47875/item/5665799/Vintage-1996-Roman-Inc-Kneeling-Santa-W-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5665799_Rezbgr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47875-5665912": {
-    "item_id": "ctbids-47875-5665912",
-    "listing_url": "https://ctbids.com/estate-sale/47875/item/5665912/Pair-Of-Vintage-Polished-Brass-Candlestick-Holders-1976-Danbury-Bicentennial-Benjamin-Franklin-Bowl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5665912_qzy143.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48536-5681128": {
     "item_id": "ctbids-48536-5681128",
     "listing_url": "https://ctbids.com/estate-sale/48536/item/5681128/Milk-Glass-Lamp-and-Decor",
@@ -571,7 +526,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -582,7 +537,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -610,6 +565,87 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48320-5672135": {
+    "item_id": "ctbids-48320-5672135",
+    "listing_url": "https://ctbids.com/estate-sale/48320/item/5672135/Hard-Helmets-and-vintage-Metal-Bee-smoker",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5672135_0HXPK2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47875-5665799": {
+    "item_id": "ctbids-47875-5665799",
+    "listing_url": "https://ctbids.com/estate-sale/47875/item/5665799/Vintage-1996-Roman-Inc-Kneeling-Santa-W-Book",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5665799_Rezbgr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47875-5665912": {
+    "item_id": "ctbids-47875-5665912",
+    "listing_url": "https://ctbids.com/estate-sale/47875/item/5665912/Pair-Of-Vintage-Polished-Brass-Candlestick-Holders-1976-Danbury-Bicentennial-Benjamin-Franklin-Bowl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5665912_qzy143.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

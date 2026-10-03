@@ -210,7 +210,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -222,7 +222,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -527,6 +527,33 @@
       }
     ]
   },
+  "ctbids-48785-5677876": {
+    "item_id": "ctbids-48785-5677876",
+    "listing_url": "https://ctbids.com/estate-sale/48785/item/5677876/New-Era-950-Shazam-DC-Comics-Superhero-Red-Flat-Brim-Snapback-Baseball-Hat-Adjustable",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5677876_eeIYob.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48693-5577511": {
     "item_id": "ctbids-48693-5577511",
     "listing_url": "https://ctbids.com/estate-sale/48693/item/5577511/Super-Mario-Land-Vintage-Game-Boy-Video-Game-works",
@@ -700,33 +727,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48785-5677876": {
-    "item_id": "ctbids-48785-5677876",
-    "listing_url": "https://ctbids.com/estate-sale/48785/item/5677876/New-Era-950-Shazam-DC-Comics-Superhero-Red-Flat-Brim-Snapback-Baseball-Hat-Adjustable",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5677876_eeIYob.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
