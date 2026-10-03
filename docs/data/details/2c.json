@@ -127,70 +127,6 @@
       }
     ]
   },
-  "ctbids-48536-5686545": {
-    "item_id": "ctbids-48536-5686545",
-    "listing_url": "https://ctbids.com/estate-sale/48536/item/5686545/Vintage-Carhartt-Insulated-Coveralls-Size-40S-Yellow-Raincoat-Workwear",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-30T072869/5686545_sl3Zn4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279304691": {
-    "item_id": "279304691",
-    "listing_url": "https://shopgoodwill.com/item/279304691",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This collection includes a variety of rocks, minerals, and tumbled gemstones weighing 2.60lbs. The assortment features polished stones, raw mineral specimens, and fossil pieces in colors such as brown, red, yellow, white, gray, black, green, purple, and blue. Included are possible quartz, agate, jasper, amethyst, petrified wood, and a fossilized spiral shell. The stones are in mixed condition, with some tumbled and polished while others remain in rough, natural form.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in description (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in description (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48935-5697560": {
     "item_id": "ctbids-48935-5697560",
     "listing_url": "https://ctbids.com/estate-sale/48935/item/5697560/Ferlin-Husky-1961-Capitol-4594-Willow-Tree-Take-a-Look-45-RPM-Country-Vinyl",
@@ -267,6 +203,70 @@
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48536-5686545": {
+    "item_id": "ctbids-48536-5686545",
+    "listing_url": "https://ctbids.com/estate-sale/48536/item/5686545/Vintage-Carhartt-Insulated-Coveralls-Size-40S-Yellow-Raincoat-Workwear",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-30T072869/5686545_sl3Zn4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279304691": {
+    "item_id": "279304691",
+    "listing_url": "https://shopgoodwill.com/item/279304691",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This collection includes a variety of rocks, minerals, and tumbled gemstones weighing 2.60lbs. The assortment features polished stones, raw mineral specimens, and fossil pieces in colors such as brown, red, yellow, white, gray, black, green, purple, and blue. Included are possible quartz, agate, jasper, amethyst, petrified wood, and a fossilized spiral shell. The stones are in mixed condition, with some tumbled and polished while others remain in rough, natural form.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in description (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Only 1 listing photo (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 10,
+        "relative_score": 0.333,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Only 1 listing photo (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -353,11 +353,63 @@
       }
     ]
   },
-  "ctbids-48856-5692950": {
-    "item_id": "ctbids-48856-5692950",
-    "listing_url": "https://ctbids.com/estate-sale/48856/item/5692950/NIB-Forever-Elizabeth-by-Elizabeth-Taylor-3-3-oz-100ml-Eau-De-Parfum-Spray",
+  "ctbids-48423-5661523": {
+    "item_id": "ctbids-48423-5661523",
+    "listing_url": "https://ctbids.com/estate-sale/48423/item/5661523/Vintage-Hobe-Cameo-Bracelet",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5692950_Bt2ueL.webp"
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5661523_QVr6fg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48785-5680662": {
+    "item_id": "ctbids-48785-5680662",
+    "listing_url": "https://ctbids.com/estate-sale/48785/item/5680662/Danbury-Mint-U-S-Army-Commemorative-This-We-ll-Defend-Military-Watch-W-Glow-Stick-Triple-Sub-Dial",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5680662_zldxnP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47077-5664597": {
+    "item_id": "ctbids-47077-5664597",
+    "listing_url": "https://ctbids.com/estate-sale/47077/item/5664597/5-Classic-Books-New-Unicorn-Friendship-Jewelry-Kit-30th-Anniv-Edition-Of-The-Princess-Bride",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5664597_mZ6B6C.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -380,15 +432,15 @@
       }
     ]
   },
-  "ctbids-48423-5661523": {
-    "item_id": "ctbids-48423-5661523",
-    "listing_url": "https://ctbids.com/estate-sale/48423/item/5661523/Vintage-Hobe-Cameo-Bracelet",
+  "ctbids-48360-5640614": {
+    "item_id": "ctbids-48360-5640614",
+    "listing_url": "https://ctbids.com/estate-sale/48360/item/5640614/Crafter-s-Dream-Lot-Sewing-Notions-Thread-Fiskars-Scissors-Ribbon-Spirograph-More",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5661523_QVr6fg.webp"
+      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5640614_s4v67B.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -396,10 +448,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -549,92 +601,11 @@
       }
     ]
   },
-  "ctbids-47077-5664597": {
-    "item_id": "ctbids-47077-5664597",
-    "listing_url": "https://ctbids.com/estate-sale/47077/item/5664597/5-Classic-Books-New-Unicorn-Friendship-Jewelry-Kit-30th-Anniv-Edition-Of-The-Princess-Bride",
+  "ctbids-48536-5684150": {
+    "item_id": "ctbids-48536-5684150",
+    "listing_url": "https://ctbids.com/estate-sale/48536/item/5684150/Porcelain-Fishbowl-Planters-Set-of-2-Hand-Painted",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5664597_mZ6B6C.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48360-5640614": {
-    "item_id": "ctbids-48360-5640614",
-    "listing_url": "https://ctbids.com/estate-sale/48360/item/5640614/Crafter-s-Dream-Lot-Sewing-Notions-Thread-Fiskars-Scissors-Ribbon-Spirograph-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5640614_s4v67B.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48676-5659825": {
-    "item_id": "ctbids-48676-5659825",
-    "listing_url": "https://ctbids.com/estate-sale/48676/item/5659825/Lot-of-Lawn-Sprinklers-Oscillating-Rotary-Impulse",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5659825_rK657l.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48785-5680662": {
-    "item_id": "ctbids-48785-5680662",
-    "listing_url": "https://ctbids.com/estate-sale/48785/item/5680662/Danbury-Mint-U-S-Army-Commemorative-This-We-ll-Defend-Military-Watch-W-Glow-Stick-Triple-Sub-Dial",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5680662_zldxnP.webp"
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5684150_IUJXkv.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -655,11 +626,11 @@
       }
     ]
   },
-  "ctbids-48536-5684150": {
-    "item_id": "ctbids-48536-5684150",
-    "listing_url": "https://ctbids.com/estate-sale/48536/item/5684150/Porcelain-Fishbowl-Planters-Set-of-2-Hand-Painted",
+  "ctbids-48856-5692950": {
+    "item_id": "ctbids-48856-5692950",
+    "listing_url": "https://ctbids.com/estate-sale/48856/item/5692950/NIB-Forever-Elizabeth-by-Elizabeth-Taylor-3-3-oz-100ml-Eau-De-Parfum-Spray",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5684150_IUJXkv.webp"
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5692950_Bt2ueL.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -748,6 +719,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48676-5659825": {
+    "item_id": "ctbids-48676-5659825",
+    "listing_url": "https://ctbids.com/estate-sale/48676/item/5659825/Lot-of-Lawn-Sprinklers-Oscillating-Rotary-Impulse",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5659825_rK657l.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
