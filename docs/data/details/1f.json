@@ -141,7 +141,7 @@
     "score_reasons": [
       "Opportunity term 'sealed' in title (+6)",
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -149,12 +149,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 15,
-        "relative_score": 0.441,
+        "score": 13,
+        "relative_score": 0.382,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -521,42 +521,6 @@
       }
     ]
   },
-  "278847578": {
-    "item_id": "278847578",
-    "listing_url": "https://shopgoodwill.com/item/278847578",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/d04ad9e1-004c-43b2-9ef2-68334ee5cc0bey02_09291.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/6c8bcc3f-0651-438d-906a-af74ef96d745ey02_09292.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/a5dff88d-65f3-4e01-a484-80a48ebbdfa0ey02_09293.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/1a979911-412c-4222-a6c6-1d48815695faey02_09294.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/ab1e0225-0ecc-4f16-8ed6-48944f347902ey02_09295.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/5d3b25a7-7c8a-4200-9fb3-850b9e48bc03ey02_09296.jpg"
-    ],
-    "description": "You are purchasing a \"Lot of Mixed Rock, Crystal & Mineral Display Specimens\" in \"Used\" condition.\nCondition Notes:\nGroup of assorted rock and mineral specimens with a mix of rough and polished surfaces. Some pieces show natural fractures, pits, and uneven edges typical of raw stones. Polished pieces have a smooth glossy surface with minor surface scuffs. Cut or slab pieces have irregular edges. See pictures for reference. Sold as-is.\nAspects:",
-    "score_reasons": [
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48676-5659814": {
     "item_id": "ctbids-48676-5659814",
     "listing_url": "https://ctbids.com/estate-sale/48676/item/5659814/Havahart-Live-Animal-Trap-w-Red-Rope",
@@ -660,6 +624,42 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278847578": {
+    "item_id": "278847578",
+    "listing_url": "https://shopgoodwill.com/item/278847578",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/d04ad9e1-004c-43b2-9ef2-68334ee5cc0bey02_09291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/6c8bcc3f-0651-438d-906a-af74ef96d745ey02_09292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/a5dff88d-65f3-4e01-a484-80a48ebbdfa0ey02_09293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/1a979911-412c-4222-a6c6-1d48815695faey02_09294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/ab1e0225-0ecc-4f16-8ed6-48944f347902ey02_09295.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-09-29/5d3b25a7-7c8a-4200-9fb3-850b9e48bc03ey02_09296.jpg"
+    ],
+    "description": "You are purchasing a \"Lot of Mixed Rock, Crystal & Mineral Display Specimens\" in \"Used\" condition.\nCondition Notes:\nGroup of assorted rock and mineral specimens with a mix of rough and polished surfaces. Some pieces show natural fractures, pits, and uneven edges typical of raw stones. Polished pieces have a smooth glossy surface with minor surface scuffs. Cut or slab pieces have irregular edges. See pictures for reference. Sold as-is.\nAspects:",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
