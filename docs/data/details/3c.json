@@ -1,4 +1,31 @@
 {
+  "ctbids-48884-5698900": {
+    "item_id": "ctbids-48884-5698900",
+    "listing_url": "https://ctbids.com/estate-sale/48884/item/5698900/Beautiful-925-Lavender-Pale-Green-Jade-Bamboo-Segment-Sterling-Silver-Tube-Link-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5690057_wMHg6U.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-46166-5645850": {
     "item_id": "ctbids-46166-5645850",
     "listing_url": "https://ctbids.com/estate-sale/46166/item/5645850/Vintage-Vatican-Library-Collection-Gold-Tone-Religious-Medallion-Rhinestone-Pendant-Necklace",
@@ -351,40 +378,6 @@
       }
     ]
   },
-  "278954086": {
-    "item_id": "278954086",
-    "listing_url": "https://shopgoodwill.com/item/278954086",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/86be4d8b-296f-4ad6-bcc0-f8ed531591c4on42_09301.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/1e776886-4938-4bfc-9f88-dd6078cbce78on42_09302.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/b9c58951-f33c-4d5a-a804-32811b47aee3on42_09303.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/eee5732b-8d42-4565-9301-4038703572a7on42_09304.jpg"
-    ],
-    "description": "Product Overview:\nThis is a mixed lot of polished gemstones and minerals featuring a variety of types, colors, and shapes. The stones include heart shapes, ovals, and rounded forms with hues such as green, blue, purple, brown, red, yellow, and white. Some stones display natural patterns including banding and speckling.\n\nSpecifications:\n- Types: Amethyst, Jasper, Agate, Ocean Jasper, Sodalite, and others\n- Shapes: Heart, Oval, Rounded\n- Colors: Green, Blue, Purple, Brown, Red, Yellow, White\n- Finishing: Polished with a glossy surface\n- Transparency: Includes both opaque and translucent stones\n\nNo brand or manufacturer information is provided.",
-    "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "278817763": {
     "item_id": "278817763",
     "listing_url": "https://shopgoodwill.com/item/278817763",
@@ -427,6 +420,40 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+2)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278954086": {
+    "item_id": "278954086",
+    "listing_url": "https://shopgoodwill.com/item/278954086",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/86be4d8b-296f-4ad6-bcc0-f8ed531591c4on42_09301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/1e776886-4938-4bfc-9f88-dd6078cbce78on42_09302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/b9c58951-f33c-4d5a-a804-32811b47aee3on42_09303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-09-30/eee5732b-8d42-4565-9301-4038703572a7on42_09304.jpg"
+    ],
+    "description": "Product Overview:\nThis is a mixed lot of polished gemstones and minerals featuring a variety of types, colors, and shapes. The stones include heart shapes, ovals, and rounded forms with hues such as green, blue, purple, brown, red, yellow, and white. Some stones display natural patterns including banding and speckling.\n\nSpecifications:\n- Types: Amethyst, Jasper, Agate, Ocean Jasper, Sodalite, and others\n- Shapes: Heart, Oval, Rounded\n- Colors: Green, Blue, Purple, Brown, Red, Yellow, White\n- Finishing: Polished with a glossy surface\n- Transparency: Includes both opaque and translucent stones\n\nNo brand or manufacturer information is provided.",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
