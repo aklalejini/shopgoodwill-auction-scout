@@ -15,6 +15,7 @@
       "Opportunity term 'lot' in description (+5)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,12 +23,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 28,
-        "relative_score": 0.933,
+        "score": 33,
+        "relative_score": 1.1,
         "score_reasons": [
           "Opportunity term 'lot' in description (+5)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -463,33 +465,6 @@
       }
     ]
   },
-  "ctbids-45053-5698244": {
-    "item_id": "ctbids-45053-5698244",
-    "listing_url": "https://ctbids.com/estate-sale/45053/item/5698244/Original-Nancy-Shand-Oil-on-Board-Peppers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-03T35dc9e/5556361_H3UQKy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46103-5672354": {
     "item_id": "ctbids-46103-5672354",
     "listing_url": "https://ctbids.com/estate-sale/46103/item/5672354/Pair-Of-Tribal-Mask-Wall-Plaques",
@@ -512,83 +487,6 @@
           "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279510800": {
-    "item_id": "279510800",
-    "listing_url": "https://shopgoodwill.com/item/279510800",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/07576d0a-83ca-4cd9-a4c8-9b4bc4d86b90amps_09181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/269da99e-9fea-4255-8c82-cc83653f55c3amps_09182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/41913051-cb8f-461e-9e59-daf5ae651677amps_09183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/a6992ef3-c1e8-4856-9e93-d0c81c43b549amps_09184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/b09bfef8-3bc8-43c1-9b04-1ede6351c902amps_09185.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/14dba105-fea6-469c-b700-f49892d6cd30amps_09186.jpg"
-    ],
-    "description": "Title\n: Assorted Minerals Crystals Fossils Collection Bag Case Home Decor Display\nCategory\n: Collectibles & Art\nCondition\n: Used\nType\n: Minerals & Fossils Assortment\nMaterial\n: Stone\nColor\n: Multi-color\nStyle\n: Natural\nTheme\n: Nature\nRoom\n: Any Room\nUnit type\n: Unit\nBrand\n: Unbranded\nDescription\n: Elevate your home decor or add to your mineral collection with this assorted lot of minerals, crystals, and fossils. This collection includes a variety of natural stones, some in small individual bags, rough specimens, tumbled crystals displayed in a plastic organizer, and additional stones housed in a zippered plastic bag. Some larger and smaller pieces are visible, alongside a small green cloth, making the lot ideal for collectors, hobbyists, or educational use.\nEach specimen showcases unique colors, textures, and natural forms, adding a touch of natural beauty wherever displayed. The collection's variety enhances its appeal for beginner collectors or anyone seeking to explore the diversity of minerals and crystals.\nItems display signs of previous handling, with some wear and visible imperfections. Please review all photos for a detailed view of the included specimens and their condition. Overall, this lot offers an accessible way to expand your mineral or fossil assortment with genuine visual interest and practical educational value.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Lower-priority term 'decor' in title (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Lower-priority term 'decor' in title (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279308982": {
-    "item_id": "279308982",
-    "listing_url": "https://shopgoodwill.com/item/279308982",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/9b967b7d-9528-41c7-b18b-6d32b4f86940auer_10031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/f7b81edd-1fb4-4adc-bb17-1035e020fba1auer_10032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/c59f9b13-ebe2-4534-a8ab-fe6d9f008b1fauer_10033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/91a6a341-7b5c-440c-bcd4-ddf7ddb086c9auer_10034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/8fcec2b0-89e2-45c9-bf88-e48de333b7a1auer_10035.jpg"
-    ],
-    "description": "Product Overview:\nThis lot includes natural rough mineral fossil specimens and polished stone slabs with varied coloration and patterns. The rough stones exhibit reddish-brown tones, while the polished slabs display natural veining and patterning.\n\nSpecifications:\n- Material: Natural minerals and stones\n- Color: Reddish-brown rough fossil specimens, polished slabs with varied patterns\n- Weight: Approximately 15 pounds\n- Condition: Natural, unaltered\n- Finish: Rough and polished surfaces included",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "1 bid near close (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "15 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "1 bid near close (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "15 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -869,6 +767,108 @@
       }
     ]
   },
+  "ctbids-45053-5698244": {
+    "item_id": "ctbids-45053-5698244",
+    "listing_url": "https://ctbids.com/estate-sale/45053/item/5698244/Original-Nancy-Shand-Oil-on-Board-Peppers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-03T35dc9e/5556361_H3UQKy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279510800": {
+    "item_id": "279510800",
+    "listing_url": "https://shopgoodwill.com/item/279510800",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/07576d0a-83ca-4cd9-a4c8-9b4bc4d86b90amps_09181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/269da99e-9fea-4255-8c82-cc83653f55c3amps_09182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/41913051-cb8f-461e-9e59-daf5ae651677amps_09183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/a6992ef3-c1e8-4856-9e93-d0c81c43b549amps_09184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/b09bfef8-3bc8-43c1-9b04-1ede6351c902amps_09185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-18/14dba105-fea6-469c-b700-f49892d6cd30amps_09186.jpg"
+    ],
+    "description": "Title\n: Assorted Minerals Crystals Fossils Collection Bag Case Home Decor Display\nCategory\n: Collectibles & Art\nCondition\n: Used\nType\n: Minerals & Fossils Assortment\nMaterial\n: Stone\nColor\n: Multi-color\nStyle\n: Natural\nTheme\n: Nature\nRoom\n: Any Room\nUnit type\n: Unit\nBrand\n: Unbranded\nDescription\n: Elevate your home decor or add to your mineral collection with this assorted lot of minerals, crystals, and fossils. This collection includes a variety of natural stones, some in small individual bags, rough specimens, tumbled crystals displayed in a plastic organizer, and additional stones housed in a zippered plastic bag. Some larger and smaller pieces are visible, alongside a small green cloth, making the lot ideal for collectors, hobbyists, or educational use.\nEach specimen showcases unique colors, textures, and natural forms, adding a touch of natural beauty wherever displayed. The collection's variety enhances its appeal for beginner collectors or anyone seeking to explore the diversity of minerals and crystals.\nItems display signs of previous handling, with some wear and visible imperfections. Please review all photos for a detailed view of the included specimens and their condition. Overall, this lot offers an accessible way to expand your mineral or fossil assortment with genuine visual interest and practical educational value.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'decor' in title (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'decor' in title (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279308982": {
+    "item_id": "279308982",
+    "listing_url": "https://shopgoodwill.com/item/279308982",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/9b967b7d-9528-41c7-b18b-6d32b4f86940auer_10031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/f7b81edd-1fb4-4adc-bb17-1035e020fba1auer_10032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/c59f9b13-ebe2-4534-a8ab-fe6d9f008b1fauer_10033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/91a6a341-7b5c-440c-bcd4-ddf7ddb086c9auer_10034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-03/8fcec2b0-89e2-45c9-bf88-e48de333b7a1auer_10035.jpg"
+    ],
+    "description": "Product Overview:\nThis lot includes natural rough mineral fossil specimens and polished stone slabs with varied coloration and patterns. The rough stones exhibit reddish-brown tones, while the polished slabs display natural veining and patterning.\n\nSpecifications:\n- Material: Natural minerals and stones\n- Color: Reddish-brown rough fossil specimens, polished slabs with varied patterns\n- Weight: Approximately 15 pounds\n- Condition: Natural, unaltered\n- Finish: Rough and polished surfaces included",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "15 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "15 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "279218733": {
     "item_id": "279218733",
     "listing_url": "https://shopgoodwill.com/item/279218733",
@@ -888,9 +888,10 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'lot' in description (+2)",
       "Lower-priority term 'dyed' in description (-18)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+10)"
+      "Score boundary adjustment (+6)"
     ],
     "hunt_scores": [
       {
@@ -902,9 +903,10 @@
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'lot' in description (+2)",
           "Lower-priority term 'dyed' in description (-18)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+10)"
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }

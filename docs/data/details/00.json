@@ -18,6 +18,7 @@
       "Opportunity term 'rocks' in title (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Proven source for visually strong specimen lots (+26)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "14 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -26,14 +27,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Proven source for visually strong specimen lots (+26)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "14 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -520,60 +522,6 @@
       }
     ]
   },
-  "ctbids-48603-5667199": {
-    "item_id": "ctbids-48603-5667199",
-    "listing_url": "https://ctbids.com/estate-sale/48603/item/5667199/Various-Women-s-Shirts-Skirt-XL-2X",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5667199_GYhS12.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48603-5661744": {
-    "item_id": "ctbids-48603-5661744",
-    "listing_url": "https://ctbids.com/estate-sale/48603/item/5661744/Signed-Haunted-Houses-Of-Pasadena-Michael-J-Kouri",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5661744_hcN7DE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48814-5681524": {
     "item_id": "ctbids-48814-5681524",
     "listing_url": "https://ctbids.com/estate-sale/48814/item/5681524/Folk-Art-Wood-Carvings-Basket",
@@ -651,11 +599,61 @@
       }
     ]
   },
+  "ctbids-48603-5667199": {
+    "item_id": "ctbids-48603-5667199",
+    "listing_url": "https://ctbids.com/estate-sale/48603/item/5667199/Various-Women-s-Shirts-Skirt-XL-2X",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5667199_GYhS12.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48814-5681455": {
     "item_id": "ctbids-48814-5681455",
     "listing_url": "https://ctbids.com/estate-sale/48814/item/5681455/Royal-Commem-Decor-Collectibles",
     "images": [
       "https://image.ctbids.com/seller/2026-09-29T9a7116/5681455_giQiAG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48603-5661744": {
+    "item_id": "ctbids-48603-5661744",
+    "listing_url": "https://ctbids.com/estate-sale/48603/item/5661744/Signed-Haunted-Houses-Of-Pasadena-Michael-J-Kouri",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5661744_hcN7DE.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -921,6 +919,36 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279747460": {
+    "item_id": "279747460",
+    "listing_url": "https://shopgoodwill.com/item/279747460",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-07/2a83db00-b92a-4368-89e6-b3d0312316ffuez1_10071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-07/72944ead-a032-406a-8242-63050049de04uez1_10072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-07/caa7cc97-6f72-4bec-9283-ec19a53732e9uez1_10073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-07/c463ad26-4656-40b2-899f-266ddc8e2d93uez1_10074.jpg"
+    ],
+    "description": "Title\n: Green River Stone Quarry Priscacara liops Fossil Formation w/ COA\nCondition\n: Used\nType\n: Fossil mural\nSubject\n: Fish fossil\nMaterial\n: Stone, glass, wood\nStyle\n: Vintage\nTheme\n: Fossil mural\nOriginal/licensed reproduction\n: Original\nFeatures\n: Framed, certificate included\nRegion of origin\n: Wyoming, USA\nProduction technique\n: Fossil in stone, framed\nCountry of origin\n: United States\nFraming\n: Framed\nPeriod\n: Eocene\nCoa issued by\n: Green River Stone Co\nCertificate of authenticity (coa)\n: Yes\nType of Art:\nFossil mural\nDescription:\nGreen River Stone Quarry Priscacara liops Fossil Formation w/ COA, Product Category: Art Fossil mural of Fish fossil Vintage Framed\nArtwork Condition:\nUsed\nSize (in inches):\n16.2 x 13 x 1\nFrame Included:\nYes\nCertificate of Authenticity?:\nYes\nAdditional Details:",
+    "score_reasons": [
+      "Opportunity term 'vintage' in description (+5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'vintage' in description (+5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

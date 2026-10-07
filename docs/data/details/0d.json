@@ -88,7 +88,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -100,7 +100,7 @@
         "relative_score": 0.618,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -355,33 +355,6 @@
       }
     ]
   },
-  "ctbids-48495-5637223": {
-    "item_id": "ctbids-48495-5637223",
-    "listing_url": "https://ctbids.com/estate-sale/48495/item/5637223/1994-Warner-Bros-Looney-Tunes-Christmas-glassware-piece-featuring-Bugs-Bunny-in-a-Santa-hat-1-h",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5637223_Mk2LX8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48495-5671235": {
     "item_id": "ctbids-48495-5671235",
     "listing_url": "https://ctbids.com/estate-sale/48495/item/5671235/Adidas-Shun-Gaurds-Shin-Guard-Mesh-Case-Set",
@@ -490,6 +463,33 @@
       }
     ]
   },
+  "ctbids-48495-5637223": {
+    "item_id": "ctbids-48495-5637223",
+    "listing_url": "https://ctbids.com/estate-sale/48495/item/5637223/1994-Warner-Bros-Looney-Tunes-Christmas-glassware-piece-featuring-Bugs-Bunny-in-a-Santa-hat-1-h",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5637223_Mk2LX8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48495-5641659": {
     "item_id": "ctbids-48495-5641659",
     "listing_url": "https://ctbids.com/estate-sale/48495/item/5641659/Nike-Sweatpants-Cargo-Style-Men-s-Boys-Small",
@@ -579,7 +579,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -590,44 +590,9 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279014261": {
-    "item_id": "279014261",
-    "listing_url": "https://shopgoodwill.com/item/279014261",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/77cc35f5-99f3-4241-a928-aebc9bd5c23decom_09231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/7c5d7b5b-e8e1-4339-a00b-99753a35dbfaecom_09232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/522376ac-1ebf-4d89-a488-1c70289205f7ecom_09233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/06707ad2-d050-4ab2-b7c2-91d0e17ca8b5ecom_09234.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/bde9bc74-c72a-4d4c-96fe-f55fd6420127ecom_09235.jpg"
-    ],
-    "description": "Brand\n: Unbranded\nItem\n: Natural Selenite Crystal Tower\nPrimary Material\n: Satin Spar Gypsum\nCondition\n: Used - Scratches\nIMPORTANT! HANDLING TIMES ON ALL ORDERS MAY TAKE UP TO 5 BUSSINESS DAYS TO SHIP.",
-    "score_reasons": [
-      "Lower-priority term 'tower' in title (-5)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+2)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'tower' in title (-5)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+2)"
         ],
         "matched_keywords": []
       }
@@ -933,6 +898,41 @@
       }
     ]
   },
+  "279014261": {
+    "item_id": "279014261",
+    "listing_url": "https://shopgoodwill.com/item/279014261",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/77cc35f5-99f3-4241-a928-aebc9bd5c23decom_09231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/7c5d7b5b-e8e1-4339-a00b-99753a35dbfaecom_09232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/522376ac-1ebf-4d89-a488-1c70289205f7ecom_09233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/06707ad2-d050-4ab2-b7c2-91d0e17ca8b5ecom_09234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/62/Items/2026-09-23/bde9bc74-c72a-4d4c-96fe-f55fd6420127ecom_09235.jpg"
+    ],
+    "description": "Brand\n: Unbranded\nItem\n: Natural Selenite Crystal Tower\nPrimary Material\n: Satin Spar Gypsum\nCondition\n: Used - Scratches\nIMPORTANT! HANDLING TIMES ON ALL ORDERS MAY TAKE UP TO 5 BUSSINESS DAYS TO SHIP.",
+    "score_reasons": [
+      "Lower-priority term 'tower' in title (-5)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+2)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'tower' in title (-5)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+2)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "279065736": {
     "item_id": "279065736",
     "listing_url": "https://shopgoodwill.com/item/279065736",
@@ -996,9 +996,10 @@
     "description": "Cross Ensemble Classis Black Ballpoint Pen and Mechanical Pencil Set\nThis listing includes a Cross Ensemble Classis Black pen and pencil set in its original green Cross box with gold trim. The set contains one black ballpoint pen and one black mechanical pencil, both featuring gold-tone accents. Each clip has a red Cross sticker, indicating the items are new or unused. The slim design of both instruments is classic and elegant. The box and writing instruments show minimal signs of wear and are in excellent to near-mint condition. The model is identified by the barcode and label as Ensemble Classis Black.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
     "score_reasons": [
       "Lower-priority term 'ballpoint' in title (-4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+3)"
+      "Score boundary adjustment (+1)"
     ],
     "hunt_scores": [
       {
@@ -1008,9 +1009,10 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Lower-priority term 'ballpoint' in title (-4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+3)"
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }

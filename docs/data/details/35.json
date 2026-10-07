@@ -170,7 +170,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -178,13 +177,54 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279215898": {
+    "item_id": "279215898",
+    "listing_url": "https://shopgoodwill.com/item/279215898",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/824e1fb3-b098-47fc-9d76-96e49f78f121cher_10021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/8743a385-4548-44fa-9a15-e2446890ff9ccher_10022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/c536066f-fa39-400b-9594-9d767034c524cher_10023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/cbd848e5-06d1-4c2d-856f-1366410f45e6cher_10024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/4a26d47d-1236-4fad-bc49-b9ca5405959dcher_10025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/d05302fc-c1b1-47b5-a917-ace72af2fceacher_10026.jpg"
+    ],
+    "description": "This lot includes a variety of natural crystal, mineral, and geode specimens. Features include a fishtail selenite crystal from Chihuahua, Mexico with informational cards, a geode, blue titanium-coated quartz cluster, pyrite specimens, smoky quartz point, and assorted small mineral pieces. Items are stored in clear and white storage boxes and a beige drawstring pouch. Condition is used with natural variations in size, color, and texture. See photos for condition details.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'coated' in description (-10)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'coated' in description (-10)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -325,6 +365,87 @@
       }
     ]
   },
+  "ctbids-48814-5681413": {
+    "item_id": "ctbids-48814-5681413",
+    "listing_url": "https://ctbids.com/estate-sale/48814/item/5681413/Whimsical-Ceramic-Decor-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681413_xcQ6Z3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49058-5711741": {
+    "item_id": "ctbids-49058-5711741",
+    "listing_url": "https://ctbids.com/estate-sale/49058/item/5711741/Danny-Williams-The-Comedy-Is-Ended-White-on-White-United-Artists-UA-685-45-RPM",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5685517_z8J6CA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49058-5711789": {
+    "item_id": "ctbids-49058-5711789",
+    "listing_url": "https://ctbids.com/estate-sale/49058/item/5711789/2022-Celebration-Wine-Glass-Gold-Star-Stemware-Goblet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5248720_LBjTZN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "279263125": {
     "item_id": "279263125",
     "listing_url": "https://shopgoodwill.com/item/279263125",
@@ -418,57 +539,15 @@
       }
     ]
   },
-  "279215898": {
-    "item_id": "279215898",
-    "listing_url": "https://shopgoodwill.com/item/279215898",
+  "ctbids-48635-5657055": {
+    "item_id": "ctbids-48635-5657055",
+    "listing_url": "https://ctbids.com/estate-sale/48635/item/5657055/Soundtracks-Live-Songs-And-More",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/824e1fb3-b098-47fc-9d76-96e49f78f121cher_10021.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/8743a385-4548-44fa-9a15-e2446890ff9ccher_10022.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/c536066f-fa39-400b-9594-9d767034c524cher_10023.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/cbd848e5-06d1-4c2d-856f-1366410f45e6cher_10024.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/4a26d47d-1236-4fad-bc49-b9ca5405959dcher_10025.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-02/d05302fc-c1b1-47b5-a917-ace72af2fceacher_10026.jpg"
-    ],
-    "description": "This lot includes a variety of natural crystal, mineral, and geode specimens. Features include a fishtail selenite crystal from Chihuahua, Mexico with informational cards, a geode, blue titanium-coated quartz cluster, pyrite specimens, smoky quartz point, and assorted small mineral pieces. Items are stored in clear and white storage boxes and a beige drawstring pouch. Condition is used with natural variations in size, color, and texture. See photos for condition details.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Lower-priority term 'coated' in description (-10)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Lower-priority term 'coated' in description (-10)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48814-5681413": {
-    "item_id": "ctbids-48814-5681413",
-    "listing_url": "https://ctbids.com/estate-sale/48814/item/5681413/Whimsical-Ceramic-Decor-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681413_xcQ6Z3.webp"
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5657055_xf7fty.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -476,10 +555,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -495,7 +574,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -503,10 +582,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -514,15 +593,15 @@
       }
     ]
   },
-  "ctbids-49058-5711741": {
-    "item_id": "ctbids-49058-5711741",
-    "listing_url": "https://ctbids.com/estate-sale/49058/item/5711741/Danny-Williams-The-Comedy-Is-Ended-White-on-White-United-Artists-UA-685-45-RPM",
+  "ctbids-48800-5687620": {
+    "item_id": "ctbids-48800-5687620",
+    "listing_url": "https://ctbids.com/estate-sale/48800/item/5687620/Nautical-Lighthouse-Sailboat-Seashell-Salt-Pepper-Shakers",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5685517_z8J6CA.webp"
+      "https://image.ctbids.com/seller/2026-09-30T072869/5687620_TZgTqO.webp"
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -530,37 +609,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49058-5711789": {
-    "item_id": "ctbids-49058-5711789",
-    "listing_url": "https://ctbids.com/estate-sale/49058/item/5711789/2022-Celebration-Wine-Glass-Gold-Star-Stemware-Goblet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5248720_LBjTZN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -598,175 +650,6 @@
         "relative_score": 0.2,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48635-5657055": {
-    "item_id": "ctbids-48635-5657055",
-    "listing_url": "https://ctbids.com/estate-sale/48635/item/5657055/Soundtracks-Live-Songs-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5657055_xf7fty.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48635-5692188": {
-    "item_id": "ctbids-48635-5692188",
-    "listing_url": "https://ctbids.com/estate-sale/48635/item/5692188/Framed-Southeast-Asian-Shadow-Puppet-Style-Artwork",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5692188_va4ABC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46103-5652242": {
-    "item_id": "ctbids-46103-5652242",
-    "listing_url": "https://ctbids.com/estate-sale/46103/item/5652242/Converted-Electric-Hurricane-Lamp-With-Pierced-Paper-Shade",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5652242_mJnRTF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48866-5689585": {
-    "item_id": "ctbids-48866-5689585",
-    "listing_url": "https://ctbids.com/estate-sale/48866/item/5689585/Vaughan-Basset-Tall-Dresser-And-Nightstand",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5689585_rszFIk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48800-5687620": {
-    "item_id": "ctbids-48800-5687620",
-    "listing_url": "https://ctbids.com/estate-sale/48800/item/5687620/Nautical-Lighthouse-Sailboat-Seashell-Salt-Pepper-Shakers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-30T072869/5687620_TZgTqO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279617180": {
-    "item_id": "279617180",
-    "listing_url": "https://shopgoodwill.com/item/279617180",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/a71d0ad3-5e6a-4739-91f3-e17622ebceb5sino_10061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/1f81c2e5-59e6-4791-a949-90421bacc768sino_10062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/924f9160-aa23-446c-a6ed-c11ceaada8e5sino_10063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/5715af96-ce65-4ee5-859a-178c899ab9b8sino_10064.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/9dc5e784-9210-441a-945d-5d8c1276ec36sino_10065.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/1a0cebee-fde3-440e-a8d6-c242b65dca55sino_10066.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/81da0a0b-638a-4277-9d2d-7b7cd920ba78sino_10067.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/161ac277-b7ad-4dd7-af5b-3e70ad9b641fsino_10068.jpg"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -949,6 +832,31 @@
       }
     ]
   },
+  "ctbids-48635-5692188": {
+    "item_id": "ctbids-48635-5692188",
+    "listing_url": "https://ctbids.com/estate-sale/48635/item/5692188/Framed-Southeast-Asian-Shadow-Puppet-Style-Artwork",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5692188_va4ABC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-45053-5658721": {
     "item_id": "ctbids-45053-5658721",
     "listing_url": "https://ctbids.com/estate-sale/45053/item/5658721/Original-Nancy-Shand-Monotype-Play-I",
@@ -1004,6 +912,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48411/item/5636744/10k-yellow-gold-pear-cut-teardrop-dangle-earrings",
     "images": [
       "https://image.ctbids.com/seller/2026-09-16T2152c1/5636744_1ovdej.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46103-5652242": {
+    "item_id": "ctbids-46103-5652242",
+    "listing_url": "https://ctbids.com/estate-sale/46103/item/5652242/Converted-Electric-Hurricane-Lamp-With-Pierced-Paper-Shade",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-21T30ce5b/5652242_mJnRTF.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1104,6 +1037,31 @@
     "listing_url": "https://ctbids.com/estate-sale/45053/item/5658802/Original-Nancy-Shand-Pastel-on-Paper-Canyon-de-Chelly-the-Storm",
     "images": [
       "https://image.ctbids.com/seller/2026-09-22Tad643b/5543561_5PVOSv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48866-5689585": {
+    "item_id": "ctbids-48866-5689585",
+    "listing_url": "https://ctbids.com/estate-sale/48866/item/5689585/Vaughan-Basset-Tall-Dresser-And-Nightstand",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5689585_rszFIk.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1294,6 +1252,40 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279617180": {
+    "item_id": "279617180",
+    "listing_url": "https://shopgoodwill.com/item/279617180",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/a71d0ad3-5e6a-4739-91f3-e17622ebceb5sino_10061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/1f81c2e5-59e6-4791-a949-90421bacc768sino_10062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/924f9160-aa23-446c-a6ed-c11ceaada8e5sino_10063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/5715af96-ce65-4ee5-859a-178c899ab9b8sino_10064.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/9dc5e784-9210-441a-945d-5d8c1276ec36sino_10065.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/1a0cebee-fde3-440e-a8d6-c242b65dca55sino_10066.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/81da0a0b-638a-4277-9d2d-7b7cd920ba78sino_10067.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/28/Items/2026-10-06/161ac277-b7ad-4dd7-af5b-3e70ad9b641fsino_10068.jpg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
