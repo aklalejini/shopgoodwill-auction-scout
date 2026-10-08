@@ -12,6 +12,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'lot' in description (+2)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "12.8 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -20,11 +21,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 33,
+        "relative_score": 1.1,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'lot' in description (+2)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "12.8 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -161,6 +163,35 @@
       }
     ]
   },
+  "ctbids-49065-5716518": {
+    "item_id": "ctbids-49065-5716518",
+    "listing_url": "https://ctbids.com/estate-sale/49065/item/5716518/Antique-Nippon-Hand-Painted-Porcelain-Vanity-Tray-and-Pierced-Hatpin-Holder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5716518_aEblEr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48683-5668050": {
     "item_id": "ctbids-48683-5668050",
     "listing_url": "https://ctbids.com/estate-sale/48683/item/5668050/Antique-Bronze-Chinese-Censer-Incense-Burner-With-Foo-Dog",
@@ -183,44 +214,6 @@
           "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279653146": {
-    "item_id": "279653146",
-    "listing_url": "https://shopgoodwill.com/item/279653146",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/beeceee2-6bbb-4535-9ec2-845844929babejoe_10011.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/1badb77a-3d45-4aaa-8c5c-acdfdb1813edejoe_10012.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/0fa1feaf-b405-45e5-b1a2-6514684f9c75ejoe_10013.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/1fe4078f-8b6d-4bd5-8bb3-94b17412bfb9ejoe_10014.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/ae509573-def0-4caa-a397-b8e3829e867bejoe_10015.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/6a9adc2b-7de8-4139-88fc-75be3e51f34eejoe_10016.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/c409b3c1-25bc-4266-b8e2-ab79df79d187ejoe_10017.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/87915c0a-66bf-4350-9bb4-aa6d49177512ejoe_10018.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/ea5e2511-20a3-4e59-86da-7f2f881a79bfejoe_10019.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/be8f3f47-d803-4f6d-bbf2-4d84f8849c53ejoe_100110.jpg"
-    ],
-    "description": "Title\n: Vintage POG's Milk Caps & Slammers in Tubes Collection Lot\nGame title\n: Pogs\nType\n: Milk Caps & Slammers\nColor\n: Multi-Color\nGame type\n: Dexterity Game\nMaterial\n: Cardboard, Plastic, Metal\nAge level\n: 8-11 Years\nCondition\n: Used\nDepartment\n: Toys & Hobbies\nCategory\n: Toys & Hobbies\nDescription\n: Dive into nostalgia with this large collection of vintage POGs milk caps and slammers, conveniently stored in two labeled tubes. Featuring a vibrant assortment of round cardboard POGs and several metal and plastic slammers, this lot showcases a colorful variety of fun designs, including cartoons, sports, holographic graphics, and bold patterns. Each piece is individually unique, capturing the energetic spirit of the 1990s playground craze. This collection contains a substantial number of caps and slammers, making it ideal for collectors, hobbyists, or anyone looking to relive classic game moments. The POGs and slammers exhibit evidence of regular handling, with some edge wear and minor surface scratches visible on certain pieces, which is typical for vintage game pieces played and enjoyed over the years. No original branding or manufacture year is shown, emphasizing a truly mixed assortment. Both storage tubes are included for convenient organization and display. A fantastic find for anyone wanting to expand their collection or introduce new players to this iconic game",
-    "score_reasons": [
-      "Lower-priority term 'used' in description (-4)",
-      "Generic estate tube lot may hide factory rebrands (+14)",
-      "Shipping is calculated and not included in the price (-5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 10,
-        "relative_score": 0.312,
-        "score_reasons": [
-          "Lower-priority term 'used' in description (-4)",
-          "Generic estate tube lot may hide factory rebrands (+14)",
-          "Shipping is calculated and not included in the price (-5)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -307,6 +300,33 @@
       }
     ]
   },
+  "ctbids-45458-5329494": {
+    "item_id": "ctbids-45458-5329494",
+    "listing_url": "https://ctbids.com/estate-sale/45458/item/5329494/Vintage-Wizard-Of-Oz-Dorthy-Figure-On-Yellow-Brink-Road",
+    "images": [
+      "https://image.ctbids.com/seller/2026-06-23T4fa6d1/5329494_38oRqL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "279410980": {
     "item_id": "279410980",
     "listing_url": "https://shopgoodwill.com/item/279410980",
@@ -335,6 +355,44 @@
           "Opportunity term 'lot' in description (+2)",
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279653146": {
+    "item_id": "279653146",
+    "listing_url": "https://shopgoodwill.com/item/279653146",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/beeceee2-6bbb-4535-9ec2-845844929babejoe_10011.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/1badb77a-3d45-4aaa-8c5c-acdfdb1813edejoe_10012.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/0fa1feaf-b405-45e5-b1a2-6514684f9c75ejoe_10013.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/1fe4078f-8b6d-4bd5-8bb3-94b17412bfb9ejoe_10014.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/ae509573-def0-4caa-a397-b8e3829e867bejoe_10015.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/6a9adc2b-7de8-4139-88fc-75be3e51f34eejoe_10016.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/c409b3c1-25bc-4266-b8e2-ab79df79d187ejoe_10017.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/87915c0a-66bf-4350-9bb4-aa6d49177512ejoe_10018.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/ea5e2511-20a3-4e59-86da-7f2f881a79bfejoe_10019.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-01/be8f3f47-d803-4f6d-bbf2-4d84f8849c53ejoe_100110.jpg"
+    ],
+    "description": "Title\n: Vintage POG's Milk Caps & Slammers in Tubes Collection Lot\nGame title\n: Pogs\nType\n: Milk Caps & Slammers\nColor\n: Multi-Color\nGame type\n: Dexterity Game\nMaterial\n: Cardboard, Plastic, Metal\nAge level\n: 8-11 Years\nCondition\n: Used\nDepartment\n: Toys & Hobbies\nCategory\n: Toys & Hobbies\nDescription\n: Dive into nostalgia with this large collection of vintage POGs milk caps and slammers, conveniently stored in two labeled tubes. Featuring a vibrant assortment of round cardboard POGs and several metal and plastic slammers, this lot showcases a colorful variety of fun designs, including cartoons, sports, holographic graphics, and bold patterns. Each piece is individually unique, capturing the energetic spirit of the 1990s playground craze. This collection contains a substantial number of caps and slammers, making it ideal for collectors, hobbyists, or anyone looking to relive classic game moments. The POGs and slammers exhibit evidence of regular handling, with some edge wear and minor surface scratches visible on certain pieces, which is typical for vintage game pieces played and enjoyed over the years. No original branding or manufacture year is shown, emphasizing a truly mixed assortment. Both storage tubes are included for convenient organization and display. A fantastic find for anyone wanting to expand their collection or introduce new players to this iconic game",
+    "score_reasons": [
+      "Lower-priority term 'used' in description (-4)",
+      "Generic estate tube lot may hide factory rebrands (+14)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 10,
+        "relative_score": 0.312,
+        "score_reasons": [
+          "Lower-priority term 'used' in description (-4)",
+          "Generic estate tube lot may hide factory rebrands (+14)",
+          "Shipping is calculated and not included in the price (-5)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -395,11 +453,11 @@
       }
     ]
   },
-  "ctbids-49065-5716054": {
-    "item_id": "ctbids-49065-5716054",
-    "listing_url": "https://ctbids.com/estate-sale/49065/item/5716054/Hank-Ballard-The-Midnighters-Finger-Poppin-Time-King-45-5341-R-B-7-Record",
+  "ctbids-48524-5647066": {
+    "item_id": "ctbids-48524-5647066",
+    "listing_url": "https://ctbids.com/estate-sale/48524/item/5647066/Imperial-Display-Plaque-Wall-Decor-Panels",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5463893_oLDyfR.webp"
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647066_G2tMEE.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -449,60 +507,6 @@
       }
     ]
   },
-  "ctbids-48524-5647066": {
-    "item_id": "ctbids-48524-5647066",
-    "listing_url": "https://ctbids.com/estate-sale/48524/item/5647066/Imperial-Display-Plaque-Wall-Decor-Panels",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5647066_G2tMEE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48230-5689274": {
-    "item_id": "ctbids-48230-5689274",
-    "listing_url": "https://ctbids.com/estate-sale/48230/item/5689274/Norman-Rockwell-Collector-s-Glasses-4",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-30T072869/5689274_JCuP1I.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49065-5716138": {
     "item_id": "ctbids-49065-5716138",
     "listing_url": "https://ctbids.com/estate-sale/49065/item/5716138/Rustic-Distressed-Cream-Wooden-Footstool-Slatted-Top-with-Curved-Ring-Sides-Approx-10-High",
@@ -530,15 +534,15 @@
       }
     ]
   },
-  "ctbids-45458-5329494": {
-    "item_id": "ctbids-45458-5329494",
-    "listing_url": "https://ctbids.com/estate-sale/45458/item/5329494/Vintage-Wizard-Of-Oz-Dorthy-Figure-On-Yellow-Brink-Road",
+  "ctbids-49065-5716054": {
+    "item_id": "ctbids-49065-5716054",
+    "listing_url": "https://ctbids.com/estate-sale/49065/item/5716054/Hank-Ballard-The-Midnighters-Finger-Poppin-Time-King-45-5341-R-B-7-Record",
     "images": [
-      "https://image.ctbids.com/seller/2026-06-23T4fa6d1/5329494_38oRqL.webp"
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5463893_oLDyfR.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -546,10 +550,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49065-5717060": {
+    "item_id": "ctbids-49065-5717060",
+    "listing_url": "https://ctbids.com/estate-sale/49065/item/5717060/Decorative-Wooden-Birdhouse-with-Yellow-Bird",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5717060_34GWmn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49065-5717336": {
+    "item_id": "ctbids-49065-5717336",
+    "listing_url": "https://ctbids.com/estate-sale/49065/item/5717336/Sisters-Help-Hold-Each-Other-Up-Teddy-Bear-Tapestry-Pillow",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5717336_LRaBDQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47871-5690112": {
+    "item_id": "ctbids-47871-5690112",
+    "listing_url": "https://ctbids.com/estate-sale/47871/item/5690112/Indy-500-and-Danny-Sullivan-Memorabilia-Mystery-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5690112_t7bhTv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -589,65 +674,53 @@
       }
     ]
   },
-  "ctbids-47871-5690112": {
-    "item_id": "ctbids-47871-5690112",
-    "listing_url": "https://ctbids.com/estate-sale/47871/item/5690112/Indy-500-and-Danny-Sullivan-Memorabilia-Mystery-Lot",
+  "279086483": {
+    "item_id": "279086483",
+    "listing_url": "https://shopgoodwill.com/item/279086483",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5690112_t7bhTv.webp"
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/520af890-010e-4dc3-ab17-371f67a66b09der7_10011.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/ac1d5f35-a22a-4ec5-bcc8-94b564d9c308der7_10012.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/acff7b96-afd3-42ed-a51e-841236dc680dder7_10013.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/f420a294-c1b7-4210-bf3d-4c235ce405e9der7_10014.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/d0581dfb-9351-4391-b627-1702ee36b460der7_10015.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/86f5013e-7201-4553-a308-daf26d4c8ad8der7_10016.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/6d81a940-105c-47fd-99a1-0e5589b204a5der7_10017.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/b4e3779e-a922-4619-b179-ebe8f39aa07bder7_10018.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/e340168f-ff01-4620-94c2-96f55e839368der7_10019.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/866cb091-a174-4ca7-b2d7-25a7e8419397der7_100110.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/ede8dfe9-2136-44f4-9e83-c56fbf960c64der7_100111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/59b548d4-27c7-40df-8999-02590bd915edder7_100112.jpg"
     ],
-    "description": "",
+    "description": "Artist Unknown\nBlue Agate Geode Shadowbox\nNatural Agate Slice on Paper Support, Metal Frame\n18.25\" x 18.25\" x 1.25\"\nUnsigned\nThis contemporary wall art piece features a natural blue agate geode slice mounted in a deep shadowbox presentation. The central specimen displays characteristic concentric banding in varying shades of cerulean and cobalt blue, with a translucent crystalline center. Housed in a sleek chrome-finished metal frame, the composition utilizes significant negative space to emphasize the organic form and vivid coloration of the mineral specimen, aligning with modern minimalist interior design aesthetics.\nNatural polished agate slice with distinct geological banding and crystal inclusions\nProfessional shadowbox mounting with deep white matting for dimensional effect\nPolished silver-toned metal frame with glass glazing\nSquare format measuring approximately 18.25 inches per side\nCondition:\nFair to good condition. The central agate specimen and internal mounting remain in excellent state. The exterior chrome frame exhibits noticeable surface wear, including various scratches, scuffs, and minor abrasions throughout the metal surface as shown in detail photos.",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in description (+4)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "$10.00 handling charge (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48046-5607835": {
-    "item_id": "ctbids-48046-5607835",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5607835/Handcrafted-Pottery",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607835_9umoYS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 3,
-        "relative_score": 0.088,
+        "relative_score": 0.1,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in description (+4)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "$10.00 handling charge (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "ctbids-48046-5642350": {
-    "item_id": "ctbids-48046-5642350",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5642350/Fur-Pelt-Stoles",
+  "ctbids-48230-5689274": {
+    "item_id": "ctbids-48230-5689274",
+    "listing_url": "https://ctbids.com/estate-sale/48230/item/5689274/Norman-Rockwell-Collector-s-Glasses-4",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642350_xAw4YA.webp"
+      "https://image.ctbids.com/seller/2026-09-30T072869/5689274_JCuP1I.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -747,136 +820,11 @@
       }
     ]
   },
-  "ctbids-48046-5643078": {
-    "item_id": "ctbids-48046-5643078",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5643078/United-Hearts-Kerosene-Lamp",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5643078_CmDHzU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48046-5642422": {
-    "item_id": "ctbids-48046-5642422",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5642422/Fur-Stoles-Wraps",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642422_VRJMWK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48683-5668081": {
     "item_id": "ctbids-48683-5668081",
     "listing_url": "https://ctbids.com/estate-sale/48683/item/5668081/2-Baccarat-Crystal-Vases",
     "images": [
       "https://image.ctbids.com/seller/2026-09-26T5d1d74/5668081_SJK5Xi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48046-5579991": {
-    "item_id": "ctbids-48046-5579991",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5579991/Mercer-Semi-Vitreous-Wash-Pitcher-Basin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-31T06a3fa/5579991_gldSRx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48046-5642022": {
-    "item_id": "ctbids-48046-5642022",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5642022/Fleminton-Fur-Coat",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-17T2a2b0a/5642022_wpUnpJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48046-5589882": {
-    "item_id": "ctbids-48046-5589882",
-    "listing_url": "https://ctbids.com/estate-sale/48046/item/5589882/Mirrors-and-Vanity-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-02T953ca6/5589882_oKZ86J.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -927,6 +875,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48808/item/5683923/Navajo-Sculpted-Dove-Kingman-Turquoise-Leverback-Earrings",
     "images": [
       "https://image.ctbids.com/seller/2026-09-29T9a7116/5683923_7sGPFW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47907-5633438": {
+    "item_id": "ctbids-47907-5633438",
+    "listing_url": "https://ctbids.com/estate-sale/47907/item/5633438/Pottery-Barn-Pasture-Bunny-Ceramic-12-Plate-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5633438_mWdNJj.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1020,73 +993,6 @@
           "Opportunity term 'dirty' in description (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279086483": {
-    "item_id": "279086483",
-    "listing_url": "https://shopgoodwill.com/item/279086483",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/520af890-010e-4dc3-ab17-371f67a66b09der7_10011.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/ac1d5f35-a22a-4ec5-bcc8-94b564d9c308der7_10012.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/acff7b96-afd3-42ed-a51e-841236dc680dder7_10013.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/f420a294-c1b7-4210-bf3d-4c235ce405e9der7_10014.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/d0581dfb-9351-4391-b627-1702ee36b460der7_10015.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/86f5013e-7201-4553-a308-daf26d4c8ad8der7_10016.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/6d81a940-105c-47fd-99a1-0e5589b204a5der7_10017.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/b4e3779e-a922-4619-b179-ebe8f39aa07bder7_10018.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/e340168f-ff01-4620-94c2-96f55e839368der7_10019.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/866cb091-a174-4ca7-b2d7-25a7e8419397der7_100110.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/ede8dfe9-2136-44f4-9e83-c56fbf960c64der7_100111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-10-01/59b548d4-27c7-40df-8999-02590bd915edder7_100112.jpg"
-    ],
-    "description": "Artist Unknown\nBlue Agate Geode Shadowbox\nNatural Agate Slice on Paper Support, Metal Frame\n18.25\" x 18.25\" x 1.25\"\nUnsigned\nThis contemporary wall art piece features a natural blue agate geode slice mounted in a deep shadowbox presentation. The central specimen displays characteristic concentric banding in varying shades of cerulean and cobalt blue, with a translucent crystalline center. Housed in a sleek chrome-finished metal frame, the composition utilizes significant negative space to emphasize the organic form and vivid coloration of the mineral specimen, aligning with modern minimalist interior design aesthetics.\nNatural polished agate slice with distinct geological banding and crystal inclusions\nProfessional shadowbox mounting with deep white matting for dimensional effect\nPolished silver-toned metal frame with glass glazing\nSquare format measuring approximately 18.25 inches per side\nCondition:\nFair to good condition. The central agate specimen and internal mounting remain in excellent state. The exterior chrome frame exhibits noticeable surface wear, including various scratches, scuffs, and minor abrasions throughout the metal surface as shown in detail photos.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "$10.00 handling charge (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "$10.00 handling charge (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47907-5633438": {
-    "item_id": "ctbids-47907-5633438",
-    "listing_url": "https://ctbids.com/estate-sale/47907/item/5633438/Pottery-Barn-Pasture-Bunny-Ceramic-12-Plate-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-15Tb9129c/5633438_mWdNJj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
