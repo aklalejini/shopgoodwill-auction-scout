@@ -87,7 +87,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -95,12 +94,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -193,66 +191,6 @@
       }
     ]
   },
-  "279746205": {
-    "item_id": "279746205",
-    "listing_url": "https://shopgoodwill.com/item/279746205",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/a01ec1c1-4427-4f9e-998c-7e16fd7cb324inaw_10071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/7423f045-115a-4008-9d81-a45437951a45inaw_10072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/478c960a-a588-47cb-9e67-b3f758932f45inaw_10073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/0d1009fb-3715-4f7d-bec9-b48692b0d97finaw_10074.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/ab797d38-2b35-4dd2-b98f-b128af2c1c26inaw_10075.jpg"
-    ],
-    "description": "This 7.5\" long hand-carved meerschaum tobacco pipe features a detailed bust of a bearded man with an eyepatch, horned helmet, and eagle motif. The bowl is made from white meerschaum, known for excellent smoking qualities. The stem is marbled amber-colored acrylic. The pipe is marked 'DORA' on the side, indicating the artisan or manufacturer. It comes with a custom-fitted, velvet-lined hard protective case with a black leatherette exterior and brass clasp. The item is in excellent, possibly unused condition with no visible wear or discoloration.",
-    "score_reasons": [
-      "Target keyword 'meerschaum' in title (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 11,
-        "relative_score": 0.314,
-        "score_reasons": [
-          "Target keyword 'meerschaum' in title (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "meerschaum"
-        ]
-      }
-    ]
-  },
-  "ctbids-48124-5708953": {
-    "item_id": "ctbids-48124-5708953",
-    "listing_url": "https://ctbids.com/estate-sale/48124/item/5708953/NEW-LISTING-Antique-Apollo-Brass-Shaving-Stand-with-Swivel-Mirror-Milk-Glass-Bowl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708953_ZBst61.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49085-5720523": {
     "item_id": "ctbids-49085-5720523",
     "listing_url": "https://ctbids.com/estate-sale/49085/item/5720523/Spike-Jones-and-His-City-Slickers-Rudolph-the-Red-Nosed-Reindeer-Mommy-Won-t-You-Buy-a-Baby-Bro",
@@ -285,6 +223,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48809/item/5682818/Kitchen-Gadgets",
     "images": [
       "https://image.ctbids.com/seller/2026-09-29T9a7116/5682818_5pP6xv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49085-5721707": {
+    "item_id": "ctbids-49085-5721707",
+    "listing_url": "https://ctbids.com/estate-sale/49085/item/5721707/Crate-Barrel-Barrio-Terracotta-Wine-Coaster-Glazed-Round-Clay-Bottle-Coaster-Made-in-Portugal",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5721707_nzEXYO.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -354,6 +319,66 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279746205": {
+    "item_id": "279746205",
+    "listing_url": "https://shopgoodwill.com/item/279746205",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/a01ec1c1-4427-4f9e-998c-7e16fd7cb324inaw_10071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/7423f045-115a-4008-9d81-a45437951a45inaw_10072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/478c960a-a588-47cb-9e67-b3f758932f45inaw_10073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/0d1009fb-3715-4f7d-bec9-b48692b0d97finaw_10074.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-07/ab797d38-2b35-4dd2-b98f-b128af2c1c26inaw_10075.jpg"
+    ],
+    "description": "This 7.5\" long hand-carved meerschaum tobacco pipe features a detailed bust of a bearded man with an eyepatch, horned helmet, and eagle motif. The bowl is made from white meerschaum, known for excellent smoking qualities. The stem is marbled amber-colored acrylic. The pipe is marked 'DORA' on the side, indicating the artisan or manufacturer. It comes with a custom-fitted, velvet-lined hard protective case with a black leatherette exterior and brass clasp. The item is in excellent, possibly unused condition with no visible wear or discoloration.",
+    "score_reasons": [
+      "Target keyword 'meerschaum' in title (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 11,
+        "relative_score": 0.314,
+        "score_reasons": [
+          "Target keyword 'meerschaum' in title (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "meerschaum"
+        ]
+      }
+    ]
+  },
+  "ctbids-48124-5708953": {
+    "item_id": "ctbids-48124-5708953",
+    "listing_url": "https://ctbids.com/estate-sale/48124/item/5708953/NEW-LISTING-Antique-Apollo-Brass-Shaving-Stand-with-Swivel-Mirror-Milk-Glass-Bowl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708953_ZBst61.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -523,33 +548,6 @@
       }
     ]
   },
-  "ctbids-48809-5687067": {
-    "item_id": "ctbids-48809-5687067",
-    "listing_url": "https://ctbids.com/estate-sale/48809/item/5687067/Kitchen-Utensils-and-Tabletop-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5687067_5JW5dh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48809-5687982": {
     "item_id": "ctbids-48809-5687982",
     "listing_url": "https://ctbids.com/estate-sale/48809/item/5687982/Wagner-Power-Painter-and-Power-Tools",
@@ -630,6 +628,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48557/item/5647912/Asian-Inspired-Decor-Trinket-Boxes",
     "images": [
       "https://image.ctbids.com/seller/2026-09-20T075c3c/5647912_EVRmDf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48809-5687067": {
+    "item_id": "ctbids-48809-5687067",
+    "listing_url": "https://ctbids.com/estate-sale/48809/item/5687067/Kitchen-Utensils-and-Tabletop-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5687067_5JW5dh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -838,56 +861,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48961/item/5715914/4-Total-Oz-Copper-Zombucks-Libertad-in-Infinity-Capsule",
     "images": [
       "https://image.ctbids.com/seller/2026-10-08T96006c/5715914_XBaPjJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48609-5671021": {
-    "item_id": "ctbids-48609-5671021",
-    "listing_url": "https://ctbids.com/estate-sale/48609/item/5671021/Boxed-Swarovski-Kris-Bear-Let-s-Celebrate-Sitting-Bear",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5671021_IcczN0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48609-5671090": {
-    "item_id": "ctbids-48609-5671090",
-    "listing_url": "https://ctbids.com/estate-sale/48609/item/5671090/Boxed-Swarovski-Baby-Sea-Turtles-Trio-of-Seashells",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5671090_TkznZm.webp"
     ],
     "description": "",
     "score_reasons": [
