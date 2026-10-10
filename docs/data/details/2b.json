@@ -40,41 +40,6 @@
       }
     ]
   },
-  "279912902": {
-    "item_id": "279912902",
-    "listing_url": "https://shopgoodwill.com/item/279912902",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/631401cf-b041-4f8d-8935-b8269b9d2f89auer_10081.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/648633cc-1b6a-4fc6-b38d-c354110371fcauer_10082.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/bbe74275-fb60-4d2a-b216-8a9e8f0d2368auer_10083.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/c4e79e16-a932-4910-a202-79c8d3fa7a14auer_10084.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/af627bbb-d753-4a60-ba17-9867c0cfac1cauer_10085.jpg"
-    ],
-    "description": "Product Overview:\nThis lot includes a variety of tobacco pipes featuring classic bent designs and a traditional Native American-style beaded pipe.\n\nSpecifications:\n- Classic bent pipes have a glossy red and black finish with silver accents.\n- Materials include wood bowls and acrylic or plastic stems.\n- Variations in bowl texture and finish among bent pipes.\n- Native American-style pipe features blue and white beadwork in a chevron pattern on the stem.\n- Native pipe has a wooden mouthpiece and a black bowl.\n- All pipes show signs of use with light wear.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "Lower-priority term 'silver accents' in description (-5)",
-      "Generic estate pipe lot may hide valuable maker stamps (+15)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 16,
-        "relative_score": 0.457,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "Lower-priority term 'silver accents' in description (-5)",
-          "Generic estate pipe lot may hide valuable maker stamps (+15)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "279696684": {
     "item_id": "279696684",
     "listing_url": "https://shopgoodwill.com/item/279696684",
@@ -106,6 +71,41 @@
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
           "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279912902": {
+    "item_id": "279912902",
+    "listing_url": "https://shopgoodwill.com/item/279912902",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/631401cf-b041-4f8d-8935-b8269b9d2f89auer_10081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/648633cc-1b6a-4fc6-b38d-c354110371fcauer_10082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/bbe74275-fb60-4d2a-b216-8a9e8f0d2368auer_10083.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/c4e79e16-a932-4910-a202-79c8d3fa7a14auer_10084.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-08/af627bbb-d753-4a60-ba17-9867c0cfac1cauer_10085.jpg"
+    ],
+    "description": "Product Overview:\nThis lot includes a variety of tobacco pipes featuring classic bent designs and a traditional Native American-style beaded pipe.\n\nSpecifications:\n- Classic bent pipes have a glossy red and black finish with silver accents.\n- Materials include wood bowls and acrylic or plastic stems.\n- Variations in bowl texture and finish among bent pipes.\n- Native American-style pipe features blue and white beadwork in a chevron pattern on the stem.\n- Native pipe has a wooden mouthpiece and a black bowl.\n- All pipes show signs of use with light wear.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "Lower-priority term 'silver accents' in description (-5)",
+      "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 16,
+        "relative_score": 0.457,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+5)",
+          "Lower-priority term 'silver accents' in description (-5)",
+          "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -376,6 +376,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -383,9 +384,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -401,6 +403,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -408,9 +411,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
