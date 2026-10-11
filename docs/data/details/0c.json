@@ -13,6 +13,7 @@
     "description": "10 Pack (1/500) Oz .999 Platinum 2026 Herb\nSequential 0451 to 0460",
     "score_reasons": [
       "High-value signal 'platinum' in title (+24)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -20,10 +21,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 30,
-        "relative_score": 0.882,
+        "score": 32,
+        "relative_score": 0.941,
         "score_reasons": [
           "High-value signal 'platinum' in title (+24)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -78,6 +80,7 @@
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -85,44 +88,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 14,
+        "relative_score": 0.467,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279785877": {
-    "item_id": "279785877",
-    "listing_url": "https://shopgoodwill.com/item/279785877",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/df0690d4-0eea-4785-a64f-b6ac9c0df34etrgi_10071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/dec26bdf-2f52-4e19-9801-d051fa637180trgi_10072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/6146a217-1516-4c2f-992e-b42233925caftrgi_10073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/43670024-b7fc-4a98-9a7b-069085d555d4trgi_10074.jpg"
-    ],
-    "description": "MuFan\nStainless Steel Aquarium Lily Pipe Set - Stainless Steel\nModern Production, Lot of 6 Sets\nThis lot includes six complete MuFan MFJ-002 stainless steel aquarium lily pipe sets. Engineered for professional aquascaping, these stainless steel pipes provide a durable, shatter-proof alternative to traditional glass lily pipes. The set provides efficient water inflow and outflow, maintaining a clean aesthetic in high-end planted tanks. Designed for use with 16mm (5/8\") canister filter tubing.\nManufacturer: MuFan, Model MFJ-002\nMaterial: High-quality brushed stainless steel\nSet Includes: Inflow pipe, Outflow pipe, and acrylic mounting brackets per box\nQuantity: Total of 6 retail-boxed sets\nCondition:\nNew in box. Cardboard packaging shows moderate shelf wear and minor compression from storage. Internal pipes are factory-sealed in plastic and remain in mint condition. All mounting hardware and brackets are included.\nPlease Note:\nThis is a pre-owned item being sold\nas-is\n. We do our best to describe items accurately and include research where possible, but we are not experts in every category. Please note that if the title or description states \"Tested\" that we only test to make sure the unit \"\nPOWERS ON\"\n.\nNo further testing takes place unless stated otherwise and items are considered untested.\nPlease remember all items are used and are sold as is, no refunds.If you have questions, please contact us before bidding.\nFor all vintage clothing, please research sizing before placing a bid.\nItems from different time periods may have measurements that differ from today’s standard sizing.\nCustomer Service:\nReach us via the “Contact Us” link above or by calling\n(540) 361-6550\n. Messages are handled Monday–Friday, 8:00 AM–4:00 PM ET, and we strive to respond within 48 hours.",
-    "score_reasons": [
-      "Generic estate pipe lot may hide valuable maker stamps (+15)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 16,
-        "relative_score": 0.457,
-        "score_reasons": [
-          "Generic estate pipe lot may hide valuable maker stamps (+15)",
-          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -153,6 +127,65 @@
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48095-5583302": {
+    "item_id": "ctbids-48095-5583302",
+    "listing_url": "https://ctbids.com/estate-sale/48095/item/5583302/Vintage-earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5539359_HFEXaQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279785877": {
+    "item_id": "279785877",
+    "listing_url": "https://shopgoodwill.com/item/279785877",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/df0690d4-0eea-4785-a64f-b6ac9c0df34etrgi_10071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/dec26bdf-2f52-4e19-9801-d051fa637180trgi_10072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/6146a217-1516-4c2f-992e-b42233925caftrgi_10073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-10-07/43670024-b7fc-4a98-9a7b-069085d555d4trgi_10074.jpg"
+    ],
+    "description": "MuFan\nStainless Steel Aquarium Lily Pipe Set - Stainless Steel\nModern Production, Lot of 6 Sets\nThis lot includes six complete MuFan MFJ-002 stainless steel aquarium lily pipe sets. Engineered for professional aquascaping, these stainless steel pipes provide a durable, shatter-proof alternative to traditional glass lily pipes. The set provides efficient water inflow and outflow, maintaining a clean aesthetic in high-end planted tanks. Designed for use with 16mm (5/8\") canister filter tubing.\nManufacturer: MuFan, Model MFJ-002\nMaterial: High-quality brushed stainless steel\nSet Includes: Inflow pipe, Outflow pipe, and acrylic mounting brackets per box\nQuantity: Total of 6 retail-boxed sets\nCondition:\nNew in box. Cardboard packaging shows moderate shelf wear and minor compression from storage. Internal pipes are factory-sealed in plastic and remain in mint condition. All mounting hardware and brackets are included.\nPlease Note:\nThis is a pre-owned item being sold\nas-is\n. We do our best to describe items accurately and include research where possible, but we are not experts in every category. Please note that if the title or description states \"Tested\" that we only test to make sure the unit \"\nPOWERS ON\"\n.\nNo further testing takes place unless stated otherwise and items are considered untested.\nPlease remember all items are used and are sold as is, no refunds.If you have questions, please contact us before bidding.\nFor all vintage clothing, please research sizing before placing a bid.\nItems from different time periods may have measurements that differ from today’s standard sizing.\nCustomer Service:\nReach us via the “Contact Us” link above or by calling\n(540) 361-6550\n. Messages are handled Monday–Friday, 8:00 AM–4:00 PM ET, and we strive to respond within 48 hours.",
+    "score_reasons": [
+      "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 16,
+        "relative_score": 0.457,
+        "score_reasons": [
+          "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -239,15 +272,15 @@
       }
     ]
   },
-  "ctbids-48095-5583302": {
-    "item_id": "ctbids-48095-5583302",
-    "listing_url": "https://ctbids.com/estate-sale/48095/item/5583302/Vintage-earrings",
+  "ctbids-48947-5698825": {
+    "item_id": "ctbids-48947-5698825",
+    "listing_url": "https://ctbids.com/estate-sale/48947/item/5698825/Don-Mattingly-Rookie-Card-Topps-New-York-Yankees-OF-1B",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5539359_HFEXaQ.webp"
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5224297_XUoamW.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -255,10 +288,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48947-5699233": {
+    "item_id": "ctbids-48947-5699233",
+    "listing_url": "https://ctbids.com/estate-sale/48947/item/5699233/Pokemon-Salamence-ex-109-128-HP-330-English-2026",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5651077_04Ncu2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48437-5670047": {
+    "item_id": "ctbids-48437-5670047",
+    "listing_url": "https://ctbids.com/estate-sale/48437/item/5670047/Joe-Burrow-Rookie-Card-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5670047_QK5QjA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -333,15 +420,15 @@
       }
     ]
   },
-  "ctbids-48437-5670047": {
-    "item_id": "ctbids-48437-5670047",
-    "listing_url": "https://ctbids.com/estate-sale/48437/item/5670047/Joe-Burrow-Rookie-Card-Lot",
+  "ctbids-48947-5700029": {
+    "item_id": "ctbids-48947-5700029",
+    "listing_url": "https://ctbids.com/estate-sale/48947/item/5700029/1987-Donruss-Barry-Bonds-361-Pittsburgh-Pirates-Baseball-Card",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5670047_QK5QjA.webp"
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5549940_Pd0GvV.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -349,10 +436,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -360,35 +447,28 @@
       }
     ]
   },
-  "280151872": {
-    "item_id": "280151872",
-    "listing_url": "https://shopgoodwill.com/item/280151872",
+  "ctbids-48947-5700278": {
+    "item_id": "ctbids-48947-5700278",
+    "listing_url": "https://ctbids.com/estate-sale/48947/item/5700278/2026-Topps-Resurgence-Tucker-Kraft-Green-Bay-Packers-36-Serial-006-425",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/743346f2-1feb-409d-8cee-a9bcb1b6a7e3rton_09281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/7394409a-f9fb-47ab-988b-62fc33d5714arton_09282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/dda28435-46b6-4bfc-95b8-cac980a4764crton_09283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/440068d5-9a7f-43f3-84b5-b753e29f0521rton_09284.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/1f9740cb-4f38-46e3-b8ee-2ba84cfbcbf8rton_09285.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/7ea54f26-e23b-48ea-bb87-fc82987a05a9rton_09286.jpg"
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5700278_RbUnKn.webp"
     ],
-    "description": "Item Description:\nStones & Findings - Crystals, Pyrite, etc.\nApproximate Measurements (inches):\n9 x 6 x 2.25 Sizes Vary\nWeight (in lbs):\n1.55\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
         "score": 3,
-        "relative_score": 0.1,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -449,56 +529,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48609/item/5670876/Boxed-Swarovski-Crystal-Penguin-Mother-with-Baby-Snail-on-Leaf",
     "images": [
       "https://image.ctbids.com/seller/2026-09-29T9a7116/5670876_gDtqb3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48947-5698825": {
-    "item_id": "ctbids-48947-5698825",
-    "listing_url": "https://ctbids.com/estate-sale/48947/item/5698825/Don-Mattingly-Rookie-Card-Topps-New-York-Yankees-OF-1B",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5224297_XUoamW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48947-5700029": {
-    "item_id": "ctbids-48947-5700029",
-    "listing_url": "https://ctbids.com/estate-sale/48947/item/5700029/1987-Donruss-Barry-Bonds-361-Pittsburgh-Pirates-Baseball-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5549940_Pd0GvV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -619,31 +649,6 @@
       }
     ]
   },
-  "ctbids-48947-5699233": {
-    "item_id": "ctbids-48947-5699233",
-    "listing_url": "https://ctbids.com/estate-sale/48947/item/5699233/Pokemon-Salamence-ex-109-128-HP-330-English-2026",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5651077_04Ncu2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48559-5679223": {
     "item_id": "ctbids-48559-5679223",
     "listing_url": "https://ctbids.com/estate-sale/48559/item/5679223/Andrea-s-Flowers-Figures-3-And-Lenox-2",
@@ -699,31 +704,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48563/item/5661382/Lenox-Petals-Pearls-Pearls-Poinsettias-Santa-w-Bottle-Brush-Tree-Figurine",
     "images": [
       "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5661382_AHiMSC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48947-5700278": {
-    "item_id": "ctbids-48947-5700278",
-    "listing_url": "https://ctbids.com/estate-sale/48947/item/5700278/2026-Topps-Resurgence-Tucker-Kraft-Green-Bay-Packers-36-Serial-006-425",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5700278_RbUnKn.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -839,6 +819,40 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280151872": {
+    "item_id": "280151872",
+    "listing_url": "https://shopgoodwill.com/item/280151872",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/743346f2-1feb-409d-8cee-a9bcb1b6a7e3rton_09281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/7394409a-f9fb-47ab-988b-62fc33d5714arton_09282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/dda28435-46b6-4bfc-95b8-cac980a4764crton_09283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/440068d5-9a7f-43f3-84b5-b753e29f0521rton_09284.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/1f9740cb-4f38-46e3-b8ee-2ba84cfbcbf8rton_09285.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-09-28/7ea54f26-e23b-48ea-bb87-fc82987a05a9rton_09286.jpg"
+    ],
+    "description": "Item Description:\nStones & Findings - Crystals, Pyrite, etc.\nApproximate Measurements (inches):\n9 x 6 x 2.25 Sizes Vary\nWeight (in lbs):\n1.55\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
