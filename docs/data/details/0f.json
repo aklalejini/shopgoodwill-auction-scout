@@ -50,6 +50,7 @@
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -57,12 +58,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 21,
+        "relative_score": 0.618,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -97,6 +99,49 @@
       }
     ]
   },
+  "279943149": {
+    "item_id": "279943149",
+    "listing_url": "https://shopgoodwill.com/item/279943149",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis collection includes assorted mineral and stone specimens featuring a variety of rough and polished pieces. The set contains agate slices with notable blue and white patterns, a green mineral likely malachite, a rough reddish-brown mineral, and a white or cream-colored stone resembling onyx or calcite, some fashioned as a tealight candle holder.\n\nSpecifications:\n- Includes both rough and polished mineral and stone specimens\n- Features agate slices with distinct internal patterns\n- Contains green mineral consistent with malachite\n- Includes a rough reddish-brown mineral specimen\n- Contains white or cream-colored stone resembling onyx or calcite\n- Specimens vary in size, color, and texture\n- Approximate total weight: 12 lbs\n\nNo brand or model information is provided with this lot.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Target keyword 'malachite' in title (+9)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "12 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 11,
+        "relative_score": 0.367,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Target keyword 'malachite' in title (+9)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "12 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "malachite"
+        ]
+      }
+    ]
+  },
   "ctbids-48871-5703273": {
     "item_id": "ctbids-48871-5703273",
     "listing_url": "https://ctbids.com/estate-sale/48871/item/5703273/Vintage-Salt-Pepper-Shakers-Lot",
@@ -119,6 +164,64 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48871-5705778": {
+    "item_id": "ctbids-48871-5705778",
+    "listing_url": "https://ctbids.com/estate-sale/48871/item/5705778/Antique-Majolica-Style-Floral-Basketweave-Pitcher",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705778_lLYKkc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730794": {
+    "item_id": "ctbids-49158-5730794",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730794/Vintage-Anchor-Hocking-Star-of-David-Prescut-Clear-Glass-Berry-Dessert-Bowl-4-5",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5406169_7sVC6F.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -153,15 +256,74 @@
       }
     ]
   },
-  "ctbids-48871-5705778": {
-    "item_id": "ctbids-48871-5705778",
-    "listing_url": "https://ctbids.com/estate-sale/48871/item/5705778/Antique-Majolica-Style-Floral-Basketweave-Pitcher",
+  "ctbids-48821-5704507": {
+    "item_id": "ctbids-48821-5704507",
+    "listing_url": "https://ctbids.com/estate-sale/48821/item/5704507/Two-David-Winter-Cottages-From-The-Scottish-CoTwo-David-Winter-Cottages-From-The-Scottish-Collection",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705778_lLYKkc.webp"
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5704507_fnhsj6.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48244-5620908": {
+    "item_id": "ctbids-48244-5620908",
+    "listing_url": "https://ctbids.com/estate-sale/48244/item/5620908/Patriotic-Red-White-Blue-Jewelry-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-11Ta10121/5620908_W6EYtO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48682-5690800": {
+    "item_id": "ctbids-48682-5690800",
+    "listing_url": "https://ctbids.com/estate-sale/48682/item/5690800/Vintage-Luggage-Dell-Computer-Travel-Bag",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5690800_N4x9Sv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -172,7 +334,8 @@
         "score": 8,
         "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -207,47 +370,6 @@
       }
     ]
   },
-  "279943149": {
-    "item_id": "279943149",
-    "listing_url": "https://shopgoodwill.com/item/279943149",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis collection includes assorted mineral and stone specimens featuring a variety of rough and polished pieces. The set contains agate slices with notable blue and white patterns, a green mineral likely malachite, a rough reddish-brown mineral, and a white or cream-colored stone resembling onyx or calcite, some fashioned as a tealight candle holder.\n\nSpecifications:\n- Includes both rough and polished mineral and stone specimens\n- Features agate slices with distinct internal patterns\n- Contains green mineral consistent with malachite\n- Includes a rough reddish-brown mineral specimen\n- Contains white or cream-colored stone resembling onyx or calcite\n- Specimens vary in size, color, and texture\n- Approximate total weight: 12 lbs\n\nNo brand or model information is provided with this lot.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Target keyword 'malachite' in title (+9)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "12 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Target keyword 'malachite' in title (+9)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "12 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "malachite"
-        ]
-      }
-    ]
-  },
   "ctbids-48244-5626020": {
     "item_id": "ctbids-48244-5626020",
     "listing_url": "https://ctbids.com/estate-sale/48244/item/5626020/Swarovski-Crystal-Rivoli-Specialty-Crystal-Collection",
@@ -275,65 +397,11 @@
       }
     ]
   },
-  "ctbids-48821-5704507": {
-    "item_id": "ctbids-48821-5704507",
-    "listing_url": "https://ctbids.com/estate-sale/48821/item/5704507/Two-David-Winter-Cottages-From-The-Scottish-CoTwo-David-Winter-Cottages-From-The-Scottish-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5704507_fnhsj6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48244-5626147": {
     "item_id": "ctbids-48244-5626147",
     "listing_url": "https://ctbids.com/estate-sale/48244/item/5626147/Large-Organized-Seed-Bead-Collection-with-Storage-Case",
     "images": [
       "https://image.ctbids.com/seller/2026-09-13T622b70/5626147_1QP0ZK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48244-5620908": {
-    "item_id": "ctbids-48244-5620908",
-    "listing_url": "https://ctbids.com/estate-sale/48244/item/5620908/Patriotic-Red-White-Blue-Jewelry-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-11Ta10121/5620908_W6EYtO.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -410,60 +478,6 @@
       }
     ]
   },
-  "ctbids-48682-5690800": {
-    "item_id": "ctbids-48682-5690800",
-    "listing_url": "https://ctbids.com/estate-sale/48682/item/5690800/Vintage-Luggage-Dell-Computer-Travel-Bag",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5690800_N4x9Sv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730794": {
-    "item_id": "ctbids-49158-5730794",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730794/Vintage-Anchor-Hocking-Star-of-David-Prescut-Clear-Glass-Berry-Dessert-Bowl-4-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5406169_7sVC6F.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49040-5720467": {
     "item_id": "ctbids-49040-5720467",
     "listing_url": "https://ctbids.com/estate-sale/49040/item/5720467/Murray-Co-Vintage-Wedding-Gowns-and-Lace-Bridal-Dress",
@@ -491,6 +505,33 @@
       }
     ]
   },
+  "ctbids-48871-5705756": {
+    "item_id": "ctbids-48871-5705756",
+    "listing_url": "https://ctbids.com/estate-sale/48871/item/5705756/7-Grape-Vine-Milk-Glass-Candy-Dish",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705756_pJ0APQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47800-5696539": {
     "item_id": "ctbids-47800-5696539",
     "listing_url": "https://ctbids.com/estate-sale/47800/item/5696539/Costume-Lot-With-Various-Wigs",
@@ -511,6 +552,200 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730599": {
+    "item_id": "ctbids-49158-5730599",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730599/Miniature-Bronze-Tone-Armor-Breastplate-on-Red-Wood-Base-Ornate-Floral-Relief-Lion-Mask",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730599_Hvu3gn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48871-5704204": {
+    "item_id": "ctbids-48871-5704204",
+    "listing_url": "https://ctbids.com/estate-sale/48871/item/5704204/Homan-Silver-Plate-Bread-Dish-Monarch-Silver-Plate-Nut-Dish",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5704204_2i6iy7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279577459": {
+    "item_id": "279577459",
+    "listing_url": "https://shopgoodwill.com/item/279577459",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/ab299717-181a-42bf-a082-40c1f2ac249fon23_09191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/0485bfde-5d1e-4344-a296-6f9236f90f86on23_09192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/e0cefc42-bb4f-42c0-a571-d26963121be9on23_09193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/2749b1f9-ce41-4839-9af1-df1630c37a2eon23_09194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/ed2497eb-96b8-4930-b6f4-78b0c089d92don23_09195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/4edcbb3b-25cc-4613-9bbf-0cef8f3461dcon23_09196.jpg"
+    ],
+    "description": "This is a polished agate geode slice with pink and gray hues. The piece shows chipping, scratches, scrapes, nicks, marks, dirt, dust, and other overall wear. Approximately 5.25”x3.5”x2”",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48560-5693377": {
+    "item_id": "ctbids-48560-5693377",
+    "listing_url": "https://ctbids.com/estate-sale/48560/item/5693377/Signed-Women-Of-The-Way-Figures-3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5693377_Ua6GqB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48943-5700093": {
+    "item_id": "ctbids-48943-5700093",
+    "listing_url": "https://ctbids.com/estate-sale/48943/item/5700093/Chicago-s-Christmas-Tree-Ship-DVD-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5700093_XCPGvS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47800-5701957": {
+    "item_id": "ctbids-47800-5701957",
+    "listing_url": "https://ctbids.com/estate-sale/47800/item/5701957/Warfare-and-Battle-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5701957_YpdAnp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48682-5681639": {
+    "item_id": "ctbids-48682-5681639",
+    "listing_url": "https://ctbids.com/estate-sale/48682/item/5681639/Animated-Lighted-Spider-Which-Actually-crawls-On-Web",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681639_QBLoq4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -643,111 +878,11 @@
       }
     ]
   },
-  "ctbids-48871-5704204": {
-    "item_id": "ctbids-48871-5704204",
-    "listing_url": "https://ctbids.com/estate-sale/48871/item/5704204/Homan-Silver-Plate-Bread-Dish-Monarch-Silver-Plate-Nut-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5704204_2i6iy7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49092-5719929": {
     "item_id": "ctbids-49092-5719929",
     "listing_url": "https://ctbids.com/estate-sale/49092/item/5719929/1907-Corks-Curls-University-Of-Virginia-Yearbook",
     "images": [
       "https://image.ctbids.com/seller/2026-10-09T692c1c/5719929_scqPOz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48871-5705756": {
-    "item_id": "ctbids-48871-5705756",
-    "listing_url": "https://ctbids.com/estate-sale/48871/item/5705756/7-Grape-Vine-Milk-Glass-Candy-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705756_pJ0APQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48560-5693377": {
-    "item_id": "ctbids-48560-5693377",
-    "listing_url": "https://ctbids.com/estate-sale/48560/item/5693377/Signed-Women-Of-The-Way-Figures-3",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5693377_Ua6GqB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48943-5700093": {
-    "item_id": "ctbids-48943-5700093",
-    "listing_url": "https://ctbids.com/estate-sale/48943/item/5700093/Chicago-s-Christmas-Tree-Ship-DVD-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5700093_XCPGvS.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -843,56 +978,6 @@
       }
     ]
   },
-  "ctbids-47800-5701957": {
-    "item_id": "ctbids-47800-5701957",
-    "listing_url": "https://ctbids.com/estate-sale/47800/item/5701957/Warfare-and-Battle-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5701957_YpdAnp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730599": {
-    "item_id": "ctbids-49158-5730599",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730599/Miniature-Bronze-Tone-Armor-Breastplate-on-Red-Wood-Base-Ornate-Floral-Relief-Lion-Mask",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730599_Hvu3gn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48929-5709072": {
     "item_id": "ctbids-48929-5709072",
     "listing_url": "https://ctbids.com/estate-sale/48929/item/5709072/1812-Classic-Head-US-Large-Cent-Very-Scarce-Date",
@@ -968,47 +1053,23 @@
       }
     ]
   },
-  "ctbids-48682-5681639": {
-    "item_id": "ctbids-48682-5681639",
-    "listing_url": "https://ctbids.com/estate-sale/48682/item/5681639/Animated-Lighted-Spider-Which-Actually-crawls-On-Web",
+  "280392175": {
+    "item_id": "280392175",
+    "listing_url": "https://shopgoodwill.com/item/280392175",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681639_QBLoq4.webp"
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-10-13/798cf75a-4ad4-47c8-a755-5aa17f2b32eesokc_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-10-13/1aebfaeb-7dbd-4ece-9797-2b9c6f2ff0ffsokc_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-10-13/427970d8-8d5e-4439-9f34-6a9a4d544eaasokc_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-10-13/80560d7b-aa5d-43eb-8697-80084ef813e0sokc_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-10-13/3f0cfc8b-4204-43f2-91b5-3d78e579566esokc_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-10-13/9bbfdbfb-08bc-4953-8fbc-a661d8837584sokc_10136.jpg"
     ],
-    "description": "",
+    "description": "You are purchasing a \"Agate Geode Slice on Black Metal Display Stand\" in \"Used\" condition.\nStriking agate geode on a metal stand, perfect as a statement décor piece for a shelf, desk, or entryway table. The polished face reveals shimmering crystals framed by rich, dark bands, while the sleek black stand gives it a modern gallery-style presentation. This single agate geode slice is mounted securely on a square metal base, making it easy to display as a natural focal point in your home or office. The unique crystal interior and organic shape ensure that this piece is truly one-of-a-kind and ideal for collectors, crystal lovers, or anyone wanting to add a touch of earthy elegance to their space. Keywords: agate geode, crystal decor, stone on stand, natural stone sculpture, geode slice, mineral display, home decor, office decor, tabletop sculpture\nCondition Notes:\nAgate geode slice securely mounted on a black metal stand. Geode face is polished with visible crystal formation and some natural inclusions and minor surface marks. Back side has a dark polished surface with scattered lighter mineral specks and some small chips or rough natural areas. Metal base shows scuffs, scratches, and some wear at the edges and on the underside. Rubber feet on the bottom of the base show light wear.\nAspects:\nCountry of Origin: Brazil",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279577459": {
-    "item_id": "279577459",
-    "listing_url": "https://shopgoodwill.com/item/279577459",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/ab299717-181a-42bf-a082-40c1f2ac249fon23_09191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/0485bfde-5d1e-4344-a296-6f9236f90f86on23_09192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/e0cefc42-bb4f-42c0-a571-d26963121be9on23_09193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/2749b1f9-ce41-4839-9af1-df1630c37a2eon23_09194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/ed2497eb-96b8-4930-b6f4-78b0c089d92don23_09195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-09-19/4edcbb3b-25cc-4613-9bbf-0cef8f3461dcon23_09196.jpg"
-    ],
-    "description": "This is a polished agate geode slice with pink and gray hues. The piece shows chipping, scratches, scrapes, nicks, marks, dirt, dust, and other overall wear. Approximately 5.25”x3.5”x2”",
-    "score_reasons": [
+      "Lower-priority term 'decor' in description (-8)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+1)"
+      "Score boundary adjustment (+9)"
     ],
     "hunt_scores": [
       {
@@ -1017,9 +1078,10 @@
         "score": 0,
         "relative_score": 0.0,
         "score_reasons": [
+          "Lower-priority term 'decor' in description (-8)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+1)"
+          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }

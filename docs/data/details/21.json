@@ -118,6 +118,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -125,11 +126,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -157,6 +159,35 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48871-5704164": {
+    "item_id": "ctbids-48871-5704164",
+    "listing_url": "https://ctbids.com/estate-sale/48871/item/5704164/Vintage-Japanese-Teapot-Creamer",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5704164_eivSsw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -245,33 +276,6 @@
       }
     ]
   },
-  "ctbids-48871-5704164": {
-    "item_id": "ctbids-48871-5704164",
-    "listing_url": "https://ctbids.com/estate-sale/48871/item/5704164/Vintage-Japanese-Teapot-Creamer",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5704164_eivSsw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48943-5698591": {
     "item_id": "ctbids-48943-5698591",
     "listing_url": "https://ctbids.com/estate-sale/48943/item/5698591/Basket-Decorative-Lot",
@@ -281,6 +285,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -288,60 +293,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49094-5696478": {
-    "item_id": "ctbids-49094-5696478",
-    "listing_url": "https://ctbids.com/estate-sale/49094/item/5696478/Suitehearts-Celia-Limited-Edition-Lithograph-23-70-Ed-274-Signed-By-Edna-Hibel",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5696478_tq6rsg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48871-5704211": {
-    "item_id": "ctbids-48871-5704211",
-    "listing_url": "https://ctbids.com/estate-sale/48871/item/5704211/Tiffin-Style-Amethyst-Black-Bud-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5704211_aNOoqH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -357,6 +313,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -364,9 +321,415 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48871-5709515": {
+    "item_id": "ctbids-48871-5709515",
+    "listing_url": "https://ctbids.com/estate-sale/48871/item/5709515/Black-Decker-Electric-Drill-with-Bits",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5709515_SPtgJQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49119-5714773": {
+    "item_id": "ctbids-49119-5714773",
+    "listing_url": "https://ctbids.com/estate-sale/49119/item/5714773/Bob-Gibson-Cardinals-Baseball-Cards-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5714773_B31lyl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730842": {
+    "item_id": "ctbids-49158-5730842",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730842/Christopher-Cross-The-Light-Is-On-Never-Be-the-Same-Warner-Bros-45-RPM-Single-WBS-49580",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5690470_JOjIkU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730797": {
+    "item_id": "ctbids-49158-5730797",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730797/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5433519_rNFw7F.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730663": {
+    "item_id": "ctbids-49158-5730663",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730663/Leroy-Anderson-and-His-Pops-Concert-Orchestra-Blue-Tango-Belle-of-the-Ball-Decca-45-RPM",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5674362_RzcMcn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730670": {
+    "item_id": "ctbids-49158-5730670",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730670/Ral-Donner-So-Close-to-Heaven-You-Don-t-Know-What-You-ve-Got-Until-You-Lose-It-No-5108",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5685586_ga9CjE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49094-5696478": {
+    "item_id": "ctbids-49094-5696478",
+    "listing_url": "https://ctbids.com/estate-sale/49094/item/5696478/Suitehearts-Celia-Limited-Edition-Lithograph-23-70-Ed-274-Signed-By-Edna-Hibel",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5696478_tq6rsg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48871-5704211": {
+    "item_id": "ctbids-48871-5704211",
+    "listing_url": "https://ctbids.com/estate-sale/48871/item/5704211/Tiffin-Style-Amethyst-Black-Bud-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5704211_aNOoqH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48682-5682619": {
+    "item_id": "ctbids-48682-5682619",
+    "listing_url": "https://ctbids.com/estate-sale/48682/item/5682619/Mikasa-Dishware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682619_szV1m1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48682-5682678": {
+    "item_id": "ctbids-48682-5682678",
+    "listing_url": "https://ctbids.com/estate-sale/48682/item/5682678/Game-Day-Drinkware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682678_KcM82d.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49040-5715671": {
+    "item_id": "ctbids-49040-5715671",
+    "listing_url": "https://ctbids.com/estate-sale/49040/item/5715671/Cracker-Barrel-Acrylic-Pineapple-Glitter-Globe-Angel-Figurine-Amber-Glass-Dish-Photo-Album",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5715671_RpUMJ2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730339": {
+    "item_id": "ctbids-49158-5730339",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730339/Martha-Stewart-Living-6-Piece-Red-Cardinal-Bird-Clip-On-Ornaments-Shatter-Resistant-Glitter-Wings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730339_DUBtKl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730381": {
+    "item_id": "ctbids-49158-5730381",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730381/Martha-Stewart-Living-14-in-Cardinal-Wreath-Hanger-Glittery-Gold-Over-the-Door-Hanger-with-Magnetic",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730381_AcV8Cq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48821-5710903": {
+    "item_id": "ctbids-48821-5710903",
+    "listing_url": "https://ctbids.com/estate-sale/48821/item/5710903/Games-Cards-Bingo-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5710903_SdU5nW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48560-5688798": {
+    "item_id": "ctbids-48560-5688798",
+    "listing_url": "https://ctbids.com/estate-sale/48560/item/5688798/Villeroy-Boch-Tureen-And-Espresso-Cups-Saucers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-30T072869/5688798_tjpoPe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -404,106 +767,6 @@
     "listing_url": "https://ctbids.com/estate-sale/47800/item/5692013/Assorted-Video-Games-And-Accessories",
     "images": [
       "https://image.ctbids.com/seller/2026-10-01T7f509f/5692013_oWf6SR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48682-5682619": {
-    "item_id": "ctbids-48682-5682619",
-    "listing_url": "https://ctbids.com/estate-sale/48682/item/5682619/Mikasa-Dishware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682619_szV1m1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48682-5682678": {
-    "item_id": "ctbids-48682-5682678",
-    "listing_url": "https://ctbids.com/estate-sale/48682/item/5682678/Game-Day-Drinkware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682678_KcM82d.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49040-5715671": {
-    "item_id": "ctbids-49040-5715671",
-    "listing_url": "https://ctbids.com/estate-sale/49040/item/5715671/Cracker-Barrel-Acrylic-Pineapple-Glitter-Globe-Angel-Figurine-Amber-Glass-Dish-Photo-Album",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5715671_RpUMJ2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48871-5709515": {
-    "item_id": "ctbids-48871-5709515",
-    "listing_url": "https://ctbids.com/estate-sale/48871/item/5709515/Black-Decker-Electric-Drill-with-Bits",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5709515_SPtgJQ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -574,31 +837,6 @@
       }
     ]
   },
-  "ctbids-49119-5714773": {
-    "item_id": "ctbids-49119-5714773",
-    "listing_url": "https://ctbids.com/estate-sale/49119/item/5714773/Bob-Gibson-Cardinals-Baseball-Cards-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5714773_B31lyl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48929-5707870": {
     "item_id": "ctbids-48929-5707870",
     "listing_url": "https://ctbids.com/estate-sale/48929/item/5707870/4-Partial-Rolls-of-Wheat-Cents-38-1951-D-33-1953-D-30-1954-D-36-1955-S",
@@ -624,136 +862,11 @@
       }
     ]
   },
-  "ctbids-49158-5730842": {
-    "item_id": "ctbids-49158-5730842",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730842/Christopher-Cross-The-Light-Is-On-Never-Be-the-Same-Warner-Bros-45-RPM-Single-WBS-49580",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5690470_JOjIkU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730339": {
-    "item_id": "ctbids-49158-5730339",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730339/Martha-Stewart-Living-6-Piece-Red-Cardinal-Bird-Clip-On-Ornaments-Shatter-Resistant-Glitter-Wings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730339_DUBtKl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730381": {
-    "item_id": "ctbids-49158-5730381",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730381/Martha-Stewart-Living-14-in-Cardinal-Wreath-Hanger-Glittery-Gold-Over-the-Door-Hanger-with-Magnetic",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730381_AcV8Cq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48560-5688761": {
     "item_id": "ctbids-48560-5688761",
     "listing_url": "https://ctbids.com/estate-sale/48560/item/5688761/Swarovski-Ornaments-And-Motorcycle",
     "images": [
       "https://image.ctbids.com/seller/2026-09-30T072869/5688761_0AWBu8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730797": {
-    "item_id": "ctbids-49158-5730797",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730797/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5433519_rNFw7F.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730663": {
-    "item_id": "ctbids-49158-5730663",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730663/Leroy-Anderson-and-His-Pops-Concert-Orchestra-Blue-Tango-Belle-of-the-Ball-Decca-45-RPM",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5674362_RzcMcn.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -824,81 +937,6 @@
       }
     ]
   },
-  "ctbids-48821-5710903": {
-    "item_id": "ctbids-48821-5710903",
-    "listing_url": "https://ctbids.com/estate-sale/48821/item/5710903/Games-Cards-Bingo-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5710903_SdU5nW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730670": {
-    "item_id": "ctbids-49158-5730670",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730670/Ral-Donner-So-Close-to-Heaven-You-Don-t-Know-What-You-ve-Got-Until-You-Lose-It-No-5108",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5685586_ga9CjE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48560-5688798": {
-    "item_id": "ctbids-48560-5688798",
-    "listing_url": "https://ctbids.com/estate-sale/48560/item/5688798/Villeroy-Boch-Tureen-And-Espresso-Cups-Saucers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-30T072869/5688798_tjpoPe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "279902542": {
     "item_id": "279902542",
     "listing_url": "https://shopgoodwill.com/item/279902542",
@@ -916,9 +954,10 @@
       "Lower-priority term 'decorative' in description (-8)",
       "Lower-priority term 'dyed' in description (-18)",
       "Lower-priority term 'metaphysical' in description (-10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+43)"
+      "Score boundary adjustment (+39)"
     ],
     "hunt_scores": [
       {
@@ -933,9 +972,10 @@
           "Lower-priority term 'decorative' in description (-8)",
           "Lower-priority term 'dyed' in description (-18)",
           "Lower-priority term 'metaphysical' in description (-10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+43)"
+          "Score boundary adjustment (+39)"
         ],
         "matched_keywords": []
       }
