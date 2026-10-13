@@ -37,7 +37,7 @@
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'sealed' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -45,13 +45,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 22,
-        "relative_score": 0.647,
+        "score": 20,
+        "relative_score": 0.588,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'sealed' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -152,6 +152,35 @@
       }
     ]
   },
+  "ctbids-49158-5730106": {
+    "item_id": "ctbids-49158-5730106",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730106/Heart-Filigree-Votive-Candle-Holder-with-Scalloped-Silver-Tone-Base-Clear-Glass-Insert-Vintage-Sty",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730106_nErK3w.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "279891258": {
     "item_id": "279891258",
     "listing_url": "https://shopgoodwill.com/item/279891258",
@@ -217,93 +246,6 @@
       }
     ]
   },
-  "ctbids-48821-5705433": {
-    "item_id": "ctbids-48821-5705433",
-    "listing_url": "https://ctbids.com/estate-sale/48821/item/5705433/Set-of-6-Antique-Carl-Tielsch-Altwasser-German-Porcelain-Plates-Floral-Garland-Design-c-1875-1900",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705433_7iSbbA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49040-5715865": {
-    "item_id": "ctbids-49040-5715865",
-    "listing_url": "https://ctbids.com/estate-sale/49040/item/5715865/Vintage-Iron-Cannon-and-Wooden-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5715865_RjSh1q.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730106": {
-    "item_id": "ctbids-49158-5730106",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730106/Heart-Filigree-Votive-Candle-Holder-with-Scalloped-Silver-Tone-Base-Clear-Glass-Insert-Vintage-Sty",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730106_nErK3w.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47800-5706241": {
     "item_id": "ctbids-47800-5706241",
     "listing_url": "https://ctbids.com/estate-sale/47800/item/5706241/Spring-Collection-Of-Scarves",
@@ -351,6 +293,64 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49040-5715865": {
+    "item_id": "ctbids-49040-5715865",
+    "listing_url": "https://ctbids.com/estate-sale/49040/item/5715865/Vintage-Iron-Cannon-and-Wooden-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5715865_RjSh1q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49158-5730604": {
+    "item_id": "ctbids-49158-5730604",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730604/Vintage-My-Own-Salad-Dressing-Bottle-with-Cork-Old-Secret-Family-Recipe-White-with-Red-Green",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730604_ZQjNuR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -475,7 +475,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -487,7 +487,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -576,6 +576,33 @@
       }
     ]
   },
+  "ctbids-49158-5730296": {
+    "item_id": "ctbids-49158-5730296",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730296/Enesco-1993-Christmas-Means-Friends-Porcelain-Ornament-Round-Plate-Style-Holly-Wreath-Two-Dolls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730296_qwm3sf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280076677": {
     "item_id": "280076677",
     "listing_url": "https://shopgoodwill.com/item/280076677",
@@ -620,33 +647,6 @@
       }
     ]
   },
-  "ctbids-49158-5730296": {
-    "item_id": "ctbids-49158-5730296",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730296/Enesco-1993-Christmas-Means-Friends-Porcelain-Ornament-Round-Plate-Style-Holly-Wreath-Two-Dolls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730296_qwm3sf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48943-5700129": {
     "item_id": "ctbids-48943-5700129",
     "listing_url": "https://ctbids.com/estate-sale/48943/item/5700129/Bella-Plain-Hilary-Rodham-Clinton-and-More",
@@ -667,83 +667,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49158-5730537": {
-    "item_id": "ctbids-49158-5730537",
-    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730537/USPS-Bugs-Bunny-32-Stamp-Booklet-Looney-Tunes-Pane-of-10-Self-Adhesive-Stamps-1997",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730537_22Jety.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49094-5686379": {
-    "item_id": "ctbids-49094-5686379",
-    "listing_url": "https://ctbids.com/estate-sale/49094/item/5686379/LLADRO-5167-JESUS-BRAND-NEW-IN-BOX-STANDING-LARGE-15-RELIGIOUS-WOODEN-BASE-F-S",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-03T35dc9e/5686379_xuqsxY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49094-5689143": {
-    "item_id": "ctbids-49094-5689143",
-    "listing_url": "https://ctbids.com/estate-sale/49094/item/5689143/Itzchak-Tarkay-Serigraph-Monique-And-Mono-2001",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5689143_ImHmgs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -801,36 +724,31 @@
       }
     ]
   },
-  "280399366": {
-    "item_id": "280399366",
-    "listing_url": "https://shopgoodwill.com/item/280399366",
+  "280417333": {
+    "item_id": "280417333",
+    "listing_url": "https://shopgoodwill.com/item/280417333",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/1a136d23-5751-4ac2-9641-aa0251c68caemson_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/9589caf9-467d-48c9-be3b-685d587938a7mson_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/15e8ca05-b915-45a1-a3a8-9016777d03a2mson_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/ecf28f16-d6a0-42cf-882e-a8c990bb3ad7mson_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/69023e01-a2c1-4d9c-80b2-19ceaa5056d2mson_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/61106151-e6f5-494b-b015-34133c76f5a9mson_10136.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/831ceb46-4f69-4144-ab4e-0f83661db5b2labs_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/ca9d5631-d09b-482b-b69e-9fb2a90ef33elabs_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/6df28c5a-7059-4ba0-a7f3-268a4082650elabs_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/9e925619-33f9-4d78-b674-958def6b738elabs_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/f18bcf90-9b74-47f0-a8e9-f1931c7b6c0dlabs_10135.jpg"
     ],
-    "description": "Material(s):\nStone\nCondition:\nMinimal signs of use",
+    "description": "Lilla Clasica Handmade Tobacco Pipe\nHand-Carved Wooden Pipe with Decorative Accents\nWood, Feathers, and Beads, Approximately 16 Inches Long\nA fine hand-made tobacco pipe from the Lilla Clasica collection, featuring a long, elegant churchwarden-style silhouette. This piece combines traditional woodworking with ornamental indigenous-inspired aesthetics, making it a striking display piece or a unique addition to a pipe collection. The pipe is presented in its original satin-lined gift box, highlighting its status as a crafted specialty item.\nHand-carved wooden bowl with a textured, scale-like pattern and deep polished finish\nExtra-long wooden stem terminating in a black tapered mouthpiece\nDecorative cord wrap adorned with natural-toned beads and dark brown feathers\nIncludes original maroon presentation box with a gold-tone brand logo and yellow satin lining\nApproximately 16 inches in total length\nCondition:\nThe pipe is in excellent condition and appears unsmoked, with no residue or charring inside the bowl. The wood finish remains bright and glossy across both the bowl and stem. Decorative feathers and beads are fully intact and securely attached. The presentation box is structurally sound with minor shelf wear on the exterior; the interior lining is clean and vibrant.\nTHANK YOU FOR YOUR PURCHASE!\nIf you’re happy and you know it, please leave a 5-star rating! If there is a problem with your order, please contact us via Shop Goodwill before opening returns/claims. We strive to return all messages within one business day.\nPlease click the shipping estimate link in the listing to get the shipping costs directly from FedEx.  There will be no discounts or price changes after an auction has ended.\nOur shipping team works hard to get out all orders as quickly as possible, that being said it may take up to 5 business days after payment for your order to ship out.  Once it ships out you will receive tracking information.\n***IMPORTANT*** If your item was damaged in transit, do not throw away anything, including the box or packing materials until we have authorized you to do so. Photos will be required to file insurance claims.\nOur Business hours: Monday - Friday  8:00 am to 4:00 pm Central\nNew items and unique treasures are added daily, come back soon!",
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
+      "Opportunity term 'collection' in description (+7)",
+      "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 8,
+        "relative_score": 0.229,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
+          "Opportunity term 'collection' in description (+7)",
+          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -998,31 +916,6 @@
       }
     ]
   },
-  "ctbids-48821-5710766": {
-    "item_id": "ctbids-48821-5710766",
-    "listing_url": "https://ctbids.com/estate-sale/48821/item/5710766/Bose-Wave-Music-System-AWRCC2-with-Remote-Companion-2-Series-II-Speakers-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5710766_4CdMLM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48682-5677751": {
     "item_id": "ctbids-48682-5677751",
     "listing_url": "https://ctbids.com/estate-sale/48682/item/5677751/Various-Men-s-Watches",
@@ -1123,6 +1016,67 @@
       }
     ]
   },
+  "ctbids-49158-5730537": {
+    "item_id": "ctbids-49158-5730537",
+    "listing_url": "https://ctbids.com/estate-sale/49158/item/5730537/USPS-Bugs-Bunny-32-Stamp-Booklet-Looney-Tunes-Pane-of-10-Self-Adhesive-Stamps-1997",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730537_22Jety.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280399366": {
+    "item_id": "280399366",
+    "listing_url": "https://shopgoodwill.com/item/280399366",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/1a136d23-5751-4ac2-9641-aa0251c68caemson_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/9589caf9-467d-48c9-be3b-685d587938a7mson_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/15e8ca05-b915-45a1-a3a8-9016777d03a2mson_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/ecf28f16-d6a0-42cf-882e-a8c990bb3ad7mson_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/69023e01-a2c1-4d9c-80b2-19ceaa5056d2mson_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/61106151-e6f5-494b-b015-34133c76f5a9mson_10136.jpg"
+    ],
+    "description": "Material(s):\nStone\nCondition:\nMinimal signs of use",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280127650": {
     "item_id": "280127650",
     "listing_url": "https://shopgoodwill.com/item/280127650",
@@ -1185,6 +1139,38 @@
           "27.5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+23)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280433081": {
+    "item_id": "280433081",
+    "listing_url": "https://shopgoodwill.com/item/280433081",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-13/a4b075fc-e00a-44b6-aaac-72234ce6f875rton_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-13/436e4fb9-bfc1-46aa-9ba4-c8c6cc30ccacrton_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-13/93cf5e84-9c5f-4cbc-bba2-21ebe0a30a68rton_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-13/77bd42b2-9553-410f-80ef-115cfa18bdb6rton_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-13/50ea790f-b132-45f8-a208-328f91e8de84rton_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-13/12e947aa-48cf-4436-a281-5f50a4b4f774rton_10136.jpg"
+    ],
+    "description": "Item Description:\nPolished Slice Of A Geode, Quartz Agate\nApproximate Measurements (inches):\n7.25 x 6.5 x 0.25\nWeight (in lbs):\n0.9\nCondition:\nGood. Wear includes dust/dirt, scuffs\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }
