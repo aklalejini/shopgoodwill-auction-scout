@@ -58,6 +58,7 @@
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'lot' in title (+2)",
       "Target keyword 'fluorite' in title (+9)",
+      "0 bids near close (+4)",
       "Known shipping cost at or below $8 (+4)",
       "Base score (+5)"
     ],
@@ -65,13 +66,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 35,
+        "relative_score": 1.167,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'lot' in title (+2)",
           "Target keyword 'fluorite' in title (+9)",
+          "0 bids near close (+4)",
           "Known shipping cost at or below $8 (+4)",
           "Base score (+5)"
         ],
@@ -142,6 +144,7 @@
       "High-value signal 'strong blue glass color' in image color analysis (+20)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -149,8 +152,8 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 20,
-        "relative_score": 0.667,
+        "score": 25,
+        "relative_score": 0.833,
         "score_reasons": [
           "Opportunity term 'see photos' in description (+4)",
           "Lower-priority term 'chipped' in description (-17)",
@@ -158,6 +161,7 @@
           "High-value signal 'strong blue glass color' in image color analysis (+20)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -194,35 +198,6 @@
       }
     ]
   },
-  "ctbids-47070-5712843": {
-    "item_id": "ctbids-47070-5712843",
-    "listing_url": "https://ctbids.com/estate-sale/47070/item/5712843/Three-Vintage-Hardcover-Classics-Zola-Flaubert-Arabian-Nights",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5712843_5VHYI2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47037-5704994": {
     "item_id": "ctbids-47037-5704994",
     "listing_url": "https://ctbids.com/estate-sale/47037/item/5704994/Vintage-Judy-Jetson-Midge-Skipper-Paper-Dolls",
@@ -245,6 +220,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48896-5617203": {
+    "item_id": "ctbids-48896-5617203",
+    "listing_url": "https://ctbids.com/estate-sale/48896/item/5617203/Dave-Busters-Star-Trek-Arcade-Cards-RARE-Foil-Tribbles-Scotty-Lot-of-3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617203_Zc1Pbo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -287,16 +291,15 @@
       }
     ]
   },
-  "ctbids-48896-5617203": {
-    "item_id": "ctbids-48896-5617203",
-    "listing_url": "https://ctbids.com/estate-sale/48896/item/5617203/Dave-Busters-Star-Trek-Arcade-Cards-RARE-Foil-Tribbles-Scotty-Lot-of-3",
+  "ctbids-49043-5707088": {
+    "item_id": "ctbids-49043-5707088",
+    "listing_url": "https://ctbids.com/estate-sale/49043/item/5707088/Vintage-Seiko-SQ-Day-Date-Gold-Tone-Two-Tone-Tank-Quartz-Watches",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617203_Zc1Pbo.webp"
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5707088_f8LOvc.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -304,11 +307,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -316,11 +318,11 @@
       }
     ]
   },
-  "ctbids-49043-5707088": {
-    "item_id": "ctbids-49043-5707088",
-    "listing_url": "https://ctbids.com/estate-sale/49043/item/5707088/Vintage-Seiko-SQ-Day-Date-Gold-Tone-Two-Tone-Tank-Quartz-Watches",
+  "ctbids-47070-5712843": {
+    "item_id": "ctbids-47070-5712843",
+    "listing_url": "https://ctbids.com/estate-sale/47070/item/5712843/Three-Vintage-Hardcover-Classics-Zola-Flaubert-Arabian-Nights",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5707088_f8LOvc.webp"
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5712843_5VHYI2.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -613,33 +615,6 @@
       }
     ]
   },
-  "ctbids-48906-5720042": {
-    "item_id": "ctbids-48906-5720042",
-    "listing_url": "https://ctbids.com/estate-sale/48906/item/5720042/Painted-And-Beaded-Leather-Mask",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5720042_seG96E.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48562-5710583": {
     "item_id": "ctbids-48562-5710583",
     "listing_url": "https://ctbids.com/estate-sale/48562/item/5710583/Cigar-Boxes",
@@ -845,6 +820,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48582/item/5661569/Light-Blue-Art-Glass-with-Fluted-Rim-Handkerchief-Vase",
     "images": [
       "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5661569_6UtVfl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48906-5720042": {
+    "item_id": "ctbids-48906-5720042",
+    "listing_url": "https://ctbids.com/estate-sale/48906/item/5720042/Painted-And-Beaded-Leather-Mask",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5720042_seG96E.webp"
     ],
     "description": "",
     "score_reasons": [

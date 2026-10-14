@@ -51,6 +51,7 @@
       "Opportunity term 'lot' in description (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'painted' in description (-15)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "5.5 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -59,14 +60,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 16,
-        "relative_score": 0.533,
+        "score": 20,
+        "relative_score": 0.667,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in description (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'painted' in description (-15)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "5.5 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -305,39 +307,6 @@
       }
     ]
   },
-  "279370366": {
-    "item_id": "279370366",
-    "listing_url": "https://shopgoodwill.com/item/279370366",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "This lot includes four vintage used vacuum tubes from National brand: 2C39 and 7289 models. Made in the USA, these tubes feature metal and ceramic construction. They were typically used as radio frequency power amplifiers in industrial, military, and amateur radio equipment. Tubes show signs of wear and oxidation, with handwritten notes on bases indicating previous use and condition, such as 'R. Final 2C39 5-20-85 USED' and '+V.G.++'. All tubes appear structurally intact but are sold as used and may require testing or refurbishment before operational use. Suitable for collectors, restorers, or those needing period-correct replacements for vintage RF or transmitter gear. not tested",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+6)",
-      "Opportunity term 'vintage' in title (+4)",
-      "Lower-priority term 'used' in description (-4)",
-      "Only 1 listing photo (-12)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 9,
-        "relative_score": 0.281,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+6)",
-          "Opportunity term 'vintage' in title (+4)",
-          "Lower-priority term 'used' in description (-4)",
-          "Only 1 listing photo (-12)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49201-5735621": {
     "item_id": "ctbids-49201-5735621",
     "listing_url": "https://ctbids.com/estate-sale/49201/item/5735621/The-Kingston-Trio-El-Matador-Home-from-the-Hill-Capitol-45-RPM-Single-4338",
@@ -441,6 +410,39 @@
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279370366": {
+    "item_id": "279370366",
+    "listing_url": "https://shopgoodwill.com/item/279370366",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "This lot includes four vintage used vacuum tubes from National brand: 2C39 and 7289 models. Made in the USA, these tubes feature metal and ceramic construction. They were typically used as radio frequency power amplifiers in industrial, military, and amateur radio equipment. Tubes show signs of wear and oxidation, with handwritten notes on bases indicating previous use and condition, such as 'R. Final 2C39 5-20-85 USED' and '+V.G.++'. All tubes appear structurally intact but are sold as used and may require testing or refurbishment before operational use. Suitable for collectors, restorers, or those needing period-correct replacements for vintage RF or transmitter gear. not tested",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+6)",
+      "Opportunity term 'vintage' in title (+4)",
+      "Lower-priority term 'used' in description (-4)",
+      "Only 1 listing photo (-12)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 9,
+        "relative_score": 0.281,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+6)",
+          "Opportunity term 'vintage' in title (+4)",
+          "Lower-priority term 'used' in description (-4)",
+          "Only 1 listing photo (-12)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

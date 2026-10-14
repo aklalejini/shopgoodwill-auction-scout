@@ -23,7 +23,6 @@
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'art pottery' in title (+14)",
-      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -31,13 +30,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 33,
-        "relative_score": 0.971,
+        "score": 31,
+        "relative_score": 0.912,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'art pottery' in title (+14)",
-          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -165,35 +163,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48777-5696414": {
-    "item_id": "ctbids-48777-5696414",
-    "listing_url": "https://ctbids.com/estate-sale/48777/item/5696414/Vintage-Royal-China-Bowl-Floral-Salad-Serving-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5696414_Vonp1N.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -397,6 +366,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48896/item/5617385/Vintage-C-sar-Latex-Caricature-Mask-With-Hair-Made-In-France-Retro-Halloween-Prop",
     "images": [
       "https://image.ctbids.com/seller/2026-09-10Tf26f1b/5617385_JkR4sJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48777-5696414": {
+    "item_id": "ctbids-48777-5696414",
+    "listing_url": "https://ctbids.com/estate-sale/48777/item/5696414/Vintage-Royal-China-Bowl-Floral-Salad-Serving-Bowls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5696414_Vonp1N.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1145,6 +1141,77 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+9)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280524598": {
+    "item_id": "280524598",
+    "listing_url": "https://shopgoodwill.com/item/280524598",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/0d1a7677-66de-49b1-a393-a07459795b05mmag_10141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/3fe140ab-04d6-4d8c-8b26-ea929cccb08cmmag_10142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/bb084b2d-328f-4f38-93f7-3d3b37175b0fmmag_10143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/eea88f0d-aa82-486d-b0ee-9ade6038ab14mmag_10144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/cda7afe0-7b67-4ced-bf12-b1056c22ac44mmag_10145.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/71cf08fe-ff25-4ddd-b2ca-3f4b9c386897mmag_10146.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/e0b00b40-2549-43e3-9191-dcebfbc70da9mmag_10147.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/61971577-f23e-41e2-8fb8-51849b365b06mmag_10148.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/407e53bd-ef25-48e6-b9d4-cdc4b811dc6ammag_10149.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/b4d7cc51-da6c-492b-b0b2-cd9e5d0fbed8mmag_101410.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/a9d6bd4a-654e-4561-9e8e-1492aef018d1mmag_101411.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-14/6f06e18a-a5e1-4209-a0c9-e54af939080fmmag_101412.jpg"
+    ],
+    "description": "Vintage Rain Mineral Oil Motion Table Lamp w/Nude Greek Goddess- Works See INFO\nBrand:\nN/A\nStyle:\nVintage\nType:\nLamp\nColor:\nTan\nMaterial:\nPlastic\nCondition: Fair - shows sign of wear - One column is missing Paint -Back section strings (5) do NOT work. We will remove as much of the oil as possible before shipping! OIL AND LIGHT BULB NOT INCLUDED\nPICTURES ARE A PART OF THE DESCRIPTION; ASK ALL QUESTIONS PRIOR TO BIDDING",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "$6.00 handling charge (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "$6.00 handling charge (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280550223": {
+    "item_id": "280550223",
+    "listing_url": "https://shopgoodwill.com/item/280550223",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-10-14/727c1f30-948e-4f91-aaba-753f1b7ea405gewc_10141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-10-14/a57e6413-5438-4247-aeb7-7f69c4911d02gewc_10142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-10-14/8f5ab709-306b-43f3-97af-b9a965147b90gewc_10143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-10-14/d26b89bd-7015-4c32-beab-5c546243a84cgewc_10144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/376/Items/2026-10-14/bd644360-e9da-4412-bff4-b9f3e09d99b5gewc_10145.jpg"
+    ],
+    "description": "Title\n: Polished Crystal And Mineral Pieces\nGood: Item is in Good Condition showing some signs of use. Gently Worn/Used. Please bid accordingly.\ndimensions:\n5 inches in length by 3 inches wide by 6 inches in height.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }

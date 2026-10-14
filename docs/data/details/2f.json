@@ -13,6 +13,7 @@
       "High-value signal 'purple glass color' in image color analysis (+22)",
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -20,12 +21,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 53,
-        "relative_score": 1.767,
+        "score": 55,
+        "relative_score": 1.833,
         "score_reasons": [
           "High-value signal 'purple glass color' in image color analysis (+22)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -107,6 +109,33 @@
       }
     ]
   },
+  "ctbids-48835-5702843": {
+    "item_id": "ctbids-48835-5702843",
+    "listing_url": "https://ctbids.com/estate-sale/48835/item/5702843/Siam-Sterling-Silver-Bracelets-Ring-Earrings-78g-Total",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5702843_RaR0Wj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280168296": {
     "item_id": "280168296",
     "listing_url": "https://shopgoodwill.com/item/280168296",
@@ -137,28 +166,37 @@
       }
     ]
   },
-  "ctbids-48835-5702843": {
-    "item_id": "ctbids-48835-5702843",
-    "listing_url": "https://ctbids.com/estate-sale/48835/item/5702843/Siam-Sterling-Silver-Bracelets-Ring-Earrings-78g-Total",
+  "279732882": {
+    "item_id": "279732882",
+    "listing_url": "https://shopgoodwill.com/item/279732882",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5702843_RaR0Wj.webp"
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/e8a283f3-cfad-49e6-adc1-0da1cbaddcc6gwny_10071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/1c576e4c-794a-4506-9465-57caf4884c21gwny_10072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/df6af12e-3834-465a-ad20-7be6234a6230gwny_10073.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/711d2558-cf1f-44eb-8f64-73e52ce235adgwny_10074.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/50e7fa69-5ced-48ea-8732-82bc2422a012gwny_10075.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/cf663e36-22a1-4b73-a021-9336fe0da352gwny_10076.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/7332b7a0-5bc1-41b9-9002-54fdaad9f110gwny_10077.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/7508db30-aeb1-428e-b41a-11971d142232gwny_10078.jpg"
     ],
-    "description": "",
+    "description": "Vintage Japanese butane lighters featuring a pipe-themed design and a textured gold-tone finish. These collectible lighters showcase classic mid-century styling and adjustable flame settings.\nIncludes two vintage lighters made in Japan.\nOne lighter features a black finish with a gold-tone pipe graphic.\nOne lighter features a textured gold-tone finish with a crown logo.\nBoth lighters include adjustable flame height controls on the base.\nWeight: 3.447 grams (as shown on scale).\nCondition:\nThese are pre-owned vintage lighters. The black lighter shows surface wear and minor scratches on the finish. The gold-tone lighter shows light surface wear consistent with age. Please see photos for details.\nProcessor notes:\nGold filled lighters. Untested. Sold as-is.",
     "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 18,
+        "relative_score": 0.514,
         "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -219,40 +257,6 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279732882": {
-    "item_id": "279732882",
-    "listing_url": "https://shopgoodwill.com/item/279732882",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/e8a283f3-cfad-49e6-adc1-0da1cbaddcc6gwny_10071.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/1c576e4c-794a-4506-9465-57caf4884c21gwny_10072.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/df6af12e-3834-465a-ad20-7be6234a6230gwny_10073.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/711d2558-cf1f-44eb-8f64-73e52ce235adgwny_10074.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/50e7fa69-5ced-48ea-8732-82bc2422a012gwny_10075.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/cf663e36-22a1-4b73-a021-9336fe0da352gwny_10076.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/7332b7a0-5bc1-41b9-9002-54fdaad9f110gwny_10077.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/33/Items/2026-10-07/7508db30-aeb1-428e-b41a-11971d142232gwny_10078.jpg"
-    ],
-    "description": "Vintage Japanese butane lighters featuring a pipe-themed design and a textured gold-tone finish. These collectible lighters showcase classic mid-century styling and adjustable flame settings.\nIncludes two vintage lighters made in Japan.\nOne lighter features a black finish with a gold-tone pipe graphic.\nOne lighter features a textured gold-tone finish with a crown logo.\nBoth lighters include adjustable flame height controls on the base.\nWeight: 3.447 grams (as shown on scale).\nCondition:\nThese are pre-owned vintage lighters. The black lighter shows surface wear and minor scratches on the finish. The gold-tone lighter shows light surface wear consistent with age. Please see photos for details.\nProcessor notes:\nGold filled lighters. Untested. Sold as-is.",
-    "score_reasons": [
-      "Generic estate pipe lot may hide valuable maker stamps (+15)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 16,
-        "relative_score": 0.457,
-        "score_reasons": [
-          "Generic estate pipe lot may hide valuable maker stamps (+15)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -491,60 +495,6 @@
       }
     ]
   },
-  "ctbids-49201-5735047": {
-    "item_id": "ctbids-49201-5735047",
-    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735047/Primagera-White-Porcelain-Rectangular-Serving-Dish-Scalloped-Wavy-Rim-Made-in-Portugal-Microwave",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735047_7OkkZb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49225-5734989": {
-    "item_id": "ctbids-49225-5734989",
-    "listing_url": "https://ctbids.com/estate-sale/49225/item/5734989/Pyramid-Jumbo-Satin-Sheen-Christmas-Ornaments-Box-of-24-Red-Thread-Wrapped-Balls-Rauch-In",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5734989_Q4484O.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49201-5735522": {
     "item_id": "ctbids-49201-5735522",
     "listing_url": "https://ctbids.com/estate-sale/49201/item/5735522/Miniature-Wooden-Apple-Bushel-Basket-Ornament-Red-Painted-Apples-Brass-Handles-Red-Cord-Hanger",
@@ -653,15 +603,15 @@
       }
     ]
   },
-  "ctbids-48794-5684207": {
-    "item_id": "ctbids-48794-5684207",
-    "listing_url": "https://ctbids.com/estate-sale/48794/item/5684207/Framed-Floral-Print",
+  "ctbids-49201-5735047": {
+    "item_id": "ctbids-49201-5735047",
+    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735047/Primagera-White-Porcelain-Rectangular-Serving-Dish-Scalloped-Wavy-Rim-Made-in-Portugal-Microwave",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5684207_c6Bvr3.webp"
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735047_7OkkZb.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -672,7 +622,34 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49225-5734989": {
+    "item_id": "ctbids-49225-5734989",
+    "listing_url": "https://ctbids.com/estate-sale/49225/item/5734989/Pyramid-Jumbo-Satin-Sheen-Christmas-Ornaments-Box-of-24-Red-Thread-Wrapped-Balls-Rauch-In",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5734989_Q4484O.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -737,6 +714,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48846/item/5703191/Austin-Sculpture-Rearing-Stallion",
     "images": [
       "https://image.ctbids.com/seller/2026-10-07T1314d3/5703191_NAx7Jv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48794-5684207": {
+    "item_id": "ctbids-48794-5684207",
+    "listing_url": "https://ctbids.com/estate-sale/48794/item/5684207/Framed-Floral-Print",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5684207_c6Bvr3.webp"
     ],
     "description": "",
     "score_reasons": [
