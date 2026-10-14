@@ -18,6 +18,7 @@
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'ballpoint' in title (-4)",
       "Pen-and-pencil set resale premium (+10)",
+      "0 bids near close (+4)",
       "Known shipping cost at or below $8 (+4)",
       "Base score (+5)"
     ],
@@ -25,8 +26,8 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 28,
-        "relative_score": 0.8,
+        "score": 32,
+        "relative_score": 0.914,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'lot' in description (+5)",
@@ -34,6 +35,7 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'ballpoint' in title (-4)",
           "Pen-and-pencil set resale premium (+10)",
+          "0 bids near close (+4)",
           "Known shipping cost at or below $8 (+4)",
           "Base score (+5)"
         ],
@@ -155,6 +157,64 @@
       }
     ]
   },
+  "ctbids-49225-5735330": {
+    "item_id": "ctbids-49225-5735330",
+    "listing_url": "https://ctbids.com/estate-sale/49225/item/5735330/Vintage-Clear-Pressed-Glass-Bud-Vase-Ribbed-Fan-Pattern-Approx-7-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5700565_5lyFq7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49201-5735404": {
+    "item_id": "ctbids-49201-5735404",
+    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735404/Vintage-Clear-Glass-Goblet-Starburst-Ribbed-Footed-Base",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5625492_YC0CjZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47037-5674635": {
     "item_id": "ctbids-47037-5674635",
     "listing_url": "https://ctbids.com/estate-sale/47037/item/5674635/Puzzle-Collection-3",
@@ -164,6 +224,36 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48896-5692194": {
+    "item_id": "ctbids-48896-5692194",
+    "listing_url": "https://ctbids.com/estate-sale/48896/item/5692194/1986-Topps-Record-Breaker-Baseball-Card-Lot-of-5-Pete-Rose-Dwight-Gooden-Phil-Niekro-1986-Topps-Rec",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692194_SHGmje.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -174,7 +264,8 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -202,60 +293,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49225-5735330": {
-    "item_id": "ctbids-49225-5735330",
-    "listing_url": "https://ctbids.com/estate-sale/49225/item/5735330/Vintage-Clear-Pressed-Glass-Bud-Vase-Ribbed-Fan-Pattern-Approx-7-Tall",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5700565_5lyFq7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49201-5735404": {
-    "item_id": "ctbids-49201-5735404",
-    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735404/Vintage-Clear-Glass-Goblet-Starburst-Ribbed-Footed-Base",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5625492_YC0CjZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -371,6 +408,33 @@
       }
     ]
   },
+  "ctbids-49201-5735636": {
+    "item_id": "ctbids-49201-5735636",
+    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735636/Private-Dock-Wooden-Sign-Whitewashed-Plank-Style-with-Navy-Stenciled-Lettering-Nautical-Lake-House",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735636_XfVLq2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48846-5723010": {
     "item_id": "ctbids-48846-5723010",
     "listing_url": "https://ctbids.com/estate-sale/48846/item/5723010/A-Nautical-Lot-Brass-Anchor-Wall-Bell-Brass-Crane-Egret-and-Metal-Carp-Fish-on-Marble-Bases",
@@ -398,15 +462,15 @@
       }
     ]
   },
-  "ctbids-48896-5692194": {
-    "item_id": "ctbids-48896-5692194",
-    "listing_url": "https://ctbids.com/estate-sale/48896/item/5692194/1986-Topps-Record-Breaker-Baseball-Card-Lot-of-5-Pete-Rose-Dwight-Gooden-Phil-Niekro-1986-Topps-Rec",
+  "ctbids-48896-5695263": {
+    "item_id": "ctbids-48896-5695263",
+    "listing_url": "https://ctbids.com/estate-sale/48896/item/5695263/LISTING-TITLE-Medic-Therapeutics-UVC-LED-Sterilizer-Wand-Foldable-Handheld-Sanitizer-Light-UNTESTED",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692194_SHGmje.webp"
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5695263_SAMZIW.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -417,7 +481,120 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48743-5713637": {
+    "item_id": "ctbids-48743-5713637",
+    "listing_url": "https://ctbids.com/estate-sale/48743/item/5713637/Midcentury-Double-Size-Headboard-and-Footboard",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5713637_u7fmww.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280515602": {
+    "item_id": "280515602",
+    "listing_url": "https://shopgoodwill.com/item/280515602",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/ca11cf2e-c756-44a5-8e86-0d0b622e9ab1rson_10141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/6d2e790e-5169-41f0-bc08-5754d53496d2rson_10142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/9a767416-486d-4ab7-9e3f-fa8bb1afff0erson_10143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/82fa70dc-9850-405e-908d-216c0eb1babcrson_10144.jpg"
+    ],
+    "description": "Title\n: Vintage Brazilian Natural Quartz Geode Agate Desk Bookend (3.15LBS)\nCondition\n: Used\nMaterial\n: Quartz geode agate\nTheme\n: Natural Minerals\nColor\n: Brown/Beige\nType\n: Bookend\nStyle\n: Natural mineral\nFeatures\n: Natural quartz agate, made in Brazil\nCountry of origin\n: Brazil\nNumber in pack\n: 1\nFinish\n: Natural\nCare instructions\n: Wipe with dry cloth\nNatural mineral Brown/Beige Quartz geode agate Bookend\nStyle:\nNatural mineral\nType:\nBookend\nColor:\nBrown/Beige\nMaterial:\nQuartz geode agate\nCondition:\nGood - shows some sign of wear\nAdditional Details:\nMade in Brazil, single piece only",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49201-5735171": {
+    "item_id": "ctbids-49201-5735171",
+    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735171/Crate-Barrel-Portugal-Glazed-Terracotta-Bowl-Red-Exterior-with-Bright-Orange-Interior-Small-Dip",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735171_JVNlnD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48794-5709110": {
+    "item_id": "ctbids-48794-5709110",
+    "listing_url": "https://ctbids.com/estate-sale/48794/item/5709110/Rolling-Worktable",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5709110_wne9vr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -456,56 +633,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49201-5735171": {
-    "item_id": "ctbids-49201-5735171",
-    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735171/Crate-Barrel-Portugal-Glazed-Terracotta-Bowl-Red-Exterior-with-Bright-Orange-Interior-Small-Dip",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735171_JVNlnD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49201-5735636": {
-    "item_id": "ctbids-49201-5735636",
-    "listing_url": "https://ctbids.com/estate-sale/49201/item/5735636/Private-Dock-Wooden-Sign-Whitewashed-Plank-Style-with-Navy-Stenciled-Lettering-Nautical-Lake-House",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735636_XfVLq2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -636,31 +763,6 @@
       }
     ]
   },
-  "ctbids-48896-5695263": {
-    "item_id": "ctbids-48896-5695263",
-    "listing_url": "https://ctbids.com/estate-sale/48896/item/5695263/LISTING-TITLE-Medic-Therapeutics-UVC-LED-Sterilizer-Wand-Foldable-Handheld-Sanitizer-Light-UNTESTED",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5695263_SAMZIW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48792-5685630": {
     "item_id": "ctbids-48792-5685630",
     "listing_url": "https://ctbids.com/estate-sale/48792/item/5685630/Folk-Art-Style-Cookie-Jar",
@@ -691,31 +793,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48819/item/5685705/Margaritaville-Key-West-Frozen-Concoction-Maker",
     "images": [
       "https://image.ctbids.com/seller/2026-09-30T072869/5685705_Aqq3sf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48743-5713637": {
-    "item_id": "ctbids-48743-5713637",
-    "listing_url": "https://ctbids.com/estate-sale/48743/item/5713637/Midcentury-Double-Size-Headboard-and-Footboard",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5713637_u7fmww.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1116,56 +1193,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48743/item/5703570/Whalen-Wooden-File-Cabinets-2",
     "images": [
       "https://image.ctbids.com/seller/2026-10-05T0c66fb/5703570_nAzmqp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48794-5709110": {
-    "item_id": "ctbids-48794-5709110",
-    "listing_url": "https://ctbids.com/estate-sale/48794/item/5709110/Rolling-Worktable",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5709110_wne9vr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48867-5682492": {
-    "item_id": "ctbids-48867-5682492",
-    "listing_url": "https://ctbids.com/estate-sale/48867/item/5682492/Kenzo-Industrial-Uniform-Gear-Embroidered-Workwear-Jacket-XL",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5682492_dNyvZk.webp"
     ],
     "description": "",
     "score_reasons": [
