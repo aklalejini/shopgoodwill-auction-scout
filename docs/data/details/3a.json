@@ -15,7 +15,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'first edition' in title (+16)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -23,12 +23,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 31,
-        "relative_score": 0.912,
+        "score": 29,
+        "relative_score": 0.853,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'first edition' in title (+16)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -96,30 +96,39 @@
       }
     ]
   },
-  "ctbids-48951-5699719": {
-    "item_id": "ctbids-48951-5699719",
-    "listing_url": "https://ctbids.com/estate-sale/48951/item/5699719/Vintage-1960s-Aurora-Slot-Car-Race-Tracks",
+  "280702292": {
+    "item_id": "280702292",
+    "listing_url": "https://shopgoodwill.com/item/280702292",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5699719_sgyuXa.webp"
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-15/2e0d90e9-a5c4-4704-9c10-322afab27e24rell_10151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-15/ce070f05-f7b8-470c-ab4a-5bab009302earell_10152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-15/fc7e2655-45a8-44d1-b994-a7502f990fa6rell_10153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-15/19fc2132-07a1-4f45-856b-fd270c4bda50rell_10154.jpg"
     ],
-    "description": "",
+    "description": "Assorted Rock and Mineral Specimens Educational Collection 3.1 lbs Labeled Set\nThis collection includes assorted rock and mineral specimens with various types, colors, and textures. Each specimen is labeled with a number or letter for identification purposes, including labels such as 7, 2, 5, 12, I, and P. Notable pieces include a glossy black glass-like stone resembling obsidian, along with several gray and brown rocky minerals. All specimens are individually packaged in clear plastic bags. The total weight of the collection is approximately 3.1 pounds as measured on an Accuteck digital scale. The items are in used condition with visible signs of prior handling but remain stable. Suitable for geology study, earth sciences education, or rock collecting.\nDetails",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+1)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 17,
+        "relative_score": 0.567,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+1)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -204,6 +213,35 @@
         "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48951-5699719": {
+    "item_id": "ctbids-48951-5699719",
+    "listing_url": "https://ctbids.com/estate-sale/48951/item/5699719/Vintage-1960s-Aurora-Slot-Car-Race-Tracks",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5699719_sgyuXa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -378,36 +416,6 @@
       }
     ]
   },
-  "280442755": {
-    "item_id": "280442755",
-    "listing_url": "https://shopgoodwill.com/item/280442755",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-10-13/692f9e71-102d-4653-9fa1-5c49ca301a6frimm_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-10-13/217f9b10-467b-4516-be7e-8277532f5a56rimm_10132.jpg"
-    ],
-    "description": "This listing includes multiple packs of Chap-Ice Lip Balm, each pack containing two tubes of balm. Each tube is 0.14 oz (4g), totaling 0.28 oz (8g) per pack. Varieties include Cherry (red packaging), Original (yellow packaging), and 12 Hour Moisture with SPF 15 (blue packaging). Manufactured by Oralabs, Inc., Parker, CO, USA. The lip balms are formulated to soothe, protect, and moisturize lips. The 12 Hour Moisture variety provides sun protection with SPF 15. All items are new and sealed in their original retail packaging, suitable for everyday lip care.",
-    "score_reasons": [
-      "Generic estate tube lot may hide factory rebrands (+14)",
-      "Only 2 listing photos (-5)",
-      "Shipping is calculated and not included in the price (-5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 9,
-        "relative_score": 0.281,
-        "score_reasons": [
-          "Generic estate tube lot may hide factory rebrands (+14)",
-          "Only 2 listing photos (-5)",
-          "Shipping is calculated and not included in the price (-5)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48951-5717374": {
     "item_id": "ctbids-48951-5717374",
     "listing_url": "https://ctbids.com/estate-sale/48951/item/5717374/Lot-Of-Belts",
@@ -435,55 +443,31 @@
       }
     ]
   },
-  "ctbids-48396-5681875": {
-    "item_id": "ctbids-48396-5681875",
-    "listing_url": "https://ctbids.com/estate-sale/48396/item/5681875/Assorted-Jewelry-With-6-Pair-Of-Earrings-Sun-Face-Brooch",
+  "280442755": {
+    "item_id": "280442755",
+    "listing_url": "https://shopgoodwill.com/item/280442755",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681875_8OjLKw.webp"
+      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-10-13/692f9e71-102d-4653-9fa1-5c49ca301a6frimm_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/21/Item/2026-10-13/217f9b10-467b-4516-be7e-8277532f5a56rimm_10132.jpg"
     ],
-    "description": "",
+    "description": "This listing includes multiple packs of Chap-Ice Lip Balm, each pack containing two tubes of balm. Each tube is 0.14 oz (4g), totaling 0.28 oz (8g) per pack. Varieties include Cherry (red packaging), Original (yellow packaging), and 12 Hour Moisture with SPF 15 (blue packaging). Manufactured by Oralabs, Inc., Parker, CO, USA. The lip balms are formulated to soothe, protect, and moisturize lips. The 12 Hour Moisture variety provides sun protection with SPF 15. All items are new and sealed in their original retail packaging, suitable for everyday lip care.",
     "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Generic estate tube lot may hide factory rebrands (+14)",
+      "Only 2 listing photos (-5)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 9,
+        "relative_score": 0.281,
         "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48747-5717222": {
-    "item_id": "ctbids-48747-5717222",
-    "listing_url": "https://ctbids.com/estate-sale/48747/item/5717222/1970s-to-2000s-Football-Trading-Cards",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5717222_5sjSqx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Generic estate tube lot may hide factory rebrands (+14)",
+          "Only 2 listing photos (-5)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -624,38 +608,11 @@
       }
     ]
   },
-  "ctbids-48396-5629168": {
-    "item_id": "ctbids-48396-5629168",
-    "listing_url": "https://ctbids.com/estate-sale/48396/item/5629168/3-Multitone-Brooches",
+  "ctbids-48396-5681875": {
+    "item_id": "ctbids-48396-5681875",
+    "listing_url": "https://ctbids.com/estate-sale/48396/item/5681875/Assorted-Jewelry-With-6-Pair-Of-Earrings-Sun-Face-Brooch",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-14T038590/5629168_aLMWOe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48747-5692445": {
-    "item_id": "ctbids-48747-5692445",
-    "listing_url": "https://ctbids.com/estate-sale/48747/item/5692445/Marvel-Avengers-Scene-Setters-20-Count-CPA100",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692445_PQ6lz5.webp"
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5681875_8OjLKw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -683,6 +640,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48430/item/5693334/Pearlescent-Shell-Serving-Ware-Sheep-Themed-Ceramic-Kitchen-Set",
     "images": [
       "https://image.ctbids.com/seller/2026-10-12T80d5c9/5693334_cwm4FA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48747-5717222": {
+    "item_id": "ctbids-48747-5717222",
+    "listing_url": "https://ctbids.com/estate-sale/48747/item/5717222/1970s-to-2000s-Football-Trading-Cards",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5717222_5sjSqx.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -780,6 +764,31 @@
       }
     ]
   },
+  "ctbids-48396-5629168": {
+    "item_id": "ctbids-48396-5629168",
+    "listing_url": "https://ctbids.com/estate-sale/48396/item/5629168/3-Multitone-Brooches",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-14T038590/5629168_aLMWOe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48396-5687746": {
     "item_id": "ctbids-48396-5687746",
     "listing_url": "https://ctbids.com/estate-sale/48396/item/5687746/Purple-Gemstone-Clip-On-Earrings",
@@ -810,6 +819,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48430/item/5669710/Three-Wooden-Letterpress-Type-Drawers-with-Metal-Printing-Type",
     "images": [
       "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5669710_yBKWVD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48747-5692445": {
+    "item_id": "ctbids-48747-5692445",
+    "listing_url": "https://ctbids.com/estate-sale/48747/item/5692445/Marvel-Avengers-Scene-Setters-20-Count-CPA100",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692445_PQ6lz5.webp"
     ],
     "description": "",
     "score_reasons": [
