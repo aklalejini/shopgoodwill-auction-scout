@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-15T23:40:30.747557+00:00",
-  "active_count": 2542,
+  "generated_at": "2026-10-16T04:26:04.991960+00:00",
+  "active_count": 2504,
   "high_priority_count": 28,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
     "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
   ],
-  "detail_requests_completed": 39,
+  "detail_requests_completed": 51,
   "relevance_filtered_count": 716,
   "potentially_high_value_count": 28,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 69
+    "images_processed": 70
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -24,8 +24,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 542,
-      "detail_requests_attempted": 19
+      "active_count": 504,
+      "detail_requests_attempted": 31
     },
     {
       "id": "gsa-auctions",
@@ -50,32 +50,32 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 394
+      "active_count": 360
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 23
+      "active_count": 19
     },
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 18
+      "active_count": 16
     },
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 38
+      "active_count": 42
     },
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 53
+      "active_count": 46
     },
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 35
+      "active_count": 34
     },
     {
       "id": "local-government-surplus",
