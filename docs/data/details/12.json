@@ -281,6 +281,33 @@
       }
     ]
   },
+  "ctbids-49279-5744433": {
+    "item_id": "ctbids-49279-5744433",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5744433/Vintage-Plush-Lamb-Christmas-Ornament-Fluffy-White-Sheep-with-Red-Ribbon-Collar-Bow-Bell",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5730375_qhXgoJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49110-5724112": {
     "item_id": "ctbids-49110-5724112",
     "listing_url": "https://ctbids.com/estate-sale/49110/item/5724112/Vintage-coin",
@@ -580,6 +607,31 @@
           "Opportunity term 'lot' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49279-5744456": {
+    "item_id": "ctbids-49279-5744456",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5744456/R-B-Greaves-Take-a-Letter-Maria-Big-Bad-City-ATCO-45-RPM-45-6714",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5674374_YBulJt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -919,26 +971,36 @@
       }
     ]
   },
-  "ctbids-48678-5666236": {
-    "item_id": "ctbids-48678-5666236",
-    "listing_url": "https://ctbids.com/estate-sale/48678/item/5666236/Hand-Carved-Wooden-Folding-Chair",
+  "280779340": {
+    "item_id": "280779340",
+    "listing_url": "https://shopgoodwill.com/item/280779340",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-24T71f4c2/5666236_ybafiJ.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis listing includes a mixed lot of assorted raw and rough mineral and gemstone specimens. The collection contains various stones such as quartz, rose quartz, agate slices, geodes, amethyst, and other unidentified minerals. The stones exhibit natural crystal formations and rough surfaces with a variety of colors and textures.\n\nSpecifications:\n- Types of stones: quartz, rose quartz, agate slices, geodes, amethyst, other unidentified minerals\n- Surface: unpolished, natural crystal formations\n- Colors: varied natural colors\n- Textures: rough surfaces, internal patterns, banding, crystalline structures\n- No brand or manufacturer indicated",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
