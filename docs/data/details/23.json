@@ -17,6 +17,7 @@
       "Opportunity term 'lot' in description (+4)",
       "Target keyword 'tdk' in title (+5)",
       "Target keyword 'sony' in title (+3)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-3)",
       "Base score (+4)"
     ],
@@ -24,14 +25,15 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 31,
-        "relative_score": 0.861,
+        "score": 35,
+        "relative_score": 0.972,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+12)",
           "Opportunity term 'lot of' in description (+6)",
           "Opportunity term 'lot' in description (+4)",
           "Target keyword 'tdk' in title (+5)",
           "Target keyword 'sony' in title (+3)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
         ],
@@ -39,6 +41,44 @@
           "sony",
           "tdk"
         ]
+      }
+    ]
+  },
+  "280495787": {
+    "item_id": "280495787",
+    "listing_url": "https://shopgoodwill.com/item/280495787",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/f89ee683-9a6c-4938-a7aa-0a3f9afb9b58Indy_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/3a3f5cea-d921-43e9-8c97-02f9da7fddd9Indy_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/d4de283a-d296-4e46-978b-0144b0637e49Indy_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/ddcd37c1-6ebb-403e-bdcc-18ab5b89d063Indy_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/b2e070b2-e869-4bf0-89be-b4a479ee1b17Indy_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/ab5befbb-1984-4b85-b5d9-a074b3217221Indy_10136.jpg"
+    ],
+    "description": "This listing includes two vintage glass insulators used for telegraph or power lines. One is a clear glass Hemingray-42 insulator, manufactured by Hemingray, a well-known American glass company. The other is a blue-green glass insulator marked 'MADE IN U.S.A.' Both insulators have dome tops and internal threading for mounting on poles. Each piece features embossed lettering on the skirt area. These insulators are in used condition with no visible cracks or chips and only minor wear consistent with age. They are suitable for collectors of industrial and utility artifacts.",
+    "score_reasons": [
+      "Lower-priority term 'hemingray-42' in title (-10)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 18,
+        "relative_score": 0.6,
+        "score_reasons": [
+          "Lower-priority term 'hemingray-42' in title (-10)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -64,42 +104,6 @@
           "High-value signal 'sterling silver' in title (+18)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280495787": {
-    "item_id": "280495787",
-    "listing_url": "https://shopgoodwill.com/item/280495787",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/f89ee683-9a6c-4938-a7aa-0a3f9afb9b58Indy_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/3a3f5cea-d921-43e9-8c97-02f9da7fddd9Indy_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/d4de283a-d296-4e46-978b-0144b0637e49Indy_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/ddcd37c1-6ebb-403e-bdcc-18ab5b89d063Indy_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/b2e070b2-e869-4bf0-89be-b4a479ee1b17Indy_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-13/ab5befbb-1984-4b85-b5d9-a074b3217221Indy_10136.jpg"
-    ],
-    "description": "This listing includes two vintage glass insulators used for telegraph or power lines. One is a clear glass Hemingray-42 insulator, manufactured by Hemingray, a well-known American glass company. The other is a blue-green glass insulator marked 'MADE IN U.S.A.' Both insulators have dome tops and internal threading for mounting on poles. Each piece features embossed lettering on the skirt area. These insulators are in used condition with no visible cracks or chips and only minor wear consistent with age. They are suitable for collectors of industrial and utility artifacts.",
-    "score_reasons": [
-      "Lower-priority term 'hemingray-42' in title (-10)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 13,
-        "relative_score": 0.433,
-        "score_reasons": [
-          "Lower-priority term 'hemingray-42' in title (-10)",
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -179,6 +183,60 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48751-5716527": {
+    "item_id": "ctbids-48751-5716527",
+    "listing_url": "https://ctbids.com/estate-sale/48751/item/5716527/Lot-of-20-Military-Commemorative-Challenge-Coins-WWII-Iwo-Jima-Navy-Veterans-Sheriff",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5716527_1BrCIy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49279-5744485": {
+    "item_id": "ctbids-49279-5744485",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5744485/Tom-T-Hall-That-Song-Is-Driving-Me-Crazy-Forget-It-Mercury-45-RPM-No-73488",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5686088_JgQAnC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -402,15 +460,57 @@
       }
     ]
   },
-  "ctbids-48751-5716527": {
-    "item_id": "ctbids-48751-5716527",
-    "listing_url": "https://ctbids.com/estate-sale/48751/item/5716527/Lot-of-20-Military-Commemorative-Challenge-Coins-WWII-Iwo-Jima-Navy-Veterans-Sheriff",
+  "280189134": {
+    "item_id": "280189134",
+    "listing_url": "https://shopgoodwill.com/item/280189134",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5716527_1BrCIy.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/afb9f074-e1b3-484f-949e-03989b50367bon42_10111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/9b5f2a71-af42-44c9-b16f-a01ae6c738dbon42_10112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/0b08d1d1-56ce-4bc6-a8fe-7cc5cb855c72on42_10113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/e349b3f6-eedc-45d9-a22e-d893824942c5on42_10114.jpg"
+    ],
+    "description": "Product Overview:\nPair of brass desk pens shaped like rockets or missiles with gold-tone finish. Feature detailed fins and pointed tips with a mid-century modern or space age design.\n\nSpecifications:\nMaterial: Brass\nFinish: Gold-tone\nDesign: Rocket or missile shape with detailed fins and pointed tips\nBase: Threaded holes for mounting (stand or base not included)\nMarkings: No visible brand or model markings\nCondition: Visible tarnish and surface wear present\n\nAdditional Information:\nThese pens are collectible novelty writing instruments. Structural details are intact.",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 3,
+        "relative_score": 0.086,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48879-5689755": {
+    "item_id": "ctbids-48879-5689755",
+    "listing_url": "https://ctbids.com/estate-sale/48879/item/5689755/2002-World-Series-baseball-cap",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5689755_D8nifd.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -418,10 +518,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -429,26 +529,61 @@
       }
     ]
   },
-  "ctbids-49279-5744485": {
-    "item_id": "ctbids-49279-5744485",
-    "listing_url": "https://ctbids.com/estate-sale/49279/item/5744485/Tom-T-Hall-That-Song-Is-Driving-Me-Crazy-Forget-It-Mercury-45-RPM-No-73488",
+  "280033055": {
+    "item_id": "280033055",
+    "listing_url": "https://shopgoodwill.com/item/280033055",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5686088_JgQAnC.webp"
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/b178e8db-f1ed-411e-9368-469bab8946b8ey02_10091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/98035eaf-4cb5-4968-a054-4e5d060adf5eey02_10092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/7d92fc2d-6aa0-4a59-8363-fad254da7c48ey02_10093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/96a03b4b-e4a9-4f6f-9550-e69af0d526c7ey02_10094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/da2cb016-8e0a-4a4d-a0cc-a3ef7e43c2eaey02_10095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/22bb4082-ecb1-4443-9b64-6f00a3e61acaey02_10096.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/edadc076-e7e5-450e-acdb-4b8d9adc0902ey02_10097.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/21b4edf7-d615-4235-8fa0-2d5161e0169dey02_10098.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/d5051b38-894d-4356-a1d7-e30f4caf330fey02_10099.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/a4c230cb-f915-42e0-9e19-ea84e158f056ey02_100910.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/d655aa6b-bbd9-423b-9275-a661e5d3c6d1ey02_100911.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/ba7057be-e371-454c-8971-4111801544ccey02_100912.jpg"
     ],
-    "description": "",
+    "description": "You are purchasing a \"Mixed Rock and Mineral Collection Lot with Agate Slices\" in \"Used\" condition.\nColorful mixed lot of rocks, minerals, and agate slices—perfect for collectors, crafters, educators, or anyone who loves natural stone. This unique bundle includes a wide variety of pieces, from rough rock specimens to polished tumbled stones and vibrant agate slices. You’ll see multiple shapes, sizes, and colors, along with a bag of mixed stones and a small display box of polished pieces. There is also a rectangular stone block with an animal outline and a printed information card for a Brazilian agate piece. Whether you tumble rocks, wire-wrap jewelry, teach geology, or just enjoy displaying interesting stones, this lot gives you an instant, varied collection with plenty to sort, study, and use in projects. Highlights: - Assorted tumbled stones in multiple colors - Rough rocks and mineral pieces with natural texture - Several polished agate slices in bright and neutral tones - One stone display box with polished stones - One larger stone block with an animal outline and info card - One bag filled with mixed stones for sorting or crafting Great for rock enthusiasts, classroom kits, craft projects, or decorating bowls, terrariums, and shelves. Keywords: rock collection, mixed stones lot, tumbled stones, agate slices, mineral specimens, rock hound, geology kit, craft stones, decorative rocks\nCondition Notes:\nMixed lot of assorted rocks, minerals, and tumbled stones with visible handling wear. Some rough stones have chipped edges and natural surface irregularities. Tumbled stones appear generally smooth with minor scuffs. Agate slices show clean cuts with some edge wear and small surface scratches. The plastic display box has light surface wear and small marks. The bag of mixed stones shows no visible tears but is creased from handling. The carved rectangular stone block and other larger pieces show small nicks and surface scratches consistent with age and use.\nAspects:",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in description (+1)",
+      "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Lower-priority term 'craft' in description (-6)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+16)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in description (+1)",
+          "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Lower-priority term 'craft' in description (-6)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+16)"
         ],
         "matched_keywords": []
       }
@@ -529,31 +664,6 @@
       }
     ]
   },
-  "ctbids-48879-5689755": {
-    "item_id": "ctbids-48879-5689755",
-    "listing_url": "https://ctbids.com/estate-sale/48879/item/5689755/2002-World-Series-baseball-cap",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5689755_D8nifd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48633-5653201": {
     "item_id": "ctbids-48633-5653201",
     "listing_url": "https://ctbids.com/estate-sale/48633/item/5653201/Ladies-Sweaters-Twin-Sets-And-Henleys-6-Pcs",
@@ -579,99 +689,31 @@
       }
     ]
   },
-  "280189134": {
-    "item_id": "280189134",
-    "listing_url": "https://shopgoodwill.com/item/280189134",
+  "280388784": {
+    "item_id": "280388784",
+    "listing_url": "https://shopgoodwill.com/item/280388784",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/afb9f074-e1b3-484f-949e-03989b50367bon42_10111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/9b5f2a71-af42-44c9-b16f-a01ae6c738dbon42_10112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/0b08d1d1-56ce-4bc6-a8fe-7cc5cb855c72on42_10113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-11/e349b3f6-eedc-45d9-a22e-d893824942c5on42_10114.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/76f6f1de-f4a1-4136-b8d1-1f31dcc15aecodge_09281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/fc5158d2-c69b-4da2-a43f-53fc3b78378aodge_09282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/d3f31c5c-b7d4-48b7-b789-4b15d6c0cf4dodge_09283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/f4a8febd-e094-48be-8073-b69e15be72afodge_09284.jpg"
     ],
-    "description": "Product Overview:\nPair of brass desk pens shaped like rockets or missiles with gold-tone finish. Feature detailed fins and pointed tips with a mid-century modern or space age design.\n\nSpecifications:\nMaterial: Brass\nFinish: Gold-tone\nDesign: Rocket or missile shape with detailed fins and pointed tips\nBase: Threaded holes for mounting (stand or base not included)\nMarkings: No visible brand or model markings\nCondition: Visible tarnish and surface wear present\n\nAdditional Information:\nThese pens are collectible novelty writing instruments. Structural details are intact.",
+    "description": "Mineral & Agate Stone Lot - 2Pcs\nCondition appears to be Used - Good to Fair - shows light to moderate signs of wear.\nThis item measures approximately 5\" x 4\" x 2.5\".\nAdditional Details\n:\nUsed items Disclaimer:\nAll items are\nUSED\nunless otherwise noted.  All items are sold\nAS FOUND\nand\nAS IS\n. We describe our items to the best of our ability however we are not experts in any field. All measurements are approximate.\nSigns of wear may include marks, scratches, scuffs, dirt, and other signs of use.",
     "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
         "score": 1,
-        "relative_score": 0.029,
+        "relative_score": 0.033,
         "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280033055": {
-    "item_id": "280033055",
-    "listing_url": "https://shopgoodwill.com/item/280033055",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/b178e8db-f1ed-411e-9368-469bab8946b8ey02_10091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/98035eaf-4cb5-4968-a054-4e5d060adf5eey02_10092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/7d92fc2d-6aa0-4a59-8363-fad254da7c48ey02_10093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/96a03b4b-e4a9-4f6f-9550-e69af0d526c7ey02_10094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/da2cb016-8e0a-4a4d-a0cc-a3ef7e43c2eaey02_10095.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/22bb4082-ecb1-4443-9b64-6f00a3e61acaey02_10096.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/edadc076-e7e5-450e-acdb-4b8d9adc0902ey02_10097.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/21b4edf7-d615-4235-8fa0-2d5161e0169dey02_10098.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/d5051b38-894d-4356-a1d7-e30f4caf330fey02_10099.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/a4c230cb-f915-42e0-9e19-ea84e158f056ey02_100910.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/d655aa6b-bbd9-423b-9275-a661e5d3c6d1ey02_100911.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-10-09/ba7057be-e371-454c-8971-4111801544ccey02_100912.jpg"
-    ],
-    "description": "You are purchasing a \"Mixed Rock and Mineral Collection Lot with Agate Slices\" in \"Used\" condition.\nColorful mixed lot of rocks, minerals, and agate slices—perfect for collectors, crafters, educators, or anyone who loves natural stone. This unique bundle includes a wide variety of pieces, from rough rock specimens to polished tumbled stones and vibrant agate slices. You’ll see multiple shapes, sizes, and colors, along with a bag of mixed stones and a small display box of polished pieces. There is also a rectangular stone block with an animal outline and a printed information card for a Brazilian agate piece. Whether you tumble rocks, wire-wrap jewelry, teach geology, or just enjoy displaying interesting stones, this lot gives you an instant, varied collection with plenty to sort, study, and use in projects. Highlights: - Assorted tumbled stones in multiple colors - Rough rocks and mineral pieces with natural texture - Several polished agate slices in bright and neutral tones - One stone display box with polished stones - One larger stone block with an animal outline and info card - One bag filled with mixed stones for sorting or crafting Great for rock enthusiasts, classroom kits, craft projects, or decorating bowls, terrariums, and shelves. Keywords: rock collection, mixed stones lot, tumbled stones, agate slices, mineral specimens, rock hound, geology kit, craft stones, decorative rocks\nCondition Notes:\nMixed lot of assorted rocks, minerals, and tumbled stones with visible handling wear. Some rough stones have chipped edges and natural surface irregularities. Tumbled stones appear generally smooth with minor scuffs. Agate slices show clean cuts with some edge wear and small surface scratches. The plastic display box has light surface wear and small marks. The bag of mixed stones shows no visible tears but is creased from handling. The carved rectangular stone block and other larger pieces show small nicks and surface scratches consistent with age and use.\nAspects:",
-    "score_reasons": [
-      "Opportunity term 'geology' in description (+10)",
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'assorted' in description (+1)",
-      "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
-      "Opportunity term cap limited keyword stacking; effective contributions are shown",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'carved' in description (-7)",
-      "Lower-priority term 'craft' in description (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+20)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'geology' in description (+10)",
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'assorted' in description (+1)",
-          "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
-          "Opportunity term cap limited keyword stacking; effective contributions are shown",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'carved' in description (-7)",
-          "Lower-priority term 'craft' in description (-6)",
+          "Opportunity term 'lot' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+20)"
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -827,31 +869,38 @@
       }
     ]
   },
-  "280388784": {
-    "item_id": "280388784",
-    "listing_url": "https://shopgoodwill.com/item/280388784",
+  "280430697": {
+    "item_id": "280430697",
+    "listing_url": "https://shopgoodwill.com/item/280430697",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/76f6f1de-f4a1-4136-b8d1-1f31dcc15aecodge_09281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/fc5158d2-c69b-4da2-a43f-53fc3b78378aodge_09282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/d3f31c5c-b7d4-48b7-b789-4b15d6c0cf4dodge_09283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-09-28/f4a8febd-e094-48be-8073-b69e15be72afodge_09284.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/1d65560c-4393-4ec5-8c10-a648fa2546f3gwco_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/76b890c5-279d-4d40-8a82-0a1e2eb0b217gwco_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/e56b1df3-630e-4a9f-b316-4422189f4927gwco_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/8c80eb4f-6eb2-4841-82ec-1873f8cb58d0gwco_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/f21c40c4-5a5b-4088-960c-1ed6ab9865e1gwco_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/006a4854-0bac-4d3f-8abc-25e9dfdf1409gwco_10136.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/32858657-8c2e-41ce-be48-a505074f9770gwco_10137.jpg"
     ],
-    "description": "Mineral & Agate Stone Lot - 2Pcs\nCondition appears to be Used - Good to Fair - shows light to moderate signs of wear.\nThis item measures approximately 5\" x 4\" x 2.5\".\nAdditional Details\n:\nUsed items Disclaimer:\nAll items are\nUSED\nunless otherwise noted.  All items are sold\nAS FOUND\nand\nAS IS\n. We describe our items to the best of our ability however we are not experts in any field. All measurements are approximate.\nSigns of wear may include marks, scratches, scuffs, dirt, and other signs of use.",
+    "description": "Title:\nAmethyst Agate Crystal Geode Slice Stone Bookend Home Decor\nCondition:\nUsed\nCondition Description:\nGood - displays light wear from prior use\nStyle:\nNatural, Crystal\nColor:\nPurple, Blue, White, Brown\nCategory:\nHard Goods\nType:\nBookend\nFeatures:\nPolished Stone, Crystal Cluster\nFinish:\nPolished\nHandmade:\nYes\nMaterial:\nAmethyst, Agate\nRoom:\nLiving Room\nTheme:\nGeode, Natural Stone\nDescription:\nEnhance your home decor with this striking Amethyst & Agate crystal geode slice, a beautiful natural accent piece for display or as a unique bookend. The item features a polished agate slab with rich hues of blue and white, topped with a dramatic cluster of sparkling purple amethyst crystals. This striking combination showcases the raw beauty and natural artistry of mineral formations, creating an eye-catching focal point in any room. The smooth agate base provides stability, while the vibrant amethyst crystals add a pop of color and a touch of elegance. Perfect for bookshelves, desks, or side tables, this piece blends organic charm with practicality, supporting your books or simply serving as a decorative showcase. The item appears in good pre-owned condition with minimal visible wear, retaining its polished finish and natural appeal. Whether displayed solo or paired, this geode slice is sure to elevate the ambiance of your space.",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'decor' in title (-8)",
       "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'decor' in title (-8)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
         ],
         "matched_keywords": []
       }
@@ -952,43 +1001,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280430697": {
-    "item_id": "280430697",
-    "listing_url": "https://shopgoodwill.com/item/280430697",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/1d65560c-4393-4ec5-8c10-a648fa2546f3gwco_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/76b890c5-279d-4d40-8a82-0a1e2eb0b217gwco_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/e56b1df3-630e-4a9f-b316-4422189f4927gwco_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/8c80eb4f-6eb2-4841-82ec-1873f8cb58d0gwco_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/f21c40c4-5a5b-4088-960c-1ed6ab9865e1gwco_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/006a4854-0bac-4d3f-8abc-25e9dfdf1409gwco_10136.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-13/32858657-8c2e-41ce-be48-a505074f9770gwco_10137.jpg"
-    ],
-    "description": "Title:\nAmethyst Agate Crystal Geode Slice Stone Bookend Home Decor\nCondition:\nUsed\nCondition Description:\nGood - displays light wear from prior use\nStyle:\nNatural, Crystal\nColor:\nPurple, Blue, White, Brown\nCategory:\nHard Goods\nType:\nBookend\nFeatures:\nPolished Stone, Crystal Cluster\nFinish:\nPolished\nHandmade:\nYes\nMaterial:\nAmethyst, Agate\nRoom:\nLiving Room\nTheme:\nGeode, Natural Stone\nDescription:\nEnhance your home decor with this striking Amethyst & Agate crystal geode slice, a beautiful natural accent piece for display or as a unique bookend. The item features a polished agate slab with rich hues of blue and white, topped with a dramatic cluster of sparkling purple amethyst crystals. This striking combination showcases the raw beauty and natural artistry of mineral formations, creating an eye-catching focal point in any room. The smooth agate base provides stability, while the vibrant amethyst crystals add a pop of color and a touch of elegance. Perfect for bookshelves, desks, or side tables, this piece blends organic charm with practicality, supporting your books or simply serving as a decorative showcase. The item appears in good pre-owned condition with minimal visible wear, retaining its polished finish and natural appeal. Whether displayed solo or paired, this geode slice is sure to elevate the ambiance of your space.",
-    "score_reasons": [
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'decor' in title (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'decor' in title (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
         ],
         "matched_keywords": []
       }

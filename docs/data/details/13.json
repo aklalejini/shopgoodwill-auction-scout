@@ -13,6 +13,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Pipe rack or stand may include overlooked pipes (+10)",
+      "1 bid near close (+2)",
       "Flat shipping is only $0.01 (+9)",
       "Base score (+5)"
     ],
@@ -20,11 +21,12 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 30,
-        "relative_score": 0.857,
+        "score": 32,
+        "relative_score": 0.914,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Pipe rack or stand may include overlooked pipes (+10)",
+          "1 bid near close (+2)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
         ],
@@ -102,6 +104,73 @@
       }
     ]
   },
+  "280800767": {
+    "item_id": "280800767",
+    "listing_url": "https://shopgoodwill.com/item/280800767",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-16/41c0e10d-0f64-425c-b44f-f5bdb8de2aeaisca_10161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-16/ac1806f1-5054-4616-8342-765c230313d4isca_10162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-16/929df1ca-0eac-48f7-9116-b3211a73a6b4isca_10163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-16/73034947-eb26-4d97-b7f0-43f8d784196aisca_10164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-16/52d6f067-cd09-4390-b9fa-c7728c60cb61isca_10165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-16/72200f7d-b294-4a58-961c-2ef0c8ed0736isca_10166.jpg"
+    ],
+    "description": "20 Pack Maxell Audio Cassettes Sealed IOB. Model number 032752. Each cassette is Type I normal bias tape with 60 minutes recording time. Packaged in individual red cases inside a blue retail box. Made in Mexico. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'pack' in description (+4)",
+      "Target keyword 'maxell' in title (+5)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 22,
+        "relative_score": 0.611,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'pack' in description (+4)",
+          "Target keyword 'maxell' in title (+5)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "maxell"
+        ]
+      }
+    ]
+  },
+  "ctbids-49279-5744667": {
+    "item_id": "ctbids-49279-5744667",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5744667/David-Dante-Speedy-Gonzales-K-K-K-Katy-45-RPM-RCA-Victor-47-8056-Hugo-Luigi-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5693701_geQ8hA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48626-5720456": {
     "item_id": "ctbids-48626-5720456",
     "listing_url": "https://ctbids.com/estate-sale/48626/item/5720456/Collection-Of-Various-Fountain-Pens-By-Noodler",
@@ -143,33 +212,6 @@
       }
     ]
   },
-  "ctbids-49279-5744667": {
-    "item_id": "ctbids-49279-5744667",
-    "listing_url": "https://ctbids.com/estate-sale/49279/item/5744667/David-Dante-Speedy-Gonzales-K-K-K-Katy-45-RPM-RCA-Victor-47-8056-Hugo-Luigi-Vintage-Vinyl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5693701_geQ8hA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48879-5689993": {
     "item_id": "ctbids-48879-5689993",
     "listing_url": "https://ctbids.com/estate-sale/48879/item/5689993/vintage-gray-Starter-waffle-knit-Penn-State-Nittany-Lions-long-sleeve-shirt-featuring-signature-athl",
@@ -179,6 +221,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -186,10 +229,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -206,6 +250,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -213,10 +258,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -271,6 +317,60 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49279-5745660": {
+    "item_id": "ctbids-49279-5745660",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5745660/Clear-Glass-Hurricane-Candle-Shield-Vase-Flared-Rim-Tall-Open-Bottom-Style-Chimney-for-Pillar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745660_yd6dNl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48895-5722941": {
+    "item_id": "ctbids-48895-5722941",
+    "listing_url": "https://ctbids.com/estate-sale/48895/item/5722941/Electronics-Lot-Logitech-Z4-Speakers-Creative-Soundbar-Amcrest-Webcam",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722941_wfEgNN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -440,33 +540,6 @@
       }
     ]
   },
-  "ctbids-48895-5722941": {
-    "item_id": "ctbids-48895-5722941",
-    "listing_url": "https://ctbids.com/estate-sale/48895/item/5722941/Electronics-Lot-Logitech-Z4-Speakers-Creative-Soundbar-Amcrest-Webcam",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722941_wfEgNN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "280426797": {
     "item_id": "280426797",
     "listing_url": "https://shopgoodwill.com/item/280426797",
@@ -504,64 +577,6 @@
       }
     ]
   },
-  "280710931": {
-    "item_id": "280710931",
-    "listing_url": "https://shopgoodwill.com/item/280710931",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/771183eb-a3af-435b-9569-cf87fd4229a1odge_10151.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/4db0a465-923d-4bb5-9def-f8cdfc361d3codge_10152.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/bd9ada4f-ef2b-4baf-94da-1f79e2912e87odge_10153.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/78246998-6c62-4dae-853b-26142c54b202odge_10154.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/f2610ca5-7394-4a7c-8418-7a0bf0244b71odge_10155.jpg"
-    ],
-    "description": "Assorted Rock Lot\nCondition appears to be Very Good - May show light signs of wear..\nThis item measures approximately 1.5\" x 1.5\" x 2\".\nAdditional Details\n:\nUsed items Disclaimer:\nAll items are\nUSED\nunless otherwise noted.  All items are sold\nAS FOUND\nand\nAS IS\n. We describe our items to the best of our ability however we are not experts in any field. All measurements are approximate.\nSigns of wear may include marks, scratches, scuffs, dirt, and other signs of use.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49279-5745660": {
-    "item_id": "ctbids-49279-5745660",
-    "listing_url": "https://ctbids.com/estate-sale/49279/item/5745660/Clear-Glass-Hurricane-Candle-Shield-Vase-Flared-Rim-Tall-Open-Bottom-Style-Chimney-for-Pillar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745660_yd6dNl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49279-5745532": {
     "item_id": "ctbids-49279-5745532",
     "listing_url": "https://ctbids.com/estate-sale/49279/item/5745532/Set-of-3-Speckled-Stoneware-Soup-Bowls-with-Handles-Orange-Floral-Design-Brown-Rim-Cream",
@@ -570,6 +585,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -577,9 +593,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -657,6 +674,39 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280710931": {
+    "item_id": "280710931",
+    "listing_url": "https://shopgoodwill.com/item/280710931",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/771183eb-a3af-435b-9569-cf87fd4229a1odge_10151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/4db0a465-923d-4bb5-9def-f8cdfc361d3codge_10152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/bd9ada4f-ef2b-4baf-94da-1f79e2912e87odge_10153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/78246998-6c62-4dae-853b-26142c54b202odge_10154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-10-15/f2610ca5-7394-4a7c-8418-7a0bf0244b71odge_10155.jpg"
+    ],
+    "description": "Assorted Rock Lot\nCondition appears to be Very Good - May show light signs of wear..\nThis item measures approximately 1.5\" x 1.5\" x 2\".\nAdditional Details\n:\nUsed items Disclaimer:\nAll items are\nUSED\nunless otherwise noted.  All items are sold\nAS FOUND\nand\nAS IS\n. We describe our items to the best of our ability however we are not experts in any field. All measurements are approximate.\nSigns of wear may include marks, scratches, scuffs, dirt, and other signs of use.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
