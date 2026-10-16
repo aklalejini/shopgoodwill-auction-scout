@@ -51,6 +51,7 @@
       "Opportunity term 'assorted' in description (+1)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -58,14 +59,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 17,
-        "relative_score": 0.567,
+        "score": 21,
+        "relative_score": 0.7,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in description (+1)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -107,6 +109,35 @@
     "listing_url": "https://ctbids.com/estate-sale/49279/item/5745671/Pyrex-Corning-France-Clear-Glass-Round-Lid-with-Flat-Handles-Shallow-Dish-Vintage-Kitchen-Glassware",
     "images": [
       "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745671_4LsSv0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49279-5745711": {
+    "item_id": "ctbids-49279-5745711",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5745711/Vintage-Unitrex-Instant-Desktop-Calculator-by-Eiko-Seafoam-Blue-with-Zip-Carrying-Case-and-Power",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745711_YPF6ej.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -189,6 +220,33 @@
       }
     ]
   },
+  "ctbids-49133-5718306": {
+    "item_id": "ctbids-49133-5718306",
+    "listing_url": "https://ctbids.com/estate-sale/49133/item/5718306/Vintage-French-Provincial-Style-Hutch-China-Cabinet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5718306_aQnFo5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49186-5730035": {
     "item_id": "ctbids-49186-5730035",
     "listing_url": "https://ctbids.com/estate-sale/49186/item/5730035/Men-s-Accessory-Lot-Vintage-Modern-Neckties-Silk-Like-Pocket-Squares-Wooden-Shoe-Trees",
@@ -255,33 +313,6 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49133-5718306": {
-    "item_id": "ctbids-49133-5718306",
-    "listing_url": "https://ctbids.com/estate-sale/49133/item/5718306/Vintage-French-Provincial-Style-Hutch-China-Cabinet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5718306_aQnFo5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -361,6 +392,87 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49279-5745714": {
+    "item_id": "ctbids-49279-5745714",
+    "listing_url": "https://ctbids.com/estate-sale/49279/item/5745714/Koncept-Z-Bar-High-Power-LED-Desk-Lamp-Metallic-Black-Daylight-White-Desk-Clamp-Included-Boxed",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745714_8RfPhk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49133-5726076": {
+    "item_id": "ctbids-49133-5726076",
+    "listing_url": "https://ctbids.com/estate-sale/49133/item/5726076/Animal-Kingdom-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5726076_0fZRJr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49133-5727705": {
+    "item_id": "ctbids-49133-5727705",
+    "listing_url": "https://ctbids.com/estate-sale/49133/item/5727705/The-Swap-Frog-Band-Coming-To-You-Live",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5727705_LRD2b4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -602,60 +714,6 @@
       }
     ]
   },
-  "ctbids-49133-5726076": {
-    "item_id": "ctbids-49133-5726076",
-    "listing_url": "https://ctbids.com/estate-sale/49133/item/5726076/Animal-Kingdom-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5726076_0fZRJr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49133-5727705": {
-    "item_id": "ctbids-49133-5727705",
-    "listing_url": "https://ctbids.com/estate-sale/49133/item/5727705/The-Swap-Frog-Band-Coming-To-You-Live",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5727705_LRD2b4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48879-5689994": {
     "item_id": "ctbids-48879-5689994",
     "listing_url": "https://ctbids.com/estate-sale/48879/item/5689994/Los-Angeles-Angels-promotional-t-shirt-features-a-striking-oversized-photographic-portrait-of-Mike",
@@ -737,69 +795,6 @@
       }
     ]
   },
-  "ctbids-48768-5701311": {
-    "item_id": "ctbids-48768-5701311",
-    "listing_url": "https://ctbids.com/estate-sale/48768/item/5701311/Lot-of-Grey-Toned-Beaded-Strands-for-Jewelry-Making-Crafting-Incl-Two-Strands-of-Magnetic-Beads",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5701311_UDSMGT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "279290075": {
-    "item_id": "279290075",
-    "listing_url": "https://shopgoodwill.com/item/279290075",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/65f1eee6-8712-4d0f-95f7-b91a292df7d3nold_09111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/21aec3f1-c5c3-42e6-a0ff-fb523b684816nold_09112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/914c6bfd-e0c4-40a6-9bce-9b94e2ea6129nold_09113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/0942f910-683c-4f17-b5d2-ba87c3fbb5fcnold_09114.jpg"
-    ],
-    "description": "CONDITION: Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
-    "score_reasons": [
-      "Opportunity term 'minerals' in title (+1)",
-      "Less relevant category 'Jewelry' (-12)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+8)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'minerals' in title (+1)",
-          "Less relevant category 'Jewelry' (-12)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+8)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49133-5730152": {
     "item_id": "ctbids-49133-5730152",
     "listing_url": "https://ctbids.com/estate-sale/49133/item/5730152/George-Foreman-Grill-Rowenta-Iron-Deep-Fryer",
@@ -870,6 +865,42 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "279290075": {
+    "item_id": "279290075",
+    "listing_url": "https://shopgoodwill.com/item/279290075",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/65f1eee6-8712-4d0f-95f7-b91a292df7d3nold_09111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/21aec3f1-c5c3-42e6-a0ff-fb523b684816nold_09112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/914c6bfd-e0c4-40a6-9bce-9b94e2ea6129nold_09113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-09-11/0942f910-683c-4f17-b5d2-ba87c3fbb5fcnold_09114.jpg"
+    ],
+    "description": "CONDITION: Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
+    "score_reasons": [
+      "Opportunity term 'minerals' in title (+1)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'minerals' in title (+1)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+8)"
         ],
         "matched_keywords": []
       }
@@ -1030,31 +1061,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48982-5718076": {
-    "item_id": "ctbids-48982-5718076",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718076/Two-Pair-Of-L-B-Evans-Cobra-Opera-Shoes-Size-14M",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718076_ogHGzn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
