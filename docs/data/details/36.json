@@ -57,6 +57,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -64,13 +65,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
+        "score": 14,
+        "relative_score": 0.467,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -213,6 +215,33 @@
       }
     ]
   },
+  "ctbids-48709-5720989": {
+    "item_id": "ctbids-48709-5720989",
+    "listing_url": "https://ctbids.com/estate-sale/48709/item/5720989/Holiday-Serving-Dishes-4",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5720989_I7xgfz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49186-5733178": {
     "item_id": "ctbids-49186-5733178",
     "listing_url": "https://ctbids.com/estate-sale/49186/item/5733178/Bianca-De-Kirk-Flamingo-Painting-Limited-Hand-Numbered-Print-8-100",
@@ -243,31 +272,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49186/item/5733183/Ranch-Quakies-16-x-12-Original-Oil-Painting-by-Steve-Songer-Limited-Edition-7-6890",
     "images": [
       "https://image.ctbids.com/seller/2026-10-13T0627f3/5733183_FSJll8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48709-5720989": {
-    "item_id": "ctbids-48709-5720989",
-    "listing_url": "https://ctbids.com/estate-sale/48709/item/5720989/Holiday-Serving-Dishes-4",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5720989_I7xgfz.webp"
     ],
     "description": "",
     "score_reasons": [

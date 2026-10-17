@@ -189,6 +189,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'specimen' in title (+4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "8 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -197,11 +198,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
+        "score": 8,
+        "relative_score": 0.267,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "8 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -517,11 +519,11 @@
       }
     ]
   },
-  "ctbids-49186-5733572": {
-    "item_id": "ctbids-49186-5733572",
-    "listing_url": "https://ctbids.com/estate-sale/49186/item/5733572/Premium-Crate-Barrel-Kira-Wool-Blend-Area-Rug-6-x-9",
+  "ctbids-49244-5737513": {
+    "item_id": "ctbids-49244-5737513",
+    "listing_url": "https://ctbids.com/estate-sale/49244/item/5737513/misc-Jewelry-bag",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5733572_fXuKu7.webp"
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737513_Vkg9aA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -621,30 +623,26 @@
       }
     ]
   },
-  "280423098": {
-    "item_id": "280423098",
-    "listing_url": "https://shopgoodwill.com/item/280423098",
+  "ctbids-49186-5733572": {
+    "item_id": "ctbids-49186-5733572",
+    "listing_url": "https://ctbids.com/estate-sale/49186/item/5733572/Premium-Crate-Barrel-Kira-Wool-Blend-Area-Rug-6-x-9",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-24/0831fe5c-6207-4cd9-b6ec-f21824439ddfnter_09241.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-24/42927910-37e0-4a3d-9316-404ec49d9ba7nter_09242.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-24/5656d5fd-2a81-4477-9ccf-7fadc3d07337nter_09243.jpg"
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5733572_fXuKu7.webp"
     ],
-    "description": "Framed blue geode specimen display enclosed in a wooden frame with dimensions 12 x 12 x 2 inches. The piece features a natural blue geode mounted on a neutral background. The back includes a hook for hanging.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -800,26 +798,30 @@
       }
     ]
   },
-  "ctbids-49244-5737513": {
-    "item_id": "ctbids-49244-5737513",
-    "listing_url": "https://ctbids.com/estate-sale/49244/item/5737513/misc-Jewelry-bag",
+  "280423098": {
+    "item_id": "280423098",
+    "listing_url": "https://shopgoodwill.com/item/280423098",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737513_Vkg9aA.webp"
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-24/0831fe5c-6207-4cd9-b6ec-f21824439ddfnter_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-24/42927910-37e0-4a3d-9316-404ec49d9ba7nter_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-09-24/5656d5fd-2a81-4477-9ccf-7fadc3d07337nter_09243.jpg"
     ],
-    "description": "",
+    "description": "Framed blue geode specimen display enclosed in a wooden frame with dimensions 12 x 12 x 2 inches. The piece features a natural blue geode mounted on a neutral background. The back includes a hook for hanging.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

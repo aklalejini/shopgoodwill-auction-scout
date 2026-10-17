@@ -16,6 +16,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,14 +24,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 42,
-        "relative_score": 1.4,
+        "score": 47,
+        "relative_score": 1.567,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Opportunity term 'see photos' in description (+4)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -110,6 +112,35 @@
       }
     ]
   },
+  "ctbids-48879-5689800": {
+    "item_id": "ctbids-48879-5689800",
+    "listing_url": "https://ctbids.com/estate-sale/48879/item/5689800/vintage-Los-Angeles-Angels-2010-All-Star-Game-Flag-Banner",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5689800_b2fHIq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280294491": {
     "item_id": "280294491",
     "listing_url": "https://shopgoodwill.com/item/280294491",
@@ -145,33 +176,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "12.435 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48879-5689800": {
-    "item_id": "ctbids-48879-5689800",
-    "listing_url": "https://ctbids.com/estate-sale/48879/item/5689800/vintage-Los-Angeles-Angels-2010-All-Star-Game-Flag-Banner",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5689800_b2fHIq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -474,14 +478,15 @@
       }
     ]
   },
-  "ctbids-48796-5679923": {
-    "item_id": "ctbids-48796-5679923",
-    "listing_url": "https://ctbids.com/estate-sale/48796/item/5679923/Gott-By-Rubbermaid-48-Quart-Ice-Chest-Cooler-With-Handles-And-EZ-Inflate-Air-Mattress",
+  "ctbids-48796-5704629": {
+    "item_id": "ctbids-48796-5704629",
+    "listing_url": "https://ctbids.com/estate-sale/48796/item/5704629/Snap-On-Rachet-Tie-Down-Strap-Ruger-Lock-Kia-Wheel-Locks-U8440-50000",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5679923_KzPSyv.webp"
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5704629_D43dA3.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -489,9 +494,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -499,11 +505,11 @@
       }
     ]
   },
-  "ctbids-48796-5704629": {
-    "item_id": "ctbids-48796-5704629",
-    "listing_url": "https://ctbids.com/estate-sale/48796/item/5704629/Snap-On-Rachet-Tie-Down-Strap-Ruger-Lock-Kia-Wheel-Locks-U8440-50000",
+  "ctbids-48796-5679923": {
+    "item_id": "ctbids-48796-5679923",
+    "listing_url": "https://ctbids.com/estate-sale/48796/item/5679923/Gott-By-Rubbermaid-48-Quart-Ice-Chest-Cooler-With-Handles-And-EZ-Inflate-Air-Mattress",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5704629_D43dA3.webp"
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5679923_KzPSyv.webp"
     ],
     "description": "",
     "score_reasons": [
