@@ -394,6 +394,33 @@
       }
     ]
   },
+  "ctbids-48934-5697490": {
+    "item_id": "ctbids-48934-5697490",
+    "listing_url": "https://ctbids.com/estate-sale/48934/item/5697490/Vintage-MCM-Hollywood-Regency-Style-Lamp",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5697490_5QdLWu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49181-5727888": {
     "item_id": "ctbids-49181-5727888",
     "listing_url": "https://ctbids.com/estate-sale/49181/item/5727888/Eclectic-Item-Lot",
@@ -452,15 +479,15 @@
       }
     ]
   },
-  "ctbids-48934-5697490": {
-    "item_id": "ctbids-48934-5697490",
-    "listing_url": "https://ctbids.com/estate-sale/48934/item/5697490/Vintage-MCM-Hollywood-Regency-Style-Lamp",
+  "ctbids-48982-5718045": {
+    "item_id": "ctbids-48982-5718045",
+    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718045/Set-Of-Five-Wooden-Collectibles",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5697490_5QdLWu.webp"
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5718045_ed6NTI.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -468,10 +495,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -553,33 +580,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48982-5718045": {
-    "item_id": "ctbids-48982-5718045",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718045/Set-Of-Five-Wooden-Collectibles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718045_ed6NTI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -762,7 +762,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -773,7 +773,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1154,9 +1154,10 @@
       "Lower-priority term 'reproduction' in description (-40)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+11)"
+      "Score boundary adjustment (+6)"
     ],
     "hunt_scores": [
       {
@@ -1169,9 +1170,10 @@
           "Lower-priority term 'reproduction' in description (-40)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+11)"
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }
