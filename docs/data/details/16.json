@@ -55,7 +55,6 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'collection' in title (+6)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -63,12 +62,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 16,
-        "relative_score": 0.471,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'collection' in title (+6)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -107,6 +105,35 @@
         "matched_keywords": [
           "lightscribe"
         ]
+      }
+    ]
+  },
+  "ctbids-48026-5717975": {
+    "item_id": "ctbids-48026-5717975",
+    "listing_url": "https://ctbids.com/estate-sale/48026/item/5717975/Assorted-Die-Cast-Toy-Cars-Vintage-Trucks-Lot-NEX-Kinsmart",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5717975_aNnzyT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -172,16 +199,16 @@
       }
     ]
   },
-  "ctbids-48998-5713793": {
-    "item_id": "ctbids-48998-5713793",
-    "listing_url": "https://ctbids.com/estate-sale/48998/item/5713793/O-Keefe-Merrit-vintage-stove-1959-38L28W57H",
+  "ctbids-49114-5726301": {
+    "item_id": "ctbids-49114-5726301",
+    "listing_url": "https://ctbids.com/estate-sale/49114/item/5726301/Ken-Griffey-Jr-1990-Baseball-Cards-5-Card-Lot-Upper-Deck-Donruss-Fleer-Mariners",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5713793_cDg59R.webp"
+      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726301_JxonbW.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -189,11 +216,38 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48692-5662618": {
+    "item_id": "ctbids-48692-5662618",
+    "listing_url": "https://ctbids.com/estate-sale/48692/item/5662618/Vintage-White-Nylint-Reinhart-Food-Service-Sound-Machine-Semi-Truck-No-9126-Z-Made-In-USA",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5662618_WowTVb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -237,6 +291,33 @@
       }
     ]
   },
+  "ctbids-48872-5700230": {
+    "item_id": "ctbids-48872-5700230",
+    "listing_url": "https://ctbids.com/estate-sale/48872/item/5700230/Gold-Inspired-Brooch-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5700230_VkegHo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280686455": {
     "item_id": "280686455",
     "listing_url": "https://shopgoodwill.com/item/280686455",
@@ -264,87 +345,6 @@
           "Opportunity term 'collection' in description (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48998-5713269": {
-    "item_id": "ctbids-48998-5713269",
-    "listing_url": "https://ctbids.com/estate-sale/48998/item/5713269/Vintage-Heathkit-amplifier",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5713269_pxtsB4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48982-5716290": {
-    "item_id": "ctbids-48982-5716290",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5716290/Vintage-Handmade-Table-Cloth-2-82-X-62",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5716290_aPPBlS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48692-5662618": {
-    "item_id": "ctbids-48692-5662618",
-    "listing_url": "https://ctbids.com/estate-sale/48692/item/5662618/Vintage-White-Nylint-Reinhart-Food-Service-Sound-Machine-Semi-Truck-No-9126-Z-Made-In-USA",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-04Tfc46ea/5662618_WowTVb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -431,6 +431,60 @@
       }
     ]
   },
+  "ctbids-48667-5687459": {
+    "item_id": "ctbids-48667-5687459",
+    "listing_url": "https://ctbids.com/estate-sale/48667/item/5687459/Vintage-Gloves-Fur",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-30T072869/5687459_9R1aYb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48619-5701465": {
+    "item_id": "ctbids-48619-5701465",
+    "listing_url": "https://ctbids.com/estate-sale/48619/item/5701465/Vintage-Milk-Bottle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5701465_skolnV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49114-5725900": {
     "item_id": "ctbids-49114-5725900",
     "listing_url": "https://ctbids.com/estate-sale/49114/item/5725900/1991-Upper-Deck-Tony-Gwynn-255-San-Diego-Padres-Baseball-Card-HOF",
@@ -458,15 +512,15 @@
       }
     ]
   },
-  "ctbids-48982-5702765": {
-    "item_id": "ctbids-48982-5702765",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5702765/NJ-And-Other-Framed-East-Coast-Lighthouses",
+  "ctbids-49114-5726403": {
+    "item_id": "ctbids-49114-5726403",
+    "listing_url": "https://ctbids.com/estate-sale/49114/item/5726403/1990-91-Fleer-Earvin-Magic-Johnson-Los-Angeles-Lakers-Basketball-Card",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5702765_WjQLHF.webp"
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5549907_QIAjzS.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -477,34 +531,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48998-5706719": {
-    "item_id": "ctbids-48998-5706719",
-    "listing_url": "https://ctbids.com/estate-sale/48998/item/5706719/Genray-cvr-5-n-128-led-variable-color-curved-on-camera-light",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5706719_fZLL3r.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -541,114 +568,6 @@
       }
     ]
   },
-  "ctbids-48998-5714254": {
-    "item_id": "ctbids-48998-5714254",
-    "listing_url": "https://ctbids.com/estate-sale/48998/item/5714254/UPT-60-b-kit-10-5-ultra-thin-bi-color",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5702768_ZcAiun.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49181-5726177": {
-    "item_id": "ctbids-49181-5726177",
-    "listing_url": "https://ctbids.com/estate-sale/49181/item/5726177/NWT-Gabby-Skye-Size-4-Dress-With-Gold-Tone-Overlay",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726177_mrDGE3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49287-5743604": {
-    "item_id": "ctbids-49287-5743604",
-    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743604/1921-Morgan-Silver-Dollar-Final-Year-of-Original-Issue-Historic-U-S-90-Silver-Coin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743604_SHJ9xe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49114-5726403": {
-    "item_id": "ctbids-49114-5726403",
-    "listing_url": "https://ctbids.com/estate-sale/49114/item/5726403/1990-91-Fleer-Earvin-Magic-Johnson-Los-Angeles-Lakers-Basketball-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5549907_QIAjzS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48626-5720443": {
     "item_id": "ctbids-48626-5720443",
     "listing_url": "https://ctbids.com/estate-sale/48626/item/5720443/Koolerton-Camera-Gear-Bag",
@@ -669,111 +588,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280472240": {
-    "item_id": "280472240",
-    "listing_url": "https://shopgoodwill.com/item/280472240",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/5536b05e-fc3c-408d-93c4-087dc5610756ron1_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/81f25f60-2499-4ae9-a1cf-0e6852482c30ron1_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/a3a77619-d7b6-415e-9069-48410f28e6d0ron1_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/fc69e556-3492-4cc3-b5c4-582526d92d4cron1_10134.jpg"
-    ],
-    "description": "Presentations Crystal Collection Egg Relish Tray made of clear pressed glass. Features twelve oval sections around the edge designed for deviled eggs or appetizers and a textured central section for additional items. The tray is round and transparent. It is in good condition with no visible chips or cracks. Includes original packaging, which shows some wear but clearly indicates the tray's use for serving eggs and hors d'oeuvres.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48982-5718042": {
-    "item_id": "ctbids-48982-5718042",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718042/Beautiful-Cobalt-Blue-Heavy-Glass-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718042_hY2B2M.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48982-5718062": {
-    "item_id": "ctbids-48982-5718062",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718062/Element-Electronics-900MHz-Indoor-Outdoor-Speakers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718062_qyaaMv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49181-5724903": {
-    "item_id": "ctbids-49181-5724903",
-    "listing_url": "https://ctbids.com/estate-sale/49181/item/5724903/2-Baccarat-Wine-Glasses-Signed",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-10T94c0c9/5724903_RoCQTj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -811,6 +625,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48697/item/5672940/Burberry-Authentic-Nylon-Blue-Label-Bucket-Bag-Nova-Check",
     "images": [
       "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5672940_cRmp1V.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49287-5743604": {
+    "item_id": "ctbids-49287-5743604",
+    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743604/1921-Morgan-Silver-Dollar-Final-Year-of-Original-Issue-Historic-U-S-90-Silver-Coin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743604_SHJ9xe.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -881,6 +720,36 @@
       }
     ]
   },
+  "280472240": {
+    "item_id": "280472240",
+    "listing_url": "https://shopgoodwill.com/item/280472240",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/5536b05e-fc3c-408d-93c4-087dc5610756ron1_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/81f25f60-2499-4ae9-a1cf-0e6852482c30ron1_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/a3a77619-d7b6-415e-9069-48410f28e6d0ron1_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/371/Item/2026-10-13/fc69e556-3492-4cc3-b5c4-582526d92d4cron1_10134.jpg"
+    ],
+    "description": "Presentations Crystal Collection Egg Relish Tray made of clear pressed glass. Features twelve oval sections around the edge designed for deviled eggs or appetizers and a textured central section for additional items. The tray is round and transparent. It is in good condition with no visible chips or cracks. Includes original packaging, which shows some wear but clearly indicates the tray's use for serving eggs and hors d'oeuvres.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48619-5678605": {
     "item_id": "ctbids-48619-5678605",
     "listing_url": "https://ctbids.com/estate-sale/48619/item/5678605/Brass-Decor",
@@ -936,6 +805,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48667/item/5713709/Lladro-Ten-Growing",
     "images": [
       "https://image.ctbids.com/seller/2026-10-07T1314d3/5713709_oWh2YY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48667-5713930": {
+    "item_id": "ctbids-48667-5713930",
+    "listing_url": "https://ctbids.com/estate-sale/48667/item/5713930/Lladro-Bells",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5713930_UFNury.webp"
     ],
     "description": "",
     "score_reasons": [

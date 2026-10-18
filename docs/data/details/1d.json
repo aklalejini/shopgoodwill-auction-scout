@@ -20,7 +20,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'sterling silver' in title (+18)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -33,7 +33,7 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'sterling silver' in title (+18)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -177,6 +177,35 @@
       }
     ]
   },
+  "ctbids-48026-5711126": {
+    "item_id": "ctbids-48026-5711126",
+    "listing_url": "https://ctbids.com/estate-sale/48026/item/5711126/Roy-Rogers-Dale-Evans-Western-Memorabilia-Collection-Vintage-Books-Toys-Badges-Collectibles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5711126_VGeuHk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280593354": {
     "item_id": "280593354",
     "listing_url": "https://shopgoodwill.com/item/280593354",
@@ -215,35 +244,6 @@
           "Lower-priority term 'as is' in description (-3)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48026-5711126": {
-    "item_id": "ctbids-48026-5711126",
-    "listing_url": "https://ctbids.com/estate-sale/48026/item/5711126/Roy-Rogers-Dale-Evans-Western-Memorabilia-Collection-Vintage-Books-Toys-Badges-Collectibles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5711126_VGeuHk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -303,62 +303,6 @@
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48834-5701442": {
-    "item_id": "ctbids-48834-5701442",
-    "listing_url": "https://ctbids.com/estate-sale/48834/item/5701442/Wallace-Electric-Mantel-Clock-Vintage-Decorative-Clocks-with-Hourglass-4-Clocks-Hourglass",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5701442_oCnxLf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48026-5696455": {
-    "item_id": "ctbids-48026-5696455",
-    "listing_url": "https://ctbids.com/estate-sale/48026/item/5696455/Chevrolet-Lincoln-Die-Cast-Car-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5696455_GBuBwO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -447,6 +391,116 @@
       }
     ]
   },
+  "ctbids-48834-5701442": {
+    "item_id": "ctbids-48834-5701442",
+    "listing_url": "https://ctbids.com/estate-sale/48834/item/5701442/Wallace-Electric-Mantel-Clock-Vintage-Decorative-Clocks-with-Hourglass-4-Clocks-Hourglass",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5701442_oCnxLf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48026-5696455": {
+    "item_id": "ctbids-48026-5696455",
+    "listing_url": "https://ctbids.com/estate-sale/48026/item/5696455/Chevrolet-Lincoln-Die-Cast-Car-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5696455_GBuBwO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48667-5687636": {
+    "item_id": "ctbids-48667-5687636",
+    "listing_url": "https://ctbids.com/estate-sale/48667/item/5687636/Cobalt-Blue-Glass-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-30T072869/5687636_4dzShr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49055-5721849": {
+    "item_id": "ctbids-49055-5721849",
+    "listing_url": "https://ctbids.com/estate-sale/49055/item/5721849/Disney-Jewelry-Lot-With-Gold-Tone-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5721849_5ZfkDo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48619-5678338": {
     "item_id": "ctbids-48619-5678338",
     "listing_url": "https://ctbids.com/estate-sale/48619/item/5678338/Vintage-Vases",
@@ -528,15 +582,15 @@
       }
     ]
   },
-  "ctbids-49055-5721849": {
-    "item_id": "ctbids-49055-5721849",
-    "listing_url": "https://ctbids.com/estate-sale/49055/item/5721849/Disney-Jewelry-Lot-With-Gold-Tone-Earrings",
+  "ctbids-48619-5682863": {
+    "item_id": "ctbids-48619-5682863",
+    "listing_url": "https://ctbids.com/estate-sale/48619/item/5682863/Vintage-Glazed-Planters",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5721849_5ZfkDo.webp"
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682863_xRFski.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -544,10 +598,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -555,11 +609,11 @@
       }
     ]
   },
-  "ctbids-48998-5705838": {
-    "item_id": "ctbids-48998-5705838",
-    "listing_url": "https://ctbids.com/estate-sale/48998/item/5705838/Ultragraph-pro-17x8x2-need-a-power-cord",
+  "ctbids-48026-5672369": {
+    "item_id": "ctbids-48026-5672369",
+    "listing_url": "https://ctbids.com/estate-sale/48026/item/5672369/Stemware-Mystery",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705838_CV8T8F.webp"
+      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5672369_nc2V69.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -582,38 +636,11 @@
       }
     ]
   },
-  "ctbids-49287-5743003": {
-    "item_id": "ctbids-49287-5743003",
-    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743003/1879-Morgan-Silver-Dollar-Historic-U-S-90-Silver-Coin-Early-Morgan-Dollar-Issue",
+  "ctbids-48873-5704648": {
+    "item_id": "ctbids-48873-5704648",
+    "listing_url": "https://ctbids.com/estate-sale/48873/item/5704648/42-1ct-Natural-Golden-Tigers-Eye-Cabochon",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743003_IFd103.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48026-5672369": {
-    "item_id": "ctbids-48026-5672369",
-    "listing_url": "https://ctbids.com/estate-sale/48026/item/5672369/Stemware-Mystery",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-25Tfd3bdf/5672369_nc2V69.webp"
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5704648_6FZymA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -669,137 +696,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "5.77 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280417333": {
-    "item_id": "280417333",
-    "listing_url": "https://shopgoodwill.com/item/280417333",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/831ceb46-4f69-4144-ab4e-0f83661db5b2labs_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/ca9d5631-d09b-482b-b69e-9fb2a90ef33elabs_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/6df28c5a-7059-4ba0-a7f3-268a4082650elabs_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/9e925619-33f9-4d78-b674-958def6b738elabs_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/f18bcf90-9b74-47f0-a8e9-f1931c7b6c0dlabs_10135.jpg"
-    ],
-    "description": "Lilla Clasica Handmade Tobacco Pipe\nHand-Carved Wooden Pipe with Decorative Accents\nWood, Feathers, and Beads, Approximately 16 Inches Long\nA fine hand-made tobacco pipe from the Lilla Clasica collection, featuring a long, elegant churchwarden-style silhouette. This piece combines traditional woodworking with ornamental indigenous-inspired aesthetics, making it a striking display piece or a unique addition to a pipe collection. The pipe is presented in its original satin-lined gift box, highlighting its status as a crafted specialty item.\nHand-carved wooden bowl with a textured, scale-like pattern and deep polished finish\nExtra-long wooden stem terminating in a black tapered mouthpiece\nDecorative cord wrap adorned with natural-toned beads and dark brown feathers\nIncludes original maroon presentation box with a gold-tone brand logo and yellow satin lining\nApproximately 16 inches in total length\nCondition:\nThe pipe is in excellent condition and appears unsmoked, with no residue or charring inside the bowl. The wood finish remains bright and glossy across both the bowl and stem. Decorative feathers and beads are fully intact and securely attached. The presentation box is structurally sound with minor shelf wear on the exterior; the interior lining is clean and vibrant.\nTHANK YOU FOR YOUR PURCHASE!\nIf you’re happy and you know it, please leave a 5-star rating! If there is a problem with your order, please contact us via Shop Goodwill before opening returns/claims. We strive to return all messages within one business day.\nPlease click the shipping estimate link in the listing to get the shipping costs directly from FedEx.  There will be no discounts or price changes after an auction has ended.\nOur shipping team works hard to get out all orders as quickly as possible, that being said it may take up to 5 business days after payment for your order to ship out.  Once it ships out you will receive tracking information.\n***IMPORTANT*** If your item was damaged in transit, do not throw away anything, including the box or packing materials until we have authorized you to do so. Photos will be required to file insurance claims.\nOur Business hours: Monday - Friday  8:00 am to 4:00 pm Central\nNew items and unique treasures are added daily, come back soon!",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 8,
-        "relative_score": 0.229,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49099-5722159": {
-    "item_id": "ctbids-49099-5722159",
-    "listing_url": "https://ctbids.com/estate-sale/49099/item/5722159/10-Longaberger-Baskets-With-Plastic-Liners-And-Assorted-Linens-Also-Includes-Longaberger-Glass-Jar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722159_sBeu1d.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49099-5740923": {
-    "item_id": "ctbids-49099-5740923",
-    "listing_url": "https://ctbids.com/estate-sale/49099/item/5740923/Coach-flap-bag-with-gold-tone-brass-hardware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740923_8us8Uz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49099-5721222": {
-    "item_id": "ctbids-49099-5721222",
-    "listing_url": "https://ctbids.com/estate-sale/49099/item/5721222/American-Atelier-Cookie-Jar-Food-Network-Bamboo-Serving-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5721222_0ttjSe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49006-5713387": {
-    "item_id": "ctbids-49006-5713387",
-    "listing_url": "https://ctbids.com/estate-sale/49006/item/5713387/Sequin-Covered-Red-Envelope-Clutch-Or-Over-The-Shoulder-Bag",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5713387_9bTeEw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -1030,36 +926,31 @@
       }
     ]
   },
-  "280399366": {
-    "item_id": "280399366",
-    "listing_url": "https://shopgoodwill.com/item/280399366",
+  "280417333": {
+    "item_id": "280417333",
+    "listing_url": "https://shopgoodwill.com/item/280417333",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/1a136d23-5751-4ac2-9641-aa0251c68caemson_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/9589caf9-467d-48c9-be3b-685d587938a7mson_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/15e8ca05-b915-45a1-a3a8-9016777d03a2mson_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/ecf28f16-d6a0-42cf-882e-a8c990bb3ad7mson_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/69023e01-a2c1-4d9c-80b2-19ceaa5056d2mson_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/61106151-e6f5-494b-b015-34133c76f5a9mson_10136.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/831ceb46-4f69-4144-ab4e-0f83661db5b2labs_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/ca9d5631-d09b-482b-b69e-9fb2a90ef33elabs_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/6df28c5a-7059-4ba0-a7f3-268a4082650elabs_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/9e925619-33f9-4d78-b674-958def6b738elabs_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-13/f18bcf90-9b74-47f0-a8e9-f1931c7b6c0dlabs_10135.jpg"
     ],
-    "description": "Material(s):\nStone\nCondition:\nMinimal signs of use",
+    "description": "Lilla Clasica Handmade Tobacco Pipe\nHand-Carved Wooden Pipe with Decorative Accents\nWood, Feathers, and Beads, Approximately 16 Inches Long\nA fine hand-made tobacco pipe from the Lilla Clasica collection, featuring a long, elegant churchwarden-style silhouette. This piece combines traditional woodworking with ornamental indigenous-inspired aesthetics, making it a striking display piece or a unique addition to a pipe collection. The pipe is presented in its original satin-lined gift box, highlighting its status as a crafted specialty item.\nHand-carved wooden bowl with a textured, scale-like pattern and deep polished finish\nExtra-long wooden stem terminating in a black tapered mouthpiece\nDecorative cord wrap adorned with natural-toned beads and dark brown feathers\nIncludes original maroon presentation box with a gold-tone brand logo and yellow satin lining\nApproximately 16 inches in total length\nCondition:\nThe pipe is in excellent condition and appears unsmoked, with no residue or charring inside the bowl. The wood finish remains bright and glossy across both the bowl and stem. Decorative feathers and beads are fully intact and securely attached. The presentation box is structurally sound with minor shelf wear on the exterior; the interior lining is clean and vibrant.\nTHANK YOU FOR YOUR PURCHASE!\nIf you’re happy and you know it, please leave a 5-star rating! If there is a problem with your order, please contact us via Shop Goodwill before opening returns/claims. We strive to return all messages within one business day.\nPlease click the shipping estimate link in the listing to get the shipping costs directly from FedEx.  There will be no discounts or price changes after an auction has ended.\nOur shipping team works hard to get out all orders as quickly as possible, that being said it may take up to 5 business days after payment for your order to ship out.  Once it ships out you will receive tracking information.\n***IMPORTANT*** If your item was damaged in transit, do not throw away anything, including the box or packing materials until we have authorized you to do so. Photos will be required to file insurance claims.\nOur Business hours: Monday - Friday  8:00 am to 4:00 pm Central\nNew items and unique treasures are added daily, come back soon!",
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
+      "Opportunity term 'collection' in description (+7)",
+      "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 8,
+        "relative_score": 0.229,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
+          "Opportunity term 'collection' in description (+7)",
+          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -1101,6 +992,117 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49132-5731107": {
+    "item_id": "ctbids-49132-5731107",
+    "listing_url": "https://ctbids.com/estate-sale/49132/item/5731107/Bobi-Pet-Robotic-Vacuum",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5731107_4UJM1F.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49109-5723049": {
+    "item_id": "ctbids-49109-5723049",
+    "listing_url": "https://ctbids.com/estate-sale/49109/item/5723049/Carved-African-Mask-with-Beaded-Detail",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5723049_sXitab.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49055-5728614": {
+    "item_id": "ctbids-49055-5728614",
+    "listing_url": "https://ctbids.com/estate-sale/49055/item/5728614/Apple-iPad-Air-Dell-Venue-7-Tablet-Bundle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5728614_Jncnan.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280399366": {
+    "item_id": "280399366",
+    "listing_url": "https://shopgoodwill.com/item/280399366",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/1a136d23-5751-4ac2-9641-aa0251c68caemson_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/9589caf9-467d-48c9-be3b-685d587938a7mson_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/15e8ca05-b915-45a1-a3a8-9016777d03a2mson_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/ecf28f16-d6a0-42cf-882e-a8c990bb3ad7mson_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/69023e01-a2c1-4d9c-80b2-19ceaa5056d2mson_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/61106151-e6f5-494b-b015-34133c76f5a9mson_10136.jpg"
+    ],
+    "description": "Material(s):\nStone\nCondition:\nMinimal signs of use",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
