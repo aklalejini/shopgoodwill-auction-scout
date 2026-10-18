@@ -415,6 +415,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -422,9 +423,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -440,6 +442,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -447,9 +450,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1128,6 +1132,43 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+13)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280979461": {
+    "item_id": "280979461",
+    "listing_url": "https://shopgoodwill.com/item/280979461",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of natural mineral and stone specimens in polished and raw forms.\n\nSpecifications:\n- Includes polished banded onyx coasters with hexagonal shape and light brown and cream stripes\n- Contains a small onyx trinket dish matching the coasters\n- Features agate geode slices in brown, gray, and white colors with crystal formations\n- Several rough mineral specimens such as quartz clusters and petrified wood are included\n- Pieces exhibit natural variations and minor chips typical of minerals\n- Total weight approximately 15 pounds",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "15 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+10)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "15 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }
