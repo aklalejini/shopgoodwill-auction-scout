@@ -117,6 +117,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -124,11 +125,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -221,6 +223,35 @@
       }
     ]
   },
+  "ctbids-49024-5712744": {
+    "item_id": "ctbids-49024-5712744",
+    "listing_url": "https://ctbids.com/estate-sale/49024/item/5712744/Vintage-Orange-Lusterware-Japanese-Raised-Gilt-Hotta-Yu-Shoten-Mark",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5712744_cAFkFa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48872-5700163": {
     "item_id": "ctbids-48872-5700163",
     "listing_url": "https://ctbids.com/estate-sale/48872/item/5700163/Collection-of-Women-s-Watches",
@@ -243,37 +274,6 @@
           "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "278382573": {
-    "item_id": "278382573",
-    "listing_url": "https://shopgoodwill.com/item/278382573",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/2b1b2235-9da6-46de-be1e-acbc64dd5084ssen_09241.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/837853c7-c109-4d69-bcca-871968e2393essen_09242.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/75edc76b-c47c-43f6-881c-ea2ec4590d10ssen_09243.jpg"
-    ],
-    "description": "This lot includes 9 natural mineral specimens primarily composed of selenite, a crystalline form of gypsum. The pieces range in translucency from translucent to transparent and exhibit a pearly luster. Most specimens are colorless or white, with one showing a light tan hue. The crystals display characteristic striated and bladed formations and are in raw, unpolished condition with some natural edge chipping. These selenite specimens are suitable for mineral collectors, metaphysical applications, or educational purposes.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'metaphysical' in description (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'metaphysical' in description (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -338,33 +338,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48927/item/5702378/Vintage-Cufflinks-Tie-Clips-Pins-w-Brown-Case",
     "images": [
       "https://image.ctbids.com/seller/2026-10-05T0c66fb/5702378_YgJ6cr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49024-5712744": {
-    "item_id": "ctbids-49024-5712744",
-    "listing_url": "https://ctbids.com/estate-sale/49024/item/5712744/Vintage-Orange-Lusterware-Japanese-Raised-Gilt-Hotta-Yu-Shoten-Mark",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5712744_cAFkFa.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -468,6 +441,145 @@
       }
     ]
   },
+  "278382573": {
+    "item_id": "278382573",
+    "listing_url": "https://shopgoodwill.com/item/278382573",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/2b1b2235-9da6-46de-be1e-acbc64dd5084ssen_09241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/837853c7-c109-4d69-bcca-871968e2393essen_09242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-09-24/75edc76b-c47c-43f6-881c-ea2ec4590d10ssen_09243.jpg"
+    ],
+    "description": "This lot includes 9 natural mineral specimens primarily composed of selenite, a crystalline form of gypsum. The pieces range in translucency from translucent to transparent and exhibit a pearly luster. Most specimens are colorless or white, with one showing a light tan hue. The crystals display characteristic striated and bladed formations and are in raw, unpolished condition with some natural edge chipping. These selenite specimens are suitable for mineral collectors, metaphysical applications, or educational purposes.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49287-5743034": {
+    "item_id": "ctbids-49287-5743034",
+    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743034/1880-Morgan-Silver-Dollar-Historic-U-S-90-Silver-Coin-Early-Morgan-Dollar-Issue",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743034_areJ7n.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49287-5743956": {
+    "item_id": "ctbids-49287-5743956",
+    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743956/1921-Morgan-Silver-Dollar-Final-Year-of-Original-Issue-Historic-U-S-90-Silver-Coin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743956_ogC7jw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48667-5682809": {
+    "item_id": "ctbids-48667-5682809",
+    "listing_url": "https://ctbids.com/estate-sale/48667/item/5682809/Porcelain-Chinoiserie-Lidded-Ginger-Jars-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682809_tjcLWx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48026-5714208": {
+    "item_id": "ctbids-48026-5714208",
+    "listing_url": "https://ctbids.com/estate-sale/48026/item/5714208/Country-Western-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5714208_EhrYVA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48626-5654383": {
     "item_id": "ctbids-48626-5654383",
     "listing_url": "https://ctbids.com/estate-sale/48626/item/5654383/Bulova-Precisionist-262-kHz-Ultra-High-Frequency-Chronograph-Stainless-Steel-Watch",
@@ -523,56 +635,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48934/item/5697877/Turkish-Copper-Ewer-with-Tray",
     "images": [
       "https://image.ctbids.com/seller/2026-10-03T35dc9e/5697877_NjqARd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49287-5743034": {
-    "item_id": "ctbids-49287-5743034",
-    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743034/1880-Morgan-Silver-Dollar-Historic-U-S-90-Silver-Coin-Early-Morgan-Dollar-Issue",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743034_areJ7n.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49287-5743956": {
-    "item_id": "ctbids-49287-5743956",
-    "listing_url": "https://ctbids.com/estate-sale/49287/item/5743956/1921-Morgan-Silver-Dollar-Final-Year-of-Original-Issue-Historic-U-S-90-Silver-Coin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743956_ogC7jw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -723,56 +785,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48667/item/5682403/Royal-Worcester-Queen-Elizabeth-II-Golden-Jubilee-And-Royal-Crown-Derby-China",
     "images": [
       "https://image.ctbids.com/seller/2026-09-29T9a7116/5682403_x8LV0x.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48667-5682809": {
-    "item_id": "ctbids-48667-5682809",
-    "listing_url": "https://ctbids.com/estate-sale/48667/item/5682809/Porcelain-Chinoiserie-Lidded-Ginger-Jars-1",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682809_tjcLWx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48026-5714208": {
-    "item_id": "ctbids-48026-5714208",
-    "listing_url": "https://ctbids.com/estate-sale/48026/item/5714208/Country-Western-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5714208_EhrYVA.webp"
     ],
     "description": "",
     "score_reasons": [

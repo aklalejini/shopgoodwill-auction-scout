@@ -15,6 +15,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,14 +23,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 42,
-        "relative_score": 1.4,
+        "score": 47,
+        "relative_score": 1.567,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Opportunity term 'see photos' in description (+4)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -41,28 +43,23 @@
     "item_id": "ctbids-48998-5706527",
     "listing_url": "https://ctbids.com/estate-sale/48998/item/5706527/Tiffany-style-lamp-26H-Shade-8in-high-16-wide-at-bottom",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5706527_YkUFEi.webp",
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5706527_zcz5qP.webp",
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5706527_IjW3K2.webp",
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5706527_5p1Z9F.webp"
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5706527_YkUFEi.webp"
     ],
     "description": "",
     "score_reasons": [
       "High-value signal 'Tiffany' in title (+22)",
-      "1 bid near close (+2)",
-      "Shipping is calculated and not included in the price (0)",
+      "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
     "hunt_scores": [
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 30,
-        "relative_score": 0.882,
+        "score": 23,
+        "relative_score": 0.676,
         "score_reasons": [
           "High-value signal 'Tiffany' in title (+22)",
-          "1 bid near close (+2)",
-          "Shipping is calculated and not included in the price (0)",
+          "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
         "matched_keywords": []
@@ -203,6 +200,64 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49055-5722217": {
+    "item_id": "ctbids-49055-5722217",
+    "listing_url": "https://ctbids.com/estate-sale/49055/item/5722217/Child-s-Vintage-17-Piece-China-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722217_ZhZxmK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48619-5701872": {
+    "item_id": "ctbids-48619-5701872",
+    "listing_url": "https://ctbids.com/estate-sale/48619/item/5701872/Vintage-White-Enamelware-Basin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5506186_vvpQJb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -372,33 +427,6 @@
       }
     ]
   },
-  "ctbids-49055-5722217": {
-    "item_id": "ctbids-49055-5722217",
-    "listing_url": "https://ctbids.com/estate-sale/49055/item/5722217/Child-s-Vintage-17-Piece-China-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722217_ZhZxmK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48927-5708026": {
     "item_id": "ctbids-48927-5708026",
     "listing_url": "https://ctbids.com/estate-sale/48927/item/5708026/Vintage-MCM-Italian-Crimson-Alabaster-Grapes",
@@ -426,15 +454,15 @@
       }
     ]
   },
-  "ctbids-48619-5701872": {
-    "item_id": "ctbids-48619-5701872",
-    "listing_url": "https://ctbids.com/estate-sale/48619/item/5701872/Vintage-White-Enamelware-Basin",
+  "ctbids-48982-5718052": {
+    "item_id": "ctbids-48982-5718052",
+    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718052/Migratory-Bird-Hunting-and-Conservation-Stamps-Set-Of-Four-Appreciation-Cards-Lot-2",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5506186_vvpQJb.webp"
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5718052_EMzGjw.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -442,10 +470,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -485,33 +513,6 @@
       }
     ]
   },
-  "ctbids-48982-5718052": {
-    "item_id": "ctbids-48982-5718052",
-    "listing_url": "https://ctbids.com/estate-sale/48982/item/5718052/Migratory-Bird-Hunting-and-Conservation-Stamps-Set-Of-Four-Appreciation-Cards-Lot-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718052_EMzGjw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48982-5705782": {
     "item_id": "ctbids-48982-5705782",
     "listing_url": "https://ctbids.com/estate-sale/48982/item/5705782/1926-Sacred-Art-And-1929-Northern-Illinois-Teachers-College-Calendars",
@@ -532,6 +533,141 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49181-5726190": {
+    "item_id": "ctbids-49181-5726190",
+    "listing_url": "https://ctbids.com/estate-sale/49181/item/5726190/Anne-Klein-Top-Size-Small",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726190_3Xnmfv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48847-5693011": {
+    "item_id": "ctbids-48847-5693011",
+    "listing_url": "https://ctbids.com/estate-sale/48847/item/5693011/Thirteen-Pairs-Of-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5693011_ilkkld.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48692-5666867": {
+    "item_id": "ctbids-48692-5666867",
+    "listing_url": "https://ctbids.com/estate-sale/48692/item/5666867/Clarke-MT1232-Electric-Chainsaw-Sharpener",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5666867_L1Pab8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49181-5726139": {
+    "item_id": "ctbids-49181-5726139",
+    "listing_url": "https://ctbids.com/estate-sale/49181/item/5726139/New-Sincerely-Jules-Rhinestone-Choker-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726139_Az5Lg6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49114-5726239": {
+    "item_id": "ctbids-49114-5726239",
+    "listing_url": "https://ctbids.com/estate-sale/49114/item/5726239/2016-Topps-WWE-Heritage-Ric-Flair-95-Legend-PSA-9-MINT-Wrestling-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726239_Ibc0QN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -626,31 +762,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48697/item/5707956/Chanel-Authentic-Coco-Mark-Chain-Shoulder-Bag-Taupe",
     "images": [
       "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5707956_f9qe7N.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49181-5726190": {
-    "item_id": "ctbids-49181-5726190",
-    "listing_url": "https://ctbids.com/estate-sale/49181/item/5726190/Anne-Klein-Top-Size-Small",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726190_3Xnmfv.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -796,61 +907,11 @@
       }
     ]
   },
-  "ctbids-48847-5693011": {
-    "item_id": "ctbids-48847-5693011",
-    "listing_url": "https://ctbids.com/estate-sale/48847/item/5693011/Thirteen-Pairs-Of-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5693011_ilkkld.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49049-5714248": {
     "item_id": "ctbids-49049-5714248",
     "listing_url": "https://ctbids.com/estate-sale/49049/item/5714248/Pink-Back-Mahjong-Tiles-with-Printed-Zip-Pouch-and-Accessories",
     "images": [
       "https://image.ctbids.com/seller/2026-10-09T692c1c/5714248_gEsuFU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48692-5666867": {
-    "item_id": "ctbids-48692-5666867",
-    "listing_url": "https://ctbids.com/estate-sale/48692/item/5666867/Clarke-MT1232-Electric-Chainsaw-Sharpener",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5666867_L1Pab8.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -946,43 +1007,33 @@
       }
     ]
   },
-  "ctbids-49181-5726139": {
-    "item_id": "ctbids-49181-5726139",
-    "listing_url": "https://ctbids.com/estate-sale/49181/item/5726139/New-Sincerely-Jules-Rhinestone-Choker-Necklace",
+  "ctbids-48626-5720446": {
+    "item_id": "ctbids-48626-5720446",
+    "listing_url": "https://ctbids.com/estate-sale/48626/item/5720446/Jinhao-Fountain-Pens",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726139_Az5Lg6.webp"
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5720446_edzzen.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Less relevant category 'Crafts' (-12)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)",
+      "Score boundary adjustment (+19)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Less relevant category 'Crafts' (-12)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)",
+          "Score boundary adjustment (+19)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49114-5726239": {
-    "item_id": "ctbids-49114-5726239",
-    "listing_url": "https://ctbids.com/estate-sale/49114/item/5726239/2016-Topps-WWE-Heritage-Ric-Flair-95-Legend-PSA-9-MINT-Wrestling-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5726239_Ibc0QN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -1023,46 +1074,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48626-5720446": {
-    "item_id": "ctbids-48626-5720446",
-    "listing_url": "https://ctbids.com/estate-sale/48626/item/5720446/Jinhao-Fountain-Pens",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5720446_edzzen.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Crafts' (-12)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)",
-      "Score boundary adjustment (+19)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Crafts' (-12)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)",
-          "Score boundary adjustment (+19)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
