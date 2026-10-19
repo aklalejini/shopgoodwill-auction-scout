@@ -19,6 +19,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "14 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -27,13 +28,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 35,
+        "relative_score": 1.167,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'mixed' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "14 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -173,6 +175,7 @@
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'specimen' in title (+4)",
       "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -180,13 +183,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 15,
-        "relative_score": 0.5,
+        "score": 17,
+        "relative_score": 0.567,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'specimen' in title (+4)",
           "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -233,6 +237,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -240,11 +245,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -279,11 +285,38 @@
       }
     ]
   },
-  "ctbids-49020-5725814": {
-    "item_id": "ctbids-49020-5725814",
-    "listing_url": "https://ctbids.com/estate-sale/49020/item/5725814/Vintage-Nikkormat-Autofocus-Slide-Projector-with-Carrying-Case-Accessories",
+  "ctbids-48821-5710739": {
+    "item_id": "ctbids-48821-5710739",
+    "listing_url": "https://ctbids.com/estate-sale/48821/item/5710739/1980s-Luminarc-Arcoroc-Octime-French-Glassware-Collection",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5725814_L987Ki.webp"
+      "https://image.ctbids.com/seller/2026-10-07T1314d3/5710739_gPHYJI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49090-5722985": {
+    "item_id": "ctbids-49090-5722985",
+    "listing_url": "https://ctbids.com/estate-sale/49090/item/5722985/Vintage-Mixed-Golf-Club-Set-Northwestern-TaylorMade-American-Golf-Classics-with-Headcovers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722985_GDsz8Y.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -308,15 +341,16 @@
       }
     ]
   },
-  "ctbids-48821-5710739": {
-    "item_id": "ctbids-48821-5710739",
-    "listing_url": "https://ctbids.com/estate-sale/48821/item/5710739/1980s-Luminarc-Arcoroc-Octime-French-Glassware-Collection",
+  "ctbids-49090-5727315": {
+    "item_id": "ctbids-49090-5727315",
+    "listing_url": "https://ctbids.com/estate-sale/49090/item/5727315/Pair-of-Vintage-Fred-Press-Chalkware-Farm-Figurines",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5710739_gPHYJI.webp"
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5727315_RdP3Km.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -324,10 +358,38 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49020-5725814": {
+    "item_id": "ctbids-49020-5725814",
+    "listing_url": "https://ctbids.com/estate-sale/49020/item/5725814/Vintage-Nikkormat-Autofocus-Slide-Projector-with-Carrying-Case-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-11T5ac3e6/5725814_L987Ki.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -470,60 +532,6 @@
       }
     ]
   },
-  "ctbids-49090-5722985": {
-    "item_id": "ctbids-49090-5722985",
-    "listing_url": "https://ctbids.com/estate-sale/49090/item/5722985/Vintage-Mixed-Golf-Club-Set-Northwestern-TaylorMade-American-Golf-Classics-with-Headcovers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722985_GDsz8Y.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49090-5727315": {
-    "item_id": "ctbids-49090-5727315",
-    "listing_url": "https://ctbids.com/estate-sale/49090/item/5727315/Pair-of-Vintage-Fred-Press-Chalkware-Farm-Figurines",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5727315_RdP3Km.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48568-5679635": {
     "item_id": "ctbids-48568-5679635",
     "listing_url": "https://ctbids.com/estate-sale/48568/item/5679635/8-6-CTTW-2mm-6mm-Gemstone-Rounds-Mystery-Lot-Not-Tested-Red-and-Blue-Lilac-Tones",
@@ -544,6 +552,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48489-5689424": {
+    "item_id": "ctbids-48489-5689424",
+    "listing_url": "https://ctbids.com/estate-sale/48489/item/5689424/Asian-style-Green-Ceramic-Vase-Marbles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5401031_UeWaC0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -578,11 +613,11 @@
       }
     ]
   },
-  "ctbids-48489-5689424": {
-    "item_id": "ctbids-48489-5689424",
-    "listing_url": "https://ctbids.com/estate-sale/48489/item/5689424/Asian-style-Green-Ceramic-Vase-Marbles",
+  "ctbids-49090-5727182": {
+    "item_id": "ctbids-49090-5727182",
+    "listing_url": "https://ctbids.com/estate-sale/49090/item/5727182/Do-a-Rosa-Oaxaca-Black-Pottery-Mexican-Decor",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5401031_UeWaC0.webp"
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5727182_lSNAf6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -705,31 +740,6 @@
       }
     ]
   },
-  "ctbids-49090-5727182": {
-    "item_id": "ctbids-49090-5727182",
-    "listing_url": "https://ctbids.com/estate-sale/49090/item/5727182/Do-a-Rosa-Oaxaca-Black-Pottery-Mexican-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5727182_lSNAf6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49015-5633085": {
     "item_id": "ctbids-49015-5633085",
     "listing_url": "https://ctbids.com/estate-sale/49015/item/5633085/Comic-Classics-Disney-Looney-Toons-Selections-Featuring-Children-s-Favorites",
@@ -750,6 +760,43 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281065049": {
+    "item_id": "281065049",
+    "listing_url": "https://shopgoodwill.com/item/281065049",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-19/170c7e14-72c4-48c0-b324-62e0fd087b99andi_10191.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-19/170c7e14-72c4-48c0-b324-62e0fd087b99andi_10192.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-19/170c7e14-72c4-48c0-b324-62e0fd087b99andi_10193.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-19/170c7e14-72c4-48c0-b324-62e0fd087b99andi_10194.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-19/170c7e14-72c4-48c0-b324-62e0fd087b99andi_10195.png"
+    ],
+    "description": "Title:\nLot of 3 Crystal Minerals Polished Agate Sphere, Quartz Tower, and Agate Slab\nDimensions:\nVarious\nCondition:\nPre-owned\nSee photos for further details.\nSold as-is.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tower' in title (-5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tower' in title (-5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }

@@ -72,6 +72,7 @@
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'decor' in title (-8)",
       "Lower-priority term 'possibly' in description (-4)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -79,8 +80,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 14,
-        "relative_score": 0.467,
+        "score": 18,
+        "relative_score": 0.6,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'mixed' in title (+2)",
@@ -88,6 +89,7 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'decor' in title (-8)",
           "Lower-priority term 'possibly' in description (-4)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -396,33 +398,6 @@
       }
     ]
   },
-  "ctbids-48691-5674700": {
-    "item_id": "ctbids-48691-5674700",
-    "listing_url": "https://ctbids.com/estate-sale/48691/item/5674700/Satsuma-Egg-and-Tea-Cups-w-Saucers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674700_oUpiTY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48864-5714800": {
     "item_id": "ctbids-48864-5714800",
     "listing_url": "https://ctbids.com/estate-sale/48864/item/5714800/CK167-Classic-Rock-Vinyls-Pink-Floyd-Elvis-and-more",
@@ -505,6 +480,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48691/item/5679112/Ruby-Cut-Crystal-Ice-Bucket-Champagne-Bucket",
     "images": [
       "https://image.ctbids.com/seller/2026-09-28T85aee3/5679112_XxBUyd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48691-5674700": {
+    "item_id": "ctbids-48691-5674700",
+    "listing_url": "https://ctbids.com/estate-sale/48691/item/5674700/Satsuma-Egg-and-Tea-Cups-w-Saucers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674700_oUpiTY.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -685,10 +685,11 @@
     "score_reasons": [
       "Opportunity term 'minerals' in description (+1)",
       "Lower-priority term 'carved' in title (-7)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-10)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+17)"
+      "Score boundary adjustment (+13)"
     ],
     "hunt_scores": [
       {
@@ -699,10 +700,11 @@
         "score_reasons": [
           "Opportunity term 'minerals' in description (+1)",
           "Lower-priority term 'carved' in title (-7)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-10)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+17)"
+          "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
       }

@@ -15,6 +15,7 @@
     "score_reasons": [
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,11 +23,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 36,
+        "relative_score": 1.2,
         "score_reasons": [
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -339,33 +341,55 @@
       }
     ]
   },
-  "280408997": {
-    "item_id": "280408997",
-    "listing_url": "https://shopgoodwill.com/item/280408997",
+  "ctbids-48954-5719216": {
+    "item_id": "ctbids-48954-5719216",
+    "listing_url": "https://ctbids.com/estate-sale/48954/item/5719216/Cooking-Light-Taste-of-Home-Books",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/92cb2c91-4949-4252-849f-91c745111ee1ch11_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/f43b1be4-1e94-428d-aca3-cc9730c6cbb5ch11_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/cb49dce5-8f12-428f-a9f1-b4f4978fc3a0ch11_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/34378a44-d708-489f-b5f1-8e8e8e276084ch11_10134.jpg"
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5719216_hMVD40.webp"
     ],
-    "description": "Scholastic World of Rocks Collection educational kit includes 12 labeled rock samples: Sandstone, Basalt, White Granite, Gabbro, Quartzite, Pink Granite, Limestone, Pumice, Green Serpentine, Marble, Gneiss, and Shale. Samples are housed in a yellow tray inside a cardboard display box. The kit comes with a labeled collection case. Suitable for children ages 6 and up. The box and contents are in good, gently used condition with all samples present. May have gentle wear, markings, staining or tearing. Sold as is.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48489-5637579": {
+    "item_id": "ctbids-48489-5637579",
+    "listing_url": "https://ctbids.com/estate-sale/48489/item/5637579/1920s-1940s-Various-Authors",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5637579_vaugOs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -412,6 +436,79 @@
       }
     ]
   },
+  "280408997": {
+    "item_id": "280408997",
+    "listing_url": "https://shopgoodwill.com/item/280408997",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/92cb2c91-4949-4252-849f-91c745111ee1ch11_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/f43b1be4-1e94-428d-aca3-cc9730c6cbb5ch11_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/cb49dce5-8f12-428f-a9f1-b4f4978fc3a0ch11_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-13/34378a44-d708-489f-b5f1-8e8e8e276084ch11_10134.jpg"
+    ],
+    "description": "Scholastic World of Rocks Collection educational kit includes 12 labeled rock samples: Sandstone, Basalt, White Granite, Gabbro, Quartzite, Pink Granite, Limestone, Pumice, Green Serpentine, Marble, Gneiss, and Shale. Samples are housed in a yellow tray inside a cardboard display box. The kit comes with a labeled collection case. Suitable for children ages 6 and up. The box and contents are in good, gently used condition with all samples present. May have gentle wear, markings, staining or tearing. Sold as is.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49015-5658908": {
+    "item_id": "ctbids-49015-5658908",
+    "listing_url": "https://ctbids.com/estate-sale/49015/item/5658908/Cheers-to-the-Classics-Cut-Crystal-Highball-Rocks-Glass-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658908_BGhGgx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280619346": {
     "item_id": "280619346",
     "listing_url": "https://shopgoodwill.com/item/280619346",
@@ -453,15 +550,15 @@
       }
     ]
   },
-  "ctbids-48489-5637579": {
-    "item_id": "ctbids-48489-5637579",
-    "listing_url": "https://ctbids.com/estate-sale/48489/item/5637579/1920s-1940s-Various-Authors",
+  "ctbids-49015-5598343": {
+    "item_id": "ctbids-49015-5598343",
+    "listing_url": "https://ctbids.com/estate-sale/49015/item/5598343/Disney-2007-Disneyland-Walt-Disney-World-Thimble-Pin-New-in-Package",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5637579_vaugOs.webp"
+      "https://image.ctbids.com/seller/2026-09-03T479b27/5598343_0Q5Dbw.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -472,48 +569,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49015-5658908": {
-    "item_id": "ctbids-49015-5658908",
-    "listing_url": "https://ctbids.com/estate-sale/49015/item/5658908/Cheers-to-the-Classics-Cut-Crystal-Highball-Rocks-Glass-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-22Tad643b/5658908_BGhGgx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -671,31 +727,6 @@
       }
     ]
   },
-  "ctbids-48954-5719216": {
-    "item_id": "ctbids-48954-5719216",
-    "listing_url": "https://ctbids.com/estate-sale/48954/item/5719216/Cooking-Light-Taste-of-Home-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5719216_hMVD40.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49090-5721479": {
     "item_id": "ctbids-49090-5721479",
     "listing_url": "https://ctbids.com/estate-sale/49090/item/5721479/Ogio-Air-Flow-Backpack-with-Children-s-Books",
@@ -726,31 +757,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49090/item/5737961/Sterling-Necklaces-W-Pendants",
     "images": [
       "https://image.ctbids.com/seller/2026-10-14T823d6c/5737961_UagMdL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49015-5598343": {
-    "item_id": "ctbids-49015-5598343",
-    "listing_url": "https://ctbids.com/estate-sale/49015/item/5598343/Disney-2007-Disneyland-Walt-Disney-World-Thimble-Pin-New-in-Package",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-03T479b27/5598343_0Q5Dbw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -810,10 +816,11 @@
     "score_reasons": [
       "Opportunity term 'specimen' in description (+4)",
       "Lower-priority term 'decor' in description (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "5.14 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+9)"
+      "Score boundary adjustment (+5)"
     ],
     "hunt_scores": [
       {
@@ -824,10 +831,11 @@
         "score_reasons": [
           "Opportunity term 'specimen' in description (+4)",
           "Lower-priority term 'decor' in description (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "5.14 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+9)"
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
@@ -864,6 +872,52 @@
           "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "281068934": {
+    "item_id": "281068934",
+    "listing_url": "https://shopgoodwill.com/item/281068934",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-19/53f86a18-3d73-438a-86c0-860242f27b45rica_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-19/f4d9e90a-c519-454f-93cc-ea26d21afc01rica_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-19/7aae02c2-cd62-4432-b4c9-02e1fc9e3351rica_10193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-19/e24544dd-4a7d-4bea-93b5-876f4ee65d16rica_10194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-19/93cd1a54-349e-48f9-8502-153752ab6f80rica_10195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-19/a82537b8-8afd-4297-b221-7f20f01f13ccrica_10196.jpg"
+    ],
+    "description": "Assorted crystal and rock collection including quartz, amethyst clusters, fluorite, rose quartz, white agate slice, polished selenite tower, selenite stick, and a blue-green crystal point. The lot also contains raw quartz and geode specimens in various colors and types. Items range from tumbled to raw forms with natural fractures and edges. No brand or manufacturer information is available. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tower' in description (-5)",
+      "Target keyword 'fluorite' in title (+9)",
+      "Pickup-only limits the opportunity (-25)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tower' in description (-5)",
+          "Target keyword 'fluorite' in title (+9)",
+          "Pickup-only limits the opportunity (-25)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
       }
     ]
   }

@@ -14,6 +14,7 @@
       "Opportunity term 'lot' in description (+2)",
       "Opportunity term 'rocks' in title (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -21,13 +22,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 25,
-        "relative_score": 0.833,
+        "score": 29,
+        "relative_score": 0.967,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'lot' in description (+2)",
           "Opportunity term 'rocks' in title (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -60,6 +62,35 @@
           "Generic estate tube lot may hide factory rebrands (+14)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48797-5709563": {
+    "item_id": "ctbids-48797-5709563",
+    "listing_url": "https://ctbids.com/estate-sale/48797/item/5709563/Antique-Oak-Bedside-Cabinet-With-Lamp-2pcs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5709563_6Jutic.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -210,33 +241,6 @@
       }
     ]
   },
-  "ctbids-48797-5709563": {
-    "item_id": "ctbids-48797-5709563",
-    "listing_url": "https://ctbids.com/estate-sale/48797/item/5709563/Antique-Oak-Bedside-Cabinet-With-Lamp-2pcs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5709563_6Jutic.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48797-5679493": {
     "item_id": "ctbids-48797-5679493",
     "listing_url": "https://ctbids.com/estate-sale/48797/item/5679493/Vintage-Neoclassical-Or-Hollywood-Regency-Style-Lamp",
@@ -264,38 +268,41 @@
       }
     ]
   },
-  "ctbids-48489-5636747": {
-    "item_id": "ctbids-48489-5636747",
-    "listing_url": "https://ctbids.com/estate-sale/48489/item/5636747/Set-Of-7-Michael-Brodsky-Books-One-Signed",
+  "281088025": {
+    "item_id": "281088025",
+    "listing_url": "https://shopgoodwill.com/item/281088025",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636747_amcbdk.webp"
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-10-19/eb213c57-7d57-4f34-b5f1-cd2586abd0792026_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-10-19/7bd1af70-4d27-4771-8929-b9537291985b2026_10192.jpg"
     ],
-    "description": "",
+    "description": "Assorted Lot of Pens/Pencils and Sets Including Cross, Excalibur, & More\nCondition:\nFunctionality may vary\nSome cases have cosmetic wear\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us using the \"Contact Seller\" tab in listing.\nWe describe our items to the best of our ability and try to incorporate as much research as possible, however, we are not experts in any field.\nGoodwill Industries of the Chesapeake, Inc. prepares people to secure and retain employment to build successfulindependent lives.\nThank you for your support!\nBuyer verification:\nIf the current bid on an item is higher than average, and we are unable to confirm your account, your bid may be retracted for this reason. If you do not have a phone number associated with your account, your bid may be rejected or retracted for this reason.\nRefunds or returns:\nTypically not authorized unless an item was grossly mis-represented; however, will be reviewed on a case by case basis. Return shipping is the responsibility of the customer.",
     "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Only 2 listing photos (-5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 11,
+        "relative_score": 0.314,
         "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Only 2 listing photos (-5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "ctbids-48489-5636769": {
-    "item_id": "ctbids-48489-5636769",
-    "listing_url": "https://ctbids.com/estate-sale/48489/item/5636769/E-L-Doctorow",
+  "ctbids-48489-5636747": {
+    "item_id": "ctbids-48489-5636747",
+    "listing_url": "https://ctbids.com/estate-sale/48489/item/5636747/Set-Of-7-Michael-Brodsky-Books-One-Signed",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636769_7i4e5a.webp"
+      "https://image.ctbids.com/seller/2026-09-16T2152c1/5636747_amcbdk.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -434,7 +441,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -445,7 +452,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -527,6 +534,60 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48864-5708807": {
+    "item_id": "ctbids-48864-5708807",
+    "listing_url": "https://ctbids.com/estate-sale/48864/item/5708807/CK151-MacGregor-Baseball-Mitt-Cleveland-Indians-Cups-Official-League-Baseballs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708807_mLKqEi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49090-5718585": {
+    "item_id": "ctbids-49090-5718585",
+    "listing_url": "https://ctbids.com/estate-sale/49090/item/5718585/9-Donald-Zolan-Miniature-Plates-1989-1994-Original-Boxes-COAs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5718585_6SBEVx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -634,56 +695,6 @@
       }
     ]
   },
-  "ctbids-48864-5708807": {
-    "item_id": "ctbids-48864-5708807",
-    "listing_url": "https://ctbids.com/estate-sale/48864/item/5708807/CK151-MacGregor-Baseball-Mitt-Cleveland-Indians-Cups-Official-League-Baseballs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708807_mLKqEi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49090-5718585": {
-    "item_id": "ctbids-49090-5718585",
-    "listing_url": "https://ctbids.com/estate-sale/49090/item/5718585/9-Donald-Zolan-Miniature-Plates-1989-1994-Original-Boxes-COAs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718585_6SBEVx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49090-5734306": {
     "item_id": "ctbids-49090-5734306",
     "listing_url": "https://ctbids.com/estate-sale/49090/item/5734306/Masterworks-of-Animal-Art-6-Print-Set",
@@ -742,6 +753,35 @@
       }
     ]
   },
+  "280411551": {
+    "item_id": "280411551",
+    "listing_url": "https://shopgoodwill.com/item/280411551",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10131.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10132.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10133.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10134.png",
+      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10135.png"
+    ],
+    "description": "Description:\nRopp \"Jimmy\" Cherrywood Bent Poker Restored French Smoking Pipe\nManufacturer/Markings:\nMaterial:\nApproximate Dimensions:\nCondition:\nDonated/ pre-owned.\nPowers On - Y/N (if applicable):\nExtras Included:\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280993060": {
     "item_id": "280993060",
     "listing_url": "https://shopgoodwill.com/item/280993060",
@@ -784,35 +824,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+31)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280411551": {
-    "item_id": "280411551",
-    "listing_url": "https://shopgoodwill.com/item/280411551",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10131.png",
-      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10132.png",
-      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10133.png",
-      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10134.png",
-      "https://shopgoodwillimages.azureedge.net/production/200/Items/2026-10-13/b43e0556-9435-4086-a3f9-af6918b4b929nd52_10135.png"
-    ],
-    "description": "Description:\nRopp \"Jimmy\" Cherrywood Bent Poker Restored French Smoking Pipe\nManufacturer/Markings:\nMaterial:\nApproximate Dimensions:\nCondition:\nDonated/ pre-owned.\nPowers On - Y/N (if applicable):\nExtras Included:\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
