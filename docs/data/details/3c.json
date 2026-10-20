@@ -78,6 +78,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -85,11 +86,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -126,6 +128,64 @@
       }
     ]
   },
+  "ctbids-48827-5671548": {
+    "item_id": "ctbids-48827-5671548",
+    "listing_url": "https://ctbids.com/estate-sale/48827/item/5671548/Vintage-Topps-Football-Cards-Tony-Dorsett-Dallas-Cowboys",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5671548_tSjOpG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49038-5727334": {
+    "item_id": "ctbids-49038-5727334",
+    "listing_url": "https://ctbids.com/estate-sale/49038/item/5727334/Vintage-Small-Home-and-Vanity-Items",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5727334_nhIpkW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49108-5724949": {
     "item_id": "ctbids-49108-5724949",
     "listing_url": "https://ctbids.com/estate-sale/49108/item/5724949/Marquis-by-Waterford-Shelton-Collection-Set-of-2-Crystal-8-Serving-Bowls-with-Original-Box",
@@ -148,6 +208,46 @@
           "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280397393": {
+    "item_id": "280397393",
+    "listing_url": "https://shopgoodwill.com/item/280397393",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/41dd3822-ffb4-4835-bd9d-4b9a5de3b851ller_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/51829bb3-66e3-4a24-b21b-8a88e1d989c1ller_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/cf50ee2e-37de-4411-8943-9599c12c5f84ller_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/4f57e435-7daa-4379-a706-5bef36622633ller_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/2bce9612-e800-4ab1-9be4-48e5951d8532ller_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/06ae6e06-5d90-4069-9758-119cdbf8c201ller_10136.jpg"
+    ],
+    "description": "This 7.92 lb grab bag contains a variety of carved stones and minerals, including pieces with polished and carved surfaces. The stones feature multiple colors such as blue, brown, white, and clear. Some pieces show rough edges and surface dirt. An auction information card is included for reference.",
+    "score_reasons": [
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'carved' in title (-7)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Flat shipping is only $0.01 (+10)",
+      "7.92 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'carved' in title (-7)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Flat shipping is only $0.01 (+10)",
+          "7.92 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -185,60 +285,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48916/item/5695032/Philadelphia-Eagles-Wawa-Mashup-Vintage-Shirts-5Pc-Sz-L-2XL",
     "images": [
       "https://image.ctbids.com/seller/2026-10-02Tb63846/5695032_gY6aZa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48827-5671548": {
-    "item_id": "ctbids-48827-5671548",
-    "listing_url": "https://ctbids.com/estate-sale/48827/item/5671548/Vintage-Topps-Football-Cards-Tony-Dorsett-Dallas-Cowboys",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5671548_tSjOpG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49038-5727334": {
-    "item_id": "ctbids-49038-5727334",
-    "listing_url": "https://ctbids.com/estate-sale/49038/item/5727334/Vintage-Small-Home-and-Vanity-Items",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5727334_nhIpkW.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -315,6 +361,60 @@
       }
     ]
   },
+  "ctbids-49348-5755576": {
+    "item_id": "ctbids-49348-5755576",
+    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755576/Ketty-Lester-Love-Letters-I-m-a-Fool-to-Want-You-Era-Records-45-RPM-Single-3068",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5690505_VmoQXB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49348-5755590": {
+    "item_id": "ctbids-49348-5755590",
+    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755590/Hand-Painted-Floral-Ceramic-Creamer-Pitcher-Cream-with-Yellow-Rose-and-Green-Flowers-Teal-Dots",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5745531_2p7rwV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48464-5663767": {
     "item_id": "ctbids-48464-5663767",
     "listing_url": "https://ctbids.com/estate-sale/48464/item/5663767/Assorted-Mixing-Bowls-Pastry-Brushes-Baking-Utensils-Lot",
@@ -342,39 +442,255 @@
       }
     ]
   },
-  "280397393": {
-    "item_id": "280397393",
-    "listing_url": "https://shopgoodwill.com/item/280397393",
+  "ctbids-49348-5755434": {
+    "item_id": "ctbids-49348-5755434",
+    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755434/Woven-Straw-Cowboy-Hat-Natural-Cream-Western-Style-with-Black-Cord-Hatband-Wide-Curved-Brim",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/41dd3822-ffb4-4835-bd9d-4b9a5de3b851ller_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/51829bb3-66e3-4a24-b21b-8a88e1d989c1ller_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/cf50ee2e-37de-4411-8943-9599c12c5f84ller_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/4f57e435-7daa-4379-a706-5bef36622633ller_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/2bce9612-e800-4ab1-9be4-48e5951d8532ller_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-13/06ae6e06-5d90-4069-9758-119cdbf8c201ller_10136.jpg"
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5740108_pN8Pi8.webp"
     ],
-    "description": "This 7.92 lb grab bag contains a variety of carved stones and minerals, including pieces with polished and carved surfaces. The stones feature multiple colors such as blue, brown, white, and clear. Some pieces show rough edges and surface dirt. An auction information card is included for reference.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'minerals' in title (+1)",
-      "Lower-priority term 'carved' in title (-7)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Flat shipping is only $0.01 (+10)",
-      "7.92 lb lot has unusually favorable flat shipping (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49348-5755470": {
+    "item_id": "ctbids-49348-5755470",
+    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755470/Double-The-Captain-of-Her-Heart-Your-Prayer-Takes-Me-Off-Part-II-Dub-A-M-AM-2838-45-RPM",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5685542_n6XWl6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49348-5755520": {
+    "item_id": "ctbids-49348-5755520",
+    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755520/Hard-Rock-Caf-Salt-Lake-City-Shot-Glass-Heavy-Base-Rocks-Glass-Set-of-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5127318_F1dGq3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280393230": {
+    "item_id": "280393230",
+    "listing_url": "https://shopgoodwill.com/item/280393230",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/7a1898e3-e339-4b43-b0f1-6f83fd985866skb_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/2e4d92a2-d0ca-40ee-a488-2752c8ad9f4cskb_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/82d24f89-3850-4280-ae37-a1fae0ff4e9askb_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/90150a2e-bebf-411a-8f24-b0e9963b0718skb_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/1a4f2bae-136e-4bf3-8aac-fa1e44b7e740skb_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/ec3e161f-6e4b-4c89-932b-687837a738e8skb_10136.jpg"
+    ],
+    "description": "Condition [\nVery Good\n]\n- Few Signs of Wear: scratches/scuff marks/smudges, dust/dirt accumulation, areas with some stains; See Photos For Condition Details | ***All items are donated; cleaning/disinfecting is recommended, regardless of stated condition***\nMeasurements\nvary between the individual geodes\nWeight\n5lb\nPlease see images for further detail and ask any questions you may have BEFORE making a bid.\nWe describe items to the best of our ability but are not experts in any field. Items are represented to the best of our ability. Items may be previously used and may contain unseen faults which we are unable to ascertain and for which we do not take responsibility. Items are not officially appraised or certified. We do not verify authenticity of signed or autographed items. Unless otherwise stated in the listing, items do not come with official certificates and will not include documentation. You are bidding with this in mind.\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\n**All items are sold AS-IS. Bidders are responsible to check for updates to listings. Refer to SELLER INFO tab for further details concerning Bidding, Payments, Shipping, Local Pickup and Return policies. Please ask any questions prior to bidding. **",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
+        "score": 3,
+        "relative_score": 0.1,
         "score_reasons": [
-          "Opportunity term 'minerals' in title (+1)",
-          "Lower-priority term 'carved' in title (-7)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Flat shipping is only $0.01 (+10)",
-          "7.92 lb lot has unusually favorable flat shipping (+5)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49348-5754846": {
+    "item_id": "ctbids-49348-5754846",
+    "listing_url": "https://ctbids.com/estate-sale/49348/item/5754846/Hallmark-Los-Angeles-Dodgers-MLB-Baseball-Player-Wobble-Christmas-Ornament-Boxed-Blue-Red-White",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5754846_PXRXv6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48266-5632276": {
+    "item_id": "ctbids-48266-5632276",
+    "listing_url": "https://ctbids.com/estate-sale/48266/item/5632276/Fiction-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5632276_ogmpMA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48893-5692042": {
+    "item_id": "ctbids-48893-5692042",
+    "listing_url": "https://ctbids.com/estate-sale/48893/item/5692042/Gloves",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692042_I1tT4A.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48827-5671553": {
+    "item_id": "ctbids-48827-5671553",
+    "listing_url": "https://ctbids.com/estate-sale/48827/item/5671553/1973-Topps-Baseball-Card-Jim-Palmer-Baltimore-Orioles-Card-160",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5671553_omm1IK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48893-5695235": {
+    "item_id": "ctbids-48893-5695235",
+    "listing_url": "https://ctbids.com/estate-sale/48893/item/5695235/Teapots",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5695235_xPVMGM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -405,86 +721,11 @@
       }
     ]
   },
-  "ctbids-49348-5755576": {
-    "item_id": "ctbids-49348-5755576",
-    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755576/Ketty-Lester-Love-Letters-I-m-a-Fool-to-Want-You-Era-Records-45-RPM-Single-3068",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5690505_VmoQXB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49348-5754846": {
-    "item_id": "ctbids-49348-5754846",
-    "listing_url": "https://ctbids.com/estate-sale/49348/item/5754846/Hallmark-Los-Angeles-Dodgers-MLB-Baseball-Player-Wobble-Christmas-Ornament-Boxed-Blue-Red-White",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5754846_PXRXv6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49179-5732327": {
     "item_id": "ctbids-49179-5732327",
     "listing_url": "https://ctbids.com/estate-sale/49179/item/5732327/Saxony-Decorative-Plate",
     "images": [
       "https://image.ctbids.com/seller/2026-10-13T0627f3/5732327_oJkNMs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49348-5755590": {
-    "item_id": "ctbids-49348-5755590",
-    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755590/Hand-Painted-Floral-Ceramic-Creamer-Pitcher-Cream-with-Yellow-Rose-and-Green-Flowers-Teal-Dots",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5745531_2p7rwV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -580,31 +821,6 @@
       }
     ]
   },
-  "ctbids-49348-5755434": {
-    "item_id": "ctbids-49348-5755434",
-    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755434/Woven-Straw-Cowboy-Hat-Natural-Cream-Western-Style-with-Black-Cord-Hatband-Wide-Curved-Brim",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5740108_pN8Pi8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48772-5727889": {
     "item_id": "ctbids-48772-5727889",
     "listing_url": "https://ctbids.com/estate-sale/48772/item/5727889/Vietnam-War-7-62x51mm-NATO-Military-Blank-Ammunition",
@@ -635,31 +851,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48627/item/5663904/Cast-Iron-Touring-Car",
     "images": [
       "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5663904_SJZlzG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49348-5755470": {
-    "item_id": "ctbids-49348-5755470",
-    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755470/Double-The-Captain-of-Her-Heart-Your-Prayer-Takes-Me-Off-Part-II-Dub-A-M-AM-2838-45-RPM",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5685542_n6XWl6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -780,56 +971,6 @@
       }
     ]
   },
-  "ctbids-48266-5632276": {
-    "item_id": "ctbids-48266-5632276",
-    "listing_url": "https://ctbids.com/estate-sale/48266/item/5632276/Fiction-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5632276_ogmpMA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48893-5692042": {
-    "item_id": "ctbids-48893-5692042",
-    "listing_url": "https://ctbids.com/estate-sale/48893/item/5692042/Gloves",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692042_I1tT4A.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49091-5719068": {
     "item_id": "ctbids-49091-5719068",
     "listing_url": "https://ctbids.com/estate-sale/49091/item/5719068/Towle-Sterling-2",
@@ -910,81 +1051,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48945/item/5714464/Black-Bracelets",
     "images": [
       "https://image.ctbids.com/seller/2026-10-07T1314d3/5714464_oH7HuH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48827-5671553": {
-    "item_id": "ctbids-48827-5671553",
-    "listing_url": "https://ctbids.com/estate-sale/48827/item/5671553/1973-Topps-Baseball-Card-Jim-Palmer-Baltimore-Orioles-Card-160",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5671553_omm1IK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49348-5755520": {
-    "item_id": "ctbids-49348-5755520",
-    "listing_url": "https://ctbids.com/estate-sale/49348/item/5755520/Hard-Rock-Caf-Salt-Lake-City-Shot-Glass-Heavy-Base-Rocks-Glass-Set-of-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5127318_F1dGq3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48893-5695235": {
-    "item_id": "ctbids-48893-5695235",
-    "listing_url": "https://ctbids.com/estate-sale/48893/item/5695235/Teapots",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5695235_xPVMGM.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1155,6 +1221,45 @@
       }
     ]
   },
+  "280771850": {
+    "item_id": "280771850",
+    "listing_url": "https://shopgoodwill.com/item/280771850",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of raw and partially polished mineral and rock specimens. Included are different types of stones such as clear and rose quartz, amethyst, tiger's eye, purple agate slice, and other minerals and crystals. The specimens come in various shapes, sizes, and colors ranging from purples, blues, oranges, to browns. The collection includes both rough and slightly tumbled pieces, some showing natural wear and matrix.\n\nSpecifications:\n- Types of stones: Quartz (clear and rose), Amethyst, Tiger's Eye, Agate (including purple slice), assorted other minerals and crystals\n- Condition: Mixed raw and partially polished\n- Color spectrum: Purples, blues, oranges, browns, and others\n- Weight: Approximately 5 pounds\n\nThis collection is offered as-is with a diverse array of mineral and rock specimens.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "279167559": {
     "item_id": "279167559",
     "listing_url": "https://shopgoodwill.com/item/279167559",
@@ -1194,83 +1299,6 @@
           "$5.00 handling charge (-4)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280771850": {
-    "item_id": "280771850",
-    "listing_url": "https://shopgoodwill.com/item/280771850",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of raw and partially polished mineral and rock specimens. Included are different types of stones such as clear and rose quartz, amethyst, tiger's eye, purple agate slice, and other minerals and crystals. The specimens come in various shapes, sizes, and colors ranging from purples, blues, oranges, to browns. The collection includes both rough and slightly tumbled pieces, some showing natural wear and matrix.\n\nSpecifications:\n- Types of stones: Quartz (clear and rose), Amethyst, Tiger's Eye, Agate (including purple slice), assorted other minerals and crystals\n- Condition: Mixed raw and partially polished\n- Color spectrum: Purples, blues, oranges, browns, and others\n- Weight: Approximately 5 pounds\n\nThis collection is offered as-is with a diverse array of mineral and rock specimens.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+4)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280393230": {
-    "item_id": "280393230",
-    "listing_url": "https://shopgoodwill.com/item/280393230",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/7a1898e3-e339-4b43-b0f1-6f83fd985866skb_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/2e4d92a2-d0ca-40ee-a488-2752c8ad9f4cskb_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/82d24f89-3850-4280-ae37-a1fae0ff4e9askb_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/90150a2e-bebf-411a-8f24-b0e9963b0718skb_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/1a4f2bae-136e-4bf3-8aac-fa1e44b7e740skb_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/184/Items/2026-10-13/ec3e161f-6e4b-4c89-932b-687837a738e8skb_10136.jpg"
-    ],
-    "description": "Condition [\nVery Good\n]\n- Few Signs of Wear: scratches/scuff marks/smudges, dust/dirt accumulation, areas with some stains; See Photos For Condition Details | ***All items are donated; cleaning/disinfecting is recommended, regardless of stated condition***\nMeasurements\nvary between the individual geodes\nWeight\n5lb\nPlease see images for further detail and ask any questions you may have BEFORE making a bid.\nWe describe items to the best of our ability but are not experts in any field. Items are represented to the best of our ability. Items may be previously used and may contain unseen faults which we are unable to ascertain and for which we do not take responsibility. Items are not officially appraised or certified. We do not verify authenticity of signed or autographed items. Unless otherwise stated in the listing, items do not come with official certificates and will not include documentation. You are bidding with this in mind.\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\n**All items are sold AS-IS. Bidders are responsible to check for updates to listings. Refer to SELLER INFO tab for further details concerning Bidding, Payments, Shipping, Local Pickup and Return policies. Please ask any questions prior to bidding. **",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }
@@ -1370,38 +1398,6 @@
       }
     ]
   },
-  "281067012": {
-    "item_id": "281067012",
-    "listing_url": "https://shopgoodwill.com/item/281067012",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/ba383a92-b47a-4f4d-b9e6-17319a1c61c6moss_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/24354643-6076-4f9d-8dc4-a7ba32a32df5moss_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/86b54c7e-c518-4739-a408-069a36f085cbmoss_10193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/fdf7d652-2acf-427a-8a76-0d2a09f7ff4dmoss_10194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/17aa9585-76ae-463f-9e7a-dedefa2216eemoss_10195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/5275655a-8c8f-42e6-8227-47ff59638da2moss_10196.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/bf76305c-0857-4656-b83d-dd0c297b941dmoss_10197.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/501b4f33-9c71-4468-86db-abef78b2f20cmoss_10198.jpg"
-    ],
-    "description": "Product Overview:\nLilka Classica hand-made smoking pipe featuring a long, curved wooden stem and bowl. The pipe includes decorative beads and feathers hanging from the stem. The mouthpiece is black and made from a material different from the wood, likely acrylic or plastic. The pipe is polished wood.\n\nSpecifications:\n- Length: 15\"\n- Material: Polished wood stem and bowl, black mouthpiece (likely acrylic or plastic)\n- Decorative Elements: Beads and feathers attached to the stem\n- Packaging: Original maroon box with gold lettering stating 'A Fine Hand Made Pipe'",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "278688523": {
     "item_id": "278688523",
     "listing_url": "https://shopgoodwill.com/item/278688523",
@@ -1441,6 +1437,38 @@
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)",
           "Score boundary adjustment (+2)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281067012": {
+    "item_id": "281067012",
+    "listing_url": "https://shopgoodwill.com/item/281067012",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/ba383a92-b47a-4f4d-b9e6-17319a1c61c6moss_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/24354643-6076-4f9d-8dc4-a7ba32a32df5moss_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/86b54c7e-c518-4739-a408-069a36f085cbmoss_10193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/fdf7d652-2acf-427a-8a76-0d2a09f7ff4dmoss_10194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/17aa9585-76ae-463f-9e7a-dedefa2216eemoss_10195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/5275655a-8c8f-42e6-8227-47ff59638da2moss_10196.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/bf76305c-0857-4656-b83d-dd0c297b941dmoss_10197.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-19/501b4f33-9c71-4468-86db-abef78b2f20cmoss_10198.jpg"
+    ],
+    "description": "Product Overview:\nLilka Classica hand-made smoking pipe featuring a long, curved wooden stem and bowl. The pipe includes decorative beads and feathers hanging from the stem. The mouthpiece is black and made from a material different from the wood, likely acrylic or plastic. The pipe is polished wood.\n\nSpecifications:\n- Length: 15\"\n- Material: Polished wood stem and bowl, black mouthpiece (likely acrylic or plastic)\n- Decorative Elements: Beads and feathers attached to the stem\n- Packaging: Original maroon box with gold lettering stating 'A Fine Hand Made Pipe'",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
