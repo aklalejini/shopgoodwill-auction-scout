@@ -74,7 +74,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -82,11 +81,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -310,60 +308,6 @@
       }
     ]
   },
-  "ctbids-48827-5671566": {
-    "item_id": "ctbids-48827-5671566",
-    "listing_url": "https://ctbids.com/estate-sale/48827/item/5671566/Topps-Chrome-Baseball-Cards-Bryce-Harper-Juan-Soto-Bobby-Witt-Jr-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5671566_lc9pQd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48945-5730159": {
-    "item_id": "ctbids-48945-5730159",
-    "listing_url": "https://ctbids.com/estate-sale/48945/item/5730159/Beautiful-White-Serveware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730159_mH2tyl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48734-5731374": {
     "item_id": "ctbids-48734-5731374",
     "listing_url": "https://ctbids.com/estate-sale/48734/item/5731374/CUTCO-40-Wall-Mounted-Knife-Set",
@@ -457,6 +401,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48827-5671566": {
+    "item_id": "ctbids-48827-5671566",
+    "listing_url": "https://ctbids.com/estate-sale/48827/item/5671566/Topps-Chrome-Baseball-Cards-Bryce-Harper-Juan-Soto-Bobby-Witt-Jr-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5671566_lc9pQd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -619,6 +590,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49240/item/5738471/1982-S-Silver-US-Mint-Commemorative-Washington-PR-69-DCAM-PCGS",
     "images": [
       "https://image.ctbids.com/seller/2026-10-14T823d6c/5738471_xbtViR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48945-5730159": {
+    "item_id": "ctbids-48945-5730159",
+    "listing_url": "https://ctbids.com/estate-sale/48945/item/5730159/Beautiful-White-Serveware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730159_mH2tyl.webp"
     ],
     "description": "",
     "score_reasons": [
