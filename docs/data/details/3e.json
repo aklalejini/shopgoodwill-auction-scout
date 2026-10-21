@@ -122,6 +122,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -129,10 +130,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 11,
+        "relative_score": 0.324,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -248,6 +250,33 @@
       }
     ]
   },
+  "ctbids-48999-5715885": {
+    "item_id": "ctbids-48999-5715885",
+    "listing_url": "https://ctbids.com/estate-sale/48999/item/5715885/Print-titled-Jammin-by-artist-Tana-Powell",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5715885_Wwbmhk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49096-5735691": {
     "item_id": "ctbids-49096-5735691",
     "listing_url": "https://ctbids.com/estate-sale/49096/item/5735691/2013-2014-Team-Collections-Plus-Much-More",
@@ -303,31 +332,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48978/item/5708862/St-Patty-s-Day-Lenox-Leprechauns",
     "images": [
       "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708862_5OuU21.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48999-5715885": {
-    "item_id": "ctbids-48999-5715885",
-    "listing_url": "https://ctbids.com/estate-sale/48999/item/5715885/Print-titled-Jammin-by-artist-Tana-Powell",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5715885_Wwbmhk.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -456,6 +460,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -463,9 +468,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -481,6 +487,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -488,9 +495,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -698,43 +706,6 @@
       }
     ]
   },
-  "281079928": {
-    "item_id": "281079928",
-    "listing_url": "https://shopgoodwill.com/item/281079928",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-10-19/bc72a4ca-0150-44f2-a0ed-cd94d78eee46ahhh_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-10-19/acdd45dc-5903-4d94-9c46-7672b7df4fa5ahhh_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-10-19/6360d31a-5f5e-4489-9071-aa2247152473ahhh_10193.jpg"
-    ],
-    "description": "This lot includes a variety of collectible gemstones and minerals such as polished and raw amethyst, agate, and quartz. The collection also features a geode, a small piece of white coral, and a ceramic seashell with gold accents. The stones vary in color, shape, and size, ranging from small tumbled gems to larger raw specimens. All items are in good condition with no visible damage. Suitable for collectors, educational use, or decorative display.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48608-5727999": {
     "item_id": "ctbids-48608-5727999",
     "listing_url": "https://ctbids.com/estate-sale/48608/item/5727999/Vintage-Penta-Lab-Tubes",
@@ -769,6 +740,43 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281079928": {
+    "item_id": "281079928",
+    "listing_url": "https://shopgoodwill.com/item/281079928",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-10-19/bc72a4ca-0150-44f2-a0ed-cd94d78eee46ahhh_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-10-19/acdd45dc-5903-4d94-9c46-7672b7df4fa5ahhh_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-10-19/6360d31a-5f5e-4489-9071-aa2247152473ahhh_10193.jpg"
+    ],
+    "description": "This lot includes a variety of collectible gemstones and minerals such as polished and raw amethyst, agate, and quartz. The collection also features a geode, a small piece of white coral, and a ceramic seashell with gold accents. The stones vary in color, shape, and size, ranging from small tumbled gems to larger raw specimens. All items are in good condition with no visible damage. Suitable for collectors, educational use, or decorative display.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
