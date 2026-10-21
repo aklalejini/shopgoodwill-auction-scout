@@ -13,6 +13,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'rocks' in title (+1)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -20,11 +21,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 27,
+        "relative_score": 0.9,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'rocks' in title (+1)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -51,6 +53,7 @@
       "Target keyword 'sylvania' in title (+7)",
       "Target keyword 'rca' in title (+6)",
       "Target keyword 'realistic' in title (+5)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-5)",
       "Base score (+5)"
     ],
@@ -58,8 +61,8 @@
       {
         "id": "vintage-electron-tubes",
         "label": "Vintage Electron Tubes",
-        "score": 21,
-        "relative_score": 0.656,
+        "score": 25,
+        "relative_score": 0.781,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+4)",
           "Opportunity term 'assorted' in title (+3)",
@@ -67,6 +70,7 @@
           "Target keyword 'sylvania' in title (+7)",
           "Target keyword 'rca' in title (+6)",
           "Target keyword 'realistic' in title (+5)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-5)",
           "Base score (+5)"
         ],
@@ -83,33 +87,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48955/item/5724566/Spirit-Of-Texas-Solid-Sterling-Silver-Men-s-Diamond-Ring-Size-12",
     "images": [
       "https://image.ctbids.com/seller/2026-10-10T94c0c9/5724566_IOubqB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
-        "score_reasons": [
-          "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48900-5712773": {
-    "item_id": "ctbids-48900-5712773",
-    "listing_url": "https://ctbids.com/estate-sale/48900/item/5712773/Sterling-Silver-Tongs-Sterling-Rimmed-Coasters",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5712773_r565yR.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -161,35 +138,6 @@
       }
     ]
   },
-  "ctbids-48738-5695050": {
-    "item_id": "ctbids-48738-5695050",
-    "listing_url": "https://ctbids.com/estate-sale/48738/item/5695050/Collection-Of-Vintage-And-Decorative-Women-s-Straw-Hats",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5695050_xrioX1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49096-5730278": {
     "item_id": "ctbids-49096-5730278",
     "listing_url": "https://ctbids.com/estate-sale/49096/item/5730278/Topps-Heritage-Baseball-Cards-Sealed-Collections",
@@ -217,6 +165,35 @@
       }
     ]
   },
+  "ctbids-48810-5734466": {
+    "item_id": "ctbids-48810-5734466",
+    "listing_url": "https://ctbids.com/estate-sale/48810/item/5734466/Collectible-Vintage-Disney-Toys",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5734466_G7XXFr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49140-5742898": {
     "item_id": "ctbids-49140-5742898",
     "listing_url": "https://ctbids.com/estate-sale/49140/item/5742898/Vintage-Canon-Camcorder-More",
@@ -237,60 +214,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48302-5680227": {
-    "item_id": "ctbids-48302-5680227",
-    "listing_url": "https://ctbids.com/estate-sale/48302/item/5680227/10-Beanie-Babies-Mystery-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5680227_yWRt65.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48302-5680232": {
-    "item_id": "ctbids-48302-5680232",
-    "listing_url": "https://ctbids.com/estate-sale/48302/item/5680232/Mystery-Lot-of-8-TY-Beanie-Babies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5680232_UcVK5A.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -406,15 +329,15 @@
       }
     ]
   },
-  "ctbids-48810-5734466": {
-    "item_id": "ctbids-48810-5734466",
-    "listing_url": "https://ctbids.com/estate-sale/48810/item/5734466/Collectible-Vintage-Disney-Toys",
+  "ctbids-48302-5680227": {
+    "item_id": "ctbids-48302-5680227",
+    "listing_url": "https://ctbids.com/estate-sale/48302/item/5680227/10-Beanie-Babies-Mystery-Lot",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5734466_G7XXFr.webp"
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5680227_yWRt65.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -422,10 +345,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -433,15 +356,15 @@
       }
     ]
   },
-  "ctbids-49118-5726831": {
-    "item_id": "ctbids-49118-5726831",
-    "listing_url": "https://ctbids.com/estate-sale/49118/item/5726831/Reproduction-Decorative-Assyrian-Wall-Plaques-2",
+  "ctbids-49407-5760109": {
+    "item_id": "ctbids-49407-5760109",
+    "listing_url": "https://ctbids.com/estate-sale/49407/item/5760109/Iris-Japan-Ceramic-Rectangular-Floral-Vase",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5726831_QUGvme.webp"
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5723918_tHdIyK.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -449,10 +372,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48302-5680232": {
+    "item_id": "ctbids-48302-5680232",
+    "listing_url": "https://ctbids.com/estate-sale/48302/item/5680232/Mystery-Lot-of-8-TY-Beanie-Babies",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5680232_UcVK5A.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49407-5760145": {
+    "item_id": "ctbids-49407-5760145",
+    "listing_url": "https://ctbids.com/estate-sale/49407/item/5760145/Set-of-2-National-Geographic-Magazines-2023-Going-Home-Returning-Treasures-8-Billion-The-Population",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5748644_a2m6I5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49407-5760271": {
+    "item_id": "ctbids-49407-5760271",
+    "listing_url": "https://ctbids.com/estate-sale/49407/item/5760271/The-Earth-Laughs-in-Flowers-Ceramic-Scalloped-Wall-Plaque-Cream-with-Sage-Green-Ribbon-Hanger",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5754859_oww8Ml.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -643,6 +647,33 @@
       }
     ]
   },
+  "ctbids-49118-5726831": {
+    "item_id": "ctbids-49118-5726831",
+    "listing_url": "https://ctbids.com/estate-sale/49118/item/5726831/Reproduction-Decorative-Assyrian-Wall-Plaques-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5726831_QUGvme.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48302-5680240": {
     "item_id": "ctbids-48302-5680240",
     "listing_url": "https://ctbids.com/estate-sale/48302/item/5680240/Brown-Mink-Coat-And-Hat",
@@ -823,156 +854,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49012/item/5727647/Ivory-Lace-Long-Sleeve-Wedding-Gown-with-Cathedral-Veil-Bridal-Headpiece",
     "images": [
       "https://image.ctbids.com/seller/2026-10-12T80d5c9/5727647_mdFzPW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48724-5712665": {
-    "item_id": "ctbids-48724-5712665",
-    "listing_url": "https://ctbids.com/estate-sale/48724/item/5712665/Misc-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5712665_rYOHmf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49177-5745364": {
-    "item_id": "ctbids-49177-5745364",
-    "listing_url": "https://ctbids.com/estate-sale/49177/item/5745364/Silver-Plated-Serving-Pieces-And-Utensils",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745364_jdo4nf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49177-5739840": {
-    "item_id": "ctbids-49177-5739840",
-    "listing_url": "https://ctbids.com/estate-sale/49177/item/5739840/Glass-Bottle-Toppers-No-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5739840_JIttj3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48724-5726938": {
-    "item_id": "ctbids-48724-5726938",
-    "listing_url": "https://ctbids.com/estate-sale/48724/item/5726938/Aluminum-Kitchenware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5726938_r6E6C4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48900-5718126": {
-    "item_id": "ctbids-48900-5718126",
-    "listing_url": "https://ctbids.com/estate-sale/48900/item/5718126/Hardback-Fiction-David-Baldacci-Stephen-Frey-Stephen-Hunter-Stephen-White",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5718126_82gjy2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49177-5747834": {
-    "item_id": "ctbids-49177-5747834",
-    "listing_url": "https://ctbids.com/estate-sale/49177/item/5747834/Disney-Pixar-Cars-Rusteze-Double-Circuit-Speedway",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5747834_JE52O9.webp"
     ],
     "description": "",
     "score_reasons": [
