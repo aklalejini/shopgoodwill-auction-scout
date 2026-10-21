@@ -99,7 +99,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'vintage' in title (+6)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -113,7 +113,7 @@
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'vintage' in title (+6)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -188,6 +188,47 @@
         "score_reasons": [
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281356678": {
+    "item_id": "281356678",
+    "listing_url": "https://shopgoodwill.com/item/281356678",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/f89e31dc-4e68-4734-9b3f-03fcaaecc926llen_10211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/a063825a-f3c5-4992-bed2-6af9f9123186llen_10212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/dcfd72da-fd51-41d5-a8c6-3b8a493d5fb8llen_10213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/f1fab6a1-a295-433f-943d-79e528276f0allen_10214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/e2608afe-f997-4822-ac09-c0aef5a8f2dcllen_10215.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/d51f39ea-1e72-4e8b-8fdb-a8582fa3112fllen_10216.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/a8071fa7-d7ef-4f1a-8ee0-84b6ca32ba1allen_10217.jpg"
+    ],
+    "description": "This collection features a variety of rocks and minerals including a sliced agate geode, two pieces of petrified wood, and a mix of tumbled and raw stones. The assortment contains polished stones in green, blue, and yellow colors, along with rough quartz and other mineral specimens. All items are stored together and show natural characteristics and imperfections. The lot is suitable for collectors and enthusiasts interested in geological samples.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 20,
+        "relative_score": 0.667,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -309,36 +350,6 @@
       }
     ]
   },
-  "281182907": {
-    "item_id": "281182907",
-    "listing_url": "https://shopgoodwill.com/item/281182907",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-10-20/eeba0eb4-dd31-48f0-bca5-1157dcd30a422026_10201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-10-20/78644b13-91b4-4788-9fc7-e3bf7fec0d4e2026_10202.jpg"
-    ],
-    "description": "Assorted Lot of Pens/Pencils and Sets Including Cross, Bill Blass, & More\nCondition:\nFunctionality may vary\nSome cases have cosmetic wear\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us using the \"Contact Seller\" tab in listing.\nWe describe our items to the best of our ability and try to incorporate as much research as possible, however, we are not experts in any field.\nGoodwill Industries of the Chesapeake, Inc. prepares people to secure and retain employment to build successfulindependent lives.\nThank you for your support!\nBuyer verification:\nIf the current bid on an item is higher than average, and we are unable to confirm your account, your bid may be retracted for this reason. If you do not have a phone number associated with your account, your bid may be rejected or retracted for this reason.\nRefunds or returns:\nTypically not authorized unless an item was grossly mis-represented; however, will be reviewed on a case by case basis. Return shipping is the responsibility of the customer.",
-    "score_reasons": [
-      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-      "Only 2 listing photos (-5)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 11,
-        "relative_score": 0.314,
-        "score_reasons": [
-          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-          "Only 2 listing photos (-5)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49407-5760245": {
     "item_id": "ctbids-49407-5760245",
     "listing_url": "https://ctbids.com/estate-sale/49407/item/5760245/Gibson-China-Dinnerware-Set-Geometric-Leaf-Pattern-14-Pieces",
@@ -393,11 +404,68 @@
       }
     ]
   },
+  "281182907": {
+    "item_id": "281182907",
+    "listing_url": "https://shopgoodwill.com/item/281182907",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-10-20/eeba0eb4-dd31-48f0-bca5-1157dcd30a422026_10201.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/11/Items/2026-10-20/78644b13-91b4-4788-9fc7-e3bf7fec0d4e2026_10202.jpg"
+    ],
+    "description": "Assorted Lot of Pens/Pencils and Sets Including Cross, Bill Blass, & More\nCondition:\nFunctionality may vary\nSome cases have cosmetic wear\nNotes:\nNote: Any extra props (i.e., stands, mannequins, etc.) are not part of the auction and are for presentation purposes only.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us using the \"Contact Seller\" tab in listing.\nWe describe our items to the best of our ability and try to incorporate as much research as possible, however, we are not experts in any field.\nGoodwill Industries of the Chesapeake, Inc. prepares people to secure and retain employment to build successfulindependent lives.\nThank you for your support!\nBuyer verification:\nIf the current bid on an item is higher than average, and we are unable to confirm your account, your bid may be retracted for this reason. If you do not have a phone number associated with your account, your bid may be rejected or retracted for this reason.\nRefunds or returns:\nTypically not authorized unless an item was grossly mis-represented; however, will be reviewed on a case by case basis. Return shipping is the responsibility of the customer.",
+    "score_reasons": [
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Only 2 listing photos (-5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 11,
+        "relative_score": 0.314,
+        "score_reasons": [
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Only 2 listing photos (-5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48978-5678910": {
     "item_id": "ctbids-48978-5678910",
     "listing_url": "https://ctbids.com/estate-sale/48978/item/5678910/Architectural-Images",
     "images": [
       "https://image.ctbids.com/seller/2026-09-28T85aee3/5678910_JhNgPo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49177-5732273": {
+    "item_id": "ctbids-49177-5732273",
+    "listing_url": "https://ctbids.com/estate-sale/49177/item/5732273/Amethyst-Glass-Pedestal-Bowl-Trumpet-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5732273_ujkirh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -413,31 +481,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48608-5736992": {
-    "item_id": "ctbids-48608-5736992",
-    "listing_url": "https://ctbids.com/estate-sale/48608/item/5736992/VTG-PYREX-Mixing-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5736992_NLLVTU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -520,123 +563,6 @@
       }
     ]
   },
-  "ctbids-47296-5695096": {
-    "item_id": "ctbids-47296-5695096",
-    "listing_url": "https://ctbids.com/estate-sale/47296/item/5695096/Avengers-Spider-Man-Venom-Non-Marvel-Comics-and-More-ARP402",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-02Tb63846/5695096_7ZXTE9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49096-5740497": {
-    "item_id": "ctbids-49096-5740497",
-    "listing_url": "https://ctbids.com/estate-sale/49096/item/5740497/1936-Buffalo-Nickels-Plus-A-Few-Other-Years",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740497_AWfrov.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49177-5732273": {
-    "item_id": "ctbids-49177-5732273",
-    "listing_url": "https://ctbids.com/estate-sale/49177/item/5732273/Amethyst-Glass-Pedestal-Bowl-Trumpet-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5732273_ujkirh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281057934": {
-    "item_id": "281057934",
-    "listing_url": "https://shopgoodwill.com/item/281057934",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10081.png",
-      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10082.png",
-      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10083.png",
-      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10084.png",
-      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10085.png",
-      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10086.png"
-    ],
-    "description": "Description:\nMixed Rocks and Raw Geodes Specimens Lot\nManufacturer/Markings:\nVarious\nMaterial:\nVarious\nApproximate Dimensions:\n12 X 7.5 X 3.5\nCondition:\nDonated/ pre-owned.Fair Condition\nExtras Included:\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\"\nand is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
-    "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48786-5738736": {
     "item_id": "ctbids-48786-5738736",
     "listing_url": "https://ctbids.com/estate-sale/48786/item/5738736/Danmark-Ship-Model",
@@ -662,11 +588,61 @@
       }
     ]
   },
+  "ctbids-47296-5695096": {
+    "item_id": "ctbids-47296-5695096",
+    "listing_url": "https://ctbids.com/estate-sale/47296/item/5695096/Avengers-Spider-Man-Venom-Non-Marvel-Comics-and-More-ARP402",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-02Tb63846/5695096_7ZXTE9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49118-5721903": {
     "item_id": "ctbids-49118-5721903",
     "listing_url": "https://ctbids.com/estate-sale/49118/item/5721903/Alabaster-Perfume-Flask-Vase",
     "images": [
       "https://image.ctbids.com/seller/2026-10-09T692c1c/5721903_trlGjp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49096-5740497": {
+    "item_id": "ctbids-49096-5740497",
+    "listing_url": "https://ctbids.com/estate-sale/49096/item/5740497/1936-Buffalo-Nickels-Plus-A-Few-Other-Years",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740497_AWfrov.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -962,6 +938,42 @@
       }
     ]
   },
+  "281057934": {
+    "item_id": "281057934",
+    "listing_url": "https://shopgoodwill.com/item/281057934",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10081.png",
+      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10082.png",
+      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10083.png",
+      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10084.png",
+      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10085.png",
+      "https://shopgoodwillimages.azureedge.net/production/362/Items/2026-10-08/56c3d612-b44d-4448-bdd3-9f411d1896fbch47_10086.png"
+    ],
+    "description": "Description:\nMixed Rocks and Raw Geodes Specimens Lot\nManufacturer/Markings:\nVarious\nMaterial:\nVarious\nApproximate Dimensions:\n12 X 7.5 X 3.5\nCondition:\nDonated/ pre-owned.Fair Condition\nExtras Included:\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\"\nand is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280075218": {
     "item_id": "280075218",
     "listing_url": "https://shopgoodwill.com/item/280075218",
@@ -993,6 +1005,51 @@
           "Score boundary adjustment (+12)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "281355253": {
+    "item_id": "281355253",
+    "listing_url": "https://shopgoodwill.com/item/281355253",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/381/Item/2026-10-21/fa43c33a-5698-46f3-a392-e70ecd7ba19bwell_10211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/381/Item/2026-10-21/68d32613-a92d-45e2-96be-dc091bc7706bwell_10212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/381/Item/2026-10-21/d1256fd0-4821-4654-af96-27371d7345acwell_10213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/381/Item/2026-10-21/df2ab7e8-5d2d-4a5a-8e48-31501c276819well_10214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/381/Item/2026-10-21/078727a9-77c0-40f7-a710-e8f693bca7c2well_10215.jpg"
+    ],
+    "description": "2.8lb Bulk Lot Natural Crystals Gemstones Polished Stones Rough Minerals\nBulk lot of assorted natural crystals and gemstones totaling approximately 2.8 lbs. Includes polished heart-shaped stones such as rose quartz, ruby zoisite, howlite, green aventurine/fluorite, jasper, and a pink-and-black mineral. Contains a tumbled labradorite beaded stretch bracelet, rose quartz point/wand, small druzy quartz geode, and multiple raw mineral specimens including amethyst, amazonite, citrine, apatite, calcite, and clear quartz points. Stones range from small chips to palm-sized pieces with finishes from polished and glossy to natural raw surfaces. Colors include pink, green, white, purple, blue, orange, black, and gray with visible natural veining and mineral inclusions. Items are new and unused, suitable for crystal healing, jewelry making, display, or collecting. Packaged in a labeled Ziploc bag.\nDetails\nThis item was donated to Goodwill Industries of Southeastern Louisiana. All items are used/preowned unless otherwise noted in the listing. Please see images for further details and ask any questions before making a bid. Any props (stands, mannequins, etc.) are for presentation use only, unless noted. Please ask any questions prior to bidding.\nCustomer Service:\nOur Customer Service Department is accessible via the Contact Us link above. Our hours of operation are 8:00am-4:30pm CT Monday - Friday. If you have any questions or experience any issues with your order and need assistance, please reach out to us through the Shopgoodwill Customer Service ticketing system rather than calling or sending an email. This allows both parties to have record of conversations as well as an easy reference tool if needed. We strive to respond to any and all customer service tickets within one business day.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'healing' in description (-12)",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "Target keyword 'fluorite' in description (+9)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'healing' in description (-12)",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "Target keyword 'fluorite' in description (+9)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
       }
     ]
   },

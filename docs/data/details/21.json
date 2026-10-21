@@ -202,6 +202,33 @@
       }
     ]
   },
+  "ctbids-49096-5735025": {
+    "item_id": "ctbids-49096-5735025",
+    "listing_url": "https://ctbids.com/estate-sale/49096/item/5735025/Michael-Jordan-Sealed-Box-Loose-Tribute-Cards",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5735025_xKyZk0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280988138": {
     "item_id": "280988138",
     "listing_url": "https://shopgoodwill.com/item/280988138",
@@ -228,33 +255,6 @@
           "Opportunity term 'vintage' in title (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49096-5735025": {
-    "item_id": "ctbids-49096-5735025",
-    "listing_url": "https://ctbids.com/estate-sale/49096/item/5735025/Michael-Jordan-Sealed-Box-Loose-Tribute-Cards",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5735025_xKyZk0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -368,37 +368,6 @@
       }
     ]
   },
-  "281090660": {
-    "item_id": "281090660",
-    "listing_url": "https://shopgoodwill.com/item/281090660",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-19/0a9d30e9-7a69-407a-9f61-d898db28f401pert_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-19/44c10b89-1db8-4da8-b9e8-07aa422f90a7pert_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-19/5c853a3f-ecaa-498e-842d-71e858ede3f1pert_10193.jpg"
-    ],
-    "description": "This lot includes 9 natural mineral specimens primarily composed of selenite, a crystalline form of gypsum. The pieces range in translucency from translucent to transparent and exhibit a pearly luster. Most specimens are colorless or white, with one showing a light tan hue. The crystals display characteristic striated and bladed formations and are in raw, unpolished condition with some natural edge chipping. These selenite specimens are suitable for mineral collectors, metaphysical applications, or educational purposes.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'metaphysical' in description (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'metaphysical' in description (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "280525535": {
     "item_id": "280525535",
     "listing_url": "https://shopgoodwill.com/item/280525535",
@@ -436,6 +405,91 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281090660": {
+    "item_id": "281090660",
+    "listing_url": "https://shopgoodwill.com/item/281090660",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-19/0a9d30e9-7a69-407a-9f61-d898db28f401pert_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-19/44c10b89-1db8-4da8-b9e8-07aa422f90a7pert_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-19/5c853a3f-ecaa-498e-842d-71e858ede3f1pert_10193.jpg"
+    ],
+    "description": "This lot includes 9 natural mineral specimens primarily composed of selenite, a crystalline form of gypsum. The pieces range in translucency from translucent to transparent and exhibit a pearly luster. Most specimens are colorless or white, with one showing a light tan hue. The crystals display characteristic striated and bladed formations and are in raw, unpolished condition with some natural edge chipping. These selenite specimens are suitable for mineral collectors, metaphysical applications, or educational purposes.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48810-5739785": {
+    "item_id": "ctbids-48810-5739785",
+    "listing_url": "https://ctbids.com/estate-sale/48810/item/5739785/Latin-American-Hand-Painted-Folk-Art-Plaques",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5739785_6i1M3m.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49118-5735874": {
+    "item_id": "ctbids-49118-5735874",
+    "listing_url": "https://ctbids.com/estate-sale/49118/item/5735874/King-Country-Crusader-Cross-Crescent-Figures-3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735874_UTUkaU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -540,60 +594,6 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48810-5739785": {
-    "item_id": "ctbids-48810-5739785",
-    "listing_url": "https://ctbids.com/estate-sale/48810/item/5739785/Latin-American-Hand-Painted-Folk-Art-Plaques",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5739785_6i1M3m.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49118-5735874": {
-    "item_id": "ctbids-49118-5735874",
-    "listing_url": "https://ctbids.com/estate-sale/49118/item/5735874/King-Country-Crusader-Cross-Crescent-Figures-3",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735874_UTUkaU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
