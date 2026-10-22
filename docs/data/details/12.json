@@ -256,7 +256,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -268,7 +268,7 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -631,6 +631,33 @@
       }
     ]
   },
+  "ctbids-49233-5740503": {
+    "item_id": "ctbids-49233-5740503",
+    "listing_url": "https://ctbids.com/estate-sale/49233/item/5740503/Sony-DVP-NS725P-CD-DVD-Player-with-Remote-Progressive-Scan-DTS-MP3-Playback-Silver",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740503_mxkr8i.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281344086": {
     "item_id": "281344086",
     "listing_url": "https://shopgoodwill.com/item/281344086",
@@ -656,33 +683,6 @@
           "Lower-priority term 'decorative' in description (-8)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49233-5740503": {
-    "item_id": "ctbids-49233-5740503",
-    "listing_url": "https://ctbids.com/estate-sale/49233/item/5740503/Sony-DVP-NS725P-CD-DVD-Player-with-Remote-Progressive-Scan-DTS-MP3-Playback-Silver",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740503_mxkr8i.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -1458,6 +1458,45 @@
         "matched_keywords": [
           "fluorite"
         ]
+      }
+    ]
+  },
+  "281502995": {
+    "item_id": "281502995",
+    "listing_url": "https://shopgoodwill.com/item/281502995",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/5bf22ba9-51de-4917-9c49-ec5e60a9a462iRum_10221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/fe561428-216c-4459-aa26-fab03c40a197iRum_10222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/55828c85-cf42-4ade-9bac-e8711aef7836iRum_10223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/087689c3-2b9d-4c6e-912a-bc05cd569ee9iRum_10224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/8eddb4d5-8eab-45ed-a467-ce63e08a3d17iRum_10225.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/012e5fe8-b6bd-4222-aecd-5856d8fd6b28iRum_10226.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-22/17c42288-df71-457d-8ea3-60f99fdc8f41iRum_10227.jpg"
+    ],
+    "description": "This is a polished Money Agate sphere showcasing the characteristic patterns and colorations of this collectible mineral. The orb displays a mix of green, beige, cream, and reddish-brown hues with intricate swirling and orbicular patterns throughout the surface.\n\nSpecifications:\n- Size: 3 inch\n- Weight: 482.8 grams\n- Condition: Excellent, polished with no visible chips or cracks\n- Display: Shown on clear acrylic stand (stand is for pictures only and not included)\n\nThis decorative mineral specimen is suitable for collectors, home display, or metaphysical purposes.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+15)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+15)"
+        ],
+        "matched_keywords": []
       }
     ]
   },

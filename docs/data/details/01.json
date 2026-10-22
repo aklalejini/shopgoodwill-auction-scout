@@ -342,7 +342,7 @@
     "item_id": "ctbids-48990-5702503",
     "listing_url": "https://ctbids.com/estate-sale/48990/item/5702503/2-Vintage-Lamps-Brown-Urn-Neo-classical-Candelabra-W-Onyx",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5702503_AoXyxj.webp"
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5702503_onYwzB.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -575,6 +575,46 @@
       }
     ]
   },
+  "ctbids-48579-5679742": {
+    "item_id": "ctbids-48579-5679742",
+    "listing_url": "https://ctbids.com/estate-sale/48579/item/5679742/10-6ct-Natural-Brazilian-Green-Amethyst",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679742_hbZVau.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49196-5732822": {
     "item_id": "ctbids-49196-5732822",
     "listing_url": "https://ctbids.com/estate-sale/49196/item/5732822/Print-Of-Good-Old-Days-263-By-Irenco-Robert-Bier-AB-Stockholm-Sweden",
@@ -787,46 +827,6 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48579-5679742": {
-    "item_id": "ctbids-48579-5679742",
-    "listing_url": "https://ctbids.com/estate-sale/48579/item/5679742/10-6ct-Natural-Brazilian-Green-Amethyst",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679742_hbZVau.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
