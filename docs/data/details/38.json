@@ -16,6 +16,7 @@
       "Opportunity term 'vintage' in title (+6)",
       "Target keyword 'briar' in description (+5)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,13 +24,14 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 34,
-        "relative_score": 0.971,
+        "score": 38,
+        "relative_score": 1.086,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'vintage' in title (+6)",
           "Target keyword 'briar' in description (+5)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -291,6 +293,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -298,11 +301,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -320,6 +324,37 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5766359": {
+    "item_id": "ctbids-49437-5766359",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5766359/Marcella-by-K-12x12-Scrapbook-Album-Lavender-Satin-Cover-with-Ribbon-Memo-Board-Design-and-Vintage",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5745701_tqOzFh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -331,7 +366,36 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49161-5740973": {
+    "item_id": "ctbids-49161-5740973",
+    "listing_url": "https://ctbids.com/estate-sale/49161/item/5740973/Vintage-Mid-Century-Modern-Studio-Pottery-UFO-Saucer-Floor-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740973_gNUApJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -420,33 +484,6 @@
       }
     ]
   },
-  "ctbids-49161-5740973": {
-    "item_id": "ctbids-49161-5740973",
-    "listing_url": "https://ctbids.com/estate-sale/49161/item/5740973/Vintage-Mid-Century-Modern-Studio-Pottery-UFO-Saucer-Floor-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740973_gNUApJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48545-5728749": {
     "item_id": "ctbids-48545-5728749",
     "listing_url": "https://ctbids.com/estate-sale/48545/item/5728749/Glass-Paperweight-Lot-6-Pcs",
@@ -494,6 +531,87 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5766316": {
+    "item_id": "ctbids-49437-5766316",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5766316/Queen-Anne-Bone-China-Footed-Teacup-with-Pink-and-Yellow-Roses-Gold-Trim-Ridgway-Potteries-England",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5755261_6eIryy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5766151": {
+    "item_id": "ctbids-49437-5766151",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5766151/Bob-Wills-and-His-Texas-Playboys-Cornball-Rag-Sincerely-Decca-9-29432-45-RPM",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5679814_mO67ei.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5766154": {
+    "item_id": "ctbids-49437-5766154",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5766154/Bonjour-Scholastic-Records-No-2-Parts-1-2-33-RPM-November-1966",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5679992_zd1mo9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -594,6 +712,33 @@
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48917-5739281": {
+    "item_id": "ctbids-48917-5739281",
+    "listing_url": "https://ctbids.com/estate-sale/48917/item/5739281/10-NIB-Starting-Lineup-Baseball-Action-Figures",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5739281_DMC8XY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -846,31 +991,6 @@
       }
     ]
   },
-  "ctbids-48917-5739281": {
-    "item_id": "ctbids-48917-5739281",
-    "listing_url": "https://ctbids.com/estate-sale/48917/item/5739281/10-NIB-Starting-Lineup-Baseball-Action-Figures",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5739281_DMC8XY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48730-5695437": {
     "item_id": "ctbids-48730-5695437",
     "listing_url": "https://ctbids.com/estate-sale/48730/item/5695437/CM115-Set-the-Tone-Mood-Music-Vinyl-Box-Sets",
@@ -976,81 +1096,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49027/item/5727297/Christian-Ulbricht-Santa-On-Sleigh-Natural-German-Incense-Smoker",
     "images": [
       "https://image.ctbids.com/seller/2026-10-14T823d6c/5727297_Bqqj3y.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48661-5673489": {
-    "item_id": "ctbids-48661-5673489",
-    "listing_url": "https://ctbids.com/estate-sale/48661/item/5673489/Disney-Walt-Disney-Studios-Mickey-Ears-Musical-Snow-Globe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5673489_6pP6Dt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48579-5679628": {
-    "item_id": "ctbids-48579-5679628",
-    "listing_url": "https://ctbids.com/estate-sale/48579/item/5679628/Pink-Cameo-Style-Cabochon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679628_fEyzIR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48975-5722815": {
-    "item_id": "ctbids-48975-5722815",
-    "listing_url": "https://ctbids.com/estate-sale/48975/item/5722815/Quacker-Factory-4-Piece-Embellished-Novelty-Print-Button-Front-Shirts-Size-1X",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722815_6AF6t2.webp"
     ],
     "description": "",
     "score_reasons": [

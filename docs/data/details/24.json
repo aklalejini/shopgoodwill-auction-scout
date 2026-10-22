@@ -103,6 +103,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -110,11 +111,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 11,
-        "relative_score": 0.367,
+        "score": 15,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -132,6 +134,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -139,11 +142,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 16,
+        "relative_score": 0.471,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -209,15 +213,16 @@
       }
     ]
   },
-  "ctbids-49233-5741799": {
-    "item_id": "ctbids-49233-5741799",
-    "listing_url": "https://ctbids.com/estate-sale/49233/item/5741799/Kodak-EasyShare-12X-IS-Digital-Camera-Bundle-Vintage-Slik-450G-Minipod-Tripod-w-Original-Box",
+  "ctbids-49161-5736918": {
+    "item_id": "ctbids-49161-5736918",
+    "listing_url": "https://ctbids.com/estate-sale/49161/item/5736918/Vintage-T-Comme-Terre-Hand-Painted-French-Ceramic-Bowls-and-Mugs-Berry-Leaf-Motif-Set-of-4",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5741799_G1QnXc.webp"
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5736918_1YggbD.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -225,10 +230,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49162-5729442": {
+    "item_id": "ctbids-49162-5729442",
+    "listing_url": "https://ctbids.com/estate-sale/49162/item/5729442/Kodak-Pocket-Or-Telescope-Table-Top-Tripod-With-Carrying-Case-Vintage",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5729442_tpBZhJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49037-5737764": {
+    "item_id": "ctbids-49037-5737764",
+    "listing_url": "https://ctbids.com/estate-sale/49037/item/5737764/Indiana-Glass-Vintage-Clear-Pressed-Glass-Oval-Fruit-Bowl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737764_ZIQY6o.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -241,33 +305,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49176/item/5733888/Antique-Pillivuyt-France-Porcelain-Tureen-Rabbit-Glass-Eyes-Casserole-Pate",
     "images": [
       "https://image.ctbids.com/seller/2026-10-13T0627f3/5733888_vhKfOq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49176-5743808": {
-    "item_id": "ctbids-49176-5743808",
-    "listing_url": "https://ctbids.com/estate-sale/49176/item/5743808/E-M-Emery-1912-Still-Life-Gold-Gilt-Antique-Framed-Original-Signed-Painting",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743808_cnIjp8.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -317,11 +354,11 @@
       }
     ]
   },
-  "ctbids-49162-5729442": {
-    "item_id": "ctbids-49162-5729442",
-    "listing_url": "https://ctbids.com/estate-sale/49162/item/5729442/Kodak-Pocket-Or-Telescope-Table-Top-Tripod-With-Carrying-Case-Vintage",
+  "ctbids-49233-5741799": {
+    "item_id": "ctbids-49233-5741799",
+    "listing_url": "https://ctbids.com/estate-sale/49233/item/5741799/Kodak-EasyShare-12X-IS-Digital-Camera-Bundle-Vintage-Slik-450G-Minipod-Tripod-w-Original-Box",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5729442_tpBZhJ.webp"
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5741799_G1QnXc.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -452,60 +489,6 @@
       }
     ]
   },
-  "ctbids-49161-5736918": {
-    "item_id": "ctbids-49161-5736918",
-    "listing_url": "https://ctbids.com/estate-sale/49161/item/5736918/Vintage-T-Comme-Terre-Hand-Painted-French-Ceramic-Bowls-and-Mugs-Berry-Leaf-Motif-Set-of-4",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5736918_1YggbD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49037-5737764": {
-    "item_id": "ctbids-49037-5737764",
-    "listing_url": "https://ctbids.com/estate-sale/49037/item/5737764/Indiana-Glass-Vintage-Clear-Pressed-Glass-Oval-Fruit-Bowl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737764_ZIQY6o.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48911-5727053": {
     "item_id": "ctbids-48911-5727053",
     "listing_url": "https://ctbids.com/estate-sale/48911/item/5727053/Vintage-Kirks-Folly-butterfly-brooch-pin",
@@ -533,15 +516,15 @@
       }
     ]
   },
-  "ctbids-49027-5730897": {
-    "item_id": "ctbids-49027-5730897",
-    "listing_url": "https://ctbids.com/estate-sale/49027/item/5730897/15-Vintage-Shiny-Brite-6-Made-In-USA-Ornaments",
+  "ctbids-49437-5766274": {
+    "item_id": "ctbids-49437-5766274",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5766274/Ralph-Flanagan-and-His-Orchestra-The-Winky-Dink-While-You-Danced-Danced-Danced-RCA-Victo",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5730897_f08PD4.webp"
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5674367_erLDqm.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -549,10 +532,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5765295": {
+    "item_id": "ctbids-49437-5765295",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5765295/Classic-White-Ceramic-Bowl-Rounded-Soup-Cereal-Serving-Bowl-with-Banded-Rim-Glossy-Glaze-6-5-i",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5765295_hm76ca.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5766187": {
+    "item_id": "ctbids-49437-5766187",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5766187/Ernest-Tubb-The-Woman-s-Touch-Kansas-City-Blues-Decca-45-RPM-No-9-29415",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5680358_22cELc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -587,6 +624,33 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46511-5682853": {
+    "item_id": "ctbids-46511-5682853",
+    "listing_url": "https://ctbids.com/estate-sale/46511/item/5682853/Cast-Iron-Treaty-Token-Plaque",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682853_1nYoBa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -742,31 +806,6 @@
       }
     ]
   },
-  "ctbids-46511-5682853": {
-    "item_id": "ctbids-46511-5682853",
-    "listing_url": "https://ctbids.com/estate-sale/46511/item/5682853/Cast-Iron-Treaty-Token-Plaque",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682853_1nYoBa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49196-5740453": {
     "item_id": "ctbids-49196-5740453",
     "listing_url": "https://ctbids.com/estate-sale/49196/item/5740453/Rainbow-Wood-Serving-Utensils-Multi-Wood-Bowls",
@@ -847,56 +886,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49196/item/5742630/Michael-Kors-Banana-Republic-Cole-Haan-Jillian-Jones-Womens-Medium-Coats-Sweaters",
     "images": [
       "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5742630_zTgYwN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48405-5624928": {
-    "item_id": "ctbids-48405-5624928",
-    "listing_url": "https://ctbids.com/estate-sale/48405/item/5624928/Lighthouses-of-Maryland-Framed-Poster-Heather-Davidson-Skip-Willits",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5624928_UKMCGm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48405-5734437": {
-    "item_id": "ctbids-48405-5734437",
-    "listing_url": "https://ctbids.com/estate-sale/48405/item/5734437/FRIENDS-Snack-Boxes-Sedona-Kitchen-Casserole-Sparkle-Pillow",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5734437_wdeaPy.webp"
     ],
     "description": "",
     "score_reasons": [
