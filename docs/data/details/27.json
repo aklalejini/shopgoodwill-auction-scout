@@ -8,7 +8,6 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'Lalique' in title (+20)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -16,11 +15,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 23,
-        "relative_score": 0.676,
+        "score": 21,
+        "relative_score": 0.618,
         "score_reasons": [
           "High-value signal 'Lalique' in title (+20)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -60,43 +58,6 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'possibly' in description (-4)",
           "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "280226871": {
-    "item_id": "280226871",
-    "listing_url": "https://shopgoodwill.com/item/280226871",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis lot includes a variety of stone and mineral items featuring natural coloration and materials. Included are a pink and black geode specimen, a stone and metal ashtray with visible wear and tarnish, two polished mineral display pieces with beige, brown, and darker brown streak tones, and a small white marble mortar and pestle set.\n\nSpecifications:\n- Material: Natural stone and metal\n- Includes: Geode specimen, ashtray, polished mineral pieces, mortar and pestle set\n- Weight: Approx. 13 lbs\n\nNote: No brand or model details are visible on any item.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "13 lb lot has unusually favorable flat shipping (+5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 21,
-        "relative_score": 0.7,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "13 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -184,6 +145,43 @@
       }
     ]
   },
+  "280226871": {
+    "item_id": "280226871",
+    "listing_url": "https://shopgoodwill.com/item/280226871",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis lot includes a variety of stone and mineral items featuring natural coloration and materials. Included are a pink and black geode specimen, a stone and metal ashtray with visible wear and tarnish, two polished mineral display pieces with beige, brown, and darker brown streak tones, and a small white marble mortar and pestle set.\n\nSpecifications:\n- Material: Natural stone and metal\n- Includes: Geode specimen, ashtray, polished mineral pieces, mortar and pestle set\n- Weight: Approx. 13 lbs\n\nNote: No brand or model details are visible on any item.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Only 1 listing photo (-10)",
+      "Flat shipping is only $0.01 (+10)",
+      "13 lb lot has unusually favorable flat shipping (+5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 21,
+        "relative_score": 0.7,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Only 1 listing photo (-10)",
+          "Flat shipping is only $0.01 (+10)",
+          "13 lb lot has unusually favorable flat shipping (+5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281065803": {
     "item_id": "281065803",
     "listing_url": "https://shopgoodwill.com/item/281065803",
@@ -210,6 +208,35 @@
           "Opportunity term 'specimen' in title (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49037-5716355": {
+    "item_id": "ctbids-49037-5716355",
+    "listing_url": "https://ctbids.com/estate-sale/49037/item/5716355/Vintage-Enesco-Memories-of-Yesterday-Figurine-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5716355_5ykzmH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -253,16 +280,16 @@
       }
     ]
   },
-  "ctbids-49037-5716355": {
-    "item_id": "ctbids-49037-5716355",
-    "listing_url": "https://ctbids.com/estate-sale/49037/item/5716355/Vintage-Enesco-Memories-of-Yesterday-Figurine-Collection",
+  "ctbids-49437-5767966": {
+    "item_id": "ctbids-49437-5767966",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5767966/The-Rolling-Stones-Good-Times-Bad-Times-45-RPM-London-45-LON-9687-Vintage-Vinyl",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5716355_5ykzmH.webp"
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5694096_XhcJwU.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -270,11 +297,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5767652": {
+    "item_id": "ctbids-49437-5767652",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5767652/Ray-Charles-What-d-I-Say-Parts-I-II-45-RPM-Atlantic-2031-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5694002_YGWkqe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5767984": {
+    "item_id": "ctbids-49437-5767984",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5767984/Supertramp-Just-Another-Nervous-Wreck-The-Logical-Song-45-RPM-A-M-2128-S-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5694206_8fx2M4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -367,35 +452,6 @@
       }
     ]
   },
-  "ctbids-49037-5728538": {
-    "item_id": "ctbids-49037-5728538",
-    "listing_url": "https://ctbids.com/estate-sale/49037/item/5728538/Vintage-Assorted-Christmas-Holiday-D-cor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5728538_s1yVh4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46511-5666250": {
     "item_id": "ctbids-46511-5666250",
     "listing_url": "https://ctbids.com/estate-sale/46511/item/5666250/Vintage-Festive-Table-Linens-Deluxe-Corkscrew-Wine-Service-Kit-4pc",
@@ -463,7 +519,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -475,7 +531,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -618,6 +674,33 @@
       }
     ]
   },
+  "ctbids-49037-5728538": {
+    "item_id": "ctbids-49037-5728538",
+    "listing_url": "https://ctbids.com/estate-sale/49037/item/5728538/Vintage-Assorted-Christmas-Holiday-D-cor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5728538_s1yVh4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49437-5766300": {
     "item_id": "ctbids-49437-5766300",
     "listing_url": "https://ctbids.com/estate-sale/49437/item/5766300/Carmen-Cavallaro-and-His-Orchestra-Carioca-Brazil-Enlloro-Decca-Extended-Play-45-ED-2011",
@@ -726,60 +809,6 @@
       }
     ]
   },
-  "ctbids-48917-5738644": {
-    "item_id": "ctbids-48917-5738644",
-    "listing_url": "https://ctbids.com/estate-sale/48917/item/5738644/Twenty-Five-Topps-Baseball-Cards-1962",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5738644_WUHlYU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49437-5764731": {
-    "item_id": "ctbids-49437-5764731",
-    "listing_url": "https://ctbids.com/estate-sale/49437/item/5764731/Lladr-Porcelain-Dutch-Girl-Figurine-with-Plant-Watering-Can-and-Hens-Hand-Made-in-Spain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764731_w0HC71.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48730-5721600": {
     "item_id": "ctbids-48730-5721600",
     "listing_url": "https://ctbids.com/estate-sale/48730/item/5721600/CM215-Chill-In-The-Air",
@@ -800,33 +829,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48579-5679608": {
-    "item_id": "ctbids-48579-5679608",
-    "listing_url": "https://ctbids.com/estate-sale/48579/item/5679608/6-9ct-Lace-Agate-Cabochon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679608_QMRsNV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -984,11 +986,61 @@
       }
     ]
   },
+  "ctbids-48917-5738644": {
+    "item_id": "ctbids-48917-5738644",
+    "listing_url": "https://ctbids.com/estate-sale/48917/item/5738644/Twenty-Five-Topps-Baseball-Cards-1962",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5738644_WUHlYU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48917-5743308": {
     "item_id": "ctbids-48917-5743308",
     "listing_url": "https://ctbids.com/estate-sale/48917/item/5743308/Stan-Musial-Signed-5x7-Photo-PSA-Authenticated",
     "images": [
       "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743308_uOOBde.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49437-5764731": {
+    "item_id": "ctbids-49437-5764731",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5764731/Lladr-Porcelain-Dutch-Girl-Figurine-with-Plant-Watering-Can-and-Hens-Hand-Made-in-Spain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764731_w0HC71.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1164,31 +1216,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49151/item/5741253/Michael-Kors-Purse-and-La-Garde-by-Rolfs-Black-Wallet",
     "images": [
       "https://image.ctbids.com/seller/2026-10-16T1ba60e/5741253_JVf1MC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49027-5727506": {
-    "item_id": "ctbids-49027-5727506",
-    "listing_url": "https://ctbids.com/estate-sale/49027/item/5727506/Authentic-Holzkunst-Christian-Ulbricht-Santa-Claus-With-Gift-Sack-Incense-Smoker",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5727506_KKZzwz.webp"
     ],
     "description": "",
     "score_reasons": [

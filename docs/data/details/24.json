@@ -134,7 +134,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -142,12 +142,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 16,
-        "relative_score": 0.471,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -570,6 +570,33 @@
       }
     ]
   },
+  "ctbids-49437-5767742": {
+    "item_id": "ctbids-49437-5767742",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5767742/Percy-Sledge-Cover-Me-Behind-Every-Great-Man-There-s-a-Woman-Atlantic-45-2453",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5690508_U3nIOG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49437-5766187": {
     "item_id": "ctbids-49437-5766187",
     "listing_url": "https://ctbids.com/estate-sale/49437/item/5766187/Ernest-Tubb-The-Woman-s-Touch-Kansas-City-Blues-Decca-45-RPM-No-9-29415",
@@ -590,6 +617,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46511-5682853": {
+    "item_id": "ctbids-46511-5682853",
+    "listing_url": "https://ctbids.com/estate-sale/46511/item/5682853/Cast-Iron-Treaty-Token-Plaque",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682853_1nYoBa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -624,33 +678,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-46511-5682853": {
-    "item_id": "ctbids-46511-5682853",
-    "listing_url": "https://ctbids.com/estate-sale/46511/item/5682853/Cast-Iron-Treaty-Token-Plaque",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5682853_1nYoBa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

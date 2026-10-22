@@ -419,6 +419,33 @@
       }
     ]
   },
+  "ctbids-49437-5767745": {
+    "item_id": "ctbids-49437-5767745",
+    "listing_url": "https://ctbids.com/estate-sale/49437/item/5767745/The-Bell-Notes-I-ve-Had-It-Be-Mine-Time-45-RPM-Single-Record-No-1004",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5690509_JM3Hj1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49437-5765836": {
     "item_id": "ctbids-49437-5765836",
     "listing_url": "https://ctbids.com/estate-sale/49437/item/5765836/Scalloped-Ceramic-Trinket-Box-with-Yellow-Roses-Blue-Flowers-Ribbed-Lid-Inscribed",
@@ -773,18 +800,33 @@
       }
     ]
   },
-  "ctbids-48730-5736555": {
-    "item_id": "ctbids-48730-5736555",
-    "listing_url": "https://ctbids.com/estate-sale/48730/item/5736555/CM230-Comphy-Spa-Robe",
+  "ctbids-48579-5679742": {
+    "item_id": "ctbids-48579-5679742",
+    "listing_url": "https://ctbids.com/estate-sale/48579/item/5679742/10-6ct-Natural-Brazilian-Green-Amethyst",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5736555_noEJho.webp"
+      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679742_hbZVau.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
     ],
     "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -865,49 +907,6 @@
           "15 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48579-5679742": {
-    "item_id": "ctbids-48579-5679742",
-    "listing_url": "https://ctbids.com/estate-sale/48579/item/5679742/10-6ct-Natural-Brazilian-Green-Amethyst",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-28T85aee3/5679742_hbZVau.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+15)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+15)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

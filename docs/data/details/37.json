@@ -15,6 +15,7 @@
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,12 +23,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 37,
-        "relative_score": 1.233,
+        "score": 42,
+        "relative_score": 1.4,
         "score_reasons": [
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -54,6 +56,7 @@
     "description": "Racing Action Platinum Series Collectable Dragster cars, like new condition & in original box.",
     "score_reasons": [
       "High-value signal 'platinum' in title (+24)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -61,10 +64,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 30,
-        "relative_score": 0.882,
+        "score": 32,
+        "relative_score": 0.941,
         "score_reasons": [
           "High-value signal 'platinum' in title (+24)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -165,39 +169,6 @@
       }
     ]
   },
-  "281353566": {
-    "item_id": "281353566",
-    "listing_url": "https://shopgoodwill.com/item/281353566",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/6049f7f1-99af-475f-9f96-9da5263cdcb7llen_10211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/7f155714-c57b-4941-b97c-5afea7420f6bllen_10212.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/063d7d4e-973d-41e5-a91d-24c36f1054a4llen_10213.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/fc83513e-4517-4e28-a97d-dbeed7069b3ellen_10214.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/a5796515-e609-49ef-824f-77c1970c38f1llen_10215.jpg"
-    ],
-    "description": "This natural amethyst geode displays vibrant purple crystals on its exposed surface, showcasing numerous small, well-formed points. The geode remains embedded in its original grayish-brown host rock, providing a rugged, natural appearance. The specimen is in good condition and offers an authentic example of amethyst crystal formations. It is suitable for display or inclusion in mineral collections.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'decor' in title (-8)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 11,
-        "relative_score": 0.367,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'decor' in title (-8)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49437-5766304": {
     "item_id": "ctbids-49437-5766304",
     "listing_url": "https://ctbids.com/estate-sale/49437/item/5766304/Set-of-6-Vintage-Matchbooks-Caesars-Palace-Cable-Motel-SF-Jolly-Ox-Inns-Fisherman-s-Landing",
@@ -251,6 +222,39 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281353566": {
+    "item_id": "281353566",
+    "listing_url": "https://shopgoodwill.com/item/281353566",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/6049f7f1-99af-475f-9f96-9da5263cdcb7llen_10211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/7f155714-c57b-4941-b97c-5afea7420f6bllen_10212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/063d7d4e-973d-41e5-a91d-24c36f1054a4llen_10213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/fc83513e-4517-4e28-a97d-dbeed7069b3ellen_10214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-21/a5796515-e609-49ef-824f-77c1970c38f1llen_10215.jpg"
+    ],
+    "description": "This natural amethyst geode displays vibrant purple crystals on its exposed surface, showcasing numerous small, well-formed points. The geode remains embedded in its original grayish-brown host rock, providing a rugged, natural appearance. The specimen is in good condition and offers an authentic example of amethyst crystal formations. It is suitable for display or inclusion in mineral collections.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decor' in title (-8)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 11,
+        "relative_score": 0.367,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decor' in title (-8)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -522,33 +526,6 @@
       }
     ]
   },
-  "ctbids-49233-5740747": {
-    "item_id": "ctbids-49233-5740747",
-    "listing_url": "https://ctbids.com/estate-sale/49233/item/5740747/Pair-of-Hand-Painted-Armenian-Ceramic-Tabgha-Loaves-Fishes-Communion-Goblets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740747_CdGdTs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49196-5732853": {
     "item_id": "ctbids-49196-5732853",
     "listing_url": "https://ctbids.com/estate-sale/49196/item/5732853/Ruth-Livingston-Studios-White-Ceramic-cherries",
@@ -576,15 +553,14 @@
       }
     ]
   },
-  "ctbids-49127-5722972": {
-    "item_id": "ctbids-49127-5722972",
-    "listing_url": "https://ctbids.com/estate-sale/49127/item/5722972/Wood-Tool-Holder-With-Tools",
+  "ctbids-49233-5740747": {
+    "item_id": "ctbids-49233-5740747",
+    "listing_url": "https://ctbids.com/estate-sale/49233/item/5740747/Pair-of-Hand-Painted-Armenian-Ceramic-Tabgha-Loaves-Fishes-Communion-Goblets",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722972_28KAR9.webp"
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740747_CdGdTs.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -592,10 +568,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -658,6 +633,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49437/item/5764807/Jingfa-Chinese-Cloisonn-Lidded-Trinket-Box-Red-Enamel-Peony-Turquoise-Interior-Wood-Stand",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764807_KLgYCg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49127-5722972": {
+    "item_id": "ctbids-49127-5722972",
+    "listing_url": "https://ctbids.com/estate-sale/49127/item/5722972/Wood-Tool-Holder-With-Tools",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5722972_28KAR9.webp"
     ],
     "description": "",
     "score_reasons": [
