@@ -63,6 +63,7 @@
       "Lower-priority term 'damage' in description (-12)",
       "High-value signal 'strong blue glass color' in image color analysis (+20)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -70,13 +71,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 24,
-        "relative_score": 0.8,
+        "score": 29,
+        "relative_score": 0.967,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Lower-priority term 'damage' in description (-12)",
           "High-value signal 'strong blue glass color' in image color analysis (+20)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -160,31 +162,59 @@
       }
     ]
   },
-  "281333567": {
-    "item_id": "281333567",
-    "listing_url": "https://shopgoodwill.com/item/281333567",
+  "ctbids-49466-5770207": {
+    "item_id": "ctbids-49466-5770207",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770207/Vintage-Resin-Guardian-Angel-with-Two-Children-Miniature-Wall-Plaque-or-Magnet-Pastel-White-Peach",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/199/Item/2026-10-21/0778f862-0a78-40d4-812b-6f26dd7e58a1oll1_10211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/199/Item/2026-10-21/c6f98370-1e99-4bcc-9f0c-8bdf265186faoll1_10212.jpg"
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5735101_ZTUmNX.webp"
     ],
-    "description": "This lot of 3 stock certificates includes one each from Chowan River Lumber Company, Inc., Dismal Swamp Corporation and Southeastern Mineral Rights Corporation. Each has a decorative border in blue, green or orange with an eagle vignette, a corporate seal and printed signatures. The back of each certificate carries a blank transfer form. The certificates are dated December 1969.\r\n\r\nCondition: Pre-owned. Light creasing and fold lines on the paper, especially the backs. No tears or stains seen.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in description (+2)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'lot' in description (+2)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49466-5770424": {
+    "item_id": "ctbids-49466-5770424",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770424/Brenda-Lee-I-m-Sorry-That-s-All-You-Gotta-Do-45-RPM-Decca-9-31093-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5693755_68AvTO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -220,6 +250,36 @@
       }
     ]
   },
+  "281333567": {
+    "item_id": "281333567",
+    "listing_url": "https://shopgoodwill.com/item/281333567",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/199/Item/2026-10-21/0778f862-0a78-40d4-812b-6f26dd7e58a1oll1_10211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/199/Item/2026-10-21/c6f98370-1e99-4bcc-9f0c-8bdf265186faoll1_10212.jpg"
+    ],
+    "description": "This lot of 3 stock certificates includes one each from Chowan River Lumber Company, Inc., Dismal Swamp Corporation and Southeastern Mineral Rights Corporation. Each has a decorative border in blue, green or orange with an eagle vignette, a corporate seal and printed signatures. The back of each certificate carries a blank transfer form. The certificates are dated December 1969.\r\n\r\nCondition: Pre-owned. Light creasing and fold lines on the paper, especially the backs. No tears or stains seen.",
+    "score_reasons": [
+      "Opportunity term 'lot' in description (+2)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 9,
+        "relative_score": 0.3,
+        "score_reasons": [
+          "Opportunity term 'lot' in description (+2)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "280999816": {
     "item_id": "280999816",
     "listing_url": "https://shopgoodwill.com/item/280999816",
@@ -244,6 +304,141 @@
           "Opportunity term 'collection' in title (+7)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49466-5770140": {
+    "item_id": "ctbids-49466-5770140",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770140/Cliffie-Stone-and-His-Orchestra-Tennessee-Wagoner-Leather-Britches-Capitol-45-RPM-45-1020",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5674370_BOorKm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49466-5770471": {
+    "item_id": "ctbids-49466-5770471",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770471/Tommy-Dorsey-His-Orchestra-Milenberg-Joys-Parts-1-2-RCA-Victor-45-RPM-47-3717",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5685280_k4RXSO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49466-5770172": {
+    "item_id": "ctbids-49466-5770172",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770172/Tony-Romano-Good-Plenty-Living-in-a-World-of-Make-Believe-Scepter-Promo-45-RPM-45-2105",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5690472_UKmZHn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49466-5770337": {
+    "item_id": "ctbids-49466-5770337",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770337/Hard-Rock-Caf-Salt-Lake-City-Shot-Glass-Heavy-Base-Rocks-Glass-Set-of-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5127318_pIJf4J.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49466-5770460": {
+    "item_id": "ctbids-49466-5770460",
+    "listing_url": "https://ctbids.com/estate-sale/49466/item/5770460/Handcrafted-Two-Tone-Wood-Display-Stand-Oak-and-Mahogany-Tone-Red-Felt-Top-Four-Leg-Pedestal",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5751588_dRyJV0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -416,33 +611,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49376/item/5757168/1935E-Silver-Certificate-Lot-2",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5757168_GAavvh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48583-5674786": {
-    "item_id": "ctbids-48583-5674786",
-    "listing_url": "https://ctbids.com/estate-sale/48583/item/5674786/CoverGirl-Clean-Professional-Loose-Powder-110-Translucent-Light-Count-of-8-x-20-g-Lot-E",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-26T5d1d74/5674786_qLsOnH.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -890,126 +1058,40 @@
       }
     ]
   },
-  "ctbids-49101-5749630": {
-    "item_id": "ctbids-49101-5749630",
-    "listing_url": "https://ctbids.com/estate-sale/49101/item/5749630/Episode-Electronics-2x6-IR-Repeater-With-Power-Supply-Model-KIT-IR-RPTR-2x6-In-Box-Unused",
+  "281582939": {
+    "item_id": "281582939",
+    "listing_url": "https://shopgoodwill.com/item/281582939",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5749630_a7jain.webp"
+      "https://shopgoodwillimages.azureedge.net/production/"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis lot includes a variety of mineral and rock specimens featuring rough and polished stones, crystal clusters, and agate or geode slices. The collection contains diverse items such as a polished red and black sphere, yellow and clear mineral chunks, a large rough geode or nodule, a dark red-brown slab, and a crystalline quartz cluster. Some specimens have visible labels on a black stone base.\n\nSpecifications:\n- Types: Polished stones, rough minerals, crystal clusters, geode slices\n- Colors: Red, black, yellow, clear, dark red-brown\n- Forms: Spheres, slabs, chunks, clusters, slices\n- Surface: Natural roughness and polished finishes\n- Labeling: Some pieces with visible labels on black stone base",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48583-5713955": {
-    "item_id": "ctbids-48583-5713955",
-    "listing_url": "https://ctbids.com/estate-sale/48583/item/5713955/Eclectic-Selection-of-Five-5-Handbags-from-Simply-Vera-Banana-Republic-Ah-Domed-and-Banned",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-07T1314d3/5713955_F1rhT0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49101-5736411": {
-    "item_id": "ctbids-49101-5736411",
-    "listing_url": "https://ctbids.com/estate-sale/49101/item/5736411/Longaberger-Woven-Traditions-Holly-Berry-Mugs-Covered-Casserole-Bowl-With-Lid",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5736411_RTw1mE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49101-5760735": {
-    "item_id": "ctbids-49101-5760735",
-    "listing_url": "https://ctbids.com/estate-sale/49101/item/5760735/Camo-And-Tactical-Clothing",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5760735_ohhEct.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49376-5765895": {
-    "item_id": "ctbids-49376-5765895",
-    "listing_url": "https://ctbids.com/estate-sale/49376/item/5765895/2025-2026-Kennedy-And-Enduring-Liberty-Half-Dollar-Set-NGC-MS63",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5765895_P6Tc8T.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }
