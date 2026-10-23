@@ -189,7 +189,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'sealed' in title (+6)",
-      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -197,11 +196,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
+        "score": 7,
+        "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -236,33 +234,6 @@
       }
     ]
   },
-  "ctbids-48485-5691677": {
-    "item_id": "ctbids-48485-5691677",
-    "listing_url": "https://ctbids.com/estate-sale/48485/item/5691677/Brierly-Vintage-Cut-Glass-Ships-Decanter",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5691677_xEKq2L.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49466-5770482": {
     "item_id": "ctbids-49466-5770482",
     "listing_url": "https://ctbids.com/estate-sale/49466/item/5770482/Nancy-Adams-You-ve-Got-to-Show-Me-Somebody-s-in-My-Orchard-RCA-Victor-45-RPM-Single-47-83",
@@ -283,6 +254,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48485-5691677": {
+    "item_id": "ctbids-48485-5691677",
+    "listing_url": "https://ctbids.com/estate-sale/48485/item/5691677/Brierly-Vintage-Cut-Glass-Ships-Decanter",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5691677_xEKq2L.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -450,6 +448,81 @@
       }
     ]
   },
+  "ctbids-48485-5690619": {
+    "item_id": "ctbids-48485-5690619",
+    "listing_url": "https://ctbids.com/estate-sale/48485/item/5690619/Ernst-Leitz-Wetzlar-Microscope-Kit-in-Original-Case",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5690619_ivNzGw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48485-5707056": {
+    "item_id": "ctbids-48485-5707056",
+    "listing_url": "https://ctbids.com/estate-sale/48485/item/5707056/Hummel-Decor-Jewelry-Box-Ash-Tray-S-P-Wall-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5707056_YoryQL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49267-5742133": {
+    "item_id": "ctbids-49267-5742133",
+    "listing_url": "https://ctbids.com/estate-sale/49267/item/5742133/Royal-Sealy-Copeland-Spode-Rose-Briar-Paragon-Autumn-Glory-and-Booths-China-Group",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5742133_wPdUfh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48971-5769017": {
     "item_id": "ctbids-48971-5769017",
     "listing_url": "https://ctbids.com/estate-sale/48971/item/5769017/Operation-Iraqi-Freedom-ACU-Camo-Backpack-Pocket-Knife-MultiTool-Paracord-Lot",
@@ -577,81 +650,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48485-5690619": {
-    "item_id": "ctbids-48485-5690619",
-    "listing_url": "https://ctbids.com/estate-sale/48485/item/5690619/Ernst-Leitz-Wetzlar-Microscope-Kit-in-Original-Case",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5690619_ivNzGw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48485-5707056": {
-    "item_id": "ctbids-48485-5707056",
-    "listing_url": "https://ctbids.com/estate-sale/48485/item/5707056/Hummel-Decor-Jewelry-Box-Ash-Tray-S-P-Wall-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5707056_YoryQL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49267-5742133": {
-    "item_id": "ctbids-49267-5742133",
-    "listing_url": "https://ctbids.com/estate-sale/49267/item/5742133/Royal-Sealy-Copeland-Spode-Rose-Briar-Paragon-Autumn-Glory-and-Booths-China-Group",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5742133_wPdUfh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

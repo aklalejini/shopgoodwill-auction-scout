@@ -118,7 +118,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -126,12 +126,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -611,6 +611,31 @@
       }
     ]
   },
+  "ctbids-48485-5698186": {
+    "item_id": "ctbids-48485-5698186",
+    "listing_url": "https://ctbids.com/estate-sale/48485/item/5698186/Marilyn-Monroe-Photographic-Print-from-The-Last-Sitting-by-Bert-Stern-232-250",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5698186_mv6uhE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281274405": {
     "item_id": "281274405",
     "listing_url": "https://shopgoodwill.com/item/281274405",
@@ -676,31 +701,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48485-5698186": {
-    "item_id": "ctbids-48485-5698186",
-    "listing_url": "https://ctbids.com/estate-sale/48485/item/5698186/Marilyn-Monroe-Photographic-Print-from-The-Last-Sitting-by-Bert-Stern-232-250",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5698186_mv6uhE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
