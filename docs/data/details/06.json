@@ -16,7 +16,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "High-value signal 'sterling silver' in title (+18)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -24,12 +24,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 35,
-        "relative_score": 1.029,
+        "score": 33,
+        "relative_score": 0.971,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "High-value signal 'sterling silver' in title (+18)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -131,35 +131,6 @@
       }
     ]
   },
-  "ctbids-49504-5773555": {
-    "item_id": "ctbids-49504-5773555",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773555/Marty-Robbins-Big-Iron-Saddle-Tramp-45-RPM-Columbia-4-41589-Vintage-Vinyl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5693759_D6B7QG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49204-5752854": {
     "item_id": "ctbids-49204-5752854",
     "listing_url": "https://ctbids.com/estate-sale/49204/item/5752854/Vintage-Levi-s-Levi-Strauss-Signature-Lee-Denim-Jeans-Collection-7-Pairs-Size-36-x-30",
@@ -218,14 +189,15 @@
       }
     ]
   },
-  "ctbids-48338-5724792": {
-    "item_id": "ctbids-48338-5724792",
-    "listing_url": "https://ctbids.com/estate-sale/48338/item/5724792/Artificial-Plants",
+  "ctbids-49504-5773555": {
+    "item_id": "ctbids-49504-5773555",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773555/Marty-Robbins-Big-Iron-Saddle-Tramp-45-RPM-Columbia-4-41589-Vintage-Vinyl",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-18Tc50b08/5724792_5bAtjN.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5693759_D6B7QG.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -234,12 +206,47 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280928019": {
+    "item_id": "280928019",
+    "listing_url": "https://shopgoodwill.com/item/280928019",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/17482539-d843-4e99-b0d6-e9d778d55533inaL_10171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/3b078477-801d-4991-a93e-64d49baec99cinaL_10172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/d5fa041e-91d1-4abe-906a-df1ee7f64c56inaL_10173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/36b57161-fc43-4b94-b92f-2351a26dd7d7inaL_10174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/a216c312-1b41-4557-83f9-e47c542d0bb4inaL_10175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/e7ed85a0-6604-4e28-a5ff-7fd056c77be2inaL_10176.jpg"
+    ],
+    "description": "This is a large rough specimen of obsidian, a naturally occurring volcanic glass. The rock displays black and reddish-brown coloration with swirling patterns and shiny glassy surfaces typical of obsidian. The specimen weighs 2822 grams as measured/photographed. It is in a raw, unpolished state with natural surface wear and irregularities. No visible markings or brand. Suitable for collectors, lapidary work, or geological study. Measures approx. 7.25' X 5.25\" x 4.5\"",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "2 bids near close (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
+          "2 bids near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -488,40 +495,6 @@
       }
     ]
   },
-  "280928019": {
-    "item_id": "280928019",
-    "listing_url": "https://shopgoodwill.com/item/280928019",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/17482539-d843-4e99-b0d6-e9d778d55533inaL_10171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/3b078477-801d-4991-a93e-64d49baec99cinaL_10172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/d5fa041e-91d1-4abe-906a-df1ee7f64c56inaL_10173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/36b57161-fc43-4b94-b92f-2351a26dd7d7inaL_10174.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/a216c312-1b41-4557-83f9-e47c542d0bb4inaL_10175.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-10-17/e7ed85a0-6604-4e28-a5ff-7fd056c77be2inaL_10176.jpg"
-    ],
-    "description": "This is a large rough specimen of obsidian, a naturally occurring volcanic glass. The rock displays black and reddish-brown coloration with swirling patterns and shiny glassy surfaces typical of obsidian. The specimen weighs 2822 grams as measured/photographed. It is in a raw, unpolished state with natural surface wear and irregularities. No visible markings or brand. Suitable for collectors, lapidary work, or geological study. Measures approx. 7.25' X 5.25\" x 4.5\"",
-    "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "2 bids near close (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "2 bids near close (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49159-5734935": {
     "item_id": "ctbids-49159-5734935",
     "listing_url": "https://ctbids.com/estate-sale/49159/item/5734935/Assorted-Beaded-Necklace-Mystery-Lot-See-All-Pics",
@@ -630,6 +603,33 @@
       }
     ]
   },
+  "ctbids-48338-5724792": {
+    "item_id": "ctbids-48338-5724792",
+    "listing_url": "https://ctbids.com/estate-sale/48338/item/5724792/Artificial-Plants",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-18Tc50b08/5724792_5bAtjN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49255-5750094": {
     "item_id": "ctbids-49255-5750094",
     "listing_url": "https://ctbids.com/estate-sale/49255/item/5750094/Lise-Woodcarvings-Val-Gardena-Saint-George-Dragon-Figurine-5-5-H",
@@ -677,6 +677,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5770728": {
+    "item_id": "ctbids-48971-5770728",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770728/Vtg-Framed-Monroe-Doctrine-1823-Historical-Document-Replica",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770728_T6GdMs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -759,71 +786,6 @@
       }
     ]
   },
-  "ctbids-48971-5770728": {
-    "item_id": "ctbids-48971-5770728",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770728/Vtg-Framed-Monroe-Doctrine-1823-Historical-Document-Replica",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770728_T6GdMs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49121-5750368": {
-    "item_id": "ctbids-49121-5750368",
-    "listing_url": "https://ctbids.com/estate-sale/49121/item/5750368/Nice-Quality-Irish-Wool-Throws-Scarves-Celtic-Ore-Avoca-The-Mill-Foxford",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-18Tc50b08/5750368_x61VgZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48356-5689391": {
     "item_id": "ctbids-48356-5689391",
     "listing_url": "https://ctbids.com/estate-sale/48356/item/5689391/World-Traveler-Decor",
@@ -886,6 +848,44 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49121-5750368": {
+    "item_id": "ctbids-49121-5750368",
+    "listing_url": "https://ctbids.com/estate-sale/49121/item/5750368/Nice-Quality-Irish-Wool-Throws-Scarves-Celtic-Ore-Avoca-The-Mill-Foxford",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-18Tc50b08/5750368_x61VgZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
