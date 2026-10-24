@@ -68,6 +68,7 @@
       "Target keyword 'tdk' in description (+5)",
       "Target keyword 'sony' in description (+3)",
       "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-3)",
       "Base score (+4)"
     ],
@@ -75,8 +76,8 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 36,
-        "relative_score": 1.0,
+        "score": 38,
+        "relative_score": 1.056,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+12)",
           "Opportunity term 'lot of' in title (+6)",
@@ -85,6 +86,7 @@
           "Target keyword 'tdk' in description (+5)",
           "Target keyword 'sony' in description (+3)",
           "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
         ],
@@ -194,6 +196,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -201,10 +204,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -239,6 +243,33 @@
       }
     ]
   },
+  "ctbids-49159-5728894": {
+    "item_id": "ctbids-49159-5728894",
+    "listing_url": "https://ctbids.com/estate-sale/49159/item/5728894/Three-Vintage-Hand-Carved-Wooden-Sea-Turtle-Figurines",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5728894_WtyCkz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49504-5773568": {
     "item_id": "ctbids-49504-5773568",
     "listing_url": "https://ctbids.com/estate-sale/49504/item/5773568/Casio-JF-100TV-10-Digit-Desktop-Calculator-Two-Way-Power-Solar-Tax-and-Exchange-Keys-Silver",
@@ -266,15 +297,15 @@
       }
     ]
   },
-  "ctbids-49159-5728894": {
-    "item_id": "ctbids-49159-5728894",
-    "listing_url": "https://ctbids.com/estate-sale/49159/item/5728894/Three-Vintage-Hand-Carved-Wooden-Sea-Turtle-Figurines",
+  "ctbids-49504-5773571": {
+    "item_id": "ctbids-49504-5773571",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773571/Rectangular-holiday-serving-tray-with-a-cream-colored-top-decorated-with-geese-holly-and-red-ribbo",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5728894_WtyCkz.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5718939_tgVkgH.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -282,10 +313,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49504-5773718": {
+    "item_id": "ctbids-49504-5773718",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773718/Hot-Butter-Popcorn-At-the-Movies-Musicor-Stereo-45-RPM-Single-MUS-1458",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5690012_1t4M7a.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -320,6 +378,195 @@
       }
     ]
   },
+  "ctbids-48971-5769120": {
+    "item_id": "ctbids-48971-5769120",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769120/True-Genius-Lighthouse-Flame-Level-4-Wooden-Interlocking-Block-Puzzle-Cancun-Keychain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769120_TGFmJM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5700533": {
+    "item_id": "ctbids-48971-5700533",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700533/Vtg-Avon-Wild-Country-Black-Glass-Pepper-Mill-Aftershave-Decanter-Near-Full",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5674386_lM4Xkm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5765060": {
+    "item_id": "ctbids-48971-5765060",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5765060/NIP-Y2k-Kohls-Holiday-Enamel-Santa-Hat-Kitten-Christmas-Drop-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5765060_BtwGqZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5765315": {
+    "item_id": "ctbids-48971-5765315",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5765315/Vtg-Fossil-F2-Square-Date-Window-Dial-Watch-W-Black-Strap",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5765315_9VapIG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5769200": {
+    "item_id": "ctbids-48971-5769200",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769200/Vtg-Whimsical-Frog-Driving-Hot-Rod-Race-Car-Ceramic-Clay-Folk-Art-Sculpture",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769200_x4EWX6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5700534": {
+    "item_id": "ctbids-48971-5700534",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700534/Beautiful-Pastel-Green-Gray-Flower-Cluster-Double-Textured-Chain-Bib-Statement-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5674389_6GQTH6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5765348": {
+    "item_id": "ctbids-48971-5765348",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5765348/Beautiful-Clear-Crystal-Diamante-Open-Work-Butterfly-Necklace-On-Gold-Plated-Serpentine-Chain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5765348_bJZpBN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49145-5742235": {
     "item_id": "ctbids-49145-5742235",
     "listing_url": "https://ctbids.com/estate-sale/49145/item/5742235/Mystery-Lot-of-Over-60-Gold-Tone-Bracelets",
@@ -340,94 +587,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281047237": {
-    "item_id": "281047237",
-    "listing_url": "https://shopgoodwill.com/item/281047237",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/a084f17a-cfbc-4093-aa98-b85a5c3fdf7aacey_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/7b7b7a39-2362-41cb-808e-ecec222e8a51acey_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/d2a27de4-4430-4169-9332-321b38d86c6eacey_10193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/6adcd269-bf45-433e-af3f-2214e4dcbd3facey_10194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/36ebad9b-a97b-4e94-91e8-d64a19756297acey_10195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/d45e226a-4cf8-403f-9f77-d7688d4fb985acey_10196.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/f53792d2-5b0c-4a96-9a3e-77cb182851f2acey_10197.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/e54c36f9-cb1d-4b38-bf4c-8d91e0441e91acey_10198.jpg"
-    ],
-    "description": "Sliced Agate Wind Chime & Assorted Gems/stone/minerals\nType:\nSliced Agate Wind Chime & Assorted Gems/stone/minerals\nCondition:\nFair - shows sign of wear\nItem Length (in):\n12\nItem Width (in):\n8\nItem Height (in):\n5\nWeight (lbs oz):\n4\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in description (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in description (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49504-5773571": {
-    "item_id": "ctbids-49504-5773571",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773571/Rectangular-holiday-serving-tray-with-a-cream-colored-top-decorated-with-geese-holly-and-red-ribbo",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5718939_tgVkgH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49504-5773718": {
-    "item_id": "ctbids-49504-5773718",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773718/Hot-Butter-Popcorn-At-the-Movies-Musicor-Stereo-45-RPM-Single-MUS-1458",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5690012_1t4M7a.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -535,56 +694,6 @@
       }
     ]
   },
-  "ctbids-48971-5769120": {
-    "item_id": "ctbids-48971-5769120",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769120/True-Genius-Lighthouse-Flame-Level-4-Wooden-Interlocking-Block-Puzzle-Cancun-Keychain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769120_TGFmJM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5769200": {
-    "item_id": "ctbids-48971-5769200",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769200/Vtg-Whimsical-Frog-Driving-Hot-Rod-Race-Car-Ceramic-Clay-Folk-Art-Sculpture",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769200_x4EWX6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48356-5683816": {
     "item_id": "ctbids-48356-5683816",
     "listing_url": "https://ctbids.com/estate-sale/48356/item/5683816/Apilco-France-And-Friends",
@@ -610,126 +719,39 @@
       }
     ]
   },
-  "ctbids-48971-5700533": {
-    "item_id": "ctbids-48971-5700533",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700533/Vtg-Avon-Wild-Country-Black-Glass-Pepper-Mill-Aftershave-Decanter-Near-Full",
+  "281047237": {
+    "item_id": "281047237",
+    "listing_url": "https://shopgoodwill.com/item/281047237",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5674386_lM4Xkm.webp"
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/a084f17a-cfbc-4093-aa98-b85a5c3fdf7aacey_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/7b7b7a39-2362-41cb-808e-ecec222e8a51acey_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/d2a27de4-4430-4169-9332-321b38d86c6eacey_10193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/6adcd269-bf45-433e-af3f-2214e4dcbd3facey_10194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/36ebad9b-a97b-4e94-91e8-d64a19756297acey_10195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/d45e226a-4cf8-403f-9f77-d7688d4fb985acey_10196.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/f53792d2-5b0c-4a96-9a3e-77cb182851f2acey_10197.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-10-19/e54c36f9-cb1d-4b38-bf4c-8d91e0441e91acey_10198.jpg"
     ],
-    "description": "",
+    "description": "Sliced Agate Wind Chime & Assorted Gems/stone/minerals\nType:\nSliced Agate Wind Chime & Assorted Gems/stone/minerals\nCondition:\nFair - shows sign of wear\nItem Length (in):\n12\nItem Width (in):\n8\nItem Height (in):\n5\nWeight (lbs oz):\n4\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in description (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5700534": {
-    "item_id": "ctbids-48971-5700534",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700534/Beautiful-Pastel-Green-Gray-Flower-Cluster-Double-Textured-Chain-Bib-Statement-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5674389_6GQTH6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5765060": {
-    "item_id": "ctbids-48971-5765060",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5765060/NIP-Y2k-Kohls-Holiday-Enamel-Santa-Hat-Kitten-Christmas-Drop-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5765060_BtwGqZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5765315": {
-    "item_id": "ctbids-48971-5765315",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5765315/Vtg-Fossil-F2-Square-Date-Window-Dial-Watch-W-Black-Strap",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5765315_9VapIG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5765348": {
-    "item_id": "ctbids-48971-5765348",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5765348/Beautiful-Clear-Crystal-Diamante-Open-Work-Butterfly-Necklace-On-Gold-Plated-Serpentine-Chain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5765348_bJZpBN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }

@@ -18,6 +18,7 @@
     "description": "*Reserve is $5\n*plating is worn see photos",
     "score_reasons": [
       "High-value signal '14k' in title (+22)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -25,10 +26,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 28,
-        "relative_score": 0.824,
+        "score": 30,
+        "relative_score": 0.882,
         "score_reasons": [
           "High-value signal '14k' in title (+22)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -45,6 +47,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -52,10 +55,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 21,
+        "relative_score": 0.618,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -173,6 +177,33 @@
       }
     ]
   },
+  "ctbids-49128-5743153": {
+    "item_id": "ctbids-49128-5743153",
+    "listing_url": "https://ctbids.com/estate-sale/49128/item/5743153/vintage-solid-brass-lyre-shaped-tabletop-music-sheet-and-book-stan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743153_y4TxrE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49504-5773438": {
     "item_id": "ctbids-49504-5773438",
     "listing_url": "https://ctbids.com/estate-sale/49504/item/5773438/Dash-of-That-Citron-Lemon-Shaped-3-Section-Stoneware-Serving-Dish-Raised-Blossoms-and-Leaves",
@@ -254,15 +285,15 @@
       }
     ]
   },
-  "ctbids-49128-5743153": {
-    "item_id": "ctbids-49128-5743153",
-    "listing_url": "https://ctbids.com/estate-sale/49128/item/5743153/vintage-solid-brass-lyre-shaped-tabletop-music-sheet-and-book-stan",
+  "ctbids-49504-5773635": {
+    "item_id": "ctbids-49504-5773635",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773635/Large-Artificial-Rose-Lily-Floral-Arrangement-in-Woven-Basket",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743153_y4TxrE.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5647999_RikgtN.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -270,10 +301,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5770688": {
+    "item_id": "ctbids-48971-5770688",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770688/Vtg-Brushed-Matte-Gold-Tone-Porcelain-Christmas-Angel-Figurines",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770688_ksxkVh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -301,33 +359,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49504-5773635": {
-    "item_id": "ctbids-49504-5773635",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773635/Large-Artificial-Rose-Lily-Floral-Arrangement-in-Woven-Basket",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5647999_RikgtN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -416,15 +447,15 @@
       }
     ]
   },
-  "ctbids-49255-5749785": {
-    "item_id": "ctbids-49255-5749785",
-    "listing_url": "https://ctbids.com/estate-sale/49255/item/5749785/Chilmark-Fine-Pewter-Lee-to-the-Rear-Sculpture-by-F-J-Barnum-Limited-Edition",
+  "ctbids-48971-5700514": {
+    "item_id": "ctbids-48971-5700514",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700514/2024-25-Select-Kyrie-Irving-Hot-Stars-Blue-Wave-Prism-Variant-Insert-2-Dallas-Mavericks",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5749785_372UPi.webp"
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5681129_PvVmiU.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -435,7 +466,61 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5700536": {
+    "item_id": "ctbids-48971-5700536",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700536/Vtg-Authentic-Carved-Ebony-Wood-African-Woman-Tribal-Figurine-Statue-Folk-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5674409_zOdj4C.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5764851": {
+    "item_id": "ctbids-48971-5764851",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5764851/Boho-Silver-Tone-Filigree-Iridescent-Rainbow-Abalone-Paua-Shell-Teardrop-Hook-Dangle-Earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5764851_GG7NjZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -448,6 +533,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48338/item/5748019/Audubon-s-Birds-of-America",
     "images": [
       "https://image.ctbids.com/seller/2026-10-18Tc50b08/5748019_kHfBTv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49255-5749785": {
+    "item_id": "ctbids-49255-5749785",
+    "listing_url": "https://ctbids.com/estate-sale/49255/item/5749785/Chilmark-Fine-Pewter-Lee-to-the-Rear-Sculpture-by-F-J-Barnum-Limited-Edition",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5749785_372UPi.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -618,31 +728,6 @@
       }
     ]
   },
-  "ctbids-48971-5700514": {
-    "item_id": "ctbids-48971-5700514",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700514/2024-25-Select-Kyrie-Irving-Hot-Stars-Blue-Wave-Prism-Variant-Insert-2-Dallas-Mavericks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5681129_PvVmiU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48356-5645067": {
     "item_id": "ctbids-48356-5645067",
     "listing_url": "https://ctbids.com/estate-sale/48356/item/5645067/Brass-Scrolls-Set",
@@ -673,81 +758,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48356/item/5683837/Women-s-Clothing",
     "images": [
       "https://image.ctbids.com/seller/2026-09-29T9a7116/5683837_ohiUJQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5700536": {
-    "item_id": "ctbids-48971-5700536",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700536/Vtg-Authentic-Carved-Ebony-Wood-African-Woman-Tribal-Figurine-Statue-Folk-Art",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5674409_zOdj4C.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5764851": {
-    "item_id": "ctbids-48971-5764851",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5764851/Boho-Silver-Tone-Filigree-Iridescent-Rainbow-Abalone-Paua-Shell-Teardrop-Hook-Dangle-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5764851_GG7NjZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5770688": {
-    "item_id": "ctbids-48971-5770688",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770688/Vtg-Brushed-Matte-Gold-Tone-Porcelain-Christmas-Angel-Figurines",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770688_ksxkVh.webp"
     ],
     "description": "",
     "score_reasons": [

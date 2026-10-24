@@ -15,6 +15,7 @@
     "score_reasons": [
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,11 +23,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 36,
+        "relative_score": 1.2,
         "score_reasons": [
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -69,6 +71,37 @@
       }
     ]
   },
+  "ctbids-49159-5733484": {
+    "item_id": "ctbids-49159-5733484",
+    "listing_url": "https://ctbids.com/estate-sale/49159/item/5733484/Vintage-Pin-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5733484_2K2IGV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 14,
+        "relative_score": 0.412,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49504-5773546": {
     "item_id": "ctbids-49504-5773546",
     "listing_url": "https://ctbids.com/estate-sale/49504/item/5773546/Al-Stewart-Year-of-the-Cat-On-the-Border-45-RPM-Arista-Flashback-AFS-9175-Vintage-Vinyl",
@@ -98,16 +131,16 @@
       }
     ]
   },
-  "ctbids-49159-5733484": {
-    "item_id": "ctbids-49159-5733484",
-    "listing_url": "https://ctbids.com/estate-sale/49159/item/5733484/Vintage-Pin-Collection",
+  "ctbids-49504-5773657": {
+    "item_id": "ctbids-49504-5773657",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773657/Vintage-Clear-Glass-Small-Mixing-Custard-Bowl-Ribbed-Band-Design",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5733484_2K2IGV.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5625488_jbLj96.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -115,11 +148,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -149,6 +182,33 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49159-5728638": {
+    "item_id": "ctbids-49159-5728638",
+    "listing_url": "https://ctbids.com/estate-sale/49159/item/5728638/Vintage-Brandt-Hagerstown-Writing-Desk-with-Tambour-Doors-Wheels",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5728638_F2Gta8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -237,15 +297,15 @@
       }
     ]
   },
-  "ctbids-49159-5728638": {
-    "item_id": "ctbids-49159-5728638",
-    "listing_url": "https://ctbids.com/estate-sale/49159/item/5728638/Vintage-Brandt-Hagerstown-Writing-Desk-with-Tambour-Doors-Wheels",
+  "ctbids-49504-5773639": {
+    "item_id": "ctbids-49504-5773639",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773639/Danny-Williams-The-Comedy-Is-Ended-White-on-White-United-Artists-UA-685-45-RPM",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5728638_F2Gta8.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5685517_E3z0HV.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -253,10 +313,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -264,15 +324,15 @@
       }
     ]
   },
-  "ctbids-49504-5773657": {
-    "item_id": "ctbids-49504-5773657",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773657/Vintage-Clear-Glass-Small-Mixing-Custard-Bowl-Ribbed-Band-Design",
+  "ctbids-49504-5773623": {
+    "item_id": "ctbids-49504-5773623",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773623/RCA-Victor-Listener-s-Digest-45-EP-No-599-9008-Brahms-Symphony-No-1-in-C-Minor-Beethoven-S",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5625488_jbLj96.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5680216_6APL9w.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -280,10 +340,145 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49504-5773713": {
+    "item_id": "ctbids-49504-5773713",
+    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773713/Folk-Song-Festival-Sampler-Scholastic-Records-33-RPM-CC-0602-WB-289-WB-290",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5680006_PDBrr2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49159-5728707": {
+    "item_id": "ctbids-49159-5728707",
+    "listing_url": "https://ctbids.com/estate-sale/49159/item/5728707/Classic-TV-Stand-Media-Cabinet-with-Glass-Front-Doors",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5728707_Wiii6N.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5769067": {
+    "item_id": "ctbids-48971-5769067",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769067/Vtg-1980s-Noritake-Abilene-Southwestern-Geometric-Pattern-Stoneware-Creamer",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769067_zt8tck.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5769306": {
+    "item_id": "ctbids-48971-5769306",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769306/Vtg-1993-Flintstones-McDonald-s-RocDonalds-Frosted-Glass-Mug-Tree-Branch-Handle-1993",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769306_RcSiO6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5700522": {
+    "item_id": "ctbids-48971-5700522",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700522/Vtg-Signal-Frog-Groundspeak-Signal-Frog-Astronaut-Space-Geocache-Trackable-Tokens",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5681197_9Rs4zD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -319,33 +514,6 @@
           "Lower-priority term 'ballpoint' in title (-4)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49504-5773639": {
-    "item_id": "ctbids-49504-5773639",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773639/Danny-Williams-The-Comedy-Is-Ended-White-on-White-United-Artists-UA-685-45-RPM",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5685517_E3z0HV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -489,6 +657,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -496,9 +665,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -506,14 +676,15 @@
       }
     ]
   },
-  "ctbids-49504-5773623": {
-    "item_id": "ctbids-49504-5773623",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773623/RCA-Victor-Listener-s-Digest-45-EP-No-599-9008-Brahms-Symphony-No-1-in-C-Minor-Beethoven-S",
+  "ctbids-48356-5692731": {
+    "item_id": "ctbids-48356-5692731",
+    "listing_url": "https://ctbids.com/estate-sale/48356/item/5692731/A-Taste-Of-Inspired-Italy",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5680216_6APL9w.webp"
+      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692731_y5VyL6.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -521,9 +692,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5769560": {
+    "item_id": "ctbids-48971-5769560",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769560/Hallmark-Keepsake-Gold-Stripe-Elegant-Zebra-2021-Porcelain-Christmas-Ornament-W-Red-Glitter-Scarf",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769560_bzAfEs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48971-5770689": {
+    "item_id": "ctbids-48971-5770689",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770689/Vtg-2003-Polar-Coaster-Hallmark-Magic-Movement-Lights-Sound-Ornament-W-Ferris-Wheel",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770689_NUImXe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -536,56 +762,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49159/item/5733445/Hawaiian-Feathered-Gourd-Rattles-And-A-Gourd-Vessel",
     "images": [
       "https://image.ctbids.com/seller/2026-10-14T823d6c/5733445_bOmqeU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49504-5773713": {
-    "item_id": "ctbids-49504-5773713",
-    "listing_url": "https://ctbids.com/estate-sale/49504/item/5773713/Folk-Song-Festival-Sampler-Scholastic-Records-33-RPM-CC-0602-WB-289-WB-290",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5680006_PDBrr2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49159-5728707": {
-    "item_id": "ctbids-49159-5728707",
-    "listing_url": "https://ctbids.com/estate-sale/49159/item/5728707/Classic-TV-Stand-Media-Cabinet-with-Glass-Front-Doors",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5728707_Wiii6N.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -706,161 +882,11 @@
       }
     ]
   },
-  "ctbids-48356-5692731": {
-    "item_id": "ctbids-48356-5692731",
-    "listing_url": "https://ctbids.com/estate-sale/48356/item/5692731/A-Taste-Of-Inspired-Italy",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692731_y5VyL6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5769067": {
-    "item_id": "ctbids-48971-5769067",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769067/Vtg-1980s-Noritake-Abilene-Southwestern-Geometric-Pattern-Stoneware-Creamer",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769067_zt8tck.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5769306": {
-    "item_id": "ctbids-48971-5769306",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769306/Vtg-1993-Flintstones-McDonald-s-RocDonalds-Frosted-Glass-Mug-Tree-Branch-Handle-1993",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769306_RcSiO6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5700522": {
-    "item_id": "ctbids-48971-5700522",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5700522/Vtg-Signal-Frog-Groundspeak-Signal-Frog-Astronaut-Space-Geocache-Trackable-Tokens",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5681197_9Rs4zD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5769560": {
-    "item_id": "ctbids-48971-5769560",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5769560/Hallmark-Keepsake-Gold-Stripe-Elegant-Zebra-2021-Porcelain-Christmas-Ornament-W-Red-Glitter-Scarf",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5769560_bzAfEs.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48971-5770684": {
     "item_id": "ctbids-48971-5770684",
     "listing_url": "https://ctbids.com/estate-sale/48971/item/5770684/Vtg-Shimmer-Glass-Ball-Christmas-Ornaments-Half-Dozen-In-MCM-Shiny-Brite-Box",
     "images": [
       "https://image.ctbids.com/seller/2026-10-23T2d995a/5770684_9SHaVT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5770689": {
-    "item_id": "ctbids-48971-5770689",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770689/Vtg-2003-Polar-Coaster-Hallmark-Magic-Movement-Lights-Sound-Ornament-W-Ferris-Wheel",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770689_NUImXe.webp"
     ],
     "description": "",
     "score_reasons": [
