@@ -68,7 +68,6 @@
       "Target keyword 'tdk' in description (+5)",
       "Target keyword 'sony' in description (+3)",
       "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
-      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-3)",
       "Base score (+4)"
     ],
@@ -76,8 +75,8 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 38,
-        "relative_score": 1.056,
+        "score": 36,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+12)",
           "Opportunity term 'lot of' in title (+6)",
@@ -86,7 +85,6 @@
           "Target keyword 'tdk' in description (+5)",
           "Target keyword 'sony' in description (+3)",
           "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
-          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
         ],
@@ -196,7 +194,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -208,34 +206,7 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48356-5644995": {
-    "item_id": "ctbids-48356-5644995",
-    "listing_url": "https://ctbids.com/estate-sale/48356/item/5644995/Silver-Plated-Serving-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5644995_UFZgDl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -263,6 +234,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48356-5644995": {
+    "item_id": "ctbids-48356-5644995",
+    "listing_url": "https://ctbids.com/estate-sale/48356/item/5644995/Silver-Plated-Serving-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5644995_UFZgDl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -486,6 +484,58 @@
       }
     ]
   },
+  "ctbids-48971-5768968": {
+    "item_id": "ctbids-48971-5768968",
+    "listing_url": "https://ctbids.com/estate-sale/48971/item/5768968/Vtg-Hand-Carved-Wood-Elephant-Figurine-Miniature-Trunk-Up-Wooden-Statue",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5768968_cdjDQQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49128-5743245": {
+    "item_id": "ctbids-49128-5743245",
+    "listing_url": "https://ctbids.com/estate-sale/49128/item/5743245/6-Ceremonial-Swords-Knights-Of-Columbus-Or-Templar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743245_67JzLB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48971-5769200": {
     "item_id": "ctbids-48971-5769200",
     "listing_url": "https://ctbids.com/estate-sale/48971/item/5769200/Vtg-Whimsical-Frog-Driving-Hot-Rod-Race-Car-Ceramic-Clay-Folk-Art-Sculpture",
@@ -587,31 +637,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49128-5743245": {
-    "item_id": "ctbids-49128-5743245",
-    "listing_url": "https://ctbids.com/estate-sale/49128/item/5743245/6-Ceremonial-Swords-Knights-Of-Columbus-Or-Templar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5743245_67JzLB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -752,31 +777,6 @@
           "Opportunity term 'minerals' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48971-5768968": {
-    "item_id": "ctbids-48971-5768968",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5768968/Vtg-Hand-Carved-Wood-Elephant-Figurine-Miniature-Trunk-Up-Wooden-Statue",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5768968_cdjDQQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }

@@ -185,6 +185,33 @@
       }
     ]
   },
+  "ctbids-48831-5743451": {
+    "item_id": "ctbids-48831-5743451",
+    "listing_url": "https://ctbids.com/estate-sale/48831/item/5743451/Antique-Sad-Irons",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5743451_bJ6rsj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "277752077": {
     "item_id": "277752077",
     "listing_url": "https://shopgoodwill.com/item/277752077",
@@ -213,33 +240,6 @@
           "Pen-and-pencil set resale premium (+10)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48831-5743451": {
-    "item_id": "ctbids-48831-5743451",
-    "listing_url": "https://ctbids.com/estate-sale/48831/item/5743451/Antique-Sad-Irons",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5743451_bJ6rsj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -663,7 +663,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -671,10 +670,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
