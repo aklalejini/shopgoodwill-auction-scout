@@ -234,7 +234,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -246,7 +246,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -508,33 +508,6 @@
       }
     ]
   },
-  "ctbids-49163-5747598": {
-    "item_id": "ctbids-49163-5747598",
-    "listing_url": "https://ctbids.com/estate-sale/49163/item/5747598/Disney-s-Aladdin-1992-Teaser-Movie-Poster-Rolled",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5747598_s8PLvm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49381-5756513": {
     "item_id": "ctbids-49381-5756513",
     "listing_url": "https://ctbids.com/estate-sale/49381/item/5756513/8-Piece-Set-Of-Yellow-Pineapple-Decorative-Plates",
@@ -616,6 +589,56 @@
       }
     ]
   },
+  "ctbids-49376-5768018": {
+    "item_id": "ctbids-49376-5768018",
+    "listing_url": "https://ctbids.com/estate-sale/49376/item/5768018/2-Oz-999-Silver-World-Trade-Center-Human-Tragedies-Commemerative-Coin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5768018_XDxFD3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49163-5747598": {
+    "item_id": "ctbids-49163-5747598",
+    "listing_url": "https://ctbids.com/estate-sale/49163/item/5747598/Disney-s-Aladdin-1992-Teaser-Movie-Poster-Rolled",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5747598_s8PLvm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281473459": {
     "item_id": "281473459",
     "listing_url": "https://shopgoodwill.com/item/281473459",
@@ -657,31 +680,6 @@
         "matched_keywords": [
           "fluorite"
         ]
-      }
-    ]
-  },
-  "ctbids-49376-5768018": {
-    "item_id": "ctbids-49376-5768018",
-    "listing_url": "https://ctbids.com/estate-sale/49376/item/5768018/2-Oz-999-Silver-World-Trade-Center-Human-Tragedies-Commemerative-Coin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5768018_XDxFD3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },

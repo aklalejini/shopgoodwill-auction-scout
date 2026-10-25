@@ -221,7 +221,6 @@
     "score_reasons": [
       "Opportunity term 'sealed' in title (+6)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -229,12 +228,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 11,
+        "relative_score": 0.324,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -493,33 +491,6 @@
       }
     ]
   },
-  "ctbids-48760-5750304": {
-    "item_id": "ctbids-48760-5750304",
-    "listing_url": "https://ctbids.com/estate-sale/48760/item/5750304/Ghostly-Halloween-Earrings-Set-of-3",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-18Tc50b08/5681697_9NyYpW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "281361750": {
     "item_id": "281361750",
     "listing_url": "https://shopgoodwill.com/item/281361750",
@@ -596,15 +567,15 @@
       }
     ]
   },
-  "ctbids-48833-5696230": {
-    "item_id": "ctbids-48833-5696230",
-    "listing_url": "https://ctbids.com/estate-sale/48833/item/5696230/Disney-Princess-Barbie",
+  "ctbids-49175-5756888": {
+    "item_id": "ctbids-49175-5756888",
+    "listing_url": "https://ctbids.com/estate-sale/49175/item/5756888/Blue-M-M-S-Basketball-Candy-Dispenser-M-M-S-Character-Fleece-Throw-Blanket",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5696230_uZg3AV.webp"
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5756888_pJd3Bn.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -615,7 +586,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -623,11 +594,11 @@
       }
     ]
   },
-  "ctbids-49175-5756888": {
-    "item_id": "ctbids-49175-5756888",
-    "listing_url": "https://ctbids.com/estate-sale/49175/item/5756888/Blue-M-M-S-Basketball-Candy-Dispenser-M-M-S-Character-Fleece-Throw-Blanket",
+  "ctbids-48760-5750304": {
+    "item_id": "ctbids-48760-5750304",
+    "listing_url": "https://ctbids.com/estate-sale/48760/item/5750304/Ghostly-Halloween-Earrings-Set-of-3",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5756888_pJd3Bn.webp"
+      "https://image.ctbids.com/seller/2026-10-18Tc50b08/5681697_9NyYpW.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -670,6 +641,31 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48833-5696230": {
+    "item_id": "ctbids-48833-5696230",
+    "listing_url": "https://ctbids.com/estate-sale/48833/item/5696230/Disney-Princess-Barbie",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5696230_uZg3AV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

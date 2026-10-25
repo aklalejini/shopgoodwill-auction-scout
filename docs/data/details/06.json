@@ -404,7 +404,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -412,10 +411,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -431,7 +429,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -439,10 +436,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -750,6 +746,41 @@
       }
     ]
   },
+  "281303767": {
+    "item_id": "281303767",
+    "listing_url": "https://shopgoodwill.com/item/281303767",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis collection includes a variety of mineral and gemstone specimens featuring polished jasper stones mounted on wooden stands, amethyst crystal clusters with one having a central hole, agate geode slices with natural blue and white banding, and a loose amethyst crystal shard.\n\nSpecifications:\n- Jasper stones mounted on wooden stands labeled 'Jasper' and 'Made by Oregon Agate & Mineral Society'\n- Amethyst crystal clusters, one with a central hole\n- Agate geode slices displaying natural banding patterns\n- Loose amethyst crystal shard\n- Total weight: 8 pounds",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48874-5733346": {
     "item_id": "ctbids-48874-5733346",
     "listing_url": "https://ctbids.com/estate-sale/48874/item/5733346/1-9ct-Natural-Nigerian-Spessartite-Garnet",
@@ -821,41 +852,6 @@
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281303767": {
-    "item_id": "281303767",
-    "listing_url": "https://shopgoodwill.com/item/281303767",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "Product Overview:\nThis collection includes a variety of mineral and gemstone specimens featuring polished jasper stones mounted on wooden stands, amethyst crystal clusters with one having a central hole, agate geode slices with natural blue and white banding, and a loose amethyst crystal shard.\n\nSpecifications:\n- Jasper stones mounted on wooden stands labeled 'Jasper' and 'Made by Oregon Agate & Mineral Society'\n- Amethyst crystal clusters, one with a central hole\n- Agate geode slices displaying natural banding patterns\n- Loose amethyst crystal shard\n- Total weight: 8 pounds",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "8 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "8 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []

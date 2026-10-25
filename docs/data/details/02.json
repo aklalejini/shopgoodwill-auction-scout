@@ -283,7 +283,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -291,11 +290,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -529,33 +527,6 @@
       }
     ]
   },
-  "ctbids-49036-5728365": {
-    "item_id": "ctbids-49036-5728365",
-    "listing_url": "https://ctbids.com/estate-sale/49036/item/5728365/Paul-Klee-Reproduction-Senecio",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5728365_D5hvI4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49336-5749953": {
     "item_id": "ctbids-49336-5749953",
     "listing_url": "https://ctbids.com/estate-sale/49336/item/5749953/1986-Donn-Jennings-Mark-McGwire-3-Southern-League-All-Stars-Mint-Grading-GEM-MT-10",
@@ -578,43 +549,6 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281503031": {
-    "item_id": "281503031",
-    "listing_url": "https://shopgoodwill.com/item/281503031",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/e7b5874e-52cd-42e9-8829-b5d82228b48ekron_10221.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/397e45df-35ef-4a36-8f4e-2f196532c7f9kron_10222.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/979b6072-2b82-4c67-baad-49d8a76d8e4akron_10223.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/ac085c36-b210-4826-ac2c-9db278275b6ekron_10224.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/7d1fe18e-1921-453a-af8b-49ceef76cd85kron_10225.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/93a5a12f-10de-4701-bc0e-7940903a89c8kron_10226.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/81a04557-dbd3-483a-88fe-978dd4b5de86kron_10227.jpg"
-    ],
-    "description": "Hemingray Glass Company\nNo. 55 Transposition Insulator (CD 205)\nPressed Glass, Aqua Blue, Vintage Early to Mid-20th Century\nVintage Hemingray No. 55 CD 205 aqua glass transposition insulator, historically utilized on rural telephone and power transmission lines to rotate and swap wire positions to minimize electrical crosstalk interference. Manufactured in Muncie, Indiana, this distinctive style of American industrial glass remains a popular favorite among telegraph, utility, and antique glass collectors.\nDistinctive transposition profile featuring spiral wire guide channels across the upper dome\nPressed aqua blue glass containing natural manufacturing swirl patterns and authentic seed air bubbles\nEmbossed \"HEMINGRAY\" on the front skirt and \"N 55\" on the reverse skirt, featuring a smooth base rim\nMeasures approximately 4 inches in diameter by 4 inches in height\nCondition:\nEmbossed lettering remains crisp and well-defined. Glass exhibits brilliant gloss with typical factory mold seams and minor light surface contact marks consistent with authentic utility use. A minor fleabite flake is present on the edge of the interior skirt rim. Free of major cracks, repairs, or structural breaks.\nThank you for all of your support!",
-    "score_reasons": [
-      "Lower-priority term 'cd' in title (-16)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Lower-priority term 'cd' in title (-16)",
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -690,6 +624,43 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281503031": {
+    "item_id": "281503031",
+    "listing_url": "https://shopgoodwill.com/item/281503031",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/e7b5874e-52cd-42e9-8829-b5d82228b48ekron_10221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/397e45df-35ef-4a36-8f4e-2f196532c7f9kron_10222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/979b6072-2b82-4c67-baad-49d8a76d8e4akron_10223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/ac085c36-b210-4826-ac2c-9db278275b6ekron_10224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/7d1fe18e-1921-453a-af8b-49ceef76cd85kron_10225.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/93a5a12f-10de-4701-bc0e-7940903a89c8kron_10226.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/27/Items/2026-10-22/81a04557-dbd3-483a-88fe-978dd4b5de86kron_10227.jpg"
+    ],
+    "description": "Hemingray Glass Company\nNo. 55 Transposition Insulator (CD 205)\nPressed Glass, Aqua Blue, Vintage Early to Mid-20th Century\nVintage Hemingray No. 55 CD 205 aqua glass transposition insulator, historically utilized on rural telephone and power transmission lines to rotate and swap wire positions to minimize electrical crosstalk interference. Manufactured in Muncie, Indiana, this distinctive style of American industrial glass remains a popular favorite among telegraph, utility, and antique glass collectors.\nDistinctive transposition profile featuring spiral wire guide channels across the upper dome\nPressed aqua blue glass containing natural manufacturing swirl patterns and authentic seed air bubbles\nEmbossed \"HEMINGRAY\" on the front skirt and \"N 55\" on the reverse skirt, featuring a smooth base rim\nMeasures approximately 4 inches in diameter by 4 inches in height\nCondition:\nEmbossed lettering remains crisp and well-defined. Glass exhibits brilliant gloss with typical factory mold seams and minor light surface contact marks consistent with authentic utility use. A minor fleabite flake is present on the edge of the interior skirt rim. Free of major cracks, repairs, or structural breaks.\nThank you for all of your support!",
+    "score_reasons": [
+      "Lower-priority term 'cd' in title (-16)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Lower-priority term 'cd' in title (-16)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -900,6 +871,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48760/item/5750303/Elongated-Rhodochrosite-Ring-Size-6",
     "images": [
       "https://image.ctbids.com/seller/2026-10-18Tc50b08/5673985_BRULhP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49036-5728365": {
+    "item_id": "ctbids-49036-5728365",
+    "listing_url": "https://ctbids.com/estate-sale/49036/item/5728365/Paul-Klee-Reproduction-Senecio",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5728365_D5hvI4.webp"
     ],
     "description": "",
     "score_reasons": [
