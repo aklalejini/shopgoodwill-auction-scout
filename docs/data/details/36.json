@@ -154,6 +154,33 @@
       }
     ]
   },
+  "ctbids-49101-5753015": {
+    "item_id": "ctbids-49101-5753015",
+    "listing_url": "https://ctbids.com/estate-sale/49101/item/5753015/Sterling-Silver-Hoop-Earrings-Pendants-14g-Total",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753015_03hM5B.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281486308": {
     "item_id": "281486308",
     "listing_url": "https://shopgoodwill.com/item/281486308",
@@ -425,14 +452,15 @@
       }
     ]
   },
-  "ctbids-48356-5645024": {
-    "item_id": "ctbids-48356-5645024",
-    "listing_url": "https://ctbids.com/estate-sale/48356/item/5645024/Sony-Liv-Dream-Machine",
+  "ctbids-49066-5721677": {
+    "item_id": "ctbids-49066-5721677",
+    "listing_url": "https://ctbids.com/estate-sale/49066/item/5721677/Vintage-Chenille-Bedspread-King-Needs-Repair",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-18T2e28a0/5645024_XWfGVL.webp"
+      "https://image.ctbids.com/seller/2026-10-09T692c1c/5721677_GDjIuX.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -440,9 +468,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -504,31 +533,6 @@
       }
     ]
   },
-  "ctbids-48971-5770725": {
-    "item_id": "ctbids-48971-5770725",
-    "listing_url": "https://ctbids.com/estate-sale/48971/item/5770725/2010-s-America-The-Beautiful-Quarters-United-states-Mint-Proof-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5770725_jkvGqO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "281454161": {
     "item_id": "281454161",
     "listing_url": "https://shopgoodwill.com/item/281454161",
@@ -558,6 +562,37 @@
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'lot' in title (+2)",
           "Lower-priority term 'decor' in description (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "280961029": {
+    "item_id": "280961029",
+    "listing_url": "https://shopgoodwill.com/item/280961029",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/d4fabc95-e2a5-4102-8aa0-33d741ac81c4jean_10171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/3de02d00-676b-4c57-a913-6044d4f36332jean_10172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/aa009de4-b739-4bfa-88af-b4a918164004jean_10173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/f9ee1796-0c2c-4d4e-8061-f8e53fc83794jean_10174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/32c20bd2-f284-41ba-854a-2eed29a4aa39jean_10175.jpg"
+    ],
+    "description": "This listing features a natural geode with a rough brownish-tan exterior and a split-open interior displaying crystalline formations in shades of light blue, white, and gray quartz or agate. The geode is shown both whole and halved, revealing its raw outer surface and intricate inner cavities. The specimen is in good natural condition with no visible artificial enhancements. Suitable for collectors, display, or educational use. Measures approximately 4.5\" length x 3\" width. Sold as is.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -945,32 +980,51 @@
       }
     ]
   },
-  "280961029": {
-    "item_id": "280961029",
-    "listing_url": "https://shopgoodwill.com/item/280961029",
+  "ctbids-49336-5751349": {
+    "item_id": "ctbids-49336-5751349",
+    "listing_url": "https://ctbids.com/estate-sale/49336/item/5751349/1990-Star-Pics-Pro-Prospects-Basketball-Complete-70-Card-Set",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/d4fabc95-e2a5-4102-8aa0-33d741ac81c4jean_10171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/3de02d00-676b-4c57-a913-6044d4f36332jean_10172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/aa009de4-b739-4bfa-88af-b4a918164004jean_10173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/f9ee1796-0c2c-4d4e-8061-f8e53fc83794jean_10174.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/146/Item/2026-10-17/32c20bd2-f284-41ba-854a-2eed29a4aa39jean_10175.jpg"
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5651136_zALjhE.webp"
     ],
-    "description": "This listing features a natural geode with a rough brownish-tan exterior and a split-open interior displaying crystalline formations in shades of light blue, white, and gray quartz or agate. The geode is shown both whole and halved, revealing its raw outer surface and intricate inner cavities. The specimen is in good natural condition with no visible artificial enhancements. Suitable for collectors, display, or educational use. Measures approximately 4.5\" length x 3\" width. Sold as is.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49036-5741843": {
+    "item_id": "ctbids-49036-5741843",
+    "listing_url": "https://ctbids.com/estate-sale/49036/item/5741843/Masai-Giraffes-At-Amboseli-Signed-Numbered-Wildlife-Art-By-Charles-Frace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5741843_49ANRU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
