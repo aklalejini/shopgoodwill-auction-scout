@@ -483,7 +483,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -494,34 +494,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49101-5760673": {
-    "item_id": "ctbids-49101-5760673",
-    "listing_url": "https://ctbids.com/estate-sale/49101/item/5760673/Nerf-N-Strike-Mega-Series-Twin-Shock-Blasters",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5760673_YlnEDd.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -688,6 +661,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48760/item/5750437/Owyhee-Eye-Opal-Necklace",
     "images": [
       "https://image.ctbids.com/seller/2026-10-18Tc50b08/5750437_X6xhb4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49101-5760673": {
+    "item_id": "ctbids-49101-5760673",
+    "listing_url": "https://ctbids.com/estate-sale/49101/item/5760673/Nerf-N-Strike-Mega-Series-Twin-Shock-Blasters",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5760673_YlnEDd.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1025,6 +1023,48 @@
           "Only 1 listing photo (-10)",
           "Shipping is calculated and not included in the price (-6)",
           "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281788747": {
+    "item_id": "281788747",
+    "listing_url": "https://shopgoodwill.com/item/281788747",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-25/0bcf6f4f-eff3-4509-a898-31afc65027eeauer_10251.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-25/c3bde203-c48b-4a05-848d-9d153561c5f6auer_10252.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-25/61e16eb4-bce7-49aa-808e-8a4697cd97d5auer_10253.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-25/49503c3c-9ac5-4943-b9f8-503e484d27b5auer_10254.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-25/0c69943d-2288-4502-abf2-579777abbc48auer_10255.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-25/513b6ace-cba1-467a-bcaa-1fbeff4f3cd2auer_10256.jpg"
+    ],
+    "description": "PRODUCT OVERVIEW\n\nThis is a large assorted lot of gemstones, mineral specimens, and tumbled rocks. The collection features a variety of types and colors including agate slices, quartz, jasper, amethyst, and other semi-precious stones. Also, an Orthoceras fossil\n\nCOLLECTION CONTENTS\n\nStone Types: The lot includes polished stones, tumbled rocks, and raw mineral specimens in mixed finishes.\n\nAppearance Variations: Some stones display polished surfaces while others retain natural, unpolished appearances with natural color variations and surface characteristics.\n\nAccessories Included: A small plastic display box and glass vial containing additional small stones are included with the lot.\n\nSPECIFICATIONS\n\nWeight: Approximately 6 lbs.\n\nCondition: The stones show a range of surface conditions including polish, natural patina, and minor surface wear consistent with natural mineral specimens.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Shipping is calculated and not included in the price (-6)",
+      "6 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Shipping is calculated and not included in the price (-6)",
+          "6 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []

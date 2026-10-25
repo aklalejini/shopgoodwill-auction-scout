@@ -299,7 +299,7 @@
   },
   "8:2": {
     "id": "8:2",
-    "count": 23,
+    "count": 27,
     "item_ids": [
       "281710319",
       "280507417",
@@ -322,8 +322,12 @@
       "281726811",
       "281729078",
       "280644157",
+      "281789783",
       "280788466",
-      "281785718"
+      "281788747",
+      "281785718",
+      "281789468",
+      "281789092"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
@@ -429,130 +433,6 @@
     "close_window_hours": 72,
     "seller_id": "185",
     "seller": "Goodwill Houston"
-  },
-  "144:1": {
-    "id": "144:1",
-    "count": 3,
-    "item_ids": [
-      "281188985",
-      "281186522",
-      "281475810"
-    ],
-    "combined_shipping_unavailable": true,
-    "close_window_hours": 72,
-    "seller_id": "144",
-    "seller": "Heart of Texas Goodwill"
-  },
-  "122:2": {
-    "id": "122:2",
-    "count": 12,
-    "item_ids": [
-      "281225210",
-      "281482087",
-      "281481102",
-      "281482015",
-      "281461951",
-      "281459318",
-      "278828304",
-      "281459746",
-      "278828365",
-      "281569304",
-      "281344086",
-      "281688377"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "122",
-    "seller": "Goodwill of the Olympics and Rainier Region"
-  },
-  "87:1": {
-    "id": "87:1",
-    "count": 4,
-    "item_ids": [
-      "281230869",
-      "281238248",
-      "281311419",
-      "281449996"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "87",
-    "seller": "Goodwill Industries of Greater Cleveland & East Central Ohio"
-  },
-  "5:2": {
-    "id": "5:2",
-    "count": 4,
-    "item_ids": [
-      "281607144",
-      "281592089",
-      "281762661",
-      "281770023"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "5",
-    "seller": "Goodwill of Central & Southern Indiana"
-  },
-  "9:1": {
-    "id": "9:1",
-    "count": 3,
-    "item_ids": [
-      "281356316",
-      "281759842",
-      "281638052"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "9",
-    "seller": "Goodwill of Greater Grand Rapids"
-  },
-  "130:1": {
-    "id": "130:1",
-    "count": 10,
-    "item_ids": [
-      "281547649",
-      "281534213",
-      "281543214",
-      "281545310",
-      "281530531",
-      "281535925",
-      "281544229",
-      "281539541",
-      "281530048",
-      "281332788"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "130",
-    "seller": "Ohio Valley Goodwill Industries"
-  },
-  "27:1": {
-    "id": "27:1",
-    "count": 6,
-    "item_ids": [
-      "281246776",
-      "281468337",
-      "281503031",
-      "281465875",
-      "281454161",
-      "281489959"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "27",
-    "seller": "Goodwill Industries of Akron, Ohio, Inc."
-  },
-  "122:4": {
-    "id": "122:4",
-    "count": 2,
-    "item_ids": [
-      "279458083",
-      "279610425"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "122",
-    "seller": "Goodwill of the Olympics and Rainier Region"
   },
   "ctbids-379:1": {
     "id": "ctbids-379:1",
@@ -857,6 +737,69 @@
     "close_window_hours": 72,
     "seller_id": "ctbids-276",
     "seller": "Winston Salem"
+  },
+  "144:1": {
+    "id": "144:1",
+    "count": 3,
+    "item_ids": [
+      "281188985",
+      "281186522",
+      "281475810"
+    ],
+    "combined_shipping_unavailable": true,
+    "close_window_hours": 72,
+    "seller_id": "144",
+    "seller": "Heart of Texas Goodwill"
+  },
+  "122:2": {
+    "id": "122:2",
+    "count": 12,
+    "item_ids": [
+      "281225210",
+      "281482087",
+      "281481102",
+      "281482015",
+      "281461951",
+      "281459318",
+      "278828304",
+      "281459746",
+      "278828365",
+      "281569304",
+      "281344086",
+      "281688377"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "122",
+    "seller": "Goodwill of the Olympics and Rainier Region"
+  },
+  "87:1": {
+    "id": "87:1",
+    "count": 4,
+    "item_ids": [
+      "281230869",
+      "281238248",
+      "281311419",
+      "281449996"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "87",
+    "seller": "Goodwill Industries of Greater Cleveland & East Central Ohio"
+  },
+  "5:2": {
+    "id": "5:2",
+    "count": 4,
+    "item_ids": [
+      "281607144",
+      "281592089",
+      "281762661",
+      "281770023"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "5",
+    "seller": "Goodwill of Central & Southern Indiana"
   },
   "ctbids-572:1": {
     "id": "ctbids-572:1",
@@ -1210,6 +1153,67 @@
     "seller_id": "ctbids-538",
     "seller": "Arlington Virginia"
   },
+  "9:1": {
+    "id": "9:1",
+    "count": 3,
+    "item_ids": [
+      "281356316",
+      "281759842",
+      "281638052"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "9",
+    "seller": "Goodwill of Greater Grand Rapids"
+  },
+  "130:1": {
+    "id": "130:1",
+    "count": 10,
+    "item_ids": [
+      "281547649",
+      "281534213",
+      "281543214",
+      "281545310",
+      "281530531",
+      "281535925",
+      "281544229",
+      "281539541",
+      "281530048",
+      "281332788"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "130",
+    "seller": "Ohio Valley Goodwill Industries"
+  },
+  "27:1": {
+    "id": "27:1",
+    "count": 6,
+    "item_ids": [
+      "281246776",
+      "281468337",
+      "281503031",
+      "281465875",
+      "281454161",
+      "281489959"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "27",
+    "seller": "Goodwill Industries of Akron, Ohio, Inc."
+  },
+  "122:4": {
+    "id": "122:4",
+    "count": 2,
+    "item_ids": [
+      "279458083",
+      "279610425"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "122",
+    "seller": "Goodwill of the Olympics and Rainier Region"
+  },
   "60:1": {
     "id": "60:1",
     "count": 6,
@@ -1257,43 +1261,6 @@
     "close_window_hours": 72,
     "seller_id": "20",
     "seller": "Goodwill Industries of Kansas INC."
-  },
-  "31:1": {
-    "id": "31:1",
-    "count": 2,
-    "item_ids": [
-      "281668922",
-      "281639926"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "31",
-    "seller": "Goodwill Industries of KYOWVA Area, Inc."
-  },
-  "103:1": {
-    "id": "103:1",
-    "count": 2,
-    "item_ids": [
-      "281532167",
-      "281525828"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "103",
-    "seller": "Marion Goodwill Industries"
-  },
-  "174:1": {
-    "id": "174:1",
-    "count": 3,
-    "item_ids": [
-      "280834030",
-      "281346815",
-      "281422980"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "174",
-    "seller": "Goodwill Southern New England, Inc."
   },
   "199:1": {
     "id": "199:1",
@@ -1403,67 +1370,42 @@
     "seller_id": "ctbids-312",
     "seller": "Roswell and Buckhead Georgia"
   },
-  "8:1": {
-    "id": "8:1",
-    "count": 27,
-    "item_ids": [
-      "281299756",
-      "280177855",
-      "281196075",
-      "281231966",
-      "281303767",
-      "281274168",
-      "281227503",
-      "281196678",
-      "281284903",
-      "281237385",
-      "281304049",
-      "281196633",
-      "281196094",
-      "281338781",
-      "281421381",
-      "280226871",
-      "281327593",
-      "281343931",
-      "281428098",
-      "281355961",
-      "281434250",
-      "281498987",
-      "281582939",
-      "281584257",
-      "281474040",
-      "281569365",
-      "281473459"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "8",
-    "seller": "Goodwill Industries of the Columbia Willamette"
-  },
-  "339:1": {
-    "id": "339:1",
-    "count": 3,
-    "item_ids": [
-      "281179657",
-      "281687081",
-      "281318045"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "339",
-    "seller": "Goodwill of North Georgia"
-  },
-  "13:1": {
-    "id": "13:1",
+  "31:1": {
+    "id": "31:1",
     "count": 2,
     "item_ids": [
-      "281088265",
-      "281211959"
+      "281668922",
+      "281639926"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "13",
-    "seller": "Goodwill Industries of Arkansas, Inc."
+    "seller_id": "31",
+    "seller": "Goodwill Industries of KYOWVA Area, Inc."
+  },
+  "103:1": {
+    "id": "103:1",
+    "count": 2,
+    "item_ids": [
+      "281532167",
+      "281525828"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "103",
+    "seller": "Marion Goodwill Industries"
+  },
+  "174:1": {
+    "id": "174:1",
+    "count": 3,
+    "item_ids": [
+      "280834030",
+      "281346815",
+      "281422980"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "174",
+    "seller": "Goodwill Southern New England, Inc."
   },
   "ctbids-367:1": {
     "id": "ctbids-367:1",
@@ -1613,58 +1555,67 @@
     "seller_id": "ctbids-367",
     "seller": "Tewksbury, MA"
   },
-  "19:2": {
-    "id": "19:2",
-    "count": 29,
+  "8:1": {
+    "id": "8:1",
+    "count": 27,
     "item_ids": [
-      "281360089",
-      "281501346",
-      "281485184",
-      "281501768",
-      "281503071",
-      "281483563",
-      "281500820",
-      "281499814",
-      "281484344",
-      "281488539",
-      "281486517",
-      "281501452",
-      "281499675",
-      "281487210",
-      "281478533",
-      "281503303",
-      "281487448",
-      "281501614",
-      "281501054",
-      "281486770",
-      "281499497",
-      "281500080",
-      "281495308",
-      "281500529",
-      "281484692",
-      "281502995",
-      "281500327",
-      "281484327",
-      "281732272"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "19",
-    "seller": "Goodwill Industries of the Inland Northwest"
-  },
-  "8:3": {
-    "id": "8:3",
-    "count": 4,
-    "item_ids": [
-      "281306127",
-      "281439716",
-      "281570065",
-      "281708890"
+      "281299756",
+      "280177855",
+      "281196075",
+      "281231966",
+      "281303767",
+      "281274168",
+      "281227503",
+      "281196678",
+      "281284903",
+      "281237385",
+      "281304049",
+      "281196633",
+      "281196094",
+      "281338781",
+      "281421381",
+      "280226871",
+      "281327593",
+      "281343931",
+      "281428098",
+      "281355961",
+      "281434250",
+      "281498987",
+      "281582939",
+      "281584257",
+      "281474040",
+      "281569365",
+      "281473459"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
     "seller_id": "8",
     "seller": "Goodwill Industries of the Columbia Willamette"
+  },
+  "339:1": {
+    "id": "339:1",
+    "count": 3,
+    "item_ids": [
+      "281179657",
+      "281687081",
+      "281318045"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "339",
+    "seller": "Goodwill of North Georgia"
+  },
+  "13:1": {
+    "id": "13:1",
+    "count": 2,
+    "item_ids": [
+      "281088265",
+      "281211959"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "13",
+    "seller": "Goodwill Industries of Arkansas, Inc."
   },
   "ctbids-422:1": {
     "id": "ctbids-422:1",
@@ -2107,6 +2058,59 @@
     "seller_id": "ctbids-402",
     "seller": "South Dayton"
   },
+  "19:2": {
+    "id": "19:2",
+    "count": 29,
+    "item_ids": [
+      "281360089",
+      "281501346",
+      "281485184",
+      "281501768",
+      "281503071",
+      "281483563",
+      "281500820",
+      "281499814",
+      "281484344",
+      "281488539",
+      "281486517",
+      "281501452",
+      "281499675",
+      "281487210",
+      "281478533",
+      "281503303",
+      "281487448",
+      "281501614",
+      "281501054",
+      "281486770",
+      "281499497",
+      "281500080",
+      "281495308",
+      "281500529",
+      "281484692",
+      "281502995",
+      "281500327",
+      "281484327",
+      "281732272"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "19",
+    "seller": "Goodwill Industries of the Inland Northwest"
+  },
+  "8:3": {
+    "id": "8:3",
+    "count": 4,
+    "item_ids": [
+      "281306127",
+      "281439716",
+      "281570065",
+      "281708890"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "8",
+    "seller": "Goodwill Industries of the Columbia Willamette"
+  },
   "ctbids-350:1": {
     "id": "ctbids-350:1",
     "count": 75,
@@ -2192,56 +2196,6 @@
     "seller_id": "ctbids-350",
     "seller": "Jupiter & Stuart"
   },
-  "111:1": {
-    "id": "111:1",
-    "count": 2,
-    "item_ids": [
-      "281587862",
-      "281601135"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "111",
-    "seller": "Goodwill of Northern New England"
-  },
-  "102:1": {
-    "id": "102:1",
-    "count": 2,
-    "item_ids": [
-      "281504557",
-      "281623982"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "102",
-    "seller": "Goodwill of Central Iowa"
-  },
-  "136:1": {
-    "id": "136:1",
-    "count": 3,
-    "item_ids": [
-      "281048135",
-      "281225906",
-      "281491423"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "136",
-    "seller": "Goodwill Industries of Southern NJ & Philadelphia"
-  },
-  "342:1": {
-    "id": "342:1",
-    "count": 3,
-    "item_ids": [
-      "281214760",
-      "281453410",
-      "281493450"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "342",
-    "seller": "Goodwill Industries of Upstate/Midlands South Carolina - UNION"
-  },
   "2:1": {
     "id": "2:1",
     "count": 3,
@@ -2300,20 +2254,55 @@
     "seller_id": "168",
     "seller": "True North Goodwill"
   },
-  "29:1": {
-    "id": "29:1",
-    "count": 5,
+  "111:1": {
+    "id": "111:1",
+    "count": 2,
     "item_ids": [
-      "281003187",
-      "280988138",
-      "281135789",
-      "281119413",
-      "281253315"
+      "281587862",
+      "281601135"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "29",
-    "seller": "Goodwill of Greater Milwaukee and Chicago"
+    "seller_id": "111",
+    "seller": "Goodwill of Northern New England"
+  },
+  "102:1": {
+    "id": "102:1",
+    "count": 2,
+    "item_ids": [
+      "281504557",
+      "281623982"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "102",
+    "seller": "Goodwill of Central Iowa"
+  },
+  "136:1": {
+    "id": "136:1",
+    "count": 3,
+    "item_ids": [
+      "281048135",
+      "281225906",
+      "281491423"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "136",
+    "seller": "Goodwill Industries of Southern NJ & Philadelphia"
+  },
+  "342:1": {
+    "id": "342:1",
+    "count": 3,
+    "item_ids": [
+      "281214760",
+      "281453410",
+      "281493450"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "342",
+    "seller": "Goodwill Industries of Upstate/Midlands South Carolina - UNION"
   },
   "ctbids-189:1": {
     "id": "ctbids-189:1",
@@ -2383,76 +2372,6 @@
     "close_window_hours": 72,
     "seller_id": "ctbids-189",
     "seller": "Rapid City"
-  },
-  "134:1": {
-    "id": "134:1",
-    "count": 8,
-    "item_ids": [
-      "281187288",
-      "281199738",
-      "281229719",
-      "281333665",
-      "281666125",
-      "281486308",
-      "281484280",
-      "281485538"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "134",
-    "seller": "Goodwill of North Central Wisconsin"
-  },
-  "140:1": {
-    "id": "140:1",
-    "count": 3,
-    "item_ids": [
-      "281345403",
-      "281528518",
-      "281452353"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "140",
-    "seller": "MERS/Missouri Goodwill Industries"
-  },
-  "48:2": {
-    "id": "48:2",
-    "count": 3,
-    "item_ids": [
-      "281515131",
-      "281659331",
-      "281724710"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "48",
-    "seller": "Evergreen Goodwill"
-  },
-  "145:5": {
-    "id": "145:5",
-    "count": 2,
-    "item_ids": [
-      "279369720",
-      "279367787"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "145",
-    "seller": "Rappahannock Goodwill Industries Inc."
-  },
-  "352:1": {
-    "id": "352:1",
-    "count": 4,
-    "item_ids": [
-      "281181630",
-      "281279196",
-      "281266835",
-      "281197638"
-    ],
-    "combined_shipping_unavailable": true,
-    "close_window_hours": 72,
-    "seller_id": "352",
-    "seller": "Brookville NCPA"
   },
   "ctbids-523:1": {
     "id": "ctbids-523:1",
@@ -2614,6 +2533,21 @@
     "seller_id": "ctbids-523",
     "seller": "Parsippany, NJ"
   },
+  "29:1": {
+    "id": "29:1",
+    "count": 5,
+    "item_ids": [
+      "281003187",
+      "280988138",
+      "281135789",
+      "281119413",
+      "281253315"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "29",
+    "seller": "Goodwill of Greater Milwaukee and Chicago"
+  },
   "ctbids-479:1": {
     "id": "ctbids-479:1",
     "count": 80,
@@ -2704,61 +2638,75 @@
     "seller_id": "ctbids-479",
     "seller": "Irvine & Lake Forest"
   },
-  "81:1": {
-    "id": "81:1",
-    "count": 9,
+  "134:1": {
+    "id": "134:1",
+    "count": 8,
     "item_ids": [
-      "281594076",
-      "281320193",
-      "281317875",
-      "281318680",
-      "281317372",
-      "281314711",
-      "281335121",
-      "281316169",
-      "281768142"
+      "281187288",
+      "281199738",
+      "281229719",
+      "281333665",
+      "281666125",
+      "281486308",
+      "281484280",
+      "281485538"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "81",
-    "seller": "Goodwill Industries of SW Florida, Inc."
+    "seller_id": "134",
+    "seller": "Goodwill of North Central Wisconsin"
   },
-  "77:1": {
-    "id": "77:1",
+  "140:1": {
+    "id": "140:1",
     "count": 3,
     "item_ids": [
-      "281120445",
-      "281042717",
-      "281463268"
+      "281345403",
+      "281528518",
+      "281452353"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "77",
-    "seller": "Goodwill Industries of Southwestern Michigan"
+    "seller_id": "140",
+    "seller": "MERS/Missouri Goodwill Industries"
   },
-  "181:1": {
-    "id": "181:1",
-    "count": 2,
+  "48:2": {
+    "id": "48:2",
+    "count": 3,
     "item_ids": [
-      "281641080",
-      "281676505"
+      "281515131",
+      "281659331",
+      "281724710"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "181",
-    "seller": "Goodwill Industries of Northwest North Carolina, Inc."
+    "seller_id": "48",
+    "seller": "Evergreen Goodwill"
   },
-  "106:3": {
-    "id": "106:3",
+  "145:5": {
+    "id": "145:5",
     "count": 2,
     "item_ids": [
-      "281662754",
-      "281678593"
+      "279369720",
+      "279367787"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "145",
+    "seller": "Rappahannock Goodwill Industries Inc."
+  },
+  "352:1": {
+    "id": "352:1",
+    "count": 4,
+    "item_ids": [
+      "281181630",
+      "281279196",
+      "281266835",
+      "281197638"
     ],
     "combined_shipping_unavailable": true,
     "close_window_hours": 72,
-    "seller_id": "106",
-    "seller": "Goodwill-Easter Seals MN"
+    "seller_id": "352",
+    "seller": "Brookville NCPA"
   },
   "ctbids-573:1": {
     "id": "ctbids-573:1",
@@ -2825,63 +2773,61 @@
     "seller_id": "ctbids-573",
     "seller": "New Braunfels & Seguin, TX"
   },
-  "117:1": {
-    "id": "117:1",
-    "count": 11,
+  "81:1": {
+    "id": "81:1",
+    "count": 9,
     "item_ids": [
-      "281125598",
-      "281147989",
-      "281043680",
-      "281143199",
-      "281079228",
-      "281137806",
-      "281099905",
-      "281153865",
-      "281211584",
-      "281264475",
-      "281445629"
+      "281594076",
+      "281320193",
+      "281317875",
+      "281318680",
+      "281317372",
+      "281314711",
+      "281335121",
+      "281316169",
+      "281768142"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "117",
-    "seller": "Goodwill Industries of Middle Tennessee, Inc."
+    "seller_id": "81",
+    "seller": "Goodwill Industries of SW Florida, Inc."
   },
-  "74:1": {
-    "id": "74:1",
-    "count": 2,
-    "item_ids": [
-      "281182650",
-      "281072303"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "74",
-    "seller": "Goodwill Industries of Central East Texas, Inc."
-  },
-  "200:2": {
-    "id": "200:2",
-    "count": 2,
-    "item_ids": [
-      "281779904",
-      "281779839"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "200",
-    "seller": "Richmond - Goodwill of Central & Coastal Virginia"
-  },
-  "363:1": {
-    "id": "363:1",
+  "77:1": {
+    "id": "77:1",
     "count": 3,
     "item_ids": [
-      "281632226",
-      "281632089",
-      "281632365"
+      "281120445",
+      "281042717",
+      "281463268"
     ],
     "combined_shipping_unavailable": false,
     "close_window_hours": 72,
-    "seller_id": "363",
-    "seller": "Goodwill Industries of Central Oklahoma"
+    "seller_id": "77",
+    "seller": "Goodwill Industries of Southwestern Michigan"
+  },
+  "181:1": {
+    "id": "181:1",
+    "count": 2,
+    "item_ids": [
+      "281641080",
+      "281676505"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "181",
+    "seller": "Goodwill Industries of Northwest North Carolina, Inc."
+  },
+  "106:3": {
+    "id": "106:3",
+    "count": 2,
+    "item_ids": [
+      "281662754",
+      "281678593"
+    ],
+    "combined_shipping_unavailable": true,
+    "close_window_hours": 72,
+    "seller_id": "106",
+    "seller": "Goodwill-Easter Seals MN"
   },
   "ctbids-568:1": {
     "id": "ctbids-568:1",
@@ -2931,6 +2877,103 @@
     "close_window_hours": 72,
     "seller_id": "ctbids-568",
     "seller": "Pearland Texas"
+  },
+  "117:1": {
+    "id": "117:1",
+    "count": 11,
+    "item_ids": [
+      "281125598",
+      "281147989",
+      "281043680",
+      "281143199",
+      "281079228",
+      "281137806",
+      "281099905",
+      "281153865",
+      "281211584",
+      "281264475",
+      "281445629"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "117",
+    "seller": "Goodwill Industries of Middle Tennessee, Inc."
+  },
+  "74:1": {
+    "id": "74:1",
+    "count": 2,
+    "item_ids": [
+      "281182650",
+      "281072303"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "74",
+    "seller": "Goodwill Industries of Central East Texas, Inc."
+  },
+  "200:2": {
+    "id": "200:2",
+    "count": 2,
+    "item_ids": [
+      "281779904",
+      "281779839"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "200",
+    "seller": "Richmond - Goodwill of Central & Coastal Virginia"
+  },
+  "ctbids-416:1": {
+    "id": "ctbids-416:1",
+    "count": 29,
+    "item_ids": [
+      "ctbids-49324-5748567",
+      "ctbids-49324-5748550",
+      "ctbids-49324-5748533",
+      "ctbids-49324-5748529",
+      "ctbids-49324-5748526",
+      "ctbids-49324-5748525",
+      "ctbids-49324-5748523",
+      "ctbids-49324-5748612",
+      "ctbids-49324-5748649",
+      "ctbids-49324-5748646",
+      "ctbids-49324-5748640",
+      "ctbids-49324-5748636",
+      "ctbids-49324-5748632",
+      "ctbids-49324-5748622",
+      "ctbids-49324-5750824",
+      "ctbids-49324-5750817",
+      "ctbids-49324-5750809",
+      "ctbids-49324-5750803",
+      "ctbids-49324-5750762",
+      "ctbids-49324-5750735",
+      "ctbids-49324-5750729",
+      "ctbids-49324-5750985",
+      "ctbids-49324-5751031",
+      "ctbids-49324-5751026",
+      "ctbids-49324-5751012",
+      "ctbids-49324-5751005",
+      "ctbids-49324-5750967",
+      "ctbids-49324-5750947",
+      "ctbids-49324-5751582"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "ctbids-416",
+    "seller": "Valparaiso, Indiana"
+  },
+  "363:1": {
+    "id": "363:1",
+    "count": 3,
+    "item_ids": [
+      "281632226",
+      "281632089",
+      "281632365"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "363",
+    "seller": "Goodwill Industries of Central Oklahoma"
   },
   "26:1": {
     "id": "26:1",
@@ -2990,120 +3033,6 @@
     "close_window_hours": 72,
     "seller_id": "59",
     "seller": "Goodwill Industries of Lane & South Coast Counties"
-  },
-  "345:1": {
-    "id": "345:1",
-    "count": 2,
-    "item_ids": [
-      "281282056",
-      "281529857"
-    ],
-    "combined_shipping_unavailable": true,
-    "close_window_hours": 72,
-    "seller_id": "345",
-    "seller": "Tipp Street NCPA Dubois"
-  },
-  "146:2": {
-    "id": "146:2",
-    "count": 3,
-    "item_ids": [
-      "281551772",
-      "281613868",
-      "281614997"
-    ],
-    "combined_shipping_unavailable": true,
-    "close_window_hours": 72,
-    "seller_id": "146",
-    "seller": "Corbet Rd NCPA Dubois"
-  },
-  "50:1": {
-    "id": "50:1",
-    "count": 5,
-    "item_ids": [
-      "281222648",
-      "281232524",
-      "281234933",
-      "281235460",
-      "281235993"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "50",
-    "seller": "Goodwill Industries of Michiana, Inc."
-  },
-  "19:1": {
-    "id": "19:1",
-    "count": 6,
-    "item_ids": [
-      "280990490",
-      "280990856",
-      "280990535",
-      "280990019",
-      "280998495",
-      "281194717"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "19",
-    "seller": "Goodwill Industries of the Inland Northwest"
-  },
-  "ctbids-416:1": {
-    "id": "ctbids-416:1",
-    "count": 29,
-    "item_ids": [
-      "ctbids-49324-5748567",
-      "ctbids-49324-5748550",
-      "ctbids-49324-5748533",
-      "ctbids-49324-5748529",
-      "ctbids-49324-5748526",
-      "ctbids-49324-5748525",
-      "ctbids-49324-5748523",
-      "ctbids-49324-5748612",
-      "ctbids-49324-5748649",
-      "ctbids-49324-5748646",
-      "ctbids-49324-5748640",
-      "ctbids-49324-5748636",
-      "ctbids-49324-5748632",
-      "ctbids-49324-5748622",
-      "ctbids-49324-5750824",
-      "ctbids-49324-5750817",
-      "ctbids-49324-5750809",
-      "ctbids-49324-5750803",
-      "ctbids-49324-5750762",
-      "ctbids-49324-5750735",
-      "ctbids-49324-5750729",
-      "ctbids-49324-5750985",
-      "ctbids-49324-5751031",
-      "ctbids-49324-5751026",
-      "ctbids-49324-5751012",
-      "ctbids-49324-5751005",
-      "ctbids-49324-5750967",
-      "ctbids-49324-5750947",
-      "ctbids-49324-5751582"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "ctbids-416",
-    "seller": "Valparaiso, Indiana"
-  },
-  "155:1": {
-    "id": "155:1",
-    "count": 9,
-    "item_ids": [
-      "281363116",
-      "281543724",
-      "281500927",
-      "281492513",
-      "281501117",
-      "281500873",
-      "281669155",
-      "281679378",
-      "281692133"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "155",
-    "seller": "Goodwill Industries of the Columbia, Inc. Pasco, WA"
   },
   "ctbids-602:1": {
     "id": "ctbids-602:1",
@@ -3170,6 +3099,80 @@
     "seller_id": "ctbids-602",
     "seller": "Gahanna & New Albany, OH"
   },
+  "345:1": {
+    "id": "345:1",
+    "count": 2,
+    "item_ids": [
+      "281282056",
+      "281529857"
+    ],
+    "combined_shipping_unavailable": true,
+    "close_window_hours": 72,
+    "seller_id": "345",
+    "seller": "Tipp Street NCPA Dubois"
+  },
+  "146:2": {
+    "id": "146:2",
+    "count": 3,
+    "item_ids": [
+      "281551772",
+      "281613868",
+      "281614997"
+    ],
+    "combined_shipping_unavailable": true,
+    "close_window_hours": 72,
+    "seller_id": "146",
+    "seller": "Corbet Rd NCPA Dubois"
+  },
+  "50:1": {
+    "id": "50:1",
+    "count": 4,
+    "item_ids": [
+      "281232524",
+      "281234933",
+      "281235460",
+      "281235993"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "50",
+    "seller": "Goodwill Industries of Michiana, Inc."
+  },
+  "19:1": {
+    "id": "19:1",
+    "count": 6,
+    "item_ids": [
+      "280990490",
+      "280990856",
+      "280990535",
+      "280990019",
+      "280998495",
+      "281194717"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "19",
+    "seller": "Goodwill Industries of the Inland Northwest"
+  },
+  "155:1": {
+    "id": "155:1",
+    "count": 9,
+    "item_ids": [
+      "281363116",
+      "281543724",
+      "281500927",
+      "281492513",
+      "281501117",
+      "281500873",
+      "281669155",
+      "281679378",
+      "281692133"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "155",
+    "seller": "Goodwill Industries of the Columbia, Inc. Pasco, WA"
+  },
   "115:2": {
     "id": "115:2",
     "count": 3,
@@ -3182,6 +3185,20 @@
     "close_window_hours": 72,
     "seller_id": "115",
     "seller": "Goodwill Hawaii"
+  },
+  "ctbids-75:1": {
+    "id": "ctbids-75:1",
+    "count": 4,
+    "item_ids": [
+      "ctbids-49167-5734422",
+      "ctbids-49167-5740128",
+      "ctbids-49167-5740138",
+      "ctbids-49167-5740143"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "ctbids-75",
+    "seller": "Charleston SC"
   },
   "114:1": {
     "id": "114:1",
@@ -3231,20 +3248,6 @@
     "seller_id": "11",
     "seller": "Goodwill Industries of the Chesapeake, Inc."
   },
-  "ctbids-75:1": {
-    "id": "ctbids-75:1",
-    "count": 4,
-    "item_ids": [
-      "ctbids-49167-5734422",
-      "ctbids-49167-5740128",
-      "ctbids-49167-5740138",
-      "ctbids-49167-5740143"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "ctbids-75",
-    "seller": "Charleston SC"
-  },
   "201:1": {
     "id": "201:1",
     "count": 5,
@@ -3259,6 +3262,20 @@
     "close_window_hours": 72,
     "seller_id": "201",
     "seller": "Goodwill of Central & Northern Arizona"
+  },
+  "ctbids-298:1": {
+    "id": "ctbids-298:1",
+    "count": 4,
+    "item_ids": [
+      "ctbids-49169-5729158",
+      "ctbids-49169-5729553",
+      "ctbids-49169-5735134",
+      "ctbids-49169-5733601"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "ctbids-298",
+    "seller": "CyFair"
   },
   "145:1": {
     "id": "145:1",
@@ -3300,20 +3317,6 @@
     "seller_id": "12",
     "seller": "Goodwill Industries of San Diego County"
   },
-  "ctbids-298:1": {
-    "id": "ctbids-298:1",
-    "count": 4,
-    "item_ids": [
-      "ctbids-49169-5729158",
-      "ctbids-49169-5729553",
-      "ctbids-49169-5735134",
-      "ctbids-49169-5733601"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "ctbids-298",
-    "seller": "CyFair"
-  },
   "133:1": {
     "id": "133:1",
     "count": 2,
@@ -3351,6 +3354,18 @@
     "seller_id": "344",
     "seller": "Zanesville Welfare Organization and Goodwill Industries, Inc."
   },
+  "12:2": {
+    "id": "12:2",
+    "count": 2,
+    "item_ids": [
+      "281641391",
+      "281634280"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "12",
+    "seller": "Goodwill Industries of San Diego County"
+  },
   "47:1": {
     "id": "47:1",
     "count": 3,
@@ -3375,6 +3390,20 @@
     "close_window_hours": 72,
     "seller_id": "69",
     "seller": "Goodwill Monocacy Valley"
+  },
+  "ctbids-299:1": {
+    "id": "ctbids-299:1",
+    "count": 4,
+    "item_ids": [
+      "ctbids-48744-5671166",
+      "ctbids-48744-5675865",
+      "ctbids-48744-5695100",
+      "ctbids-48744-5695135"
+    ],
+    "combined_shipping_unavailable": false,
+    "close_window_hours": 72,
+    "seller_id": "ctbids-299",
+    "seller": "Kingwood, TX"
   },
   "127:1": {
     "id": "127:1",
@@ -3457,20 +3486,6 @@
     "seller_id": "86",
     "seller": "Goodwill Industries of West Michigan, Inc."
   },
-  "ctbids-299:1": {
-    "id": "ctbids-299:1",
-    "count": 4,
-    "item_ids": [
-      "ctbids-48744-5671166",
-      "ctbids-48744-5675865",
-      "ctbids-48744-5695100",
-      "ctbids-48744-5695135"
-    ],
-    "combined_shipping_unavailable": false,
-    "close_window_hours": 72,
-    "seller_id": "ctbids-299",
-    "seller": "Kingwood, TX"
-  },
   "18:1": {
     "id": "18:1",
     "count": 2,
@@ -3534,21 +3549,6 @@
     "seller_id": "179",
     "seller": "Goodwill Industries of Northeastern Pennsylvania"
   },
-  "33:1": {
-    "id": "33:1",
-    "count": 5,
-    "item_ids": [
-      "281236783",
-      "281236206",
-      "281236069",
-      "281377490",
-      "281493798"
-    ],
-    "combined_shipping_unavailable": true,
-    "close_window_hours": 72,
-    "seller_id": "33",
-    "seller": "Goodwill Industries of Greater New York and Northern New Jersey"
-  },
   "62:1": {
     "id": "62:1",
     "count": 2,
@@ -3573,22 +3573,6 @@
     "close_window_hours": 72,
     "seller_id": "348",
     "seller": "Hampton – Goodwill of Central & Coastal Virginia"
-  },
-  "106:2": {
-    "id": "106:2",
-    "count": 6,
-    "item_ids": [
-      "281449947",
-      "281686472",
-      "281626586",
-      "281626456",
-      "281613396",
-      "281378679"
-    ],
-    "combined_shipping_unavailable": true,
-    "close_window_hours": 72,
-    "seller_id": "106",
-    "seller": "Goodwill-Easter Seals MN"
   },
   "16:2": {
     "id": "16:2",
@@ -3626,6 +3610,37 @@
     "close_window_hours": 72,
     "seller_id": "16",
     "seller": "Goodwill Industries of South Florida"
+  },
+  "33:1": {
+    "id": "33:1",
+    "count": 5,
+    "item_ids": [
+      "281236783",
+      "281236206",
+      "281236069",
+      "281377490",
+      "281493798"
+    ],
+    "combined_shipping_unavailable": true,
+    "close_window_hours": 72,
+    "seller_id": "33",
+    "seller": "Goodwill Industries of Greater New York and Northern New Jersey"
+  },
+  "106:2": {
+    "id": "106:2",
+    "count": 6,
+    "item_ids": [
+      "281449947",
+      "281686472",
+      "281626586",
+      "281626456",
+      "281613396",
+      "281378679"
+    ],
+    "combined_shipping_unavailable": true,
+    "close_window_hours": 72,
+    "seller_id": "106",
+    "seller": "Goodwill-Easter Seals MN"
   },
   "26:2": {
     "id": "26:2",
