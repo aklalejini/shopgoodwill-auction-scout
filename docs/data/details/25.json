@@ -13,7 +13,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'platinum' in title (+24)",
-      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -21,12 +20,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 39,
-        "relative_score": 1.147,
+        "score": 35,
+        "relative_score": 1.029,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'platinum' in title (+24)",
-          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -174,33 +172,6 @@
       }
     ]
   },
-  "ctbids-49185-5729667": {
-    "item_id": "ctbids-49185-5729667",
-    "listing_url": "https://ctbids.com/estate-sale/49185/item/5729667/Vintage-BIA-Cordon-Bleu-And-Hand-Painted-Japanese-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5729667_qOklvu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49528-5776742": {
     "item_id": "ctbids-49528-5776742",
     "listing_url": "https://ctbids.com/estate-sale/49528/item/5776742/Debby-Boone-You-Light-Up-My-Life-Hasta-Manana-Warner-Bros-45-RPM-WBS-8455",
@@ -314,60 +285,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49528/item/5776738/Hearth-Hand-with-Magnolia-Black-Metal-5x7-Photo-Frame-Geometric-Open-Border-Tabletop-Stand",
     "images": [
       "https://image.ctbids.com/seller/2026-10-26Te92adc/5754919_6rrOzp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49528-5776796": {
-    "item_id": "ctbids-49528-5776796",
-    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776796/Ginn-Basic-Readers-Album-3-Records-5-6-Funny-Flip-Our-Book-Friends-The-Boat-Ride",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5686083_kl7Znv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49528-5776846": {
-    "item_id": "ctbids-49528-5776846",
-    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776846/Christopher-Cross-The-Light-Is-On-Never-Be-the-Same-Warner-Bros-45-RPM-Single-WBS-49580",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5690470_e7MaRq.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -525,6 +442,114 @@
       }
     ]
   },
+  "ctbids-49528-5776796": {
+    "item_id": "ctbids-49528-5776796",
+    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776796/Ginn-Basic-Readers-Album-3-Records-5-6-Funny-Flip-Our-Book-Friends-The-Boat-Ride",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5686083_kl7Znv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49528-5776846": {
+    "item_id": "ctbids-49528-5776846",
+    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776846/Christopher-Cross-The-Light-Is-On-Never-Be-the-Same-Warner-Bros-45-RPM-Single-WBS-49580",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5690470_e7MaRq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49102-5771470": {
+    "item_id": "ctbids-49102-5771470",
+    "listing_url": "https://ctbids.com/estate-sale/49102/item/5771470/Women-s-Assorted-Pants-Sweatpants-Lot-PINK-Victoria-s-Secret-More-Sizes-XS-S-M",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771470_r58J0V.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49434-5761917": {
+    "item_id": "ctbids-49434-5761917",
+    "listing_url": "https://ctbids.com/estate-sale/49434/item/5761917/Detroit-Tigers-Salute-Book",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5761917_cU2QGQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281217645": {
     "item_id": "281217645",
     "listing_url": "https://shopgoodwill.com/item/281217645",
@@ -562,33 +587,6 @@
         "matched_keywords": [
           "zenith"
         ]
-      }
-    ]
-  },
-  "ctbids-49102-5771470": {
-    "item_id": "ctbids-49102-5771470",
-    "listing_url": "https://ctbids.com/estate-sale/49102/item/5771470/Women-s-Assorted-Pants-Sweatpants-Lot-PINK-Victoria-s-Secret-More-Sizes-XS-S-M",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771470_r58J0V.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -633,6 +631,33 @@
       }
     ]
   },
+  "ctbids-49102-5752861": {
+    "item_id": "ctbids-49102-5752861",
+    "listing_url": "https://ctbids.com/estate-sale/49102/item/5752861/Dansko-Women-s-Leather-Clogs-Size-37-3-Pairs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752861_y4vHAt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48052-5452239": {
     "item_id": "ctbids-48052-5452239",
     "listing_url": "https://ctbids.com/estate-sale/48052/item/5452239/Classic-Movie-TV-Collection",
@@ -653,33 +678,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49434-5761917": {
-    "item_id": "ctbids-49434-5761917",
-    "listing_url": "https://ctbids.com/estate-sale/49434/item/5761917/Detroit-Tigers-Salute-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5761917_cU2QGQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -737,6 +735,33 @@
       }
     ]
   },
+  "ctbids-48052-5444379": {
+    "item_id": "ctbids-48052-5444379",
+    "listing_url": "https://ctbids.com/estate-sale/48052/item/5444379/Vintage-U-S-Air-Force-Photographic-Prints",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-26T1a902b/5444379_1zbjDL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49211-5764158": {
     "item_id": "ctbids-49211-5764158",
     "listing_url": "https://ctbids.com/estate-sale/49211/item/5764158/Savage-Arms-22-410-Cal-Long-Rifle-3-Chamber",
@@ -782,123 +807,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49102-5752861": {
-    "item_id": "ctbids-49102-5752861",
-    "listing_url": "https://ctbids.com/estate-sale/49102/item/5752861/Dansko-Women-s-Leather-Clogs-Size-37-3-Pairs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752861_y4vHAt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49218-5768342": {
-    "item_id": "ctbids-49218-5768342",
-    "listing_url": "https://ctbids.com/estate-sale/49218/item/5768342/Mystery-Lot-Of-Fleece-Like-Horse-Blankets-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5768342_QJ9X8p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49218-5768382": {
-    "item_id": "ctbids-49218-5768382",
-    "listing_url": "https://ctbids.com/estate-sale/49218/item/5768382/Mystery-Lot-Of-Boot-Accessories-And-Belts",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5768382_vItntk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281259844": {
-    "item_id": "281259844",
-    "listing_url": "https://shopgoodwill.com/item/281259844",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/ddf90233-f676-4a40-9766-901b409351e3ith2_10131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/49f6c28a-6ace-4525-b0c9-6a4e78eaf49dith2_10132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/7c84c739-97d1-43dd-b6a9-1c20f0b9fab5ith2_10133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/c7041f8f-52cb-469d-88e8-6d6ec423cdbeith2_10134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/6117744b-c9aa-4621-ad47-9f10d5b17339ith2_10135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/2e897fa0-59f2-496c-9b0b-95422f744c10ith2_10136.jpg"
-    ],
-    "description": "Material(s):\nStone, Various/Other\nCondition:\nCondition varies across items in lot.\nImperfection(s):\nMarkings/Scuffs, Needs Cleaning, Scratches",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -999,6 +907,96 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49218-5768342": {
+    "item_id": "ctbids-49218-5768342",
+    "listing_url": "https://ctbids.com/estate-sale/49218/item/5768342/Mystery-Lot-Of-Fleece-Like-Horse-Blankets-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5768342_QJ9X8p.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49218-5768382": {
+    "item_id": "ctbids-49218-5768382",
+    "listing_url": "https://ctbids.com/estate-sale/49218/item/5768382/Mystery-Lot-Of-Boot-Accessories-And-Belts",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5768382_vItntk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281259844": {
+    "item_id": "281259844",
+    "listing_url": "https://shopgoodwill.com/item/281259844",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/ddf90233-f676-4a40-9766-901b409351e3ith2_10131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/49f6c28a-6ace-4525-b0c9-6a4e78eaf49dith2_10132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/7c84c739-97d1-43dd-b6a9-1c20f0b9fab5ith2_10133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/c7041f8f-52cb-469d-88e8-6d6ec423cdbeith2_10134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/6117744b-c9aa-4621-ad47-9f10d5b17339ith2_10135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-13/2e897fa0-59f2-496c-9b0b-95422f744c10ith2_10136.jpg"
+    ],
+    "description": "Material(s):\nStone, Various/Other\nCondition:\nCondition varies across items in lot.\nImperfection(s):\nMarkings/Scuffs, Needs Cleaning, Scratches",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
