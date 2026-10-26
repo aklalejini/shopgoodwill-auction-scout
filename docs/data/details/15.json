@@ -15,6 +15,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Pen-and-pencil set resale premium (+10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,11 +23,12 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 17,
-        "relative_score": 0.486,
+        "score": 21,
+        "relative_score": 0.6,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Pen-and-pencil set resale premium (+10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -39,6 +41,35 @@
     "listing_url": "https://ctbids.com/estate-sale/49434/item/5741607/Vintage-Columbia-Bottle",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5741607_ahq1Ev.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49528-5776809": {
+    "item_id": "ctbids-49528-5776809",
+    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776809/Frank-Slay-His-Orchestra-Flying-Circle-Cincinnati-45-RPM-S-4085-Vintage-Instrumental-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5690523_Eumot1.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -125,35 +156,6 @@
       }
     ]
   },
-  "ctbids-49194-5733284": {
-    "item_id": "ctbids-49194-5733284",
-    "listing_url": "https://ctbids.com/estate-sale/49194/item/5733284/Vintage-LIFE-Magazine-NASA-Booklet-Lot-JFK-Jacqueline-Kennedy-Apollo-Space-Exploration-Life",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5733284_kVBx7t.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49272-5746361": {
     "item_id": "ctbids-49272-5746361",
     "listing_url": "https://ctbids.com/estate-sale/49272/item/5746361/Antique-Victorian-Style-Folding-Carpet-Rocker",
@@ -181,11 +183,65 @@
       }
     ]
   },
-  "ctbids-48367-5753492": {
-    "item_id": "ctbids-48367-5753492",
-    "listing_url": "https://ctbids.com/estate-sale/48367/item/5753492/MI410-Religious-Jewelry",
+  "ctbids-49528-5776641": {
+    "item_id": "ctbids-49528-5776641",
+    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776641/Barbra-Streisand-Look-Stout-Hearted-Men-Columbia-45-RPM-Single-A-44225",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753492_BE4Fmt.webp"
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5690493_98wilJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49528-5776693": {
+    "item_id": "ctbids-49528-5776693",
+    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776693/Ernest-Tubb-The-Woman-s-Touch-Kansas-City-Blues-Decca-45-RPM-No-9-29415",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5680358_8VD7CQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49528-5776782": {
+    "item_id": "ctbids-49528-5776782",
+    "listing_url": "https://ctbids.com/estate-sale/49528/item/5776782/Morris-Albert-Feelings-Memories-RCA-Gold-Standard-Stereo-45-RPM-Single-GB-10937",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5690471_jMlLUv.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -228,6 +284,143 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49219-5744837": {
+    "item_id": "ctbids-49219-5744837",
+    "listing_url": "https://ctbids.com/estate-sale/49219/item/5744837/Assorted-Bathroom-Items",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5744837_W04ibw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281107604": {
+    "item_id": "281107604",
+    "listing_url": "https://shopgoodwill.com/item/281107604",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-10-19/ab4b7697-f4b0-4e99-aa39-26acf71cb274tura_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-10-19/c95016f5-e795-41b0-8334-7e5f38183556tura_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-10-19/49a554be-30ef-4c5b-b99d-07337d6837bbtura_10193.jpg"
+    ],
+    "description": "N/a Minerals\nBrand:\nN/a\nType:\nMinerals\nCondition:\nGood - shows some sign of wear\nEvergreen Goodwill helps people get jobs across Northwest Washington by offering high-quality free job training, education and job placement. We empower individuals to overcome barriers to working by providing comprehensive support and connecting them with life-changing job opportunities, ensuring they are career-ready and can support themselves and their families.",
+    "score_reasons": [
+      "Opportunity term 'minerals' in description (+1)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'minerals' in description (+1)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49185-5739494": {
+    "item_id": "ctbids-49185-5739494",
+    "listing_url": "https://ctbids.com/estate-sale/49185/item/5739494/Coca-Cola-Decor-And-Other-Decorative-Plates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5739494_gJrksF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48367-5753089": {
+    "item_id": "ctbids-48367-5753089",
+    "listing_url": "https://ctbids.com/estate-sale/48367/item/5753089/MI005-Netgear-WiFi-Range-Extender",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753089_JtYc6l.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48367-5753492": {
+    "item_id": "ctbids-48367-5753492",
+    "listing_url": "https://ctbids.com/estate-sale/48367/item/5753492/MI410-Religious-Jewelry",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753492_BE4Fmt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -289,33 +482,6 @@
       }
     ]
   },
-  "ctbids-48367-5753089": {
-    "item_id": "ctbids-48367-5753089",
-    "listing_url": "https://ctbids.com/estate-sale/48367/item/5753089/MI005-Netgear-WiFi-Range-Extender",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753089_JtYc6l.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "281279452": {
     "item_id": "281279452",
     "listing_url": "https://shopgoodwill.com/item/281279452",
@@ -370,56 +536,6 @@
           "Opportunity term 'vintage' in title (+6)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49185-5739549": {
-    "item_id": "ctbids-49185-5739549",
-    "listing_url": "https://ctbids.com/estate-sale/49185/item/5739549/MCM-Enamel-Copper-Dish-And-Brass-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5739549_LJAqVn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49185-5739494": {
-    "item_id": "ctbids-49185-5739494",
-    "listing_url": "https://ctbids.com/estate-sale/49185/item/5739494/Coca-Cola-Decor-And-Other-Decorative-Plates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5739494_gJrksF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -558,6 +674,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -565,11 +682,60 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281147989": {
+    "item_id": "281147989",
+    "listing_url": "https://shopgoodwill.com/item/281147989",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/4b73d2c8-cdd8-4976-a56f-8cfed203198bdmin_10121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/c6f390c5-7cd2-4212-b651-bf7d1cc4b530dmin_10122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/da32ee72-c48c-4ecd-9ec0-a171fd2d5a6cdmin_10123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/cc815801-85e4-4f8e-937b-79b72fedc5a5dmin_10124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/f17613c7-3853-4ec0-94e5-40d9c4f41ac3dmin_10125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/f6d59490-5b13-46d7-88dc-b26b4fe3185ddmin_10126.jpg"
+    ],
+    "description": "Mixed Geological Specimen Lot\nAmethyst Geodes, Rose Quartz, Tiger's Eye, and Quartz Points\nCollection of Rough and Polished Minerals\nThis comprehensive geological collection features a diverse array of mineral specimens in both natural rough and lapidary polished forms. The set includes significant crystalline structures such as amethyst geodes and quartz points alongside a variety of tumbled stones, decorative carvings, and raw mineral fragments suitable for display or study.\nITEMS INCLUDED:\n1.\nAmethyst Geode Clusters\n- Multiple specimens showing purple crystalline structures, largest measuring 3\" x 2.25\" x 1.5\".\n2.\nRose Quartz\n- Includes a large polished disc and various rough fragments.\n3.\nTiger's Eye\n- Polished pieces displaying characteristic chatoyancy.\n4.\nClear Quartz\n- Natural prismatic points and crystalline forms.\n5.\nMixed Tumbled Stones\n- Assorted varieties including specimens of lapis lazuli, aventurine, and jasper.\n6.\nEtched Stone\n- Polished white stone featuring a black seahorse motif.\nCondition:\nGood condition. Specimens exhibit natural imperfections, internal fractures, and surface variations inherent to mineral samples. Polished pieces show smooth finishes with minor usage wear. All pieces are complete as shown with no major structural damage beyond natural geological formations.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'carvings' in description (-7)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+9)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'carvings' in description (-7)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+9)"
         ],
         "matched_keywords": []
       }
@@ -605,31 +771,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49272/item/5764050/T-Bags-Black-Motorcycle-Sissy-Bar-Luggage-Bag-with-Rain-Cover",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764050_HmhmZ3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49219-5744837": {
-    "item_id": "ctbids-49219-5744837",
-    "listing_url": "https://ctbids.com/estate-sale/49219/item/5744837/Assorted-Bathroom-Items",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5744837_W04ibw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -725,81 +866,6 @@
       }
     ]
   },
-  "281147989": {
-    "item_id": "281147989",
-    "listing_url": "https://shopgoodwill.com/item/281147989",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/4b73d2c8-cdd8-4976-a56f-8cfed203198bdmin_10121.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/c6f390c5-7cd2-4212-b651-bf7d1cc4b530dmin_10122.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/da32ee72-c48c-4ecd-9ec0-a171fd2d5a6cdmin_10123.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/cc815801-85e4-4f8e-937b-79b72fedc5a5dmin_10124.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/f17613c7-3853-4ec0-94e5-40d9c4f41ac3dmin_10125.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-12/f6d59490-5b13-46d7-88dc-b26b4fe3185ddmin_10126.jpg"
-    ],
-    "description": "Mixed Geological Specimen Lot\nAmethyst Geodes, Rose Quartz, Tiger's Eye, and Quartz Points\nCollection of Rough and Polished Minerals\nThis comprehensive geological collection features a diverse array of mineral specimens in both natural rough and lapidary polished forms. The set includes significant crystalline structures such as amethyst geodes and quartz points alongside a variety of tumbled stones, decorative carvings, and raw mineral fragments suitable for display or study.\nITEMS INCLUDED:\n1.\nAmethyst Geode Clusters\n- Multiple specimens showing purple crystalline structures, largest measuring 3\" x 2.25\" x 1.5\".\n2.\nRose Quartz\n- Includes a large polished disc and various rough fragments.\n3.\nTiger's Eye\n- Polished pieces displaying characteristic chatoyancy.\n4.\nClear Quartz\n- Natural prismatic points and crystalline forms.\n5.\nMixed Tumbled Stones\n- Assorted varieties including specimens of lapis lazuli, aventurine, and jasper.\n6.\nEtched Stone\n- Polished white stone featuring a black seahorse motif.\nCondition:\nGood condition. Specimens exhibit natural imperfections, internal fractures, and surface variations inherent to mineral samples. Polished pieces show smooth finishes with minor usage wear. All pieces are complete as shown with no major structural damage beyond natural geological formations.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'carvings' in description (-7)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+13)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'carvings' in description (-7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+13)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281107604": {
-    "item_id": "281107604",
-    "listing_url": "https://shopgoodwill.com/item/281107604",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-10-19/ab4b7697-f4b0-4e99-aa39-26acf71cb274tura_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-10-19/c95016f5-e795-41b0-8334-7e5f38183556tura_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/48/Items/2026-10-19/49a554be-30ef-4c5b-b99d-07337d6837bbtura_10193.jpg"
-    ],
-    "description": "N/a Minerals\nBrand:\nN/a\nType:\nMinerals\nCondition:\nGood - shows some sign of wear\nEvergreen Goodwill helps people get jobs across Northwest Washington by offering high-quality free job training, education and job placement. We empower individuals to overcome barriers to working by providing comprehensive support and connecting them with life-changing job opportunities, ensuring they are career-ready and can support themselves and their families.",
-    "score_reasons": [
-      "Opportunity term 'minerals' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'minerals' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "281373357": {
     "item_id": "281373357",
     "listing_url": "https://shopgoodwill.com/item/281373357",
@@ -814,9 +880,10 @@
     "score_reasons": [
       "Lower-priority term 'decorative' in description (-8)",
       "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+17)"
+      "Score boundary adjustment (+13)"
     ],
     "hunt_scores": [
       {
@@ -827,9 +894,10 @@
         "score_reasons": [
           "Lower-priority term 'decorative' in description (-8)",
           "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+17)"
+          "Score boundary adjustment (+13)"
         ],
         "matched_keywords": []
       }
@@ -990,56 +1058,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49218/item/5742910/C-B-Tatum-Original-Tin-Art-And-More",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5742910_2DRblq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49195-5741863": {
-    "item_id": "ctbids-49195-5741863",
-    "listing_url": "https://ctbids.com/estate-sale/49195/item/5741863/Watercolor-By-Artist-Lambert-And-Rochester-Area-Print-41-X-24-And-21-X-17-With-Frames",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5741863_zIREI6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49002-5764928": {
-    "item_id": "ctbids-49002-5764928",
-    "listing_url": "https://ctbids.com/estate-sale/49002/item/5764928/Emil-Busch-Rathenow-Binoculars",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5764928_xZIGhU.webp"
     ],
     "description": "",
     "score_reasons": [
