@@ -15,6 +15,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -22,13 +23,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 30,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -233,6 +235,33 @@
       }
     ]
   },
+  "ctbids-48920-5737128": {
+    "item_id": "ctbids-48920-5737128",
+    "listing_url": "https://ctbids.com/estate-sale/48920/item/5737128/Antique-Howard-Miller-Mantel-Clock",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737128_toPegR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281806133": {
     "item_id": "281806133",
     "listing_url": "https://shopgoodwill.com/item/281806133",
@@ -261,33 +290,6 @@
           "Flat shipping is only $0.01 (+10)",
           "$5.21 handling charge (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48920-5737128": {
-    "item_id": "ctbids-48920-5737128",
-    "listing_url": "https://ctbids.com/estate-sale/48920/item/5737128/Antique-Howard-Miller-Mantel-Clock",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737128_toPegR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -509,33 +511,6 @@
       }
     ]
   },
-  "ctbids-49586-5780926": {
-    "item_id": "ctbids-49586-5780926",
-    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780926/Cast-Aluminum-Rooster-Trivet-Silver-Tone-Detailed-Feathers-Hot-Pad-or-Wall-Decor-Farmhouse-Kitch",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5780926_0gMUVq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49586-5780405": {
     "item_id": "ctbids-49586-5780405",
     "listing_url": "https://ctbids.com/estate-sale/49586/item/5780405/Clear-Glass-Hyacinth-Bulb-Forcing-Vase-Hourglass-Shape-with-Cup-Top-Modern-Minimalist",
@@ -568,33 +543,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49002/item/5759356/Slot-Car-Pieces-And-Parts-Part-2",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5759356_puhBj5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49586-5780856": {
-    "item_id": "ctbids-49586-5780856",
-    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780856/Round-Glass-Deviled-Egg-Platter-Embossed-Pine-Branch-and-Pinecone-Design-Clear-Scalloped-Wells",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5780856_1LwgJ2.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -743,6 +691,60 @@
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49586-5780926": {
+    "item_id": "ctbids-49586-5780926",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780926/Cast-Aluminum-Rooster-Trivet-Silver-Tone-Detailed-Feathers-Hot-Pad-or-Wall-Decor-Farmhouse-Kitch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5780926_0gMUVq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49586-5780856": {
+    "item_id": "ctbids-49586-5780856",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780856/Round-Glass-Deviled-Egg-Platter-Embossed-Pine-Branch-and-Pinecone-Design-Clear-Scalloped-Wells",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5780856_1LwgJ2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -1218,6 +1220,46 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+12)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282030996": {
+    "item_id": "282030996",
+    "listing_url": "https://shopgoodwill.com/item/282030996",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/98/Items/2026-10-27/90c24048-c342-4568-9a9b-e173804b2f53gil1_10271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/98/Items/2026-10-27/40ed867b-6916-4fb1-a7ce-236fbc995499gil1_10272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/98/Items/2026-10-27/903298f4-e157-4794-b002-3bfa1c69f8cegil1_10273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/98/Items/2026-10-27/9ca33a2f-f2b2-46eb-b2f4-96032166dbd6gil1_10274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/98/Items/2026-10-27/a727e743-51a4-4218-8fdc-f3bbd535b7a8gil1_10275.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/98/Items/2026-10-27/159a5da4-ee2f-4bac-b788-b99d54e8bfadgil1_10276.jpg"
+    ],
+    "description": "Item Description:\nPolished Agate Geode Bookends (Brazil), Turquoise, White, Green, Black Exterior\nA pair of polished natural agate geode slabs, made into bookends; could also be used as separate desk sculptures or paperweights. Have a crusty black/purplish exterior with what appears to be natural but may be dyed turquoise upper layer \"skin\" border, with a white and clear feathered crystalline inner structure. One piece shows the center ball like glittery ball like formations of the inner geode, surrounded by a creamy off white color. On the reverse side, the surface is a more mottled and striped sage green and other teal and green hues more matte polished stone. The narrow face shows a blocky rectangular pair of images symmetrically opposed with an white geode crystal interior and a t shaped turquoise border. The variety of visual perspectives and colors/textures contained within this pair of polished rocks slabs thus makes for a very interesting and useful decor item.\nManufacturer/Markings:\nOne item has a white sticker \"Made in Brazil\"\nDimensions (LxWxH):\nEach piece is approximately 4\" x 2\" x 3\"\nColor(s):\nWhite, clear, turquoise, purplish black, cream color, green, teal, blue\nCondition/Damage:\nIn good condition with some natural damage/roughness as this is natural polished stone.\nModel number, if applicable:\nnone\nWeight of item:\nApproximately 3 lbs 8 oz.\nUsed Items Disclaimer\nThis is a pre-owned item and is being sold \"AS IS \" If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books andInternet, however, we are not experts in any field.\nEvery person has the opportunity to achieve his/her fullest potential and participate in and contribute to all aspects of life, and with your help, you are making dreams come true.\nGoodwill of Southeast Georgia, Thank you for your continued support!",
+    "score_reasons": [
+      "Opportunity term 'rocks' in description (+1)",
+      "Lower-priority term 'decor' in description (-8)",
+      "Lower-priority term 'dyed' in description (-18)",
+      "Less relevant category 'Jewelry' (-12)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+38)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'rocks' in description (+1)",
+          "Lower-priority term 'decor' in description (-8)",
+          "Lower-priority term 'dyed' in description (-18)",
+          "Less relevant category 'Jewelry' (-12)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+38)"
         ],
         "matched_keywords": []
       }
