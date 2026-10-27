@@ -63,6 +63,7 @@
       "Opportunity term 'specimen' in description (+1)",
       "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -70,14 +71,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 17,
-        "relative_score": 0.567,
+        "score": 21,
+        "relative_score": 0.7,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'specimen' in description (+1)",
           "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -180,16 +182,16 @@
       }
     ]
   },
-  "ctbids-49182-5737666": {
-    "item_id": "ctbids-49182-5737666",
-    "listing_url": "https://ctbids.com/estate-sale/49182/item/5737666/Antique-Vintage-English-Transferware-Serving-Pieces-3",
+  "ctbids-49586-5780575": {
+    "item_id": "ctbids-49586-5780575",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780575/Brook-Benton-Your-Eyes-The-Boll-Weevil-Song-45-RPM-Mercury-71820-Vintage-Vinyl",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5737666_OdNqXc.webp"
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5693831_PColgR.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -197,11 +199,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -218,6 +220,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -225,10 +228,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -245,6 +249,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -252,10 +257,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -371,6 +377,60 @@
       }
     ]
   },
+  "ctbids-49586-5780333": {
+    "item_id": "ctbids-49586-5780333",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780333/Porcelain-Harlequin-Jester-Doll-Teal-and-Gold-Satin-Costume-Bell-Hat-with-Display-Stand",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5776498_puFJcl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49586-5780377": {
+    "item_id": "ctbids-49586-5780377",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780377/Lew-Raymond-Orchestra-78-RPM-Record-Dragnet-Ebb-Tide-Tops-379-Instrumental-Maroon-Label",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5749014_CggxNQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49218-5757897": {
     "item_id": "ctbids-49218-5757897",
     "listing_url": "https://ctbids.com/estate-sale/49218/item/5757897/Lot-Of-Owls",
@@ -398,6 +458,114 @@
       }
     ]
   },
+  "ctbids-49586-5780464": {
+    "item_id": "ctbids-49586-5780464",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780464/Joe-Jones-California-Sun-Please-Don-t-Talk-About-Me-When-I-m-Gone-R-4344-Radio-Station-Copy",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5690521_Ghbw4P.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49586-5780508": {
+    "item_id": "ctbids-49586-5780508",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780508/Parini-Stainless-Steel-Accent-2-Slice-Toaster-in-Original-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5575659_crgxHU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49586-5780556": {
+    "item_id": "ctbids-49586-5780556",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780556/Double-The-Captain-of-Her-Heart-Your-Prayer-Takes-Me-Off-Part-II-Dub-A-M-AM-2838-45-RP",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5685542_TIaTHx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49586-5780545": {
+    "item_id": "ctbids-49586-5780545",
+    "listing_url": "https://ctbids.com/estate-sale/49586/item/5780545/Ray-Peterson-Tell-Laura-I-Love-Her-Wedding-Day-RCA-Victor-45-RPM-No-47-7745",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5685603_ePSXhP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49212-5737080": {
     "item_id": "ctbids-49212-5737080",
     "listing_url": "https://ctbids.com/estate-sale/49212/item/5737080/Tag-Sunglasses",
@@ -406,6 +574,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -413,9 +582,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48052-5461667": {
+    "item_id": "ctbids-48052-5461667",
+    "listing_url": "https://ctbids.com/estate-sale/48052/item/5461667/Bath-Beauty-Bundle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-21T3c9069/5461667_GVsers.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48052-5441536": {
+    "item_id": "ctbids-48052-5441536",
+    "listing_url": "https://ctbids.com/estate-sale/48052/item/5441536/Red-Gold",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-25T589b14/5441536_Sv8kzg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -448,61 +672,11 @@
       }
     ]
   },
-  "ctbids-48052-5461667": {
-    "item_id": "ctbids-48052-5461667",
-    "listing_url": "https://ctbids.com/estate-sale/48052/item/5461667/Bath-Beauty-Bundle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-21T3c9069/5461667_GVsers.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49218-5737925": {
     "item_id": "ctbids-49218-5737925",
     "listing_url": "https://ctbids.com/estate-sale/49218/item/5737925/Religious-Artifacts-Pictures-Crosses-Etc",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5737925_BIiXs3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48052-5441536": {
-    "item_id": "ctbids-48052-5441536",
-    "listing_url": "https://ctbids.com/estate-sale/48052/item/5441536/Red-Gold",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-25T589b14/5441536_Sv8kzg.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -773,101 +947,33 @@
       }
     ]
   },
-  "ctbids-49311-5769583": {
-    "item_id": "ctbids-49311-5769583",
-    "listing_url": "https://ctbids.com/estate-sale/49311/item/5769583/Pete-Rose-Signed-Rawlings-Baseball-with-Box",
+  "281977510": {
+    "item_id": "281977510",
+    "listing_url": "https://shopgoodwill.com/item/281977510",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5769583_ExRZP8.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/f76b4f8d-9cdf-48d7-b138-3fd5d6e386e0ospe_10271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/7625a0e6-3812-4bd5-bbfa-ed049e5c5720ospe_10272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/f93b361d-6238-4c81-ac2c-0e3eda311fedospe_10273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/2331eca6-78da-4072-90b7-c93613a4556eospe_10274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/ac260045-8e95-4de5-8ecc-7000affaaa67ospe_10275.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/82032c69-2df6-4561-8ec9-8991a6e1d120ospe_10276.jpg"
     ],
-    "description": "",
+    "description": "Set of 4 assorted mineral specimens including two black and brown polished geode halves, one rough rose quartz crystal, and one blue agate geode labeled 'Made in Brazil.' These are natural mineral specimens, cut and polished on one side.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 1,
-        "relative_score": 0.029,
+        "relative_score": 0.033,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49311-5769676": {
-    "item_id": "ctbids-49311-5769676",
-    "listing_url": "https://ctbids.com/estate-sale/49311/item/5769676/Rawlings-Official-American-League-baseball-signed-by-Bobby-Richardson-with-inscriptions-that-appear",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5769676_uODgVY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49028-5757784": {
-    "item_id": "ctbids-49028-5757784",
-    "listing_url": "https://ctbids.com/estate-sale/49028/item/5757784/Nintendo-64-N64-Console-with-Controller-Cords-NFL-Quarterback-Club-98-3-Xbox-360-Games-Untested",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5757784_V2PWqo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49311-5762984": {
-    "item_id": "ctbids-49311-5762984",
-    "listing_url": "https://ctbids.com/estate-sale/49311/item/5762984/1995-Goebel-M-I-Hummel-AAFES-100th-Anniversary-Commemorative-Plaque-187-A-Germany",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5762984_VQU2o8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
