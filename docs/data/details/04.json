@@ -15,6 +15,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -22,13 +23,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 30,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'mixed' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -105,6 +107,78 @@
       }
     ]
   },
+  "281231350": {
+    "item_id": "281231350",
+    "listing_url": "https://shopgoodwill.com/item/281231350",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/54013d8f-5c73-4fba-aa38-8b972d7ae02dbson_10201.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/34a660a0-e726-468d-bf75-412ec996c51dbson_10202.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/bcd1b1af-135c-48b9-9dfc-107cdc5ad8f8bson_10203.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/8fef74df-17f1-4c79-9d55-6347b651915dbson_10204.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/8446240e-f786-496e-988c-673e3f6a137abson_10205.jpg"
+    ],
+    "description": "This lot includes a variety of collectible rocks, minerals, and gemstones featuring a granite display piece labeled London Bridge, a quartz geode, and a cluster of raw blue celestite. There are also red coral beads or tumbled stones, a collection of assorted small tumbled stones, and several polished stones such as rose quartz, lapis lazuli, and engraved stones with inscriptions like miracle and harmony. The pieces show natural variations and minor wear consistent with their origins. This diverse set offers a range of sizes, shapes, and colors.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "0 bids near close (+4)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 14,
+        "relative_score": 0.467,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "0 bids near close (+4)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49365-5752751": {
+    "item_id": "ctbids-49365-5752751",
+    "listing_url": "https://ctbids.com/estate-sale/49365/item/5752751/Antique-6-Arm-Brass-bronze-copper-Vertegris-Chandelier-W-Onyx-Saucers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752751_fkAJYK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281998472": {
     "item_id": "281998472",
     "listing_url": "https://shopgoodwill.com/item/281998472",
@@ -142,76 +216,6 @@
           "Lower-priority term 'as is' in description (-3)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49365-5752751": {
-    "item_id": "ctbids-49365-5752751",
-    "listing_url": "https://ctbids.com/estate-sale/49365/item/5752751/Antique-6-Arm-Brass-bronze-copper-Vertegris-Chandelier-W-Onyx-Saucers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752751_fkAJYK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281231350": {
-    "item_id": "281231350",
-    "listing_url": "https://shopgoodwill.com/item/281231350",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/54013d8f-5c73-4fba-aa38-8b972d7ae02dbson_10201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/34a660a0-e726-468d-bf75-412ec996c51dbson_10202.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/bcd1b1af-135c-48b9-9dfc-107cdc5ad8f8bson_10203.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/8fef74df-17f1-4c79-9d55-6347b651915dbson_10204.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-20/8446240e-f786-496e-988c-673e3f6a137abson_10205.jpg"
-    ],
-    "description": "This lot includes a variety of collectible rocks, minerals, and gemstones featuring a granite display piece labeled London Bridge, a quartz geode, and a cluster of raw blue celestite. There are also red coral beads or tumbled stones, a collection of assorted small tumbled stones, and several polished stones such as rose quartz, lapis lazuli, and engraved stones with inscriptions like miracle and harmony. The pieces show natural variations and minor wear consistent with their origins. This diverse set offers a range of sizes, shapes, and colors.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -379,15 +383,15 @@
       }
     ]
   },
-  "ctbids-49050-5744239": {
-    "item_id": "ctbids-49050-5744239",
-    "listing_url": "https://ctbids.com/estate-sale/49050/item/5744239/Red-Resin-Elephant-Figurine",
+  "ctbids-48837-5708641": {
+    "item_id": "ctbids-48837-5708641",
+    "listing_url": "https://ctbids.com/estate-sale/48837/item/5708641/Assorted-Hand-Tools-Hardware-Equipment",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5744239_nATzvN.webp"
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708641_2KlKaw.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -395,10 +399,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -438,60 +442,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48837/item/5764504/Deluxe-Heavy-Duty-Tree-Bag",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764504_9j5E0S.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49313-5761432": {
-    "item_id": "ctbids-49313-5761432",
-    "listing_url": "https://ctbids.com/estate-sale/49313/item/5761432/Dinosaur-Nightlight-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5504235_Gu0md6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49056-5735679": {
-    "item_id": "ctbids-49056-5735679",
-    "listing_url": "https://ctbids.com/estate-sale/49056/item/5735679/Crystal-And-Cut-Glass-Party",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5735679_j5j462.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -609,6 +559,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49076/item/5715815/Boys-Youth-Mystery-Clothing-Bundle-Hurley-More",
     "images": [
       "https://image.ctbids.com/seller/2026-10-10T94c0c9/5715815_3hNuNP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49050-5744239": {
+    "item_id": "ctbids-49050-5744239",
+    "listing_url": "https://ctbids.com/estate-sale/49050/item/5744239/Red-Resin-Elephant-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5744239_nATzvN.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -804,6 +779,31 @@
       }
     ]
   },
+  "ctbids-49313-5761432": {
+    "item_id": "ctbids-49313-5761432",
+    "listing_url": "https://ctbids.com/estate-sale/49313/item/5761432/Dinosaur-Nightlight-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5504235_Gu0md6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49374-5757921": {
     "item_id": "ctbids-49374-5757921",
     "listing_url": "https://ctbids.com/estate-sale/49374/item/5757921/Serbian-Folk-Art-Painting-Signed-M-Sultra",
@@ -879,6 +879,31 @@
       }
     ]
   },
+  "ctbids-49056-5735679": {
+    "item_id": "ctbids-49056-5735679",
+    "listing_url": "https://ctbids.com/estate-sale/49056/item/5735679/Crystal-And-Cut-Glass-Party",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5735679_j5j462.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49213-5733612": {
     "item_id": "ctbids-49213-5733612",
     "listing_url": "https://ctbids.com/estate-sale/49213/item/5733612/Staffordshire-Style-Couple-With-Fruit-Baskets-Figurines",
@@ -909,31 +934,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49056/item/5745266/Books-Books-Books",
     "images": [
       "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745266_T9usQG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48837-5708641": {
-    "item_id": "ctbids-48837-5708641",
-    "listing_url": "https://ctbids.com/estate-sale/48837/item/5708641/Assorted-Hand-Tools-Hardware-Equipment",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5708641_2KlKaw.webp"
     ],
     "description": "",
     "score_reasons": [

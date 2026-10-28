@@ -16,6 +16,7 @@
       "Lower-priority term 'yello-bole' in description (-11)",
       "Target keyword 'briar' in title (+5)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "1 bid near close (+2)",
       "Flat shipping is only $0.01 (+9)",
       "Base score (+5)"
     ],
@@ -23,8 +24,8 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 47,
-        "relative_score": 1.343,
+        "score": 49,
+        "relative_score": 1.4,
         "score_reasons": [
           "Opportunity term 'estate' in description (+11)",
           "Opportunity term 'collection' in title (+7)",
@@ -32,6 +33,7 @@
           "Lower-priority term 'yello-bole' in description (-11)",
           "Target keyword 'briar' in title (+5)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "1 bid near close (+2)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
         ],
@@ -420,40 +422,6 @@
       }
     ]
   },
-  "282074600": {
-    "item_id": "282074600",
-    "listing_url": "https://shopgoodwill.com/item/282074600",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/99a1f9bf-9f06-4c9c-ad47-c0c533542fbdrell_10271.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/9a9f3a1f-b68a-446e-bbc4-1714e6a67df9rell_10272.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/4b8fded3-5797-4347-b11a-7d614cc1e616rell_10273.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/423bbbc0-5965-4ef5-973f-81c5cd0ba96crell_10274.jpg"
-    ],
-    "description": "Rock Mineral Specimen Lot 3.65 lbs Talc Soapstone Granite Labeled Bags\nThis lot includes various rock and mineral specimens sorted into individual labeled plastic bags. Samples visible include talc-rich soapstone, gray granite, and other rocks labeled 'F', 'G', and '9'. The specimens are irregularly shaped, unpolished, and display colors ranging from gray and black to speckled white and gray. Some bags contain multiple pieces. Total weight of the lot is approximately 3.65 lbs as measured on an Accuteck digital scale. Suitable for educational, geological study, or hobbyist rock collecting purposes.\nDetails",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48449-5655956": {
     "item_id": "ctbids-48449-5655956",
     "listing_url": "https://ctbids.com/estate-sale/48449/item/5655956/Arizona-Stampede",
@@ -489,7 +457,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -500,7 +468,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -530,6 +498,40 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282074600": {
+    "item_id": "282074600",
+    "listing_url": "https://shopgoodwill.com/item/282074600",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/99a1f9bf-9f06-4c9c-ad47-c0c533542fbdrell_10271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/9a9f3a1f-b68a-446e-bbc4-1714e6a67df9rell_10272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/4b8fded3-5797-4347-b11a-7d614cc1e616rell_10273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/130/Item/2026-10-27/423bbbc0-5965-4ef5-973f-81c5cd0ba96crell_10274.jpg"
+    ],
+    "description": "Rock Mineral Specimen Lot 3.65 lbs Talc Soapstone Granite Labeled Bags\nThis lot includes various rock and mineral specimens sorted into individual labeled plastic bags. Samples visible include talc-rich soapstone, gray granite, and other rocks labeled 'F', 'G', and '9'. The specimens are irregularly shaped, unpolished, and display colors ranging from gray and black to speckled white and gray. Some bags contain multiple pieces. Total weight of the lot is approximately 3.65 lbs as measured on an Accuteck digital scale. Suitable for educational, geological study, or hobbyist rock collecting purposes.\nDetails",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in description (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in description (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -828,42 +830,6 @@
       }
     ]
   },
-  "281957309": {
-    "item_id": "281957309",
-    "listing_url": "https://shopgoodwill.com/item/281957309",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/c619774a-d275-429c-94c5-e6afd96e44e2ejoe_10231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/da257e2b-6448-42bb-86f8-32f7d1fd703bejoe_10232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/64dc7922-079d-49b1-9a50-1ac3f36c7365ejoe_10233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/e4bb95bb-df8a-4183-a354-13df7970792eejoe_10234.jpg"
-    ],
-    "description": "Title\n: Mineral Rock & Crystal Specimen Collection Bundle\nCondition\n: Used\nDepartment\n: Collectibles & Art\nDescription\n: Enhance your collection or decor with this distinctive mineral rock and crystal specimen bundle. This set includes multiple raw mineral rock pieces, several crystalline selenite sticks in sealed packaging, and two unique sailboat sculptures set on stone basesone with a striking dark sail, the other featuring a multicolored design. The objects display natural color and texture variations, adding to their one-of-a-kind aesthetic and appeal. The sturdy selenite sticks can serve both as display pieces or in your mineral collection. The sailboat figures offer artistic value, making them ideal for a desk, shelf, or display cabinet. Each mineral specimen is shown clearly in the images, so you receive exactly what you see. Items show some surface wear and marks, appropriate for pre-owned display minerals. Perfect for enthusiasts, decorators, or anyone seeking unique mineral-based art and collectibles",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Lower-priority term 'decor' in description (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Lower-priority term 'decor' in description (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49374-5759512": {
     "item_id": "ctbids-49374-5759512",
     "listing_url": "https://ctbids.com/estate-sale/49374/item/5759512/Royal-Gallery-Polish-Cased-Art-Glass-Blue-White-Spotted-Vase-and-Bowl-Set",
@@ -939,6 +905,42 @@
       }
     ]
   },
+  "281957309": {
+    "item_id": "281957309",
+    "listing_url": "https://shopgoodwill.com/item/281957309",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/c619774a-d275-429c-94c5-e6afd96e44e2ejoe_10231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/da257e2b-6448-42bb-86f8-32f7d1fd703bejoe_10232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/64dc7922-079d-49b1-9a50-1ac3f36c7365ejoe_10233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/e4bb95bb-df8a-4183-a354-13df7970792eejoe_10234.jpg"
+    ],
+    "description": "Title\n: Mineral Rock & Crystal Specimen Collection Bundle\nCondition\n: Used\nDepartment\n: Collectibles & Art\nDescription\n: Enhance your collection or decor with this distinctive mineral rock and crystal specimen bundle. This set includes multiple raw mineral rock pieces, several crystalline selenite sticks in sealed packaging, and two unique sailboat sculptures set on stone basesone with a striking dark sail, the other featuring a multicolored design. The objects display natural color and texture variations, adding to their one-of-a-kind aesthetic and appeal. The sturdy selenite sticks can serve both as display pieces or in your mineral collection. The sailboat figures offer artistic value, making them ideal for a desk, shelf, or display cabinet. Each mineral specimen is shown clearly in the images, so you receive exactly what you see. Items show some surface wear and marks, appropriate for pre-owned display minerals. Perfect for enthusiasts, decorators, or anyone seeking unique mineral-based art and collectibles",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Lower-priority term 'decor' in description (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Lower-priority term 'decor' in description (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281848978": {
     "item_id": "281848978",
     "listing_url": "https://shopgoodwill.com/item/281848978",
@@ -999,6 +1001,46 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282132597": {
+    "item_id": "282132597",
+    "listing_url": "https://shopgoodwill.com/item/282132597",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-28/38b45b15-09ab-416b-9a02-037083542bc6ntro_10281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-28/3a579107-7a51-4d92-a99a-310dfa8d2ba6ntro_10282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-28/921a5c1d-b6ad-4ee1-ae4d-5109ec3b0936ntro_10283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-28/a8b8ab45-5554-4195-b7a1-4c1bd1a238b4ntro_10284.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-28/062ef541-1f79-4f22-82a7-d57826f55c56ntro_10285.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-10-28/c395dd2a-73aa-4f23-96e9-8de1e560f274ntro_10286.jpg"
+    ],
+    "description": "This listing includes a mixed lot of raw mineral and crystal specimens featuring quartz crystals, geodes, agate, and other mineral stones. The collection contains various natural colors including white, brown, purple (amethyst), green, pink (rose quartz and dyed quartz), and rusty orange-brown. Some specimens display crystal clusters, druzy surfaces, and layered rust-colored bands over quartz crystals. All items are in raw, unpolished condition with natural variations. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'dyed' in description (-18)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'dyed' in description (-18)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+8)"
         ],
         "matched_keywords": []
       }
