@@ -165,7 +165,7 @@
       "Opportunity term 'assorted' in description (+2)",
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "16 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -181,7 +181,7 @@
           "Opportunity term 'assorted' in description (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "16 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -359,33 +359,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49262/item/5758621/Wooden-Puzzle-Games-Model",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5758621_MszGzf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48179-5763779": {
-    "item_id": "ctbids-48179-5763779",
-    "listing_url": "https://ctbids.com/estate-sale/48179/item/5763779/Set-Of-3-Statement-Necklaces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763779_nWt4iq.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -648,6 +621,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49380/item/5758670/Rongrong-DeVoe-Bun-Flower-Girl-Print-on-Canvas-21-x-30",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5758670_rV4yIh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48179-5763779": {
+    "item_id": "ctbids-48179-5763779",
+    "listing_url": "https://ctbids.com/estate-sale/48179/item/5763779/Set-Of-3-Statement-Necklaces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763779_nWt4iq.webp"
     ],
     "description": "",
     "score_reasons": [

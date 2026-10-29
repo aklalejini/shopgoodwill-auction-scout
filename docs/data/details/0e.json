@@ -229,7 +229,7 @@
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'mixed' in description (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "20 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -238,14 +238,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 10,
+        "relative_score": 0.333,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'mixed' in description (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -368,43 +368,6 @@
       }
     ]
   },
-  "281443005": {
-    "item_id": "281443005",
-    "listing_url": "https://shopgoodwill.com/item/281443005",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/f7613573-d7e7-492b-a763-cf029c05d45bmson_10221.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/699608dd-8351-4daf-b6ea-34e46ded7562mson_10222.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/390c6f0b-44ac-48f3-a1ed-06003e0cf5f5mson_10223.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/709af684-1311-416e-a994-bd2a9c5e1507mson_10224.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/b8765582-7311-45e7-bc70-9c6250eddff9mson_10225.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/c0dad6a6-347e-4e7b-a95c-67e0a394db4fmson_10226.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/400507c1-0302-4f5d-838b-2a8c015fd38cmson_10227.jpg"
-    ],
-    "description": "Material(s):\nStone\nCondition:\nMinimal signs of use\nImperfection(s):\nCrack(s), Needs Cleaning, Scratches",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49501-5766542": {
     "item_id": "ctbids-49501-5766542",
     "listing_url": "https://ctbids.com/estate-sale/49501/item/5766542/9-Piece-Vintage-Blue-White-Dinnerware-Set-Made-in-China",
@@ -463,35 +426,6 @@
       }
     ]
   },
-  "ctbids-48962-5749095": {
-    "item_id": "ctbids-48962-5749095",
-    "listing_url": "https://ctbids.com/estate-sale/48962/item/5749095/Vintage-Cross-Stitched-Quilt-Top",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5749095_DSmI6C.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48805-5726824": {
     "item_id": "ctbids-48805-5726824",
     "listing_url": "https://ctbids.com/estate-sale/48805/item/5726824/Vintage-1995-Budweiser-Holiday-Stein-Lighting-the-Way-Home",
@@ -516,6 +450,43 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281443005": {
+    "item_id": "281443005",
+    "listing_url": "https://shopgoodwill.com/item/281443005",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/f7613573-d7e7-492b-a763-cf029c05d45bmson_10221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/699608dd-8351-4daf-b6ea-34e46ded7562mson_10222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/390c6f0b-44ac-48f3-a1ed-06003e0cf5f5mson_10223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/709af684-1311-416e-a994-bd2a9c5e1507mson_10224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/b8765582-7311-45e7-bc70-9c6250eddff9mson_10225.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/c0dad6a6-347e-4e7b-a95c-67e0a394db4fmson_10226.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/86/Items/2026-10-22/400507c1-0302-4f5d-838b-2a8c015fd38cmson_10227.jpg"
+    ],
+    "description": "Material(s):\nStone\nCondition:\nMinimal signs of use\nImperfection(s):\nCrack(s), Needs Cleaning, Scratches",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -604,11 +575,11 @@
       }
     ]
   },
-  "ctbids-48805-5742213": {
-    "item_id": "ctbids-48805-5742213",
-    "listing_url": "https://ctbids.com/estate-sale/48805/item/5742213/Vintage-Framed-Winter-Landscape-Oil-Painting-Snow-Covered-Barn-Silo-Pond-Scene",
+  "ctbids-48962-5749095": {
+    "item_id": "ctbids-48962-5749095",
+    "listing_url": "https://ctbids.com/estate-sale/48962/item/5749095/Vintage-Cross-Stitched-Quilt-Top",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5742213_JYZ54z.webp"
+      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5749095_DSmI6C.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -631,11 +602,11 @@
       }
     ]
   },
-  "ctbids-48805-5737985": {
-    "item_id": "ctbids-48805-5737985",
-    "listing_url": "https://ctbids.com/estate-sale/48805/item/5737985/Vintage-Van-Bell-Winter-Landscape-Oil-Painting-Framed-Log-Cabin-Snow-Scene",
+  "ctbids-48805-5742213": {
+    "item_id": "ctbids-48805-5742213",
+    "listing_url": "https://ctbids.com/estate-sale/48805/item/5742213/Vintage-Framed-Winter-Landscape-Oil-Painting-Snow-Covered-Barn-Silo-Pond-Scene",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737985_hJg7RG.webp"
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5742213_JYZ54z.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1278,6 +1249,59 @@
           "11.5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+26)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282287900": {
+    "item_id": "282287900",
+    "listing_url": "https://shopgoodwill.com/item/282287900",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/bd416837-957d-4ca9-a897-fb75cf2327e2alak_10291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/d6073f48-b950-4e55-9568-f38ebafe762falak_10292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/4635d4d2-10eb-498f-8583-c15d1d08e9c1alak_10293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/3946a726-6d29-471d-92d7-c2e26ed22f16alak_10294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/6eb7157d-d4fa-4b42-88e6-751ff198b283alak_10295.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/2101f32d-e61b-4022-a3d6-f8dcfba2cd84alak_10296.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-10-29/ea4213bd-c92c-42dc-a530-a5f1dcd21dffalak_10297.jpg"
+    ],
+    "description": "Title\n: Mineral Specimen Lot Rocks Crystals Quartz Amethyst Assorted Home Decor\nColor\n: Mixed Colors\nDepartment\n: For The Home\nCategory\n: Hard Goods\nType\n: Rocks\nCondition\n: Good - shows some sign of wear\nApproximate measurements (inches)\n: 11L x 7W x 5H\nWeight (approximate)\n: 8 lbs\nDescription\n: Discover a varied selection of decorative minerals and crystals that will add a natural touch to any display or collection. This mixed lot features an assortment of raw, tumbled, and polished stones, including pink rose quartz, purple amethyst, geode formations, and a range of other minerals in different shapes and hues. Some stones are presented in zip bags, while others are loose or stored in a divided plastic box, making it easy to organize or gift to enthusiasts.\nThese items offer versatility for home decor, metaphysical use, educational display, or rock collecting. The variety in textures and colors makes this collection appealing for creative and decorative projects. Each stone brings its unique appealrough specimens for a rugged look and polished pieces for enhanced visual interest.\nVisible condition is gently used, with some stones showing natural imperfections. The collection is ideal for those seeking a ready-to-display set or materials for craft, learning, or decor. Only items as pictured are included",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'decor' in title (-8)",
+      "Lower-priority term 'craft' in description (-6)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+30)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Only the top 3 opportunity term matches count; 4 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'decor' in title (-8)",
+          "Lower-priority term 'craft' in description (-6)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+30)"
         ],
         "matched_keywords": []
       }

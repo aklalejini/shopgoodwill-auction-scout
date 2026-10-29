@@ -52,7 +52,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'sterling silver' in title (+18)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -60,12 +59,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 26,
-        "relative_score": 0.765,
+        "score": 24,
+        "relative_score": 0.706,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'sterling silver' in title (+18)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -326,35 +324,6 @@
       }
     ]
   },
-  "ctbids-49262-5759309": {
-    "item_id": "ctbids-49262-5759309",
-    "listing_url": "https://ctbids.com/estate-sale/49262/item/5759309/Lennox-Confederacy-Collection-Of-Decorative-Plates-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5759309_yJu1AP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-46981-5732430": {
     "item_id": "ctbids-46981-5732430",
     "listing_url": "https://ctbids.com/estate-sale/46981/item/5732430/Hummel-Collection-By-Goebel",
@@ -441,6 +410,33 @@
     "listing_url": "https://ctbids.com/estate-sale/48179/item/5763728/Petite-Earring-Collection",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763728_YDzP4D.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49262-5759309": {
+    "item_id": "ctbids-49262-5759309",
+    "listing_url": "https://ctbids.com/estate-sale/49262/item/5759309/Lennox-Confederacy-Collection-Of-Decorative-Plates-5",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5759309_yJu1AP.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -905,33 +901,6 @@
       }
     ]
   },
-  "ctbids-48179-5763825": {
-    "item_id": "ctbids-48179-5763825",
-    "listing_url": "https://ctbids.com/estate-sale/48179/item/5763825/Dark-Orange-Tone-Jewelry-Assortment",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763825_AHah61.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49607-5786346": {
     "item_id": "ctbids-49607-5786346",
     "listing_url": "https://ctbids.com/estate-sale/49607/item/5786346/Clear-Pressed-Glass-Divided-Relish-Tray-with-Scalloped-Edge",
@@ -1040,6 +1009,112 @@
       }
     ]
   },
+  "ctbids-49607-5791940": {
+    "item_id": "ctbids-49607-5791940",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5791940/1992-Santa-Barbara-Ceramic-Design-Celestial-Moon-Zodiac-Tile-Art",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5718486_OzoBKB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49380-5760637": {
+    "item_id": "ctbids-49380-5760637",
+    "listing_url": "https://ctbids.com/estate-sale/49380/item/5760637/Adorable-Shop-Cat-Drawing-Print-17-25-h-x-21-25-w",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5760637_d1a6kh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48179-5763825": {
+    "item_id": "ctbids-48179-5763825",
+    "listing_url": "https://ctbids.com/estate-sale/48179/item/5763825/Dark-Orange-Tone-Jewelry-Assortment",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763825_AHah61.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49393-5771116": {
+    "item_id": "ctbids-49393-5771116",
+    "listing_url": "https://ctbids.com/estate-sale/49393/item/5771116/10K-Gold-Rings-And-Pins-Including-Class-Rings-And-Sohio-Diamond-Chip-Pin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771116_vMvm2v.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281725203": {
     "item_id": "281725203",
     "listing_url": "https://shopgoodwill.com/item/281725203",
@@ -1086,85 +1161,6 @@
         "matched_keywords": [
           "malachite"
         ]
-      }
-    ]
-  },
-  "ctbids-49380-5760637": {
-    "item_id": "ctbids-49380-5760637",
-    "listing_url": "https://ctbids.com/estate-sale/49380/item/5760637/Adorable-Shop-Cat-Drawing-Print-17-25-h-x-21-25-w",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5760637_d1a6kh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48179-5766917": {
-    "item_id": "ctbids-48179-5766917",
-    "listing_url": "https://ctbids.com/estate-sale/48179/item/5766917/Assortment-of-Gold-Tone-Necklaces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5766917_iTSG0a.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49393-5771116": {
-    "item_id": "ctbids-49393-5771116",
-    "listing_url": "https://ctbids.com/estate-sale/49393/item/5771116/10K-Gold-Rings-And-Pins-Including-Class-Rings-And-Sohio-Diamond-Chip-Pin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771116_vMvm2v.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -1393,6 +1389,31 @@
       }
     ]
   },
+  "ctbids-48179-5766917": {
+    "item_id": "ctbids-48179-5766917",
+    "listing_url": "https://ctbids.com/estate-sale/48179/item/5766917/Assortment-of-Gold-Tone-Necklaces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5766917_iTSG0a.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49501-5770932": {
     "item_id": "ctbids-49501-5770932",
     "listing_url": "https://ctbids.com/estate-sale/49501/item/5770932/Leonardi-Extra-Vecchio-Traditional-Balsamic-Vinegar-of-Modena-DOP-100ml-Made-in-Italy-Gift-Set",
@@ -1548,31 +1569,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49468/item/5770690/Emporio-Armani-Angora-Short-Sleeve-Sweater",
     "images": [
       "https://image.ctbids.com/seller/2026-10-23T2d995a/5770690_1fZfyO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48504-5692367": {
-    "item_id": "ctbids-48504-5692367",
-    "listing_url": "https://ctbids.com/estate-sale/48504/item/5692367/Three-3-COACH-Wallets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-01T7f509f/5692367_xp7hBW.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1772,6 +1768,45 @@
           "Opportunity term 'rocks' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282303332": {
+    "item_id": "282303332",
+    "listing_url": "https://shopgoodwill.com/item/282303332",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/5c45ca13-0eb5-40fd-914f-d9bbefee1fb7hadw_10291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/cea526f3-af5f-4431-83ad-09e0b6c7f6b8hadw_10292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/e9f3ef0d-94cb-4080-a5c7-2b0756332ba0hadw_10293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/e5ab1f43-b6d6-4a3f-bbe6-c6425e2146b6hadw_10294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/4e39158e-ca16-4ddf-852b-151a71897167hadw_10295.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/d7e94c17-f455-4672-aceb-14a42d799aaahadw_10296.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/57ba71ee-62d9-4592-85fd-726da193a1f7hadw_10297.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/a60cbe3b-0fc0-4575-a5bc-16473b1508fdhadw_10298.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-10-29/4a4c16f6-6122-4167-9c8b-ab8a5c544531hadw_10299.jpg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Lower-priority term 'tower' in title (-5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Lower-priority term 'tower' in title (-5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+4)"
         ],
         "matched_keywords": []
       }

@@ -314,7 +314,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -326,7 +326,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -604,33 +604,6 @@
       }
     ]
   },
-  "ctbids-48962-5752140": {
-    "item_id": "ctbids-48962-5752140",
-    "listing_url": "https://ctbids.com/estate-sale/48962/item/5752140/Ladies-Wool-And-Corduroy-Slacks-Sz-14",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752140_9546qP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "281501614": {
     "item_id": "281501614",
     "listing_url": "https://shopgoodwill.com/item/281501614",
@@ -668,6 +641,41 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+18)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282290136": {
+    "item_id": "282290136",
+    "listing_url": "https://shopgoodwill.com/item/282290136",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/c787e96c-6df0-4c93-9e7a-a26eb9210c18irth_10291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/22871c44-d2cb-4c5a-90d5-f5ae8e86efedirth_10292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/00b3ee2d-e2aa-4110-8563-4315c46c60cbirth_10293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/03635413-be59-41d6-8103-52441b7df7ecirth_10294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/4631522c-2ec7-421d-bdb9-38fa4e8fcb53irth_10295.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/f3cc5489-95a4-4765-8f78-dadaab72b095irth_10296.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-10-29/6b7d0044-da43-4833-8c8e-be3878a91f39irth_10297.jpg"
+    ],
+    "description": "Condition:\nAs this is a grab bag, there are no guarantees in regards to the items included. Lot may include incomplete, damaged, or mismatched items. Items are assumed to be used and are sold *AS IS* and *AS PICTURED*.\nAs this is a grab bag, there are no guarantees about what it will include. Auction may have mismatched, incomplete, and used/damaged items. Note: Grab bag items ARE NOT AVAILABLE for closer examination or information beyond what has been disclosed. Grab-bag auctions are typically shipped in a bulk bag and individual pieces will not be wrapped individually. Rubbing between items may occur in the shipping process. Grab bags are sold AS IS.\nOur store is able to accept Visa, MasterCard, American Express, and Discover. Auction items are shipped out within five business days after receipt of payment.\nPlacing a bid indicates you have read, understand and agree to all information on our Seller Tab.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in description (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in description (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -903,6 +911,31 @@
     "listing_url": "https://ctbids.com/estate-sale/48179/item/5740895/3-Pair-Rhinestone-Accented-Clip-Earrings",
     "images": [
       "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5740895_LUqNUM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48962-5752140": {
+    "item_id": "ctbids-48962-5752140",
+    "listing_url": "https://ctbids.com/estate-sale/48962/item/5752140/Ladies-Wool-And-Corduroy-Slacks-Sz-14",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752140_9546qP.webp"
     ],
     "description": "",
     "score_reasons": [
