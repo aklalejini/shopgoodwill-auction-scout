@@ -53,6 +53,7 @@
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
       "Target keyword 'fluorite' in description (+9)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -60,8 +61,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "Opportunity term 'geology' in title (+10)",
           "Opportunity term 'collection' in title (+7)",
@@ -69,6 +70,7 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Target keyword 'fluorite' in description (+9)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -121,6 +123,7 @@
       "Opportunity term 'vintage' in title (+6)",
       "Opportunity term 'pipe rack' in title (+6)",
       "Pipe rack or stand may include overlooked pipes (+10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -128,12 +131,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 23,
-        "relative_score": 0.657,
+        "score": 27,
+        "relative_score": 0.771,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'pipe rack' in title (+6)",
           "Pipe rack or stand may include overlooked pipes (+10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -153,6 +157,7 @@
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'original box' in description (+5)",
       "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-12)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
@@ -161,13 +166,14 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 21,
-        "relative_score": 0.6,
+        "score": 25,
+        "relative_score": 0.714,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'original box' in description (+5)",
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-12)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
@@ -258,6 +264,72 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 14,
+        "relative_score": 0.412,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278828304": {
+    "item_id": "278828304",
+    "listing_url": "https://shopgoodwill.com/item/278828304",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/e4c7607e-c7f6-45e5-a0fc-8b84f19a723arlac_06121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/84af325e-e3dc-43f4-8fc5-0d62a1705911rlac_06122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/6743e490-d0de-4521-b5ee-574aea21bb20rlac_06123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/318d420c-dff8-4095-8089-6a781038a401rlac_06124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/bc95ccaa-feab-4159-a04e-e69c7f3e5f7erlac_06125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/eab96e25-c732-4ca7-aa89-a0d2bf17fe86rlac_06126.jpg"
+    ],
+    "description": "A decorative crystal cluster mounted on a metal stand with a stone base, suitable for display purposes.",
+    "score_reasons": [
+      "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 11,
+        "relative_score": 0.367,
+        "score_reasons": [
+          "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48805-5705024": {
+    "item_id": "ctbids-48805-5705024",
+    "listing_url": "https://ctbids.com/estate-sale/48805/item/5705024/Lot-of-3-Vintage-1997-Tyco-Sesame-Street-Beans-Purple-Honker-Plush-Toys",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705024_p7Q261.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -268,8 +340,67 @@
         "score": 12,
         "relative_score": 0.353,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49414-5763753": {
+    "item_id": "ctbids-49414-5763753",
+    "listing_url": "https://ctbids.com/estate-sale/49414/item/5763753/Willow-Tree-Collection-Lot-Of-5-In-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763753_c7OoYF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49607-5786342": {
+    "item_id": "ctbids-49607-5786342",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786342/Andy-Williams-Charade-A-Fool-Never-Learns-45-RPM-Columbia-4-42950-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5694083_YJNOqV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -342,16 +473,16 @@
       }
     ]
   },
-  "ctbids-49414-5763753": {
-    "item_id": "ctbids-49414-5763753",
-    "listing_url": "https://ctbids.com/estate-sale/49414/item/5763753/Willow-Tree-Collection-Lot-Of-5-In-Box",
+  "ctbids-48179-5763778": {
+    "item_id": "ctbids-48179-5763778",
+    "listing_url": "https://ctbids.com/estate-sale/48179/item/5763778/3-Necklaces-1-Pair-Earring-Collection",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763753_c7OoYF.webp"
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763778_SQynwN.webp"
     ],
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -359,40 +490,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48805-5705024": {
-    "item_id": "ctbids-48805-5705024",
-    "listing_url": "https://ctbids.com/estate-sale/48805/item/5705024/Lot-of-3-Vintage-1997-Tyco-Sesame-Street-Beans-Purple-Honker-Plush-Toys",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5705024_p7Q261.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -427,47 +529,52 @@
       }
     ]
   },
-  "278828304": {
-    "item_id": "278828304",
-    "listing_url": "https://shopgoodwill.com/item/278828304",
+  "281463907": {
+    "item_id": "281463907",
+    "listing_url": "https://shopgoodwill.com/item/281463907",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/e4c7607e-c7f6-45e5-a0fc-8b84f19a723arlac_06121.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/84af325e-e3dc-43f4-8fc5-0d62a1705911rlac_06122.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/6743e490-d0de-4521-b5ee-574aea21bb20rlac_06123.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/318d420c-dff8-4095-8089-6a781038a401rlac_06124.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/bc95ccaa-feab-4159-a04e-e69c7f3e5f7erlac_06125.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-06-12/eab96e25-c732-4ca7-aa89-a0d2bf17fe86rlac_06126.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10222.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10221.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10223.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10224.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10225.png",
+      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10226.png"
     ],
-    "description": "A decorative crystal cluster mounted on a metal stand with a stone base, suitable for display purposes.",
+    "description": "Description:\n14Pcs. Lot of Various Smooth Rocks & Crystals With Storage Bag (B52D)\nManufacturer/Markings:\nNone/Unknown\nMaterial:\nNatural Materials/Fabric\nLength x Width x Height:\nRanges from ~0.5''X~0.5''X~0.25'' to  ~2''X~1.5''X~1.5''\nCondition:\nDonated/ pre-owned. Shows Scuffs, Knicks, Marks, Dust & Wear.\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\n” and is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
     "score_reasons": [
-      "Lower-priority term 'decorative' in description (-8)",
-      "Flat shipping is only $0.01 (+10)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
+        "score": 6,
+        "relative_score": 0.2,
         "score_reasons": [
-          "Lower-priority term 'decorative' in description (-8)",
-          "Flat shipping is only $0.01 (+10)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "ctbids-48179-5763778": {
-    "item_id": "ctbids-48179-5763778",
-    "listing_url": "https://ctbids.com/estate-sale/48179/item/5763778/3-Necklaces-1-Pair-Earring-Collection",
+  "ctbids-46981-5752054": {
+    "item_id": "ctbids-46981-5752054",
+    "listing_url": "https://ctbids.com/estate-sale/46981/item/5752054/MCM-Kitchen-Lot",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763778_SQynwN.webp"
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5752054_5J3NsK.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -478,34 +585,8 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49607-5786342": {
-    "item_id": "ctbids-49607-5786342",
-    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786342/Andy-Williams-Charade-A-Fool-Never-Learns-45-RPM-Columbia-4-42950-Vintage-Vinyl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5694083_YJNOqV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -540,15 +621,15 @@
       }
     ]
   },
-  "ctbids-49170-5730902": {
-    "item_id": "ctbids-49170-5730902",
-    "listing_url": "https://ctbids.com/estate-sale/49170/item/5730902/Vintage-1990s-Arkansas-Razorback-Pro-Player-Puffer-Jacket",
+  "ctbids-49607-5786288": {
+    "item_id": "ctbids-49607-5786288",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786288/Atlanta-Sweet-Country-Music-Seven-Bridges-Road-MCA-Records-45-RPM-MCA-52336",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5730902_PgzioC.webp"
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5674377_8pfgmS.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -556,10 +637,145 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49607-5786381": {
+    "item_id": "ctbids-49607-5786381",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786381/Wings-Silly-Love-Songs-Cook-of-the-House-Capitol-4256-45-RPM-Paul-McCartney",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5631150_EO16hW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49607-5786111": {
+    "item_id": "ctbids-49607-5786111",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786111/Tommy-Dorsey-His-Orchestra-Milenberg-Joys-Parts-1-2-RCA-Victor-45-RPM-47-3717",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5685280_Zli7HT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48801-5684100": {
+    "item_id": "ctbids-48801-5684100",
+    "listing_url": "https://ctbids.com/estate-sale/48801/item/5684100/4-Small-Sculptures-of-English-Historic-Sites",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-29T9a7116/5684100_8KOPrR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49607-5786134": {
+    "item_id": "ctbids-49607-5786134",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786134/Wedding-Favor-Candle-in-Glass-Votive-Holder-Tulle-Bow-Elizabeth-Barrett-Browning-Quote",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5765937_mEmxdA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49607-5786060": {
+    "item_id": "ctbids-49607-5786060",
+    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786060/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5433519_qZPQgN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -610,15 +826,15 @@
       }
     ]
   },
-  "ctbids-46981-5752054": {
-    "item_id": "ctbids-46981-5752054",
-    "listing_url": "https://ctbids.com/estate-sale/46981/item/5752054/MCM-Kitchen-Lot",
+  "ctbids-49380-5758744": {
+    "item_id": "ctbids-49380-5758744",
+    "listing_url": "https://ctbids.com/estate-sale/49380/item/5758744/Ceramic-Native-American-Chief-Sculpture-17-x-17",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5752054_5J3NsK.webp"
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5758744_QZIhOH.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -626,10 +842,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48179-5607084": {
+    "item_id": "ctbids-48179-5607084",
+    "listing_url": "https://ctbids.com/estate-sale/48179/item/5607084/Multi-Stranded-Red-White-Beaded-Gold-Tone-Clasp-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607084_im8eSH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49239-5737655": {
+    "item_id": "ctbids-49239-5737655",
+    "listing_url": "https://ctbids.com/estate-sale/49239/item/5737655/The-Farmhouse-Rachel-Ashwell-Napkins-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737655_XQw4iC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -668,40 +938,6 @@
           "Lower-priority term 'folk art' in title (-9)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
           "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281463907": {
-    "item_id": "281463907",
-    "listing_url": "https://shopgoodwill.com/item/281463907",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10222.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10221.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10223.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10224.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10225.png",
-      "https://shopgoodwillimages.azureedge.net/production/348/Items/2026-10-22/cfa8e0a2-bc1f-4426-9560-7506ff5ac71fton8_10226.png"
-    ],
-    "description": "Description:\n14Pcs. Lot of Various Smooth Rocks & Crystals With Storage Bag (B52D)\nManufacturer/Markings:\nNone/Unknown\nMaterial:\nNatural Materials/Fabric\nLength x Width x Height:\nRanges from ~0.5''X~0.5''X~0.25'' to  ~2''X~1.5''X~1.5''\nCondition:\nDonated/ pre-owned. Shows Scuffs, Knicks, Marks, Dust & Wear.\nUsed Items Disclaimer:\nThis is a pre-owned item and is being sold “\nAS IS\n” and is\nNon-Refundable\n. If you have any questions concerning this item, feel free to contact us.\nWe describe our items to the best of our ability and try to incorporate as much research as possible with books and Internet, however, we are not experts in any field.\nGoodwill of Central and Coastal Virginia creates pathways to opportunities and success for job seekers facing challenges to work.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -758,81 +994,6 @@
       }
     ]
   },
-  "ctbids-49607-5786288": {
-    "item_id": "ctbids-49607-5786288",
-    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786288/Atlanta-Sweet-Country-Music-Seven-Bridges-Road-MCA-Records-45-RPM-MCA-52336",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5674377_8pfgmS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49607-5786381": {
-    "item_id": "ctbids-49607-5786381",
-    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786381/Wings-Silly-Love-Songs-Cook-of-the-House-Capitol-4256-45-RPM-Paul-McCartney",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5631150_EO16hW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49607-5786111": {
-    "item_id": "ctbids-49607-5786111",
-    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786111/Tommy-Dorsey-His-Orchestra-Milenberg-Joys-Parts-1-2-RCA-Victor-45-RPM-47-3717",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5685280_Zli7HT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49378-5773920": {
     "item_id": "ctbids-49378-5773920",
     "listing_url": "https://ctbids.com/estate-sale/49378/item/5773920/6-Spider-Man-Comics",
@@ -858,61 +1019,11 @@
       }
     ]
   },
-  "ctbids-48801-5684100": {
-    "item_id": "ctbids-48801-5684100",
-    "listing_url": "https://ctbids.com/estate-sale/48801/item/5684100/4-Small-Sculptures-of-English-Historic-Sites",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-29T9a7116/5684100_8KOPrR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49222-5741852": {
     "item_id": "ctbids-49222-5741852",
     "listing_url": "https://ctbids.com/estate-sale/49222/item/5741852/Nikon-N2020-Camera-Lenses",
     "images": [
       "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5741852_RQJLBL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49607-5786134": {
-    "item_id": "ctbids-49607-5786134",
-    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786134/Wedding-Favor-Candle-in-Glass-Votive-Holder-Tulle-Bow-Elizabeth-Barrett-Browning-Quote",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5765937_mEmxdA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -983,31 +1094,6 @@
       }
     ]
   },
-  "ctbids-49380-5758744": {
-    "item_id": "ctbids-49380-5758744",
-    "listing_url": "https://ctbids.com/estate-sale/49380/item/5758744/Ceramic-Native-American-Chief-Sculpture-17-x-17",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5758744_QZIhOH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49378-5759608": {
     "item_id": "ctbids-49378-5759608",
     "listing_url": "https://ctbids.com/estate-sale/49378/item/5759608/Needlepoint-Sunset-Picture",
@@ -1058,86 +1144,11 @@
       }
     ]
   },
-  "ctbids-48179-5607084": {
-    "item_id": "ctbids-48179-5607084",
-    "listing_url": "https://ctbids.com/estate-sale/48179/item/5607084/Multi-Stranded-Red-White-Beaded-Gold-Tone-Clasp-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-08T80e0c6/5607084_im8eSH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49607-5786060": {
-    "item_id": "ctbids-49607-5786060",
-    "listing_url": "https://ctbids.com/estate-sale/49607/item/5786060/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5433519_qZPQgN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47102-5669065": {
     "item_id": "ctbids-47102-5669065",
     "listing_url": "https://ctbids.com/estate-sale/47102/item/5669065/Movado-Museum-Dial-Crystal-Clock",
     "images": [
       "https://image.ctbids.com/seller/2026-10-13T0627f3/5669065_lVp1QC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49239-5737655": {
-    "item_id": "ctbids-49239-5737655",
-    "listing_url": "https://ctbids.com/estate-sale/49239/item/5737655/The-Farmhouse-Rachel-Ashwell-Napkins-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5737655_XQw4iC.webp"
     ],
     "description": "",
     "score_reasons": [
