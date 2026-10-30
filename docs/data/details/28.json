@@ -1,4 +1,38 @@
 {
+  "282432097": {
+    "item_id": "282432097",
+    "listing_url": "https://shopgoodwill.com/item/282432097",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-30/64791ae4-1313-4e06-835b-d205abad4515ason_10301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-30/3a1a1f70-19fb-435c-9fea-bc5ce47e689dason_10302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-30/7416f965-0fb1-4dc4-968f-5cbea2e9c0d2ason_10303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-30/7f5679ff-4d27-457a-bb32-bfa34b798d97ason_10304.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-30/a5bebb44-2189-4563-9aae-95c996703035ason_10305.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-10-30/996fce53-94ac-41d6-9064-2e941ac8bcf2ason_10306.jpg"
+    ],
+    "description": "Item Description:\nVintage Hemingray 19 Glass Aqua Green Glass Insulators\nApproximate Measurements (inches):\n4 x 3.25 x 3.25\nWeight (in lbs):\n1.15\nCondition:\nFair. Wear includes cracks, dust/dirt\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 23,
+        "relative_score": 0.767,
+        "score_reasons": [
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49583-5787706": {
     "item_id": "ctbids-49583-5787706",
     "listing_url": "https://ctbids.com/estate-sale/49583/item/5787706/Silpada-Monica-N2875-Sterling-Silver-Peridot-Bead-Multi-Strand-Bar-Necklace",
@@ -60,33 +94,6 @@
       }
     ]
   },
-  "ctbids-49484-5763279": {
-    "item_id": "ctbids-49484-5763279",
-    "listing_url": "https://ctbids.com/estate-sale/49484/item/5763279/3-Antique-Footstools",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5763279_KxWvOK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49524-5785922": {
     "item_id": "ctbids-49524-5785922",
     "listing_url": "https://ctbids.com/estate-sale/49524/item/5785922/Atlanta-Braves-HOF-2000-Upper-Deck-Ovation-Chipper-Jones-Greg-Maddux-Baseball-Card-Lot",
@@ -134,6 +141,141 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49484-5763279": {
+    "item_id": "ctbids-49484-5763279",
+    "listing_url": "https://ctbids.com/estate-sale/49484/item/5763279/3-Antique-Footstools",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5763279_KxWvOK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49524-5784448": {
+    "item_id": "ctbids-49524-5784448",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5784448/SIGNED-1997-1st-Ed-Flood-Tide-A-Dirk-Pitt-Novel-by-Clive-Cussler-Hardcover-Book",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5784448_3aUsdC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49524-5785868": {
+    "item_id": "ctbids-49524-5785868",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785868/Rare-Adidas-NMD-R1-Primeknit-STLT-Triple-Black-Sneakers-Sz-11",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785868_VqAIqP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49524-5785952": {
+    "item_id": "ctbids-49524-5785952",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785952/1998-Topps-Finest-NFL-Football-Cards-Ft-Stars-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785952_qRQEjr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49524-5789552": {
+    "item_id": "ctbids-49524-5789552",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5789552/Vtg-Liz-Blanc-Chrono-Roman-Numeral-Dial-Watch-W-Silver-Tone-Jubilee-Band-Fluted-Bezel",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5789552_9CqlWG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -270,7 +412,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -278,10 +419,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -289,15 +429,14 @@
       }
     ]
   },
-  "ctbids-49524-5785952": {
-    "item_id": "ctbids-49524-5785952",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785952/1998-Topps-Finest-NFL-Football-Cards-Ft-Stars-And-More",
+  "ctbids-49337-5776404": {
+    "item_id": "ctbids-49337-5776404",
+    "listing_url": "https://ctbids.com/estate-sale/49337/item/5776404/Nintendo-NES-GPX1500-Game-Storage-Case-with-Games-and-Manuals",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785952_qRQEjr.webp"
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5776404_eWoRl6.webp"
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -305,91 +444,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49524-5789552": {
-    "item_id": "ctbids-49524-5789552",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5789552/Vtg-Liz-Blanc-Chrono-Roman-Numeral-Dial-Watch-W-Silver-Tone-Jubilee-Band-Fluted-Bezel",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5789552_9CqlWG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49524-5785868": {
-    "item_id": "ctbids-49524-5785868",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785868/Rare-Adidas-NMD-R1-Primeknit-STLT-Triple-Black-Sneakers-Sz-11",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785868_VqAIqP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49524-5784448": {
-    "item_id": "ctbids-49524-5784448",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5784448/SIGNED-1997-1st-Ed-Flood-Tide-A-Dirk-Pitt-Novel-by-Clive-Cussler-Hardcover-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5784448_3aUsdC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -417,31 +474,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49337-5776404": {
-    "item_id": "ctbids-49337-5776404",
-    "listing_url": "https://ctbids.com/estate-sale/49337/item/5776404/Nintendo-NES-GPX1500-Game-Storage-Case-with-Games-and-Manuals",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5776404_eWoRl6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -610,7 +642,7 @@
     "item_id": "ctbids-49658-5794687",
     "listing_url": "https://ctbids.com/estate-sale/49658/item/5794687/Glazed-Ceramic-Songbird-Figurine-Peach-Salmon-with-Orange-Beak-Textured-Feather-Detail",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5785855_RckJhV.webp"
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5785855_JIrYSB.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -685,7 +717,7 @@
     "item_id": "ctbids-49658-5794795",
     "listing_url": "https://ctbids.com/estate-sale/49658/item/5794795/Dash-of-That-Blue-Ceramic-Storage-Canister-with-Bamboo-Lid-Glossy-Periwinkle-Blue-Kitchen-Jar",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5735166_JZU9ut.webp"
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5735166_cgj5qY.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1253,6 +1285,47 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282431270": {
+    "item_id": "282431270",
+    "listing_url": "https://shopgoodwill.com/item/282431270",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-30/f2a74776-4ded-4268-a624-3193fd9e2020labs_10301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-30/8da371fa-80c0-41a5-85bd-48bb58236f3flabs_10302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-30/03949b82-58c1-4540-9f3e-833205b0c653labs_10303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-30/e6f7b87f-b188-4739-985c-78ec4b5e4026labs_10304.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/140/Items/2026-10-30/e279e0f5-19aa-44b6-8a2a-ce44532c29eflabs_10305.jpg"
+    ],
+    "description": "Natural Amethyst Crystal Cluster Geode Specimen\nRaw Deep Purple Quartz Mineral Specimen\nNatural Stone, Approximately 12.6 x 7 x 5 Inches, 14.4 lbs\nThis striking natural amethyst geode cluster features a deep purple crystalline basin with well-formed quartz points set within a natural rock and agate matrix rim. Weighing over 14 pounds, this substantial geological display piece exhibits rich violet coloration and sparkling crystal terminations throughout the interior cavity, making it an impressive centerpiece for mineral collectors and home decor displays.\nGenuine raw amethyst crystal cluster geode formation\nDeep purple quartz points with natural polished agate edge banding\nHeavy basalt matrix backing provides a stable display base\nMeasures approximately 12.6 inches long by 7 inches wide and 5 inches high; weighs 14.4 lbs\nCondition:\nNatural geological specimen in very good condition with intact crystal points throughout the main cavity. Typical minor natural variations, fissures, and rough matrix texture inherent to natural stone formations. Back matrix shows painted inventory numbers. Sturdy and display-ready.\nOnly includes what is shown in pictures, any accessories or items not shown but described cannot be guaranteed to be included with the lot.\nTHANK YOU FOR YOUR PURCHASE!\nIf you’re happy and you know it, please leave a 5-star rating! If there is a problem with your order, please contact us via Shop Goodwill before opening returns/claims. We strive to return all messages within one business day.\nPlease click the shipping estimate link in the listing to get the shipping costs directly from FedEx.  There will be no discounts or price changes after an auction has ended.\nOur shipping team works hard to get out all orders as quickly as possible, that being said it may take up to 5 business days after payment for your order to ship out.  Once it ships out you will receive tracking information.\n***IMPORTANT*** If your item was damaged in transit, do not throw away anything, including the box or packing materials until we have authorized you to do so. Photos will be required to file insurance claims.\nOur Business hours: Monday - Friday  8:00 am to 4:00 pm Central\nNew items and unique treasures are added daily, come back soon!",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in description (+2)",
+      "Lower-priority term 'decor' in description (-8)",
+      "Lower-priority term 'painted' in description (-15)",
+      "Shipping is calculated and not included in the price (-6)",
+      "14.4 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+22)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in description (+2)",
+          "Lower-priority term 'decor' in description (-8)",
+          "Lower-priority term 'painted' in description (-15)",
+          "Shipping is calculated and not included in the price (-6)",
+          "14.4 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+22)"
         ],
         "matched_keywords": []
       }
