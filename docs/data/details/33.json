@@ -14,6 +14,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "1 bid near close (+2)",
       "Flat shipping is only $0.01 (+10)",
       "5.45 lb lot has unusually favorable flat shipping (+5)",
       "Base score (+5)"
@@ -22,13 +23,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 31,
-        "relative_score": 1.033,
+        "score": 33,
+        "relative_score": 1.1,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'mixed' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "1 bid near close (+2)",
           "Flat shipping is only $0.01 (+10)",
           "5.45 lb lot has unusually favorable flat shipping (+5)",
           "Base score (+5)"
@@ -104,6 +106,35 @@
       }
     ]
   },
+  "ctbids-49524-5783678": {
+    "item_id": "ctbids-49524-5783678",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5783678/Nolan-Ryan-Baseball-Card-Lot-1987-Donruss-1990-Upper-Deck-1992-Score-Texas-Rangers-Astros",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5783678_YViBVy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49237-5747044": {
     "item_id": "ctbids-49237-5747044",
     "listing_url": "https://ctbids.com/estate-sale/49237/item/5747044/Kraftwerk-ELO-Robert-Fripp-Andy-Summers-Yello-10-Vinyl-Record-Collection",
@@ -124,33 +155,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794845": {
-    "item_id": "ctbids-49658-5794845",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794845/Vintage-Clear-Glass-Goblet-Starburst-Ribbed-Footed-Base",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5625492_8unH1W.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -212,6 +216,33 @@
       }
     ]
   },
+  "ctbids-49337-5776471": {
+    "item_id": "ctbids-49337-5776471",
+    "listing_url": "https://ctbids.com/estate-sale/49337/item/5776471/WINNING-BIDDERS",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5776471_pIr8mW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49478-5773270": {
     "item_id": "ctbids-49478-5773270",
     "listing_url": "https://ctbids.com/estate-sale/49478/item/5773270/Precious-Moments-Disney-Showcase-Collection-Let-Your-Power-Shine-Rapunzel-Figurine-123012",
@@ -239,15 +270,15 @@
       }
     ]
   },
-  "ctbids-49524-5783678": {
-    "item_id": "ctbids-49524-5783678",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5783678/Nolan-Ryan-Baseball-Card-Lot-1987-Donruss-1990-Upper-Deck-1992-Score-Texas-Rangers-Astros",
+  "ctbids-49658-5794845": {
+    "item_id": "ctbids-49658-5794845",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794845/Vintage-Clear-Glass-Goblet-Starburst-Ribbed-Footed-Base",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5783678_YViBVy.webp"
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5625492_8unH1W.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -255,10 +286,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -347,6 +378,87 @@
       }
     ]
   },
+  "ctbids-49524-5783994": {
+    "item_id": "ctbids-49524-5783994",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5783994/2-2013-Sequential-Serial-US-2-Dollar-Bills-152-153",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5783994_IxS1y7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49337-5775361": {
+    "item_id": "ctbids-49337-5775361",
+    "listing_url": "https://ctbids.com/estate-sale/49337/item/5775361/Milton-Bradley-Parker-Brothers-Board-Games",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775361_bhKH1Q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49524-5785918": {
+    "item_id": "ctbids-49524-5785918",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785918/2000-Upper-Deck-Ovation-30-Alex-Rodriguez-Seattle-Mariners-Baseball-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785918_Vd8coU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49533-5785960": {
     "item_id": "ctbids-49533-5785960",
     "listing_url": "https://ctbids.com/estate-sale/49533/item/5785960/Precious-Moments-Lot-2",
@@ -367,31 +479,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5795277": {
-    "item_id": "ctbids-49658-5795277",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5795277/Buffalo-Check-Wool-Hunting-Cap-with-Ear-Flaps-Rust-and-Black-Plaid-Blue-Flannel-Lined-Hat",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795277_IGnP37.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -429,56 +516,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49379/item/5778193/2001-2004-US-Mint-Proof-State-Quarter-Sets-30-Coins-OGP-COA",
     "images": [
       "https://image.ctbids.com/seller/2026-10-26Te92adc/5778193_vf8Y26.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49337-5776471": {
-    "item_id": "ctbids-49337-5776471",
-    "listing_url": "https://ctbids.com/estate-sale/49337/item/5776471/WINNING-BIDDERS",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5776471_pIr8mW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794764": {
-    "item_id": "ctbids-49658-5794764",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794764/Wedding-Favor-Candle-in-Glass-Votive-Holder-Tulle-Bow-Elizabeth-Barrett-Browning-Quote",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5765937_6vsrKz.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -574,161 +611,11 @@
       }
     ]
   },
-  "ctbids-49658-5794777": {
-    "item_id": "ctbids-49658-5794777",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794777/Pair-of-Purple-Tinted-Stemmed-Wine-Glasses-Approx-9-in-Tall",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5723980_Ci0wcK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794907": {
-    "item_id": "ctbids-49658-5794907",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794907/Clear-Glass-Frosted-Stripe-Tumbler-Textured-Drinking-Glass",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5765911_c7LhQX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794838": {
-    "item_id": "ctbids-49658-5794838",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794838/Parini-Stainless-Steel-Accent-2-Slice-Toaster-in-Original-Box",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5575659_NqS6Aq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49524-5783994": {
-    "item_id": "ctbids-49524-5783994",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5783994/2-2013-Sequential-Serial-US-2-Dollar-Bills-152-153",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5783994_IxS1y7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49130-5755181": {
     "item_id": "ctbids-49130-5755181",
     "listing_url": "https://ctbids.com/estate-sale/49130/item/5755181/Austrian-Glass-Pin-and-Earring",
     "images": [
       "https://image.ctbids.com/seller/2026-10-22T99993c/5755181_syGOAG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49337-5775361": {
-    "item_id": "ctbids-49337-5775361",
-    "listing_url": "https://ctbids.com/estate-sale/49337/item/5775361/Milton-Bradley-Parker-Brothers-Board-Games",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775361_bhKH1Q.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49524-5785918": {
-    "item_id": "ctbids-49524-5785918",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785918/2000-Upper-Deck-Ovation-30-Alex-Rodriguez-Seattle-Mariners-Baseball-Card",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785918_Vd8coU.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -812,9 +699,10 @@
       "Lower-priority term 'decor' in description (-8)",
       "Lower-priority term 'dyed' in title (-18)",
       "Lower-priority term 'painted' in title (-15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+42)"
+      "Score boundary adjustment (+38)"
     ],
     "hunt_scores": [
       {
@@ -826,9 +714,10 @@
           "Lower-priority term 'decor' in description (-8)",
           "Lower-priority term 'dyed' in title (-18)",
           "Lower-priority term 'painted' in title (-15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+42)"
+          "Score boundary adjustment (+38)"
         ],
         "matched_keywords": []
       }
@@ -845,9 +734,10 @@
     "description": "Made In Brazil Black/White Agate Geode Decor\nBrand:\nMade In Brazil\nType:\nDecor\nColor:\nBlack/White\nMaterial:\nAgate Geode\nCondition:\nGood - shows some sign of wear, Dust/Debris\nApproximate Measurements (inches):\n5L x 4.5W x 2H\nWeight (approximate):\n2.2 lbs",
     "score_reasons": [
       "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+9)"
+      "Score boundary adjustment (+5)"
     ],
     "hunt_scores": [
       {
@@ -857,9 +747,135 @@
         "relative_score": 0.0,
         "score_reasons": [
           "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+9)"
+          "Score boundary adjustment (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794777": {
+    "item_id": "ctbids-49658-5794777",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794777/Pair-of-Purple-Tinted-Stemmed-Wine-Glasses-Approx-9-in-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5723980_Ci0wcK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794907": {
+    "item_id": "ctbids-49658-5794907",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794907/Clear-Glass-Frosted-Stripe-Tumbler-Textured-Drinking-Glass",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5765911_c7LhQX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5795277": {
+    "item_id": "ctbids-49658-5795277",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5795277/Buffalo-Check-Wool-Hunting-Cap-with-Ear-Flaps-Rust-and-Black-Plaid-Blue-Flannel-Lined-Hat",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795277_IGnP37.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794838": {
+    "item_id": "ctbids-49658-5794838",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794838/Parini-Stainless-Steel-Accent-2-Slice-Toaster-in-Original-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5575659_NqS6Aq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794764": {
+    "item_id": "ctbids-49658-5794764",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794764/Wedding-Favor-Candle-in-Glass-Votive-Holder-Tulle-Bow-Elizabeth-Barrett-Browning-Quote",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5765937_6vsrKz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }

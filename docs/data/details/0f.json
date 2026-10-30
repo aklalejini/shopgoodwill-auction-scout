@@ -102,6 +102,7 @@
       "Opportunity term 'specimen' in description (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -109,16 +110,44 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 17,
-        "relative_score": 0.567,
+        "score": 21,
+        "relative_score": 0.7,
         "score_reasons": [
           "Opportunity term 'geology' in description (+10)",
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'specimen' in description (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49237-5768073": {
+    "item_id": "ctbids-49237-5768073",
+    "listing_url": "https://ctbids.com/estate-sale/49237/item/5768073/Kendrick-Lamar-Post-Malone-Logic-Alabama-Shakes-Vinyl-Record-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5768073_A98D3l.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -164,6 +193,33 @@
       }
     ]
   },
+  "ctbids-49398-5781070": {
+    "item_id": "ctbids-49398-5781070",
+    "listing_url": "https://ctbids.com/estate-sale/49398/item/5781070/Vintage-Weathervane",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781070_Byvyle.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "282067525": {
     "item_id": "282067525",
     "listing_url": "https://shopgoodwill.com/item/282067525",
@@ -195,114 +251,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "4.03 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794729": {
-    "item_id": "ctbids-49658-5794729",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794729/Weeds-Season-4-DVD-Set-Showtime-Lionsgate-Mary-Louise-Parker-Factory-Sealed",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5602409_696efx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49237-5768073": {
-    "item_id": "ctbids-49237-5768073",
-    "listing_url": "https://ctbids.com/estate-sale/49237/item/5768073/Kendrick-Lamar-Post-Malone-Logic-Alabama-Shakes-Vinyl-Record-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5768073_A98D3l.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794752": {
-    "item_id": "ctbids-49658-5794752",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794752/Vintage-Style-Black-Crochet-Drawstring-Shoulder-Bag-Braided-Knot-Strap-Scalloped-Rim",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5773350_4KrRb5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49398-5781070": {
-    "item_id": "ctbids-49398-5781070",
-    "listing_url": "https://ctbids.com/estate-sale/49398/item/5781070/Vintage-Weathervane",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781070_Byvyle.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -355,6 +303,87 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49524-5785949": {
+    "item_id": "ctbids-49524-5785949",
+    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785949/3-Colorful-Rhinestone-Pave-Aurora-Borealis-Floral-Crystal-Adjustable-Stretch-Band-Rings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785949_dLuTcm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794729": {
+    "item_id": "ctbids-49658-5794729",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794729/Weeds-Season-4-DVD-Set-Showtime-Lionsgate-Mary-Louise-Parker-Factory-Sealed",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5602409_696efx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794752": {
+    "item_id": "ctbids-49658-5794752",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794752/Vintage-Style-Black-Crochet-Drawstring-Shoulder-Bag-Braided-Knot-Strap-Scalloped-Rim",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5773350_4KrRb5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -506,56 +535,6 @@
       }
     ]
   },
-  "ctbids-49658-5794721": {
-    "item_id": "ctbids-49658-5794721",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794721/Hyacinth-Bulb-Forcing-Vase-Clear-Frosted-Seeded-Glass-Round-Base-Flared-Rim-About-4-5-in-Tall",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5765506_LCQVzZ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49524-5785949": {
-    "item_id": "ctbids-49524-5785949",
-    "listing_url": "https://ctbids.com/estate-sale/49524/item/5785949/3-Colorful-Rhinestone-Pave-Aurora-Borealis-Floral-Crystal-Adjustable-Stretch-Band-Rings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5785949_dLuTcm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49524-5783438": {
     "item_id": "ctbids-49524-5783438",
     "listing_url": "https://ctbids.com/estate-sale/49524/item/5783438/1998-99-Michael-Jordan-Upper-Deck-Game-Dated-Overtime-Chicago-Bulls-NBA-Basketball-Card-316",
@@ -581,86 +560,11 @@
       }
     ]
   },
-  "ctbids-49658-5794847": {
-    "item_id": "ctbids-49658-5794847",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794847/Preston-Epps-Bongo-Party-Bongo-Rock-Original-Sound-45-RPM-Single-O-4",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5690516_31IR70.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49130-5755174": {
     "item_id": "ctbids-49130-5755174",
     "listing_url": "https://ctbids.com/estate-sale/49130/item/5755174/World-War-II-Era-U-S-Army-Air-Forces-Usaafs-Pilot-Sweetheart-Id-Bracelet-One-Other",
     "images": [
       "https://image.ctbids.com/seller/2026-10-22T99993c/5755174_QlDNUK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794963": {
-    "item_id": "ctbids-49658-5794963",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794963/Clear-Pressed-Glass-Three-Lobed-Floral-Serving-Dish-Approx-10",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5778420_dwAqmu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49658-5794937": {
-    "item_id": "ctbids-49658-5794937",
-    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794937/Hank-Ballard-The-Midnighters-Finger-Poppin-Time-King-45-5341-R-B-7-Record",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5463893_1Yp8zX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -840,6 +744,38 @@
       }
     ]
   },
+  "281977510": {
+    "item_id": "281977510",
+    "listing_url": "https://shopgoodwill.com/item/281977510",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/f76b4f8d-9cdf-48d7-b138-3fd5d6e386e0ospe_10271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/7625a0e6-3812-4bd5-bbfa-ed049e5c5720ospe_10272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/f93b361d-6238-4c81-ac2c-0e3eda311fedospe_10273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/2331eca6-78da-4072-90b7-c93613a4556eospe_10274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/ac260045-8e95-4de5-8ecc-7000affaaa67ospe_10275.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/82032c69-2df6-4561-8ec9-8991a6e1d120ospe_10276.jpg"
+    ],
+    "description": "Set of 4 assorted mineral specimens including two black and brown polished geode halves, one rough rose quartz crystal, and one blue agate geode labeled 'Made in Brazil.' These are natural mineral specimens, cut and polished on one side.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49210-5734115": {
     "item_id": "ctbids-49210-5734115",
     "listing_url": "https://ctbids.com/estate-sale/49210/item/5734115/Compact-Side-By-Side-Tissue-Dispensers-And-Bathroom-Faucet",
@@ -865,11 +801,111 @@
       }
     ]
   },
+  "ctbids-49658-5794963": {
+    "item_id": "ctbids-49658-5794963",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794963/Clear-Pressed-Glass-Three-Lobed-Floral-Serving-Dish-Approx-10",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5778420_dwAqmu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49210-5752406": {
     "item_id": "ctbids-49210-5752406",
     "listing_url": "https://ctbids.com/estate-sale/49210/item/5752406/High-Security-Locks-To-Include-Trailer-Coupling-Lock-New-Inbox",
     "images": [
       "https://image.ctbids.com/seller/2026-10-25T7657bc/5752406_yKKNyL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794721": {
+    "item_id": "ctbids-49658-5794721",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794721/Hyacinth-Bulb-Forcing-Vase-Clear-Frosted-Seeded-Glass-Round-Base-Flared-Rim-About-4-5-in-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5765506_LCQVzZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794937": {
+    "item_id": "ctbids-49658-5794937",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794937/Hank-Ballard-The-Midnighters-Finger-Poppin-Time-King-45-5341-R-B-7-Record",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5463893_1Yp8zX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49658-5794847": {
+    "item_id": "ctbids-49658-5794847",
+    "listing_url": "https://ctbids.com/estate-sale/49658/item/5794847/Preston-Epps-Bongo-Party-Bongo-Rock-Original-Sound-45-RPM-Single-O-4",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5690516_31IR70.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1010,38 +1046,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281977510": {
-    "item_id": "281977510",
-    "listing_url": "https://shopgoodwill.com/item/281977510",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/f76b4f8d-9cdf-48d7-b138-3fd5d6e386e0ospe_10271.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/7625a0e6-3812-4bd5-bbfa-ed049e5c5720ospe_10272.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/f93b361d-6238-4c81-ac2c-0e3eda311fedospe_10273.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/2331eca6-78da-4072-90b7-c93613a4556eospe_10274.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/ac260045-8e95-4de5-8ecc-7000affaaa67ospe_10275.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/82032c69-2df6-4561-8ec9-8991a6e1d120ospe_10276.jpg"
-    ],
-    "description": "Set of 4 assorted mineral specimens including two black and brown polished geode halves, one rough rose quartz crystal, and one blue agate geode labeled 'Made in Brazil.' These are natural mineral specimens, cut and polished on one side.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
