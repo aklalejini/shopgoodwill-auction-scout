@@ -196,7 +196,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -207,7 +207,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -277,7 +277,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -285,10 +284,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -328,6 +326,33 @@
     "listing_url": "https://ctbids.com/estate-sale/49385/item/5757656/Fashion-Ring-Lot-Colored-Stone-Clear-Rhinestone-Statement-Rings-Assorted-Sizes",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5178414_9rnCci.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49350-5771696": {
+    "item_id": "ctbids-49350-5771696",
+    "listing_url": "https://ctbids.com/estate-sale/49350/item/5771696/Music-Books-Large-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771696_n6M7NV.webp"
     ],
     "description": "",
     "score_reasons": [

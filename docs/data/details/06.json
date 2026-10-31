@@ -40,7 +40,6 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -48,11 +47,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 21,
-        "relative_score": 0.618,
+        "score": 19,
+        "relative_score": 0.559,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -370,15 +368,15 @@
       }
     ]
   },
-  "ctbids-49525-5795134": {
-    "item_id": "ctbids-49525-5795134",
-    "listing_url": "https://ctbids.com/estate-sale/49525/item/5795134/Vtg-Signed-Italian-White-Faux-MOP-Beaded-Silver-Tone-Christian-Cross-Jesus-Rosary",
+  "ctbids-49210-5782548": {
+    "item_id": "ctbids-49210-5782548",
+    "listing_url": "https://ctbids.com/estate-sale/49210/item/5782548/Christmas-Rocking-Horse",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795134_jhhqig.webp"
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5782548_axMW6F.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -389,7 +387,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -478,19 +476,33 @@
       }
     ]
   },
-  "ctbids-49210-5782548": {
-    "item_id": "ctbids-49210-5782548",
-    "listing_url": "https://ctbids.com/estate-sale/49210/item/5782548/Christmas-Rocking-Horse",
+  "ctbids-49525-5798836": {
+    "item_id": "ctbids-49525-5798836",
+    "listing_url": "https://ctbids.com/estate-sale/49525/item/5798836/Polished-Rose-Quartz-Gemstones",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5782548_axMW6F.webp"
+      "https://image.ctbids.com/seller/2026-10-31Tb2d96e/5781035_6SqRZ8.webp"
     ],
     "description": "",
     "score_reasons": [
       "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
     ],
     "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -552,47 +564,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49525-5798836": {
-    "item_id": "ctbids-49525-5798836",
-    "listing_url": "https://ctbids.com/estate-sale/49525/item/5798836/Polished-Rose-Quartz-Gemstones",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-31Tb2d96e/5781035_6SqRZ8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -855,6 +826,81 @@
     "listing_url": "https://ctbids.com/estate-sale/49515/item/5774861/2018-Leaf-Rookie-Shohei-Ohtani-FL-01-Exclusive-Flag-Japan-PSA-9-MINT-Baseball-Card",
     "images": [
       "https://image.ctbids.com/seller/2026-10-25T7657bc/5726246_6vfcF6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49515-5776297": {
+    "item_id": "ctbids-49515-5776297",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5776297/1969-Topps-Baseball-5th-Series-Check-List-412-Mickey-Mantle-Yankees",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5700255_YURbkL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49506-5794290": {
+    "item_id": "ctbids-49506-5794290",
+    "listing_url": "https://ctbids.com/estate-sale/49506/item/5794290/Zwilling-Twin-Signature-7-Hollow-Edge-Santoku-Knife",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5794290_gF0U7I.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48490-5727862": {
+    "item_id": "ctbids-48490-5727862",
+    "listing_url": "https://ctbids.com/estate-sale/48490/item/5727862/Pandora-Mother-Of-Pearl-Sterling-Ring-Size-8-25",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5727862_XjmjpU.webp"
     ],
     "description": "",
     "score_reasons": [

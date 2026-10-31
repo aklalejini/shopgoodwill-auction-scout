@@ -1019,6 +1019,56 @@
       }
     ]
   },
+  "ctbids-49200-5730585": {
+    "item_id": "ctbids-49200-5730585",
+    "listing_url": "https://ctbids.com/estate-sale/49200/item/5730585/Olympus-Camedia-D-490-Zoom-2-1MP-Digital-Camera",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5688152_4M68I6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49515-5774863": {
+    "item_id": "ctbids-49515-5774863",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5774863/1975-Topps-Robin-Yount-223-Rookie-Cup-Milwaukee-Brewers-Baseball-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5726256_84HxLl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "281857423": {
     "item_id": "281857423",
     "listing_url": "https://shopgoodwill.com/item/281857423",
@@ -1170,6 +1220,51 @@
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+13)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282529507": {
+    "item_id": "282529507",
+    "listing_url": "https://shopgoodwill.com/item/282529507",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-31/2cc82f25-c56d-45be-b386-ac194fa83c7cns43_10311.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-31/00dea66e-cffd-4ab7-ab5f-00fbdcaf9196ns43_10312.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-31/82c51666-6f56-42f1-ad20-a210806180d4ns43_10313.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-31/1bfa05c4-f164-4968-9f5a-2bc16fa82371ns43_10314.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-31/1f45b7c6-4247-4315-bcaa-f217c4f11dd9ns43_10315.jpg"
+    ],
+    "description": "Product Overview:\nThis lot includes a variety of natural mineral and rock specimens featuring dyed blue agate bookends with crystal druzy centers, polished agate slices in multiple banded color patterns, a white crystal-filled geode, a raw black obsidian piece, a round polished stone slice, and a hand-carved stone figural head.\n\nSpecifications:\n- Material Types: Agate, Crystal Geode, Obsidian, Carved Stone\n- Color Variations: Blue, Brown, Purple, White, Gray, Black\n- Finishes: Polished, Natural Matte, Raw\n- Forms: Bookends, Slices, Geode, Raw Chunk, Carved Figure\n- Surface Details: Banded Patterns, Crystal Druzy Centers, Natural Texture\n\nAdditional Information:\nThe specimens show natural wear and some chips typical of mineral specimens. The collection contains a mix of polished and unpolished pieces displaying various geological features.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'dyed' in title (-18)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Less relevant category 'Jewelry' (-12)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+25)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'dyed' in title (-18)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Less relevant category 'Jewelry' (-12)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+25)"
         ],
         "matched_keywords": []
       }
