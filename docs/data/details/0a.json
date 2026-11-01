@@ -1088,33 +1088,18 @@
       }
     ]
   },
-  "ctbids-48875-5775896": {
-    "item_id": "ctbids-48875-5775896",
-    "listing_url": "https://ctbids.com/estate-sale/48875/item/5775896/2-3ct-Natural-Rhodolite-Garnet",
+  "ctbids-49265-5778247": {
+    "item_id": "ctbids-49265-5778247",
+    "listing_url": "https://ctbids.com/estate-sale/49265/item/5778247/Star-Trek-Autographed-Photos-1",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775896_uC9F7E.webp"
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5778247_geISvP.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -1172,6 +1157,46 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+12)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48875-5775896": {
+    "item_id": "ctbids-48875-5775896",
+    "listing_url": "https://ctbids.com/estate-sale/48875/item/5775896/2-3ct-Natural-Rhodolite-Garnet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775896_uC9F7E.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }

@@ -498,31 +498,6 @@
       }
     ]
   },
-  "ctbids-49533-5785968": {
-    "item_id": "ctbids-49533-5785968",
-    "listing_url": "https://ctbids.com/estate-sale/49533/item/5785968/Isabel-Bloom-Sharing",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5785968_6rpACl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49051-5752344": {
     "item_id": "ctbids-49051-5752344",
     "listing_url": "https://ctbids.com/estate-sale/49051/item/5752344/Gold-Tone-Fashion-Jewelry-Necklaces-Watches-Earrings-Bracelets-Lot-1",
@@ -1076,6 +1051,31 @@
       }
     ]
   },
+  "ctbids-49506-5780802": {
+    "item_id": "ctbids-49506-5780802",
+    "listing_url": "https://ctbids.com/estate-sale/49506/item/5780802/Kenner-Care-Bears-Care-Bear-Cousins-Plush-Toys",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5780802_95Vlil.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "282068883": {
     "item_id": "282068883",
     "listing_url": "https://shopgoodwill.com/item/282068883",
@@ -1105,6 +1105,41 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+12)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282561020": {
+    "item_id": "282561020",
+    "listing_url": "https://shopgoodwill.com/item/282561020",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "Product Overview:\nThis is an amethyst gemstone wire tree sculpture featuring polished amethyst stones as leaves attached to gold-colored wire branches. The branches are mounted on a base of rough amethyst crystal. The trunk is crafted from resin and painted to resemble wood. The sculpture exhibits a color scheme primarily of purple with gold and black and white accents.\n\nSpecifications:\n- Material: Amethyst stones, gold-colored wire, resin trunk, rough amethyst base\n- Colors: Purple, gold, black, white\n- Design: Wire tree with polished stone leaves and rough crystal base\n\nAdditional Information:\nThe sculpture is intended as a decorative piece.",
+    "score_reasons": [
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'decor' in title (-8)",
+      "Lower-priority term 'painted' in description (-15)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+42)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'decor' in title (-8)",
+          "Lower-priority term 'painted' in description (-15)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+42)"
         ],
         "matched_keywords": []
       }
