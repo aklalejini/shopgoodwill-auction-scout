@@ -162,6 +162,7 @@
       "Opportunity term 'specimen' in description (+4)",
       "Opportunity term 'assorted' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -169,15 +170,115 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 16,
+        "relative_score": 0.533,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in description (+4)",
           "Opportunity term 'assorted' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282019305": {
+    "item_id": "282019305",
+    "listing_url": "https://shopgoodwill.com/item/282019305",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/6ae32f1a-6634-4da7-87fd-8a9e41598da6nkel_10271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/4167aed7-1610-41db-9ca5-dce2e67ca361nkel_10272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/7e1587c1-0aa8-4593-b700-814f20426274nkel_10273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/1b509e58-9f47-434f-9968-f0bd77665d45nkel_10274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/a916e4d5-9ac0-4658-868c-1dfe8f063a8dnkel_10275.jpg"
+    ],
+    "description": "Product Overview:\nThis is a mixed lot collection of mineral, rock, and crystal specimens. The assortment includes rough stones, polished pieces, and items in display cases or bags. The collection features a variety of colors and types such as purple amethyst clusters, rose quartz, black obsidian, shell fragments, and fossils. Some specimens have identification or catalog number stickers.\n\nSpecifications:\n- Types of Specimens: Minerals, rocks, crystals, shells, fossils\n- Condition: Natural and unpolished states with varying surface characteristics\n- Included Features: Rough and polished specimens, labeled pieces, display cases, and bags\n- Color Range: Includes purple, pink, black, and other natural hues\n\nAdditional Information:\nSpecimens vary in appearance and form. Identification labels may be present on some items.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 14,
+        "relative_score": 0.467,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49184-5749876": {
+    "item_id": "ctbids-49184-5749876",
+    "listing_url": "https://ctbids.com/estate-sale/49184/item/5749876/Vintage-German-Reich-Postal-History-Collection-1930s-Registered-Airmail-Covers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5749876_IT1CCC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49478-5773971": {
+    "item_id": "ctbids-49478-5773971",
+    "listing_url": "https://ctbids.com/estate-sale/49478/item/5773971/Serving-Item-Lot-vintage-Noritake-Casablanca-Pattern-6842-porcelain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5773971_wgE1fH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -227,72 +328,6 @@
       }
     ]
   },
-  "ctbids-49184-5749876": {
-    "item_id": "ctbids-49184-5749876",
-    "listing_url": "https://ctbids.com/estate-sale/49184/item/5749876/Vintage-German-Reich-Postal-History-Collection-1930s-Registered-Airmail-Covers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5749876_IT1CCC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282019305": {
-    "item_id": "282019305",
-    "listing_url": "https://shopgoodwill.com/item/282019305",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/6ae32f1a-6634-4da7-87fd-8a9e41598da6nkel_10271.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/4167aed7-1610-41db-9ca5-dce2e67ca361nkel_10272.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/7e1587c1-0aa8-4593-b700-814f20426274nkel_10273.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/1b509e58-9f47-434f-9968-f0bd77665d45nkel_10274.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-10-27/a916e4d5-9ac0-4658-868c-1dfe8f063a8dnkel_10275.jpg"
-    ],
-    "description": "Product Overview:\nThis is a mixed lot collection of mineral, rock, and crystal specimens. The assortment includes rough stones, polished pieces, and items in display cases or bags. The collection features a variety of colors and types such as purple amethyst clusters, rose quartz, black obsidian, shell fragments, and fossils. Some specimens have identification or catalog number stickers.\n\nSpecifications:\n- Types of Specimens: Minerals, rocks, crystals, shells, fossils\n- Condition: Natural and unpolished states with varying surface characteristics\n- Included Features: Rough and polished specimens, labeled pieces, display cases, and bags\n- Color Range: Includes purple, pink, black, and other natural hues\n\nAdditional Information:\nSpecimens vary in appearance and form. Identification labels may be present on some items.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49150-5461703": {
     "item_id": "ctbids-49150-5461703",
     "listing_url": "https://ctbids.com/estate-sale/49150/item/5461703/Mimetite-Mexico",
@@ -333,16 +368,16 @@
       }
     ]
   },
-  "ctbids-49478-5773971": {
-    "item_id": "ctbids-49478-5773971",
-    "listing_url": "https://ctbids.com/estate-sale/49478/item/5773971/Serving-Item-Lot-vintage-Noritake-Casablanca-Pattern-6842-porcelain",
+  "ctbids-49515-5774982": {
+    "item_id": "ctbids-49515-5774982",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5774982/1990-Pacific-Baseball-Legends-9-Card-Lot-Garvey-Droppo-Podres-Doby-Campaneris-Grich-Agee",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5773971_wgE1fH.webp"
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5676532_L8bSTG.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -350,11 +385,98 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49515-5775770": {
+    "item_id": "ctbids-49515-5775770",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5775770/Randy-Johnson-Baseball-Card-Lot-9-Donruss-Rated-Rookie-Topps-Fleer-Score-Select",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5526376_WTkpaE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49515-5775774": {
+    "item_id": "ctbids-49515-5775774",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5775774/Miami-Dolphins-Card-Lot-Zach-Thomas-Ronnie-Brown-Chambers-Clayton-NFL-Mix",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5023858_uCFHDw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49478-5772792": {
+    "item_id": "ctbids-49478-5772792",
+    "listing_url": "https://ctbids.com/estate-sale/49478/item/5772792/7-Vintage-Board-Games",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5772792_8VVJqb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -382,6 +504,35 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49583-5786496": {
+    "item_id": "ctbids-49583-5786496",
+    "listing_url": "https://ctbids.com/estate-sale/49583/item/5786496/DC-Comics-Lot-of-4-Secret-Origins-19-DC-Special-29-26-SSOSV-15",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5786496_6MIGEl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -497,33 +648,6 @@
       }
     ]
   },
-  "ctbids-49478-5772792": {
-    "item_id": "ctbids-49478-5772792",
-    "listing_url": "https://ctbids.com/estate-sale/49478/item/5772792/7-Vintage-Board-Games",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5772792_8VVJqb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49478-5773953": {
     "item_id": "ctbids-49478-5773953",
     "listing_url": "https://ctbids.com/estate-sale/49478/item/5773953/11-Teacups-12-Saucers-vintage-Noritake-Casablanca-Pattern-6842-porcelain",
@@ -578,15 +702,49 @@
       }
     ]
   },
-  "ctbids-49515-5774982": {
-    "item_id": "ctbids-49515-5774982",
-    "listing_url": "https://ctbids.com/estate-sale/49515/item/5774982/1990-Pacific-Baseball-Legends-9-Card-Lot-Garvey-Droppo-Podres-Doby-Campaneris-Grich-Agee",
+  "282158024": {
+    "item_id": "282158024",
+    "listing_url": "https://shopgoodwill.com/item/282158024",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5676532_L8bSTG.webp"
+      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/2c97d6c5-8f2d-492f-81b1-40283d7f199aiamr_10281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/434ab120-4e83-41a6-809a-3c3746ae7d81iamr_10282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/932086ee-c994-4882-80d0-2cceb466044eiamr_10283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/4605fbaa-be0b-4449-bccb-0e64057a1c5eiamr_10284.jpg"
+    ],
+    "description": "Measurements:4.5\"x4.5\"x5\"\nCondition: All items are donated goods and sold AS IS.\nPlease review all photos carefully, as they are part of the description and best represent condition, completeness, and included pieces.\nUnless specifically stated otherwise, all items are untested and may show signs of previous use, wear, age, or imperfections consistent with donated merchandise.\nPossible imperfections include but are not limited to: scratches, scuffs, discoloration, dents, tarnish, wear/rust on hardware, residue, sticker/tape marks, loose parts, missing components, manufacturing flaws, dust, fading, chipped edges, misalignment, dust/residue, fabric wear, and other marks from use or storage. Antique and vintage items might have varying signs of age.\nColors may vary slightly due to lighting or screen settings.\nAll sales are final. Please ask any questions before bidding.\n***We are not expert evaluators. Please ask all questions and review all photos prior to bidding.***\n***Photos are part of item descriptions.***\n***Unless stated all merchandise is untested and sold as is. We are not expert evaluators.***\n***Please ask all questions and review all photos prior to bidding.***\n***We try our best to check for defects or excessive wear but sometimes we fail to catch defects.***\n***With this in mind, we are selling item/items \"as is\". All sales are final.***",
+    "score_reasons": [
+      "Opportunity term 'vintage' in description (+5)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "4.5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'vintage' in description (+5)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "4.5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49478-5772805": {
+    "item_id": "ctbids-49478-5772805",
+    "listing_url": "https://ctbids.com/estate-sale/49478/item/5772805/Mattel-Plastic-Alphabet-Blocks-Incomplete-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5772805_VvhEZn.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -597,7 +755,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -605,15 +763,15 @@
       }
     ]
   },
-  "ctbids-49583-5786496": {
-    "item_id": "ctbids-49583-5786496",
-    "listing_url": "https://ctbids.com/estate-sale/49583/item/5786496/DC-Comics-Lot-of-4-Secret-Origins-19-DC-Special-29-26-SSOSV-15",
+  "ctbids-49385-5757657": {
+    "item_id": "ctbids-49385-5757657",
+    "listing_url": "https://ctbids.com/estate-sale/49385/item/5757657/1999-P-New-Jersey-State-Quarter-Crossroads-of-the-Revolution-Philadelphia-Mint",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5786496_6MIGEl.webp"
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5615553_6K5N4P.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -624,7 +782,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -632,15 +790,15 @@
       }
     ]
   },
-  "ctbids-49515-5775770": {
-    "item_id": "ctbids-49515-5775770",
-    "listing_url": "https://ctbids.com/estate-sale/49515/item/5775770/Randy-Johnson-Baseball-Card-Lot-9-Donruss-Rated-Rookie-Topps-Fleer-Score-Select",
+  "ctbids-49350-5771700": {
+    "item_id": "ctbids-49350-5771700",
+    "listing_url": "https://ctbids.com/estate-sale/49350/item/5771700/Roller-Skates-W-Size-6-and-Safety-Gear",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5526376_WTkpaE.webp"
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771700_CpJVr7.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -651,7 +809,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -659,15 +817,15 @@
       }
     ]
   },
-  "ctbids-49515-5775774": {
-    "item_id": "ctbids-49515-5775774",
-    "listing_url": "https://ctbids.com/estate-sale/49515/item/5775774/Miami-Dolphins-Card-Lot-Zach-Thomas-Ronnie-Brown-Chambers-Clayton-NFL-Mix",
+  "ctbids-49350-5772004": {
+    "item_id": "ctbids-49350-5772004",
+    "listing_url": "https://ctbids.com/estate-sale/49350/item/5772004/Airsoft-Scope-And-Cleaning-Kit",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5023858_uCFHDw.webp"
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5772004_lwMk1V.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -678,7 +836,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -712,47 +870,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282492238": {
-    "item_id": "282492238",
-    "listing_url": "https://shopgoodwill.com/item/282492238",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/2f2e1552-c5a4-4260-9136-4bd090beadd8anta_10301.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/fa663085-9e7d-4e73-8f32-7f06473a5208anta_10302.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/eb2af800-6d24-43bb-87e0-bbc53cf6f840anta_10303.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/ea4b9386-014a-461b-b605-c30d314cab52anta_10304.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/2c239a4a-546d-4d80-b247-56e4861c0ed4anta_10305.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/6d9c8821-4def-4830-9252-c91fef0e93d5anta_10306.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/0e8a62b6-75bc-4867-bef1-c13dad4e93cdanta_10307.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/9b7e2bf6-b12b-47f7-9026-de253f712518anta_10308.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/8850e310-db8b-4cd9-b6e5-404ae9154693anta_10309.jpg"
-    ],
-    "description": "Lot of 2 Great Big Bag Mining + Geode Slice Noble Stone\nLot of two 'Great Big Bag' Awesome Mining Rough gemstone and fossil kits from The Noble Stone (Amana, Iowa). Each cotton drawstring bag contains 8oz of gemstones, an arrowhead, crystal point, shark's teeth, 15 fossils, and a surprise item.\nAlso included is a large polished agate/crystal geode slice with banded gray and brown exterior and sparkling quartz crystal interior, approximately fist-sized.\nLoose contents include an assortment of small polished stones, mineral chunks, tumbled gemstones, fossilized shark teeth, fossil shells, and river rocks in various colors: white, orange, green, gray, and brown.\nItems appear new and unused. Sold as a novelty educational rockhounding and fossil collection set.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in description (+1)",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in description (+1)",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -809,61 +926,11 @@
       }
     ]
   },
-  "ctbids-49478-5772805": {
-    "item_id": "ctbids-49478-5772805",
-    "listing_url": "https://ctbids.com/estate-sale/49478/item/5772805/Mattel-Plastic-Alphabet-Blocks-Incomplete-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5772805_VvhEZn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49184-5771816": {
     "item_id": "ctbids-49184-5771816",
     "listing_url": "https://ctbids.com/estate-sale/49184/item/5771816/Mascarade-Masks",
     "images": [
       "https://image.ctbids.com/seller/2026-10-23T2d995a/5712674_6UeMgh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49385-5757657": {
-    "item_id": "ctbids-49385-5757657",
-    "listing_url": "https://ctbids.com/estate-sale/49385/item/5757657/1999-P-New-Jersey-State-Quarter-Crossroads-of-the-Revolution-Philadelphia-Mint",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5615553_6K5N4P.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -984,31 +1051,6 @@
       }
     ]
   },
-  "ctbids-49350-5771700": {
-    "item_id": "ctbids-49350-5771700",
-    "listing_url": "https://ctbids.com/estate-sale/49350/item/5771700/Roller-Skates-W-Size-6-and-Safety-Gear",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771700_CpJVr7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49346-5768202": {
     "item_id": "ctbids-49346-5768202",
     "listing_url": "https://ctbids.com/estate-sale/49346/item/5768202/U-S-Half-Dollars-Quarters-More",
@@ -1034,57 +1076,41 @@
       }
     ]
   },
-  "ctbids-49350-5772004": {
-    "item_id": "ctbids-49350-5772004",
-    "listing_url": "https://ctbids.com/estate-sale/49350/item/5772004/Airsoft-Scope-And-Cleaning-Kit",
+  "282492238": {
+    "item_id": "282492238",
+    "listing_url": "https://shopgoodwill.com/item/282492238",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5772004_lwMk1V.webp"
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/2f2e1552-c5a4-4260-9136-4bd090beadd8anta_10301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/fa663085-9e7d-4e73-8f32-7f06473a5208anta_10302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/eb2af800-6d24-43bb-87e0-bbc53cf6f840anta_10303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/ea4b9386-014a-461b-b605-c30d314cab52anta_10304.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/2c239a4a-546d-4d80-b247-56e4861c0ed4anta_10305.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/6d9c8821-4def-4830-9252-c91fef0e93d5anta_10306.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/0e8a62b6-75bc-4867-bef1-c13dad4e93cdanta_10307.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/9b7e2bf6-b12b-47f7-9026-de253f712518anta_10308.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-10-30/8850e310-db8b-4cd9-b6e5-404ae9154693anta_10309.jpg"
     ],
-    "description": "",
+    "description": "Lot of 2 Great Big Bag Mining + Geode Slice Noble Stone\nLot of two 'Great Big Bag' Awesome Mining Rough gemstone and fossil kits from The Noble Stone (Amana, Iowa). Each cotton drawstring bag contains 8oz of gemstones, an arrowhead, crystal point, shark's teeth, 15 fossils, and a surprise item.\nAlso included is a large polished agate/crystal geode slice with banded gray and brown exterior and sparkling quartz crystal interior, approximately fist-sized.\nLoose contents include an assortment of small polished stones, mineral chunks, tumbled gemstones, fossilized shark teeth, fossil shells, and river rocks in various colors: white, orange, green, gray, and brown.\nItems appear new and unused. Sold as a novelty educational rockhounding and fossil collection set.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282158024": {
-    "item_id": "282158024",
-    "listing_url": "https://shopgoodwill.com/item/282158024",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/2c97d6c5-8f2d-492f-81b1-40283d7f199aiamr_10281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/434ab120-4e83-41a6-809a-3c3746ae7d81iamr_10282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/932086ee-c994-4882-80d0-2cceb466044eiamr_10283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/18/Items/2026-10-28/4605fbaa-be0b-4449-bccb-0e64057a1c5eiamr_10284.jpg"
-    ],
-    "description": "Measurements:4.5\"x4.5\"x5\"\nCondition: All items are donated goods and sold AS IS.\nPlease review all photos carefully, as they are part of the description and best represent condition, completeness, and included pieces.\nUnless specifically stated otherwise, all items are untested and may show signs of previous use, wear, age, or imperfections consistent with donated merchandise.\nPossible imperfections include but are not limited to: scratches, scuffs, discoloration, dents, tarnish, wear/rust on hardware, residue, sticker/tape marks, loose parts, missing components, manufacturing flaws, dust, fading, chipped edges, misalignment, dust/residue, fabric wear, and other marks from use or storage. Antique and vintage items might have varying signs of age.\nColors may vary slightly due to lighting or screen settings.\nAll sales are final. Please ask any questions before bidding.\n***We are not expert evaluators. Please ask all questions and review all photos prior to bidding.***\n***Photos are part of item descriptions.***\n***Unless stated all merchandise is untested and sold as is. We are not expert evaluators.***\n***Please ask all questions and review all photos prior to bidding.***\n***We try our best to check for defects or excessive wear but sometimes we fail to catch defects.***\n***With this in mind, we are selling item/items \"as is\". All sales are final.***",
-    "score_reasons": [
-      "Opportunity term 'vintage' in description (+5)",
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in description (+1)",
+      "Lower-priority term 'polished stones' in description (-6)",
       "Shipping is calculated and not included in the price (-6)",
-      "4.5 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
+        "score": 3,
+        "relative_score": 0.1,
         "score_reasons": [
-          "Opportunity term 'vintage' in description (+5)",
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in description (+1)",
+          "Lower-priority term 'polished stones' in description (-6)",
           "Shipping is calculated and not included in the price (-6)",
-          "4.5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []

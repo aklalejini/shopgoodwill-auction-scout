@@ -16,6 +16,7 @@
       "Opportunity term 'see photos' in description (+4)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,13 +24,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 32,
-        "relative_score": 1.067,
+        "score": 37,
+        "relative_score": 1.233,
         "score_reasons": [
           "Opportunity term 'lot' in description (+5)",
           "Opportunity term 'see photos' in description (+4)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -200,6 +202,37 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-46607-5745918": {
+    "item_id": "ctbids-46607-5745918",
+    "listing_url": "https://ctbids.com/estate-sale/46607/item/5745918/Charming-Vintage-Portraits",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745918_o6iVwJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -211,7 +244,7 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -301,6 +334,35 @@
       }
     ]
   },
+  "ctbids-48817-5774096": {
+    "item_id": "ctbids-48817-5774096",
+    "listing_url": "https://ctbids.com/estate-sale/48817/item/5774096/Lot-of-2-Pairs-Men-s-Cleats-Size-11-Under-Armour-Harper-9-Pro-TPU-Nike-Force-Savage-Varsity",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5774096_an608A.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49184-5742827": {
     "item_id": "ctbids-49184-5742827",
     "listing_url": "https://ctbids.com/estate-sale/49184/item/5742827/Vintage-Winter-Holiday-Electronic-Victorian-Skating-Scene",
@@ -382,33 +444,6 @@
       }
     ]
   },
-  "ctbids-46607-5745918": {
-    "item_id": "ctbids-46607-5745918",
-    "listing_url": "https://ctbids.com/estate-sale/46607/item/5745918/Charming-Vintage-Portraits",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5745918_o6iVwJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49265-5753216": {
     "item_id": "ctbids-49265-5753216",
     "listing_url": "https://ctbids.com/estate-sale/49265/item/5753216/Hallmark-Keepsake-Star-Trek-Ornaments-Lot-4",
@@ -463,15 +498,15 @@
       }
     ]
   },
-  "ctbids-48817-5774096": {
-    "item_id": "ctbids-48817-5774096",
-    "listing_url": "https://ctbids.com/estate-sale/48817/item/5774096/Lot-of-2-Pairs-Men-s-Cleats-Size-11-Under-Armour-Harper-9-Pro-TPU-Nike-Force-Savage-Varsity",
+  "ctbids-49515-5774996": {
+    "item_id": "ctbids-49515-5774996",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5774996/1979-Topps-Star-Trek-The-Motion-Picture-Sticker-Cards-1-8-Puzzle-Backs",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5774096_an608A.webp"
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5650282_88L0nX.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -482,7 +517,34 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49515-5775767": {
+    "item_id": "ctbids-49515-5775767",
+    "listing_url": "https://ctbids.com/estate-sale/49515/item/5775767/1994-Donruss-Triple-Play-Chipper-Jones-Rookie-RC-281-Atlanta-Braves",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5023952_ufDtkf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -564,6 +626,177 @@
       }
     ]
   },
+  "ctbids-49150-5464303": {
+    "item_id": "ctbids-49150-5464303",
+    "listing_url": "https://ctbids.com/estate-sale/49150/item/5464303/Ecdemite-Pinal-Co-Arizona",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-30Tb9877f/5464303_1yuwBu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49150-5464884": {
+    "item_id": "ctbids-49150-5464884",
+    "listing_url": "https://ctbids.com/estate-sale/49150/item/5464884/Rhondocrosite-Canada",
+    "images": [
+      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5464884_c6b2Gq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48671-5762250": {
+    "item_id": "ctbids-48671-5762250",
+    "listing_url": "https://ctbids.com/estate-sale/48671/item/5762250/Korean-Robe-West-Point-Cadet-Robe-And-Military-Berets",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5762250_PJLqVU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49537-5779492": {
+    "item_id": "ctbids-49537-5779492",
+    "listing_url": "https://ctbids.com/estate-sale/49537/item/5779492/2-Necklaces-And-A-Bracelet-Dolly-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5779492_ePGLPy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49523-5776155": {
+    "item_id": "ctbids-49523-5776155",
+    "listing_url": "https://ctbids.com/estate-sale/49523/item/5776155/Pokemon-30th-Anniversary-Cards-Binder-Page-Banette-Miraidon-Snorunt-Victini-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5776155_NwArUW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282088239": {
+    "item_id": "282088239",
+    "listing_url": "https://shopgoodwill.com/item/282088239",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/d94bbebc-c955-4451-9062-484568dae62agwco_09281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/305b23e2-7375-43f8-b404-ddde002c714agwco_09282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/8abe45f0-a3cf-4851-9610-262b3cafdf9bgwco_09283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/1b0dc734-d7fc-48cf-ad0b-b6b5dccb1c10gwco_09284.jpg"
+    ],
+    "description": "Title:\nRustic Agate Slice Wood Base Home Decor Geode Centerpiece Natural Stone\nDepartment:\nAdults\nCondition:\nUsed\nStyle:\nRustic\nColor:\nBrown, Gray, Tan\nCategory:\nHard Goods\nType:\nDecorative Display Stand\nCare Instructions:\nWipe Clean With Dry Cloth\nMaterial:\nWood, Agate\nOccasion:\nAll Occasions\nOrientation:\nHorizontal\nRoom:\nLiving Room\nTheme:\nNature\nUnit Quantity:\n1\nUnit Type:\nUnit\nDescription:\nBring a touch of nature indoors with this striking decorative display stand. The piece features a unique cross-section of polished agate perched on a sculpted rustic wood base, blending organic textures and earthy tones to add visual interest to any room. Its natural wood grain and the agate's layered patterns make each angle visually engaging, perfect for accenting shelves, coffee tables, or workspaces. Made from real wood and agate, this piece offers not only an attractive appearance but also reliable durability and versatility. The flat surface and attached agate create a stable platform, suitable for displaying smaller items or standing alone as a natural art object. Simple maintenance keeps it looking its best just wipe with a dry cloth to retain its warm sheen. Condition is used, showing minimal signs of prior display. Whether gifting or enhancing your own space, this stand provides a timeless, handcrafted look for your home",
+    "score_reasons": [
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+13)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+13)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49605-5789095": {
     "item_id": "ctbids-49605-5789095",
     "listing_url": "https://ctbids.com/estate-sale/49605/item/5789095/2016-W-Eagle-30th-Anniversary-NGC-MS70",
@@ -594,81 +827,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49605/item/5789023/1-Gram-999-9-Gold-Bar",
     "images": [
       "https://image.ctbids.com/seller/2026-10-28Tbd4550/5789023_ycmJLw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49150-5464303": {
-    "item_id": "ctbids-49150-5464303",
-    "listing_url": "https://ctbids.com/estate-sale/49150/item/5464303/Ecdemite-Pinal-Co-Arizona",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-30Tb9877f/5464303_1yuwBu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49150-5464884": {
-    "item_id": "ctbids-49150-5464884",
-    "listing_url": "https://ctbids.com/estate-sale/49150/item/5464884/Rhondocrosite-Canada",
-    "images": [
-      "https://image.ctbids.com/seller/2026-07-31Tbb0a7b/5464884_c6b2Gq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48671-5762250": {
-    "item_id": "ctbids-48671-5762250",
-    "listing_url": "https://ctbids.com/estate-sale/48671/item/5762250/Korean-Robe-West-Point-Cadet-Robe-And-Military-Berets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5762250_PJLqVU.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -764,111 +922,52 @@
       }
     ]
   },
+  "ctbids-49150-5516755": {
+    "item_id": "ctbids-49150-5516755",
+    "listing_url": "https://ctbids.com/estate-sale/49150/item/5516755/Pyrite-Union-Copper-Mine-NC",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5516755_eumSrw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49515-5774860": {
     "item_id": "ctbids-49515-5774860",
     "listing_url": "https://ctbids.com/estate-sale/49515/item/5774860/1980-81-Topps-Magic-Johnson-John-Long-Ron-Boone-111-SGC-5-EX-Basketball-Card",
     "images": [
       "https://image.ctbids.com/seller/2026-10-25T7657bc/5726238_2d0KXu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49515-5774996": {
-    "item_id": "ctbids-49515-5774996",
-    "listing_url": "https://ctbids.com/estate-sale/49515/item/5774996/1979-Topps-Star-Trek-The-Motion-Picture-Sticker-Cards-1-8-Puzzle-Backs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5650282_88L0nX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49537-5779492": {
-    "item_id": "ctbids-49537-5779492",
-    "listing_url": "https://ctbids.com/estate-sale/49537/item/5779492/2-Necklaces-And-A-Bracelet-Dolly-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5779492_ePGLPy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49515-5775767": {
-    "item_id": "ctbids-49515-5775767",
-    "listing_url": "https://ctbids.com/estate-sale/49515/item/5775767/1994-Donruss-Triple-Play-Chipper-Jones-Rookie-RC-281-Atlanta-Braves",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5023952_ufDtkf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49523-5776155": {
-    "item_id": "ctbids-49523-5776155",
-    "listing_url": "https://ctbids.com/estate-sale/49523/item/5776155/Pokemon-30th-Anniversary-Cards-Binder-Page-Banette-Miraidon-Snorunt-Victini-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5776155_NwArUW.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -914,78 +1013,6 @@
       }
     ]
   },
-  "282088239": {
-    "item_id": "282088239",
-    "listing_url": "https://shopgoodwill.com/item/282088239",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/d94bbebc-c955-4451-9062-484568dae62agwco_09281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/305b23e2-7375-43f8-b404-ddde002c714agwco_09282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/8abe45f0-a3cf-4851-9610-262b3cafdf9bgwco_09283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-09-28/1b0dc734-d7fc-48cf-ad0b-b6b5dccb1c10gwco_09284.jpg"
-    ],
-    "description": "Title:\nRustic Agate Slice Wood Base Home Decor Geode Centerpiece Natural Stone\nDepartment:\nAdults\nCondition:\nUsed\nStyle:\nRustic\nColor:\nBrown, Gray, Tan\nCategory:\nHard Goods\nType:\nDecorative Display Stand\nCare Instructions:\nWipe Clean With Dry Cloth\nMaterial:\nWood, Agate\nOccasion:\nAll Occasions\nOrientation:\nHorizontal\nRoom:\nLiving Room\nTheme:\nNature\nUnit Quantity:\n1\nUnit Type:\nUnit\nDescription:\nBring a touch of nature indoors with this striking decorative display stand. The piece features a unique cross-section of polished agate perched on a sculpted rustic wood base, blending organic textures and earthy tones to add visual interest to any room. Its natural wood grain and the agate's layered patterns make each angle visually engaging, perfect for accenting shelves, coffee tables, or workspaces. Made from real wood and agate, this piece offers not only an attractive appearance but also reliable durability and versatility. The flat surface and attached agate create a stable platform, suitable for displaying smaller items or standing alone as a natural art object. Simple maintenance keeps it looking its best just wipe with a dry cloth to retain its warm sheen. Condition is used, showing minimal signs of prior display. Whether gifting or enhancing your own space, this stand provides a timeless, handcrafted look for your home",
-    "score_reasons": [
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'decor' in title (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'decor' in title (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49150-5516755": {
-    "item_id": "ctbids-49150-5516755",
-    "listing_url": "https://ctbids.com/estate-sale/49150/item/5516755/Pyrite-Union-Copper-Mine-NC",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5516755_eumSrw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49346-5756420": {
     "item_id": "ctbids-49346-5756420",
     "listing_url": "https://ctbids.com/estate-sale/49346/item/5756420/Vintage-Hemingway-Glass-Insulators-Jar-Marbles",
@@ -994,9 +1021,10 @@
     ],
     "description": "",
     "score_reasons": [
+      "10 bids near close show the opportunity is noticed (-12)",
       "Only 1 listing photo (-12)",
       "Base score (+5)",
-      "Score boundary adjustment (+7)"
+      "Score boundary adjustment (+19)"
     ],
     "hunt_scores": [
       {
@@ -1005,9 +1033,10 @@
         "score": 0,
         "relative_score": 0.0,
         "score_reasons": [
+          "10 bids near close show the opportunity is noticed (-12)",
           "Only 1 listing photo (-12)",
           "Base score (+5)",
-          "Score boundary adjustment (+7)"
+          "Score boundary adjustment (+19)"
         ],
         "matched_keywords": []
       },
