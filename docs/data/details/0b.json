@@ -167,7 +167,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -175,11 +174,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -236,33 +234,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49484-5764520": {
-    "item_id": "ctbids-49484-5764520",
-    "listing_url": "https://ctbids.com/estate-sale/49484/item/5764520/Beure-Cottages-Near-Besancon-by-L-Richmond-Art-Print-in-Ornate-Frame",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5764520_meWYtg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -351,11 +322,11 @@
       }
     ]
   },
-  "ctbids-49605-5790391": {
-    "item_id": "ctbids-49605-5790391",
-    "listing_url": "https://ctbids.com/estate-sale/49605/item/5790391/2021-Eagle-T-1-NGC-MS70",
+  "ctbids-49484-5764520": {
+    "item_id": "ctbids-49484-5764520",
+    "listing_url": "https://ctbids.com/estate-sale/49484/item/5764520/Beure-Cottages-Near-Besancon-by-L-Richmond-Art-Print-in-Ornate-Frame",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790391_sJqVrP.webp"
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5764520_meWYtg.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -371,6 +342,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49605-5790391": {
+    "item_id": "ctbids-49605-5790391",
+    "listing_url": "https://ctbids.com/estate-sale/49605/item/5790391/2021-Eagle-T-1-NGC-MS70",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790391_sJqVrP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

@@ -124,7 +124,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -136,7 +136,7 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -397,7 +397,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -408,41 +408,9 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "281937439": {
-    "item_id": "281937439",
-    "listing_url": "https://shopgoodwill.com/item/281937439",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/ba66c7a5-6637-4c9f-8085-778f7c3da28aie88_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/7127614a-e6f7-4981-85e5-9000fac353e1ie88_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/6dbe730f-efa0-4fb5-979c-c0d8e968bcacie88_10193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/d5715581-f789-4d83-968b-9fe694b43158ie88_10194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/1024ef7e-3968-4b0f-b4a5-e93be0cc3663ie88_10195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/ee4abf14-98df-40c9-ad5d-b7d3a34126c8ie88_10196.jpg"
-    ],
-    "description": "Vintage Carved Wooden Elephant Desk Pen Set\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 7,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -698,46 +666,6 @@
       }
     ]
   },
-  "ctbids-48875-5775818": {
-    "item_id": "ctbids-48875-5775818",
-    "listing_url": "https://ctbids.com/estate-sale/48875/item/5775818/1-0ct-Garnet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775818_goLM4q.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Less relevant category 'Jewelry' (-12)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+17)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Jewelry' (-12)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+17)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49051-5756682": {
     "item_id": "ctbids-49051-5756682",
     "listing_url": "https://ctbids.com/estate-sale/49051/item/5756682/Buddha-Necklaces-Natural-Stone-Carved-Animal-Pendants",
@@ -838,6 +766,78 @@
       }
     ]
   },
+  "ctbids-48875-5775818": {
+    "item_id": "ctbids-48875-5775818",
+    "listing_url": "https://ctbids.com/estate-sale/48875/item/5775818/1-0ct-Garnet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775818_goLM4q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Less relevant category 'Jewelry' (-12)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Jewelry' (-12)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "281937439": {
+    "item_id": "281937439",
+    "listing_url": "https://shopgoodwill.com/item/281937439",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/ba66c7a5-6637-4c9f-8085-778f7c3da28aie88_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/7127614a-e6f7-4981-85e5-9000fac353e1ie88_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/6dbe730f-efa0-4fb5-979c-c0d8e968bcacie88_10193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/d5715581-f789-4d83-968b-9fe694b43158ie88_10194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/1024ef7e-3968-4b0f-b4a5-e93be0cc3663ie88_10195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/127/Items/2026-10-19/ee4abf14-98df-40c9-ad5d-b7d3a34126c8ie88_10196.jpg"
+    ],
+    "description": "Vintage Carved Wooden Elephant Desk Pen Set\nCondition:\nGood - shows some sign of wear\nSold As-is\nSee Photos\nDISCLAIMER: By Bidding On An Item, The Buyer Understands & Accepts That: A) Items Are Represented To The Best Of Our Ability, Through Pictures & Description. B) The Majority Of Our Items Are Used & Have Been Donated; Therefore All Items Are Sold As-Is With No Warranties Expressed Or Implied. C) Items Are Unable To Be Tested & Therefore The Working Condition Is Not Guaranteed. D) Items Have Not Been Authenticated, Certified Or Researched, Unless Otherwise Stated. E) Non-Payment Will Result In Account Restrictions",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "282090575": {
     "item_id": "282090575",
     "listing_url": "https://shopgoodwill.com/item/282090575",
@@ -855,9 +855,10 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'rocks' in title (+1)",
       "Lower-priority term 'carvings' in title (-7)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+5)"
+      "Score boundary adjustment (+1)"
     ],
     "hunt_scores": [
       {
@@ -869,9 +870,10 @@
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
           "Lower-priority term 'carvings' in title (-7)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+5)"
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }
