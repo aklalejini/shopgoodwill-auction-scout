@@ -55,6 +55,7 @@
       "Opportunity term 'rocks' in description (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Target keyword 'fluorite' in description (+9)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -62,14 +63,15 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 15,
-        "relative_score": 0.5,
+        "score": 19,
+        "relative_score": 0.633,
         "score_reasons": [
           "Opportunity term 'specimen' in description (+4)",
           "Opportunity term 'assorted' in description (+2)",
           "Opportunity term 'rocks' in description (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Target keyword 'fluorite' in description (+9)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -88,6 +90,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -95,10 +98,69 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49691-5799978": {
+    "item_id": "ctbids-49691-5799978",
+    "listing_url": "https://ctbids.com/estate-sale/49691/item/5799978/Vintage-Al-Caiola-Speak-Low-Autumn-in-Cheyenne-45-RPM-Record-UA-347-United-Artists",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5589040_lKdGxB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49691-5800161": {
+    "item_id": "ctbids-49691-5800161",
+    "listing_url": "https://ctbids.com/estate-sale/49691/item/5800161/Vintage-Violet-and-Forget-Me-Not-Floral-Plate-Swirl-Rim-Gold-Trim-8-5-in-Dessert-or-Salad-Plate",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5754954_gJlCMK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -138,60 +200,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48733/item/5748260/Vintage-Box-Of-Wooden-Building-Blocks",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5748260_r5BRXm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49691-5799978": {
-    "item_id": "ctbids-49691-5799978",
-    "listing_url": "https://ctbids.com/estate-sale/49691/item/5799978/Vintage-Al-Caiola-Speak-Low-Autumn-in-Cheyenne-45-RPM-Record-UA-347-United-Artists",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5589040_lKdGxB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49691-5800161": {
-    "item_id": "ctbids-49691-5800161",
-    "listing_url": "https://ctbids.com/estate-sale/49691/item/5800161/Vintage-Violet-and-Forget-Me-Not-Floral-Plate-Swirl-Rim-Gold-Trim-8-5-in-Dessert-or-Salad-Plate",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5754954_gJlCMK.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -268,31 +276,6 @@
       }
     ]
   },
-  "ctbids-49253-5757381": {
-    "item_id": "ctbids-49253-5757381",
-    "listing_url": "https://ctbids.com/estate-sale/49253/item/5757381/Copeland-Spode-Alden-Plates-8-Pieces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5757381_PrQkJk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49406-5768023": {
     "item_id": "ctbids-49406-5768023",
     "listing_url": "https://ctbids.com/estate-sale/49406/item/5768023/Three-Spalding-Bobby-Jones-Line-Rite-Wooden-Golf-Clubs-1-2-3",
@@ -301,6 +284,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -308,9 +292,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -323,6 +308,92 @@
     "listing_url": "https://ctbids.com/estate-sale/49691/item/5800062/2022-Celebration-Wine-Glass-Gold-Star-Stemware-Goblet",
     "images": [
       "https://image.ctbids.com/seller/2026-11-01T19bae7/5248720_CnTCye.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49691-5800239": {
+    "item_id": "ctbids-49691-5800239",
+    "listing_url": "https://ctbids.com/estate-sale/49691/item/5800239/Large-Round-White-Porcelain-Serving-Platter-Glossy-Glaze-Thin-Gray-Rim-Line-Chop-Plate-16-In",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5780859_G7nfmZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282668906": {
+    "item_id": "282668906",
+    "listing_url": "https://shopgoodwill.com/item/282668906",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-02/595edd66-9342-48b6-8914-50510412eb93anta_11021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-02/cc08e31e-d569-428d-9943-36581879e824anta_11022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-02/76dd6436-3d4a-4506-b519-3f77d1658688anta_11023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-02/6de6cba9-94e6-44a8-8d90-874bb693e1aaanta_11024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-02/9e676a84-69c0-45c9-a6f1-cb3bed2de630anta_11025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-02/3ce2524a-9f6f-4229-aca3-58ad90854f2fanta_11026.jpg"
+    ],
+    "description": "Vintage Wooden Smoking Pipe Hand-Carved Bear Tree Stump Bowl Dark Stem\nThis vintage wooden smoking pipe features a hand-carved bear design integrated into the bowl, which is shaped like a tree stump. The bear figure is detailed and sculpted on the side of the bowl. The stem is made from a dark hard material, likely vulcanite or bakelite. The pipe shows signs of use but is well-preserved with a smooth, polished wooden finish. There are no visible cracks or major damage. No brand or model markings are present on the pipe.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49253-5757381": {
+    "item_id": "ctbids-49253-5757381",
+    "listing_url": "https://ctbids.com/estate-sale/49253/item/5757381/Copeland-Spode-Alden-Plates-8-Pieces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5757381_PrQkJk.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -448,31 +519,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49455/item/5766733/Easter-Egg-Tulip-Basket-Ceramic-Deviled-Egg-Serving-Platter",
     "images": [
       "https://image.ctbids.com/seller/2026-10-22T99993c/5766733_tU6LGO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49691-5800239": {
-    "item_id": "ctbids-49691-5800239",
-    "listing_url": "https://ctbids.com/estate-sale/49691/item/5800239/Large-Round-White-Porcelain-Serving-Platter-Glossy-Glaze-Thin-Gray-Rim-Line-Chop-Plate-16-In",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5780859_G7nfmZ.webp"
     ],
     "description": "",
     "score_reasons": [
