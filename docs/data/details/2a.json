@@ -15,6 +15,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -22,13 +23,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 30,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -50,6 +52,7 @@
     "description": "This large natural agate geode specimen features a polished face that reveals striking blue-gray and white banding with crystal formations at the center. The exterior retains its original rough texture with earthy brown, green, and tan tones. The piece weighs approximately 2.1 lbs and measures about 4 inches tall by 5.5 inches wide. There are price and inventory stickers from Goodwill on one side, and the specimen shows no visible major damage.",
     "score_reasons": [
       "Opportunity term 'specimen' in title (+4)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -57,14 +60,51 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 19,
-        "relative_score": 0.633,
+        "score": 23,
+        "relative_score": 0.767,
         "score_reasons": [
           "Opportunity term 'specimen' in title (+4)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "282106307": {
+    "item_id": "282106307",
+    "listing_url": "https://shopgoodwill.com/item/282106307",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/729f0f22-5062-43ec-b11a-00f61a2d2b42pert_10281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/ce765cdf-a6f5-413c-95ac-6320179a8843pert_10282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/0f23a910-cffb-4cdb-8d80-63e8910e50e2pert_10283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/755ed2d3-9042-432e-a6b6-3b9f590bd15epert_10284.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/750a9bba-857c-4fd8-ad28-291bf7389959pert_10285.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/75218f97-4b95-473a-b95a-9889dcaad4b5pert_10286.jpg"
+    ],
+    "description": "This Falcon Straight Briar tobacco pipe features a rounded wooden bowl with a smooth, polished brown finish that highlights the natural wood grain. It has a flat, slightly tapered black acrylic stem. The pipe shows some discoloration inside the bowl, indicating previous use. The shank is marked with 'Luca' or a similar inscription, though no specific model details are visible.",
+    "score_reasons": [
+      "Target keyword 'briar' in title (+5)",
+      "0 bids near close (+4)",
+      "Flat shipping is only $0.01 (+9)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 23,
+        "relative_score": 0.657,
+        "score_reasons": [
+          "Target keyword 'briar' in title (+5)",
+          "0 bids near close (+4)",
+          "Flat shipping is only $0.01 (+9)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "briar"
+        ]
       }
     ]
   },
@@ -92,40 +132,6 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "282106307": {
-    "item_id": "282106307",
-    "listing_url": "https://shopgoodwill.com/item/282106307",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/729f0f22-5062-43ec-b11a-00f61a2d2b42pert_10281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/ce765cdf-a6f5-413c-95ac-6320179a8843pert_10282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/0f23a910-cffb-4cdb-8d80-63e8910e50e2pert_10283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/755ed2d3-9042-432e-a6b6-3b9f590bd15epert_10284.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/750a9bba-857c-4fd8-ad28-291bf7389959pert_10285.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-10-28/75218f97-4b95-473a-b95a-9889dcaad4b5pert_10286.jpg"
-    ],
-    "description": "This Falcon Straight Briar tobacco pipe features a rounded wooden bowl with a smooth, polished brown finish that highlights the natural wood grain. It has a flat, slightly tapered black acrylic stem. The pipe shows some discoloration inside the bowl, indicating previous use. The shank is marked with 'Luca' or a similar inscription, though no specific model details are visible.",
-    "score_reasons": [
-      "Target keyword 'briar' in title (+5)",
-      "Flat shipping is only $0.01 (+9)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 19,
-        "relative_score": 0.543,
-        "score_reasons": [
-          "Target keyword 'briar' in title (+5)",
-          "Flat shipping is only $0.01 (+9)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "briar"
-        ]
       }
     ]
   },
@@ -231,6 +237,35 @@
       }
     ]
   },
+  "ctbids-49540-5786446": {
+    "item_id": "ctbids-49540-5786446",
+    "listing_url": "https://ctbids.com/estate-sale/49540/item/5786446/Vintage-Frankoma-John-Frank-Christmas-Collector-Plates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5786446_Df7los.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49180-5699184": {
     "item_id": "ctbids-49180-5699184",
     "listing_url": "https://ctbids.com/estate-sale/49180/item/5699184/1986-Fleer-League-Leaders-Complete-Set-1-44-Sealed-Jose-Canseco-Rookie-George-Brett-and-More",
@@ -285,33 +320,6 @@
       }
     ]
   },
-  "ctbids-49540-5786446": {
-    "item_id": "ctbids-49540-5786446",
-    "listing_url": "https://ctbids.com/estate-sale/49540/item/5786446/Vintage-Frankoma-John-Frank-Christmas-Collector-Plates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5786446_Df7los.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49168-5778194": {
     "item_id": "ctbids-49168-5778194",
     "listing_url": "https://ctbids.com/estate-sale/49168/item/5778194/Vintage-Washboard-Kitchen-Scale-Coffee-Grinder-Stoneware-Crock-Collectibles",
@@ -339,6 +347,60 @@
       }
     ]
   },
+  "ctbids-49748-5806287": {
+    "item_id": "ctbids-49748-5806287",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806287/Solomon-Burke-Be-Bop-Grandma-Just-Out-of-Reach-Of-My-Two-Open-Arms-Atlantic-No-45-2114",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5685608_jRwCBH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806379": {
+    "item_id": "ctbids-49748-5806379",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806379/Mikasa-Continental-White-Round-Bowl-F3000-Glossy-Porcelain-Oven-to-Table-Made-in-Japan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5780824_BWxnSa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-47105-5480826": {
     "item_id": "ctbids-47105-5480826",
     "listing_url": "https://ctbids.com/estate-sale/47105/item/5480826/Costume-Jewelry-Earrings-Lot-1-25-Pairs",
@@ -359,6 +421,87 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49471-5795943": {
+    "item_id": "ctbids-49471-5795943",
+    "listing_url": "https://ctbids.com/estate-sale/49471/item/5795943/Goebel-M-I-Hummel-912-B-Spring-Waltz-2007-2008-Club-Exclusive-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795943_SPHfG7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48592-5784226": {
+    "item_id": "ctbids-48592-5784226",
+    "listing_url": "https://ctbids.com/estate-sale/48592/item/5784226/Cowboy-Hall-Of-Fame",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5784226_5i3kLv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49312-5778328": {
+    "item_id": "ctbids-49312-5778328",
+    "listing_url": "https://ctbids.com/estate-sale/49312/item/5778328/Avon-American-Heirloom-Dolls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5778328_q0VfRM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -616,61 +759,11 @@
       }
     ]
   },
-  "ctbids-49748-5806287": {
-    "item_id": "ctbids-49748-5806287",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806287/Solomon-Burke-Be-Bop-Grandma-Just-Out-of-Reach-Of-My-Two-Open-Arms-Atlantic-No-45-2114",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5685608_jRwCBH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49312-5760002": {
     "item_id": "ctbids-49312-5760002",
     "listing_url": "https://ctbids.com/estate-sale/49312/item/5760002/Crochet-Blankets",
     "images": [
       "https://image.ctbids.com/seller/2026-10-21Td3ca70/5760002_fpLr3e.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806379": {
-    "item_id": "ctbids-49748-5806379",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806379/Mikasa-Continental-White-Round-Bowl-F3000-Glossy-Porcelain-Oven-to-Table-Made-in-Japan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5780824_BWxnSa.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -791,81 +884,6 @@
       }
     ]
   },
-  "ctbids-49471-5795943": {
-    "item_id": "ctbids-49471-5795943",
-    "listing_url": "https://ctbids.com/estate-sale/49471/item/5795943/Goebel-M-I-Hummel-912-B-Spring-Waltz-2007-2008-Club-Exclusive-Figurine",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795943_SPHfG7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48592-5784226": {
-    "item_id": "ctbids-48592-5784226",
-    "listing_url": "https://ctbids.com/estate-sale/48592/item/5784226/Cowboy-Hall-Of-Fame",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5784226_5i3kLv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49312-5778328": {
-    "item_id": "ctbids-49312-5778328",
-    "listing_url": "https://ctbids.com/estate-sale/49312/item/5778328/Avon-American-Heirloom-Dolls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5778328_q0VfRM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49312-5757344": {
     "item_id": "ctbids-49312-5757344",
     "listing_url": "https://ctbids.com/estate-sale/49312/item/5757344/Bessie-Pease-Gutmann-Prints",
@@ -896,31 +914,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49540/item/5783040/Valerie-Parr-Hill-Three-Piece-Ceramic-Train-Candle-Holders",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5783040_9XfNr1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47863-5552077": {
-    "item_id": "ctbids-47863-5552077",
-    "listing_url": "https://ctbids.com/estate-sale/47863/item/5552077/Rolling-Contemporary-Side-Office-Table-7-81",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5552077_3GJNPC.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1016,10 +1009,11 @@
       "Lower-priority term 'decor' in title (-8)",
       "Lower-priority term 'carved' in description (-7)",
       "Lower-priority term 'metaphysical' in description (-10)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "10 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+27)"
+      "Score boundary adjustment (+23)"
     ],
     "hunt_scores": [
       {
@@ -1036,10 +1030,11 @@
           "Lower-priority term 'decor' in title (-8)",
           "Lower-priority term 'carved' in description (-7)",
           "Lower-priority term 'metaphysical' in description (-10)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "10 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+27)"
+          "Score boundary adjustment (+23)"
         ],
         "matched_keywords": []
       }
@@ -1070,81 +1065,6 @@
         ],
         "matched_keywords": []
       },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49342-5787545": {
-    "item_id": "ctbids-49342-5787545",
-    "listing_url": "https://ctbids.com/estate-sale/49342/item/5787545/Heavyweight-Cold-Weather-Coats",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5787545_p1s6Ad.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49342-5757251": {
-    "item_id": "ctbids-49342-5757251",
-    "listing_url": "https://ctbids.com/estate-sale/49342/item/5757251/Giuseppe-Armani-December-Magic-1573F-Figurine",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5757251_vDSQSm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49342-5762643": {
-    "item_id": "ctbids-49342-5762643",
-    "listing_url": "https://ctbids.com/estate-sale/49342/item/5762643/Handmade-Stoneware-Pot-w-Lid-Spoon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5762643_vFeEUu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -1220,6 +1140,81 @@
           "Opportunity term 'lot' in description (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49342-5787545": {
+    "item_id": "ctbids-49342-5787545",
+    "listing_url": "https://ctbids.com/estate-sale/49342/item/5787545/Heavyweight-Cold-Weather-Coats",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5787545_p1s6Ad.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49342-5757251": {
+    "item_id": "ctbids-49342-5757251",
+    "listing_url": "https://ctbids.com/estate-sale/49342/item/5757251/Giuseppe-Armani-December-Magic-1573F-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5757251_vDSQSm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49342-5762643": {
+    "item_id": "ctbids-49342-5762643",
+    "listing_url": "https://ctbids.com/estate-sale/49342/item/5762643/Handmade-Stoneware-Pot-w-Lid-Spoon",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5762643_vFeEUu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }

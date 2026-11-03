@@ -18,6 +18,7 @@
       "Target keyword 'tdk' in title (+5)",
       "Only the top 3 target keyword matches count; 3 weaker overlap(s) ignored",
       "High-value signal 'maxell xlii' in description (+12)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-6)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+4)"
@@ -26,8 +27,8 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 30,
-        "relative_score": 0.833,
+        "score": 34,
+        "relative_score": 0.944,
         "score_reasons": [
           "Opportunity term 'factory sealed' in description (+18)",
           "Opportunity term 'sealed' in title (+6)",
@@ -40,6 +41,7 @@
           "Target keyword 'tdk' in title (+5)",
           "Only the top 3 target keyword matches count; 3 weaker overlap(s) ignored",
           "High-value signal 'maxell xlii' in description (+12)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-6)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+4)"
@@ -103,6 +105,7 @@
       "Opportunity term 'assorted' in description (+2)",
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -110,13 +113,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
+        "score": 14,
+        "relative_score": 0.467,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in description (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -133,6 +137,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'sealed' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -140,10 +145,98 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 11,
+        "relative_score": 0.324,
         "score_reasons": [
           "Opportunity term 'sealed' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806418": {
+    "item_id": "ctbids-49748-5806418",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806418/Set-of-3-Vintage-4-Oz-Pure-Honey-Bottles-Embossed-Beehive-and-Bees-Clear-Glass-Pure-Honey-Corks",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5800547_oPDfIF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806266": {
+    "item_id": "ctbids-49748-5806266",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806266/Vintage-Jim-Reeves-He-ll-Have-to-Go-RCA-Victor-47-7643-45-RPM-Vinyl-Record",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5433516_qgrxre.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48648-5656395": {
+    "item_id": "ctbids-48648-5656395",
+    "listing_url": "https://ctbids.com/estate-sale/48648/item/5656395/Rudolph-the-Red-Nosed-Reindeer-Christmas-Collection-Figures-Ornaments-Stuffed-Toys-Lot-3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-30T072869/5656395_HzS26w.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -178,65 +271,11 @@
       }
     ]
   },
-  "ctbids-49748-5806418": {
-    "item_id": "ctbids-49748-5806418",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806418/Set-of-3-Vintage-4-Oz-Pure-Honey-Bottles-Embossed-Beehive-and-Bees-Clear-Glass-Pure-Honey-Corks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5800547_oPDfIF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49312-5765555": {
     "item_id": "ctbids-49312-5765555",
     "listing_url": "https://ctbids.com/estate-sale/49312/item/5765555/Two-Vintage-Empire-Ware-English-Porcelain-Urns",
     "images": [
       "https://image.ctbids.com/seller/2026-10-22T99993c/5765555_b9zUn8.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806266": {
-    "item_id": "ctbids-49748-5806266",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806266/Vintage-Jim-Reeves-He-ll-Have-to-Go-RCA-Victor-47-7643-45-RPM-Vinyl-Record",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5433516_qgrxre.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -286,6 +325,87 @@
       }
     ]
   },
+  "ctbids-49748-5806136": {
+    "item_id": "ctbids-49748-5806136",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806136/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5433519_oO6HZU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49540-5777301": {
+    "item_id": "ctbids-49540-5777301",
+    "listing_url": "https://ctbids.com/estate-sale/49540/item/5777301/Santa-s-Bag-Green-Wheeled-Storage-Bag",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777301_8Uj3B9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806250": {
+    "item_id": "ctbids-49748-5806250",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806250/Clear-Glass-Oval-Hurricane-Candle-Holder-Vase-Footed-Base-Open-Top-Pillar-Candle-Shade",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5745680_sihjqA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49180-5699112": {
     "item_id": "ctbids-49180-5699112",
     "listing_url": "https://ctbids.com/estate-sale/49180/item/5699112/Charles-Barkley-David-Robinson-Scottie-Pippen-Patrick-Ewing-Basketball-Card-Lot",
@@ -306,6 +426,60 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806350": {
+    "item_id": "ctbids-49748-5806350",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806350/Small-Clear-Glass-Round-Votive-Candle-Holder-Mini-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5625489_BqQ9jQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806391": {
+    "item_id": "ctbids-49748-5806391",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806391/Handmade-Primitive-Fabric-Angel-Doll-Ornament-Red-Gingham-Dress-Yarn-Hair-Heart-Button",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5780980_pU8sT9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -345,14 +519,15 @@
       }
     ]
   },
-  "ctbids-49748-5806136": {
-    "item_id": "ctbids-49748-5806136",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806136/The-New-Christy-Minstrels-Today-Miss-Katy-Cruel-Columbia-4-43000-45-RPM-w-Sleeve",
+  "ctbids-49471-5781842": {
+    "item_id": "ctbids-49471-5781842",
+    "listing_url": "https://ctbids.com/estate-sale/49471/item/5781842/Framed-George-W-Bush-2001-World-Series-First-Pitch-Photograph",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5433519_oO6HZU.webp"
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5737674_oRIp6Z.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -360,9 +535,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -370,14 +546,15 @@
       }
     ]
   },
-  "ctbids-49540-5777301": {
-    "item_id": "ctbids-49540-5777301",
-    "listing_url": "https://ctbids.com/estate-sale/49540/item/5777301/Santa-s-Bag-Green-Wheeled-Storage-Bag",
+  "ctbids-49312-5753937": {
+    "item_id": "ctbids-49312-5753937",
+    "listing_url": "https://ctbids.com/estate-sale/49312/item/5753937/Fall-Pumpkin-Decor-More",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777301_8Uj3B9.webp"
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753937_Jt66xL.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -385,9 +562,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49180-5699149": {
+    "item_id": "ctbids-49180-5699149",
+    "listing_url": "https://ctbids.com/estate-sale/49180/item/5699149/1974-Topps-Baseball-Card-Rod-Carew-Minnesota-Twins-Card-50",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5699149_UWOavr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48592-5784214": {
+    "item_id": "ctbids-48592-5784214",
+    "listing_url": "https://ctbids.com/estate-sale/48592/item/5784214/Fuzzy-Grey-Jacket",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5784214_CrbSQB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -400,31 +632,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49597/item/5783981/Rare-Civil-War-Era-Tokens-2-Total",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5783981_jSYC5X.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806250": {
-    "item_id": "ctbids-49748-5806250",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806250/Clear-Glass-Oval-Hurricane-Candle-Holder-Vase-Footed-Base-Open-Top-Pillar-Candle-Shade",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5745680_sihjqA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -525,31 +732,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49597/item/5784102/1976-Uncirculated-Sequential-Serial-Number-2-Federal-Reserve-Notes-PCGS-MS-63-PPQ-2-Total",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5784102_26j1Yk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49471-5781842": {
-    "item_id": "ctbids-49471-5781842",
-    "listing_url": "https://ctbids.com/estate-sale/49471/item/5781842/Framed-George-W-Bush-2001-World-Series-First-Pitch-Photograph",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5737674_oRIp6Z.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -770,61 +952,11 @@
       }
     ]
   },
-  "ctbids-49312-5753937": {
-    "item_id": "ctbids-49312-5753937",
-    "listing_url": "https://ctbids.com/estate-sale/49312/item/5753937/Fall-Pumpkin-Decor-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753937_Jt66xL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49597-5782511": {
     "item_id": "ctbids-49597-5782511",
     "listing_url": "https://ctbids.com/estate-sale/49597/item/5782511/2007-D-2007-P-Washington-Madison-Presidential-Dollars-PCGS-SP-68-Satin-Finish-3-Total",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5782511_OppehE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806350": {
-    "item_id": "ctbids-49748-5806350",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806350/Small-Clear-Glass-Round-Votive-Candle-Holder-Mini-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5625489_BqQ9jQ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -875,31 +1007,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49312/item/5754512/Duplo-10973-Wild-Animals-Of-South-America-Set",
     "images": [
       "https://image.ctbids.com/seller/2026-10-19T6fdcca/5754512_tQdUOv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806391": {
-    "item_id": "ctbids-49748-5806391",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806391/Handmade-Primitive-Fabric-Angel-Doll-Ornament-Red-Gingham-Dress-Yarn-Hair-Heart-Button",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5780980_pU8sT9.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -975,56 +1082,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49553/item/5783477/Dynatel-573A-Sheath-Fault",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5783477_HkxR6y.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49180-5699149": {
-    "item_id": "ctbids-49180-5699149",
-    "listing_url": "https://ctbids.com/estate-sale/49180/item/5699149/1974-Topps-Baseball-Card-Rod-Carew-Minnesota-Twins-Card-50",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5699149_UWOavr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48592-5784214": {
-    "item_id": "ctbids-48592-5784214",
-    "listing_url": "https://ctbids.com/estate-sale/48592/item/5784214/Fuzzy-Grey-Jacket",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5784214_CrbSQB.webp"
     ],
     "description": "",
     "score_reasons": [

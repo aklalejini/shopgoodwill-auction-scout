@@ -63,6 +63,7 @@
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
       "High-value signal 'art pottery' in title (+14)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -70,11 +71,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 21,
+        "relative_score": 0.618,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
           "High-value signal 'art pottery' in title (+14)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -105,6 +107,7 @@
       "Target keyword 'azurite' in description (+10)",
       "Target keyword 'fluorite' in description (+8)",
       "Target keyword cap limited keyword stacking; effective contributions are shown",
+      "2 bids near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -112,8 +115,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 13,
-        "relative_score": 0.433,
+        "score": 15,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
@@ -123,6 +126,7 @@
           "Target keyword 'azurite' in description (+10)",
           "Target keyword 'fluorite' in description (+8)",
           "Target keyword cap limited keyword stacking; effective contributions are shown",
+          "2 bids near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -130,6 +134,93 @@
           "azurite",
           "fluorite"
         ]
+      }
+    ]
+  },
+  "ctbids-49748-5806167": {
+    "item_id": "ctbids-49748-5806167",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806167/Brian-Hyland-Let-Me-Belong-to-You-Let-It-Die-45-RPM-ABC-Paramount-45-10236-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5693724_vcGQEG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806313": {
+    "item_id": "ctbids-49748-5806313",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806313/Jr-Walker-The-All-Stars-Do-You-See-My-Love-For-You-Growing-45-RPM-Soul-S-35073-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5693818_saKZgg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49397-5770598": {
+    "item_id": "ctbids-49397-5770598",
+    "listing_url": "https://ctbids.com/estate-sale/49397/item/5770598/Vintage-Wood-Dresser-with-Matching-Wall-Mirrors",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5770598_OH2iaT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -153,33 +244,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806167": {
-    "item_id": "ctbids-49748-5806167",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806167/Brian-Hyland-Let-Me-Belong-to-You-Let-It-Die-45-RPM-ABC-Paramount-45-10236-Vintage-Vinyl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5693724_vcGQEG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -214,15 +278,15 @@
       }
     ]
   },
-  "ctbids-49397-5770598": {
-    "item_id": "ctbids-49397-5770598",
-    "listing_url": "https://ctbids.com/estate-sale/49397/item/5770598/Vintage-Wood-Dresser-with-Matching-Wall-Mirrors",
+  "ctbids-49748-5806919": {
+    "item_id": "ctbids-49748-5806919",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806919/Wooden-Rocking-Horse-Christmas-Ornament-Joy-to-the-World-Sheet-Music-Holly-and-Red-Bow",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5770598_OH2iaT.webp"
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5806919_qXiH5G.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -230,10 +294,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -241,15 +305,15 @@
       }
     ]
   },
-  "ctbids-49748-5806313": {
-    "item_id": "ctbids-49748-5806313",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806313/Jr-Walker-The-All-Stars-Do-You-See-My-Love-For-You-Growing-45-RPM-Soul-S-35073-Vintage-Vinyl",
+  "ctbids-49748-5807289": {
+    "item_id": "ctbids-49748-5807289",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5807289/Pair-of-Plush-Teddy-Bears-White-Bear-in-Tartan-Outfit-Small-Bear-in-Blue-Dress",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5693818_saKZgg.webp"
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807289_EvMmxw.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -257,10 +321,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806154": {
+    "item_id": "ctbids-49748-5806154",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806154/Hyacinth-Bulb-Forcing-Vase-Clear-Frosted-Seeded-Glass-Round-Base-Flared-Rim-About-4-5-in-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5765506_WKXCDJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49748-5806299": {
+    "item_id": "ctbids-49748-5806299",
+    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806299/Double-The-Captain-of-Her-Heart-Your-Prayer-Takes-Me-Off-Part-II-Dub-A-M-AM-2838-45-RP",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5685542_01gEmF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -329,6 +447,60 @@
       }
     ]
   },
+  "ctbids-49180-5699192": {
+    "item_id": "ctbids-49180-5699192",
+    "listing_url": "https://ctbids.com/estate-sale/49180/item/5699192/1984-Topps-Baseball-Card-Nolan-Ryan-Houston-Astros-Card-470",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5699192_6tt2u3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49540-5779018": {
+    "item_id": "ctbids-49540-5779018",
+    "listing_url": "https://ctbids.com/estate-sale/49540/item/5779018/Rustic-Handcrafted-Metal-Reindeer-Holiday-Christmas-Decor-Sculpture",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5779018_k7icy9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "282717891": {
     "item_id": "282717891",
     "listing_url": "https://shopgoodwill.com/item/282717891",
@@ -387,86 +559,11 @@
       }
     ]
   },
-  "ctbids-49748-5806919": {
-    "item_id": "ctbids-49748-5806919",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806919/Wooden-Rocking-Horse-Christmas-Ornament-Joy-to-the-World-Sheet-Music-Holly-and-Red-Bow",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5806919_qXiH5G.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806154": {
-    "item_id": "ctbids-49748-5806154",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806154/Hyacinth-Bulb-Forcing-Vase-Clear-Frosted-Seeded-Glass-Round-Base-Flared-Rim-About-4-5-in-Tall",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5765506_WKXCDJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49503-5696027": {
     "item_id": "ctbids-49503-5696027",
     "listing_url": "https://ctbids.com/estate-sale/49503/item/5696027/Miscellaneous-Jewelry",
     "images": [
       "https://image.ctbids.com/seller/2026-10-02Tb63846/5696027_814bH2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49180-5699192": {
-    "item_id": "ctbids-49180-5699192",
-    "listing_url": "https://ctbids.com/estate-sale/49180/item/5699192/1984-Topps-Baseball-Card-Nolan-Ryan-Houston-Astros-Card-470",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5699192_6tt2u3.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -517,31 +614,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49503/item/5695529/Marilyn-Monroe-and-Movie-Art",
     "images": [
       "https://image.ctbids.com/seller/2026-10-02Tb63846/5695529_FceVeP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49748-5806299": {
-    "item_id": "ctbids-49748-5806299",
-    "listing_url": "https://ctbids.com/estate-sale/49748/item/5806299/Double-The-Captain-of-Her-Heart-Your-Prayer-Takes-Me-Off-Part-II-Dub-A-M-AM-2838-45-RP",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5685542_01gEmF.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -667,31 +739,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49597/item/5782570/1986-S-1991-95-P-US-50-Cent-Commemoratives-WWII-Statue-of-Liberty-PCGS-PR-69-PR-69-DCAM",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5782570_25SOeL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49540-5779018": {
-    "item_id": "ctbids-49540-5779018",
-    "listing_url": "https://ctbids.com/estate-sale/49540/item/5779018/Rustic-Handcrafted-Metal-Reindeer-Holiday-Christmas-Decor-Sculpture",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5779018_k7icy9.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -880,6 +927,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49342/item/5757430/LLADRO-Anniversary-Dance-Figurine",
     "images": [
       "https://image.ctbids.com/seller/2026-10-20T02dbd2/5757430_0QWTTX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49542-5780266": {
+    "item_id": "ctbids-49542-5780266",
+    "listing_url": "https://ctbids.com/estate-sale/49542/item/5780266/2-EDIFIER-Speakers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5780266_Aanagd.webp"
     ],
     "description": "",
     "score_reasons": [
