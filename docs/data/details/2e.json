@@ -618,7 +618,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -629,7 +629,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -664,33 +664,6 @@
       }
     ]
   },
-  "ctbids-49312-5753957": {
-    "item_id": "ctbids-49312-5753957",
-    "listing_url": "https://ctbids.com/estate-sale/49312/item/5753957/Fall-Floral-Crafts",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753957_WfdquM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48592-5788708": {
     "item_id": "ctbids-48592-5788708",
     "listing_url": "https://ctbids.com/estate-sale/48592/item/5788708/Angels-Cherubs",
@@ -711,87 +684,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49540-5783059": {
-    "item_id": "ctbids-49540-5783059",
-    "listing_url": "https://ctbids.com/estate-sale/49540/item/5783059/Floral-Hydrangea-and-Faux-Grapevine-Wreaths",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783059_fYm5TI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49490-5774756": {
-    "item_id": "ctbids-49490-5774756",
-    "listing_url": "https://ctbids.com/estate-sale/49490/item/5774756/Woven-Wall-Tapestry-A-Middle-Eastern-Or-North-African-Market-Bazaar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5774756_nfLsmS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47416-5795323": {
-    "item_id": "ctbids-47416-5795323",
-    "listing_url": "https://ctbids.com/estate-sale/47416/item/5795323/Fun-Toy-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795323_3GbxkE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -999,6 +891,31 @@
       }
     ]
   },
+  "ctbids-49312-5753957": {
+    "item_id": "ctbids-49312-5753957",
+    "listing_url": "https://ctbids.com/estate-sale/49312/item/5753957/Fall-Floral-Crafts",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753957_WfdquM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49180-5699120": {
     "item_id": "ctbids-49180-5699120",
     "listing_url": "https://ctbids.com/estate-sale/49180/item/5699120/1965-Topps-Baseball-Card-Red-Sox-Rookie-Stars-Card-573",
@@ -1099,6 +1016,31 @@
       }
     ]
   },
+  "ctbids-49540-5783059": {
+    "item_id": "ctbids-49540-5783059",
+    "listing_url": "https://ctbids.com/estate-sale/49540/item/5783059/Floral-Hydrangea-and-Faux-Grapevine-Wreaths",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783059_fYm5TI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49553-5788943": {
     "item_id": "ctbids-49553-5788943",
     "listing_url": "https://ctbids.com/estate-sale/49553/item/5788943/Signed-Native-American-Pots",
@@ -1117,6 +1059,58 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49490-5774756": {
+    "item_id": "ctbids-49490-5774756",
+    "listing_url": "https://ctbids.com/estate-sale/49490/item/5774756/Woven-Wall-Tapestry-A-Middle-Eastern-Or-North-African-Market-Bazaar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5774756_nfLsmS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47416-5795323": {
+    "item_id": "ctbids-47416-5795323",
+    "listing_url": "https://ctbids.com/estate-sale/47416/item/5795323/Fun-Toy-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795323_3GbxkE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
