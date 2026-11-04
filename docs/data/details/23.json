@@ -58,6 +58,7 @@
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'rocks' in description (+1)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -65,13 +66,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 16,
+        "relative_score": 0.533,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'rocks' in description (+1)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -101,6 +103,35 @@
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811912": {
+    "item_id": "ctbids-49777-5811912",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811912/Vintage-Clear-Glass-Goblet-Starburst-Ribbed-Footed-Base",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5625492_8u5luP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -167,6 +198,64 @@
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48032-5735191": {
+    "item_id": "ctbids-48032-5735191",
+    "listing_url": "https://ctbids.com/estate-sale/48032/item/5735191/5-Vintage-Construction-Farm-Toy-Vehicles-Tonka-Matchbox-CAT-Hot-Wheels",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5735191_JQbRuX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48032-5794574": {
+    "item_id": "ctbids-48032-5794574",
+    "listing_url": "https://ctbids.com/estate-sale/48032/item/5794574/Vintage-Diecast-Space-Missile-Toy-Orange-USA-Spacecraft",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5794574_YqlfOr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -258,33 +347,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49459/item/5767810/Vintage-Art-Deco-Floor-Standing-Smoke-Stand",
     "images": [
       "https://image.ctbids.com/seller/2026-10-22T99993c/5767810_3HG5yI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48032-5735191": {
-    "item_id": "ctbids-48032-5735191",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5735191/5-Vintage-Construction-Farm-Toy-Vehicles-Tonka-Matchbox-CAT-Hot-Wheels",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5735191_JQbRuX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -415,15 +477,15 @@
       }
     ]
   },
-  "ctbids-48032-5794574": {
-    "item_id": "ctbids-48032-5794574",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5794574/Vintage-Diecast-Space-Missile-Toy-Orange-USA-Spacecraft",
+  "ctbids-49777-5812083": {
+    "item_id": "ctbids-49777-5812083",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5812083/Old-Golfers-Never-Die-They-Just-Lose-Their-Balls-Rocks-Glass-Green-and-White-Cartoon-Golfer",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5794574_YqlfOr.webp"
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5806783_iE1NcG.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -431,10 +493,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -462,6 +524,118 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811862": {
+    "item_id": "ctbids-49777-5811862",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811862/Kieran-Kane-You-re-the-Best-Finishing-Touches-Elektra-45-RPM-Single-E-47148",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5673837_xWecID.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49581-5796096": {
+    "item_id": "ctbids-49581-5796096",
+    "listing_url": "https://ctbids.com/estate-sale/49581/item/5796096/Hidden-Kingdom-By-David-Wendell",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5796096_6FVlnp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282131425": {
+    "item_id": "282131425",
+    "listing_url": "https://shopgoodwill.com/item/282131425",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/7e520894-9ce3-4969-a117-463048327c75ford_10281.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/4f08f867-c402-49e2-b665-e7829e924dd7ford_10282.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/ddcd953a-8ce0-4239-bc02-1b14c8c9e175ford_10283.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/13431ea9-d203-4178-b429-93de5321cc3bford_10284.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/b67595ce-5a40-486f-9e35-7220d5a7e3c6ford_10285.jpg"
+    ],
+    "description": "Brand:\nJoyoldelf\nStyle:\nClassic\nColor:\nBrown and Black\nMaterial:\nWood and Metal\nCondition:\nGood - shows some sign of wear\nApproximate Measurements (inches):\n7L x 4W x 2H\nWeight (approximate):\n0.2 lbs",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 5,
+        "relative_score": 0.143,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49507-5812605": {
+    "item_id": "ctbids-49507-5812605",
+    "listing_url": "https://ctbids.com/estate-sale/49507/item/5812605/Sparkling-Necklaces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812605_acIWKy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -524,6 +698,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49542/item/5778842/Jos-A-Banks-Black-Trench-Coat",
     "images": [
       "https://image.ctbids.com/seller/2026-10-26Te92adc/5778842_Fctc4B.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5812327": {
+    "item_id": "ctbids-49777-5812327",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5812327/Smoke-Gray-Hobnail-Glass-Swan-Dish-Clear-Curved-Neck-Ruffled-Rim-Footed-Base-6-5-in",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812327_O3EYPE.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -794,186 +993,11 @@
       }
     ]
   },
-  "ctbids-49581-5796096": {
-    "item_id": "ctbids-49581-5796096",
-    "listing_url": "https://ctbids.com/estate-sale/49581/item/5796096/Hidden-Kingdom-By-David-Wendell",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5796096_6FVlnp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49251-5775600": {
     "item_id": "ctbids-49251-5775600",
     "listing_url": "https://ctbids.com/estate-sale/49251/item/5775600/10K-Gold-Lapis-Lazuli-Malachite-Earrings",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5775600_Lx6WEj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48032-5794118": {
-    "item_id": "ctbids-48032-5794118",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5794118/Die-Cast-Cars-Matchbox-Hotwheels-Porsche-Lamborghini-57-T-Bird",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5794118_ka21G5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49581-5788299": {
-    "item_id": "ctbids-49581-5788299",
-    "listing_url": "https://ctbids.com/estate-sale/49581/item/5788299/Colorful-Crocheted-Doilies",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5788299_cyrSNR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49459-5778236": {
-    "item_id": "ctbids-49459-5778236",
-    "listing_url": "https://ctbids.com/estate-sale/49459/item/5778236/Brass-Deco-Tray-With-Six-Goblets-Made-In-India",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5778236_AKgcvb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49581-5788806": {
-    "item_id": "ctbids-49581-5788806",
-    "listing_url": "https://ctbids.com/estate-sale/49581/item/5788806/Granny-Square-Rose-Afghan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5788806_YY6L89.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49251-5777419": {
-    "item_id": "ctbids-49251-5777419",
-    "listing_url": "https://ctbids.com/estate-sale/49251/item/5777419/Danish-Silver-826-Minimum-Cake-Fork-6",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777419_rAr5AV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49251-5762115": {
-    "item_id": "ctbids-49251-5762115",
-    "listing_url": "https://ctbids.com/estate-sale/49251/item/5762115/New-1999-2004-Ford-Mustang-Euro-Tail-Lights-APC-American-Products-Company",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5762115_2ugiWF.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1007,11 +1031,12 @@
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'tumbled stones' in title (-10)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-10)",
       "Shipping is calculated and not included in the price (-6)",
       "4 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+14)"
+      "Score boundary adjustment (+10)"
     ],
     "hunt_scores": [
       {
@@ -1025,83 +1050,12 @@
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'tumbled stones' in title (-10)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-10)",
           "Shipping is calculated and not included in the price (-6)",
           "4 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+14)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49215-5741230": {
-    "item_id": "ctbids-49215-5741230",
-    "listing_url": "https://ctbids.com/estate-sale/49215/item/5741230/Mixed-Blue-Glass-And-Crystal-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5741230_3b2o8v.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282131425": {
-    "item_id": "282131425",
-    "listing_url": "https://shopgoodwill.com/item/282131425",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/7e520894-9ce3-4969-a117-463048327c75ford_10281.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/4f08f867-c402-49e2-b665-e7829e924dd7ford_10282.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/ddcd953a-8ce0-4239-bc02-1b14c8c9e175ford_10283.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/13431ea9-d203-4178-b429-93de5321cc3bford_10284.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/43/Items/2026-10-28/b67595ce-5a40-486f-9e35-7220d5a7e3c6ford_10285.jpg"
-    ],
-    "description": "Brand:\nJoyoldelf\nStyle:\nClassic\nColor:\nBrown and Black\nMaterial:\nWood and Metal\nCondition:\nGood - shows some sign of wear\nApproximate Measurements (inches):\n7L x 4W x 2H\nWeight (approximate):\n0.2 lbs",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
+          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }

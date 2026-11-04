@@ -15,6 +15,7 @@
       "Opportunity term 'lot' in title (+5)",
       "High-value signal 'amber glass color' in image color analysis (+14)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -22,13 +23,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 36,
-        "relative_score": 1.2,
+        "score": 41,
+        "relative_score": 1.367,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
           "High-value signal 'amber glass color' in image color analysis (+14)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -82,6 +84,46 @@
       }
     ]
   },
+  "282906936": {
+    "item_id": "282906936",
+    "listing_url": "https://shopgoodwill.com/item/282906936",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/932eb7b7-1062-4c6d-a4e3-acb654ce62e5llen_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/3ca6a451-677c-4d50-be6e-5e0bc131d2a9llen_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/53aaa6d4-27a1-4890-9c52-2ef1159ddfa5llen_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/4980f20b-2b87-4e27-a163-ae00c211fd5allen_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/2b4a40df-e6d8-4e4a-8858-c48c862361f3llen_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/327c160a-b75d-4a14-aa06-db2a126844c5llen_11036.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/59adb35e-b988-417a-9c48-7033f0ad383cllen_11037.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/72a50a1f-ad74-4689-9071-f788c02969edllen_11038.jpg"
+    ],
+    "description": "This collection features a variety of tumbled and raw stones, crystals, and minerals in different colors and types. Included are samples from National Geographic and Oliver Mining Co., along with a display for pyrite and mica schist. Some stones are labeled and many come in individual packaging. The assortment contains quartz points, polished gemstones, and mineral samples from various locations, ideal for collectors and enthusiasts.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 26,
+        "relative_score": 0.867,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49459-5784434": {
     "item_id": "ctbids-49459-5784434",
     "listing_url": "https://ctbids.com/estate-sale/49459/item/5784434/14K-Yellow-Gold-14-Citrine-Bracelet",
@@ -128,6 +170,7 @@
       "Opportunity term 'lot' in title (+2)",
       "Opportunity term 'minerals' in description (+1)",
       "Target keyword 'fluorite' in description (+9)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "12.65 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -136,13 +179,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
           "Opportunity term 'mixed' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Opportunity term 'minerals' in description (+1)",
           "Target keyword 'fluorite' in description (+9)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "12.65 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -167,6 +211,7 @@
     "score_reasons": [
       "Lower-priority term 'ballpoint' in title (-4)",
       "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -174,11 +219,12 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 12,
-        "relative_score": 0.343,
+        "score": 14,
+        "relative_score": 0.4,
         "score_reasons": [
           "Lower-priority term 'ballpoint' in title (-4)",
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -186,36 +232,88 @@
       }
     ]
   },
-  "282906936": {
-    "item_id": "282906936",
-    "listing_url": "https://shopgoodwill.com/item/282906936",
+  "ctbids-49777-5811882": {
+    "item_id": "ctbids-49777-5811882",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811882/A-Walk-in-the-Forest-Music-Story-2-Record-45-RPM-Young-Peoples-Records-Vintage-Children-s-Set",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5694224_0hxOQL.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Only 1 listing photo (-10)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
         "score": 10,
-        "relative_score": 0.333,
+        "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Only 1 listing photo (-10)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49251-5768847": {
+    "item_id": "ctbids-49251-5768847",
+    "listing_url": "https://ctbids.com/estate-sale/49251/item/5768847/Vintage-Neoclassical-Inspired-Ceramic-Lamps",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5768847_RXyBhK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811992": {
+    "item_id": "ctbids-49777-5811992",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811992/The-Left-Banke-Walk-Away-Renee-I-Haven-t-Got-the-Nerve-45-RPM-Smash-S-2041-Vintage-Vinyl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5693749_SigpDV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -275,15 +373,15 @@
       }
     ]
   },
-  "ctbids-48032-5780044": {
-    "item_id": "ctbids-48032-5780044",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5780044/8-VTG-Diecast-Cars-Hot-Wheels-Enforcer-Fandula-Sealed-Hormel-Chili-Lotus-F1-Racer",
+  "ctbids-49777-5812063": {
+    "item_id": "ctbids-49777-5812063",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5812063/Retro-Ribbed-Glass-Sugar-Dispenser-Chrome-Flip-Spout-Lid-Diner-Style-Chicago-B-6-Base",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5780044_FbXWPI.webp"
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5800571_Osyv6K.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -291,26 +389,237 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811870": {
+    "item_id": "ctbids-49777-5811870",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811870/Dash-of-That-Blue-Ceramic-Storage-Canister-with-Bamboo-Lid-Glossy-Periwinkle-Blue-Kitchen-Jar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5735166_SIi0Ix.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811780": {
+    "item_id": "ctbids-49777-5811780",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811780/Red-Foley-You-Little-So-and-So-Plantation-Boogie-Decca-9-29517-45-RPM",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5680417_p5TxLi.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811799": {
+    "item_id": "ctbids-49777-5811799",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811799/Pinnacle-Snap-5x7-Black-Picture-Frame-Easy-Snap-Together-Photo-Frame-Tabletop-or-Wall-Hang-New-Se",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5765318_kWUNXo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49777-5811980": {
+    "item_id": "ctbids-49777-5811980",
+    "listing_url": "https://ctbids.com/estate-sale/49777/item/5811980/Wooden-Happy-Easter-Sign-with-Bunny",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5698501_JGrB0C.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49089-5777950": {
+    "item_id": "ctbids-49089-5777950",
+    "listing_url": "https://ctbids.com/estate-sale/49089/item/5777950/Hawaii-Bahamas-Alaska-Souvenir-Salt-Pepper-Shakers-5-Sets",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777950_JOY1jh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282916728": {
+    "item_id": "282916728",
+    "listing_url": "https://shopgoodwill.com/item/282916728",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7721d87-d30d-4df8-90a1-f705ead65bcaredT_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/6ab996b3-740f-4f83-b94c-ec04244e8b17redT_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/55fdb67f-bd5a-49a2-8f39-2ef96e5ef2e8redT_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f19756c3-e85d-45b5-951d-4e245c1a5e26redT_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/ac759de1-669a-401a-86bf-8c8d8a818ce5redT_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7285b48-a629-41cf-9d18-6d5ec0e71118redT_11036.jpg"
+    ],
+    "description": "Large Rock Mineral Collection Bundle Good and Beautiful Educational Box\nThis large rock and mineral collection bundle includes the Good and Beautiful branded educational specimen box with 9 labeled compartments featuring igneous, sedimentary, metamorphic, and mineral samples such as mica, quartz, and pyrite. Also included is a French-labeled display case with 24 compartments containing various tumbled and raw stones like Microcline, Labradorite, Cornaline, Jaspe, Amazonite, Rhodonite, Calcite, Dolomie, Gabbro, and Apatite in a bamboo-framed glass-covered box. Additionally, there is a large loose assortment of approximately 40+ raw and polished stones and minerals, including lava rock, amethyst cluster, turquoise-colored stone, tiger's eye, petrified wood, onyx/calcite slab, rutilated quartz, and various jaspers and agates. Items show typical used and handled condition consistent with an educational or hobbyist rock collection. Specimens vary in size from small chips to palm-sized pieces. This collection is suitable for geology enthusiasts, collectors, or educational purposes.\nProduct Size:\n12 x 6.85 x 4.5 in\n5.6 lb",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5.6 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 7,
-        "relative_score": 0.206,
+        "relative_score": 0.233,
         "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5.6 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
     ]
   },
-  "ctbids-48032-5776064": {
-    "item_id": "ctbids-48032-5776064",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5776064/VTG-1997-Matchbox-24-Pack-Toy-Vehicle-Gift-Set-New-Sealed-8-Exclusive-Styles-STK-71076",
+  "282400538": {
+    "item_id": "282400538",
+    "listing_url": "https://shopgoodwill.com/item/282400538",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5776064_540DQq.webp"
+      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/ed6818b0-3707-48bb-9362-882296dbf65ahiaB_10301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/187f605f-e6ea-4f27-a10e-1a65fe81c39dhiaB_10302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/f89b8315-1765-44d4-a96d-dff0af02568bhiaB_10303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/a2d18f8e-3bb6-4b56-a8b5-95e09cd27fbchiaB_10304.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/7dbc5038-b3e3-4934-85a3-b52e3a73cdc6hiaB_10305.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/220fd52c-e15f-45ed-af75-36c72af91749hiaB_10306.jpg"
+    ],
+    "description": "This set includes vintage-style plastic poker chips in red, white, and blue colors. The chips feature a ribbed edge design and an embossed spade symbol in the center. They are stored in four clear cylindrical tubes with black lids, with two tubes containing white chips and one tube each for red and blue chips. The chips are standard gaming size and show minimal wear consistent with gentle use. Suitable for poker, blackjack, and other casino games.",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 4,
+        "relative_score": 0.125,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48032-5735176": {
+    "item_id": "ctbids-48032-5735176",
+    "listing_url": "https://ctbids.com/estate-sale/48032/item/5735176/5-VTG-Toy-Motorcycles-1985-Kenner-MASK-Condor-2003-Hot-Wheels-Over8-3-Unbranded",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5735176_1Z43yD.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -318,10 +627,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -329,15 +638,15 @@
       }
     ]
   },
-  "ctbids-49251-5768847": {
-    "item_id": "ctbids-49251-5768847",
-    "listing_url": "https://ctbids.com/estate-sale/49251/item/5768847/Vintage-Neoclassical-Inspired-Ceramic-Lamps",
+  "ctbids-48032-5735197": {
+    "item_id": "ctbids-48032-5735197",
+    "listing_url": "https://ctbids.com/estate-sale/48032/item/5735197/4-VTG-Hot-Wheels-Harley-Davidson-Ford-Vehicles-F-150-Trucks-Bronco-56-Panel",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5768847_RXyBhK.webp"
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5735197_H3Xnhi.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -345,10 +654,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -356,15 +665,15 @@
       }
     ]
   },
-  "ctbids-49215-5760830": {
-    "item_id": "ctbids-49215-5760830",
-    "listing_url": "https://ctbids.com/estate-sale/49215/item/5760830/MCM-Vintage-Italian-Marquetry-Musical-Jewelry-Box-Side-Table",
+  "ctbids-49507-5812638": {
+    "item_id": "ctbids-49507-5812638",
+    "listing_url": "https://ctbids.com/estate-sale/49507/item/5812638/Silver-Tones-in-Textures",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5760830_1qAvsb.webp"
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812638_V3JGvi.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -372,37 +681,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49507-5784405": {
-    "item_id": "ctbids-49507-5784405",
-    "listing_url": "https://ctbids.com/estate-sale/49507/item/5784405/Vintage-Hasbro-Dinosaurs-TV-Show-Figures",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5784405_Gj7S1S.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -735,86 +1017,11 @@
       }
     ]
   },
-  "ctbids-48032-5735176": {
-    "item_id": "ctbids-48032-5735176",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5735176/5-VTG-Toy-Motorcycles-1985-Kenner-MASK-Condor-2003-Hot-Wheels-Over8-3-Unbranded",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5735176_1Z43yD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48032-5735197": {
-    "item_id": "ctbids-48032-5735197",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5735197/4-VTG-Hot-Wheels-Harley-Davidson-Ford-Vehicles-F-150-Trucks-Bronco-56-Panel",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5735197_H3Xnhi.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49608-5794277": {
     "item_id": "ctbids-49608-5794277",
     "listing_url": "https://ctbids.com/estate-sale/49608/item/5794277/Slime-12V-Portable-Tire-Inflator-Air-Compressor-300-PSI-with-LED-Light-In-Box",
     "images": [
       "https://image.ctbids.com/seller/2026-10-30Tf6f451/5794277_YmUGYG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49089-5777950": {
-    "item_id": "ctbids-49089-5777950",
-    "listing_url": "https://ctbids.com/estate-sale/49089/item/5777950/Hawaii-Bahamas-Alaska-Souvenir-Salt-Pepper-Shakers-5-Sets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777950_JOY1jh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -860,133 +1067,6 @@
       }
     ]
   },
-  "ctbids-49203-5783524": {
-    "item_id": "ctbids-49203-5783524",
-    "listing_url": "https://ctbids.com/estate-sale/49203/item/5783524/Marvel-Comics-Horror-Fantasy-Art-Books-Stan-Lee-Dimebag-Darrell-Evil-Dead",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783524_VfwNbR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49089-5778938": {
-    "item_id": "ctbids-49089-5778938",
-    "listing_url": "https://ctbids.com/estate-sale/49089/item/5778938/Greece-Berlin-Korea-Souvenir-Salt-Pepper-Shakers-3-Sets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5778938_6LQ5q7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49215-5741596": {
-    "item_id": "ctbids-49215-5741596",
-    "listing_url": "https://ctbids.com/estate-sale/49215/item/5741596/Milk-Glass-And-Ruffle-Glass-Vases",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5741596_nCogpC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48032-5780797": {
-    "item_id": "ctbids-48032-5780797",
-    "listing_url": "https://ctbids.com/estate-sale/48032/item/5780797/7-VTG-Diecast-Cars-Hot-Wheels-Dakar-Futuristic-Cars-Matchbox-Mini-Ha-Ha-BMW-Bandai-SUV",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5780797_VYeygX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282916728": {
-    "item_id": "282916728",
-    "listing_url": "https://shopgoodwill.com/item/282916728",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7721d87-d30d-4df8-90a1-f705ead65bcaredT_1103t1.jpeg"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "282510257": {
     "item_id": "282510257",
     "listing_url": "https://shopgoodwill.com/item/282510257",
@@ -1004,9 +1084,10 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+9)"
+      "Score boundary adjustment (+5)"
     ],
     "hunt_scores": [
       {
@@ -1018,39 +1099,10 @@
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+9)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282400538": {
-    "item_id": "282400538",
-    "listing_url": "https://shopgoodwill.com/item/282400538",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/ed6818b0-3707-48bb-9362-882296dbf65ahiaB_10301.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/187f605f-e6ea-4f27-a10e-1a65fe81c39dhiaB_10302.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/f89b8315-1765-44d4-a96d-dff0af02568bhiaB_10303.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/a2d18f8e-3bb6-4b56-a8b5-95e09cd27fbchiaB_10304.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/7dbc5038-b3e3-4934-85a3-b52e3a73cdc6hiaB_10305.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/176/Item/2026-10-30/220fd52c-e15f-45ed-af75-36c72af91749hiaB_10306.jpg"
-    ],
-    "description": "This set includes vintage-style plastic poker chips in red, white, and blue colors. The chips feature a ribbed edge design and an embossed spade symbol in the center. They are stored in four clear cylindrical tubes with black lids, with two tubes containing white chips and one tube each for red and blue chips. The chips are standard gaming size and show minimal wear consistent with gentle use. Suitable for poker, blackjack, and other casino games.",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-5)",
-          "Base score (+5)"
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
@@ -1253,6 +1305,58 @@
       }
     ]
   },
+  "282802250": {
+    "item_id": "282802250",
+    "listing_url": "https://shopgoodwill.com/item/282802250",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/fcbed290-1967-4aa9-ba29-205e8408c221rper_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/9984d20b-ad26-4d33-892e-58bad120beb2rper_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/82701dd7-7a62-4708-8ca7-08de6af85a63rper_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/8cd22872-c097-4681-8fed-8c172e9cd787rper_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/1c9da25e-318c-4642-92ce-d7e4d8ac8330rper_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/ce901a75-3b31-4079-b8d7-9fedba1a511arper_11036.jpg"
+    ],
+    "description": "This lot includes sealed blank VHS video cassette tapes from multiple brands including Sony, Maxell, TDK, GE, Kodak, and Fujifilm. Models featured are Sony T-120 Premium, Maxell Premium Grade T-120, TDK HS T-120, GE T-120, Kodak T-120, and Fujifilm T-160. Tapes are marked for 6 or 8 hours of recording time. Suitable for use in VCRs for video recording, archiving, or transferring footage. Packaging colors vary and show brand and tape specifications. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'lot' in description (+4)",
+      "Lower-priority term 'vhs tapes' in title (-18)",
+      "Lower-priority term 't-120' in description (-12)",
+      "Target keyword 'maxell' in description (+5)",
+      "Target keyword 'tdk' in description (+5)",
+      "Target keyword 't-120' in description (+5)",
+      "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 2,
+        "relative_score": 0.056,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'lot' in description (+4)",
+          "Lower-priority term 'vhs tapes' in title (-18)",
+          "Lower-priority term 't-120' in description (-12)",
+          "Target keyword 'maxell' in description (+5)",
+          "Target keyword 'tdk' in description (+5)",
+          "Target keyword 't-120' in description (+5)",
+          "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "fujifilm",
+          "maxell",
+          "sony",
+          "t-120",
+          "tdk"
+        ]
+      }
+    ]
+  },
   "282797549": {
     "item_id": "282797549",
     "listing_url": "https://shopgoodwill.com/item/282797549",
@@ -1303,58 +1407,6 @@
         ],
         "matched_keywords": [
           "malachite"
-        ]
-      }
-    ]
-  },
-  "282802250": {
-    "item_id": "282802250",
-    "listing_url": "https://shopgoodwill.com/item/282802250",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/fcbed290-1967-4aa9-ba29-205e8408c221rper_11031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/9984d20b-ad26-4d33-892e-58bad120beb2rper_11032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/82701dd7-7a62-4708-8ca7-08de6af85a63rper_11033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/8cd22872-c097-4681-8fed-8c172e9cd787rper_11034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/1c9da25e-318c-4642-92ce-d7e4d8ac8330rper_11035.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-03/ce901a75-3b31-4079-b8d7-9fedba1a511arper_11036.jpg"
-    ],
-    "description": "This lot includes sealed blank VHS video cassette tapes from multiple brands including Sony, Maxell, TDK, GE, Kodak, and Fujifilm. Models featured are Sony T-120 Premium, Maxell Premium Grade T-120, TDK HS T-120, GE T-120, Kodak T-120, and Fujifilm T-160. Tapes are marked for 6 or 8 hours of recording time. Suitable for use in VCRs for video recording, archiving, or transferring footage. Packaging colors vary and show brand and tape specifications. See photos for condition.",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+12)",
-      "Opportunity term 'lot' in description (+4)",
-      "Lower-priority term 'vhs tapes' in title (-18)",
-      "Lower-priority term 't-120' in description (-12)",
-      "Target keyword 'maxell' in description (+5)",
-      "Target keyword 'tdk' in description (+5)",
-      "Target keyword 't-120' in description (+5)",
-      "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 2,
-        "relative_score": 0.056,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+12)",
-          "Opportunity term 'lot' in description (+4)",
-          "Lower-priority term 'vhs tapes' in title (-18)",
-          "Lower-priority term 't-120' in description (-12)",
-          "Target keyword 'maxell' in description (+5)",
-          "Target keyword 'tdk' in description (+5)",
-          "Target keyword 't-120' in description (+5)",
-          "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
-        ],
-        "matched_keywords": [
-          "fujifilm",
-          "maxell",
-          "sony",
-          "t-120",
-          "tdk"
         ]
       }
     ]
