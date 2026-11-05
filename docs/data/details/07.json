@@ -18,6 +18,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -25,15 +26,57 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 38,
-        "relative_score": 1.267,
+        "score": 40,
+        "relative_score": 1.333,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49183-5820261": {
+    "item_id": "ctbids-49183-5820261",
+    "listing_url": "https://ctbids.com/estate-sale/49183/item/5820261/14K-Wired-Bangle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_HZM14V.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_mqgjlf.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_oGhjnK.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_XZIt2B.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_xkDb5H.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_jLQ7RA.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_dHEkT6.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_IByBkW.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_hlpF0a.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_6ODJay.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_ojK6Z0.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_7KA9NF.webp",
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820261_jjFwD2.webp"
+    ],
+    "description": "14K Wired gold bangle. Please see pictures for further details.",
+    "score_reasons": [
+      "High-value signal '14k' in title (+22)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (0)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 30,
+        "relative_score": 0.882,
+        "score_reasons": [
+          "High-value signal '14k' in title (+22)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (0)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -248,34 +291,6 @@
       }
     ]
   },
-  "282855748": {
-    "item_id": "282855748",
-    "listing_url": "https://shopgoodwill.com/item/282855748",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/ca31022d-610f-4640-bd3d-da595da46f4bssen_11031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/f5b19778-cbc1-4ad2-8144-a54dea5d4e08ssen_11032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/907d6c36-53fd-4faa-a590-888693176b49ssen_11033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/dc3cca1f-a682-4a3a-ad55-33cffd46ee25ssen_11034.jpg"
-    ],
-    "description": "This vintage Sengbusch Glass Handi-Pen Desk Set includes a cream-colored glass inkwell base with a matching lid, a pen holder, and a black dip pen. The set comes with original instructions from the Sengbusch Self-Closing Inkstand Company, Milwaukee, Wisconsin. The inkwell base features an Art Deco design and is labeled No. 45 Fine, Black Glass. There are some signs of age on the paper insert, and all parts are present in this collectible desk set.",
-    "score_reasons": [
-      "Flat shipping is only $0.01 (+9)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 14,
-        "relative_score": 0.4,
-        "score_reasons": [
-          "Flat shipping is only $0.01 (+9)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48580-5764328": {
     "item_id": "ctbids-48580-5764328",
     "listing_url": "https://ctbids.com/estate-sale/48580/item/5764328/Antique-Signed-Chinese-Original-Landscape-Framed-Ink-Painting",
@@ -327,6 +342,34 @@
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282855748": {
+    "item_id": "282855748",
+    "listing_url": "https://shopgoodwill.com/item/282855748",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/ca31022d-610f-4640-bd3d-da595da46f4bssen_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/f5b19778-cbc1-4ad2-8144-a54dea5d4e08ssen_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/907d6c36-53fd-4faa-a590-888693176b49ssen_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-03/dc3cca1f-a682-4a3a-ad55-33cffd46ee25ssen_11034.jpg"
+    ],
+    "description": "This vintage Sengbusch Glass Handi-Pen Desk Set includes a cream-colored glass inkwell base with a matching lid, a pen holder, and a black dip pen. The set comes with original instructions from the Sengbusch Self-Closing Inkstand Company, Milwaukee, Wisconsin. The inkwell base features an Art Deco design and is labeled No. 45 Fine, Black Glass. There are some signs of age on the paper insert, and all parts are present in this collectible desk set.",
+    "score_reasons": [
+      "Flat shipping is only $0.01 (+9)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 14,
+        "relative_score": 0.4,
+        "score_reasons": [
+          "Flat shipping is only $0.01 (+9)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -494,46 +537,6 @@
       }
     ]
   },
-  "283002893": {
-    "item_id": "283002893",
-    "listing_url": "https://shopgoodwill.com/item/283002893",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/91382546-3e40-47d6-8b95-d289c0852077nahL_11041.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/06d00ed4-80a6-4c4d-8ce4-cfd34a44f868nahL_11042.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/c448c438-e95a-4454-9965-803a2d60d2d1nahL_11043.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/9054620d-08ea-45cf-bd05-1daee998dfdbnahL_11044.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/e885359e-0e48-492c-ae8d-83d18483a90fnahL_11045.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/111a9815-6fa3-466a-aee7-5b6dba43c04cnahL_11046.jpg"
-    ],
-    "description": "This listing includes two vintage vacuum tubes, one branded GE Electronic Tube and the other Zenith, both manufactured in the USA. The tubes have glass bodies with metal internal components and multi-pin bases. They show signs of age including discoloration and residue on the glass. Originally housed in a cardboard box labeled for a Tru-Point Pencil Pointer, the items are authentic vacuum tubes used in vintage audio equipment, radios, or electronic devices. Suitable for collectors, restorers, or electronics hobbyists needing original replacement parts.\nLength: 4\"\nWidth: 4\"\nHeight: 3\"",
-    "score_reasons": [
-      "Opportunity term 'box' in description (+5)",
-      "Opportunity term 'vintage' in title (+4)",
-      "Lower-priority term 'used' in description (-4)",
-      "Target keyword 'zenith' in title (+5)",
-      "Shipping is calculated and not included in the price (-5)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 10,
-        "relative_score": 0.312,
-        "score_reasons": [
-          "Opportunity term 'box' in description (+5)",
-          "Opportunity term 'vintage' in title (+4)",
-          "Lower-priority term 'used' in description (-4)",
-          "Target keyword 'zenith' in title (+5)",
-          "Shipping is calculated and not included in the price (-5)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "zenith"
-        ]
-      }
-    ]
-  },
   "ctbids-49335-5791481": {
     "item_id": "ctbids-49335-5791481",
     "listing_url": "https://ctbids.com/estate-sale/49335/item/5791481/Michael-Kors-Purse-Lot-Brown-Pebbled-Leather-Grayson-Satchel-White-Studded",
@@ -639,6 +642,46 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "283002893": {
+    "item_id": "283002893",
+    "listing_url": "https://shopgoodwill.com/item/283002893",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/91382546-3e40-47d6-8b95-d289c0852077nahL_11041.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/06d00ed4-80a6-4c4d-8ce4-cfd34a44f868nahL_11042.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/c448c438-e95a-4454-9965-803a2d60d2d1nahL_11043.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/9054620d-08ea-45cf-bd05-1daee998dfdbnahL_11044.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/e885359e-0e48-492c-ae8d-83d18483a90fnahL_11045.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/198/Item/2026-11-04/111a9815-6fa3-466a-aee7-5b6dba43c04cnahL_11046.jpg"
+    ],
+    "description": "This listing includes two vintage vacuum tubes, one branded GE Electronic Tube and the other Zenith, both manufactured in the USA. The tubes have glass bodies with metal internal components and multi-pin bases. They show signs of age including discoloration and residue on the glass. Originally housed in a cardboard box labeled for a Tru-Point Pencil Pointer, the items are authentic vacuum tubes used in vintage audio equipment, radios, or electronic devices. Suitable for collectors, restorers, or electronics hobbyists needing original replacement parts.\nLength: 4\"\nWidth: 4\"\nHeight: 3\"",
+    "score_reasons": [
+      "Opportunity term 'box' in description (+5)",
+      "Opportunity term 'vintage' in title (+4)",
+      "Lower-priority term 'used' in description (-4)",
+      "Target keyword 'zenith' in title (+5)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 10,
+        "relative_score": 0.312,
+        "score_reasons": [
+          "Opportunity term 'box' in description (+5)",
+          "Opportunity term 'vintage' in title (+4)",
+          "Lower-priority term 'used' in description (-4)",
+          "Target keyword 'zenith' in title (+5)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "zenith"
+        ]
       }
     ]
   },

@@ -14,6 +14,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -21,11 +22,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -123,6 +125,37 @@
       }
     ]
   },
+  "283100420": {
+    "item_id": "283100420",
+    "listing_url": "https://shopgoodwill.com/item/283100420",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-05/b687e5e1-e440-493e-b7aa-c5cc5783cc28ssen_11051.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-05/7d65fddb-61c7-4220-bff8-2fbb1a47597cssen_11052.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-05/ca629175-cf2a-4b51-8821-2b2c3ed9bec5ssen_11053.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-05/48a40265-7f62-4273-923d-01697a9dc531ssen_11054.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-05/d4064ae5-f1d2-43c6-9dcd-375b9eb28886ssen_11055.jpg"
+    ],
+    "description": "This lot includes three natural mineral specimens featuring distinct crystal formations. The calcite cluster has a beige, translucent, layered appearance with visible crystal growth. The amethyst quartz geode displays vibrant purple hues with well-defined crystalline structure. The pyrite cluster shows a metallic gold color with a shiny luster and cubic crystal habit.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 17,
+        "relative_score": 0.567,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49183-5746876": {
     "item_id": "ctbids-49183-5746876",
     "listing_url": "https://ctbids.com/estate-sale/49183/item/5746876/Lot-Of-Three-Department-56-Heritage-Village-Collection-Carriages-5581-6-5654-5-5578-6",
@@ -161,7 +194,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -173,7 +206,7 @@
         "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -293,7 +326,7 @@
   },
   "ctbids-49183-5795984": {
     "item_id": "ctbids-49183-5795984",
-    "listing_url": "https://ctbids.com/estate-sale/49183/item/5795984/Vintage-Disney-25th-Anniversary-3D-Plate-Coin",
+    "listing_url": "https://ctbids.com/estate-sale/49183/item/5795984/Vintage-Disney-25th-Anniversary-3D-Plate-Added-Bonus-Anniversary-Coin",
     "images": [
       "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795984_bzzAO6.webp"
     ],
@@ -345,6 +378,60 @@
       }
     ]
   },
+  "ctbids-49183-5732321": {
+    "item_id": "ctbids-49183-5732321",
+    "listing_url": "https://ctbids.com/estate-sale/49183/item/5732321/Round-convex-wall-mirror-with-distressed-bronze-and-gold-tone-frame",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5732321_8aDbhy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49183-5808899": {
+    "item_id": "ctbids-49183-5808899",
+    "listing_url": "https://ctbids.com/estate-sale/49183/item/5808899/Camelot-Keypad-Lever-And-Front-Door-Handle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808899_xYqzAW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49413-5777097": {
     "item_id": "ctbids-49413-5777097",
     "listing_url": "https://ctbids.com/estate-sale/49413/item/5777097/Abram-s-Instrument-Stereoscope",
@@ -353,7 +440,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -361,10 +448,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -438,60 +525,6 @@
         "matched_keywords": [
           "fluorite"
         ]
-      }
-    ]
-  },
-  "ctbids-49183-5732321": {
-    "item_id": "ctbids-49183-5732321",
-    "listing_url": "https://ctbids.com/estate-sale/49183/item/5732321/Round-convex-wall-mirror-with-distressed-bronze-and-gold-tone-frame",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5732321_8aDbhy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49183-5808899": {
-    "item_id": "ctbids-49183-5808899",
-    "listing_url": "https://ctbids.com/estate-sale/49183/item/5808899/Camelot-Keypad-Lever-And-Front-Door-Handle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808899_xYqzAW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -820,6 +853,68 @@
       }
     ]
   },
+  "ctbids-49152-5762270": {
+    "item_id": "ctbids-49152-5762270",
+    "listing_url": "https://ctbids.com/estate-sale/49152/item/5762270/Orvis-Xl-Couch-Cover",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5762270_NOjpRS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282269493": {
+    "item_id": "282269493",
+    "listing_url": "https://shopgoodwill.com/item/282269493",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/0ce62545-d1db-4e33-82b2-58d42d883d00dmin_10291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/793916ae-1b50-490b-8fba-1e5d2f5c5b84dmin_10292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/862edf98-d66e-4436-a4e4-6db5cbef18b4dmin_10293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/43795608-5461-42b9-861c-ebc5be9a1b76dmin_10294.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/e04a8231-d336-4b80-8ade-2c3d04b5ddf8dmin_10295.jpg"
+    ],
+    "description": "Art Glass Cullet Chunk\nCobalt Blue with Rainbow Iridescent Finish\nDecorative Glass Specimen, 1.365 Pounds\nSubstantial decorative chunk of cobalt blue cullet slag glass displaying a vibrant iridescent carnival-style flash across fractured planes and smooth surfaces. Raw glass chunks like this were produced during the glassmaking process at heritage American glassworks, where excess furnace glass cooled into monolithic blocks before being fractured into decorative specimens prized for garden displays, lapidary projects, and paperweights.\nIntense translucent cobalt blue glass body with rich color depth\nExterior exhibits strong rainbow iridescence in vivid hues of gold, magenta, and turquoise\nNatural conchoidal fracturing showcasing glass cleavage, smooth waves, and raw crystalline textures\nMeasures approximately 4 inches by 2.25 inches by 3.25 inches; weighs 1.365 pounds\nCondition:\nFormed as a raw fractured glass chunk with natural sharp edges, conchoidal ridges, and cleavage faces inherent to slag glass. Clean surfaces with brilliant luster and no post-manufacture cloudiness or chemical damage.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "278336132": {
     "item_id": "278336132",
     "listing_url": "https://shopgoodwill.com/item/278336132",
@@ -859,41 +954,6 @@
           "$5.00 handling charge (-4)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282269493": {
-    "item_id": "282269493",
-    "listing_url": "https://shopgoodwill.com/item/282269493",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/0ce62545-d1db-4e33-82b2-58d42d883d00dmin_10291.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/793916ae-1b50-490b-8fba-1e5d2f5c5b84dmin_10292.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/862edf98-d66e-4436-a4e4-6db5cbef18b4dmin_10293.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/43795608-5461-42b9-861c-ebc5be9a1b76dmin_10294.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-29/e04a8231-d336-4b80-8ade-2c3d04b5ddf8dmin_10295.jpg"
-    ],
-    "description": "Art Glass Cullet Chunk\nCobalt Blue with Rainbow Iridescent Finish\nDecorative Glass Specimen, 1.365 Pounds\nSubstantial decorative chunk of cobalt blue cullet slag glass displaying a vibrant iridescent carnival-style flash across fractured planes and smooth surfaces. Raw glass chunks like this were produced during the glassmaking process at heritage American glassworks, where excess furnace glass cooled into monolithic blocks before being fractured into decorative specimens prized for garden displays, lapidary projects, and paperweights.\nIntense translucent cobalt blue glass body with rich color depth\nExterior exhibits strong rainbow iridescence in vivid hues of gold, magenta, and turquoise\nNatural conchoidal fracturing showcasing glass cleavage, smooth waves, and raw crystalline textures\nMeasures approximately 4 inches by 2.25 inches by 3.25 inches; weighs 1.365 pounds\nCondition:\nFormed as a raw fractured glass chunk with natural sharp edges, conchoidal ridges, and cleavage faces inherent to slag glass. Clean surfaces with brilliant luster and no post-manufacture cloudiness or chemical damage.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }
