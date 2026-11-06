@@ -82,7 +82,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -90,12 +89,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -199,7 +197,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -211,36 +209,7 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49701-5807084": {
-    "item_id": "ctbids-49701-5807084",
-    "listing_url": "https://ctbids.com/estate-sale/49701/item/5807084/Lot-of-10-Green-Lantern-Comics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807084_6VQZ3z.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -356,33 +325,6 @@
       }
     ]
   },
-  "ctbids-49340-5755218": {
-    "item_id": "ctbids-49340-5755218",
-    "listing_url": "https://ctbids.com/estate-sale/49340/item/5755218/Antique-Style-Winter-Landscape-Painting-Gilt-Wood-Frame-European-Countryside-Scene",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5755218_j4HEGx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49651-5813439": {
     "item_id": "ctbids-49651-5813439",
     "listing_url": "https://ctbids.com/estate-sale/49651/item/5813439/1965-La-Musique-Flamande-Robert-Wangermee-Hardcover-Book-in-Slipcase-Editions-Arcade",
@@ -484,6 +426,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49701-5807084": {
+    "item_id": "ctbids-49701-5807084",
+    "listing_url": "https://ctbids.com/estate-sale/49701/item/5807084/Lot-of-10-Green-Lantern-Comics",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807084_6VQZ3z.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -626,6 +595,110 @@
       }
     ]
   },
+  "ctbids-49340-5755218": {
+    "item_id": "ctbids-49340-5755218",
+    "listing_url": "https://ctbids.com/estate-sale/49340/item/5755218/Antique-Style-Winter-Landscape-Painting-Gilt-Wood-Frame-European-Countryside-Scene",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5755218_j4HEGx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49460-5792600": {
+    "item_id": "ctbids-49460-5792600",
+    "listing_url": "https://ctbids.com/estate-sale/49460/item/5792600/Halloween-Ceramic-Haunted-House-and-Witches",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5792600_i8oaF9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49665-5732228": {
+    "item_id": "ctbids-49665-5732228",
+    "listing_url": "https://ctbids.com/estate-sale/49665/item/5732228/Fitz-And-Floyd-Christmas-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5732228_NvlOfM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49665-5803624": {
+    "item_id": "ctbids-49665-5803624",
+    "listing_url": "https://ctbids.com/estate-sale/49665/item/5803624/Sonoran-Desert-Stamps-and-Voyageurs-National-Park-Minnesota-Aerogramme-USPS-Postage-Stamp-Sheet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5803624_HOjPTl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49340-5765576": {
     "item_id": "ctbids-49340-5765576",
     "listing_url": "https://ctbids.com/estate-sale/49340/item/5765576/Vintage-Hollywood-Regency-Gold-Gilt-Metal-Wall-Sconce-with-Hanging-Crystal-Style-Prisms-2",
@@ -761,92 +834,11 @@
       }
     ]
   },
-  "ctbids-49665-5803624": {
-    "item_id": "ctbids-49665-5803624",
-    "listing_url": "https://ctbids.com/estate-sale/49665/item/5803624/Sonoran-Desert-Stamps-and-Voyageurs-National-Park-Minnesota-Aerogramme-USPS-Postage-Stamp-Sheet",
+  "ctbids-49651-5791083": {
+    "item_id": "ctbids-49651-5791083",
+    "listing_url": "https://ctbids.com/estate-sale/49651/item/5791083/Decorative-Silver-Tone-Letter-Opener-with-Colorful-Mosaic-Glass-Handle",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5803624_HOjPTl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49701-5807129": {
-    "item_id": "ctbids-49701-5807129",
-    "listing_url": "https://ctbids.com/estate-sale/49701/item/5807129/Three-DK2-Frank-Miller-Comics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807129_8orC6g.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49460-5792600": {
-    "item_id": "ctbids-49460-5792600",
-    "listing_url": "https://ctbids.com/estate-sale/49460/item/5792600/Halloween-Ceramic-Haunted-House-and-Witches",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5792600_i8oaF9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49665-5732228": {
-    "item_id": "ctbids-49665-5732228",
-    "listing_url": "https://ctbids.com/estate-sale/49665/item/5732228/Fitz-And-Floyd-Christmas-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5732228_NvlOfM.webp"
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791083_XTMHA1.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -867,11 +859,11 @@
       }
     ]
   },
-  "ctbids-49651-5791083": {
-    "item_id": "ctbids-49651-5791083",
-    "listing_url": "https://ctbids.com/estate-sale/49651/item/5791083/Decorative-Silver-Tone-Letter-Opener-with-Colorful-Mosaic-Glass-Handle",
+  "ctbids-49701-5807129": {
+    "item_id": "ctbids-49701-5807129",
+    "listing_url": "https://ctbids.com/estate-sale/49701/item/5807129/Three-DK2-Frank-Miller-Comics",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791083_XTMHA1.webp"
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807129_8orC6g.webp"
     ],
     "description": "",
     "score_reasons": [
