@@ -9,6 +9,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -16,11 +17,41 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 15,
+        "relative_score": 0.441,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49855-5826575": {
+    "item_id": "ctbids-49855-5826575",
+    "listing_url": "https://ctbids.com/estate-sale/49855/item/5826575/Vintage-Good-Seasons-Glass-Salad-Dressing-Mixing-Bottle-Cruet-Carafe-Anchor-Hocking-6",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5456885_FinsH6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -113,60 +144,6 @@
       }
     ]
   },
-  "ctbids-48681-5726893": {
-    "item_id": "ctbids-48681-5726893",
-    "listing_url": "https://ctbids.com/estate-sale/48681/item/5726893/Antique-William-King-s-The-Art-of-Cookery-An-Early-Classic-of-English-Culinary-Literature-Origin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5726893_f6aWjJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49281-5783226": {
-    "item_id": "ctbids-49281-5783226",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5783226/Antique-Rattan-Baby-Basket-No-Stand",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783226_Elybbu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49725-5802088": {
     "item_id": "ctbids-49725-5802088",
     "listing_url": "https://ctbids.com/estate-sale/49725/item/5802088/Vintage-N-Currier-Death-of-Washington-Dec-14-A-D-1799-Lithograph-Print-c-1846",
@@ -248,6 +225,249 @@
       }
     ]
   },
+  "ctbids-48681-5726893": {
+    "item_id": "ctbids-48681-5726893",
+    "listing_url": "https://ctbids.com/estate-sale/48681/item/5726893/Antique-William-King-s-The-Art-of-Cookery-An-Early-Classic-of-English-Culinary-Literature-Origin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-12T80d5c9/5726893_f6aWjJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49281-5783226": {
+    "item_id": "ctbids-49281-5783226",
+    "listing_url": "https://ctbids.com/estate-sale/49281/item/5783226/Antique-Rattan-Baby-Basket-No-Stand",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783226_Elybbu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49855-5826740": {
+    "item_id": "ctbids-49855-5826740",
+    "listing_url": "https://ctbids.com/estate-sale/49855/item/5826740/Pair-of-Plush-Teddy-Bears-White-Bear-in-Tartan-Outfit-Small-Bear-in-Blue-Dress",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5807289_C3FmjN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49693-5810105": {
+    "item_id": "ctbids-49693-5810105",
+    "listing_url": "https://ctbids.com/estate-sale/49693/item/5810105/One-World-Boho-Sequin-Neck-Celestial-Floral-Mixed-Print-Longline-Blouse-XL",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5810105_sZOx0Q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49855-5826669": {
+    "item_id": "ctbids-49855-5826669",
+    "listing_url": "https://ctbids.com/estate-sale/49855/item/5826669/Burt-Bacharach-The-Look-of-Love-Reach-Out-for-Me-A-M-Stereo-Promotional-45-RPM-888-S",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5689982_NW6wab.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49855-5826588": {
+    "item_id": "ctbids-49855-5826588",
+    "listing_url": "https://ctbids.com/estate-sale/49855/item/5826588/Ral-Donner-So-Close-to-Heaven-You-Don-t-Know-What-You-ve-Got-Until-You-Lose-It-No-5108",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5685586_DhM47b.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49855-5826601": {
+    "item_id": "ctbids-49855-5826601",
+    "listing_url": "https://ctbids.com/estate-sale/49855/item/5826601/Pair-of-Harrah-s-Laughlin-Logo-Champagne-Flutes-Casino-Souvenir-Glasses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5242814_qb9Wt6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49693-5800498": {
+    "item_id": "ctbids-49693-5800498",
+    "listing_url": "https://ctbids.com/estate-sale/49693/item/5800498/Vtg-Lenox-Eric-Van-Raemdonck-Sea-Of-Dreams-A-New-Day-Sea-Of-Joy-Ltd-Ed-Collector-Plates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5783380_Zpqvby.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49855-5826657": {
+    "item_id": "ctbids-49855-5826657",
+    "listing_url": "https://ctbids.com/estate-sale/49855/item/5826657/Multi-Grip-Doorway-Pull-Up-Chin-Up-Exercise-Bar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5667738_dlaWoW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48681-5676397": {
     "item_id": "ctbids-48681-5676397",
     "listing_url": "https://ctbids.com/estate-sale/48681/item/5676397/Lawrence-Scott-Ancient-Bronze-Collection-Solid-Brass-Urn-Table-Lamp-K-26-L",
@@ -319,33 +539,6 @@
       }
     ]
   },
-  "ctbids-49281-5749401": {
-    "item_id": "ctbids-49281-5749401",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5749401/UV-Reactive-Vintage-Glass-Bowl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-17Tdfacd2/5749401_b0wZcj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48964-5796158": {
     "item_id": "ctbids-48964-5796158",
     "listing_url": "https://ctbids.com/estate-sale/48964/item/5796158/JACKET-SHIRT-LOT",
@@ -373,61 +566,11 @@
       }
     ]
   },
-  "ctbids-49693-5810105": {
-    "item_id": "ctbids-49693-5810105",
-    "listing_url": "https://ctbids.com/estate-sale/49693/item/5810105/One-World-Boho-Sequin-Neck-Celestial-Floral-Mixed-Print-Longline-Blouse-XL",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5810105_sZOx0Q.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49576-5785568": {
     "item_id": "ctbids-49576-5785568",
     "listing_url": "https://ctbids.com/estate-sale/49576/item/5785568/Baggallini-Go-Bagg-Crossbody-Purse-with-RFID-Wristlet-Wallet-Onyx-Floral-Nylon-Adjustable-Strap",
     "images": [
       "https://image.ctbids.com/seller/2026-10-31Tb2d96e/5785568_5UIhtQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49693-5800498": {
-    "item_id": "ctbids-49693-5800498",
-    "listing_url": "https://ctbids.com/estate-sale/49693/item/5800498/Vtg-Lenox-Eric-Van-Raemdonck-Sea-Of-Dreams-A-New-Day-Sea-Of-Joy-Ltd-Ed-Collector-Plates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5783380_Zpqvby.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -699,81 +842,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49520/item/5794616/Freeman-Ceramic-Vase-And-More",
     "images": [
       "https://image.ctbids.com/seller/2026-10-30Tf6f451/5794616_WVCam0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49281-5785129": {
-    "item_id": "ctbids-49281-5785129",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5785129/2-Story-Barber-Shop-Heartland-Valley-Village-Porcelain-Lighted-House",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5785129_pdj810.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49769-5812979": {
-    "item_id": "ctbids-49769-5812979",
-    "listing_url": "https://ctbids.com/estate-sale/49769/item/5812979/1900-S-Morgan-Silver-Dollar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812979_i5q50e.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49019-5736806": {
-    "item_id": "ctbids-49019-5736806",
-    "listing_url": "https://ctbids.com/estate-sale/49019/item/5736806/Brass-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5736806_xmGWQr.webp"
     ],
     "description": "",
     "score_reasons": [
