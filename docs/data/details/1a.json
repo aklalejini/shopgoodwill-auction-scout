@@ -49,7 +49,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'art pottery' in title (+14)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -57,12 +56,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 22,
-        "relative_score": 0.647,
+        "score": 20,
+        "relative_score": 0.588,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'art pottery' in title (+14)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -211,6 +209,35 @@
       }
     ]
   },
+  "ctbids-49698-5800851": {
+    "item_id": "ctbids-49698-5800851",
+    "listing_url": "https://ctbids.com/estate-sale/49698/item/5800851/Hideo-Nomo-Baseball-Card-Lot-Upper-Deck-Fleer-Ultra-Dodgers-Strike-Force-Beat-the-Odds",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5625856_wqA1GN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283272668": {
     "item_id": "283272668",
     "listing_url": "https://shopgoodwill.com/item/283272668",
@@ -243,35 +270,6 @@
       }
     ]
   },
-  "ctbids-49698-5800851": {
-    "item_id": "ctbids-49698-5800851",
-    "listing_url": "https://ctbids.com/estate-sale/49698/item/5800851/Hideo-Nomo-Baseball-Card-Lot-Upper-Deck-Fleer-Ultra-Dodgers-Strike-Force-Beat-the-Odds",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5625856_wqA1GN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49634-5807266": {
     "item_id": "ctbids-49634-5807266",
     "listing_url": "https://ctbids.com/estate-sale/49634/item/5807266/Collector-Plates-Lot-1",
@@ -281,7 +279,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -293,7 +291,7 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -609,33 +607,6 @@
       }
     ]
   },
-  "ctbids-49520-5787201": {
-    "item_id": "ctbids-49520-5787201",
-    "listing_url": "https://ctbids.com/estate-sale/49520/item/5787201/2-Cut-Crystal-Bowls-Pitcher",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5787201_AQivQD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49769-5812929": {
     "item_id": "ctbids-49769-5812929",
     "listing_url": "https://ctbids.com/estate-sale/49769/item/5812929/2009-Philadelphia-Uncirculated-Coin-Set-3-Sets",
@@ -820,6 +791,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49520/item/5792928/Brass-Candleholders-Bells-More",
     "images": [
       "https://image.ctbids.com/seller/2026-10-30Tf6f451/5792928_l71U4L.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49520-5787201": {
+    "item_id": "ctbids-49520-5787201",
+    "listing_url": "https://ctbids.com/estate-sale/49520/item/5787201/2-Cut-Crystal-Bowls-Pitcher",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5787201_AQivQD.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1029,6 +1025,42 @@
       }
     ]
   },
+  "282807577": {
+    "item_id": "282807577",
+    "listing_url": "https://shopgoodwill.com/item/282807577",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/e4310802-d0ff-4eff-9c4a-3bfd901165b7ixon_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/ed82e4c4-9b45-4bfc-9766-8cfa87e3a9f0ixon_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/01346aa7-bc84-4c86-b78f-d69bf4a2c0f1ixon_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/cf890ce4-e6a1-421b-888b-5377615498f5ixon_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/d7e6d8b9-0fcd-4527-80ba-daeb47d3ec9bixon_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/5cc7b2f6-be3d-4c51-8fa0-79b7eca5f8a5ixon_11036.jpg"
+    ],
+    "description": "IOB Vintage Bill Blass Continental Gray Marble Pen & Mechanical Pencil Set\nItem Details:\nPlease see attached photos for included items. Listing includes only items shown in attached photographs.\nCondition:\nGood - Shows some minor signs of wear. Pen and pencil don't appear to have been removed from the box yet.\nPre-owned. Sold As Is. Products condition is consistent with age and gentle use.\nPlease refer to attached photographs and bid accordingly.",
+    "score_reasons": [
+      "Less relevant category 'Crafts' (-12)",
+      "2 bids near close (+2)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+9)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Less relevant category 'Crafts' (-12)",
+          "2 bids near close (+2)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+9)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283255308": {
     "item_id": "283255308",
     "listing_url": "https://shopgoodwill.com/item/283255308",
@@ -1099,40 +1131,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+18)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282807577": {
-    "item_id": "282807577",
-    "listing_url": "https://shopgoodwill.com/item/282807577",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/e4310802-d0ff-4eff-9c4a-3bfd901165b7ixon_11031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/ed82e4c4-9b45-4bfc-9766-8cfa87e3a9f0ixon_11032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/01346aa7-bc84-4c86-b78f-d69bf4a2c0f1ixon_11033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/cf890ce4-e6a1-421b-888b-5377615498f5ixon_11034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/d7e6d8b9-0fcd-4527-80ba-daeb47d3ec9bixon_11035.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/69/Items/2026-11-03/5cc7b2f6-be3d-4c51-8fa0-79b7eca5f8a5ixon_11036.jpg"
-    ],
-    "description": "IOB Vintage Bill Blass Continental Gray Marble Pen & Mechanical Pencil Set\nItem Details:\nPlease see attached photos for included items. Listing includes only items shown in attached photographs.\nCondition:\nGood - Shows some minor signs of wear. Pen and pencil don't appear to have been removed from the box yet.\nPre-owned. Sold As Is. Products condition is consistent with age and gentle use.\nPlease refer to attached photographs and bid accordingly.",
-    "score_reasons": [
-      "Less relevant category 'Crafts' (-12)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+11)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Less relevant category 'Crafts' (-12)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+11)"
         ],
         "matched_keywords": []
       }

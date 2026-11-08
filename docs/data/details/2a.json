@@ -1,4 +1,31 @@
 {
+  "ctbids-49678-5805187": {
+    "item_id": "ctbids-49678-5805187",
+    "listing_url": "https://ctbids.com/estate-sale/49678/item/5805187/14K-Yellow-Gold-Link-Chain-Necklace-16-1-82g",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5805187_nX6nA6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal '14k' in title (+22)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 23,
+        "relative_score": 0.676,
+        "score_reasons": [
+          "High-value signal '14k' in title (+22)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49316-5726217": {
     "item_id": "ctbids-49316-5726217",
     "listing_url": "https://ctbids.com/estate-sale/49316/item/5726217/6-Vintage-Weighted-Sterling-Silver-Candlestick-Holders-3-Pairs-Assorted-Heights",
@@ -21,33 +48,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49678-5805187": {
-    "item_id": "ctbids-49678-5805187",
-    "listing_url": "https://ctbids.com/estate-sale/49678/item/5805187/14K-Yellow-Gold-Link-Chain-Necklace-16-1-82g",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5805187_nX6nA6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal '14k' in title (+22)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 23,
-        "relative_score": 0.676,
-        "score_reasons": [
-          "High-value signal '14k' in title (+22)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -593,6 +593,36 @@
       }
     ]
   },
+  "282913496": {
+    "item_id": "282913496",
+    "listing_url": "https://shopgoodwill.com/item/282913496",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/77b65f0d-a90d-4a97-b869-11454541ffebriah_10291.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/006c0645-eea6-4a2c-bb20-ff4341d54ed7riah_10292.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/24f8277c-bc05-4602-8ed2-bb307173434friah_10293.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/72f9d329-7376-49fd-ad0e-a2a1353fe9b9riah_10294.jpg"
+    ],
+    "description": "Natural Banded Agate Geode",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49690-5801015": {
     "item_id": "ctbids-49690-5801015",
     "listing_url": "https://ctbids.com/estate-sale/49690/item/5801015/2024-Eagle-First-Delivery-CAC-MS70",
@@ -788,36 +818,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282913496": {
-    "item_id": "282913496",
-    "listing_url": "https://shopgoodwill.com/item/282913496",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/77b65f0d-a90d-4a97-b869-11454541ffebriah_10291.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/006c0645-eea6-4a2c-bb20-ff4341d54ed7riah_10292.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/24f8277c-bc05-4602-8ed2-bb307173434friah_10293.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-10-29/72f9d329-7376-49fd-ad0e-a2a1353fe9b9riah_10294.jpg"
-    ],
-    "description": "Natural Banded Agate Geode",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }
