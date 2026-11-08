@@ -20,6 +20,7 @@
       "Opportunity term 'collection' in description (+6)",
       "Opportunity term 'lot' in title (+4)",
       "High-value signal 'platinum' in title (+24)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -27,12 +28,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 40,
-        "relative_score": 1.176,
+        "score": 44,
+        "relative_score": 1.294,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'lot' in title (+4)",
           "High-value signal 'platinum' in title (+24)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -247,32 +249,30 @@
       }
     ]
   },
-  "283085267": {
-    "item_id": "283085267",
-    "listing_url": "https://shopgoodwill.com/item/283085267",
+  "ctbids-49698-5801271": {
+    "item_id": "ctbids-49698-5801271",
+    "listing_url": "https://ctbids.com/estate-sale/49698/item/5801271/NFL-QB-9-Card-Lot-Lawrence-Prescott-Burrow-Purdy-Penix-Select-Panini-Score",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-05/9b9d60b0-192a-4f3d-a5c2-902161d5d547port_11051.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-05/5b8350cc-59cd-498f-8008-139a75298aedport_11052.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-05/ab66d2db-2707-4aa2-82d2-478111052ca9port_11053.jpg"
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5801271_u6CFcd.webp"
     ],
-    "description": "Vintage Novelty & Accessory Lot - 3 Carded Packages\nTarget / Dayton Hudson Corp, Retro Collectibles\nCirca 1980s-1990s\nA nostalgic assortment of deadstock vintage carded items from the 1980s to 1990s era, featuring two Target-distributed personal styling accessory sets and one carded sports novelty ballpoint pen set. These blister-carded products represent everyday retail novelties of the late 20th century, retaining their original retail packaging and pricing.\nItems Included:\nTarget 7-Piece Accessory Set - Teal plastic headband, 2 hair combs, 2 cascade clips, and 2 ponyholders on original grid card\nTarget 7-Piece Accessory Set - Purple plastic headband, 2 hair combs, 2 cascade clips, and 2 ponyholders on original grid card\n4 Sports Ball Pens Set - Carded novelty ballpoint pens shaped as a hockey stick, baseball bat, tennis racket, and golf club\nCondition:\nAll three items remain factory sealed on their original blister cards. Cardboard backings display edge wear, corner curling, and creasing from storage. Clear plastic blister bubbles are intact with light surface scuffing. Novelty pens are vintage and untested; due to age, ink may be dried out.",
+    "description": "",
     "score_reasons": [
-      "Lower-priority term 'ballpoint' in description (-4)",
-      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 12,
-        "relative_score": 0.343,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
-          "Lower-priority term 'ballpoint' in description (-4)",
-          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -300,6 +300,66 @@
           "Opportunity term 'antique' in title (+7)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49247-5771217": {
+    "item_id": "ctbids-49247-5771217",
+    "listing_url": "https://ctbids.com/estate-sale/49247/item/5771217/Vintage-Keystone-Manual-Meat-and-Food-Grinder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771217_BV16Hk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283085267": {
+    "item_id": "283085267",
+    "listing_url": "https://shopgoodwill.com/item/283085267",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-05/9b9d60b0-192a-4f3d-a5c2-902161d5d547port_11051.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-05/5b8350cc-59cd-498f-8008-139a75298aedport_11052.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-05/ab66d2db-2707-4aa2-82d2-478111052ca9port_11053.jpg"
+    ],
+    "description": "Vintage Novelty & Accessory Lot - 3 Carded Packages\nTarget / Dayton Hudson Corp, Retro Collectibles\nCirca 1980s-1990s\nA nostalgic assortment of deadstock vintage carded items from the 1980s to 1990s era, featuring two Target-distributed personal styling accessory sets and one carded sports novelty ballpoint pen set. These blister-carded products represent everyday retail novelties of the late 20th century, retaining their original retail packaging and pricing.\nItems Included:\nTarget 7-Piece Accessory Set - Teal plastic headband, 2 hair combs, 2 cascade clips, and 2 ponyholders on original grid card\nTarget 7-Piece Accessory Set - Purple plastic headband, 2 hair combs, 2 cascade clips, and 2 ponyholders on original grid card\n4 Sports Ball Pens Set - Carded novelty ballpoint pens shaped as a hockey stick, baseball bat, tennis racket, and golf club\nCondition:\nAll three items remain factory sealed on their original blister cards. Cardboard backings display edge wear, corner curling, and creasing from storage. Clear plastic blister bubbles are intact with light surface scuffing. Novelty pens are vintage and untested; due to age, ink may be dried out.",
+    "score_reasons": [
+      "Lower-priority term 'ballpoint' in description (-4)",
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 12,
+        "relative_score": 0.343,
+        "score_reasons": [
+          "Lower-priority term 'ballpoint' in description (-4)",
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -440,11 +500,11 @@
       }
     ]
   },
-  "ctbids-49247-5771217": {
-    "item_id": "ctbids-49247-5771217",
-    "listing_url": "https://ctbids.com/estate-sale/49247/item/5771217/Vintage-Keystone-Manual-Meat-and-Food-Grinder",
+  "ctbids-49247-5771246": {
+    "item_id": "ctbids-49247-5771246",
+    "listing_url": "https://ctbids.com/estate-sale/49247/item/5771246/Vintage-metal-and-wood-powder-or-shot-measure-set",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771217_BV16Hk.webp"
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771246_DAgQht.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -467,15 +527,15 @@
       }
     ]
   },
-  "ctbids-49247-5771246": {
-    "item_id": "ctbids-49247-5771246",
-    "listing_url": "https://ctbids.com/estate-sale/49247/item/5771246/Vintage-metal-and-wood-powder-or-shot-measure-set",
+  "ctbids-49520-5797102": {
+    "item_id": "ctbids-49520-5797102",
+    "listing_url": "https://ctbids.com/estate-sale/49520/item/5797102/Framed-Lace-Handkerchief-17-x-17",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771246_DAgQht.webp"
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5797102_juxBYF.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -483,10 +543,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49281-5785349": {
+    "item_id": "ctbids-49281-5785349",
+    "listing_url": "https://ctbids.com/estate-sale/49281/item/5785349/Merry-Go-Round-Horse-Figure-on-Hexagon-Base",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5785349_X6v1im.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49698-5800873": {
+    "item_id": "ctbids-49698-5800873",
+    "listing_url": "https://ctbids.com/estate-sale/49698/item/5800873/Donruss-Signature-Series-Curley-Culp-Auto-Houston-Oilers-75",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5224311_dt7bfY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -529,15 +643,15 @@
       }
     ]
   },
-  "ctbids-49698-5801271": {
-    "item_id": "ctbids-49698-5801271",
-    "listing_url": "https://ctbids.com/estate-sale/49698/item/5801271/NFL-QB-9-Card-Lot-Lawrence-Prescott-Burrow-Purdy-Penix-Select-Panini-Score",
+  "ctbids-49690-5801044": {
+    "item_id": "ctbids-49690-5801044",
+    "listing_url": "https://ctbids.com/estate-sale/49690/item/5801044/2008-Eagle-NGC-MS69",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5801271_u6CFcd.webp"
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5801044_hANF7X.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -545,10 +659,172 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49497-5800595": {
+    "item_id": "ctbids-49497-5800595",
+    "listing_url": "https://ctbids.com/estate-sale/49497/item/5800595/Halsey-Rose-Chintz-Set-Of-8-Salad-Bowls",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5800595_JiRayz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49281-5754564": {
+    "item_id": "ctbids-49281-5754564",
+    "listing_url": "https://ctbids.com/estate-sale/49281/item/5754564/Kitty-Blanket-Woven-47x65-Imperfect",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5754564_REz4LE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49520-5788859": {
+    "item_id": "ctbids-49520-5788859",
+    "listing_url": "https://ctbids.com/estate-sale/49520/item/5788859/Florentine-Stainless-Steel-Coin-Bowls-With-Boxes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5788859_IPgJDS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49281-5754999": {
+    "item_id": "ctbids-49281-5754999",
+    "listing_url": "https://ctbids.com/estate-sale/49281/item/5754999/8-Pink-Depression-Art-Glass-Swung-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5754999_UDsHI0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49769-5814688": {
+    "item_id": "ctbids-49769-5814688",
+    "listing_url": "https://ctbids.com/estate-sale/49769/item/5814688/1-Oz-999-1986-American-Silver-Eagle-Proof-Coin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814688_gt6nWw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49281-5755029": {
+    "item_id": "ctbids-49281-5755029",
+    "listing_url": "https://ctbids.com/estate-sale/49281/item/5755029/Westmoreland-Glass-English-Hobnail-Footed-Salt-Cellar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5755029_fR2hg4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -586,31 +862,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48681/item/5726644/Decorative-Oval-Metal-Wine-Chiller-With-Gold-Tone-Deer-Head-Handles",
     "images": [
       "https://image.ctbids.com/seller/2026-10-26Te92adc/5726644_6dFfuf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49690-5801044": {
-    "item_id": "ctbids-49690-5801044",
-    "listing_url": "https://ctbids.com/estate-sale/49690/item/5801044/2008-Eagle-NGC-MS69",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5801044_hANF7X.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -681,31 +932,6 @@
       }
     ]
   },
-  "ctbids-49497-5800595": {
-    "item_id": "ctbids-49497-5800595",
-    "listing_url": "https://ctbids.com/estate-sale/49497/item/5800595/Halsey-Rose-Chintz-Set-Of-8-Salad-Bowls",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5800595_JiRayz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49281-5785117": {
     "item_id": "ctbids-49281-5785117",
     "listing_url": "https://ctbids.com/estate-sale/49281/item/5785117/Rose-Garden-Restaurant-Heartland-Valley-Village-Porcelain-Lighted-House",
@@ -731,61 +957,11 @@
       }
     ]
   },
-  "ctbids-49281-5754564": {
-    "item_id": "ctbids-49281-5754564",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5754564/Kitty-Blanket-Woven-47x65-Imperfect",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5754564_REz4LE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49557-5790528": {
     "item_id": "ctbids-49557-5790528",
     "listing_url": "https://ctbids.com/estate-sale/49557/item/5790528/Art-Deco-Palladium-Mabe-Pearl-Ring",
     "images": [
       "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790528_zpVWuE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49520-5797102": {
-    "item_id": "ctbids-49520-5797102",
-    "listing_url": "https://ctbids.com/estate-sale/49520/item/5797102/Framed-Lace-Handkerchief-17-x-17",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5797102_juxBYF.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -956,161 +1132,11 @@
       }
     ]
   },
-  "ctbids-49520-5788859": {
-    "item_id": "ctbids-49520-5788859",
-    "listing_url": "https://ctbids.com/estate-sale/49520/item/5788859/Florentine-Stainless-Steel-Coin-Bowls-With-Boxes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5788859_IPgJDS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49281-5785349": {
-    "item_id": "ctbids-49281-5785349",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5785349/Merry-Go-Round-Horse-Figure-on-Hexagon-Base",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5785349_X6v1im.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49698-5800873": {
-    "item_id": "ctbids-49698-5800873",
-    "listing_url": "https://ctbids.com/estate-sale/49698/item/5800873/Donruss-Signature-Series-Curley-Culp-Auto-Houston-Oilers-75",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5224311_dt7bfY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49520-5791356": {
     "item_id": "ctbids-49520-5791356",
     "listing_url": "https://ctbids.com/estate-sale/49520/item/5791356/Monkey-Pod-Wooden-Serving-Bowls-Set-of-10-2",
     "images": [
       "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791356_s4w6ET.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49281-5754999": {
-    "item_id": "ctbids-49281-5754999",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5754999/8-Pink-Depression-Art-Glass-Swung-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5754999_UDsHI0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49769-5814688": {
-    "item_id": "ctbids-49769-5814688",
-    "listing_url": "https://ctbids.com/estate-sale/49769/item/5814688/1-Oz-999-1986-American-Silver-Eagle-Proof-Coin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814688_gt6nWw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49281-5755029": {
-    "item_id": "ctbids-49281-5755029",
-    "listing_url": "https://ctbids.com/estate-sale/49281/item/5755029/Westmoreland-Glass-English-Hobnail-Footed-Salt-Cellar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5755029_fR2hg4.webp"
     ],
     "description": "",
     "score_reasons": [
