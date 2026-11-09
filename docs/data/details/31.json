@@ -18,6 +18,7 @@
       "Opportunity term cap limited keyword stacking; effective contributions are shown",
       "Lower-priority term 'as is' in description (-3)",
       "Target keyword 'maxell' in title (+5)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-3)",
       "Base score (+4)"
     ],
@@ -25,14 +26,15 @@
       {
         "id": "sealed-vintage-media",
         "label": "Sealed Vintage Media",
-        "score": 27,
-        "relative_score": 0.75,
+        "score": 31,
+        "relative_score": 0.861,
         "score_reasons": [
           "Opportunity term 'factory sealed' in description (+18)",
           "Opportunity term 'sealed' in title (+6)",
           "Opportunity term cap limited keyword stacking; effective contributions are shown",
           "Lower-priority term 'as is' in description (-3)",
           "Target keyword 'maxell' in title (+5)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-3)",
           "Base score (+4)"
         ],
@@ -103,6 +105,50 @@
       }
     ]
   },
+  "282954345": {
+    "item_id": "282954345",
+    "listing_url": "https://shopgoodwill.com/item/282954345",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/9685aea9-1699-4820-8c42-296150b721b4rica_11041.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/bd28953a-0553-42e4-9775-48b244dc44bfrica_11042.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/83016896-99cd-4e8b-82de-c66e534e0a4brica_11043.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/1c5907aa-0e0a-4e17-abc8-7e82dbfccf0crica_11044.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/caf1bef3-39e0-4801-801d-85d3e9e574d7rica_11045.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/13a221d3-26c7-47b4-a114-e9a4cebf56f4rica_11046.jpg"
+    ],
+    "description": "This lot includes 12 Polaroid Supercolor Plus T-120 VHS blank cassette tapes in original shrink wrap. These tapes are suitable for SP, LP, and EP recording modes. Packaging features blue color with Polaroid rainbow stripe and multilingual instructions. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'lot of' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Lower-priority term 't-120' in title (-12)",
+      "Target keyword 't-120' in title (+5)",
+      "Collector evidence 'original shrink wrap' in description (+10)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 16,
+        "relative_score": 0.444,
+        "score_reasons": [
+          "Opportunity term 'lot of' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "Lower-priority term 't-120' in title (-12)",
+          "Target keyword 't-120' in title (+5)",
+          "Collector evidence 'original shrink wrap' in description (+10)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "t-120"
+        ]
+      }
+    ]
+  },
   "ctbids-49289-5767997": {
     "item_id": "ctbids-49289-5767997",
     "listing_url": "https://ctbids.com/estate-sale/49289/item/5767997/Vintage-Makora-Krosno-Poland-Yellow-Art-Glass-Pitcher-Studio-Glass-Collection",
@@ -129,48 +175,6 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "282954345": {
-    "item_id": "282954345",
-    "listing_url": "https://shopgoodwill.com/item/282954345",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/9685aea9-1699-4820-8c42-296150b721b4rica_11041.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/bd28953a-0553-42e4-9775-48b244dc44bfrica_11042.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/83016896-99cd-4e8b-82de-c66e534e0a4brica_11043.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/1c5907aa-0e0a-4e17-abc8-7e82dbfccf0crica_11044.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/caf1bef3-39e0-4801-801d-85d3e9e574d7rica_11045.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-04/13a221d3-26c7-47b4-a114-e9a4cebf56f4rica_11046.jpg"
-    ],
-    "description": "This lot includes 12 Polaroid Supercolor Plus T-120 VHS blank cassette tapes in original shrink wrap. These tapes are suitable for SP, LP, and EP recording modes. Packaging features blue color with Polaroid rainbow stripe and multilingual instructions. See photos for condition.",
-    "score_reasons": [
-      "Opportunity term 'lot of' in title (+6)",
-      "Opportunity term 'lot' in title (+4)",
-      "Lower-priority term 't-120' in title (-12)",
-      "Target keyword 't-120' in title (+5)",
-      "Collector evidence 'original shrink wrap' in description (+10)",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 14,
-        "relative_score": 0.389,
-        "score_reasons": [
-          "Opportunity term 'lot of' in title (+6)",
-          "Opportunity term 'lot' in title (+4)",
-          "Lower-priority term 't-120' in title (-12)",
-          "Target keyword 't-120' in title (+5)",
-          "Collector evidence 'original shrink wrap' in description (+10)",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
-        ],
-        "matched_keywords": [
-          "t-120"
-        ]
       }
     ]
   },
@@ -228,6 +232,168 @@
       }
     ]
   },
+  "ctbids-49611-5791921": {
+    "item_id": "ctbids-49611-5791921",
+    "listing_url": "https://ctbids.com/estate-sale/49611/item/5791921/Gallery-Framed-Nature-Photo-15x17",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791921_gwpcEV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49874-5827850": {
+    "item_id": "ctbids-49874-5827850",
+    "listing_url": "https://ctbids.com/estate-sale/49874/item/5827850/Set-of-3-Jingle-Bell-Napkin-Rings-Red-Green-Gold-Metallic-Bells-Wire-Wrapped-Christmas-Table",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5785518_DUtrBk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49544-5830049": {
+    "item_id": "ctbids-49544-5830049",
+    "listing_url": "https://ctbids.com/estate-sale/49544/item/5830049/Woven-Wicker-Cornucopia-Horn-of-Plenty-Basket-Braided-Rim-Natural-Tan-Thanksgiving-Centerpiece",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830049_SDRiv7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49874-5827958": {
+    "item_id": "ctbids-49874-5827958",
+    "listing_url": "https://ctbids.com/estate-sale/49874/item/5827958/Johnny-Rivers-Summer-Rain-Memory-of-the-Coming-Good-45-RPM-Imperial-66267-Audition-Promo-Vinta",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5693745_R7wceo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49874-5828003": {
+    "item_id": "ctbids-49874-5828003",
+    "listing_url": "https://ctbids.com/estate-sale/49874/item/5828003/Morris-Albert-Feelings-Memories-RCA-Gold-Standard-Stereo-45-RPM-Single-GB-10937",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5828003_9XWzUu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49652-5804635": {
+    "item_id": "ctbids-49652-5804635",
+    "listing_url": "https://ctbids.com/estate-sale/49652/item/5804635/BM006-Wooden-Jewelry-Box",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5804635_y76cHt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283398443": {
     "item_id": "283398443",
     "listing_url": "https://shopgoodwill.com/item/283398443",
@@ -259,40 +425,6 @@
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'polished stones' in description (-6)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283432386": {
-    "item_id": "283432386",
-    "listing_url": "https://shopgoodwill.com/item/283432386",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/18ffcbfe-95f3-4e52-9972-5bccc7a8a097iRum_11081.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/e25efb53-69cd-4309-99d0-e52e8a845f84iRum_11082.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/346d5987-ffe6-4b7a-b8c0-7ab2894e0cdfiRum_11083.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/76985b00-3b93-4582-9ce2-087c2e751b65iRum_11084.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/9d2f60e9-db0b-46af-a07f-b7c054c7cedbiRum_11085.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/f4217339-177f-4589-b8fd-af581e8b7291iRum_11086.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/73c86b93-85bb-4a95-8dfe-09939248a54aiRum_11087.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/a4535a94-b438-4015-97f5-3e4f4e5c491fiRum_11088.jpg"
-    ],
-    "description": "This is a polished citrine quartz crystal sphere measuring 3.5 inches in diameter. The sphere features golden-yellow coloring with translucent honey tones, internal fractures, white mineral inclusions, natural banding, and cloudy veil-like patterns typical of genuine quartz. It weighs approximately 1 lb 13.1 oz as measured on a digital scale. The mineral composition was confirmed with a Presidium Gem Tester II, showing readings consistent with quartz/citrine. The sphere is in nice condition with no visible chips or damage to the polished surface. A small clear acrylic display stand is shown for photographic purposes only and is not included with the item.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -355,31 +487,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49278/item/5804599/Fashion-Rings",
     "images": [
       "https://image.ctbids.com/seller/2026-11-02T03af44/5804599_XXQKAN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49611-5791921": {
-    "item_id": "ctbids-49611-5791921",
-    "listing_url": "https://ctbids.com/estate-sale/49611/item/5791921/Gallery-Framed-Nature-Photo-15x17",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791921_gwpcEV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -475,31 +582,6 @@
       }
     ]
   },
-  "ctbids-49874-5827850": {
-    "item_id": "ctbids-49874-5827850",
-    "listing_url": "https://ctbids.com/estate-sale/49874/item/5827850/Set-of-3-Jingle-Bell-Napkin-Rings-Red-Green-Gold-Metallic-Bells-Wire-Wrapped-Christmas-Table",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5785518_DUtrBk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49403-5803889": {
     "item_id": "ctbids-49403-5803889",
     "listing_url": "https://ctbids.com/estate-sale/49403/item/5803889/Ceramic-Mexican-Duck",
@@ -530,81 +612,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49555/item/5781984/Pair-of-Blue-White-Floral-Ceramic-Vases",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5781984_yItfVg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49874-5827958": {
-    "item_id": "ctbids-49874-5827958",
-    "listing_url": "https://ctbids.com/estate-sale/49874/item/5827958/Johnny-Rivers-Summer-Rain-Memory-of-the-Coming-Good-45-RPM-Imperial-66267-Audition-Promo-Vinta",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5693745_R7wceo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49652-5804635": {
-    "item_id": "ctbids-49652-5804635",
-    "listing_url": "https://ctbids.com/estate-sale/49652/item/5804635/BM006-Wooden-Jewelry-Box",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5804635_y76cHt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49874-5828003": {
-    "item_id": "ctbids-49874-5828003",
-    "listing_url": "https://ctbids.com/estate-sale/49874/item/5828003/Morris-Albert-Feelings-Memories-RCA-Gold-Standard-Stereo-45-RPM-Single-GB-10937",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5828003_9XWzUu.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -750,26 +757,35 @@
       }
     ]
   },
-  "ctbids-49544-5828729": {
-    "item_id": "ctbids-49544-5828729",
-    "listing_url": "https://ctbids.com/estate-sale/49544/item/5828729/Clear-Glass-Stemmed-Wine-Glass-Small-Tasting-Sherry-Glass-Rounded-Bowl-with-Ribbed-Lower-Bowl",
+  "283432386": {
+    "item_id": "283432386",
+    "listing_url": "https://shopgoodwill.com/item/283432386",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5705320_SmkWWg.webp"
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/18ffcbfe-95f3-4e52-9972-5bccc7a8a097iRum_11081.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/e25efb53-69cd-4309-99d0-e52e8a845f84iRum_11082.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/346d5987-ffe6-4b7a-b8c0-7ab2894e0cdfiRum_11083.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/76985b00-3b93-4582-9ce2-087c2e751b65iRum_11084.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/9d2f60e9-db0b-46af-a07f-b7c054c7cedbiRum_11085.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/f4217339-177f-4589-b8fd-af581e8b7291iRum_11086.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/73c86b93-85bb-4a95-8dfe-09939248a54aiRum_11087.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-08/a4535a94-b438-4015-97f5-3e4f4e5c491fiRum_11088.jpg"
     ],
-    "description": "",
+    "description": "This is a polished citrine quartz crystal sphere measuring 3.5 inches in diameter. The sphere features golden-yellow coloring with translucent honey tones, internal fractures, white mineral inclusions, natural banding, and cloudy veil-like patterns typical of genuine quartz. It weighs approximately 1 lb 13.1 oz as measured on a digital scale. The mineral composition was confirmed with a Presidium Gem Tester II, showing readings consistent with quartz/citrine. The sphere is in nice condition with no visible chips or damage to the polished surface. A small clear acrylic display stand is shown for photographic purposes only and is not included with the item.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
