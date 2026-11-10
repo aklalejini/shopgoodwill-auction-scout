@@ -120,6 +120,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'assorted' in title (+2)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -127,12 +128,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 28,
-        "relative_score": 0.933,
+        "score": 32,
+        "relative_score": 1.067,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'assorted' in title (+2)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -197,6 +199,7 @@
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'decor' in title (-8)",
       "Lower-priority term 'possibly' in description (-4)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -204,8 +207,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 14,
-        "relative_score": 0.467,
+        "score": 18,
+        "relative_score": 0.6,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'mixed' in title (+2)",
@@ -213,6 +216,7 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'decor' in title (-8)",
           "Lower-priority term 'possibly' in description (-4)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -251,6 +255,64 @@
       }
     ]
   },
+  "ctbids-48231-5699299": {
+    "item_id": "ctbids-48231-5699299",
+    "listing_url": "https://ctbids.com/estate-sale/48231/item/5699299/Atari-Game-Cartridge-Collection-6",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5699299_qFXzg0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-37774-5731541": {
+    "item_id": "ctbids-37774-5731541",
+    "listing_url": "https://ctbids.com/estate-sale/37774/item/5731541/Lot-Of-Bird-Ornaments",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-13T0627f3/5731541_MR0PfL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "282982833": {
     "item_id": "282982833",
     "listing_url": "https://shopgoodwill.com/item/282982833",
@@ -279,33 +341,6 @@
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48231-5699299": {
-    "item_id": "ctbids-48231-5699299",
-    "listing_url": "https://ctbids.com/estate-sale/48231/item/5699299/Atari-Game-Cartridge-Collection-6",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5699299_qFXzg0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -419,56 +454,6 @@
       }
     ]
   },
-  "278125989": {
-    "item_id": "278125989",
-    "listing_url": "https://shopgoodwill.com/item/278125989",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/5e7e38a3-09a9-4647-9b51-541fb704865atrgi_09111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/87610723-8f59-4d4a-ae60-8c6854ece917trgi_09112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/09b41379-d2e2-4ae9-97d5-405982455da2trgi_09113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1959dbc7-8028-45dd-840b-da98cb294142trgi_09114.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/28e3a130-d3b8-413c-ae38-5c5ad76d967dtrgi_09115.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1d81ebaf-cdc3-40e6-b17e-2d966e2bb467trgi_09116.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/57d27783-6e52-41e5-9067-832b110889e2trgi_09117.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/dc84e5ab-0f0c-474f-966b-b0203a59786ctrgi_09118.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/8c6471f1-eabd-4b69-b860-8d911d3091b0trgi_09119.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/688e3cf4-b3f3-4204-b8e6-947b0d7cd035trgi_091110.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/afe7db22-f55a-4925-a4d5-69b9f9f28dd7trgi_091111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/e683ffcf-3410-4bbf-b653-fc01229a42d7trgi_091112.jpg"
-    ],
-    "description": "Glass Insulator Lot - 3 Pieces\nHemingray, Ohio Valley Glass Co. (O.V.G. Co.)\nAqua and Teal Green, Vintage\nCollection of three vintage glass insulators originally utilized for telegraph and telephone line insulation. This lot features insulators from prominent American manufacturers, showcasing the industrial aqua and teal green glass common to early 20th-century utility production. These heavy pressed glass pieces are sought after for their historical industrial aesthetic and display appeal.\nPieces Included:\nInsulator, Aqua, marked \"O.V.G. CO.\" - features a large chip on the side and base\nInsulator, Teal Green, marked \"N 21\" - internal vertical crack visible on the crown\nInsulator, Aqua/Teal, marked \"HEMINGRAY\" - exhibits surface scratching and minor flea bites\nCondition:\nThe lot is in damaged vintage condition as noted and photographed. One insulator has a significant chip loss on the lower body. A second piece shows a distinct crack through the glass dome. The Hemingray piece retains its shape but shows signs of outdoor weathering and light surface wear. Recommended for rustic decor or craft projects.\nPlease Note:\nThis is a pre-owned item being sold\nas-is\n. We do our best to describe items accurately and include research where possible, but we are not experts in every category. Please note that if the title or description states \"Tested\" that we only test to make sure the unit \"\nPOWERS ON\"\n.\nNo further testing takes place unless stated otherwise and items are considered untested.\nPlease remember all items are used and are sold as is, no refunds.If you have questions, please contact us before bidding.\nFor all vintage clothing, please research sizing before placing a bid.\nItems from different time periods may have measurements that differ from today’s standard sizing.\nCustomer Service:\nReach us via the “Contact Us” link above or by calling\n(540) 361-6550\n. Messages are handled Monday–Friday, 8:00 AM–4:00 PM ET, and we strive to respond within 48 hours.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+6)",
-      "Opportunity term 'lot' in title (+5)",
-      "Lower-priority term 'crack' in description (-20)",
-      "Lower-priority term 'chip' in description (-15)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 9,
-        "relative_score": 0.3,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+6)",
-          "Opportunity term 'lot' in title (+5)",
-          "Lower-priority term 'crack' in description (-20)",
-          "Lower-priority term 'chip' in description (-15)",
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49394-5819881": {
     "item_id": "ctbids-49394-5819881",
     "listing_url": "https://ctbids.com/estate-sale/49394/item/5819881/Kiss-Lock-Coin-Purse-Lot",
@@ -523,15 +508,15 @@
       }
     ]
   },
-  "ctbids-37774-5731541": {
-    "item_id": "ctbids-37774-5731541",
-    "listing_url": "https://ctbids.com/estate-sale/37774/item/5731541/Lot-Of-Bird-Ornaments",
+  "ctbids-49249-5753084": {
+    "item_id": "ctbids-49249-5753084",
+    "listing_url": "https://ctbids.com/estate-sale/49249/item/5753084/Men-s-Size-10-Dress-Shoes",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-13T0627f3/5731541_MR0PfL.webp"
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753084_Zu3UKu.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -542,7 +527,111 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "278125989": {
+    "item_id": "278125989",
+    "listing_url": "https://shopgoodwill.com/item/278125989",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/5e7e38a3-09a9-4647-9b51-541fb704865atrgi_09111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/87610723-8f59-4d4a-ae60-8c6854ece917trgi_09112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/09b41379-d2e2-4ae9-97d5-405982455da2trgi_09113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1959dbc7-8028-45dd-840b-da98cb294142trgi_09114.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/28e3a130-d3b8-413c-ae38-5c5ad76d967dtrgi_09115.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/1d81ebaf-cdc3-40e6-b17e-2d966e2bb467trgi_09116.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/57d27783-6e52-41e5-9067-832b110889e2trgi_09117.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/dc84e5ab-0f0c-474f-966b-b0203a59786ctrgi_09118.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/8c6471f1-eabd-4b69-b860-8d911d3091b0trgi_09119.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/688e3cf4-b3f3-4204-b8e6-947b0d7cd035trgi_091110.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/afe7db22-f55a-4925-a4d5-69b9f9f28dd7trgi_091111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/145/Items/2026-09-11/e683ffcf-3410-4bbf-b653-fc01229a42d7trgi_091112.jpg"
+    ],
+    "description": "Glass Insulator Lot - 3 Pieces\nHemingray, Ohio Valley Glass Co. (O.V.G. Co.)\nAqua and Teal Green, Vintage\nCollection of three vintage glass insulators originally utilized for telegraph and telephone line insulation. This lot features insulators from prominent American manufacturers, showcasing the industrial aqua and teal green glass common to early 20th-century utility production. These heavy pressed glass pieces are sought after for their historical industrial aesthetic and display appeal.\nPieces Included:\nInsulator, Aqua, marked \"O.V.G. CO.\" - features a large chip on the side and base\nInsulator, Teal Green, marked \"N 21\" - internal vertical crack visible on the crown\nInsulator, Aqua/Teal, marked \"HEMINGRAY\" - exhibits surface scratching and minor flea bites\nCondition:\nThe lot is in damaged vintage condition as noted and photographed. One insulator has a significant chip loss on the lower body. A second piece shows a distinct crack through the glass dome. The Hemingray piece retains its shape but shows signs of outdoor weathering and light surface wear. Recommended for rustic decor or craft projects.\nPlease Note:\nThis is a pre-owned item being sold\nas-is\n. We do our best to describe items accurately and include research where possible, but we are not experts in every category. Please note that if the title or description states \"Tested\" that we only test to make sure the unit \"\nPOWERS ON\"\n.\nNo further testing takes place unless stated otherwise and items are considered untested.\nPlease remember all items are used and are sold as is, no refunds.If you have questions, please contact us before bidding.\nFor all vintage clothing, please research sizing before placing a bid.\nItems from different time periods may have measurements that differ from today’s standard sizing.\nCustomer Service:\nReach us via the “Contact Us” link above or by calling\n(540) 361-6550\n. Messages are handled Monday–Friday, 8:00 AM–4:00 PM ET, and we strive to respond within 48 hours.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+6)",
+      "Opportunity term 'lot' in title (+5)",
+      "Lower-priority term 'crack' in description (-20)",
+      "Lower-priority term 'chip' in description (-15)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 9,
+        "relative_score": 0.3,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+6)",
+          "Opportunity term 'lot' in title (+5)",
+          "Lower-priority term 'crack' in description (-20)",
+          "Lower-priority term 'chip' in description (-15)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49044-5718114": {
+    "item_id": "ctbids-49044-5718114",
+    "listing_url": "https://ctbids.com/estate-sale/49044/item/5718114/Holiday-Stuffed-Animals-And-Santa-s-Hats",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-08T96006c/5718114_4KQKHZ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49249-5746698": {
+    "item_id": "ctbids-49249-5746698",
+    "listing_url": "https://ctbids.com/estate-sale/49249/item/5746698/Small-Dog-Kennel",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5746698_yTYEAG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -555,31 +644,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49703/item/5808462/3-Pieces-Of-Pink-Depression-ware-Glass-Plus-2-Bonus-Trays",
     "images": [
       "https://image.ctbids.com/seller/2026-11-03T8cd417/5808462_E1ObwL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49044-5718114": {
-    "item_id": "ctbids-49044-5718114",
-    "listing_url": "https://ctbids.com/estate-sale/49044/item/5718114/Holiday-Stuffed-Animals-And-Santa-s-Hats",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-08T96006c/5718114_4KQKHZ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -730,31 +794,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49394/item/5778282/Gold-plated-Longhorn-Pin",
     "images": [
       "https://image.ctbids.com/seller/2026-10-26Te92adc/5778282_eG24VV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49249-5746698": {
-    "item_id": "ctbids-49249-5746698",
-    "listing_url": "https://ctbids.com/estate-sale/49249/item/5746698/Small-Dog-Kennel",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-16T1ba60e/5746698_yTYEAG.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -975,31 +1014,6 @@
       }
     ]
   },
-  "ctbids-49249-5753084": {
-    "item_id": "ctbids-49249-5753084",
-    "listing_url": "https://ctbids.com/estate-sale/49249/item/5753084/Men-s-Size-10-Dress-Shoes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5753084_Zu3UKu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49766-5814318": {
     "item_id": "ctbids-49766-5814318",
     "listing_url": "https://ctbids.com/estate-sale/49766/item/5814318/1930s-S-D-Lincoln-Wheat-Cent-Rolls-2-Total-100-Coins-Total",
@@ -1046,9 +1060,10 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Lower-priority term 'decorative' in description (-8)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+4)"
+      "Score boundary adjustment (+2)"
     ],
     "hunt_scores": [
       {
@@ -1059,9 +1074,10 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Lower-priority term 'decorative' in description (-8)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+4)"
+          "Score boundary adjustment (+2)"
         ],
         "matched_keywords": []
       }
@@ -1093,9 +1109,10 @@
       "Lower-priority term 'polished stones' in description (-6)",
       "Lower-priority term 'carved' in title (-7)",
       "Lower-priority term 'carvings' in description (-7)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+20)"
+      "Score boundary adjustment (+16)"
     ],
     "hunt_scores": [
       {
@@ -1112,9 +1129,10 @@
           "Lower-priority term 'polished stones' in description (-6)",
           "Lower-priority term 'carved' in title (-7)",
           "Lower-priority term 'carvings' in description (-7)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+20)"
+          "Score boundary adjustment (+16)"
         ],
         "matched_keywords": []
       }
@@ -1134,10 +1152,11 @@
       "Opportunity term 'lot' in title (+2)",
       "Opportunity term 'rocks' in title (+1)",
       "Lower-priority term 'decorative' in title (-8)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "20 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+10)"
+      "Score boundary adjustment (+6)"
     ],
     "hunt_scores": [
       {
@@ -1149,10 +1168,11 @@
           "Opportunity term 'lot' in title (+2)",
           "Opportunity term 'rocks' in title (+1)",
           "Lower-priority term 'decorative' in title (-8)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+10)"
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }

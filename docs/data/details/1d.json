@@ -18,6 +18,7 @@
       "Opportunity term 'assorted' in title (+2)",
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -25,13 +26,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 26,
-        "relative_score": 0.867,
+        "score": 30,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -107,6 +109,81 @@
       }
     ]
   },
+  "282916728": {
+    "item_id": "282916728",
+    "listing_url": "https://shopgoodwill.com/item/282916728",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7721d87-d30d-4df8-90a1-f705ead65bcaredT_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/6ab996b3-740f-4f83-b94c-ec04244e8b17redT_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/55fdb67f-bd5a-49a2-8f39-2ef96e5ef2e8redT_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f19756c3-e85d-45b5-951d-4e245c1a5e26redT_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/ac759de1-669a-401a-86bf-8c8d8a818ce5redT_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7285b48-a629-41cf-9d18-6d5ec0e71118redT_11036.jpg"
+    ],
+    "description": "Large Rock Mineral Collection Bundle Good and Beautiful Educational Box\nThis large rock and mineral collection bundle includes the Good and Beautiful branded educational specimen box with 9 labeled compartments featuring igneous, sedimentary, metamorphic, and mineral samples such as mica, quartz, and pyrite. Also included is a French-labeled display case with 24 compartments containing various tumbled and raw stones like Microcline, Labradorite, Cornaline, Jaspe, Amazonite, Rhodonite, Calcite, Dolomie, Gabbro, and Apatite in a bamboo-framed glass-covered box. Additionally, there is a large loose assortment of approximately 40+ raw and polished stones and minerals, including lava rock, amethyst cluster, turquoise-colored stone, tiger's eye, petrified wood, onyx/calcite slab, rutilated quartz, and various jaspers and agates. Items show typical used and handled condition consistent with an educational or hobbyist rock collection. Specimens vary in size from small chips to palm-sized pieces. This collection is suitable for geology enthusiasts, collectors, or educational purposes.\nProduct Size:\n12 x 6.85 x 4.5 in\n5.6 lb",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5.6 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 11,
+        "relative_score": 0.367,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5.6 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48231-5726555": {
+    "item_id": "ctbids-48231-5726555",
+    "listing_url": "https://ctbids.com/estate-sale/48231/item/5726555/Wii-Game-Collection-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5726555_fi4WVC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49290-5783791": {
     "item_id": "ctbids-49290-5783791",
     "listing_url": "https://ctbids.com/estate-sale/49290/item/5783791/Vintage-Prewar-Lionel-American-Flyer-O-Gauge-Tinplate-Rolling-Stock-3-Piece-Lot",
@@ -170,50 +247,6 @@
       }
     ]
   },
-  "282916728": {
-    "item_id": "282916728",
-    "listing_url": "https://shopgoodwill.com/item/282916728",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7721d87-d30d-4df8-90a1-f705ead65bcaredT_11031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/6ab996b3-740f-4f83-b94c-ec04244e8b17redT_11032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/55fdb67f-bd5a-49a2-8f39-2ef96e5ef2e8redT_11033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f19756c3-e85d-45b5-951d-4e245c1a5e26redT_11034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/ac759de1-669a-401a-86bf-8c8d8a818ce5redT_11035.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-03/f7285b48-a629-41cf-9d18-6d5ec0e71118redT_11036.jpg"
-    ],
-    "description": "Large Rock Mineral Collection Bundle Good and Beautiful Educational Box\nThis large rock and mineral collection bundle includes the Good and Beautiful branded educational specimen box with 9 labeled compartments featuring igneous, sedimentary, metamorphic, and mineral samples such as mica, quartz, and pyrite. Also included is a French-labeled display case with 24 compartments containing various tumbled and raw stones like Microcline, Labradorite, Cornaline, Jaspe, Amazonite, Rhodonite, Calcite, Dolomie, Gabbro, and Apatite in a bamboo-framed glass-covered box. Additionally, there is a large loose assortment of approximately 40+ raw and polished stones and minerals, including lava rock, amethyst cluster, turquoise-colored stone, tiger's eye, petrified wood, onyx/calcite slab, rutilated quartz, and various jaspers and agates. Items show typical used and handled condition consistent with an educational or hobbyist rock collection. Specimens vary in size from small chips to palm-sized pieces. This collection is suitable for geology enthusiasts, collectors, or educational purposes.\nProduct Size:\n12 x 6.85 x 4.5 in\n5.6 lb",
-    "score_reasons": [
-      "Opportunity term 'geology' in description (+10)",
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in description (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Opportunity term cap limited keyword stacking; effective contributions are shown",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5.6 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'geology' in description (+10)",
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in description (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Opportunity term cap limited keyword stacking; effective contributions are shown",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5.6 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49703-5807797": {
     "item_id": "ctbids-49703-5807797",
     "listing_url": "https://ctbids.com/estate-sale/49703/item/5807797/Collection-Of-Handmade-Christmas-Decorations",
@@ -246,33 +279,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48231/item/5726538/XBOX-ONE-AE-Sports-Game-Collection",
     "images": [
       "https://image.ctbids.com/seller/2026-11-02T03af44/5726538_qxONr0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48231-5726555": {
-    "item_id": "ctbids-48231-5726555",
-    "listing_url": "https://ctbids.com/estate-sale/48231/item/5726555/Wii-Game-Collection-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5726555_fi4WVC.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -403,6 +409,33 @@
       }
     ]
   },
+  "ctbids-49804-5807353": {
+    "item_id": "ctbids-49804-5807353",
+    "listing_url": "https://ctbids.com/estate-sale/49804/item/5807353/Homco-Bears",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807353_6fv9Y4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-37774-5731617": {
     "item_id": "ctbids-37774-5731617",
     "listing_url": "https://ctbids.com/estate-sale/37774/item/5731617/Lot-Of-Wooden-Christmas-Ornaments",
@@ -423,6 +456,195 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49044-5790831": {
+    "item_id": "ctbids-49044-5790831",
+    "listing_url": "https://ctbids.com/estate-sale/49044/item/5790831/DOLL-ACCESSORIES-BLANKETS",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790831_fEy0nJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49804-5812982": {
+    "item_id": "ctbids-49804-5812982",
+    "listing_url": "https://ctbids.com/estate-sale/49804/item/5812982/Peef-Book-And-Plush-Bear",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812982_wGvbnf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49421-5790588": {
+    "item_id": "ctbids-49421-5790588",
+    "listing_url": "https://ctbids.com/estate-sale/49421/item/5790588/Business-Travel-Totes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790588_Tj36kz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49766-5810210": {
+    "item_id": "ctbids-49766-5810210",
+    "listing_url": "https://ctbids.com/estate-sale/49766/item/5810210/1948-P-1948-D-Uncirculated-Jefferson-Nickels-NGC-MS-62-2-Total",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5810210_hnOlQt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49249-5752543": {
+    "item_id": "ctbids-49249-5752543",
+    "listing_url": "https://ctbids.com/estate-sale/49249/item/5752543/Book-Shelf",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752543_nDrphQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49394-5782069": {
+    "item_id": "ctbids-49394-5782069",
+    "listing_url": "https://ctbids.com/estate-sale/49394/item/5782069/Gold-plated-Ring-Pearl-Pair",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5782069_3pr9lb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49419-5787306": {
+    "item_id": "ctbids-49419-5787306",
+    "listing_url": "https://ctbids.com/estate-sale/49419/item/5787306/Love-Makes-The-World-Go-Round-Train-Snow-Globe",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5787306_6nL5Nw.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -476,31 +698,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49703/item/5802039/Old-Hollywood-Style-Lois-Ann-Waterfall-Earrings",
     "images": [
       "https://image.ctbids.com/seller/2026-11-02T03af44/5802039_CCr5bO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49804-5807353": {
-    "item_id": "ctbids-49804-5807353",
-    "listing_url": "https://ctbids.com/estate-sale/49804/item/5807353/Homco-Bears",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807353_6fv9Y4.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -646,61 +843,11 @@
       }
     ]
   },
-  "ctbids-49044-5790831": {
-    "item_id": "ctbids-49044-5790831",
-    "listing_url": "https://ctbids.com/estate-sale/49044/item/5790831/DOLL-ACCESSORIES-BLANKETS",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790831_fEy0nJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47581-5787768": {
     "item_id": "ctbids-47581-5787768",
     "listing_url": "https://ctbids.com/estate-sale/47581/item/5787768/Michael-Dawkins-Sterling-Multi-Row-20-3-4-Necklace",
     "images": [
       "https://image.ctbids.com/seller/2026-11-03T8cd417/5787768_ybBiEI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49804-5812982": {
-    "item_id": "ctbids-49804-5812982",
-    "listing_url": "https://ctbids.com/estate-sale/49804/item/5812982/Peef-Book-And-Plush-Bear",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812982_wGvbnf.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -746,31 +893,6 @@
       }
     ]
   },
-  "ctbids-49421-5790588": {
-    "item_id": "ctbids-49421-5790588",
-    "listing_url": "https://ctbids.com/estate-sale/49421/item/5790588/Business-Travel-Totes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790588_Tj36kz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47581-5812992": {
     "item_id": "ctbids-47581-5812992",
     "listing_url": "https://ctbids.com/estate-sale/47581/item/5812992/Gladstone-Walt-Disney-s-UNCLE-SCROOGE-95-ct-1-95-Comics-Nos-232-242-2-of-2",
@@ -796,86 +918,11 @@
       }
     ]
   },
-  "ctbids-49766-5810210": {
-    "item_id": "ctbids-49766-5810210",
-    "listing_url": "https://ctbids.com/estate-sale/49766/item/5810210/1948-P-1948-D-Uncirculated-Jefferson-Nickels-NGC-MS-62-2-Total",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5810210_hnOlQt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49419-5742555": {
     "item_id": "ctbids-49419-5742555",
     "listing_url": "https://ctbids.com/estate-sale/49419/item/5742555/Abingdon-Pottery-Vase-Model-520-Egg-Blue",
     "images": [
       "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5742555_t43wVD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49249-5752543": {
-    "item_id": "ctbids-49249-5752543",
-    "listing_url": "https://ctbids.com/estate-sale/49249/item/5752543/Book-Shelf",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752543_nDrphQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49394-5782069": {
-    "item_id": "ctbids-49394-5782069",
-    "listing_url": "https://ctbids.com/estate-sale/49394/item/5782069/Gold-plated-Ring-Pearl-Pair",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5782069_3pr9lb.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -951,31 +998,6 @@
     "listing_url": "https://ctbids.com/estate-sale/37774/item/5731485/Holiday-Time-15-Piece-Set-Ornaments",
     "images": [
       "https://image.ctbids.com/seller/2026-10-13T0627f3/5731485_EoPSkP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49419-5787306": {
-    "item_id": "ctbids-49419-5787306",
-    "listing_url": "https://ctbids.com/estate-sale/49419/item/5787306/Love-Makes-The-World-Go-Round-Train-Snow-Globe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5787306_6nL5Nw.webp"
     ],
     "description": "",
     "score_reasons": [

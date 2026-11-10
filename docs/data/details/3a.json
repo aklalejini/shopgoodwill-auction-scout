@@ -63,6 +63,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -70,13 +71,87 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 15,
+        "relative_score": 0.441,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-37774-5584356": {
+    "item_id": "ctbids-37774-5584356",
+    "listing_url": "https://ctbids.com/estate-sale/37774/item/5584356/Vintage-Santa-Claus-and-Teddy-Bear-Ceramic-Star-Votive-Candle-Holder-Luminary-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584356_kHQdfp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "282859647": {
+    "item_id": "282859647",
+    "listing_url": "https://shopgoodwill.com/item/282859647",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/111255df-d37f-42f9-9d2c-63575bdcac8bwine_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/b5a14d37-d5d4-40f1-b24d-300116fae91fwine_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/5cccc618-684d-4381-a4dd-ed62f0729341wine_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/15824010-4605-4a71-86c1-84d4843f596ewine_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/4478599e-e4af-464e-8747-3c2d6577808awine_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/409ef71c-09ba-4da8-a6ed-fa100ebe4df2wine_11036.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/36416222-d56c-474a-80b0-2bb02accc3b6wine_11037.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/682ca004-de22-4d94-adc6-7707c8a98898wine_11038.jpg"
+    ],
+    "description": "Condition:\nScratching and scuffing on rocks from use and storage Discoloration and fading on rocks from age and use Chipping and wear on rocks from use and storage\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: General\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'lot' in description (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "20 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 9,
+        "relative_score": 0.3,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'lot' in description (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "20 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -180,41 +255,6 @@
       }
     ]
   },
-  "283464405": {
-    "item_id": "283464405",
-    "listing_url": "https://shopgoodwill.com/item/283464405",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/d8853b67-8a5f-4d18-b48f-a1dd7660735ancle_11031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/99d5ec99-5425-4efa-b538-691c0ffedbdancle_11032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/bde3b505-4ad5-41ac-863d-03590ba06c1bncle_11033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/77497a15-f07f-4c97-b236-548d2d6e2d7dncle_11034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/5341bdcc-67f5-4b94-9809-3c48594212abncle_11035.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/fe29565b-d3e9-4390-94bf-584e9ecb6610ncle_11036.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/3c141507-4df4-4d63-bb80-4ce5198bce91ncle_11037.jpg"
-    ],
-    "description": "Summit Collection Egyptian Pens Lot - 2 Pieces\nSummit Collection, Egyptian Figural Ballpoint Pens\n2010\nThis collectible set features two cast resin Egyptian-themed ballpoint pens produced by Summit Collection in 2010. Modeled as detailed sculptural figures with hieroglyphic engravings and metallic finishes, the set includes King Tutankhamun and the cat goddess Bastet.\nItems Included:\nKing Tut Figural Pen - Gold and black painted cast resin with crossed arms and hieroglyphic barrel, marked  2010 SUMMIT\nBastet Figural Pen - Black and gold painted cast resin depicting the feline deity with decorative collar and tapered barrel\nCondition:\nPre-owned with minor surface rub wear. Sculptural relief and hieroglyphs remain crisp. Writing functionality and ink levels are untested; pens may require replacement refills. Tips intact with no cracks or breaks.\nWarehouse Location: Cleveland\nDue to our lighting, white glare lines may appear on items - This is NOT damage\nIf you have any questions regarding the quality or authenticity of this item or general questions regarding and item, please click Contact Seller on the item page and send us a message. We are available to answer your questions Monday through Friday, 8 am - 3:00 pm, EST.\n* For combined shipping policy see the shipping tab.\nSome items may contain unseen flaws not noted in the description.\nSee Photos. Items sold as-is.",
-    "score_reasons": [
-      "Lower-priority term 'ballpoint' in description (-4)",
-      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 12,
-        "relative_score": 0.343,
-        "score_reasons": [
-          "Lower-priority term 'ballpoint' in description (-4)",
-          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49703-5803749": {
     "item_id": "ctbids-49703-5803749",
     "listing_url": "https://ctbids.com/estate-sale/49703/item/5803749/Collection-Of-Handcrafted-Wood-Vessels",
@@ -264,6 +304,41 @@
           "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283464405": {
+    "item_id": "283464405",
+    "listing_url": "https://shopgoodwill.com/item/283464405",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/d8853b67-8a5f-4d18-b48f-a1dd7660735ancle_11031.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/99d5ec99-5425-4efa-b538-691c0ffedbdancle_11032.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/bde3b505-4ad5-41ac-863d-03590ba06c1bncle_11033.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/77497a15-f07f-4c97-b236-548d2d6e2d7dncle_11034.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/5341bdcc-67f5-4b94-9809-3c48594212abncle_11035.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/fe29565b-d3e9-4390-94bf-584e9ecb6610ncle_11036.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/87/Items/2026-11-03/3c141507-4df4-4d63-bb80-4ce5198bce91ncle_11037.jpg"
+    ],
+    "description": "Summit Collection Egyptian Pens Lot - 2 Pieces\nSummit Collection, Egyptian Figural Ballpoint Pens\n2010\nThis collectible set features two cast resin Egyptian-themed ballpoint pens produced by Summit Collection in 2010. Modeled as detailed sculptural figures with hieroglyphic engravings and metallic finishes, the set includes King Tutankhamun and the cat goddess Bastet.\nItems Included:\nKing Tut Figural Pen - Gold and black painted cast resin with crossed arms and hieroglyphic barrel, marked  2010 SUMMIT\nBastet Figural Pen - Black and gold painted cast resin depicting the feline deity with decorative collar and tapered barrel\nCondition:\nPre-owned with minor surface rub wear. Sculptural relief and hieroglyphs remain crisp. Writing functionality and ink levels are untested; pens may require replacement refills. Tips intact with no cracks or breaks.\nWarehouse Location: Cleveland\nDue to our lighting, white glare lines may appear on items - This is NOT damage\nIf you have any questions regarding the quality or authenticity of this item or general questions regarding and item, please click Contact Seller on the item page and send us a message. We are available to answer your questions Monday through Friday, 8 am - 3:00 pm, EST.\n* For combined shipping policy see the shipping tab.\nSome items may contain unseen flaws not noted in the description.\nSee Photos. Items sold as-is.",
+    "score_reasons": [
+      "Lower-priority term 'ballpoint' in description (-4)",
+      "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 12,
+        "relative_score": 0.343,
+        "score_reasons": [
+          "Lower-priority term 'ballpoint' in description (-4)",
+          "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -323,15 +398,15 @@
       }
     ]
   },
-  "ctbids-37774-5584356": {
-    "item_id": "ctbids-37774-5584356",
-    "listing_url": "https://ctbids.com/estate-sale/37774/item/5584356/Vintage-Santa-Claus-and-Teddy-Bear-Ceramic-Star-Votive-Candle-Holder-Luminary-Figurine",
+  "ctbids-49703-5805257": {
+    "item_id": "ctbids-49703-5805257",
+    "listing_url": "https://ctbids.com/estate-sale/49703/item/5805257/Holiday-Plush-Santas-And-Snowman",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584356_kHQdfp.webp"
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5805257_HCj5ze.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -339,54 +414,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "282859647": {
-    "item_id": "282859647",
-    "listing_url": "https://shopgoodwill.com/item/282859647",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/111255df-d37f-42f9-9d2c-63575bdcac8bwine_11031.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/b5a14d37-d5d4-40f1-b24d-300116fae91fwine_11032.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/5cccc618-684d-4381-a4dd-ed62f0729341wine_11033.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/15824010-4605-4a71-86c1-84d4843f596ewine_11034.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/4478599e-e4af-464e-8747-3c2d6577808awine_11035.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/409ef71c-09ba-4da8-a6ed-fa100ebe4df2wine_11036.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/36416222-d56c-474a-80b0-2bb02accc3b6wine_11037.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-03/682ca004-de22-4d94-adc6-7707c8a98898wine_11038.jpg"
-    ],
-    "description": "Condition:\nScratching and scuffing on rocks from use and storage Discoloration and fading on rocks from age and use Chipping and wear on rocks from use and storage\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: General\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'lot' in description (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "20 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'lot' in description (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "20 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -412,6 +445,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48231-5726561": {
+    "item_id": "ctbids-48231-5726561",
+    "listing_url": "https://ctbids.com/estate-sale/48231/item/5726561/Disney-Infinity-Figures",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5726561_Cm2vrH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -446,6 +506,222 @@
           "Opportunity term 'mixed' in description (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44523-5123763": {
+    "item_id": "ctbids-44523-5123763",
+    "listing_url": "https://ctbids.com/estate-sale/44523/item/5123763/Farmers-Market-Square-By-St-Nicholas-Square",
+    "images": [
+      "https://image.ctbids.com/seller/2026-04-27T9ab008/5123763_VQfJxj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44523-5159079": {
+    "item_id": "ctbids-44523-5159079",
+    "listing_url": "https://ctbids.com/estate-sale/44523/item/5159079/Town-square-Collectibles-Main-Street-Barber",
+    "images": [
+      "https://image.ctbids.com/seller/2026-05-06T53883c/5159079_ytOzoh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49394-5761753": {
+    "item_id": "ctbids-49394-5761753",
+    "listing_url": "https://ctbids.com/estate-sale/49394/item/5761753/Starlog-Scifi-Mag-Bundle-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5761753_SET161.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49419-5752959": {
+    "item_id": "ctbids-49419-5752959",
+    "listing_url": "https://ctbids.com/estate-sale/49419/item/5752959/Noah-s-Ark-Cookie-Jar",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5752959_dj6MS6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49419-5756163": {
+    "item_id": "ctbids-49419-5756163",
+    "listing_url": "https://ctbids.com/estate-sale/49419/item/5756163/5-Inch-Russ-Porcelain-Bunny-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5756163_A3o8ZH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49394-5809760": {
+    "item_id": "ctbids-49394-5809760",
+    "listing_url": "https://ctbids.com/estate-sale/49394/item/5809760/Rooster-Kitchenware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809760_HCL9mt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49727-5803555": {
+    "item_id": "ctbids-49727-5803555",
+    "listing_url": "https://ctbids.com/estate-sale/49727/item/5803555/70-s-Hercules-Tourist-Bicycle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5803555_uiNLai.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49419-5787303": {
+    "item_id": "ctbids-49419-5787303",
+    "listing_url": "https://ctbids.com/estate-sale/49419/item/5787303/San-Francisco-Music-Box-Company-Here-Comes-Santa-Claus-Water-Globe",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5787303_WTaDXh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -515,61 +791,11 @@
       }
     ]
   },
-  "ctbids-49703-5805257": {
-    "item_id": "ctbids-49703-5805257",
-    "listing_url": "https://ctbids.com/estate-sale/49703/item/5805257/Holiday-Plush-Santas-And-Snowman",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5805257_HCj5ze.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49703-5814010": {
     "item_id": "ctbids-49703-5814010",
     "listing_url": "https://ctbids.com/estate-sale/49703/item/5814010/Pearls-Short-With-Sterling-Clasp-Musical-Jewelry-Box",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5814010_IxYKU6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44523-5123763": {
-    "item_id": "ctbids-44523-5123763",
-    "listing_url": "https://ctbids.com/estate-sale/44523/item/5123763/Farmers-Market-Square-By-St-Nicholas-Square",
-    "images": [
-      "https://image.ctbids.com/seller/2026-04-27T9ab008/5123763_VQfJxj.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -620,31 +846,6 @@
     "listing_url": "https://ctbids.com/estate-sale/44523/item/5123894/St-Nicholas-Square-Sledding-Park",
     "images": [
       "https://image.ctbids.com/seller/2026-04-27T9ab008/5123894_xBGCmf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44523-5159079": {
-    "item_id": "ctbids-44523-5159079",
-    "listing_url": "https://ctbids.com/estate-sale/44523/item/5159079/Town-square-Collectibles-Main-Street-Barber",
-    "images": [
-      "https://image.ctbids.com/seller/2026-05-06T53883c/5159079_ytOzoh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -740,31 +941,6 @@
       }
     ]
   },
-  "ctbids-49394-5761753": {
-    "item_id": "ctbids-49394-5761753",
-    "listing_url": "https://ctbids.com/estate-sale/49394/item/5761753/Starlog-Scifi-Mag-Bundle-1",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5761753_SET161.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49671-5798028": {
     "item_id": "ctbids-49671-5798028",
     "listing_url": "https://ctbids.com/estate-sale/49671/item/5798028/Echo-Harp-Chrometta-8-By-Horner",
@@ -820,31 +996,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49394/item/5804471/POST-Trays",
     "images": [
       "https://image.ctbids.com/seller/2026-11-02T03af44/5804471_q0q69I.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49419-5752959": {
-    "item_id": "ctbids-49419-5752959",
-    "listing_url": "https://ctbids.com/estate-sale/49419/item/5752959/Noah-s-Ark-Cookie-Jar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5752959_dj6MS6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -990,61 +1141,11 @@
       }
     ]
   },
-  "ctbids-49419-5756163": {
-    "item_id": "ctbids-49419-5756163",
-    "listing_url": "https://ctbids.com/estate-sale/49419/item/5756163/5-Inch-Russ-Porcelain-Bunny-Figurine",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5756163_A3o8ZH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49727-5814776": {
     "item_id": "ctbids-49727-5814776",
     "listing_url": "https://ctbids.com/estate-sale/49727/item/5814776/Shinerich-Simulated-Flame-Effect-Light",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5814776_y2XYca.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49394-5809760": {
-    "item_id": "ctbids-49394-5809760",
-    "listing_url": "https://ctbids.com/estate-sale/49394/item/5809760/Rooster-Kitchenware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809760_HCL9mt.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1090,86 +1191,11 @@
       }
     ]
   },
-  "ctbids-48231-5726561": {
-    "item_id": "ctbids-48231-5726561",
-    "listing_url": "https://ctbids.com/estate-sale/48231/item/5726561/Disney-Infinity-Figures",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5726561_Cm2vrH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49727-5803555": {
-    "item_id": "ctbids-49727-5803555",
-    "listing_url": "https://ctbids.com/estate-sale/49727/item/5803555/70-s-Hercules-Tourist-Bicycle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5803555_uiNLai.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49421-5779280": {
     "item_id": "ctbids-49421-5779280",
     "listing_url": "https://ctbids.com/estate-sale/49421/item/5779280/Women-s-Size-8-8-5-Boots",
     "images": [
       "https://image.ctbids.com/seller/2026-10-28Tbd4550/5779280_FVQMqy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49419-5787303": {
-    "item_id": "ctbids-49419-5787303",
-    "listing_url": "https://ctbids.com/estate-sale/49419/item/5787303/San-Francisco-Music-Box-Company-Here-Comes-Santa-Claus-Water-Globe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5787303_WTaDXh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1201,9 +1227,10 @@
     "score_reasons": [
       "Opportunity term 'assorted' in title (+2)",
       "Lower-priority term 'healing' in title (-12)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)",
-      "Score boundary adjustment (+11)"
+      "Score boundary adjustment (+7)"
     ],
     "hunt_scores": [
       {
@@ -1214,9 +1241,10 @@
         "score_reasons": [
           "Opportunity term 'assorted' in title (+2)",
           "Lower-priority term 'healing' in title (-12)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
-          "Score boundary adjustment (+11)"
+          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       }

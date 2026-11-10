@@ -13,6 +13,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "1 bid near close (+2)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+5)"
     ],
@@ -20,11 +21,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 35,
-        "relative_score": 1.167,
+        "score": 37,
+        "relative_score": 1.233,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "1 bid near close (+2)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+5)"
         ],
@@ -141,6 +143,64 @@
       }
     ]
   },
+  "ctbids-49684-5814141": {
+    "item_id": "ctbids-49684-5814141",
+    "listing_url": "https://ctbids.com/estate-sale/49684/item/5814141/Empty-Whitman-Coin-Album-Collection-U-S-Coins",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814141_RF4DCE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-37774-5584027": {
+    "item_id": "ctbids-37774-5584027",
+    "listing_url": "https://ctbids.com/estate-sale/37774/item/5584027/VINTAGE-LENOX-PRACTICE-MAKES-PERFECT-2000-EXCLUSIVE-EDITION-SNOWMAN-ICE-SKATING-CHRISTMAS-ORNAMENT",
+    "images": [
+      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584027_MtSPcy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283307384": {
     "item_id": "283307384",
     "listing_url": "https://shopgoodwill.com/item/283307384",
@@ -171,33 +231,6 @@
       }
     ]
   },
-  "ctbids-49684-5814141": {
-    "item_id": "ctbids-49684-5814141",
-    "listing_url": "https://ctbids.com/estate-sale/49684/item/5814141/Empty-Whitman-Coin-Album-Collection-U-S-Coins",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814141_RF4DCE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48231-5730265": {
     "item_id": "ctbids-48231-5730265",
     "listing_url": "https://ctbids.com/estate-sale/48231/item/5730265/Computer-Game-Collection-3",
@@ -207,6 +240,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -214,10 +248,40 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-37774-5735803": {
+    "item_id": "ctbids-37774-5735803",
+    "listing_url": "https://ctbids.com/estate-sale/37774/item/5735803/Lot-Of-Christmas-Ornaments",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735803_w0VQ7f.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -234,6 +298,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -241,10 +306,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -252,28 +318,42 @@
       }
     ]
   },
-  "ctbids-37774-5584027": {
-    "item_id": "ctbids-37774-5584027",
-    "listing_url": "https://ctbids.com/estate-sale/37774/item/5584027/VINTAGE-LENOX-PRACTICE-MAKES-PERFECT-2000-EXCLUSIVE-EDITION-SNOWMAN-ICE-SKATING-CHRISTMAS-ORNAMENT",
+  "283192203": {
+    "item_id": "283192203",
+    "listing_url": "https://shopgoodwill.com/item/283192203",
     "images": [
-      "https://image.ctbids.com/seller/2026-09-01Tb823be/5584027_MtSPcy.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/276e8d52-a7bc-4b8a-a53b-19b5f8dd117con42_11051.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/9973f476-7b11-41dc-9c40-4a51e5cd7d44on42_11052.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/c885f8fb-1625-4673-a42d-7126f517cd6bon42_11053.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/b8457c29-bac2-4ad1-a9c1-189b742c0030on42_11054.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/1c3d6cc5-f2fb-497f-8937-6eea14f70badon42_11055.jpg"
     ],
-    "description": "",
+    "description": "Product Overview\n\nThis lot contains assorted raw mineral and crystal specimens in natural, unpolished condition.\n\nSpecimens Included\n\nCylindrical selenite crystal tealight holder with hollow center\nAmethyst cluster geodes with deep purple crystalline formations\nClear quartz point\nMixed mineral specimen with visible inclusions and rough texture\n\nCharacteristics\n\nSpecimens vary in size and shape\nAll items display natural formations\nRough, unpolished surfaces throughout\n\nWeight\n\nApproximate total weight: 10 lbs.",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in description (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "10 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in description (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "10 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -306,15 +386,15 @@
       }
     ]
   },
-  "ctbids-37774-5735803": {
-    "item_id": "ctbids-37774-5735803",
-    "listing_url": "https://ctbids.com/estate-sale/37774/item/5735803/Lot-Of-Christmas-Ornaments",
+  "ctbids-44523-5185008": {
+    "item_id": "ctbids-44523-5185008",
+    "listing_url": "https://ctbids.com/estate-sale/44523/item/5185008/Home-Accents-Holiday-Canterbury-Lane-Bridge",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-14T823d6c/5735803_w0VQ7f.webp"
+      "https://image.ctbids.com/seller/2026-05-13T663b2b/5185008_KiSI4W.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -325,7 +405,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -333,40 +413,217 @@
       }
     ]
   },
-  "283192203": {
-    "item_id": "283192203",
-    "listing_url": "https://shopgoodwill.com/item/283192203",
+  "ctbids-44523-5185086": {
+    "item_id": "ctbids-44523-5185086",
+    "listing_url": "https://ctbids.com/estate-sale/44523/item/5185086/Santa-s-Best-Christmas-In-Vermont-Village-Accessory",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/276e8d52-a7bc-4b8a-a53b-19b5f8dd117con42_11051.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/9973f476-7b11-41dc-9c40-4a51e5cd7d44on42_11052.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/c885f8fb-1625-4673-a42d-7126f517cd6bon42_11053.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/b8457c29-bac2-4ad1-a9c1-189b742c0030on42_11054.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-05/1c3d6cc5-f2fb-497f-8937-6eea14f70badon42_11055.jpg"
+      "https://image.ctbids.com/seller/2026-05-13T663b2b/5185086_tYx9Te.webp"
     ],
-    "description": "Product Overview\n\nThis lot contains assorted raw mineral and crystal specimens in natural, unpolished condition.\n\nSpecimens Included\n\nCylindrical selenite crystal tealight holder with hollow center\nAmethyst cluster geodes with deep purple crystalline formations\nClear quartz point\nMixed mineral specimen with visible inclusions and rough texture\n\nCharacteristics\n\nSpecimens vary in size and shape\nAll items display natural formations\nRough, unpolished surfaces throughout\n\nWeight\n\nApproximate total weight: 10 lbs.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in description (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "10 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in description (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "10 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49650-5806114": {
+    "item_id": "ctbids-49650-5806114",
+    "listing_url": "https://ctbids.com/estate-sale/49650/item/5806114/Girths-For-English-Saddles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5806114_IaPcal.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49650-5806475": {
+    "item_id": "ctbids-49650-5806475",
+    "listing_url": "https://ctbids.com/estate-sale/49650/item/5806475/Noseband-Tiedowns",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5806475_l4S03e.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49804-5812995": {
+    "item_id": "ctbids-49804-5812995",
+    "listing_url": "https://ctbids.com/estate-sale/49804/item/5812995/Masha-And-Bear-Stuffed-Animal",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812995_HeqtQt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49394-5761796": {
+    "item_id": "ctbids-49394-5761796",
+    "listing_url": "https://ctbids.com/estate-sale/49394/item/5761796/Starlog-Sci-fi-Mag-Bundle-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5761796_yveMG9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49249-5741862": {
+    "item_id": "ctbids-49249-5741862",
+    "listing_url": "https://ctbids.com/estate-sale/49249/item/5741862/Misc-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5741862_JvSATD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49394-5764238": {
+    "item_id": "ctbids-49394-5764238",
+    "listing_url": "https://ctbids.com/estate-sale/49394/item/5764238/1960-Kelley-Gasoline-Can",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764238_9ehXdM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49727-5802897": {
+    "item_id": "ctbids-49727-5802897",
+    "listing_url": "https://ctbids.com/estate-sale/49727/item/5802897/Hand-Made-Plant-Hot-Bed",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5802897_fMqtVM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -427,31 +684,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49044/item/5718139/Decorating-For-Christmas",
     "images": [
       "https://image.ctbids.com/seller/2026-10-08T96006c/5718139_ombJbq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49804-5812995": {
-    "item_id": "ctbids-49804-5812995",
-    "listing_url": "https://ctbids.com/estate-sale/49804/item/5812995/Masha-And-Bear-Stuffed-Animal",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812995_HeqtQt.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -572,61 +804,11 @@
       }
     ]
   },
-  "ctbids-49394-5761796": {
-    "item_id": "ctbids-49394-5761796",
-    "listing_url": "https://ctbids.com/estate-sale/49394/item/5761796/Starlog-Sci-fi-Mag-Bundle-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5761796_yveMG9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49419-5752659": {
     "item_id": "ctbids-49419-5752659",
     "listing_url": "https://ctbids.com/estate-sale/49419/item/5752659/Owl-Pottery-Vase-Handcrafted-By-Amanda-Swimmer",
     "images": [
       "https://image.ctbids.com/seller/2026-10-19T6fdcca/5752659_inf9LL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44523-5185008": {
-    "item_id": "ctbids-44523-5185008",
-    "listing_url": "https://ctbids.com/estate-sale/44523/item/5185008/Home-Accents-Holiday-Canterbury-Lane-Bridge",
-    "images": [
-      "https://image.ctbids.com/seller/2026-05-13T663b2b/5185008_KiSI4W.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -672,31 +854,6 @@
       }
     ]
   },
-  "ctbids-44523-5185086": {
-    "item_id": "ctbids-44523-5185086",
-    "listing_url": "https://ctbids.com/estate-sale/44523/item/5185086/Santa-s-Best-Christmas-In-Vermont-Village-Accessory",
-    "images": [
-      "https://image.ctbids.com/seller/2026-05-13T663b2b/5185086_tYx9Te.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49766-5815362": {
     "item_id": "ctbids-49766-5815362",
     "listing_url": "https://ctbids.com/estate-sale/49766/item/5815362/1855-5-00-Bank-Wickford-Rhode-Island-Rare-Obsolete-Note",
@@ -722,86 +879,11 @@
       }
     ]
   },
-  "ctbids-49249-5741862": {
-    "item_id": "ctbids-49249-5741862",
-    "listing_url": "https://ctbids.com/estate-sale/49249/item/5741862/Misc-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-15Tec1ef1/5741862_JvSATD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49671-5811605": {
     "item_id": "ctbids-49671-5811605",
     "listing_url": "https://ctbids.com/estate-sale/49671/item/5811605/7-Drawer-Crafting-Table-With-Supplies",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5811605_wWeFPB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49394-5764238": {
-    "item_id": "ctbids-49394-5764238",
-    "listing_url": "https://ctbids.com/estate-sale/49394/item/5764238/1960-Kelley-Gasoline-Can",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5764238_9ehXdM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49727-5802897": {
-    "item_id": "ctbids-49727-5802897",
-    "listing_url": "https://ctbids.com/estate-sale/49727/item/5802897/Hand-Made-Plant-Hot-Bed",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5802897_fMqtVM.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -852,56 +934,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49394/item/5770030/Hand-Carved-Wooden-African-Mask",
     "images": [
       "https://image.ctbids.com/seller/2026-10-23T2d995a/5770030_qGvy3r.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49650-5806114": {
-    "item_id": "ctbids-49650-5806114",
-    "listing_url": "https://ctbids.com/estate-sale/49650/item/5806114/Girths-For-English-Saddles",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5806114_IaPcal.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49650-5806475": {
-    "item_id": "ctbids-49650-5806475",
-    "listing_url": "https://ctbids.com/estate-sale/49650/item/5806475/Noseband-Tiedowns",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5806475_l4S03e.webp"
     ],
     "description": "",
     "score_reasons": [
