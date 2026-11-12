@@ -122,7 +122,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -130,11 +130,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -229,64 +229,6 @@
       }
     ]
   },
-  "ctbids-49578-5809753": {
-    "item_id": "ctbids-49578-5809753",
-    "listing_url": "https://ctbids.com/estate-sale/49578/item/5809753/Vintage-Periodicals-1949-LIFE-Newspaper-From-1928",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809753_3P1nRQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49726-5815512": {
-    "item_id": "ctbids-49726-5815512",
-    "listing_url": "https://ctbids.com/estate-sale/49726/item/5815512/Mixed-Lot-Christmas-Decor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5815512_pYTnix.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48841-5810314": {
     "item_id": "ctbids-48841-5810314",
     "listing_url": "https://ctbids.com/estate-sale/48841/item/5810314/Pair-of-German-Porcelain-Bisque-Figurines",
@@ -314,6 +256,33 @@
       }
     ]
   },
+  "ctbids-49578-5809753": {
+    "item_id": "ctbids-49578-5809753",
+    "listing_url": "https://ctbids.com/estate-sale/49578/item/5809753/Vintage-Periodicals-1949-LIFE-Newspaper-From-1928",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809753_3P1nRQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49755-5820211": {
     "item_id": "ctbids-49755-5820211",
     "listing_url": "https://ctbids.com/estate-sale/49755/item/5820211/Approximately-23-Long-Rug",
@@ -334,6 +303,60 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49726-5815512": {
+    "item_id": "ctbids-49726-5815512",
+    "listing_url": "https://ctbids.com/estate-sale/49726/item/5815512/Mixed-Lot-Christmas-Decor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5815512_pYTnix.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49754-5809976": {
+    "item_id": "ctbids-49754-5809976",
+    "listing_url": "https://ctbids.com/estate-sale/49754/item/5809976/1-Time-Life-World-War-II-Series-Books-20",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809976_WxM47t.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -372,176 +395,11 @@
       }
     ]
   },
-  "ctbids-49546-5788264": {
-    "item_id": "ctbids-49546-5788264",
-    "listing_url": "https://ctbids.com/estate-sale/49546/item/5788264/Build-Your-Own-Rolling-Shelving-Rack-4",
+  "ctbids-49745-5809349": {
+    "item_id": "ctbids-49745-5809349",
+    "listing_url": "https://ctbids.com/estate-sale/49745/item/5809349/Waterford-Crystal-Victorian-Saints-With-Box",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5786819_zK0A6u.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49754-5809976": {
-    "item_id": "ctbids-49754-5809976",
-    "listing_url": "https://ctbids.com/estate-sale/49754/item/5809976/1-Time-Life-World-War-II-Series-Books-20",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809976_WxM47t.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49754-5813880": {
-    "item_id": "ctbids-49754-5813880",
-    "listing_url": "https://ctbids.com/estate-sale/49754/item/5813880/American-Girl-Doll-Beauty-Salon-Chair",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5813880_f6IDo0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283316637": {
-    "item_id": "283316637",
-    "listing_url": "https://shopgoodwill.com/item/283316637",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/4426623b-605d-47e7-ae04-a59f64832399gnat_10301.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/5c41d9a4-e372-4f87-938c-e9c41cb4baa1gnat_10302.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/ed651767-6103-4ca7-91ff-7ece035e2ecagnat_10303.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/9bfe4485-bbf7-4afa-b85e-5d602dec12e8gnat_10304.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/20765dac-8d6e-4e72-be14-29f87021b010gnat_10305.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/1d986ea3-fe56-4c70-922d-4fa551be74cegnat_10306.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/b5676eca-378a-45e0-82c5-b3eff3ecb0d4gnat_10307.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/82ccae3e-768b-450d-816c-ba0ef31e6644gnat_10308.jpg"
-    ],
-    "description": "Condition:\nDusty/dirty. Scuffs/scratches. Chips/blemishes in materials. Will require cleaning before use. Storage case is not original to pipe. NOT tested for functionality/usability. This item has not been professionally tested or serviced.\nBrand:\nMarkings:\nUSA\nColor:\nBrown/Black\nApproximate Measurements:\n6.5 x 3 x 2.5 in.\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Kennewick\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, markings, dents, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws that may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Opportunity term 'dirty' in description (+4)",
-      "Lower-priority term 'corn cob' in title (-9)",
-      "Target keyword 'meerschaum' in title (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "20 lb lot has unresolved shipping cost (-3)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 9,
-        "relative_score": 0.257,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Opportunity term 'dirty' in description (+4)",
-          "Lower-priority term 'corn cob' in title (-9)",
-          "Target keyword 'meerschaum' in title (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "20 lb lot has unresolved shipping cost (-3)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "meerschaum"
-        ]
-      }
-    ]
-  },
-  "283855441": {
-    "item_id": "283855441",
-    "listing_url": "https://shopgoodwill.com/item/283855441",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/967743b9-2264-413a-80dd-d35658c06953gram_11111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/d0332302-5a55-4e9a-a7fa-75eca07798afgram_11112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/3e560a02-8e68-4946-b287-f094582a9dc4gram_11113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/89cae611-d918-43e2-883d-be44c9812d60gram_11114.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/396c5cfe-e31a-4441-b47e-3c0d9376f631gram_11115.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/93c3fba8-0894-40a0-b83d-db663bbddb11gram_11116.jpg"
-    ],
-    "description": "This lot includes three vintage tobacco pipes with distinct designs and materials. The first pipe has a corn cob bowl, wooden shank, and plastic stem, . The second is a classic straight briar wood pipe with a smooth finish and black stem, exhibiting surface scuffs and discoloration. The third pipe is a bent briar wood pipe with a reddish-brown stem featuring a pronounced curve. See photos for conditions , and stains also damages.",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Opportunity term 'lot' in description (+5)",
-      "Lower-priority term 'corn cob' in description (-9)",
-      "Target keyword 'briar' in description (+5)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 8,
-        "relative_score": 0.229,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Opportunity term 'lot' in description (+5)",
-          "Lower-priority term 'corn cob' in description (-9)",
-          "Target keyword 'briar' in description (+5)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "briar"
-        ]
-      }
-    ]
-  },
-  "ctbids-49430-5762386": {
-    "item_id": "ctbids-49430-5762386",
-    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762386/Hand-Thrown-Art-Pitcher-4-Cups",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5544998_eCu7v2.webp"
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809349_xfUZNP.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -562,11 +420,11 @@
       }
     ]
   },
-  "ctbids-49745-5809349": {
-    "item_id": "ctbids-49745-5809349",
-    "listing_url": "https://ctbids.com/estate-sale/49745/item/5809349/Waterford-Crystal-Victorian-Saints-With-Box",
+  "ctbids-49754-5813880": {
+    "item_id": "ctbids-49754-5813880",
+    "listing_url": "https://ctbids.com/estate-sale/49754/item/5813880/American-Girl-Doll-Beauty-Salon-Chair",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809349_xfUZNP.webp"
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5813880_f6IDo0.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -684,6 +542,90 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "283316637": {
+    "item_id": "283316637",
+    "listing_url": "https://shopgoodwill.com/item/283316637",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/4426623b-605d-47e7-ae04-a59f64832399gnat_10301.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/5c41d9a4-e372-4f87-938c-e9c41cb4baa1gnat_10302.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/ed651767-6103-4ca7-91ff-7ece035e2ecagnat_10303.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/9bfe4485-bbf7-4afa-b85e-5d602dec12e8gnat_10304.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/20765dac-8d6e-4e72-be14-29f87021b010gnat_10305.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/1d986ea3-fe56-4c70-922d-4fa551be74cegnat_10306.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/b5676eca-378a-45e0-82c5-b3eff3ecb0d4gnat_10307.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-10-30/82ccae3e-768b-450d-816c-ba0ef31e6644gnat_10308.jpg"
+    ],
+    "description": "Condition:\nDusty/dirty. Scuffs/scratches. Chips/blemishes in materials. Will require cleaning before use. Storage case is not original to pipe. NOT tested for functionality/usability. This item has not been professionally tested or serviced.\nBrand:\nMarkings:\nUSA\nColor:\nBrown/Black\nApproximate Measurements:\n6.5 x 3 x 2.5 in.\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Kennewick\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, markings, dents, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws that may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Opportunity term 'dirty' in description (+4)",
+      "Lower-priority term 'corn cob' in title (-9)",
+      "Target keyword 'meerschaum' in title (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "20 lb lot has unresolved shipping cost (-3)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 9,
+        "relative_score": 0.257,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Opportunity term 'dirty' in description (+4)",
+          "Lower-priority term 'corn cob' in title (-9)",
+          "Target keyword 'meerschaum' in title (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "20 lb lot has unresolved shipping cost (-3)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "meerschaum"
+        ]
+      }
+    ]
+  },
+  "283855441": {
+    "item_id": "283855441",
+    "listing_url": "https://shopgoodwill.com/item/283855441",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/967743b9-2264-413a-80dd-d35658c06953gram_11111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/d0332302-5a55-4e9a-a7fa-75eca07798afgram_11112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/3e560a02-8e68-4946-b287-f094582a9dc4gram_11113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/89cae611-d918-43e2-883d-be44c9812d60gram_11114.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/396c5cfe-e31a-4441-b47e-3c0d9376f631gram_11115.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/93c3fba8-0894-40a0-b83d-db663bbddb11gram_11116.jpg"
+    ],
+    "description": "This lot includes three vintage tobacco pipes with distinct designs and materials. The first pipe has a corn cob bowl, wooden shank, and plastic stem, . The second is a classic straight briar wood pipe with a smooth finish and black stem, exhibiting surface scuffs and discoloration. The third pipe is a bent briar wood pipe with a reddish-brown stem featuring a pronounced curve. See photos for conditions , and stains also damages.",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Opportunity term 'lot' in description (+5)",
+      "Lower-priority term 'corn cob' in description (-9)",
+      "Target keyword 'briar' in description (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 8,
+        "relative_score": 0.229,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Opportunity term 'lot' in description (+5)",
+          "Lower-priority term 'corn cob' in description (-9)",
+          "Target keyword 'briar' in description (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "briar"
+        ]
       }
     ]
   },
@@ -942,6 +884,56 @@
     "listing_url": "https://ctbids.com/estate-sale/49745/item/5814891/Lenox-Ornaments",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5814891_h3Z0UP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49654-5820318": {
+    "item_id": "ctbids-49654-5820318",
+    "listing_url": "https://ctbids.com/estate-sale/49654/item/5820318/Ho-Scale-Aurora-Power-Pack-Bridge-Support-Intersection-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820318_GZE2kr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48622-5771877": {
+    "item_id": "ctbids-48622-5771877",
+    "listing_url": "https://ctbids.com/estate-sale/48622/item/5771877/Signed-Watercolor-Painting-by-Sandra-Hill",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771877_mRk9C3.webp"
     ],
     "description": "",
     "score_reasons": [

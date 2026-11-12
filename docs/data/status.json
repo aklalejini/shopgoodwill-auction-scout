@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-12T18:15:11.873348+00:00",
-  "active_count": 2544,
-  "high_priority_count": 28,
+  "generated_at": "2026-11-12T23:38:17.064363+00:00",
+  "active_count": 2589,
+  "high_priority_count": 29,
   "archived_count": 1000,
   "search_failures": [
+    "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
     "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
   ],
-  "detail_requests_completed": 77,
-  "relevance_filtered_count": 708,
-  "potentially_high_value_count": 28,
+  "detail_requests_completed": 70,
+  "relevance_filtered_count": 689,
+  "potentially_high_value_count": 29,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 70
+    "images_processed": 72
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -23,8 +24,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 544,
-      "detail_requests_attempted": 57
+      "active_count": 589,
+      "detail_requests_attempted": 50
     },
     {
       "id": "gsa-auctions",
@@ -49,27 +50,27 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 390
+      "active_count": 423
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 19
+      "active_count": 20
     },
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 14
+      "active_count": 16
     },
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 50
+      "active_count": 52
     },
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 59
+      "active_count": 68
     },
     {
       "id": "glass-insulators",
