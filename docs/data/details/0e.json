@@ -50,6 +50,7 @@
       "Opportunity term 'vintage' in title (+6)",
       "Opportunity term 'as is' in description (+2)",
       "Target keyword 'sheaffer' in title (+9)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -57,12 +58,13 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 18,
-        "relative_score": 0.514,
+        "score": 20,
+        "relative_score": 0.571,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'as is' in description (+2)",
           "Target keyword 'sheaffer' in title (+9)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -84,6 +86,7 @@
     "score_reasons": [
       "Lower-priority term 'ballpoint' in description (-4)",
       "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -91,11 +94,12 @@
       {
         "id": "vintage-pens",
         "label": "Vintage Pens",
-        "score": 12,
-        "relative_score": 0.343,
+        "score": 16,
+        "relative_score": 0.457,
         "score_reasons": [
           "Lower-priority term 'ballpoint' in description (-4)",
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -130,33 +134,6 @@
       }
     ]
   },
-  "ctbids-49726-5820946": {
-    "item_id": "ctbids-49726-5820946",
-    "listing_url": "https://ctbids.com/estate-sale/49726/item/5820946/Vintage-Dura-Craft-Newberg-NB180-Victorian-Wooden-Dollhouse-Kit-1-12-Scale",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820946_68MNie.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49339-5774313": {
     "item_id": "ctbids-49339-5774313",
     "listing_url": "https://ctbids.com/estate-sale/49339/item/5774313/Vintage-Easter-Decor",
@@ -166,6 +143,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -173,10 +151,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -189,6 +168,62 @@
     "listing_url": "https://ctbids.com/estate-sale/49624/item/5808034/Vintage-and-Modern-Silver-Plated-Hollowware-and-Drinkware",
     "images": [
       "https://image.ctbids.com/seller/2026-11-06Tb9a870/5808034_sClYcc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49430-5762404": {
+    "item_id": "ctbids-49430-5762404",
+    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762404/Ladies-Lot-Perfumes-Purses-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5584175_pDltjj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49726-5820946": {
+    "item_id": "ctbids-49726-5820946",
+    "listing_url": "https://ctbids.com/estate-sale/49726/item/5820946/Vintage-Dura-Craft-Newberg-NB180-Victorian-Wooden-Dollhouse-Kit-1-12-Scale",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820946_68MNie.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -238,11 +273,11 @@
       }
     ]
   },
-  "ctbids-49430-5762404": {
-    "item_id": "ctbids-49430-5762404",
-    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762404/Ladies-Lot-Perfumes-Purses-and-More",
+  "ctbids-49578-5800658": {
+    "item_id": "ctbids-49578-5800658",
+    "listing_url": "https://ctbids.com/estate-sale/49578/item/5800658/Silver-Tone-Necklace-Chain-Lot-Monet-Puffy-Heart-Pendant-More",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5584175_pDltjj.webp"
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5800658_enBnlZ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -265,15 +300,15 @@
       }
     ]
   },
-  "ctbids-49578-5800658": {
-    "item_id": "ctbids-49578-5800658",
-    "listing_url": "https://ctbids.com/estate-sale/49578/item/5800658/Silver-Tone-Necklace-Chain-Lot-Monet-Puffy-Heart-Pendant-More",
+  "ctbids-49430-5762372": {
+    "item_id": "ctbids-49430-5762372",
+    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762372/Flight-1992-Burnished-Flatware-By-Oneida-Community-Stainless",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5800658_enBnlZ.webp"
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5762372_sA0z6s.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -281,10 +316,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49815-5821188": {
+    "item_id": "ctbids-49815-5821188",
+    "listing_url": "https://ctbids.com/estate-sale/49815/item/5821188/Buck-119-Special-Fixed-Blade-Hunting-Knife-USA-Made-Leather-Sheath-Original-Box-55-Reserve",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5821188_rPcKeJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -328,91 +390,11 @@
       }
     ]
   },
-  "283713596": {
-    "item_id": "283713596",
-    "listing_url": "https://shopgoodwill.com/item/283713596",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/4248ed3d-4720-473b-a52d-8768742e338arson_09091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/2c8546da-86d3-4e47-bb87-c36743bc0501rson_09092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/ec01d946-1ec2-4410-846b-cf02ee5b7aedrson_09093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/3744fe5e-78a5-48ae-bee5-0aa926de0dearson_09094.jpg"
-    ],
-    "description": "Title\n: Natural Yellow Calcite Crystal Point Honey Specimen (Cut Base)\nFeatures\n: Cut base, Natural mineral\nType\n: Crystal Point\nUnit type\n: lb\nNatural Mineral Yellow Calcite Crystal Point\nStyle:\nNatural Mineral\nType:\nCrystal Point\nColor:\nYellow\nMaterial:\nCalcite\nCondition:\nGood - shows some sign of wear\nAdditional Details:\nHoney yellow natural calcite specimen",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49430-5762372": {
-    "item_id": "ctbids-49430-5762372",
-    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762372/Flight-1992-Burnished-Flatware-By-Oneida-Community-Stainless",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5762372_sA0z6s.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49745-5815008": {
     "item_id": "ctbids-49745-5815008",
     "listing_url": "https://ctbids.com/estate-sale/49745/item/5815008/Mount-Vernon-Print-By-Michel-Delacroix",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5815008_D0b3BA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49815-5821188": {
-    "item_id": "ctbids-49815-5821188",
-    "listing_url": "https://ctbids.com/estate-sale/49815/item/5821188/Buck-119-Special-Fixed-Blade-Hunting-Knife-USA-Made-Leather-Sheath-Original-Box-55-Reserve",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5821188_rPcKeJ.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -758,6 +740,36 @@
       }
     ]
   },
+  "283713596": {
+    "item_id": "283713596",
+    "listing_url": "https://shopgoodwill.com/item/283713596",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/4248ed3d-4720-473b-a52d-8768742e338arson_09091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/2c8546da-86d3-4e47-bb87-c36743bc0501rson_09092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/ec01d946-1ec2-4410-846b-cf02ee5b7aedrson_09093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-09-09/3744fe5e-78a5-48ae-bee5-0aa926de0dearson_09094.jpg"
+    ],
+    "description": "Title\n: Natural Yellow Calcite Crystal Point Honey Specimen (Cut Base)\nFeatures\n: Cut base, Natural mineral\nType\n: Crystal Point\nUnit type\n: lb\nNatural Mineral Yellow Calcite Crystal Point\nStyle:\nNatural Mineral\nType:\nCrystal Point\nColor:\nYellow\nMaterial:\nCalcite\nCondition:\nGood - shows some sign of wear\nAdditional Details:\nHoney yellow natural calcite specimen",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283396373": {
     "item_id": "283396373",
     "listing_url": "https://shopgoodwill.com/item/283396373",
@@ -908,6 +920,49 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+24)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283896450": {
+    "item_id": "283896450",
+    "listing_url": "https://shopgoodwill.com/item/283896450",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/4f351d21-5e2e-4d12-9923-1d207bff0b89ns43_11121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/ddc5ca70-0ced-4be4-91e9-5a6e43b8b736ns43_11122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/f64629ff-8c0c-4235-b7ee-a1dbbf560642ns43_11123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/7cbb5ea0-1e3e-4291-9c49-0a0cd8cb1478ns43_11124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/b971a68a-8071-4bd2-8691-d378badb4d76ns43_11125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/5e5a1a3f-e51d-4eee-9a1c-a238bafda1c6ns43_11126.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-12/4be1d2c4-512f-47fe-8b1b-38b001628599ns43_11127.jpg"
+    ],
+    "description": "Product Overview:\nThis lot includes a variety of decorative collectible stone and mineral art pieces featuring diverse designs and materials.\n\nSpecifications:\n- Carved stone crane figurine in gray and white marble\n- Sailboat sculpture with brass sails on a purple amethyst crystal base\n- Natural agate slice with pewter hummingbird and flower inlay labeled FamilyGiftsNU\n- Hand-painted stone with landscape sunset scene including a sailboat\n- Carved stone bust resembling an ancient Egyptian figure\n- Small lacquered red trinket box\n- Carved stone piece resembling a watermelon slice\n\nAdditional Information:\nEach piece demonstrates unique craftsmanship and displays minor wear consistent with use.",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'decorative' in title (-8)",
+      "Lower-priority term 'painted' in description (-15)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+27)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'decorative' in title (-8)",
+          "Lower-priority term 'painted' in description (-15)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+27)"
         ],
         "matched_keywords": []
       }

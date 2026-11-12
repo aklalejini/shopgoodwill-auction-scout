@@ -101,6 +101,7 @@
       "Lower-priority term 'hemingray 42' in title (-10)",
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -108,12 +109,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 13,
-        "relative_score": 0.433,
+        "score": 18,
+        "relative_score": 0.6,
         "score_reasons": [
           "Lower-priority term 'hemingray 42' in title (-10)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -193,6 +195,62 @@
       }
     ]
   },
+  "ctbids-49481-5830383": {
+    "item_id": "ctbids-49481-5830383",
+    "listing_url": "https://ctbids.com/estate-sale/49481/item/5830383/Miscellaneous-Electronics-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830383_OhwvnL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49745-5810240": {
+    "item_id": "ctbids-49745-5810240",
+    "listing_url": "https://ctbids.com/estate-sale/49745/item/5810240/George-Washington-s-Mt-Vernon-Ornament-Collection-10-Count",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5810240_u6lD6X.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49668-5802546": {
     "item_id": "ctbids-49668-5802546",
     "listing_url": "https://ctbids.com/estate-sale/49668/item/5802546/Antique-Medals",
@@ -247,33 +305,6 @@
       }
     ]
   },
-  "ctbids-49745-5810240": {
-    "item_id": "ctbids-49745-5810240",
-    "listing_url": "https://ctbids.com/estate-sale/49745/item/5810240/George-Washington-s-Mt-Vernon-Ornament-Collection-10-Count",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5810240_u6lD6X.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49339-5823703": {
     "item_id": "ctbids-49339-5823703",
     "listing_url": "https://ctbids.com/estate-sale/49339/item/5823703/Portfolio-of-Four-Prints-This-Is-Trains-From-The-Collection-of-Pennsylvania-Railroad",
@@ -301,33 +332,6 @@
       }
     ]
   },
-  "ctbids-49369-5754142": {
-    "item_id": "ctbids-49369-5754142",
-    "listing_url": "https://ctbids.com/estate-sale/49369/item/5754142/Vintage-1957-1958-Rolleicord-VA-Type-1-TLR-Film-Camera-Schneider-Xenar-75mm-Lens-Leather-Case",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5754142_pp44L6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49539-5781775": {
     "item_id": "ctbids-49539-5781775",
     "listing_url": "https://ctbids.com/estate-sale/49539/item/5781775/White-Enamelware-Lot-Of-4",
@@ -348,6 +352,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49369-5754142": {
+    "item_id": "ctbids-49369-5754142",
+    "listing_url": "https://ctbids.com/estate-sale/49369/item/5754142/Vintage-1957-1958-Rolleicord-VA-Type-1-TLR-Film-Camera-Schneider-Xenar-75mm-Lens-Leather-Case",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-19T6fdcca/5754142_pp44L6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -436,15 +467,15 @@
       }
     ]
   },
-  "ctbids-49481-5830383": {
-    "item_id": "ctbids-49481-5830383",
-    "listing_url": "https://ctbids.com/estate-sale/49481/item/5830383/Miscellaneous-Electronics-Lot",
+  "ctbids-49994-5843603": {
+    "item_id": "ctbids-49994-5843603",
+    "listing_url": "https://ctbids.com/estate-sale/49994/item/5843603/Porcelain-Dragon-Tea-Cup-Hand-Painted-Red-and-Green-Dragon-Flaming-Pearl-Gold-Rim-Chinese",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830383_OhwvnL.webp"
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5839149_WvLsef.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -455,7 +486,69 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283903892": {
+    "item_id": "283903892",
+    "listing_url": "https://shopgoodwill.com/item/283903892",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/ec8cf69c-3d7e-48d3-b258-d3f983d6f41ddra_11121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/941691ee-5505-41f7-9a83-869676e9fa83dra_11122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/e12eaea2-d250-4894-9409-84f44709af08dra_11123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/eb057c51-7e07-4d00-81a1-90c91ce76fefdra_11124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/366fc1d3-5234-42e7-961c-06f7db4a25c7dra_11125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/d7a07ebe-8b3e-4143-bd77-e3a8ef6a1977dra_11126.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/47/Items/2026-11-12/ee78f28c-8134-40cf-b53b-25462a7eb6cedra_11127.jpg"
+    ],
+    "description": "Amethyst Geode Crystal And Lava Rocks Collection",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49430-5808027": {
+    "item_id": "ctbids-49430-5808027",
+    "listing_url": "https://ctbids.com/estate-sale/49430/item/5808027/Horvath-Signed-Nude-Pastel-24x32",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808027_aLH9uc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -507,6 +600,33 @@
       }
     ]
   },
+  "ctbids-49492-5805138": {
+    "item_id": "ctbids-49492-5805138",
+    "listing_url": "https://ctbids.com/estate-sale/49492/item/5805138/Lazy-Susan-Cake-Plate-E-Blaub",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5805138_6c39MV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283800529": {
     "item_id": "283800529",
     "listing_url": "https://shopgoodwill.com/item/283800529",
@@ -550,69 +670,6 @@
           "Less relevant category 'Jewelry' (-12)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283235859": {
-    "item_id": "283235859",
-    "listing_url": "https://shopgoodwill.com/item/283235859",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/e86f4b1f-09ad-43f2-ad0a-88f14643b6a9llyw_11061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/abec575b-57fb-480a-82b4-2f51a7d26cd7llyw_11062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/66d6427c-0405-4b82-a591-92364bf834f7llyw_11063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/4e03d805-43e9-4fc3-b3fc-d86a13aab918llyw_11064.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/bffa559c-63ea-40fb-83ac-968ef667e3bellyw_11065.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/c84ba5f3-6cfd-4c80-b829-be909ee17b9bllyw_11066.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/93261d75-ee9c-410c-acac-c8514996c51bllyw_11067.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/f6332735-6b49-4462-b600-ce682dc33d33llyw_11068.jpg"
-    ],
-    "description": "Two Vintage Hemingray Glass Insulators\nNote one item is chipped - as pictured.\nType:\nTwo Vintage Hemingray Glass Insulators\nCondition:\nGood - shows some sign of wear\nAdditional Details:\ntwo vintage Hemingray Glass Insulators in a distinctive blue-green color, each with a beaded base and ribbed top. These insulators were historically used to insulate electrical wires and telegraph lines, providing a durable and weather-resistant solution for power transmission.\ncleaning is recommended for pre-owned items.\nAll items are sold as-is and untested, with no guarantees regarding functionality, completeness, or condition. We do our best to provide accurate descriptions and clear photos; however, please understand that pictures may not reveal every flaw, scratch, dent, or imperfection. Items are donated and may show signs of wear, age, or prior use. While we make every effort to highlight notable issues, we do not perform full inspections, and there may be defects or missing components that are not visible or described. Any accessories, manuals, or original packaging are only included if they are shown in the photos. By placing a bid, you agree to accept the item in its current condition. If you have any questions or concerns, please reach out to us before bidding.",
-    "score_reasons": [
-      "Lower-priority term 'chipped' in description (-17)",
-      "High-value signal 'green or teal glass color' in image color analysis (+12)",
-      "High-value signal 'teal glass' in image color analysis (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 6,
-        "relative_score": 0.2,
-        "score_reasons": [
-          "Lower-priority term 'chipped' in description (-17)",
-          "High-value signal 'green or teal glass color' in image color analysis (+12)",
-          "High-value signal 'teal glass' in image color analysis (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49430-5808027": {
-    "item_id": "ctbids-49430-5808027",
-    "listing_url": "https://ctbids.com/estate-sale/49430/item/5808027/Horvath-Signed-Nude-Pastel-24x32",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808027_aLH9uc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -918,31 +975,6 @@
       }
     ]
   },
-  "ctbids-49492-5805138": {
-    "item_id": "ctbids-49492-5805138",
-    "listing_url": "https://ctbids.com/estate-sale/49492/item/5805138/Lazy-Susan-Cake-Plate-E-Blaub",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5805138_6c39MV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48233-5803338": {
     "item_id": "ctbids-48233-5803338",
     "listing_url": "https://ctbids.com/estate-sale/48233/item/5803338/Sterling-Box-Chain-with-Jack-in-Box-Charm-Sterling-Pearl-Earrings",
@@ -993,31 +1025,6 @@
       }
     ]
   },
-  "ctbids-49994-5843603": {
-    "item_id": "ctbids-49994-5843603",
-    "listing_url": "https://ctbids.com/estate-sale/49994/item/5843603/Porcelain-Dragon-Tea-Cup-Hand-Painted-Red-and-Green-Dragon-Flaming-Pearl-Gold-Rim-Chinese",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5839149_WvLsef.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49338-5796526": {
     "item_id": "ctbids-49338-5796526",
     "listing_url": "https://ctbids.com/estate-sale/49338/item/5796526/2009-Lincoln-Bicentennial-2010-Shield-Pennies-21-Tubes-P-D-Mint",
@@ -1038,6 +1045,44 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283235859": {
+    "item_id": "283235859",
+    "listing_url": "https://shopgoodwill.com/item/283235859",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/e86f4b1f-09ad-43f2-ad0a-88f14643b6a9llyw_11061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/abec575b-57fb-480a-82b4-2f51a7d26cd7llyw_11062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/66d6427c-0405-4b82-a591-92364bf834f7llyw_11063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/4e03d805-43e9-4fc3-b3fc-d86a13aab918llyw_11064.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/bffa559c-63ea-40fb-83ac-968ef667e3bellyw_11065.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/c84ba5f3-6cfd-4c80-b829-be909ee17b9bllyw_11066.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/93261d75-ee9c-410c-acac-c8514996c51bllyw_11067.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/56/Items/2026-11-06/f6332735-6b49-4462-b600-ce682dc33d33llyw_11068.jpg"
+    ],
+    "description": "Two Vintage Hemingray Glass Insulators\nNote one item is chipped - as pictured.\nType:\nTwo Vintage Hemingray Glass Insulators\nCondition:\nGood - shows some sign of wear\nAdditional Details:\ntwo vintage Hemingray Glass Insulators in a distinctive blue-green color, each with a beaded base and ribbed top. These insulators were historically used to insulate electrical wires and telegraph lines, providing a durable and weather-resistant solution for power transmission.\ncleaning is recommended for pre-owned items.\nAll items are sold as-is and untested, with no guarantees regarding functionality, completeness, or condition. We do our best to provide accurate descriptions and clear photos; however, please understand that pictures may not reveal every flaw, scratch, dent, or imperfection. Items are donated and may show signs of wear, age, or prior use. While we make every effort to highlight notable issues, we do not perform full inspections, and there may be defects or missing components that are not visible or described. Any accessories, manuals, or original packaging are only included if they are shown in the photos. By placing a bid, you agree to accept the item in its current condition. If you have any questions or concerns, please reach out to us before bidding.",
+    "score_reasons": [
+      "Lower-priority term 'chipped' in description (-17)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Lower-priority term 'chipped' in description (-17)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1073,6 +1118,42 @@
           "Shipping is calculated and not included in the price (-6)",
           "22.15 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283858520": {
+    "item_id": "283858520",
+    "listing_url": "https://shopgoodwill.com/item/283858520",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/16772e57-d6c8-4fbc-965b-300c97c3829duton_11111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/66bb9451-cc26-4935-b844-984f857b2047uton_11112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/40b76ea4-dc5e-44e5-80a0-060eb3c9e83futon_11113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/91e41ed2-3898-4dc8-acb7-d97d7693ff12uton_11114.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/db5534c5-7231-4f32-80dc-d0c818dbc7c9uton_11115.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-11/08f1ec50-5e17-4d62-9553-de069284a5b2uton_11116.jpg"
+    ],
+    "description": "Decorative collectible featuring a pale pink polished rose quartz mineral with a metallic gold edge accentuating a natural fissure. The stone is mounted on a thick clear glass L-shaped display stand. The rose quartz has a natural unpolished surface with a gold-colored foil or leaf applied to the fissure. The display stand is clear glass and provides a modern presentation for the mineral specimen. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "Lower-priority term 'decorative' in title (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
+          "Lower-priority term 'decorative' in title (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
       }

@@ -11,6 +11,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -18,11 +19,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -34,50 +36,26 @@
     "item_id": "ctbids-48622-5783000",
     "listing_url": "https://ctbids.com/estate-sale/48622/item/5783000/Mother-Of-Pearl-Sterling-Silver-Pendant",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783000_7QTNLX.webp"
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783000_7QTNLX.webp",
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5783000_SNMY5W.webp"
     ],
-    "description": "",
+    "description": "Size: 5/8” W x 7/8” T, Approximate Weight: 2.5g, Marked 925. Stones have been tested. Please see photos for condition",
     "score_reasons": [
       "High-value signal 'sterling silver' in title (+18)",
-      "Only 1 listing photo (-5)",
+      "2 bids near close (+2)",
+      "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
     "hunt_scores": [
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 19,
-        "relative_score": 0.559,
+        "score": 26,
+        "relative_score": 0.765,
         "score_reasons": [
           "High-value signal 'sterling silver' in title (+18)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49726-5814404": {
-    "item_id": "ctbids-49726-5814404",
-    "listing_url": "https://ctbids.com/estate-sale/49726/item/5814404/Antique-W-B-Cast-Iron-Tea-Kettle-with-Hinged-Lid-Bail-Handle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5814404_hq9rqk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
+          "2 bids near close (+2)",
+          "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
         "matched_keywords": []
@@ -93,6 +71,36 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49430-5762405": {
+    "item_id": "ctbids-49430-5762405",
+    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762405/English-China-Tea-Lot-incl-Aynsley",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5584188_69spsG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -103,7 +111,8 @@
         "score": 7,
         "relative_score": 0.206,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -138,6 +147,62 @@
       }
     ]
   },
+  "ctbids-49339-5781400": {
+    "item_id": "ctbids-49339-5781400",
+    "listing_url": "https://ctbids.com/estate-sale/49339/item/5781400/Vintage-Toastmaster-Waffle-Iron",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781400_WRKwGt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49726-5814404": {
+    "item_id": "ctbids-49726-5814404",
+    "listing_url": "https://ctbids.com/estate-sale/49726/item/5814404/Antique-W-B-Cast-Iron-Tea-Kettle-with-Hinged-Lid-Bail-Handle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5814404_hq9rqk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49726-5819762": {
     "item_id": "ctbids-49726-5819762",
     "listing_url": "https://ctbids.com/estate-sale/49726/item/5819762/Vintage-Brass-Copper-Teapots-Pottery-Rooster-Trays",
@@ -165,60 +230,6 @@
       }
     ]
   },
-  "ctbids-49339-5781400": {
-    "item_id": "ctbids-49339-5781400",
-    "listing_url": "https://ctbids.com/estate-sale/49339/item/5781400/Vintage-Toastmaster-Waffle-Iron",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781400_WRKwGt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49430-5762405": {
-    "item_id": "ctbids-49430-5762405",
-    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762405/English-China-Tea-Lot-incl-Aynsley",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5584188_69spsG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49430-5797101": {
     "item_id": "ctbids-49430-5797101",
     "listing_url": "https://ctbids.com/estate-sale/49430/item/5797101/Vtg-MCM-Women-s-Clothing-Lot",
@@ -239,6 +250,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49754-5813899": {
+    "item_id": "ctbids-49754-5813899",
+    "listing_url": "https://ctbids.com/estate-sale/49754/item/5813899/Tall-Wooden-Veneer-Corner-Shelving-Unit-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5813899_FgN6sI.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -327,64 +365,6 @@
       }
     ]
   },
-  "283288747": {
-    "item_id": "283288747",
-    "listing_url": "https://shopgoodwill.com/item/283288747",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/e72029ac-3c73-4452-b5d1-c74f5589209bms25_11061.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/b3c67412-1c72-49b8-87b4-536c4fcbe7b3ms25_11062.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/c244ef3d-af4c-40a7-90ea-5bc4c24b9b02ms25_11063.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/7bcdc40f-836b-4961-b0ee-3622f5675f37ms25_11064.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/7d169fbf-ab80-4c7e-80a0-6c9197b44215ms25_11065.jpg"
-    ],
-    "description": "This is a Savinelli tobacco pipe in its original box. Dimensions are approximately 6in x 1.5in x 2in.",
-    "score_reasons": [
-      "Target keyword 'savinelli' in title (+4)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 5,
-        "relative_score": 0.143,
-        "score_reasons": [
-          "Target keyword 'savinelli' in title (+4)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "savinelli"
-        ]
-      }
-    ]
-  },
-  "ctbids-49430-5762403": {
-    "item_id": "ctbids-49430-5762403",
-    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762403/Helen-Burkett-Transparent-Watercolors",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5584150_06jlHw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49754-5809866": {
     "item_id": "ctbids-49754-5809866",
     "listing_url": "https://ctbids.com/estate-sale/49754/item/5809866/Lena-Liu-s-Collectible-Plates-5",
@@ -393,6 +373,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -400,9 +381,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -415,6 +397,168 @@
     "listing_url": "https://ctbids.com/estate-sale/49754/item/5810384/Thomas-Kinkade-Collector-Plates-4",
     "images": [
       "https://image.ctbids.com/seller/2026-11-03T8cd417/5810384_srWpG2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49726-5820307": {
+    "item_id": "ctbids-49726-5820307",
+    "listing_url": "https://ctbids.com/estate-sale/49726/item/5820307/Replacement-China-Royal-Norfolk-8-Salad-Plates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5820307_AhWbrV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49492-5785374": {
+    "item_id": "ctbids-49492-5785374",
+    "listing_url": "https://ctbids.com/estate-sale/49492/item/5785374/Memphis-Press-scimitar-8-17-1977-Elvis-Death-Elvis-Presley-Memorial-Newspaper",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5785374_GsxpDk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48622-5788607": {
+    "item_id": "ctbids-48622-5788607",
+    "listing_url": "https://ctbids.com/estate-sale/48622/item/5788607/Signed-Watercolor-Painting-First-Snow-by-Sandra-Hill",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5788607_KfVE0T.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49117-5053828": {
+    "item_id": "ctbids-49117-5053828",
+    "listing_url": "https://ctbids.com/estate-sale/49117/item/5053828/1000-Count-Red-Gold-Thank-You-Cards-10-Boxes-of-100",
+    "images": [
+      "https://image.ctbids.com/seller/2026-04-08T389fc3/4782644_P8ZnHL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49726-5815846": {
+    "item_id": "ctbids-49726-5815846",
+    "listing_url": "https://ctbids.com/estate-sale/49726/item/5815846/Babcock-Furniture-Branded-Christmas-Dishes-Glasses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5815846_RiNLxF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49430-5762403": {
+    "item_id": "ctbids-49430-5762403",
+    "listing_url": "https://ctbids.com/estate-sale/49430/item/5762403/Helen-Burkett-Transparent-Watercolors",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5584150_06jlHw.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -510,31 +654,6 @@
       }
     ]
   },
-  "ctbids-49754-5813899": {
-    "item_id": "ctbids-49754-5813899",
-    "listing_url": "https://ctbids.com/estate-sale/49754/item/5813899/Tall-Wooden-Veneer-Corner-Shelving-Unit-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5813899_FgN6sI.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49339-5774392": {
     "item_id": "ctbids-49339-5774392",
     "listing_url": "https://ctbids.com/estate-sale/49339/item/5774392/Animal-Skull",
@@ -565,31 +684,6 @@
     "listing_url": "https://ctbids.com/estate-sale/48622/item/5784153/Signed-Watercolor-Birdform-by-Artist-Mary-A-McNulty",
     "images": [
       "https://image.ctbids.com/seller/2026-10-27Ta12579/5784153_Nxwg8i.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49726-5820307": {
-    "item_id": "ctbids-49726-5820307",
-    "listing_url": "https://ctbids.com/estate-sale/49726/item/5820307/Replacement-China-Royal-Norfolk-8-Salad-Plates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5820307_AhWbrV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -685,61 +779,11 @@
       }
     ]
   },
-  "ctbids-49492-5785374": {
-    "item_id": "ctbids-49492-5785374",
-    "listing_url": "https://ctbids.com/estate-sale/49492/item/5785374/Memphis-Press-scimitar-8-17-1977-Elvis-Death-Elvis-Presley-Memorial-Newspaper",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5785374_GsxpDk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49754-5814971": {
     "item_id": "ctbids-49754-5814971",
     "listing_url": "https://ctbids.com/estate-sale/49754/item/5814971/Lenox-Modano-Lace-Gold-China-Accent-Luncheon-Plates-8",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5814971_Vs6yuH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48622-5788607": {
-    "item_id": "ctbids-48622-5788607",
-    "listing_url": "https://ctbids.com/estate-sale/48622/item/5788607/Signed-Watercolor-Painting-First-Snow-by-Sandra-Hill",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5788607_KfVE0T.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -960,31 +1004,6 @@
       }
     ]
   },
-  "ctbids-49117-5053828": {
-    "item_id": "ctbids-49117-5053828",
-    "listing_url": "https://ctbids.com/estate-sale/49117/item/5053828/1000-Count-Red-Gold-Thank-You-Cards-10-Boxes-of-100",
-    "images": [
-      "https://image.ctbids.com/seller/2026-04-08T389fc3/4782644_P8ZnHL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49654-5797833": {
     "item_id": "ctbids-49654-5797833",
     "listing_url": "https://ctbids.com/estate-sale/49654/item/5797833/Ansonia-Rosalind-Mantel-Clock",
@@ -1035,26 +1054,66 @@
       }
     ]
   },
-  "ctbids-49726-5815846": {
-    "item_id": "ctbids-49726-5815846",
-    "listing_url": "https://ctbids.com/estate-sale/49726/item/5815846/Babcock-Furniture-Branded-Christmas-Dishes-Glasses",
+  "283288747": {
+    "item_id": "283288747",
+    "listing_url": "https://shopgoodwill.com/item/283288747",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5815846_RiNLxF.webp"
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/e72029ac-3c73-4452-b5d1-c74f5589209bms25_11061.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/b3c67412-1c72-49b8-87b4-536c4fcbe7b3ms25_11062.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/c244ef3d-af4c-40a7-90ea-5bc4c24b9b02ms25_11063.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/7bcdc40f-836b-4961-b0ee-3622f5675f37ms25_11064.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/22/Items/2026-11-06/7d169fbf-ab80-4c7e-80a0-6c9197b44215ms25_11065.jpg"
     ],
-    "description": "",
+    "description": "This is a Savinelli tobacco pipe in its original box. Dimensions are approximately 6in x 1.5in x 2in.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Target keyword 'savinelli' in title (+4)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 5,
+        "relative_score": 0.143,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Target keyword 'savinelli' in title (+4)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "savinelli"
+        ]
+      }
+    ]
+  },
+  "283861053": {
+    "item_id": "283861053",
+    "listing_url": "https://shopgoodwill.com/item/283861053",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-02/8d680f98-613f-445d-b4c5-9340b346455frton_11021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-02/7d8d16d8-f894-475e-a6e4-95fdb9cda4a6rton_11022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-02/d9722800-a634-48cf-ac23-9a5af575473drton_11023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-02/f6e3c123-02e0-40ce-a354-f2128dcea45crton_11024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-02/7d8595f1-36a9-444b-afaf-46dc4650f441rton_11025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-02/b7059228-c78e-41d0-bae2-5d13a3482e2frton_11026.jpg"
+    ],
+    "description": "Item Description:\nNatural White Crystal Geode\nApproximate Measurements (inches):\n5.25 x 4.5 x 5\nWeight (in lbs):\n3.75\nCondition:\nGood. Wear includes dust/dirt\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }
