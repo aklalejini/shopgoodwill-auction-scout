@@ -40,7 +40,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -48,10 +48,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -67,7 +67,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -75,10 +75,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49662-5803584": {
+    "item_id": "ctbids-49662-5803584",
+    "listing_url": "https://ctbids.com/estate-sale/49662/item/5803584/Hand-Crank-Apple-Peelers-Corer-Kitchen-Accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5803584_8X5MbF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -167,60 +194,6 @@
       }
     ]
   },
-  "ctbids-49662-5803584": {
-    "item_id": "ctbids-49662-5803584",
-    "listing_url": "https://ctbids.com/estate-sale/49662/item/5803584/Hand-Crank-Apple-Peelers-Corer-Kitchen-Accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5803584_8X5MbF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49440-5807666": {
-    "item_id": "ctbids-49440-5807666",
-    "listing_url": "https://ctbids.com/estate-sale/49440/item/5807666/4-x-6-U-S-Texas-Flags-New-in-Packaging-Lot-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807666_Xe6iW2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49878-5829615": {
     "item_id": "ctbids-49878-5829615",
     "listing_url": "https://ctbids.com/estate-sale/49878/item/5829615/Pair-of-Sculptural-Glass-Candleholders",
@@ -289,6 +262,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49440-5807666": {
+    "item_id": "ctbids-49440-5807666",
+    "listing_url": "https://ctbids.com/estate-sale/49440/item/5807666/4-x-6-U-S-Texas-Flags-New-in-Packaging-Lot-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807666_Xe6iW2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -564,31 +564,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49487/item/5805972/Mystery-Ladies-Shoes-Most-Are-Size-8-8-5-Could-Be-Other-Sizes-see-all-pictures",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5805972_xrpwHM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49440-5790893": {
-    "item_id": "ctbids-49440-5790893",
-    "listing_url": "https://ctbids.com/estate-sale/49440/item/5790893/Coradio-Coin-Operated-Radio-w-Keys",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5790893_JzSCjp.webp"
     ],
     "description": "",
     "score_reasons": [

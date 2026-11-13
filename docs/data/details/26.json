@@ -80,7 +80,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -88,12 +87,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 14,
-        "relative_score": 0.412,
+        "score": 12,
+        "relative_score": 0.353,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -186,11 +184,74 @@
       }
     ]
   },
+  "284079400": {
+    "item_id": "284079400",
+    "listing_url": "https://shopgoodwill.com/item/284079400",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/8a173d21-7bfa-4df6-901d-069a7073ff78ward_11131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/a0247ae7-25b7-44f2-bbaf-ab07916f5c49ward_11132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/c393d66d-6af9-447b-9ba4-30beab7ca31bward_11133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/39e98928-32bd-41c3-9671-346e782d2e7dward_11134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/147b120b-a4b4-49e5-a693-f21bb2f21128ward_11135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/c7739ce6-f0a8-4c46-810d-cb60fbb72358ward_11136.jpg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "Pen-and-pencil set resale premium (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 13,
+        "relative_score": 0.371,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "Pen-and-pencil set resale premium (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50026-5848814": {
     "item_id": "ctbids-50026-5848814",
     "listing_url": "https://ctbids.com/estate-sale/50026/item/5848814/Lew-Raymond-Orchestra-78-RPM-Record-Dragnet-Ebb-Tide-Tops-379-Instrumental-Maroon-Label",
     "images": [
       "https://image.ctbids.com/seller/2026-11-13T4548b7/5749014_BsP1hd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50026-5849384": {
+    "item_id": "ctbids-50026-5849384",
+    "listing_url": "https://ctbids.com/estate-sale/50026/item/5849384/Mikasa-French-Countryside-F9000-Coffee-Mug-White-Embossed-Scallop-Rim-Japan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-13T4548b7/5849384_63jmp1.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -267,33 +328,6 @@
       }
     ]
   },
-  "ctbids-49902-5832358": {
-    "item_id": "ctbids-49902-5832358",
-    "listing_url": "https://ctbids.com/estate-sale/49902/item/5832358/Vintage-Retro-Red-White-Kitchen-Canister-Set-Tea-Sugar-Coffee-Retro-Kitchen-D-cor",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832358_WuC7U7.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49834-5822879": {
     "item_id": "ctbids-49834-5822879",
     "listing_url": "https://ctbids.com/estate-sale/49834/item/5822879/The-Batman-s-Grave-Comics-s-1-12",
@@ -341,6 +375,33 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49902-5832358": {
+    "item_id": "ctbids-49902-5832358",
+    "listing_url": "https://ctbids.com/estate-sale/49902/item/5832358/Vintage-Retro-Red-White-Kitchen-Canister-Set-Tea-Sugar-Coffee-Retro-Kitchen-D-cor",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832358_WuC7U7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -473,6 +534,42 @@
       }
     ]
   },
+  "283590340": {
+    "item_id": "283590340",
+    "listing_url": "https://shopgoodwill.com/item/283590340",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/88829e17-bda1-43b7-9bed-20ab292da1daort1_11021.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/1af02de6-ce14-4ea8-b16e-578b8e2421faort1_11022.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/22ebaecc-2529-454b-b645-497e2f3be70bort1_11023.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/a499fe34-4374-4ad7-bc13-6d92da1a41b7ort1_11024.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/703db316-9075-4ed6-9c74-35fd1a8081c2ort1_11025.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/5e6a0b1e-4a29-4267-a598-0b737ca027d3ort1_11026.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/485dd27e-6b41-40d5-84fd-4da6dc05ad9aort1_11027.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/edf0dd02-a6c6-4440-aa74-1bf8cbcd92d4ort1_11028.jpg"
+    ],
+    "description": "A.C. Gilbert Co.\nMetal Microscope Set in Hinged Tin Case\nMid-Century, Circa 1950s\nProduced by the renowned A.C. Gilbert Company of New Haven, Connecticut, this vintage No. 9 Microscope Set represents an iconic era of mid-century educational science toys. Housed in its original grey enameled hinged metal carry case with lithographed label, the set features a three-turret optical microscope equipped with a Ramsden eye lens and reflector mirror. Accompanying the instrument are period laboratory accessories including chemical specimen vials, slide boxes, and two original instructional booklets from the Gilbert Hall of Science.\nEnameled sheet metal carrying case with handle, latch, and internal fold-out specimen rack\nMarked \"No. 9 GILBERT MICROSCOPE SET\" with stated area magnification ratings up to 105,625 times\nIncludes three-objective microscope, test tubes with vintage reagents, slide container, spot plate, and two booklets (\"How to Use the Gilbert Microscope\" and \"Gilbert Glass Blowing\")\nMeasures approximately 13.75\" high by 9.5\" wide by 5\" deep; weighs 7.0 lbs\nCondition:\nVintage used condition. The microscope frame is structurally sound with intact stage clips and focusing knobs. Metal case exhibits surface scuffs, scratches, oxidation spots, and exterior decal wear consistent with age and storage. Chemical tubes show varying fill levels, dried residues, and aged labels; booklets have edge wear, handling creases, and light toning. Partial set with some empty accessory slots.\nOverall Condition\n: All items are USED and are sold AS-IS. Please open a ticket for any questions prior to bidding.\nUsed Item Description\n: Used condition indicates item(s) show signs of regular use, age and may have had repairs or may need repairs. All items featured are DONATED and all sales are FINAL. All BIDS are placed by the buyer with the understanding that this is a donated item that may contain faults unseen by our staff and is ultimately SOLD AS-IS as all information is presented. Items come strictly as pictured and should be assumed to be AS-IS with possible unseen defects. We are\nNOT\nexperts in any field.",
+    "score_reasons": [
+      "Lower-priority term 'used' in description (-4)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'used' in description (-4)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283663654": {
     "item_id": "283663654",
     "listing_url": "https://shopgoodwill.com/item/283663654",
@@ -548,42 +645,6 @@
           "$5.00 handling charge (-4)",
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283590340": {
-    "item_id": "283590340",
-    "listing_url": "https://shopgoodwill.com/item/283590340",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/88829e17-bda1-43b7-9bed-20ab292da1daort1_11021.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/1af02de6-ce14-4ea8-b16e-578b8e2421faort1_11022.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/22ebaecc-2529-454b-b645-497e2f3be70bort1_11023.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/a499fe34-4374-4ad7-bc13-6d92da1a41b7ort1_11024.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/703db316-9075-4ed6-9c74-35fd1a8081c2ort1_11025.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/5e6a0b1e-4a29-4267-a598-0b737ca027d3ort1_11026.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/485dd27e-6b41-40d5-84fd-4da6dc05ad9aort1_11027.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/344/Items/2026-11-02/edf0dd02-a6c6-4440-aa74-1bf8cbcd92d4ort1_11028.jpg"
-    ],
-    "description": "A.C. Gilbert Co.\nMetal Microscope Set in Hinged Tin Case\nMid-Century, Circa 1950s\nProduced by the renowned A.C. Gilbert Company of New Haven, Connecticut, this vintage No. 9 Microscope Set represents an iconic era of mid-century educational science toys. Housed in its original grey enameled hinged metal carry case with lithographed label, the set features a three-turret optical microscope equipped with a Ramsden eye lens and reflector mirror. Accompanying the instrument are period laboratory accessories including chemical specimen vials, slide boxes, and two original instructional booklets from the Gilbert Hall of Science.\nEnameled sheet metal carrying case with handle, latch, and internal fold-out specimen rack\nMarked \"No. 9 GILBERT MICROSCOPE SET\" with stated area magnification ratings up to 105,625 times\nIncludes three-objective microscope, test tubes with vintage reagents, slide container, spot plate, and two booklets (\"How to Use the Gilbert Microscope\" and \"Gilbert Glass Blowing\")\nMeasures approximately 13.75\" high by 9.5\" wide by 5\" deep; weighs 7.0 lbs\nCondition:\nVintage used condition. The microscope frame is structurally sound with intact stage clips and focusing knobs. Metal case exhibits surface scuffs, scratches, oxidation spots, and exterior decal wear consistent with age and storage. Chemical tubes show varying fill levels, dried residues, and aged labels; booklets have edge wear, handling creases, and light toning. Partial set with some empty accessory slots.\nOverall Condition\n: All items are USED and are sold AS-IS. Please open a ticket for any questions prior to bidding.\nUsed Item Description\n: Used condition indicates item(s) show signs of regular use, age and may have had repairs or may need repairs. All items featured are DONATED and all sales are FINAL. All BIDS are placed by the buyer with the understanding that this is a donated item that may contain faults unseen by our staff and is ultimately SOLD AS-IS as all information is presented. Items come strictly as pictured and should be assumed to be AS-IS with possible unseen defects. We are\nNOT\nexperts in any field.",
-    "score_reasons": [
-      "Lower-priority term 'used' in description (-4)",
-      "Shipping is calculated and not included in the price (-5)",
-      "Base score (+5)",
-      "Score boundary adjustment (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-electron-tubes",
-        "label": "Vintage Electron Tubes",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'used' in description (-4)",
-          "Shipping is calculated and not included in the price (-5)",
-          "Base score (+5)",
-          "Score boundary adjustment (+4)"
         ],
         "matched_keywords": []
       }
