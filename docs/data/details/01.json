@@ -36,7 +36,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -44,12 +44,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 16,
-        "relative_score": 0.471,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -140,35 +140,6 @@
       }
     ]
   },
-  "ctbids-49427-5782486": {
-    "item_id": "ctbids-49427-5782486",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5782486/Vintage-Hand-Painted-Japan-Luster-Tea-Set-with-Framed-Watercolor-Landscape",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5782486_MZNVir.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49427-5804214": {
     "item_id": "ctbids-49427-5804214",
     "listing_url": "https://ctbids.com/estate-sale/49427/item/5804214/Ohio-Country-Collection-Grandma-Moses-Print-Ohio-Bicentennial-Barn-Art-Postage-Stamps",
@@ -190,6 +161,35 @@
         "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49427-5782486": {
+    "item_id": "ctbids-49427-5782486",
+    "listing_url": "https://ctbids.com/estate-sale/49427/item/5782486/Vintage-Hand-Painted-Japan-Luster-Tea-Set-with-Framed-Watercolor-Landscape",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5782486_MZNVir.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -370,33 +370,6 @@
       }
     ]
   },
-  "ctbids-49440-5781663": {
-    "item_id": "ctbids-49440-5781663",
-    "listing_url": "https://ctbids.com/estate-sale/49440/item/5781663/Antique-Elgin-15-Jewel-Pocket-Watch-in-Wadsworth-Gold-Filled-Case-with-Chain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781663_XoCoJn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "283588642": {
     "item_id": "283588642",
     "listing_url": "https://shopgoodwill.com/item/283588642",
@@ -424,6 +397,60 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-5)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49440-5781663": {
+    "item_id": "ctbids-49440-5781663",
+    "listing_url": "https://ctbids.com/estate-sale/49440/item/5781663/Antique-Elgin-15-Jewel-Pocket-Watch-in-Wadsworth-Gold-Filled-Case-with-Chain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781663_XoCoJn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49706-5817379": {
+    "item_id": "ctbids-49706-5817379",
+    "listing_url": "https://ctbids.com/estate-sale/49706/item/5817379/Vtg-1994-Looney-Tunes-Sculpted-Pewter-Tazmanian-Devil-Relief-Padlock-Chain-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5817379_UQcnOf.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -518,119 +545,6 @@
           "Base score (+5)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49706-5817379": {
-    "item_id": "ctbids-49706-5817379",
-    "listing_url": "https://ctbids.com/estate-sale/49706/item/5817379/Vtg-1994-Looney-Tunes-Sculpted-Pewter-Tazmanian-Devil-Relief-Padlock-Chain-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5817379_UQcnOf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283885119": {
-    "item_id": "283885119",
-    "listing_url": "https://shopgoodwill.com/item/283885119",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/9b930435-a68d-45bd-9b72-e6e7131f4519rson_10141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/6650d946-a1ab-42ed-86e7-f50bbbb62920rson_10142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/d918bc72-94e3-4899-93fa-78c5dd4d19cerson_10143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/42180ff2-b94f-4b7f-8706-55441ea92080rson_10144.jpg"
-    ],
-    "description": "Title\n: Vintage Brazilian Natural Quartz Geode Agate Desk Bookend (3.15LBS)\nCondition\n: Used\nMaterial\n: Quartz geode agate\nTheme\n: Natural Minerals\nColor\n: Brown/Beige\nType\n: Bookend\nStyle\n: Natural mineral\nFeatures\n: Natural quartz agate, made in Brazil\nCountry of origin\n: Brazil\nNumber in pack\n: 1\nFinish\n: Natural\nCare instructions\n: Wipe with dry cloth\nNatural mineral Brown/Beige Quartz geode agate Bookend\nStyle:\nNatural mineral\nType:\nBookend\nColor:\nBrown/Beige\nMaterial:\nQuartz geode agate\nCondition:\nGood - shows some sign of wear\nAdditional Details:\nMade in Brazil, single piece only",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283914259": {
-    "item_id": "283914259",
-    "listing_url": "https://shopgoodwill.com/item/283914259",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/7fe43133-bfd6-434e-9d24-9a5ff1c2731danta_11121.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/e975300d-5610-425e-991b-479cb1faeef6anta_11122.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/b7dd37f2-059b-4971-9db5-df053d38f082anta_11123.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/219adf19-f751-4a7b-82e9-447d3c8a670banta_11124.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/b2a4d1b4-42b0-447a-80d0-daff75e30cedanta_11125.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/249ab283-90a0-44d4-b03a-b7c0beea9465anta_11126.jpg"
-    ],
-    "description": "Large Lot Blank VHS Tapes RCA Sony Maxell Polaroid BASF TDK T-120 Sealed\nAssorted lot of blank VHS video tapes from brands including RCA, Sony, Maxell, Polaroid, BASF, and TDK. Primarily T-120 models with some labeled for 6 hours recording time. Mix of standard, premium, and high-grade quality tapes. Mostly new and sealed in original packaging, including some multi-packs. Variety of packaging designs reflecting different production years. Suitable for VCR recording or archival use. Ideal for collectors, vintage media users, or recording needs.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+12)",
-      "Opportunity term 'lot of' in description (+6)",
-      "Opportunity term 'lot' in title (+4)",
-      "Lower-priority term 'vhs tapes' in title (-18)",
-      "Lower-priority term 't-120' in title (-12)",
-      "Target keyword 'maxell' in title (+5)",
-      "Target keyword 'tdk' in title (+5)",
-      "Target keyword 't-120' in title (+5)",
-      "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 8,
-        "relative_score": 0.222,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+12)",
-          "Opportunity term 'lot of' in description (+6)",
-          "Opportunity term 'lot' in title (+4)",
-          "Lower-priority term 'vhs tapes' in title (-18)",
-          "Lower-priority term 't-120' in title (-12)",
-          "Target keyword 'maxell' in title (+5)",
-          "Target keyword 'tdk' in title (+5)",
-          "Target keyword 't-120' in title (+5)",
-          "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
-        ],
-        "matched_keywords": [
-          "basf",
-          "maxell",
-          "sony",
-          "t-120",
-          "tdk"
-        ]
       }
     ]
   },
@@ -759,6 +673,92 @@
       }
     ]
   },
+  "283885119": {
+    "item_id": "283885119",
+    "listing_url": "https://shopgoodwill.com/item/283885119",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/9b930435-a68d-45bd-9b72-e6e7131f4519rson_10141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/6650d946-a1ab-42ed-86e7-f50bbbb62920rson_10142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/d918bc72-94e3-4899-93fa-78c5dd4d19cerson_10143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-10-14/42180ff2-b94f-4b7f-8706-55441ea92080rson_10144.jpg"
+    ],
+    "description": "Title\n: Vintage Brazilian Natural Quartz Geode Agate Desk Bookend (3.15LBS)\nCondition\n: Used\nMaterial\n: Quartz geode agate\nTheme\n: Natural Minerals\nColor\n: Brown/Beige\nType\n: Bookend\nStyle\n: Natural mineral\nFeatures\n: Natural quartz agate, made in Brazil\nCountry of origin\n: Brazil\nNumber in pack\n: 1\nFinish\n: Natural\nCare instructions\n: Wipe with dry cloth\nNatural mineral Brown/Beige Quartz geode agate Bookend\nStyle:\nNatural mineral\nType:\nBookend\nColor:\nBrown/Beige\nMaterial:\nQuartz geode agate\nCondition:\nGood - shows some sign of wear\nAdditional Details:\nMade in Brazil, single piece only",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283914259": {
+    "item_id": "283914259",
+    "listing_url": "https://shopgoodwill.com/item/283914259",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/7fe43133-bfd6-434e-9d24-9a5ff1c2731danta_11121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/e975300d-5610-425e-991b-479cb1faeef6anta_11122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/b7dd37f2-059b-4971-9db5-df053d38f082anta_11123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/219adf19-f751-4a7b-82e9-447d3c8a670banta_11124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/b2a4d1b4-42b0-447a-80d0-daff75e30cedanta_11125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-12/249ab283-90a0-44d4-b03a-b7c0beea9465anta_11126.jpg"
+    ],
+    "description": "Large Lot Blank VHS Tapes RCA Sony Maxell Polaroid BASF TDK T-120 Sealed\nAssorted lot of blank VHS video tapes from brands including RCA, Sony, Maxell, Polaroid, BASF, and TDK. Primarily T-120 models with some labeled for 6 hours recording time. Mix of standard, premium, and high-grade quality tapes. Mostly new and sealed in original packaging, including some multi-packs. Variety of packaging designs reflecting different production years. Suitable for VCR recording or archival use. Ideal for collectors, vintage media users, or recording needs.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'lot of' in description (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Lower-priority term 'vhs tapes' in title (-18)",
+      "Lower-priority term 't-120' in title (-12)",
+      "Target keyword 'maxell' in title (+5)",
+      "Target keyword 'tdk' in title (+5)",
+      "Target keyword 't-120' in title (+5)",
+      "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 8,
+        "relative_score": 0.222,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'lot of' in description (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "Lower-priority term 'vhs tapes' in title (-18)",
+          "Lower-priority term 't-120' in title (-12)",
+          "Target keyword 'maxell' in title (+5)",
+          "Target keyword 'tdk' in title (+5)",
+          "Target keyword 't-120' in title (+5)",
+          "Only the top 3 target keyword matches count; 2 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "basf",
+          "maxell",
+          "sony",
+          "t-120",
+          "tdk"
+        ]
+      }
+    ]
+  },
   "283614127": {
     "item_id": "283614127",
     "listing_url": "https://shopgoodwill.com/item/283614127",
@@ -787,6 +787,52 @@
           "Base score (+5)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "284176929": {
+    "item_id": "284176929",
+    "listing_url": "https://shopgoodwill.com/item/284176929",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/036b5410-8276-4842-a119-5ba9210b2fb7auer_11141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/19f32699-6f3b-4848-afbb-2e11c9d732b7auer_11142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/0af8de84-c938-440c-a7f6-74214217e3b9auer_11143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/2beb2a90-15bc-4ea3-b34f-6ecd5c693395auer_11144.jpg"
+    ],
+    "description": "Product Overview:\nAssorted collection of polished and natural stones including dark, smooth tumbled stones and various small geode fragments with white crystalline interiors. Contains pieces with glossy finishes and others with rough exteriors and sparkling crystal interiors. Includes a raw mineral specimen.\n\nSpecifications:\n- Mixed lot of polished stones and natural geode fragments\n- Features dark tumbled stones resembling obsidian or black tourmaline\n- Geodes with white crystalline interiors\n- Includes raw mineral specimen\n- Approximate total weight: 5 lbs",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "Target keyword 'tourmaline' in description (+10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "Target keyword 'tourmaline' in description (+10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "tourmaline"
+        ]
       }
     ]
   },
@@ -990,6 +1036,56 @@
       }
     ]
   },
+  "ctbids-50051-5852649": {
+    "item_id": "ctbids-50051-5852649",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852649/Handmade-Plush-Puppy-Dog-Pillow-Cream-with-Tan-Felt-Spots-Pink-Tongue-Black-Ears-Nursery-or-Kids",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5749004_7QmBrT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852623": {
+    "item_id": "ctbids-50051-5852623",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852623/Set-of-2-Hardcover-Illustrated-Dictionary-Concordance-of-the-Bible-Rand-McNally-World-Atlas",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5822366_dFE19S.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49853-5817110": {
     "item_id": "ctbids-49853-5817110",
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5817110/Pink-Porcelain-Pedestal-Teacup-Saucer-with-Ornate-Gold-Trim-Japan",
@@ -1020,6 +1116,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5817336/3-2-Uranium-Glass-Shot-Glasses",
     "images": [
       "https://image.ctbids.com/seller/2026-11-05Tc85059/5817336_jBllSz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852641": {
+    "item_id": "ctbids-50051-5852641",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852641/Set-of-2-Islanders-Rod-Gun-Clear-Glass-Coffee-Mugs-Beer-Stein-Style",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5361644_gIPjO9.webp"
     ],
     "description": "",
     "score_reasons": [

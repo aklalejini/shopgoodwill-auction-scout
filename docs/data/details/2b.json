@@ -306,6 +306,7 @@
       "Opportunity term 'collection' in description (+7)",
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'minerals' in description (+1)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -313,12 +314,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 11,
-        "relative_score": 0.367,
+        "score": 13,
+        "relative_score": 0.433,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'minerals' in description (+1)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -368,7 +370,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -376,11 +377,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -550,6 +550,60 @@
       }
     ]
   },
+  "ctbids-49427-5828802": {
+    "item_id": "ctbids-49427-5828802",
+    "listing_url": "https://ctbids.com/estate-sale/49427/item/5828802/Sheffield-Plate-Silver-Pitcher-Keystone-Silver-Co-Tray-Silverplate-Chafing-Dish-Casserole-Holder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5828802_jDngLh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49706-5820550": {
+    "item_id": "ctbids-49706-5820550",
+    "listing_url": "https://ctbids.com/estate-sale/49706/item/5820550/Vtg-Artisan-Dusty-Pink-Ceramic-Gilt-Floral-Pillow-Bead-Stack-Earrings-W-Faux-Pink-Pearl-Accents",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5820550_ElTsiT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49810-5818574": {
     "item_id": "ctbids-49810-5818574",
     "listing_url": "https://ctbids.com/estate-sale/49810/item/5818574/Colorful-Hand-Blown-Art-Glass-Bird-Figurine-Collection-11-Piece-Set",
@@ -685,6 +739,33 @@
       }
     ]
   },
+  "ctbids-50051-5852624": {
+    "item_id": "ctbids-50051-5852624",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852624/Set-of-5-Vintage-Cookbooks-Sunset-Oriental-Weber-Barbecue-Better-Homes-Seafood-Parties",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5822390_p95r9l.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49853-5821876": {
     "item_id": "ctbids-49853-5821876",
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5821876/5-Vintage-Clear-Glass-Dishes",
@@ -712,11 +793,11 @@
       }
     ]
   },
-  "ctbids-49810-5819884": {
-    "item_id": "ctbids-49810-5819884",
-    "listing_url": "https://ctbids.com/estate-sale/49810/item/5819884/Vintage-Elliott-of-London-Bracket-Mantel-Clock-Wood-Case-with-Brass-Dial",
+  "ctbids-50051-5852668": {
+    "item_id": "ctbids-50051-5852668",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852668/Set-of-2-Vintage-Black-Leather-Zip-Pouches-Half-Moon-Shape-with-Clear-ID-Windows-Travel-Cosmetic-o",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5819884_XwkKJt.webp"
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5730611_MedItf.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -775,114 +856,6 @@
       }
     ]
   },
-  "ctbids-49427-5828802": {
-    "item_id": "ctbids-49427-5828802",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5828802/Sheffield-Plate-Silver-Pitcher-Keystone-Silver-Co-Tray-Silverplate-Chafing-Dish-Casserole-Holder",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5828802_jDngLh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49706-5820550": {
-    "item_id": "ctbids-49706-5820550",
-    "listing_url": "https://ctbids.com/estate-sale/49706/item/5820550/Vtg-Artisan-Dusty-Pink-Ceramic-Gilt-Floral-Pillow-Bead-Stack-Earrings-W-Faux-Pink-Pearl-Accents",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5820550_ElTsiT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49717-5803388": {
-    "item_id": "ctbids-49717-5803388",
-    "listing_url": "https://ctbids.com/estate-sale/49717/item/5803388/Assorted-Costume-Jewelry-Lot-Beaded-Necklaces-Bracelets-Bangles-Charms",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5803388_d2s1TP.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49853-5815604": {
-    "item_id": "ctbids-49853-5815604",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5815604/Crest-Stone-San-Juan-Plate-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5815604_GaT3Lv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49716-5804246": {
     "item_id": "ctbids-49716-5804246",
     "listing_url": "https://ctbids.com/estate-sale/49716/item/5804246/LUXURY-FENDI-Bag-by-Karl-Lagerfeld-Authenticated",
@@ -926,6 +899,33 @@
         "score": 1,
         "relative_score": 0.029,
         "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49717-5803388": {
+    "item_id": "ctbids-49717-5803388",
+    "listing_url": "https://ctbids.com/estate-sale/49717/item/5803388/Assorted-Costume-Jewelry-Lot-Beaded-Necklaces-Bracelets-Bangles-Charms",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5803388_d2s1TP.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1403,6 +1403,31 @@
       }
     ]
   },
+  "ctbids-50051-5852657": {
+    "item_id": "ctbids-50051-5852657",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852657/2022-New-Year-s-Eve-Champagne-Flute-with-Gold-and-White-Stars-Clear-Glass-Stemmed-Toasting-Glass",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5843340_0WIqMR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49087-5742880": {
     "item_id": "ctbids-49087-5742880",
     "listing_url": "https://ctbids.com/estate-sale/49087/item/5742880/Gardner-Electric-Barb-B-Que-Blower",
@@ -1433,31 +1458,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49873/item/5839693/Danbury-Mint-Bird-Song-Native-American-Porcelain-Doll-by-Gregory-Perillo",
     "images": [
       "https://image.ctbids.com/seller/2026-11-11T0e9e48/5839693_6PtR6k.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48761-5801441": {
-    "item_id": "ctbids-48761-5801441",
-    "listing_url": "https://ctbids.com/estate-sale/48761/item/5801441/Noreena-Jasper-Ring-Size-5-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5801441_HzlR9r.webp"
     ],
     "description": "",
     "score_reasons": [
