@@ -22,6 +22,7 @@
       "Opportunity term 'collection' in description (+6)",
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'art pottery' in title (+14)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -29,12 +30,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 31,
-        "relative_score": 0.912,
+        "score": 33,
+        "relative_score": 0.971,
         "score_reasons": [
           "Opportunity term 'collection' in description (+6)",
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'art pottery' in title (+14)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -95,44 +97,6 @@
       }
     ]
   },
-  "283927792": {
-    "item_id": "283927792",
-    "listing_url": "https://shopgoodwill.com/item/283927792",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/24de3f10-777b-4dd4-82a1-2c07f668c42arlac_08181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/6f1f0f6f-56ba-4284-89c7-676f28c66c8drlac_08182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/f6e2be4d-d162-48f5-aa71-91acd44c7e56rlac_08183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/be34064e-7b2c-4d03-82d0-4438f52c336drlac_08184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/a0fee524-bf17-44f3-b53e-5895c554b9abrlac_08185.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/ca2f862d-ca1e-4e5b-b106-b3275dedfb55rlac_08186.jpg"
-    ],
-    "description": "A collection of assorted crystals and gemstones including clear quartz, mahogany obsidian, green aventurine, rose quartz, red jasper, amethyst clusters, and other decorative stones. Includes a marble cone-shaped display piece and a geode specimen on a clear stand. Also contains a Zodiac-themed crystal collection box with five categorized stones and a guidebook.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Flat shipping is only $0.01 (+10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 20,
-        "relative_score": 0.667,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Flat shipping is only $0.01 (+10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49790-5830300": {
     "item_id": "ctbids-49790-5830300",
     "listing_url": "https://ctbids.com/estate-sale/49790/item/5830300/Pink-Stone-Gold-Vermeil-Sterling-Silver-Stud-Earrings",
@@ -187,6 +151,44 @@
       }
     ]
   },
+  "283927792": {
+    "item_id": "283927792",
+    "listing_url": "https://shopgoodwill.com/item/283927792",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/24de3f10-777b-4dd4-82a1-2c07f668c42arlac_08181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/6f1f0f6f-56ba-4284-89c7-676f28c66c8drlac_08182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/f6e2be4d-d162-48f5-aa71-91acd44c7e56rlac_08183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/be34064e-7b2c-4d03-82d0-4438f52c336drlac_08184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/a0fee524-bf17-44f3-b53e-5895c554b9abrlac_08185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Items/2026-08-18/ca2f862d-ca1e-4e5b-b106-b3275dedfb55rlac_08186.jpg"
+    ],
+    "description": "A collection of assorted crystals and gemstones including clear quartz, mahogany obsidian, green aventurine, rose quartz, red jasper, amethyst clusters, and other decorative stones. Includes a marble cone-shaped display piece and a geode specimen on a clear stand. Also contains a Zodiac-themed crystal collection box with five categorized stones and a guidebook.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 20,
+        "relative_score": 0.667,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283753478": {
     "item_id": "283753478",
     "listing_url": "https://shopgoodwill.com/item/283753478",
@@ -217,6 +219,64 @@
       }
     ]
   },
+  "ctbids-49853-5820954": {
+    "item_id": "ctbids-49853-5820954",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820954/History-Books-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820954_NKnU64.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49853-5820963": {
+    "item_id": "ctbids-49853-5820963",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820963/Small-Guidebooks-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820963_VPo0Vt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49888-5838971": {
     "item_id": "ctbids-49888-5838971",
     "listing_url": "https://ctbids.com/estate-sale/49888/item/5838971/Authentic-Boles-awiec-Polish-Pottery-4-Piece-Collection",
@@ -237,6 +297,62 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49840-5829638": {
+    "item_id": "ctbids-49840-5829638",
+    "listing_url": "https://ctbids.com/estate-sale/49840/item/5829638/Pokemon-30th-Anniversary-Stamp-5-Card-Lot-Pikachu-Mew-ex-Umbreon-Eevee-Gengar-ex",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5829638_cfFLoE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49763-5808154": {
+    "item_id": "ctbids-49763-5808154",
+    "listing_url": "https://ctbids.com/estate-sale/49763/item/5808154/Velasquez-print-on-canvas",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5063049_8zEofq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -298,15 +414,15 @@
       }
     ]
   },
-  "ctbids-49853-5820954": {
-    "item_id": "ctbids-49853-5820954",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820954/History-Books-Lot",
+  "ctbids-49810-5818456": {
+    "item_id": "ctbids-49810-5818456",
+    "listing_url": "https://ctbids.com/estate-sale/49810/item/5818456/2-Piece-Children-s-Farm-Animal-Patchwork-Quilt-Matching-Striped-Mat-Set",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820954_NKnU64.webp"
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5818456_bR2exC.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -317,7 +433,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -325,15 +441,15 @@
       }
     ]
   },
-  "ctbids-49853-5820963": {
-    "item_id": "ctbids-49853-5820963",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820963/Small-Guidebooks-Lot",
+  "ctbids-50051-5852863": {
+    "item_id": "ctbids-50051-5852863",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852863/Set-of-2-Mini-Enamel-Mugs-Red-and-Yellow-Rose-Floral-Print-Cobalt-Blue-Rim-White-Enamelware",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820963_VPo0Vt.webp"
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5849393_zqVwQG.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -344,7 +460,7 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -352,15 +468,15 @@
       }
     ]
   },
-  "ctbids-49840-5829638": {
-    "item_id": "ctbids-49840-5829638",
-    "listing_url": "https://ctbids.com/estate-sale/49840/item/5829638/Pokemon-30th-Anniversary-Stamp-5-Card-Lot-Pikachu-Mew-ex-Umbreon-Eevee-Gengar-ex",
+  "ctbids-50051-5852722": {
+    "item_id": "ctbids-50051-5852722",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852722/Mikasa-Continental-White-Round-Bowl-F3000-Glossy-Porcelain-Oven-to-Table-Made-in-Japan",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5829638_cfFLoE.webp"
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5780824_0Drxsj.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -371,7 +487,88 @@
         "score": 5,
         "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852757": {
+    "item_id": "ctbids-50051-5852757",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852757/Assorted-Christmas-Angel-Decorations-Kurt-S-Adler-and-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5811099_zLsokM.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49840-5829815": {
+    "item_id": "ctbids-49840-5829815",
+    "listing_url": "https://ctbids.com/estate-sale/49840/item/5829815/1987-Fleer-Barry-Larkin-204-Rookie-RC-Cincinnati-Reds-BGS-6",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5565065_CjkEhL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49853-5820450": {
+    "item_id": "ctbids-49853-5820450",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820450/Ihome-Ipod-Stereo",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820450_cWLdd0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -420,14 +617,15 @@
       }
     ]
   },
-  "ctbids-49763-5808154": {
-    "item_id": "ctbids-49763-5808154",
-    "listing_url": "https://ctbids.com/estate-sale/49763/item/5808154/Velasquez-print-on-canvas",
+  "ctbids-49045-5632061": {
+    "item_id": "ctbids-49045-5632061",
+    "listing_url": "https://ctbids.com/estate-sale/49045/item/5632061/Linda-Lee-Foster-Paul-Painting-Before-De-Playa-Adieta-Tiki-III-Framed",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5063049_8zEofq.webp"
+      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5632061_oDtRHp.webp"
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -435,9 +633,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49728-5808257": {
+    "item_id": "ctbids-49728-5808257",
+    "listing_url": "https://ctbids.com/estate-sale/49728/item/5808257/MS421-3-Michel-Thomas-Big-Eye-Children-Oils-12-24-in",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808257_nIBvtn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49728-5808262": {
+    "item_id": "ctbids-49728-5808262",
+    "listing_url": "https://ctbids.com/estate-sale/49728/item/5808262/MS416-Stephenson-Abruzzi-Oil-on-Board-Big-Eye-Children",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808262_Comw8T.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49873-5840465": {
+    "item_id": "ctbids-49873-5840465",
+    "listing_url": "https://ctbids.com/estate-sale/49873/item/5840465/Danbury-Mint-The-Hunt-Resin-Wolf-Sculpture-by-Nick-Bibby",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840465_Rx6um6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -450,31 +730,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49487/item/5774176/Kobalt-Tool-Kit",
     "images": [
       "https://image.ctbids.com/seller/2026-10-24Taf395c/5774176_sxPtOf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49045-5632061": {
-    "item_id": "ctbids-49045-5632061",
-    "listing_url": "https://ctbids.com/estate-sale/49045/item/5632061/Linda-Lee-Foster-Paul-Painting-Before-De-Playa-Adieta-Tiki-III-Framed",
-    "images": [
-      "https://image.ctbids.com/seller/2026-09-23Tc6d9bf/5632061_oDtRHp.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -595,31 +850,6 @@
       }
     ]
   },
-  "ctbids-49728-5808257": {
-    "item_id": "ctbids-49728-5808257",
-    "listing_url": "https://ctbids.com/estate-sale/49728/item/5808257/MS421-3-Michel-Thomas-Big-Eye-Children-Oils-12-24-in",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808257_nIBvtn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49899-5830700": {
     "item_id": "ctbids-49899-5830700",
     "listing_url": "https://ctbids.com/estate-sale/49899/item/5830700/Retired-Swarovski-Crystal-Flamingo-Figurine-289733-Feathered-Beauties-Original-Box-Booklet",
@@ -670,81 +900,6 @@
       }
     ]
   },
-  "ctbids-49728-5808262": {
-    "item_id": "ctbids-49728-5808262",
-    "listing_url": "https://ctbids.com/estate-sale/49728/item/5808262/MS416-Stephenson-Abruzzi-Oil-on-Board-Big-Eye-Children",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808262_Comw8T.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49810-5818456": {
-    "item_id": "ctbids-49810-5818456",
-    "listing_url": "https://ctbids.com/estate-sale/49810/item/5818456/2-Piece-Children-s-Farm-Animal-Patchwork-Quilt-Matching-Striped-Mat-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5818456_bR2exC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852863": {
-    "item_id": "ctbids-50051-5852863",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852863/Set-of-2-Mini-Enamel-Mugs-Red-and-Yellow-Rose-Floral-Print-Cobalt-Blue-Rim-White-Enamelware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5849393_zqVwQG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49853-5821908": {
     "item_id": "ctbids-49853-5821908",
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5821908/Signed-Fenton-Art-Glass-Hand-Painted-Blue-Dogwood-Hand-Painted-By-Paula-Y-Palmer",
@@ -775,131 +930,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49087/item/5783412/60s-and-70s-Antigo-and-Green-Bay-Bike-License-Plates",
     "images": [
       "https://image.ctbids.com/seller/2026-11-03T8cd417/5783412_sJRdQy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852722": {
-    "item_id": "ctbids-50051-5852722",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852722/Mikasa-Continental-White-Round-Bowl-F3000-Glossy-Porcelain-Oven-to-Table-Made-in-Japan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5780824_0Drxsj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852757": {
-    "item_id": "ctbids-50051-5852757",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852757/Assorted-Christmas-Angel-Decorations-Kurt-S-Adler-and-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5811099_zLsokM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49873-5840465": {
-    "item_id": "ctbids-49873-5840465",
-    "listing_url": "https://ctbids.com/estate-sale/49873/item/5840465/Danbury-Mint-The-Hunt-Resin-Wolf-Sculpture-by-Nick-Bibby",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840465_Rx6um6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49840-5829815": {
-    "item_id": "ctbids-49840-5829815",
-    "listing_url": "https://ctbids.com/estate-sale/49840/item/5829815/1987-Fleer-Barry-Larkin-204-Rookie-RC-Cincinnati-Reds-BGS-6",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5565065_CjkEhL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49853-5820450": {
-    "item_id": "ctbids-49853-5820450",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820450/Ihome-Ipod-Stereo",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820450_cWLdd0.webp"
     ],
     "description": "",
     "score_reasons": [

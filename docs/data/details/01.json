@@ -17,6 +17,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'Tiffany' in title (+22)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -24,11 +25,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 33,
-        "relative_score": 0.971,
+        "score": 37,
+        "relative_score": 1.088,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'Tiffany' in title (+22)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -122,6 +124,62 @@
       }
     ]
   },
+  "ctbids-49810-5826920": {
+    "item_id": "ctbids-49810-5826920",
+    "listing_url": "https://ctbids.com/estate-sale/49810/item/5826920/Vintage-Heirloom-Treasure-Porcelain-Dolls-Red-Sweater-Plaid-Skirt-Style-C27SG-2-Piece-Set",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5826920_gNptBR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49440-5781663": {
+    "item_id": "ctbids-49440-5781663",
+    "listing_url": "https://ctbids.com/estate-sale/49440/item/5781663/Antique-Elgin-15-Jewel-Pocket-Watch-in-Wadsworth-Gold-Filled-Case-with-Chain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781663_XoCoJn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283785904": {
     "item_id": "283785904",
     "listing_url": "https://shopgoodwill.com/item/283785904",
@@ -159,65 +217,11 @@
       }
     ]
   },
-  "ctbids-49440-5781663": {
-    "item_id": "ctbids-49440-5781663",
-    "listing_url": "https://ctbids.com/estate-sale/49440/item/5781663/Antique-Elgin-15-Jewel-Pocket-Watch-in-Wadsworth-Gold-Filled-Case-with-Chain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-27Ta12579/5781663_XoCoJn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49440-5803174": {
     "item_id": "ctbids-49440-5803174",
     "listing_url": "https://ctbids.com/estate-sale/49440/item/5803174/Vintage-Beer-Tap-Handles-Natural-Light-Schmidt-s-Bass-Tuborg-Gold-Black-Label",
     "images": [
       "https://image.ctbids.com/seller/2026-11-02T03af44/5803174_wnh8P6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49810-5826920": {
-    "item_id": "ctbids-49810-5826920",
-    "listing_url": "https://ctbids.com/estate-sale/49810/item/5826920/Vintage-Heirloom-Treasure-Porcelain-Dolls-Red-Sweater-Plaid-Skirt-Style-C27SG-2-Piece-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5826920_gNptBR.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -260,6 +264,114 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852623": {
+    "item_id": "ctbids-50051-5852623",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852623/Set-of-2-Hardcover-Illustrated-Dictionary-Concordance-of-the-Bible-Rand-McNally-World-Atlas",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5822366_dFE19S.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852641": {
+    "item_id": "ctbids-50051-5852641",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852641/Set-of-2-Islanders-Rod-Gun-Clear-Glass-Coffee-Mugs-Beer-Stein-Style",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5361644_gIPjO9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852714": {
+    "item_id": "ctbids-50051-5852714",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852714/Small-Clear-Glass-Round-Votive-Candle-Holder-Mini-Vase",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5625489_Qzaa4r.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852738": {
+    "item_id": "ctbids-50051-5852738",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852738/Nesco-4-Quart-Portable-Electric-Roaster-Oven-Circle-of-Heat-White-Original-Box-Made-in-USA",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5800534_nKHYcH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -332,6 +444,141 @@
           "Opportunity term 'minerals' in description (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49728-5819231": {
+    "item_id": "ctbids-49728-5819231",
+    "listing_url": "https://ctbids.com/estate-sale/49728/item/5819231/MS446-3-Roger-Etienne-Original-Red-Drawings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5819231_ql58Rv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852649": {
+    "item_id": "ctbids-50051-5852649",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852649/Handmade-Plush-Puppy-Dog-Pillow-Cream-with-Tan-Felt-Spots-Pink-Tongue-Black-Ears-Nursery-or-Kids",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5749004_7QmBrT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49087-5783421": {
+    "item_id": "ctbids-49087-5783421",
+    "listing_url": "https://ctbids.com/estate-sale/49087/item/5783421/V-RROOM-Mattel-Motorized-Dump-Truck-Toy",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5783421_7FgZk9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49810-5832352": {
+    "item_id": "ctbids-49810-5832352",
+    "listing_url": "https://ctbids.com/estate-sale/49810/item/5832352/The-Ashley-2008-Overall-Winner-Bronze-Tone-Western-Cowboy-Horseback-Sculpture-Trophy-4-Riders",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832352_cRKeMg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49627-5824958": {
+    "item_id": "ctbids-49627-5824958",
+    "listing_url": "https://ctbids.com/estate-sale/49627/item/5824958/T-P-Hubbell-s-Spectacles-Old-Willow-Candle-Napkin-Set-A-Japanese-Fabric-Curtain",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5824958_d3MuUY.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -491,31 +738,6 @@
       }
     ]
   },
-  "ctbids-49728-5819231": {
-    "item_id": "ctbids-49728-5819231",
-    "listing_url": "https://ctbids.com/estate-sale/49728/item/5819231/MS446-3-Roger-Etienne-Original-Red-Drawings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5819231_ql58Rv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49087-5742832": {
     "item_id": "ctbids-49087-5742832",
     "listing_url": "https://ctbids.com/estate-sale/49087/item/5742832/Pyrex-Blue-Dot-Mixing-Bowl",
@@ -591,56 +813,6 @@
       }
     ]
   },
-  "ctbids-50051-5852649": {
-    "item_id": "ctbids-50051-5852649",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852649/Handmade-Plush-Puppy-Dog-Pillow-Cream-with-Tan-Felt-Spots-Pink-Tongue-Black-Ears-Nursery-or-Kids",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5749004_7QmBrT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852623": {
-    "item_id": "ctbids-50051-5852623",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852623/Set-of-2-Hardcover-Illustrated-Dictionary-Concordance-of-the-Bible-Rand-McNally-World-Atlas",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5822366_dFE19S.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49853-5817110": {
     "item_id": "ctbids-49853-5817110",
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5817110/Pink-Porcelain-Pedestal-Teacup-Saucer-with-Ornate-Gold-Trim-Japan",
@@ -671,31 +843,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5817336/3-2-Uranium-Glass-Shot-Glasses",
     "images": [
       "https://image.ctbids.com/seller/2026-11-05Tc85059/5817336_jBllSz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852641": {
-    "item_id": "ctbids-50051-5852641",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852641/Set-of-2-Islanders-Rod-Gun-Clear-Glass-Coffee-Mugs-Beer-Stein-Style",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5361644_gIPjO9.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -766,31 +913,6 @@
       }
     ]
   },
-  "ctbids-50051-5852714": {
-    "item_id": "ctbids-50051-5852714",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852714/Small-Clear-Glass-Round-Votive-Candle-Holder-Mini-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5625489_Qzaa4r.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49045-5720932": {
     "item_id": "ctbids-49045-5720932",
     "listing_url": "https://ctbids.com/estate-sale/49045/item/5720932/Carved-Coral-Color-Celluloid-Rose-Motif-Costume-Jewelry",
@@ -816,111 +938,11 @@
       }
     ]
   },
-  "ctbids-49087-5783421": {
-    "item_id": "ctbids-49087-5783421",
-    "listing_url": "https://ctbids.com/estate-sale/49087/item/5783421/V-RROOM-Mattel-Motorized-Dump-Truck-Toy",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5783421_7FgZk9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49810-5832352": {
-    "item_id": "ctbids-49810-5832352",
-    "listing_url": "https://ctbids.com/estate-sale/49810/item/5832352/The-Ashley-2008-Overall-Winner-Bronze-Tone-Western-Cowboy-Horseback-Sculpture-Trophy-4-Riders",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832352_cRKeMg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852738": {
-    "item_id": "ctbids-50051-5852738",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852738/Nesco-4-Quart-Portable-Electric-Roaster-Oven-Circle-of-Heat-White-Original-Box-Made-in-USA",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5800534_nKHYcH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49045-5764700": {
     "item_id": "ctbids-49045-5764700",
     "listing_url": "https://ctbids.com/estate-sale/49045/item/5764700/6-Kirstenbosch-National-Botanical-Garden-High-Ball-Glasses-from-South-Africa",
     "images": [
       "https://image.ctbids.com/seller/2026-11-07T276f9b/5764700_E49PfX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49627-5824958": {
-    "item_id": "ctbids-49627-5824958",
-    "listing_url": "https://ctbids.com/estate-sale/49627/item/5824958/T-P-Hubbell-s-Spectacles-Old-Willow-Candle-Napkin-Set-A-Japanese-Fabric-Curtain",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5824958_d3MuUY.webp"
     ],
     "description": "",
     "score_reasons": [
