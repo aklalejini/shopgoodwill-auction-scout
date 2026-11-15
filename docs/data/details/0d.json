@@ -11,7 +11,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'Tiffany' in title (+22)",
-      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -19,12 +18,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 37,
-        "relative_score": 1.088,
+        "score": 33,
+        "relative_score": 0.971,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'Tiffany' in title (+22)",
-          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -148,35 +146,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49853-5821397": {
-    "item_id": "ctbids-49853-5821397",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821397/3-Vintage-Metal-Items",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5821397_IMLi6J.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
       "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
@@ -224,16 +193,15 @@
       }
     ]
   },
-  "ctbids-49853-5815417": {
-    "item_id": "ctbids-49853-5815417",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5815417/Women-s-Gloves-Mystery-Lot",
+  "ctbids-49853-5821397": {
+    "item_id": "ctbids-49853-5821397",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821397/3-Vintage-Metal-Items",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5815417_m4y8L1.webp"
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5821397_IMLi6J.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -241,54 +209,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49829-5515428": {
-    "item_id": "ctbids-49829-5515428",
-    "listing_url": "https://ctbids.com/estate-sale/49829/item/5515428/Malachite-NC-CO",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5515428_LzH385.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Target keyword 'malachite' in title (+9)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
         "score": 6,
-        "relative_score": 0.2,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Target keyword 'malachite' in title (+9)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "malachite"
-        ]
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -350,6 +274,33 @@
       }
     ]
   },
+  "ctbids-49853-5815417": {
+    "item_id": "ctbids-49853-5815417",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5815417/Women-s-Gloves-Mystery-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5815417_m4y8L1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50051-5852681": {
     "item_id": "ctbids-50051-5852681",
     "listing_url": "https://ctbids.com/estate-sale/50051/item/5852681/Christmas-Snowman-Family-Coffee-Mug-Blue-Top-Hats-Peppermint-Candy-Cane-Border-Holiday-Cocoa-Cup",
@@ -370,60 +321,6 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50051-5852654": {
-    "item_id": "ctbids-50051-5852654",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852654/Y2K-Millennium-2000-Champagne-Flute-Glass-Collectible-Celebration-Stemware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5242831_wiXYwU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49763-5808146": {
-    "item_id": "ctbids-49763-5808146",
-    "listing_url": "https://ctbids.com/estate-sale/49763/item/5808146/Heavy-Dragon-fly-tea-pot-w-2-cups-saucers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5059930_eg6M7T.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -458,42 +355,68 @@
       }
     ]
   },
-  "283675653": {
-    "item_id": "283675653",
-    "listing_url": "https://shopgoodwill.com/item/283675653",
+  "ctbids-49829-5515428": {
+    "item_id": "ctbids-49829-5515428",
+    "listing_url": "https://ctbids.com/estate-sale/49829/item/5515428/Malachite-NC-CO",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/2cb024ae-5842-493c-8f29-7d23803826f3sokc_11101.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/b001f5f9-478a-4280-8dd3-af8a85a4debasokc_11102.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/379bc81e-b50b-4fb5-abfb-d26d652f4b02sokc_11103.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/4866d4de-c22d-4a19-ad9b-ab5b3ed0198dsokc_11104.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/5d1e9425-0a44-462c-81e9-a1069a0ce34asokc_11105.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/303b137d-07c7-4de1-a4cd-96c15707692dsokc_11106.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/363/Items/2026-11-10/c5be1b78-eaa2-4e0f-aad0-0adfc885d3a0sokc_11107.jpg"
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5515428_LzH385.webp"
     ],
-    "description": "You are purchasing a \"Geodes, Rocks, Semi Precious Gems Strands & Loose \" in \"Used\" condition.\nA colorful assortment for a craft project or display. Includes two strands of black round beads, one orange-red chip-bead strand, one white-and-orange bead strand with an owl pendant, one multicolor chip-bead strand with decorative metal-tone beads, and an assortment of loose stones and pendants. The varied colors, textures, and shapes offer plenty to explore. Several strands have exposed ends and no attached clasps. Keywords: bead strands, loose stones, owl pendant, multicolor beads, jewelry-making supplies\nCondition Notes:\nSeveral bead strands have exposed string ends and no attached clasps. The orange-red chip beads have white marks on some edges. The loose stones have irregular surfaces and chipped edges.\nAspects:\nShape: Various\nItem Weight: 2.6 lb",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'rocks' in title (+1)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'craft' in description (-6)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+10)"
+      "Target keyword 'malachite' in title (+9)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
+        "score": 4,
+        "relative_score": 0.133,
         "score_reasons": [
-          "Opportunity term 'rocks' in title (+1)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'craft' in description (-6)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+10)"
+          "Target keyword 'malachite' in title (+9)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "malachite"
+        ]
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852654": {
+    "item_id": "ctbids-50051-5852654",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852654/Y2K-Millennium-2000-Champagne-Flute-Glass-Collectible-Celebration-Stemware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5242831_wiXYwU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }

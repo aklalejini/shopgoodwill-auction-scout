@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:03:27.841398+00:00",
+  "generated_at": "2026-11-15T21:44:53.031487+00:00",
   "active_count": 2551,
   "high_priority_count": 32,
   "archived_count": 1000,
@@ -7,13 +7,13 @@
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
     "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
   ],
-  "detail_requests_completed": 27,
-  "relevance_filtered_count": 725,
+  "detail_requests_completed": 22,
+  "relevance_filtered_count": 721,
   "potentially_high_value_count": 32,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 69
+    "images_processed": 72
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -25,7 +25,7 @@
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
       "active_count": 551,
-      "detail_requests_attempted": 7
+      "detail_requests_attempted": 2
     },
     {
       "id": "gsa-auctions",
@@ -50,7 +50,7 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 436
+      "active_count": 434
     },
     {
       "id": "sealed-vintage-media",
@@ -65,12 +65,12 @@
     {
       "id": "vintage-pens",
       "label": "Vintage Pens",
-      "active_count": 42
+      "active_count": 43
     },
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 65
+      "active_count": 66
     },
     {
       "id": "glass-insulators",

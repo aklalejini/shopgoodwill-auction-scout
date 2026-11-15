@@ -101,7 +101,6 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -109,12 +108,40 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 11,
+        "relative_score": 0.324,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50051-5852613": {
+    "item_id": "ctbids-50051-5852613",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852613/Vintage-Handmade-Red-Corduroy-Santa-Doll-Floppy-Shelf-Sitter-White-Pom-Poms-Gold-Buckle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5826278_z068Y5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -154,35 +181,6 @@
       }
     ]
   },
-  "ctbids-50051-5852613": {
-    "item_id": "ctbids-50051-5852613",
-    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852613/Vintage-Handmade-Red-Corduroy-Santa-Doll-Floppy-Shelf-Sitter-White-Pom-Poms-Gold-Buckle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5826278_z068Y5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49853-5818034": {
     "item_id": "ctbids-49853-5818034",
     "listing_url": "https://ctbids.com/estate-sale/49853/item/5818034/Vintage-Automatic-Bottle-Warmer-Untested",
@@ -192,7 +190,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -200,11 +198,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
+        "score": 8,
+        "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -221,7 +219,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -233,36 +231,7 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49853-5821274": {
-    "item_id": "ctbids-49853-5821274",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821274/2-Vintage-Bird-Figurines-MCM-Style-Feat-Stickered-Chase-Japan",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5821274_6QhQZz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -291,6 +260,35 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49840-5822234": {
+    "item_id": "ctbids-49840-5822234",
+    "listing_url": "https://ctbids.com/estate-sale/49840/item/5822234/Cal-Ripken-Jr-Baltimore-Orioles-20-Baseball-Card-Lot-Topps-Fleer-Donruss-Upper-Deck",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5726305_jYTQ5i.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -396,38 +394,30 @@
       }
     ]
   },
-  "284176792": {
-    "item_id": "284176792",
-    "listing_url": "https://shopgoodwill.com/item/284176792",
+  "ctbids-49853-5821274": {
+    "item_id": "ctbids-49853-5821274",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821274/2-Vintage-Bird-Figurines-MCM-Style-Feat-Stickered-Chase-Japan",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/0b3f259f-9932-4701-9d8c-5b38bb8eae9bauer_11141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/f9cf4cb9-16c7-4749-b194-051cf7293c04auer_11142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/aaf1affc-56f0-451d-92b1-0c43de36b112auer_11143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/1a6b6e52-ff2a-4612-982b-d4dc3da64127auer_11144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/4d66662e-4f0f-4c30-9721-c28c6dfe5076auer_11145.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/c2300753-017b-4869-b269-5163bf241a71auer_11146.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/c92f879c-0f13-4647-a593-606c99f347d0auer_11147.jpg"
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5821274_6QhQZz.webp"
     ],
-    "description": "Product Overview:\nThis listing includes natural purple fluorite crystals in rough, raw mineral form. The specimens show a range of light to deep purple colors with transparent and translucent areas. One piece features a distinctive geometric pattern with visible color banding and phantom inclusions.\n\nSpecifications:\n- Material: Fluorite with Phantom Inclusions\n- Color: Shades of purple\n- Condition: Unpolished, raw mineral specimens\n- Features: Natural fractures and edges, geometric patterns, color banding, phantom inclusions\n- Largest piece measures approximately 2.5 inches",
+    "description": "",
     "score_reasons": [
-      "Target keyword 'fluorite' in title (+9)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Target keyword 'fluorite' in title (+9)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
-        "matched_keywords": [
-          "fluorite"
-        ]
+        "matched_keywords": []
       }
     ]
   },
@@ -485,60 +475,6 @@
       }
     ]
   },
-  "ctbids-49853-5820935": {
-    "item_id": "ctbids-49853-5820935",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820935/A-Heap-of-Living-by-Edga-A-Guest",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820935_6qWbWp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49853-5820951": {
-    "item_id": "ctbids-49853-5820951",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820951/Oversized-History-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820951_AIr4WG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50051-5852709": {
     "item_id": "ctbids-50051-5852709",
     "listing_url": "https://ctbids.com/estate-sale/50051/item/5852709/Clear-Glass-Tumbler-with-White-Stripe-and-Faceted-Base-Approx-4-in",
@@ -571,33 +507,6 @@
     "listing_url": "https://ctbids.com/estate-sale/50051/item/5852727/Clear-Glass-Optic-Swirl-Vase-Pale-Aqua-Tint-Flared-Rim-Rounded-Body-Flower-Bouquet-Display",
     "images": [
       "https://image.ctbids.com/seller/2026-11-14T23166e/5780865_66ZiKj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49810-5832334": {
-    "item_id": "ctbids-49810-5832334",
-    "listing_url": "https://ctbids.com/estate-sale/49810/item/5832334/The-Ashley-2011-Flight-Winner-Bronze-Tone-Cowboy-on-Horse-Sculpture-Trophy-Western-Equestrian-Awar",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832334_y2oHfI.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -674,44 +583,6 @@
       }
     ]
   },
-  "284036031": {
-    "item_id": "284036031",
-    "listing_url": "https://shopgoodwill.com/item/284036031",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/60795d8b-0dcb-4155-aa76-486bd2026686on42_11131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/d8f3a828-50a6-4091-96c1-60ca98fbbd74on42_11132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/056c8ad4-f988-43d9-b4a2-d8eacfa75695on42_11133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/d0c47e1f-5a5b-4fbc-b792-5abcdcccdd75on42_11134.jpg"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of mineral and rock specimens including quartz clusters, a pointed crystal tower, a rough thunder egg geode, pyrite cube, and other mineral samples. The collection displays a range of colors such as clear, white, brown, tan, and metallic gold.\n\nSpecifications:\n- Mineral Types: Quartz, Pyrite, Geode, and others\n- Colors: Clear, White, Brown, Tan, Metallic Gold\n- Features: Natural crystal formations, mineral inclusions, labeled pieces\n- Condition: Used with natural wear and rough edges\n- Shapes: Varied shapes including clusters, cubes, and pointed towers",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'tower' in description (-5)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'tower' in description (-5)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "283947403": {
     "item_id": "283947403",
     "listing_url": "https://shopgoodwill.com/item/283947403",
@@ -750,30 +621,21 @@
       }
     ]
   },
-  "284078258": {
-    "item_id": "284078258",
-    "listing_url": "https://shopgoodwill.com/item/284078258",
+  "284176792": {
+    "item_id": "284176792",
+    "listing_url": "https://shopgoodwill.com/item/284176792",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/6c2c30cc-a60a-4d9b-b766-d10f67bea77ching_11131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/47d15854-6deb-4526-810f-d7e9ae442a89hing_11132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/0e2972b2-e8a8-4dc8-b5a3-7237bc0762e4hing_11133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/ba2215c5-a4dc-49b0-aa02-4cae649bb0fdhing_11134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/d45d9a3e-e392-4ddb-81a0-838db1e5bd50hing_11135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/c79a4a61-0b9c-49ae-bace-a98a23b50d5ching_11136.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/4d8570d7-1ef7-4cc5-9d48-3abe7eced4cching_11137.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/e5233f09-e937-46a7-9b90-bbc6baa55419hing_11138.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/e1dfa813-4afd-4e0a-aeac-52283c59ed53hing_11139.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/7b64639c-4dbe-403b-bd8b-736412e5aa9ahing_111310.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/bc4008e2-9146-4642-b5a5-9102f9f10714hing_111311.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/0b3f259f-9932-4701-9d8c-5b38bb8eae9bauer_11141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/f9cf4cb9-16c7-4749-b194-051cf7293c04auer_11142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/aaf1affc-56f0-451d-92b1-0c43de36b112auer_11143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/1a6b6e52-ff2a-4612-982b-d4dc3da64127auer_11144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/4d66662e-4f0f-4c30-9721-c28c6dfe5076auer_11145.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/c2300753-017b-4869-b269-5163bf241a71auer_11146.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/c92f879c-0f13-4647-a593-606c99f347d0auer_11147.jpg"
     ],
-    "description": "Lindenwold, Gem Collectors International, Ltd. Vintage Promotional and Sweepstakes Gemstones\n1 Lindenwold Garnet appx. 8mm x 6mm oval cut\n2 Lindenwold Diamond appx. 1mm round cut in a gold tone flower setting\n3 Lindenwold Clear Gemstones Presidium Gem Tester II Range: Tourmaline/Garnet/Iolite (1) appx. 6mm x 4mm, (1) appx. 7mm x 4mm, (1) appx. 8mm x 5mm\n3 Gem Collectors International, Ltd. Black Star of India semi-rough cabochons appx. 4mm, 5mm, & 8mm\n2 Gem Collectors International, Ltd. Black Star of India rough stones appx. 9mm\n6 Gem Collectors International, Ltd. Tamiz Emeralds, assorted shapes and sizes 4mm to 6mm\n1 Gem Collectors International, Ltd. Krishna Sapphire appx. 4mm\n1 Gem Collectors International, Ltd. Bengal Ruby appx. 7mm\nItem is in overall pre-owned condition, though may show various signs of wear and/or may need general cleaning and polishing; please see photos for further details of cosmetic condition. The metal content of this item has been tested and verified using the Vanta GX X-Ray Analyzer.\nThe gemstones are loose and one or more are rough, uncut, and unpolished. They have been tested using a Presidium Gem Tester II, which indicated results consistent with the list above. The physical evaluation was conducted by an experienced, but non-certified individual. While we believe the evaluation to be accurate based on the structural characteristics, this does not constitute a formal, certified gemological appraisal or an official laboratory origin report.\nIf/when provided, carat weight values and stone measurements are approximateand based on ACCESSIBLEdimensions of stones. When inaccessible, carat calculations are derived using GIA Gemstone-Specific Data to estimate the value. Details are given when possible.\nMaterial & Karats (if applicable):\nGemstones - Tested\nTotal Weight of Set:\n6.35 grams\nCondition:\nGood - shows some sign of wear\nGemstone(s):",
+    "description": "Product Overview:\nThis listing includes natural purple fluorite crystals in rough, raw mineral form. The specimens show a range of light to deep purple colors with transparent and translucent areas. One piece features a distinctive geometric pattern with visible color banding and phantom inclusions.\n\nSpecifications:\n- Material: Fluorite with Phantom Inclusions\n- Color: Shades of purple\n- Condition: Unpolished, raw mineral specimens\n- Features: Natural fractures and edges, geometric patterns, color banding, phantom inclusions\n- Largest piece measures approximately 2.5 inches",
     "score_reasons": [
-      "Opportunity term 'vintage' in description (+5)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Target keyword 'tourmaline' in description (+10)",
-      "Less relevant category 'Jewelry' (-12)",
+      "Target keyword 'fluorite' in title (+9)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -781,29 +643,62 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 6,
-        "relative_score": 0.2,
+        "score": 8,
+        "relative_score": 0.267,
         "score_reasons": [
-          "Opportunity term 'vintage' in description (+5)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Target keyword 'tourmaline' in description (+10)",
-          "Less relevant category 'Jewelry' (-12)",
+          "Target keyword 'fluorite' in title (+9)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": [
-          "tourmaline"
+          "fluorite"
         ]
       }
     ]
   },
-  "ctbids-49853-5820941": {
-    "item_id": "ctbids-49853-5820941",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820941/Gregg-Typing-Techniques-Projects",
+  "284036031": {
+    "item_id": "284036031",
+    "listing_url": "https://shopgoodwill.com/item/284036031",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820941_18T4fa.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/60795d8b-0dcb-4155-aa76-486bd2026686on42_11131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/d8f3a828-50a6-4091-96c1-60ca98fbbd74on42_11132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/056c8ad4-f988-43d9-b4a2-d8eacfa75695on42_11133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-13/d0c47e1f-5a5b-4fbc-b792-5abcdcccdd75on42_11134.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of mineral and rock specimens including quartz clusters, a pointed crystal tower, a rough thunder egg geode, pyrite cube, and other mineral samples. The collection displays a range of colors such as clear, white, brown, tan, and metallic gold.\n\nSpecifications:\n- Mineral Types: Quartz, Pyrite, Geode, and others\n- Colors: Clear, White, Brown, Tan, Metallic Gold\n- Features: Natural crystal formations, mineral inclusions, labeled pieces\n- Condition: Used with natural wear and rough edges\n- Shapes: Varied shapes including clusters, cubes, and pointed towers",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tower' in description (-5)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tower' in description (-5)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49853-5820935": {
+    "item_id": "ctbids-49853-5820935",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820935/A-Heap-of-Living-by-Edga-A-Guest",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820935_6qWbWp.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -826,11 +721,11 @@
       }
     ]
   },
-  "ctbids-49853-5821650": {
-    "item_id": "ctbids-49853-5821650",
-    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821650/Rosenthal-Selb-Germany-Aida-Moss-Rose-Porcelain-Footed-Bowl-Silver-Weighted-Rim",
+  "ctbids-49853-5820951": {
+    "item_id": "ctbids-49853-5820951",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820951/Oversized-History-Books",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5821650_vHyxfU.webp"
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820951_AIr4WG.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -846,33 +741,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49790-5814727": {
-    "item_id": "ctbids-49790-5814727",
-    "listing_url": "https://ctbids.com/estate-sale/49790/item/5814727/Malachite-Cabochon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814727_gKQFdL.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -934,15 +802,15 @@
       }
     ]
   },
-  "ctbids-49087-5758463": {
-    "item_id": "ctbids-49087-5758463",
-    "listing_url": "https://ctbids.com/estate-sale/49087/item/5758463/1960s-Panasonic-Transistor-Radios",
+  "ctbids-49810-5832334": {
+    "item_id": "ctbids-49810-5832334",
+    "listing_url": "https://ctbids.com/estate-sale/49810/item/5832334/The-Ashley-2011-Flight-Winner-Bronze-Tone-Cowboy-on-Horse-Sculpture-Trophy-Western-Equestrian-Awar",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5758463_SyB4WC.webp"
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832334_y2oHfI.webp"
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -953,7 +821,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "2 bids near close (+2)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -961,74 +829,51 @@
       }
     ]
   },
-  "ctbids-49829-5512950": {
-    "item_id": "ctbids-49829-5512950",
-    "listing_url": "https://ctbids.com/estate-sale/49829/item/5512950/P-Gems-1",
+  "284078258": {
+    "item_id": "284078258",
+    "listing_url": "https://shopgoodwill.com/item/284078258",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-13T032a65/5512950_W98Kjg.webp"
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/6c2c30cc-a60a-4d9b-b766-d10f67bea77ching_11131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/47d15854-6deb-4526-810f-d7e9ae442a89hing_11132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/0e2972b2-e8a8-4dc8-b5a3-7237bc0762e4hing_11133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/ba2215c5-a4dc-49b0-aa02-4cae649bb0fdhing_11134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/d45d9a3e-e392-4ddb-81a0-838db1e5bd50hing_11135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/c79a4a61-0b9c-49ae-bace-a98a23b50d5ching_11136.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/4d8570d7-1ef7-4cc5-9d48-3abe7eced4cching_11137.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/e5233f09-e937-46a7-9b90-bbc6baa55419hing_11138.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/e1dfa813-4afd-4e0a-aeac-52283c59ed53hing_11139.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/7b64639c-4dbe-403b-bd8b-736412e5aa9ahing_111310.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/63/Items/2026-11-13/bc4008e2-9146-4642-b5a5-9102f9f10714hing_111311.jpg"
     ],
-    "description": "",
+    "description": "Lindenwold, Gem Collectors International, Ltd. Vintage Promotional and Sweepstakes Gemstones\n1 Lindenwold Garnet appx. 8mm x 6mm oval cut\n2 Lindenwold Diamond appx. 1mm round cut in a gold tone flower setting\n3 Lindenwold Clear Gemstones Presidium Gem Tester II Range: Tourmaline/Garnet/Iolite (1) appx. 6mm x 4mm, (1) appx. 7mm x 4mm, (1) appx. 8mm x 5mm\n3 Gem Collectors International, Ltd. Black Star of India semi-rough cabochons appx. 4mm, 5mm, & 8mm\n2 Gem Collectors International, Ltd. Black Star of India rough stones appx. 9mm\n6 Gem Collectors International, Ltd. Tamiz Emeralds, assorted shapes and sizes 4mm to 6mm\n1 Gem Collectors International, Ltd. Krishna Sapphire appx. 4mm\n1 Gem Collectors International, Ltd. Bengal Ruby appx. 7mm\nItem is in overall pre-owned condition, though may show various signs of wear and/or may need general cleaning and polishing; please see photos for further details of cosmetic condition. The metal content of this item has been tested and verified using the Vanta GX X-Ray Analyzer.\nThe gemstones are loose and one or more are rough, uncut, and unpolished. They have been tested using a Presidium Gem Tester II, which indicated results consistent with the list above. The physical evaluation was conducted by an experienced, but non-certified individual. While we believe the evaluation to be accurate based on the structural characteristics, this does not constitute a formal, certified gemological appraisal or an official laboratory origin report.\nIf/when provided, carat weight values and stone measurements are approximateand based on ACCESSIBLEdimensions of stones. When inaccessible, carat calculations are derived using GIA Gemstone-Specific Data to estimate the value. Details are given when possible.\nMaterial & Karats (if applicable):\nGemstones - Tested\nTotal Weight of Set:\n6.35 grams\nCondition:\nGood - shows some sign of wear\nGemstone(s):",
     "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283933631": {
-    "item_id": "283933631",
-    "listing_url": "https://shopgoodwill.com/item/283933631",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/d6ea297a-6454-48b0-a4cd-57efcbd43151ey02_11121.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/740ff989-087c-4b76-92d4-90846c700e11ey02_11122.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/b4497d9e-6919-4392-ae85-2ace124cf3c0ey02_11123.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/bbae7b8c-6cb0-457b-b7e6-7899d0756d5cey02_11124.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/06893987-14d1-47ed-9ced-e900a3a791d9ey02_11125.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/706498f2-8ce7-45b7-960d-0cbe2ad95947ey02_11126.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/d0f7a74d-db5f-4cf1-a5f8-cc6598ff4126ey02_11127.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/98e84d86-bac7-4b60-a595-290d7ef5d7a1ey02_11128.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/ac402808-9cd1-4310-a2c5-e2646ea50eb1ey02_11129.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/a401fc16-9cff-46b2-8f55-577d06fc47e6ey02_111210.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/4101265f-c368-4322-9b2f-c2d1d3466ae7ey02_111211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/c46ba3f6-3998-4024-9df8-8a7477556dd0ey02_111212.jpg"
-    ],
-    "description": "You are purchasing a \"Parker 51 Fountain Pen and Mechanical Pencil with Case\" in \"Used\" condition.\nPen measures approx. 5.5 x 0.5 x 0.5\".\nCase measures approx. 6 x 3 x 1\"\nCondition Notes:\nBoth writing instruments have surface scratches and scuffs, particularly on the gold-colored caps. The black bodies show marks. The case has worn edges, and its interior lining shows discoloration and fraying around the retaining cords. The pen appears to be out of ink and the pencil has no led in it. Sold as-is.\nAspects:\nType: Fountain Pen\nBrand: Parker\nMaterial: Black bodies with gold-colored caps; one cap marked 14K GOLD\nInk Color: N/a\nPersonalized: No\nCountry of Origin: United States",
-    "score_reasons": [
-      "Lower-priority term 'personalized' in description (-13)",
-      "Target keyword 'parker 51' in title (+11)",
-      "Target keyword 'parker' in title (+8)",
-      "Shipping is calculated and not included in the price (-4)",
+      "Opportunity term 'vintage' in description (+5)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Target keyword 'tourmaline' in description (+10)",
+      "Less relevant category 'Jewelry' (-12)",
+      "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 7,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
         "relative_score": 0.2,
         "score_reasons": [
-          "Lower-priority term 'personalized' in description (-13)",
-          "Target keyword 'parker 51' in title (+11)",
-          "Target keyword 'parker' in title (+8)",
-          "Shipping is calculated and not included in the price (-4)",
+          "Opportunity term 'vintage' in description (+5)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Target keyword 'tourmaline' in description (+10)",
+          "Less relevant category 'Jewelry' (-12)",
+          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": [
-          "parker",
-          "parker 51"
+          "tourmaline"
         ]
       }
     ]
@@ -1183,6 +1028,56 @@
       }
     ]
   },
+  "ctbids-49853-5820941": {
+    "item_id": "ctbids-49853-5820941",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5820941/Gregg-Typing-Techniques-Projects",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820941_18T4fa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49853-5821650": {
+    "item_id": "ctbids-49853-5821650",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821650/Rosenthal-Selb-Germany-Aida-Moss-Rose-Porcelain-Footed-Bowl-Silver-Weighted-Rim",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5821650_vHyxfU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49829-5468195": {
     "item_id": "ctbids-49829-5468195",
     "listing_url": "https://ctbids.com/estate-sale/49829/item/5468195/Corundum-V-Ruby-Assorted-Locations",
@@ -1208,11 +1103,86 @@
       }
     ]
   },
+  "ctbids-49790-5814727": {
+    "item_id": "ctbids-49790-5814727",
+    "listing_url": "https://ctbids.com/estate-sale/49790/item/5814727/Malachite-Cabochon",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814727_gKQFdL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49810-5819750": {
     "item_id": "ctbids-49810-5819750",
     "listing_url": "https://ctbids.com/estate-sale/49810/item/5819750/1995-Russian-Palekh-Hand-Painted-Lacquer-Box-Battle-of-Dmitry-Donskoy-Peresvet-Chelub-by-Vagin",
     "images": [
       "https://image.ctbids.com/seller/2026-11-05Tc85059/5819750_gMxOjl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49087-5758463": {
+    "item_id": "ctbids-49087-5758463",
+    "listing_url": "https://ctbids.com/estate-sale/49087/item/5758463/1960s-Panasonic-Transistor-Radios",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-20T02dbd2/5758463_SyB4WC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49829-5512950": {
+    "item_id": "ctbids-49829-5512950",
+    "listing_url": "https://ctbids.com/estate-sale/49829/item/5512950/P-Gems-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-13T032a65/5512950_W98Kjg.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1283,6 +1253,51 @@
       }
     ]
   },
+  "283933631": {
+    "item_id": "283933631",
+    "listing_url": "https://shopgoodwill.com/item/283933631",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/d6ea297a-6454-48b0-a4cd-57efcbd43151ey02_11121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/740ff989-087c-4b76-92d4-90846c700e11ey02_11122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/b4497d9e-6919-4392-ae85-2ace124cf3c0ey02_11123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/bbae7b8c-6cb0-457b-b7e6-7899d0756d5cey02_11124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/06893987-14d1-47ed-9ced-e900a3a791d9ey02_11125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/706498f2-8ce7-45b7-960d-0cbe2ad95947ey02_11126.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/d0f7a74d-db5f-4cf1-a5f8-cc6598ff4126ey02_11127.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/98e84d86-bac7-4b60-a595-290d7ef5d7a1ey02_11128.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/ac402808-9cd1-4310-a2c5-e2646ea50eb1ey02_11129.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/a401fc16-9cff-46b2-8f55-577d06fc47e6ey02_111210.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/4101265f-c368-4322-9b2f-c2d1d3466ae7ey02_111211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-12/c46ba3f6-3998-4024-9df8-8a7477556dd0ey02_111212.jpg"
+    ],
+    "description": "You are purchasing a \"Parker 51 Fountain Pen and Mechanical Pencil with Case\" in \"Used\" condition.\nPen measures approx. 5.5 x 0.5 x 0.5\".\nCase measures approx. 6 x 3 x 1\"\nCondition Notes:\nBoth writing instruments have surface scratches and scuffs, particularly on the gold-colored caps. The black bodies show marks. The case has worn edges, and its interior lining shows discoloration and fraying around the retaining cords. The pen appears to be out of ink and the pencil has no led in it. Sold as-is.\nAspects:\nType: Fountain Pen\nBrand: Parker\nMaterial: Black bodies with gold-colored caps; one cap marked 14K GOLD\nInk Color: N/a\nPersonalized: No\nCountry of Origin: United States",
+    "score_reasons": [
+      "Lower-priority term 'personalized' in description (-13)",
+      "Target keyword 'parker 51' in title (+11)",
+      "Target keyword 'parker' in title (+8)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 7,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Lower-priority term 'personalized' in description (-13)",
+          "Target keyword 'parker 51' in title (+11)",
+          "Target keyword 'parker' in title (+8)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "parker",
+          "parker 51"
+        ]
+      }
+    ]
+  },
   "ctbids-49440-5791254": {
     "item_id": "ctbids-49440-5791254",
     "listing_url": "https://ctbids.com/estate-sale/49440/item/5791254/Pair-of-Vintage-1950-Coronado-AM-FM-Bakelite-Tabletop-Tube-Radios-Matching-Mid-Century-Set",
@@ -1291,10 +1306,9 @@
     ],
     "description": "",
     "score_reasons": [
-      "2 bids near close (+2)",
       "Only 1 listing photo (-12)",
       "Base score (+5)",
-      "Score boundary adjustment (+5)"
+      "Score boundary adjustment (+7)"
     ],
     "hunt_scores": [
       {
@@ -1303,21 +1317,19 @@
         "score": 0,
         "relative_score": 0.0,
         "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-12)",
           "Base score (+5)",
-          "Score boundary adjustment (+5)"
+          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
