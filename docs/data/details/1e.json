@@ -14,7 +14,6 @@
     "description": "*Reserve is $5",
     "score_reasons": [
       "High-value signal '18k' in title (+24)",
-      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -22,11 +21,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 32,
-        "relative_score": 0.941,
+        "score": 30,
+        "relative_score": 0.882,
         "score_reasons": [
           "High-value signal '18k' in title (+24)",
-          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -202,17 +200,43 @@
       }
     ]
   },
-  "ctbids-49488-5821744": {
-    "item_id": "ctbids-49488-5821744",
-    "listing_url": "https://ctbids.com/estate-sale/49488/item/5821744/Vintage-3-Piece-Vintage-Religious-Decor-Lot-Jesus-Wood-Carving-Cross-Framed-Print",
+  "ctbids-49790-5829871": {
+    "item_id": "ctbids-49790-5829871",
+    "listing_url": "https://ctbids.com/estate-sale/49790/item/5829871/Moissanite-Sterling-Silver-Statement-Ring",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5821744_EQGVlb.webp"
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5829871_3DA9zh.webp"
     ],
     "description": "",
     "score_reasons": [
+      "High-value signal 'sterling silver' in title (+18)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 19,
+        "relative_score": 0.559,
+        "score_reasons": [
+          "High-value signal 'sterling silver' in title (+18)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49760-5808965": {
+    "item_id": "ctbids-49760-5808965",
+    "listing_url": "https://ctbids.com/estate-sale/49760/item/5808965/Vintage-Dansk-Jens-Quistgaard-Digsmed-Denmark-Teak-Wood-Serving-Collection-4-Pc",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808965_GFWJkF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -223,198 +247,8 @@
         "score": 12,
         "relative_score": 0.353,
         "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49706-5812549": {
-    "item_id": "ctbids-49706-5812549",
-    "listing_url": "https://ctbids.com/estate-sale/49706/item/5812549/4-Factory-Sealed-1992-Upper-Deck-Baseball-Foil-Packs-Low-Series-Series-1-design",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5812549_N1RyRV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49427-5784888": {
-    "item_id": "ctbids-49427-5784888",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5784888/Vintage-Brown-Drip-Glaze-Pottery-Set-with-Brinn-s-Pittsburgh-Teapot-Dinner-Plates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-28Tbd4550/5784888_BWnJbM.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49488-5815230": {
-    "item_id": "ctbids-49488-5815230",
-    "listing_url": "https://ctbids.com/estate-sale/49488/item/5815230/Vintage-Scrabble-Rack-O-Aggravation-And-More-Games",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5815230_YcaIP6.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49536-5801865": {
-    "item_id": "ctbids-49536-5801865",
-    "listing_url": "https://ctbids.com/estate-sale/49536/item/5801865/Vintage-Christmas-Toys-Books-Santa-Spud-Mr-Potato-Head-Wooden-Puzzle-Musical-Plush",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-02T03af44/5801865_10U1PD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49427-5778514": {
-    "item_id": "ctbids-49427-5778514",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5778514/Rustic-Kitchen-Decor-Amber-Glass-Canisters-Wicker-Basket-Stoneware-Mug-Carved-Wood-Box",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5778514_AGOfMb.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49427-5787931": {
-    "item_id": "ctbids-49427-5787931",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5787931/Countertop-Convenience-Black-and-Decker-Toast-R-Oven-Toaster-Oven-with-Bake-Broil-Bagel-Setting",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5787931_giKWDA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49427-5792062": {
-    "item_id": "ctbids-49427-5792062",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5792062/Retro-Kitchen-Classic-Black-and-Decker-Continuous-Cleaning-6-Slice-Toast-R-Oven-with-Wood-Top",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5792062_veUOKo.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -449,91 +283,6 @@
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283740087": {
-    "item_id": "283740087",
-    "listing_url": "https://shopgoodwill.com/item/283740087",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-11-10/12c109f8-5025-4b49-bf15-ea6491368ec5gdan_11101.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-11-10/b0df1333-db48-43e4-83be-50913554018fgdan_11102.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-11-10/a2522b13-7527-4d9c-bc89-c8806cde4985gdan_11103.jpg"
-    ],
-    "description": "Collection of assorted rough, unpolished mineral and gemstone specimens. Includes multiple pieces in shades of purple, green, pink, and one small blue piece. Stones are natural, uncut, and display raw, jagged edges typical of mineral samples. All specimens are in good condition with natural surface texture and no visible damage. Suitable for collectors, crystal enthusiasts, or educational use.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49427-5792472": {
-    "item_id": "ctbids-49427-5792472",
-    "listing_url": "https://ctbids.com/estate-sale/49427/item/5792472/Library-Study-D-cor-French-Horn-Still-Life-Art-Faux-Book-Trinket-Boxes-Gold-Photo-Frames",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5792472_me4oJT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49706-5812520": {
-    "item_id": "ctbids-49706-5812520",
-    "listing_url": "https://ctbids.com/estate-sale/49706/item/5812520/1968-B-Switzerland-Standing-Helvetica-2-Franc-Coin",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5812520_05ye6R.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -620,14 +369,15 @@
       }
     ]
   },
-  "ctbids-49716-5820665": {
-    "item_id": "ctbids-49716-5820665",
-    "listing_url": "https://ctbids.com/estate-sale/49716/item/5820665/The-Night-Before-Christmas",
+  "ctbids-50051-5852696": {
+    "item_id": "ctbids-50051-5852696",
+    "listing_url": "https://ctbids.com/estate-sale/50051/item/5852696/Vintage-Clear-Glass-Goblet-Starburst-Ribbed-Footed-Base",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5820665_42yftb.webp"
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5625492_vNI0Pc.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -635,9 +385,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -645,14 +396,15 @@
       }
     ]
   },
-  "ctbids-49716-5822062": {
-    "item_id": "ctbids-49716-5822062",
-    "listing_url": "https://ctbids.com/estate-sale/49716/item/5822062/Harley-Davidson-Ken-And-Barbie",
+  "ctbids-49853-5821002": {
+    "item_id": "ctbids-49853-5821002",
+    "listing_url": "https://ctbids.com/estate-sale/49853/item/5821002/5-Vintage-Felt-Pennants",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5822062_rN862c.webp"
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5821002_ChWFRS.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -660,9 +412,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -670,26 +423,32 @@
       }
     ]
   },
-  "ctbids-49706-5812523": {
-    "item_id": "ctbids-49706-5812523",
-    "listing_url": "https://ctbids.com/estate-sale/49706/item/5812523/1995-Upper-Deck-Michael-Jordan-Barons-45-White-Sox-Top-Prospect-Baseball-Card",
+  "283740087": {
+    "item_id": "283740087",
+    "listing_url": "https://shopgoodwill.com/item/283740087",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5812523_EWztwm.webp"
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-11-10/12c109f8-5025-4b49-bf15-ea6491368ec5gdan_11101.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-11-10/b0df1333-db48-43e4-83be-50913554018fgdan_11102.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/345/Item/2026-11-10/a2522b13-7527-4d9c-bc89-c8806cde4985gdan_11103.jpg"
     ],
-    "description": "",
+    "description": "Collection of assorted rough, unpolished mineral and gemstone specimens. Includes multiple pieces in shades of purple, green, pink, and one small blue piece. Stones are natural, uncut, and display raw, jagged edges typical of mineral samples. All specimens are in good condition with natural surface texture and no visible damage. Suitable for collectors, crystal enthusiasts, or educational use.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 8,
+        "relative_score": 0.267,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1050,6 +809,131 @@
     "listing_url": "https://ctbids.com/estate-sale/49087/item/5778656/Christmas-Cookies-from-Yesteryear",
     "images": [
       "https://image.ctbids.com/seller/2026-10-26Te92adc/5778656_O7HHxL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49728-5816063": {
+    "item_id": "ctbids-49728-5816063",
+    "listing_url": "https://ctbids.com/estate-sale/49728/item/5816063/MS315-4-Big-Eye-Child-Portraits-Oil-on-Canvas",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5816063_V9QAK6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49840-5829809": {
+    "item_id": "ctbids-49840-5829809",
+    "listing_url": "https://ctbids.com/estate-sale/49840/item/5829809/1976-Topps-Rookie-Pitchers-589-PSA-7-NM-Santo-Alcala-Mike-Flanagan",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5183293_U4JCh9.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49627-5814113": {
+    "item_id": "ctbids-49627-5814113",
+    "listing_url": "https://ctbids.com/estate-sale/49627/item/5814113/Hand-Carved-Two-Toned-Wood-Travel-Chess-Set-With-Hand-Carved-Wood-Pieces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814113_9Rao9E.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49609-5796037": {
+    "item_id": "ctbids-49609-5796037",
+    "listing_url": "https://ctbids.com/estate-sale/49609/item/5796037/Silver-Tone-Fashion-Necklaces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5796037_Ng2tcD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48761-5801539": {
+    "item_id": "ctbids-48761-5801539",
+    "listing_url": "https://ctbids.com/estate-sale/48761/item/5801539/Pink-Thulite-Toggle-Bracelet",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5801539_272wHw.webp"
     ],
     "description": "",
     "score_reasons": [
