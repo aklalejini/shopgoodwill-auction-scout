@@ -169,6 +169,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -176,11 +177,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -208,71 +210,6 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49917-5841340": {
-    "item_id": "ctbids-49917-5841340",
-    "listing_url": "https://ctbids.com/estate-sale/49917/item/5841340/Vtg-Kundo-Kieninger-Obergfell-W-Germany-400-day-Anniversary-Clock-Glass-Dome-w-Key",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841340_3EnWFz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Naive utility-glass wording may hide an unrecognized insulator (+16)",
-      "Only 1 listing photo (-12)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 9,
-        "relative_score": 0.3,
-        "score_reasons": [
-          "Naive utility-glass wording may hide an unrecognized insulator (+16)",
-          "Only 1 listing photo (-12)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49479-5827623": {
-    "item_id": "ctbids-49479-5827623",
-    "listing_url": "https://ctbids.com/estate-sale/49479/item/5827623/Hummels-Collection-1232",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5827623_yRAUR1.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -334,6 +271,60 @@
       }
     ]
   },
+  "ctbids-49479-5827623": {
+    "item_id": "ctbids-49479-5827623",
+    "listing_url": "https://ctbids.com/estate-sale/49479/item/5827623/Hummels-Collection-1232",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5827623_yRAUR1.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49708-5819329": {
+    "item_id": "ctbids-49708-5819329",
+    "listing_url": "https://ctbids.com/estate-sale/49708/item/5819329/Handpainted-Portugal-Vase-Pitcher-Italy-Bowl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5819329_6z6n6b.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49917-5835865": {
     "item_id": "ctbids-49917-5835865",
     "listing_url": "https://ctbids.com/estate-sale/49917/item/5835865/Vintage-Pentax-UCF-Binoculars-Pocket-Monocular-Telescope-Japan-w-Cases",
@@ -356,48 +347,6 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283842307": {
-    "item_id": "283842307",
-    "listing_url": "https://shopgoodwill.com/item/283842307",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/9ba4c8be-e704-4798-a67d-8110d178e9d4gwco_10231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/fb38591e-9a25-4d3e-9b72-46a185da8680gwco_10232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/40c17b61-4744-44be-96de-51009a114b55gwco_10233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/73/Items/2026-10-23/9d666f6d-f486-4699-9096-086fa2844b63gwco_10234.jpg"
-    ],
-    "description": "Title:\nCut Geode Crystal Mineral Specimen Natural Stone Decor Display Piece\nDepartment:\nCollectibles & Art\nCondition:\nUsed\nCondition Description:\nUsed - edge roughness, natural surface, clean\nProduct Category:\nCollectibles > Rocks\nDescription:\nAdd a touch of natural elegance to your space with this striking cut geode. Featuring a polished face that reveals stunning crystal formations and unique banding, this piece dazzles with a blend of gray, white, and earthy tones. The irregular geometric slice contrasts beautifully with its rugged back and edges, making it an eye-catching decorative object for shelves, desks, or bookcases. Crafted from genuine geode, the stone's polished surface highlights captivating natural patterns while the rough back delivers rustic charm. Its sturdy flat bottom allows for easy upright display, letting light play across the crystalline interior for a beautiful effect. Perfect for collectors, enthusiasts, or anyone looking to bring natural artistry into their decor. This geode shows minor edge roughness yet remains clean and visually impressive. Display as a standalone piece or pair with other minerals for a curated look",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'rocks' in description (+1)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'decor' in title (-8)",
-      "0 bids near close (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+7)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'rocks' in description (+1)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'decor' in title (-8)",
-          "0 bids near close (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       }
@@ -435,46 +384,6 @@
       }
     ]
   },
-  "283822592": {
-    "item_id": "283822592",
-    "listing_url": "https://shopgoodwill.com/item/283822592",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/99484239-2ba0-4dc3-8950-38d459bc62682999_11111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/480a6fed-640a-428d-aab6-5adbf7f4bc092999_11112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/0f0aee3a-6371-425e-a825-d71a762f97e32999_11113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/8893143b-08de-4646-8fb7-a109569b9b652999_11114.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/6f830bd9-91b1-482f-84fa-6d288102a6042999_11115.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/2d8cda49-0af7-4fdd-90ad-739acd8d571b2999_11116.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/29907e05-a66a-4290-8917-4aaaaccc8f962999_11117.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/a87c9635-2cd0-4e54-a372-3e41478367d22999_11118.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/417496a5-6a0e-41df-9d30-18239405d0fd2999_11119.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/2536b418-248f-4d8c-bdb9-81439adfe2422999_111110.jpg"
-    ],
-    "description": "Condition:\nItems show wear from age and use.\nBrand/Markings:\nUnbranded\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Wenatchee\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'lot' in description (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "20 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'lot' in description (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "20 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49604-5797558": {
     "item_id": "ctbids-49604-5797558",
     "listing_url": "https://ctbids.com/estate-sale/49604/item/5797558/Metal-Sailing-Ship-Sculpture-Nautical-Decor",
@@ -483,6 +392,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -490,9 +400,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -505,31 +416,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49708/item/5835241/Peacock-Felt-Painting-14-X-17",
     "images": [
       "https://image.ctbids.com/seller/2026-11-10Td744c0/5835241_u9xmRf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49708-5819329": {
-    "item_id": "ctbids-49708-5819329",
-    "listing_url": "https://ctbids.com/estate-sale/49708/item/5819329/Handpainted-Portugal-Vase-Pitcher-Italy-Bowl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5819329_6z6n6b.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -750,6 +636,46 @@
       }
     ]
   },
+  "283822592": {
+    "item_id": "283822592",
+    "listing_url": "https://shopgoodwill.com/item/283822592",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/99484239-2ba0-4dc3-8950-38d459bc62682999_11111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/480a6fed-640a-428d-aab6-5adbf7f4bc092999_11112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/0f0aee3a-6371-425e-a825-d71a762f97e32999_11113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/8893143b-08de-4646-8fb7-a109569b9b652999_11114.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/6f830bd9-91b1-482f-84fa-6d288102a6042999_11115.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/2d8cda49-0af7-4fdd-90ad-739acd8d571b2999_11116.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/29907e05-a66a-4290-8917-4aaaaccc8f962999_11117.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/a87c9635-2cd0-4e54-a372-3e41478367d22999_11118.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/417496a5-6a0e-41df-9d30-18239405d0fd2999_11119.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-11/2536b418-248f-4d8c-bdb9-81439adfe2422999_111110.jpg"
+    ],
+    "description": "Condition:\nItems show wear from age and use.\nBrand/Markings:\nUnbranded\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Wenatchee\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'lot' in description (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "20 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'lot' in description (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "20 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49952-5837322": {
     "item_id": "ctbids-49952-5837322",
     "listing_url": "https://ctbids.com/estate-sale/49952/item/5837322/2-1982-Topps-Football-Cards-CGC-Graded",
@@ -962,6 +888,48 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49917-5841340": {
+    "item_id": "ctbids-49917-5841340",
+    "listing_url": "https://ctbids.com/estate-sale/49917/item/5841340/Vtg-Kundo-Kieninger-Obergfell-W-Germany-400-day-Anniversary-Clock-Glass-Dome-w-Key",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841340_3EnWFz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+      "12 bids near close show the opportunity is noticed (-12)",
+      "Only 1 listing photo (-12)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Naive utility-glass wording may hide an unrecognized insulator (+16)",
+          "12 bids near close show the opportunity is noticed (-12)",
+          "Only 1 listing photo (-12)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",

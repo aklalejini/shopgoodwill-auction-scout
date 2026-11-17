@@ -26,6 +26,7 @@
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in description (+5)",
       "High-value signal 'sterling silver' in title (+18)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -33,12 +34,13 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 35,
-        "relative_score": 1.029,
+        "score": 37,
+        "relative_score": 1.088,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in description (+5)",
           "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -327,6 +329,33 @@
       }
     ]
   },
+  "ctbids-49308-5841588": {
+    "item_id": "ctbids-49308-5841588",
+    "listing_url": "https://ctbids.com/estate-sale/49308/item/5841588/Three-Vintage-Wooden-Coca-Cola-Crates",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841588_pEHjw4.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "284070379": {
     "item_id": "284070379",
     "listing_url": "https://shopgoodwill.com/item/284070379",
@@ -359,87 +388,6 @@
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49308-5841588": {
-    "item_id": "ctbids-49308-5841588",
-    "listing_url": "https://ctbids.com/estate-sale/49308/item/5841588/Three-Vintage-Wooden-Coca-Cola-Crates",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841588_pEHjw4.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48894-5811294": {
-    "item_id": "ctbids-48894-5811294",
-    "listing_url": "https://ctbids.com/estate-sale/48894/item/5811294/Vintage-Cocktail-Forks-Holders",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5811294_2QSjwQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48755-5691318": {
-    "item_id": "ctbids-48755-5691318",
-    "listing_url": "https://ctbids.com/estate-sale/48755/item/5691318/Vintage-Cloisonne-Chinese-Enamel-Ducks-Bird",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5691318_FoH9Qz.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -526,6 +474,87 @@
       }
     ]
   },
+  "ctbids-48894-5811294": {
+    "item_id": "ctbids-48894-5811294",
+    "listing_url": "https://ctbids.com/estate-sale/48894/item/5811294/Vintage-Cocktail-Forks-Holders",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5811294_2QSjwQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48755-5691318": {
+    "item_id": "ctbids-48755-5691318",
+    "listing_url": "https://ctbids.com/estate-sale/48755/item/5691318/Vintage-Cloisonne-Chinese-Enamel-Ducks-Bird",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-05T0c66fb/5691318_FoH9Qz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49901-5827433": {
+    "item_id": "ctbids-49901-5827433",
+    "listing_url": "https://ctbids.com/estate-sale/49901/item/5827433/1995-Sportflix-Baseball-Card-Cal-Ripken-Jr-Power-Motion-Card-PM3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5827433_iivDqk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49713-5832027": {
     "item_id": "ctbids-49713-5832027",
     "listing_url": "https://ctbids.com/estate-sale/49713/item/5832027/Asian-Porcelain-Vases-with-Floral-Planter-and-Trinket-Boxes",
@@ -581,31 +610,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49952/item/5836067/1915-S-1915-D-Lincoln-Wheat-Cents-Better-Dates-NGC-VG-10-VF-30",
     "images": [
       "https://image.ctbids.com/seller/2026-11-10Td744c0/5836067_6dCoRy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49901-5827433": {
-    "item_id": "ctbids-49901-5827433",
-    "listing_url": "https://ctbids.com/estate-sale/49901/item/5827433/1995-Sportflix-Baseball-Card-Cal-Ripken-Jr-Power-Motion-Card-PM3",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5827433_iivDqk.webp"
     ],
     "description": "",
     "score_reasons": [

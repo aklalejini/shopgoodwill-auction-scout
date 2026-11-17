@@ -306,6 +306,37 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5800709": {
+    "item_id": "ctbids-49620-5800709",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5800709/Antique-German-Porcelain-Peacock-Spill-Vases-Mirror-Pair-Impressed-Mark-1180",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-01T19bae7/5800709_X63w4E.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'antique' in title (+7)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -316,8 +347,8 @@
         "score": 10,
         "relative_score": 0.294,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
+          "Opportunity term 'antique' in title (+7)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -406,65 +437,11 @@
       }
     ]
   },
-  "ctbids-49620-5800709": {
-    "item_id": "ctbids-49620-5800709",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5800709/Antique-German-Porcelain-Peacock-Spill-Vases-Mirror-Pair-Impressed-Mark-1180",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-01T19bae7/5800709_X63w4E.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'antique' in title (+7)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49714-5807522": {
     "item_id": "ctbids-49714-5807522",
     "listing_url": "https://ctbids.com/estate-sale/49714/item/5807522/Disney-Beauty-and-the-Beast-Belle-Signature-Collection-Doll-Beast-Plush-Figure",
     "images": [
       "https://image.ctbids.com/seller/2026-11-03T8cd417/5807522_KQfgJe.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-44458-5090895": {
-    "item_id": "ctbids-44458-5090895",
-    "listing_url": "https://ctbids.com/estate-sale/44458/item/5090895/Life-Magazine-Collection-Best-Of-Life-1995-1999-Life-Albums-Princess-Diana-John-F-Kennedy-Jr",
-    "images": [
-      "https://image.ctbids.com/seller/2026-04-17T77bf82/5090895_n7Vn9p.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -534,6 +511,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-44458-5090895": {
+    "item_id": "ctbids-44458-5090895",
+    "listing_url": "https://ctbids.com/estate-sale/44458/item/5090895/Life-Magazine-Collection-Best-Of-Life-1995-1999-Life-Albums-Princess-Diana-John-F-Kennedy-Jr",
+    "images": [
+      "https://image.ctbids.com/seller/2026-04-17T77bf82/5090895_n7Vn9p.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -632,6 +636,114 @@
         "matched_keywords": [
           "fluorite"
         ]
+      }
+    ]
+  },
+  "ctbids-49708-5835898": {
+    "item_id": "ctbids-49708-5835898",
+    "listing_url": "https://ctbids.com/estate-sale/49708/item/5835898/Wilton-Stede-Pewter-Plates-Bowls-19-Pieces-Total",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835898_9xAvU2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49431-5845760": {
+    "item_id": "ctbids-49431-5845760",
+    "listing_url": "https://ctbids.com/estate-sale/49431/item/5845760/Roll-Of-Material",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5845760_BI6mJ2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49431-5791662": {
+    "item_id": "ctbids-49431-5791662",
+    "listing_url": "https://ctbids.com/estate-sale/49431/item/5791662/Spoons",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791662_Tergkm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50049-5851343": {
+    "item_id": "ctbids-50049-5851343",
+    "listing_url": "https://ctbids.com/estate-sale/50049/item/5851343/4-Pairs-of-Dangle-Earrings-Yellow-Stars-Cloisonn-Style-Floral-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-13T4548b7/5851343_KAn718.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -760,31 +872,6 @@
       }
     ]
   },
-  "ctbids-49708-5835898": {
-    "item_id": "ctbids-49708-5835898",
-    "listing_url": "https://ctbids.com/estate-sale/49708/item/5835898/Wilton-Stede-Pewter-Plates-Bowls-19-Pieces-Total",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835898_9xAvU2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49856-5833106": {
     "item_id": "ctbids-49856-5833106",
     "listing_url": "https://ctbids.com/estate-sale/49856/item/5833106/Sports-Trading-Cards-Pro-Set-Football-Topps-1987-Guinness-Record-Book-King-James-Comic",
@@ -835,31 +922,6 @@
       }
     ]
   },
-  "ctbids-49431-5845760": {
-    "item_id": "ctbids-49431-5845760",
-    "listing_url": "https://ctbids.com/estate-sale/49431/item/5845760/Roll-Of-Material",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5845760_BI6mJ2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48894-5821752": {
     "item_id": "ctbids-48894-5821752",
     "listing_url": "https://ctbids.com/estate-sale/48894/item/5821752/Bob-Mackie-Long-Short-Sleeve-Shirts",
@@ -890,56 +952,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49708/item/5840367/Floral-Lockets-More-Costume-Jewelry",
     "images": [
       "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840367_xN1t96.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49431-5791662": {
-    "item_id": "ctbids-49431-5791662",
-    "listing_url": "https://ctbids.com/estate-sale/49431/item/5791662/Spoons",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791662_Tergkm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50049-5851343": {
-    "item_id": "ctbids-50049-5851343",
-    "listing_url": "https://ctbids.com/estate-sale/50049/item/5851343/4-Pairs-of-Dangle-Earrings-Yellow-Stars-Cloisonn-Style-Floral-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-13T4548b7/5851343_KAn718.webp"
     ],
     "description": "",
     "score_reasons": [
