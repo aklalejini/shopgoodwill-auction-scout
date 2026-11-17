@@ -47,6 +47,7 @@
       "Opportunity term 'mixed' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Lower-priority term 'possibly' in description (-4)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -54,16 +55,46 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 22,
-        "relative_score": 0.733,
+        "score": 26,
+        "relative_score": 0.867,
         "score_reasons": [
           "Opportunity term 'collection' in description (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'mixed' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Lower-priority term 'possibly' in description (-4)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49911-5847075": {
+    "item_id": "ctbids-49911-5847075",
+    "listing_url": "https://ctbids.com/estate-sale/49911/item/5847075/Studio-Art-Pottery",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5847075_9GMCMq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "High-value signal 'art pottery' in title (+14)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 17,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "High-value signal 'art pottery' in title (+14)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -110,33 +141,6 @@
         "matched_keywords": [
           "12ax7"
         ]
-      }
-    ]
-  },
-  "ctbids-49911-5847075": {
-    "item_id": "ctbids-49911-5847075",
-    "listing_url": "https://ctbids.com/estate-sale/49911/item/5847075/Studio-Art-Pottery",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5847075_9GMCMq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "High-value signal 'art pottery' in title (+14)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 15,
-        "relative_score": 0.441,
-        "score_reasons": [
-          "High-value signal 'art pottery' in title (+14)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -256,33 +260,6 @@
       }
     ]
   },
-  "ctbids-49917-5831266": {
-    "item_id": "ctbids-49917-5831266",
-    "listing_url": "https://ctbids.com/estate-sale/49917/item/5831266/Set-of-6-Vintage-Silverplated-Wine-Goblets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5831266_4fdEHS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49911-5851904": {
     "item_id": "ctbids-49911-5851904",
     "listing_url": "https://ctbids.com/estate-sale/49911/item/5851904/Safari-Vibe-Jewelry-Collection",
@@ -310,15 +287,15 @@
       }
     ]
   },
-  "ctbids-49604-5823438": {
-    "item_id": "ctbids-49604-5823438",
-    "listing_url": "https://ctbids.com/estate-sale/49604/item/5823438/Hallmark-Star-Wars-Christmas-Ornaments-Lot-of-5-with-Boxes",
+  "ctbids-49917-5831266": {
+    "item_id": "ctbids-49917-5831266",
+    "listing_url": "https://ctbids.com/estate-sale/49917/item/5831266/Set-of-6-Vintage-Silverplated-Wine-Goblets",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5823438_jbOrPn.webp"
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5831266_4fdEHS.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -326,10 +303,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -364,6 +341,33 @@
       }
     ]
   },
+  "ctbids-49604-5823438": {
+    "item_id": "ctbids-49604-5823438",
+    "listing_url": "https://ctbids.com/estate-sale/49604/item/5823438/Hallmark-Star-Wars-Christmas-Ornaments-Lot-of-5-with-Boxes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5823438_jbOrPn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49620-5822067": {
     "item_id": "ctbids-49620-5822067",
     "listing_url": "https://ctbids.com/estate-sale/49620/item/5822067/Natural-Unpolished-Geological-Rock-Specimen-Lot-Thumbnail-Minerals-Collectors",
@@ -375,7 +379,6 @@
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'lot' in title (+2)",
       "Opportunity term 'minerals' in title (+1)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-10)",
       "Base score (+5)"
     ],
@@ -383,13 +386,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
+        "score": 2,
+        "relative_score": 0.067,
         "score_reasons": [
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'lot' in title (+2)",
           "Opportunity term 'minerals' in title (+1)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-10)",
           "Base score (+5)"
         ],
@@ -398,11 +400,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -410,11 +411,11 @@
       }
     ]
   },
-  "ctbids-49308-5837130": {
-    "item_id": "ctbids-49308-5837130",
-    "listing_url": "https://ctbids.com/estate-sale/49308/item/5837130/Kodak-8mm-Movie-Equipment-Kodascope-8-Model-70-Projector-XL360-Camera",
+  "ctbids-50049-5835872": {
+    "item_id": "ctbids-50049-5835872",
+    "listing_url": "https://ctbids.com/estate-sale/50049/item/5835872/Ken-Griffey-Jr-Zenith-Prints-and-Kirby-Puckett-Card-Plaque",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837130_DpDv9h.webp"
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835872_L8HAkm.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -437,11 +438,63 @@
       }
     ]
   },
+  "ctbids-49431-5813258": {
+    "item_id": "ctbids-49431-5813258",
+    "listing_url": "https://ctbids.com/estate-sale/49431/item/5813258/Wooden-Signs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5813258_tCfbbc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49620-5821982": {
     "item_id": "ctbids-49620-5821982",
     "listing_url": "https://ctbids.com/estate-sale/49620/item/5821982/Chinoiserie-Blue-White-Porcelain-Lidded-Ginger-Jar-Urn-Made-in-China",
     "images": [
       "https://image.ctbids.com/seller/2026-11-06Tb9a870/5821982_kovoQo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49308-5837130": {
+    "item_id": "ctbids-49308-5837130",
+    "listing_url": "https://ctbids.com/estate-sale/49308/item/5837130/Kodak-8mm-Movie-Equipment-Kodascope-8-Model-70-Projector-XL360-Camera",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837130_DpDv9h.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -612,31 +665,6 @@
       }
     ]
   },
-  "ctbids-50049-5835872": {
-    "item_id": "ctbids-50049-5835872",
-    "listing_url": "https://ctbids.com/estate-sale/50049/item/5835872/Ken-Griffey-Jr-Zenith-Prints-and-Kirby-Puckett-Card-Plaque",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835872_L8HAkm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49713-5816187": {
     "item_id": "ctbids-49713-5816187",
     "listing_url": "https://ctbids.com/estate-sale/49713/item/5816187/Prelude-International-Sterling-Candlesticks-and-Sterling-Spoon",
@@ -717,31 +745,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49901/item/5828990/1952-Red-Man-Baseball-Card-With-Tab-Saul-Rogovin-Chicago-White-Sox-Card-19",
     "images": [
       "https://image.ctbids.com/seller/2026-11-08T576de6/5828990_3RzVML.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49431-5813258": {
-    "item_id": "ctbids-49431-5813258",
-    "listing_url": "https://ctbids.com/estate-sale/49431/item/5813258/Wooden-Signs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5813258_tCfbbc.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1028,6 +1031,45 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+7)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284442682": {
+    "item_id": "284442682",
+    "listing_url": "https://shopgoodwill.com/item/284442682",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/cd5a7ea6-a394-4d79-abe2-ad70028225aeacob_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/717743ce-a682-4e8f-a1fe-9c3ce48b9c98acob_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/05d0f93c-a82f-4905-baa2-69bb91e289c4acob_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/fb6063a0-62a3-403d-ae30-030ae7041cbfacob_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/a8876cca-a4f7-4d3a-8d69-e18cac4570c9acob_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/ace1515c-5cc8-4385-8575-8ffe74f562c4acob_11176.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/9598c87b-d2d9-4867-aaff-e0e0bbe08f46acob_11177.jpg"
+    ],
+    "description": "Asstd. Lot Of Stones Agates Crystals & Pepples\nType:\nAsstd. Lot Of Stones Agates Crystals & Pepples\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n14\nItem Width (in):\n14\nItem Height (in):\n6\nWeight (lbs oz):\n10\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
+    "score_reasons": [
+      "Opportunity term 'mixed' in description (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "10 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in description (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "10 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
         ],
         "matched_keywords": []
       }

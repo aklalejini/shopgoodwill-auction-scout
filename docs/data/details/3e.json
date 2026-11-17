@@ -1,4 +1,46 @@
 {
+  "284447378": {
+    "item_id": "284447378",
+    "listing_url": "https://shopgoodwill.com/item/284447378",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/02681d95-3452-4786-8ccd-edf3a90e11d9nett_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/571502da-b47e-485b-9994-f614227c1e21nett_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/e8d58174-166d-4f10-8159-0cc0ade9258fnett_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/c132f909-3caa-4370-9aa8-db2bee748d6fnett_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/c7854faf-c9d0-46f5-8cfd-7a79e9decf1cnett_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/e2e0515d-2993-4316-9afe-15cf3a3c9e2anett_11176.jpg"
+    ],
+    "description": "Lot of four vintage Hemingray 42In. electrical glass insulators in aqua or blue-green glass. Beehive shape with threaded inner core. Embossed markings around the base. See photos for condition.",
+    "score_reasons": [
+      "Opportunity term 'lot' in description (+5)",
+      "Opportunity term 'see photos' in description (+4)",
+      "Target keyword 'beehive' in description (+10)",
+      "High-value signal 'green or teal glass color' in image color analysis (+12)",
+      "High-value signal 'teal glass' in image color analysis (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 42,
+        "relative_score": 1.4,
+        "score_reasons": [
+          "Opportunity term 'lot' in description (+5)",
+          "Opportunity term 'see photos' in description (+4)",
+          "Target keyword 'beehive' in description (+10)",
+          "High-value signal 'green or teal glass color' in image color analysis (+12)",
+          "High-value signal 'teal glass' in image color analysis (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "beehive"
+        ]
+      }
+    ]
+  },
   "ctbids-49807-5841930": {
     "item_id": "ctbids-49807-5841930",
     "listing_url": "https://ctbids.com/estate-sale/49807/item/5841930/Sterling-Silver-Mirror-And-More",
@@ -61,35 +103,6 @@
       }
     ]
   },
-  "ctbids-49620-5812795": {
-    "item_id": "ctbids-49620-5812795",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5812795/Susan-Paley-for-Ganz-Bella-Casa-Collection-Figural-Whimsical-Lady-Vase-Lot-of-5",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812795_0M24mv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 11,
-        "relative_score": 0.324,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49620-5798655": {
     "item_id": "ctbids-49620-5798655",
     "listing_url": "https://ctbids.com/estate-sale/49620/item/5798655/Vintage-Chinese-Cloisonn-Brass-Wire-Enamel-Decorative-Egg-Lot-Mixed-Colors-8-Pc",
@@ -111,6 +124,35 @@
         "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5812795": {
+    "item_id": "ctbids-49620-5812795",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5812795/Susan-Paley-for-Ganz-Bella-Casa-Collection-Figural-Whimsical-Lady-Vase-Lot-of-5",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5812795_0M24mv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -229,11 +271,11 @@
       }
     ]
   },
-  "ctbids-49431-5771611": {
-    "item_id": "ctbids-49431-5771611",
-    "listing_url": "https://ctbids.com/estate-sale/49431/item/5771611/Mystery-Box-Of-Books",
+  "ctbids-50049-5849856": {
+    "item_id": "ctbids-50049-5849856",
+    "listing_url": "https://ctbids.com/estate-sale/50049/item/5849856/Four-German-Souvenir-Glasses-Including-Gold-Rimmed-Neuschwanstein-Beer-Boot",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771611_ypKiMH.webp"
+      "https://image.ctbids.com/seller/2026-11-13T4548b7/5849856_bKIPuA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -291,7 +333,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -302,7 +344,7 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -310,11 +352,11 @@
       }
     ]
   },
-  "ctbids-49816-5830212": {
-    "item_id": "ctbids-49816-5830212",
-    "listing_url": "https://ctbids.com/estate-sale/49816/item/5830212/Lionel-O-Gauge-Electric-Train-Track-4-Remote-Control-Switches-2-Crossovers-Controllers",
+  "ctbids-49431-5771611": {
+    "item_id": "ctbids-49431-5771611",
+    "listing_url": "https://ctbids.com/estate-sale/49431/item/5771611/Mystery-Box-Of-Books",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830212_KHgPz3.webp"
+      "https://image.ctbids.com/seller/2026-10-23T2d995a/5771611_ypKiMH.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -337,33 +379,28 @@
       }
     ]
   },
-  "284203170": {
-    "item_id": "284203170",
-    "listing_url": "https://shopgoodwill.com/item/284203170",
+  "ctbids-49936-5847330": {
+    "item_id": "ctbids-49936-5847330",
+    "listing_url": "https://ctbids.com/estate-sale/49936/item/5847330/Cookbook-Variety-Pack",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/7296d6a0-6e29-4ba2-bfbb-d4f625db4adaauer_11141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/6276fe2b-c2c1-4e4d-a610-6d1426a3f70bauer_11142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/e2bddc39-92aa-44f1-b190-5cc8ed160daeauer_11143.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/af5d2f2d-c116-423e-8253-ef8826bc8b81auer_11144.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/b90c406f-9a51-46dd-aa44-79187b7bd159auer_11145.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/77d81b58-7807-4f97-988a-04e6937ad249auer_11146.jpg"
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5847330_LUnSQM.webp"
     ],
-    "description": "Product Overview:\nThis listing includes vintage smoking pipes with distinct designs and materials. One pipe features a glossy black and red finish with a silver ring accent and a black stem. The other pipe has a matte black bowl with a natural wood stem.\n\nSpecifications:\n- Finish: Glossy black and red with silver ring; Matte black bowl\n- Stem Material: Black (likely acrylic or Bakelite); Natural wood\n- Markings: No visible brand markings or model numbers\n- Condition Details: Minor surface wear on glossy pipe; surface discoloration on wood stem pipe",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "estate-tobacco-pipes",
-        "label": "Estate Tobacco Pipes",
-        "score": 7,
-        "relative_score": 0.2,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -374,6 +411,70 @@
     "listing_url": "https://ctbids.com/estate-sale/49620/item/5825308/Marshall-Field-Co-Superfine-model-5820-pitcher",
     "images": [
       "https://image.ctbids.com/seller/2026-11-06Tb9a870/5825308_0ltTZo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283936671": {
+    "item_id": "283936671",
+    "listing_url": "https://shopgoodwill.com/item/283936671",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11121.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11122.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11123.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11124.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11125.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11126.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11127.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11128.png",
+      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11129.png"
+    ],
+    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION. NO individual information is available.\n--->> LOT AUCTIONS ARE NON-RETURNABLE! NO Refunds or RETURNS.\nItem(s) are sold AS-IS. While we do our best to show all flaws, some minor marks, stains, or signs of wear may not be visible in photos. Item(s) may or may not need to be laundered.\nPlease bid accordingly! Thank you for your support of our Goodwill Auctions.\nDESCRIPTION: Crystal & Mineral Lot Raw Stones /Tarot Cards/ Oracle Cards Deck/Rock Paradise/More\nNUMBER OF ITEMS:\nWEIGHT OF LOT:  11LBS\nATTENTION:\nNO Refunds or RETURNS\nOur location is now doing pickups on Tuesday and Thursdays from 10am - 2pm!! Pick up at 7000 W. State St. Garden City, ID 83714\nPlease note: Items must be Picked up within 30 days of payment date, if not we will consider this item donated back to Easterseals Goodwill NRM.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "11 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "11 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49816-5830212": {
+    "item_id": "ctbids-49816-5830212",
+    "listing_url": "https://ctbids.com/estate-sale/49816/item/5830212/Lionel-O-Gauge-Electric-Train-Track-4-Remote-Control-Switches-2-Crossovers-Controllers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830212_KHgPz3.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -544,42 +645,6 @@
       }
     ]
   },
-  "284318662": {
-    "item_id": "284318662",
-    "listing_url": "https://shopgoodwill.com/item/284318662",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/b8a5518c-3b15-489c-a79a-8474ac4c8b7arton_11161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/c1bc8ed2-7f0b-4d1a-afbf-e26e7590994crton_11162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/bfe70707-fd26-47be-a12a-34618680198arton_11163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/85141eb8-5221-43b1-a131-dd4a648c78c6rton_11164.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/832531e7-cba6-4503-8dfd-0d205cd1b21crton_11165.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/a4f1e2ff-0b0e-43b1-8e70-866711fb0790rton_11166.jpg"
-    ],
-    "description": "Item Description:\nTrinkets & Findings - Stones, Minerals, Animal Teeth, etc.\nApproximate Measurements (inches):\n9.1 x 6.1 x 5.1 Sizes Vary\nWeight (in lbs):\n3.1\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49708-5841219": {
     "item_id": "ctbids-49708-5841219",
     "listing_url": "https://ctbids.com/estate-sale/49708/item/5841219/Quarters-Wheat-Pennies-Dimes-More",
@@ -660,31 +725,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49714/item/5807927/Barbie-Dance-N-Twirl-Generations-of-Dreams-Collector-Dolls-Set-of-2",
     "images": [
       "https://image.ctbids.com/seller/2026-11-03T8cd417/5807927_eYuqLl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49936-5847330": {
-    "item_id": "ctbids-49936-5847330",
-    "listing_url": "https://ctbids.com/estate-sale/49936/item/5847330/Cookbook-Variety-Pack",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5847330_LUnSQM.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -830,26 +870,195 @@
       }
     ]
   },
-  "ctbids-50049-5849856": {
-    "item_id": "ctbids-50049-5849856",
-    "listing_url": "https://ctbids.com/estate-sale/50049/item/5849856/Four-German-Souvenir-Glasses-Including-Gold-Rimmed-Neuschwanstein-Beer-Boot",
+  "284203170": {
+    "item_id": "284203170",
+    "listing_url": "https://shopgoodwill.com/item/284203170",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-13T4548b7/5849856_bKIPuA.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/7296d6a0-6e29-4ba2-bfbb-d4f625db4adaauer_11141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/6276fe2b-c2c1-4e4d-a610-6d1426a3f70bauer_11142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/e2bddc39-92aa-44f1-b190-5cc8ed160daeauer_11143.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/af5d2f2d-c116-423e-8253-ef8826bc8b81auer_11144.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/b90c406f-9a51-46dd-aa44-79187b7bd159auer_11145.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-14/77d81b58-7807-4f97-988a-04e6937ad249auer_11146.jpg"
     ],
-    "description": "",
+    "description": "Product Overview:\nThis listing includes vintage smoking pipes with distinct designs and materials. One pipe features a glossy black and red finish with a silver ring accent and a black stem. The other pipe has a matte black bowl with a natural wood stem.\n\nSpecifications:\n- Finish: Glossy black and red with silver ring; Matte black bowl\n- Stem Material: Black (likely acrylic or Bakelite); Natural wood\n- Markings: No visible brand markings or model numbers\n- Condition Details: Minor surface wear on glossy pipe; surface discoloration on wood stem pipe",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'vintage' in title (+6)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "estate-tobacco-pipes",
+        "label": "Estate Tobacco Pipes",
+        "score": 7,
+        "relative_score": 0.2,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'vintage' in title (+6)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284006806": {
+    "item_id": "284006806",
+    "listing_url": "https://shopgoodwill.com/item/284006806",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/"
+    ],
+    "description": "6 lbs. Mixed Lot containing assorted tumbled stones, crystals, and mineral specimens. Includes a variety of natural stones in different shapes, colors, and sizes.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in title (-10)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "6 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+15)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in title (-10)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "6 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+15)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284318662": {
+    "item_id": "284318662",
+    "listing_url": "https://shopgoodwill.com/item/284318662",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/b8a5518c-3b15-489c-a79a-8474ac4c8b7arton_11161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/c1bc8ed2-7f0b-4d1a-afbf-e26e7590994crton_11162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/bfe70707-fd26-47be-a12a-34618680198arton_11163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/85141eb8-5221-43b1-a131-dd4a648c78c6rton_11164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/832531e7-cba6-4503-8dfd-0d205cd1b21crton_11165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-16/a4f1e2ff-0b0e-43b1-8e70-866711fb0790rton_11166.jpg"
+    ],
+    "description": "Item Description:\nTrinkets & Findings - Stones, Minerals, Animal Teeth, etc.\nApproximate Measurements (inches):\n9.1 x 6.1 x 5.1 Sizes Vary\nWeight (in lbs):\n3.1\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284474249": {
+    "item_id": "284474249",
+    "listing_url": "https://shopgoodwill.com/item/284474249",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/71120462-765c-43f7-8425-455db27fb04boetz_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/724eb725-34ec-4454-b0a1-fbaa6ae7cdadoetz_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/d3cb31b2-9444-40fe-ad4e-d81944043091oetz_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/94fc93b0-408b-45f1-864d-4901fcc74a61oetz_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/7e67c7b7-d597-4f83-9cb4-94e8c107812doetz_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/f3b8ad1f-f086-4b79-b696-aa297e14fe14oetz_11176.jpg"
+    ],
+    "description": "Item Description:\nLot Three Geode Candleholders - ., etc.\nApproximate Measurements (inches):\n5 x 4 x 3 Sizes Vary\nWeight (in lbs):\n2.4\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "score_reasons": [
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283904881": {
+    "item_id": "283904881",
+    "listing_url": "https://shopgoodwill.com/item/283904881",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/a9adb511-267b-4f7d-95a7-d48e40d289d6kcgw_11121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/09613541-f0ec-406e-88fe-e20c55b1489ckcgw_11122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/c682d252-6bf8-4625-b636-ab27980f9b92kcgw_11123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/07257959-7df6-4eed-bd17-761b52646606kcgw_11124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/9f8aab30-93e2-451e-8bbf-6512f291547bkcgw_11125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/a80361ef-5049-4dc4-90b3-5679c8bd4451kcgw_11126.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/ee95d9e7-32c4-4f1f-a50e-bafaf9f1820ekcgw_11127.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/9bf2a035-d031-407a-a6fa-dca6b02cabc8kcgw_11128.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/adbb55ee-b1da-4ce0-b93b-d42aeb9890d4kcgw_11129.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/4d8cc2da-9eb2-4125-a9d0-9c34bd2945eakcgw_111210.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/3aca35c6-c048-4623-bfff-9b88106ed9e5kcgw_111211.jpg"
+    ],
+    "description": "Geode, Crystal & Mineral Specimen Collection Lot\nNatural & Polished Geological Specimens\nMulti-Piece Assortment, 9.4 lbs Total Weight\nA diverse collection of lapidary and geological specimens featuring natural geodes, polished bookend halves, druzy quartz plates, and mineral formations. The assortment highlights varied crystallization habits, quartz interiors, banded chalcedony agate rings, and crystalline clusters suitable for study, display, or lapidary crafting.\nIncludes 2 cut and polished display geode halves (one dyed blue agate, one natural grey banded agate)\nMultiple hollow quartz geodes with sparkling internal crystal druse\nSeveral druzy crystalline quartz plates and mineral clusters\nMetallic mineral cluster and bagged assortment of small crystal fragments and stones\nCombined specimen weight: approximately 9.4 lbs\nCondition:\nNatural geological specimens with rough matrix exteriors and naturally fractured surfaces. Polished faces on the two cut agate bookends are smooth with flat bases for freestanding tabletop display. Minor natural shedding of small crystal debris is typical of raw mineral geodes.\nNOTE\n: Unless otherwise indicated, this is a\nUSED\n, donated item/lot. We take every effort to document the condition and visible cosmetic damages, though we are not subject matter experts and items may contain unseen flaws or imperfections, such as cracks, crazing, bowing or separation.\nIf you have any questions regarding an item,\nplease reach out to us before placing your bid\n. If applicable, any testing for power or functionality, servicing or cleaning will be mentioned within the listing. Please assume items are untested, unserviced and presented as pictured otherwise.\nJEWELRY\n: Gemstones have been tested with Presidium Gemstone Tester. Precious metals are tested with a Thermo Scientific Niton DXL. Testing results are included in our listings where applicable. Gold JSP solution & rare earth magnets may also be used in testing. Gemstones may be natural or lab created. We identify gemstones to the best of our ability and testing equipment, but\nwe cannot guarantee specific gemstones\nif they look or test similar to other stones. Sterling Silver items may have very slight or localized magnetic properties due to rhodium plating, non-silver components such as pins or springs in clasps, or dependent on the metal the silver was alloyed with. Watch condition and functionality will be documented when possible. Watches may otherwise not be running, have internal issues or need additional cleaning.\nPlease Note\n: Certain jewelry items and lots may experience tangling from the sorting and shipping process.\nAS-IS\n: Listings are sold\nAS-IS with no refunds for condition or functionality\n. This includes, but is not limited to all electronic listings, all card lots, all jewelry lots and grab bags.\nIf you have any questions regarding an item,\nplease reach out to us before placing your bid\n.\nCOMBINED SHIPPING\n: All Jewelry items can not be combined with other any other items, including other Jewelry items without contacting customer service before payment. We reserve the right to approve or deny combination of items for shipment at our discretion.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'dyed' in description (-18)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "9.4 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'dyed' in description (-18)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "9.4 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+6)"
         ],
         "matched_keywords": []
       }
@@ -888,133 +1097,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284006806": {
-    "item_id": "284006806",
-    "listing_url": "https://shopgoodwill.com/item/284006806",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/"
-    ],
-    "description": "6 lbs. Mixed Lot containing assorted tumbled stones, crystals, and mineral specimens. Includes a variety of natural stones in different shapes, colors, and sizes.",
-    "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in title (-10)",
-      "Only 1 listing photo (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "6 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+19)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in title (-10)",
-          "Only 1 listing photo (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "6 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+19)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283936671": {
-    "item_id": "283936671",
-    "listing_url": "https://shopgoodwill.com/item/283936671",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11121.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11122.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11123.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11124.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11125.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11126.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11127.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11128.png",
-      "https://shopgoodwillimages.azureedge.net/production/159/Items/2026-11-12/030c1b2b-b4ca-41fc-b2f1-4251277a64dfnneC_11129.png"
-    ],
-    "description": "--->> THIS IS A GRAB-BAG STYLE AUCTION. NO individual information is available.\n--->> LOT AUCTIONS ARE NON-RETURNABLE! NO Refunds or RETURNS.\nItem(s) are sold AS-IS. While we do our best to show all flaws, some minor marks, stains, or signs of wear may not be visible in photos. Item(s) may or may not need to be laundered.\nPlease bid accordingly! Thank you for your support of our Goodwill Auctions.\nDESCRIPTION: Crystal & Mineral Lot Raw Stones /Tarot Cards/ Oracle Cards Deck/Rock Paradise/More\nNUMBER OF ITEMS:\nWEIGHT OF LOT:  11LBS\nATTENTION:\nNO Refunds or RETURNS\nOur location is now doing pickups on Tuesday and Thursdays from 10am - 2pm!! Pick up at 7000 W. State St. Garden City, ID 83714\nPlease note: Items must be Picked up within 30 days of payment date, if not we will consider this item donated back to Easterseals Goodwill NRM.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "11 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+3)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "11 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+3)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283904881": {
-    "item_id": "283904881",
-    "listing_url": "https://shopgoodwill.com/item/283904881",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/a9adb511-267b-4f7d-95a7-d48e40d289d6kcgw_11121.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/09613541-f0ec-406e-88fe-e20c55b1489ckcgw_11122.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/c682d252-6bf8-4625-b636-ab27980f9b92kcgw_11123.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/07257959-7df6-4eed-bd17-761b52646606kcgw_11124.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/9f8aab30-93e2-451e-8bbf-6512f291547bkcgw_11125.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/a80361ef-5049-4dc4-90b3-5679c8bd4451kcgw_11126.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/ee95d9e7-32c4-4f1f-a50e-bafaf9f1820ekcgw_11127.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/9bf2a035-d031-407a-a6fa-dca6b02cabc8kcgw_11128.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/adbb55ee-b1da-4ce0-b93b-d42aeb9890d4kcgw_11129.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/4d8cc2da-9eb2-4125-a9d0-9c34bd2945eakcgw_111210.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/58/Items/2026-11-12/3aca35c6-c048-4623-bfff-9b88106ed9e5kcgw_111211.jpg"
-    ],
-    "description": "Geode, Crystal & Mineral Specimen Collection Lot\nNatural & Polished Geological Specimens\nMulti-Piece Assortment, 9.4 lbs Total Weight\nA diverse collection of lapidary and geological specimens featuring natural geodes, polished bookend halves, druzy quartz plates, and mineral formations. The assortment highlights varied crystallization habits, quartz interiors, banded chalcedony agate rings, and crystalline clusters suitable for study, display, or lapidary crafting.\nIncludes 2 cut and polished display geode halves (one dyed blue agate, one natural grey banded agate)\nMultiple hollow quartz geodes with sparkling internal crystal druse\nSeveral druzy crystalline quartz plates and mineral clusters\nMetallic mineral cluster and bagged assortment of small crystal fragments and stones\nCombined specimen weight: approximately 9.4 lbs\nCondition:\nNatural geological specimens with rough matrix exteriors and naturally fractured surfaces. Polished faces on the two cut agate bookends are smooth with flat bases for freestanding tabletop display. Minor natural shedding of small crystal debris is typical of raw mineral geodes.\nNOTE\n: Unless otherwise indicated, this is a\nUSED\n, donated item/lot. We take every effort to document the condition and visible cosmetic damages, though we are not subject matter experts and items may contain unseen flaws or imperfections, such as cracks, crazing, bowing or separation.\nIf you have any questions regarding an item,\nplease reach out to us before placing your bid\n. If applicable, any testing for power or functionality, servicing or cleaning will be mentioned within the listing. Please assume items are untested, unserviced and presented as pictured otherwise.\nJEWELRY\n: Gemstones have been tested with Presidium Gemstone Tester. Precious metals are tested with a Thermo Scientific Niton DXL. Testing results are included in our listings where applicable. Gold JSP solution & rare earth magnets may also be used in testing. Gemstones may be natural or lab created. We identify gemstones to the best of our ability and testing equipment, but\nwe cannot guarantee specific gemstones\nif they look or test similar to other stones. Sterling Silver items may have very slight or localized magnetic properties due to rhodium plating, non-silver components such as pins or springs in clasps, or dependent on the metal the silver was alloyed with. Watch condition and functionality will be documented when possible. Watches may otherwise not be running, have internal issues or need additional cleaning.\nPlease Note\n: Certain jewelry items and lots may experience tangling from the sorting and shipping process.\nAS-IS\n: Listings are sold\nAS-IS with no refunds for condition or functionality\n. This includes, but is not limited to all electronic listings, all card lots, all jewelry lots and grab bags.\nIf you have any questions regarding an item,\nplease reach out to us before placing your bid\n.\nCOMBINED SHIPPING\n: All Jewelry items can not be combined with other any other items, including other Jewelry items without contacting customer service before payment. We reserve the right to approve or deny combination of items for shipment at our discretion.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'dyed' in description (-18)",
-      "Shipping is calculated and not included in the price (-6)",
-      "9.4 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+10)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'dyed' in description (-18)",
-          "Shipping is calculated and not included in the price (-6)",
-          "9.4 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }

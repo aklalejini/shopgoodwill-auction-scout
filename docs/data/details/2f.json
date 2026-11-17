@@ -23,6 +23,7 @@
       "Target keyword 'tourmaline' in description (+10)",
       "Target keyword 'aquamarine' in description (+8)",
       "Target keyword cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -30,8 +31,8 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 29,
-        "relative_score": 0.967,
+        "score": 33,
+        "relative_score": 1.1,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'mixed' in title (+2)",
@@ -41,6 +42,7 @@
           "Target keyword 'tourmaline' in description (+10)",
           "Target keyword 'aquamarine' in description (+8)",
           "Target keyword cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -130,6 +132,33 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5825114": {
+    "item_id": "ctbids-49620-5825114",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5825114/Lot-Of-Four-Silver-Plated-Serving-Pieces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5825114_uhaNzn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -245,104 +274,6 @@
       }
     ]
   },
-  "ctbids-49620-5822069": {
-    "item_id": "ctbids-49620-5822069",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5822069/Vuggy-Quartz-Cluster-Specimen-Lot-Dogtooth-Calcite-Crystal-Druzy-Mineral-5pc",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5822069_TcAcRH.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'lot' in title (+2)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'lot' in title (+2)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49620-5825114": {
-    "item_id": "ctbids-49620-5825114",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5825114/Lot-Of-Four-Silver-Plated-Serving-Pieces",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5825114_uhaNzn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49620-5828403": {
-    "item_id": "ctbids-49620-5828403",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5828403/Replogle-World-Classic-12-Inch-Desktop-Globe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5828403_sqdv6l.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50004-5847706": {
     "item_id": "ctbids-50004-5847706",
     "listing_url": "https://ctbids.com/estate-sale/50004/item/5847706/Bark-Collars",
@@ -363,6 +294,77 @@
         "relative_score": 0.147,
         "score_reasons": [
           "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5822069": {
+    "item_id": "ctbids-49620-5822069",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5822069/Vuggy-Quartz-Cluster-Specimen-Lot-Dogtooth-Calcite-Crystal-Druzy-Mineral-5pc",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5822069_TcAcRH.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5828403": {
+    "item_id": "ctbids-49620-5828403",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5828403/Replogle-World-Classic-12-Inch-Desktop-Globe",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5828403_sqdv6l.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -424,11 +426,38 @@
       }
     ]
   },
-  "ctbids-49911-5842064": {
-    "item_id": "ctbids-49911-5842064",
-    "listing_url": "https://ctbids.com/estate-sale/49911/item/5842064/Handwoven-Baskets-II",
+  "ctbids-49900-5832577": {
+    "item_id": "ctbids-49900-5832577",
+    "listing_url": "https://ctbids.com/estate-sale/49900/item/5832577/Fashion-Scarves",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5842064_mlUJEg.webp"
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832577_7qOBR5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49431-5777740": {
+    "item_id": "ctbids-49431-5777740",
+    "listing_url": "https://ctbids.com/estate-sale/49431/item/5777740/Women-s-Hats",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777740_CsM7gx.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -601,6 +630,31 @@
       }
     ]
   },
+  "ctbids-49911-5842064": {
+    "item_id": "ctbids-49911-5842064",
+    "listing_url": "https://ctbids.com/estate-sale/49911/item/5842064/Handwoven-Baskets-II",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5842064_mlUJEg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48755-5688556": {
     "item_id": "ctbids-48755-5688556",
     "listing_url": "https://ctbids.com/estate-sale/48755/item/5688556/Spanish-Prints-From-Italy-From-1960-s",
@@ -701,61 +755,11 @@
       }
     ]
   },
-  "ctbids-49900-5832577": {
-    "item_id": "ctbids-49900-5832577",
-    "listing_url": "https://ctbids.com/estate-sale/49900/item/5832577/Fashion-Scarves",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832577_7qOBR5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-48755-5707471": {
     "item_id": "ctbids-48755-5707471",
     "listing_url": "https://ctbids.com/estate-sale/48755/item/5707471/Football-Trading-Cards-New-in-Package",
     "images": [
       "https://image.ctbids.com/seller/2026-10-06Tda5f1a/5707471_PRhdyf.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49431-5777740": {
-    "item_id": "ctbids-49431-5777740",
-    "listing_url": "https://ctbids.com/estate-sale/49431/item/5777740/Women-s-Hats",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777740_CsM7gx.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -803,7 +807,7 @@
   },
   "ctbids-49909-5840084": {
     "item_id": "ctbids-49909-5840084",
-    "listing_url": "https://ctbids.com/estate-sale/49909/item/5840084/Anatole-Krasnyansky-Limited-Edition-Signed-Serigraph",
+    "listing_url": "https://ctbids.com/estate-sale/49909/item/5840084/UPDATED-Itzchak-Tarkay-Limited-Edition-Signed-Serigraph",
     "images": [
       "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840084_TlTJik.webp"
     ],
@@ -895,10 +899,11 @@
       "Opportunity term 'vintage' in description (+5)",
       "Opportunity term 'specimen' in title (+4)",
       "Lower-priority term 'decorative' in description (-8)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-6)",
       "7.6 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+4)"
+      "Score boundary adjustment (+2)"
     ],
     "hunt_scores": [
       {
@@ -910,10 +915,11 @@
           "Opportunity term 'vintage' in description (+5)",
           "Opportunity term 'specimen' in title (+4)",
           "Lower-priority term 'decorative' in description (-8)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "7.6 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+4)"
+          "Score boundary adjustment (+2)"
         ],
         "matched_keywords": []
       }

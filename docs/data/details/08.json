@@ -72,6 +72,7 @@
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -79,12 +80,13 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 12,
-        "relative_score": 0.4,
+        "score": 16,
+        "relative_score": 0.533,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
@@ -120,35 +122,6 @@
           "Generic estate pen lot may hide gold nibs or scarce parts (+15)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49620-5813166": {
-    "item_id": "ctbids-49620-5813166",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5813166/Vintage-Amphora-Style-Porcelain-Portrait-Vase-Ruffled-Handles-Pink-Cabbage-Roses",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5813166_Yl9VV5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -192,6 +165,35 @@
       }
     ]
   },
+  "ctbids-49620-5813166": {
+    "item_id": "ctbids-49620-5813166",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5813166/Vintage-Amphora-Style-Porcelain-Portrait-Vase-Ruffled-Handles-Pink-Cabbage-Roses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5813166_Yl9VV5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-44458-5089612": {
     "item_id": "ctbids-44458-5089612",
     "listing_url": "https://ctbids.com/estate-sale/44458/item/5089612/Vintage-Chinoiserie-Blue-and-White-Porcelain-Wall-Pocket-Vases",
@@ -212,6 +214,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5825316": {
+    "item_id": "ctbids-49620-5825316",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5825316/Set-A-Four-Hallmark-Keepsake-Ornaments-New-Inbox",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5825316_pu23xx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -253,119 +282,92 @@
       }
     ]
   },
-  "ctbids-44458-5089618": {
-    "item_id": "ctbids-44458-5089618",
-    "listing_url": "https://ctbids.com/estate-sale/44458/item/5089618/5-Glass-Vases-Floral-Decor-w-Infinity-Instruments-Clock",
-    "images": [
-      "https://image.ctbids.com/seller/2026-04-16Ted0724/5089618_qHPagN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49620-5825316": {
-    "item_id": "ctbids-49620-5825316",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5825316/Set-A-Four-Hallmark-Keepsake-Ornaments-New-Inbox",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5825316_pu23xx.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49620-5822201": {
-    "item_id": "ctbids-49620-5822201",
-    "listing_url": "https://ctbids.com/estate-sale/49620/item/5822201/1994-NASA-Apollo-11-25th-Anniversary-Commemorative-Lunar-Landing-Poster",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5822201_nhK8MJ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49604-5823312": {
-    "item_id": "ctbids-49604-5823312",
-    "listing_url": "https://ctbids.com/estate-sale/49604/item/5823312/Mikasa-White-Gold-Christmas-Nativity-Scene-Figurine",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5823312_j9BZdX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50049-5851238": {
     "item_id": "ctbids-50049-5851238",
     "listing_url": "https://ctbids.com/estate-sale/50049/item/5851238/M-I-Hummel-Goebel-Puppet-Princess-Figurine-HUM-2103-A-Original-Box-Paperwork",
     "images": [
       "https://image.ctbids.com/seller/2026-11-13T4548b7/5851238_ScHxDR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49708-5841223": {
+    "item_id": "ctbids-49708-5841223",
+    "listing_url": "https://ctbids.com/estate-sale/49708/item/5841223/Silver-Toned-Bangles-Earrings-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841223_GzuvGt.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49911-5838162": {
+    "item_id": "ctbids-49911-5838162",
+    "listing_url": "https://ctbids.com/estate-sale/49911/item/5838162/Decorative-Pillows-In-Beige-And-Black",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5838162_XuyKKv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49431-5777929": {
+    "item_id": "ctbids-49431-5777929",
+    "listing_url": "https://ctbids.com/estate-sale/49431/item/5777929/Animal-Towels-And-Blankets",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777929_VYUUrh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -425,6 +427,56 @@
     "listing_url": "https://ctbids.com/estate-sale/49567/item/5791015/Ardesa-50-Cal-Black-Powder-Muzzleloader",
     "images": [
       "https://image.ctbids.com/seller/2026-10-29T6f2b01/5791015_cJr8fT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49620-5822201": {
+    "item_id": "ctbids-49620-5822201",
+    "listing_url": "https://ctbids.com/estate-sale/49620/item/5822201/1994-NASA-Apollo-11-25th-Anniversary-Commemorative-Lunar-Landing-Poster",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5822201_nhK8MJ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49604-5823312": {
+    "item_id": "ctbids-49604-5823312",
+    "listing_url": "https://ctbids.com/estate-sale/49604/item/5823312/Mikasa-White-Gold-Christmas-Nativity-Scene-Figurine",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5823312_j9BZdX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -520,6 +572,31 @@
       }
     ]
   },
+  "ctbids-44458-5089618": {
+    "item_id": "ctbids-44458-5089618",
+    "listing_url": "https://ctbids.com/estate-sale/44458/item/5089618/5-Glass-Vases-Floral-Decor-w-Infinity-Instruments-Clock",
+    "images": [
+      "https://image.ctbids.com/seller/2026-04-16Ted0724/5089618_qHPagN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49431-5771540": {
     "item_id": "ctbids-49431-5771540",
     "listing_url": "https://ctbids.com/estate-sale/49431/item/5771540/McGuffey-Eclectic-Reader-Books",
@@ -582,46 +659,6 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49816-5830703": {
-    "item_id": "ctbids-49816-5830703",
-    "listing_url": "https://ctbids.com/estate-sale/49816/item/5830703/Natural-Desert-Rose-Selenite-Crystal-Cluster-Large-Mineral-Specimen",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830703_n7ssFX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -710,31 +747,6 @@
       }
     ]
   },
-  "ctbids-49708-5841223": {
-    "item_id": "ctbids-49708-5841223",
-    "listing_url": "https://ctbids.com/estate-sale/49708/item/5841223/Silver-Toned-Bangles-Earrings-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841223_GzuvGt.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49807-5842823": {
     "item_id": "ctbids-49807-5842823",
     "listing_url": "https://ctbids.com/estate-sale/49807/item/5842823/38-Special-45-Long-Colt-20-Gauge-28-Gauge-And-410-Gauge-Ammunition-And-Storage-Box",
@@ -760,61 +772,11 @@
       }
     ]
   },
-  "ctbids-49911-5838162": {
-    "item_id": "ctbids-49911-5838162",
-    "listing_url": "https://ctbids.com/estate-sale/49911/item/5838162/Decorative-Pillows-In-Beige-And-Black",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5838162_XuyKKv.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49807-5841932": {
     "item_id": "ctbids-49807-5841932",
     "listing_url": "https://ctbids.com/estate-sale/49807/item/5841932/Solder-Station",
     "images": [
       "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841932_6V9kBk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49431-5777929": {
-    "item_id": "ctbids-49431-5777929",
-    "listing_url": "https://ctbids.com/estate-sale/49431/item/5777929/Animal-Towels-And-Blankets",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-26Te92adc/5777929_VYUUrh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -897,6 +859,46 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49816-5830703": {
+    "item_id": "ctbids-49816-5830703",
+    "listing_url": "https://ctbids.com/estate-sale/49816/item/5830703/Natural-Desert-Rose-Selenite-Crystal-Cluster-Large-Mineral-Specimen",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830703_n7ssFX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
