@@ -221,7 +221,6 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "Opportunity term 'lot' in title (+4)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -229,12 +228,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -300,6 +298,33 @@
       }
     ]
   },
+  "ctbids-47851-5557727": {
+    "item_id": "ctbids-47851-5557727",
+    "listing_url": "https://ctbids.com/estate-sale/47851/item/5557727/Corning-Ware-Spice-of-Life-Collection-Le-Persil-Baking-Dish-Pyrex-Canister-LaSauge-Cutting-Board",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5557727_cjG3bW.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49687-5807878": {
     "item_id": "ctbids-49687-5807878",
     "listing_url": "https://ctbids.com/estate-sale/49687/item/5807878/Vintage-Evil-Eye-Set",
@@ -322,69 +347,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284079400": {
-    "item_id": "284079400",
-    "listing_url": "https://shopgoodwill.com/item/284079400",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/8a173d21-7bfa-4df6-901d-069a7073ff78ward_11131.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/a0247ae7-25b7-44f2-bbaf-ab07916f5c49ward_11132.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/c393d66d-6af9-447b-9ba4-30beab7ca31bward_11133.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/39e98928-32bd-41c3-9671-346e782d2e7dward_11134.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/147b120b-a4b4-49e5-a693-f21bb2f21128ward_11135.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/c7739ce6-f0a8-4c46-810d-cb60fbb72358ward_11136.jpg"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+6)",
-      "Lower-priority term 'ballpoint' in title (-4)",
-      "Pen-and-pencil set resale premium (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 13,
-        "relative_score": 0.371,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+6)",
-          "Lower-priority term 'ballpoint' in title (-4)",
-          "Pen-and-pencil set resale premium (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47851-5557727": {
-    "item_id": "ctbids-47851-5557727",
-    "listing_url": "https://ctbids.com/estate-sale/47851/item/5557727/Corning-Ware-Spice-of-Life-Collection-Le-Persil-Baking-Dish-Pyrex-Canister-LaSauge-Cutting-Board",
-    "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5557727_cjG3bW.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -470,6 +432,42 @@
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284079400": {
+    "item_id": "284079400",
+    "listing_url": "https://shopgoodwill.com/item/284079400",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/8a173d21-7bfa-4df6-901d-069a7073ff78ward_11131.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/a0247ae7-25b7-44f2-bbaf-ab07916f5c49ward_11132.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/c393d66d-6af9-447b-9ba4-30beab7ca31bward_11133.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/39e98928-32bd-41c3-9671-346e782d2e7dward_11134.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/147b120b-a4b4-49e5-a693-f21bb2f21128ward_11135.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/135/Items/2026-11-13/c7739ce6-f0a8-4c46-810d-cb60fbb72358ward_11136.jpg"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+6)",
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "Pen-and-pencil set resale premium (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 13,
+        "relative_score": 0.371,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+6)",
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "Pen-and-pencil set resale premium (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -691,6 +689,33 @@
       }
     ]
   },
+  "ctbids-49811-5840125": {
+    "item_id": "ctbids-49811-5840125",
+    "listing_url": "https://ctbids.com/estate-sale/49811/item/5840125/Turquoise-Green-Beaded-Jewelry-Lot-with-Del-Sol-Dolphin-Keychain-5-Pieces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840125_3iV6rL.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48143-5792889": {
     "item_id": "ctbids-48143-5792889",
     "listing_url": "https://ctbids.com/estate-sale/48143/item/5792889/Photography-Lenses",
@@ -711,33 +736,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49924-5775552": {
-    "item_id": "ctbids-49924-5775552",
-    "listing_url": "https://ctbids.com/estate-sale/49924/item/5775552/NWT-Adorable-Bird-Hanging-Made-In-India",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775552_066X2f.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -772,11 +770,11 @@
       }
     ]
   },
-  "ctbids-49199-5844283": {
-    "item_id": "ctbids-49199-5844283",
-    "listing_url": "https://ctbids.com/estate-sale/49199/item/5844283/Longaberger-Handwoven-Wooden-Basket-with-Heart-Cutout-Dividers-Leather-Handles",
+  "ctbids-49687-5810135": {
+    "item_id": "ctbids-49687-5810135",
+    "listing_url": "https://ctbids.com/estate-sale/49687/item/5810135/Gold-Tone-Beaded-Bracelet-With-Faux-Pearl-Earrings",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5844283_vRUU5J.webp"
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5810135_zziuWY.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -792,33 +790,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49687-5810135": {
-    "item_id": "ctbids-49687-5810135",
-    "listing_url": "https://ctbids.com/estate-sale/49687/item/5810135/Gold-Tone-Beaded-Bracelet-With-Faux-Pearl-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5810135_zziuWY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -910,6 +881,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49735/item/5813831/Wooden-Mashriyaba-Wall-Mirror",
     "images": [
       "https://image.ctbids.com/seller/2026-11-04T8616ba/5813831_SVYwWh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49924-5775552": {
+    "item_id": "ctbids-49924-5775552",
+    "listing_url": "https://ctbids.com/estate-sale/49924/item/5775552/NWT-Adorable-Bird-Hanging-Made-In-India",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-25T7657bc/5775552_066X2f.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1030,6 +1026,31 @@
       }
     ]
   },
+  "ctbids-49199-5844283": {
+    "item_id": "ctbids-49199-5844283",
+    "listing_url": "https://ctbids.com/estate-sale/49199/item/5844283/Longaberger-Handwoven-Wooden-Basket-with-Heart-Cutout-Dividers-Leather-Handles",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5844283_vRUU5J.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49811-5841005": {
     "item_id": "ctbids-49811-5841005",
     "listing_url": "https://ctbids.com/estate-sale/49811/item/5841005/Jim-Shore-Santa-s-Best-Friend-Figurine",
@@ -1060,6 +1081,56 @@
     "listing_url": "https://ctbids.com/estate-sale/49811/item/5835975/Lia-Sophia-Multi-Strand-Multicolor-Beaded-Statement-Necklace-with-Tag",
     "images": [
       "https://image.ctbids.com/seller/2026-11-11T0e9e48/5835975_65OO6E.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49199-5751666": {
+    "item_id": "ctbids-49199-5751666",
+    "listing_url": "https://ctbids.com/estate-sale/49199/item/5751666/Versa-Drive-External-Hard-Drive-Enclosure-Black-and-Silver-Approximately-8",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5751666_aXkwEV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49585-5802957": {
+    "item_id": "ctbids-49585-5802957",
+    "listing_url": "https://ctbids.com/estate-sale/49585/item/5802957/Copy-Of-Map-Of-Rhode-Island-Published-By-A-Finley-Philadelphia",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-02T03af44/5802957_ZW3z59.webp"
     ],
     "description": "",
     "score_reasons": [

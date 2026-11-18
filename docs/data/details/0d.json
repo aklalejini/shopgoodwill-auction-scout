@@ -50,6 +50,7 @@
     "score_reasons": [
       "Opportunity term 'specimen' in description (+4)",
       "Opportunity term 'lot' in title (+2)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+10)",
       "Base score (+5)"
     ],
@@ -57,11 +58,12 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 21,
-        "relative_score": 0.7,
+        "score": 25,
+        "relative_score": 0.833,
         "score_reasons": [
           "Opportunity term 'specimen' in description (+4)",
           "Opportunity term 'lot' in title (+2)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+10)",
           "Base score (+5)"
         ],
@@ -193,6 +195,35 @@
       }
     ]
   },
+  "ctbids-47851-5557697": {
+    "item_id": "ctbids-47851-5557697",
+    "listing_url": "https://ctbids.com/estate-sale/47851/item/5557697/Downton-Abbey-Casablanca-DVD-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5557697_EhSSR2.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49199-5822400": {
     "item_id": "ctbids-49199-5822400",
     "listing_url": "https://ctbids.com/estate-sale/49199/item/5822400/Needle-Vintage-Style-Glass-Syringe-with-Long-Metal-Needle-10-mL",
@@ -244,35 +275,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47851-5557697": {
-    "item_id": "ctbids-47851-5557697",
-    "listing_url": "https://ctbids.com/estate-sale/47851/item/5557697/Downton-Abbey-Casablanca-DVD-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5557697_EhSSR2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 9,
-        "relative_score": 0.265,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -367,64 +369,6 @@
       }
     ]
   },
-  "ctbids-49924-5774369": {
-    "item_id": "ctbids-49924-5774369",
-    "listing_url": "https://ctbids.com/estate-sale/49924/item/5774369/Vintage-Patchwork-Table-Runner",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-24Taf395c/5774369_xPwQJk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49722-5813998": {
-    "item_id": "ctbids-49722-5813998",
-    "listing_url": "https://ctbids.com/estate-sale/49722/item/5813998/Baltimore-Orioles-Ravens-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5813998_6JQSLh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49924-5775577": {
     "item_id": "ctbids-49924-5775577",
     "listing_url": "https://ctbids.com/estate-sale/49924/item/5775577/Jewelry-Lot-Fear-Genuine-Leather-Wristband",
@@ -454,11 +398,38 @@
       }
     ]
   },
-  "ctbids-49722-5840705": {
-    "item_id": "ctbids-49722-5840705",
-    "listing_url": "https://ctbids.com/estate-sale/49722/item/5840705/Vintage-gold-tone-floral-and-leaf-brooch",
+  "ctbids-49722-5813998": {
+    "item_id": "ctbids-49722-5813998",
+    "listing_url": "https://ctbids.com/estate-sale/49722/item/5813998/Baltimore-Orioles-Ravens-Lot",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840705_XctakW.webp"
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5813998_6JQSLh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49495-5818463": {
+    "item_id": "ctbids-49495-5818463",
+    "listing_url": "https://ctbids.com/estate-sale/49495/item/5818463/Brass-Beauty-Vintage-Charm",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5818463_m6759C.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -481,11 +452,11 @@
       }
     ]
   },
-  "ctbids-49495-5818463": {
-    "item_id": "ctbids-49495-5818463",
-    "listing_url": "https://ctbids.com/estate-sale/49495/item/5818463/Brass-Beauty-Vintage-Charm",
+  "ctbids-49924-5774369": {
+    "item_id": "ctbids-49924-5774369",
+    "listing_url": "https://ctbids.com/estate-sale/49924/item/5774369/Vintage-Patchwork-Table-Runner",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5818463_m6759C.webp"
+      "https://image.ctbids.com/seller/2026-10-24Taf395c/5774369_xPwQJk.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -535,65 +506,11 @@
       }
     ]
   },
-  "ctbids-49722-5844744": {
-    "item_id": "ctbids-49722-5844744",
-    "listing_url": "https://ctbids.com/estate-sale/49722/item/5844744/VTG-Pickle-Caster-Ice-Bucket-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5844744_jJgiS0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-47928-5580654": {
     "item_id": "ctbids-47928-5580654",
     "listing_url": "https://ctbids.com/estate-sale/47928/item/5580654/Soda-Pop-Collectibles-Coca-Cola-Glass-Bottles-with-Santa-Carriers-7Up-Return-for-Deposit-Bottles",
     "images": [
       "https://image.ctbids.com/seller/2026-11-12T74e35e/5580654_2OTrUB.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49199-5852499": {
-    "item_id": "ctbids-49199-5852499",
-    "listing_url": "https://ctbids.com/estate-sale/49199/item/5852499/Gold-Tone-Masonic-Star-Emblem-Ring",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5852499_QHBUbu.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -643,33 +560,6 @@
       }
     ]
   },
-  "ctbids-49919-5842993": {
-    "item_id": "ctbids-49919-5842993",
-    "listing_url": "https://ctbids.com/estate-sale/49919/item/5842993/Sony-Trinicon-HVC-2200-Video-Camera",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5842993_CCyeX2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "0 bids near close (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "0 bids near close (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49199-5838562": {
     "item_id": "ctbids-49199-5838562",
     "listing_url": "https://ctbids.com/estate-sale/49199/item/5838562/Lot-of-8-Eisenhower-Dollar-Coins-1972-1974-1976-1978",
@@ -690,6 +580,33 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-47851-5557712": {
+    "item_id": "ctbids-47851-5557712",
+    "listing_url": "https://ctbids.com/estate-sale/47851/item/5557712/Pyrex-Kitchen-Essentials",
+    "images": [
+      "https://image.ctbids.com/seller/2026-08-27T3a0468/5557712_XNmKBA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -732,92 +649,11 @@
       }
     ]
   },
-  "ctbids-47851-5557712": {
-    "item_id": "ctbids-47851-5557712",
-    "listing_url": "https://ctbids.com/estate-sale/47851/item/5557712/Pyrex-Kitchen-Essentials",
+  "ctbids-49199-5852499": {
+    "item_id": "ctbids-49199-5852499",
+    "listing_url": "https://ctbids.com/estate-sale/49199/item/5852499/Gold-Tone-Masonic-Star-Emblem-Ring",
     "images": [
-      "https://image.ctbids.com/seller/2026-08-27T3a0468/5557712_XNmKBA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49919-5835078": {
-    "item_id": "ctbids-49919-5835078",
-    "listing_url": "https://ctbids.com/estate-sale/49919/item/5835078/Crate-And-Barrel-Fireplace-Tool-Set-With-Metal-Firewood-Basket",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835078_WxO11p.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "1 bid near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48143-5831240": {
-    "item_id": "ctbids-48143-5831240",
-    "listing_url": "https://ctbids.com/estate-sale/48143/item/5831240/Canon-55-135mm-Zoom-Lens",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5831240_xSsABm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49919-5838531": {
-    "item_id": "ctbids-49919-5838531",
-    "listing_url": "https://ctbids.com/estate-sale/49919/item/5838531/Pier-1-Carynthum-17-Piece-Dinnerware-Set-1",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5838531_GF8GPU.webp"
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5852499_QHBUbu.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -867,14 +703,15 @@
       }
     ]
   },
-  "ctbids-47851-5575907": {
-    "item_id": "ctbids-47851-5575907",
-    "listing_url": "https://ctbids.com/estate-sale/47851/item/5575907/Women-s-Fashion-Accessories-Dress-Shoes-1970s-to-Modern",
+  "ctbids-49919-5842993": {
+    "item_id": "ctbids-49919-5842993",
+    "listing_url": "https://ctbids.com/estate-sale/49919/item/5842993/Sony-Trinicon-HVC-2200-Video-Camera",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5575907_x8iASl.webp"
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5842993_CCyeX2.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -882,9 +719,37 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49865-5818617": {
+    "item_id": "ctbids-49865-5818617",
+    "listing_url": "https://ctbids.com/estate-sale/49865/item/5818617/Siya-Swayamvar-Embellished-Kurta-White-Pajama-Set-Size-Medium",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5818617_3zwLL6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -942,11 +807,86 @@
       }
     ]
   },
+  "ctbids-49919-5835078": {
+    "item_id": "ctbids-49919-5835078",
+    "listing_url": "https://ctbids.com/estate-sale/49919/item/5835078/Crate-And-Barrel-Fireplace-Tool-Set-With-Metal-Firewood-Basket",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835078_WxO11p.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48143-5831240": {
+    "item_id": "ctbids-48143-5831240",
+    "listing_url": "https://ctbids.com/estate-sale/48143/item/5831240/Canon-55-135mm-Zoom-Lens",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5831240_xSsABm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49817-5830456": {
     "item_id": "ctbids-49817-5830456",
     "listing_url": "https://ctbids.com/estate-sale/49817/item/5830456/Wallets-3",
     "images": [
       "https://image.ctbids.com/seller/2026-11-09T4518e0/5830456_1NMwsG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49919-5838531": {
+    "item_id": "ctbids-49919-5838531",
+    "listing_url": "https://ctbids.com/estate-sale/49919/item/5838531/Pier-1-Carynthum-17-Piece-Dinnerware-Set-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5838531_GF8GPU.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1097,6 +1037,31 @@
     "listing_url": "https://ctbids.com/estate-sale/49495/item/5823100/Raise-a-Glass-To-Elegance",
     "images": [
       "https://image.ctbids.com/seller/2026-11-13T4548b7/5823100_LinAj8.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49753-5807487": {
+    "item_id": "ctbids-49753-5807487",
+    "listing_url": "https://ctbids.com/estate-sale/49753/item/5807487/Noritake-China-Elegance-Pattern-12-Place-Settings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5807487_Jy6HCS.webp"
     ],
     "description": "",
     "score_reasons": [
