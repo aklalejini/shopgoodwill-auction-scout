@@ -16,6 +16,7 @@
       "Opportunity term 'lot' in title (+5)",
       "Lower-priority term 'corn cob' in title (-9)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+9)",
       "Base score (+5)"
     ],
@@ -23,13 +24,14 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 31,
-        "relative_score": 0.886,
+        "score": 35,
+        "relative_score": 1.0,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Lower-priority term 'corn cob' in title (-9)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
         ],
@@ -132,46 +134,6 @@
       }
     ]
   },
-  "284427375": {
-    "item_id": "284427375",
-    "listing_url": "https://shopgoodwill.com/item/284427375",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/06634aba-e7ea-4a2f-b001-52aa7069c35etton_11171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/d4ca2eb7-4486-47d8-b353-7ff5452e62d8tton_11172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/a7bc86f4-1296-4c5d-b117-f95fd527329etton_11173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/05583995-437f-468d-9fef-682fb7501858tton_11174.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/55ed1e70-22c7-4029-98bb-bb3831387dc9tton_11175.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/8d89ec08-658a-46d6-9a33-2bf48d33d5a8tton_11176.jpg"
-    ],
-    "description": "This listing includes three bags of assorted rough mineral and crystal specimens. The collection features raw crystals such as blue lace agate, calcite, quartz, rose quartz, green fluorite, and other minerals. Specimens are unpolished and in their natural state, displaying a variety of colors including clear, pink, blue, green, brown, and purple. Suitable for collectors, educational use, or crafting. See photos for condition.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'minerals' in description (+1)",
-      "Target keyword 'fluorite' in title (+9)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 18,
-        "relative_score": 0.6,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'minerals' in description (+1)",
-          "Target keyword 'fluorite' in title (+9)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "fluorite"
-        ]
-      }
-    ]
-  },
   "ctbids-47607-5777229": {
     "item_id": "ctbids-47607-5777229",
     "listing_url": "https://ctbids.com/estate-sale/47607/item/5777229/Vintage-Western-Electric-Bell-System-Black-Rotary-Dial-Desk-Telephone",
@@ -215,30 +177,78 @@
       }
     ]
   },
-  "ctbids-49835-5853354": {
-    "item_id": "ctbids-49835-5853354",
-    "listing_url": "https://ctbids.com/estate-sale/49835/item/5853354/Lot-of-Stuffed-Teddy-Bears-Christmas-Holiday-Season-Santa-Themed",
+  "284427375": {
+    "item_id": "284427375",
+    "listing_url": "https://shopgoodwill.com/item/284427375",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5853354_5tnJYU.webp"
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/06634aba-e7ea-4a2f-b001-52aa7069c35etton_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/d4ca2eb7-4486-47d8-b353-7ff5452e62d8tton_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/a7bc86f4-1296-4c5d-b117-f95fd527329etton_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/05583995-437f-468d-9fef-682fb7501858tton_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/55ed1e70-22c7-4029-98bb-bb3831387dc9tton_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-17/8d89ec08-658a-46d6-9a33-2bf48d33d5a8tton_11176.jpg"
     ],
-    "description": "",
+    "description": "This listing includes three bags of assorted rough mineral and crystal specimens. The collection features raw crystals such as blue lace agate, calcite, quartz, rose quartz, green fluorite, and other minerals. Specimens are unpolished and in their natural state, displaying a variety of colors including clear, pink, blue, green, brown, and purple. Suitable for collectors, educational use, or crafting. See photos for condition.",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'minerals' in description (+1)",
+      "Target keyword 'fluorite' in title (+9)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 18,
+        "relative_score": 0.6,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'minerals' in description (+1)",
+          "Target keyword 'fluorite' in title (+9)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
+      }
+    ]
+  },
+  "284737718": {
+    "item_id": "284737718",
+    "listing_url": "https://shopgoodwill.com/item/284737718",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/781f0cf5-8ab7-4412-b93c-71703c2a95a5XiaP_11191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/98f7d68b-5782-40ac-8a2e-45dc9a36a3dcXiaP_11192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/2312db28-a210-46e9-a33c-9a079fa80fbfXiaP_11193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/b4396477-3da5-49ed-89cf-021dd1b5163bXiaP_11194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/8a52ac10-0e5c-42f3-aee6-b6a3bf823d71XiaP_11195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/f5b88a19-de1a-4cb4-b4b9-20addfd5b9e0XiaP_11196.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-19/aa03ed5f-8760-4f2a-82bd-c663b8289cd0XiaP_11197.jpg"
+    ],
+    "description": "Framed Fish Fossil Specimen in Rustic Wooden Frame Sedimentary Rock Display\nThis item is a framed fossil specimen featuring a well-preserved fish fossil embedded in a rectangular slab of light beige sedimentary rock. The fossil shows clear details of the fish's bones and fins. The rock exhibits natural cracks and signs of age. The fossil slab is mounted in a simple rustic wooden frame with visible wear and some splitting at the corners, indicating vintage condition. There are no markings or labels identifying species or origin. The piece is authentic and intended for display or collection. Overall condition is used, with notable wear to both the stone and wooden frame.\n5 x 5 x 5 in",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'vintage' in description (+5)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 15,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'vintage' in description (+5)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -246,7 +256,7 @@
   },
   "ctbids-49562-5846700": {
     "item_id": "ctbids-49562-5846700",
-    "listing_url": "https://ctbids.com/estate-sale/49562/item/5846700/Two-Vintage-Folding-Pocketknives",
+    "listing_url": "https://ctbids.com/estate-sale/49562/item/5846700/Two-Vintage-Schrade-Folding-Pocketknives",
     "images": [
       "https://image.ctbids.com/seller/2026-11-12T74e35e/5846700_gvLy3m.webp"
     ],
@@ -266,6 +276,64 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49341-5846431": {
+    "item_id": "ctbids-49341-5846431",
+    "listing_url": "https://ctbids.com/estate-sale/49341/item/5846431/Vintage-Gold-Gilt-Neoclassical-3-Panel-Mirror",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5846431_eEFZFj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49835-5853388": {
+    "item_id": "ctbids-49835-5853388",
+    "listing_url": "https://ctbids.com/estate-sale/49835/item/5853388/Lot-of-Stuffed-Teddy-Bears-1",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5853388_2U6Cyv.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -354,16 +422,15 @@
       }
     ]
   },
-  "ctbids-49835-5853388": {
-    "item_id": "ctbids-49835-5853388",
-    "listing_url": "https://ctbids.com/estate-sale/49835/item/5853388/Lot-of-Stuffed-Teddy-Bears-1",
+  "ctbids-47607-5776965": {
+    "item_id": "ctbids-47607-5776965",
+    "listing_url": "https://ctbids.com/estate-sale/47607/item/5776965/Vintage-Norelco-Rotatract-Electronic-Rechargeable-Shaver-with-Case-Cord",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5853388_2U6Cyv.webp"
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5776965_Vl7Sh3.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -371,11 +438,64 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49835-5853354": {
+    "item_id": "ctbids-49835-5853354",
+    "listing_url": "https://ctbids.com/estate-sale/49835/item/5853354/Lot-of-Stuffed-Teddy-Bears-Christmas-Holiday-Season-Santa-Themed",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5853354_5tnJYU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49600-5840264": {
+    "item_id": "ctbids-49600-5840264",
+    "listing_url": "https://ctbids.com/estate-sale/49600/item/5840264/Lot-Of-Video-Game-Insert-Booklets-Nintendo-Ds",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840264_8POb1o.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -427,87 +547,6 @@
       }
     ]
   },
-  "ctbids-49600-5840264": {
-    "item_id": "ctbids-49600-5840264",
-    "listing_url": "https://ctbids.com/estate-sale/49600/item/5840264/Lot-Of-Video-Game-Insert-Booklets-Nintendo-Ds",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840264_8POb1o.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-47607-5776965": {
-    "item_id": "ctbids-47607-5776965",
-    "listing_url": "https://ctbids.com/estate-sale/47607/item/5776965/Vintage-Norelco-Rotatract-Electronic-Rechargeable-Shaver-with-Case-Cord",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5776965_Vl7Sh3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49341-5846431": {
-    "item_id": "ctbids-49341-5846431",
-    "listing_url": "https://ctbids.com/estate-sale/49341/item/5846431/Vintage-Gold-Gilt-Neoclassical-3-Panel-Mirror",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5846431_eEFZFj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49875-5842544": {
     "item_id": "ctbids-49875-5842544",
     "listing_url": "https://ctbids.com/estate-sale/49875/item/5842544/Lincoln-And-The-Doctors-by-Milton-H-Shutes-M-D-Numbered-And-Signed",
@@ -535,11 +574,38 @@
       }
     ]
   },
-  "ctbids-49399-5840323": {
-    "item_id": "ctbids-49399-5840323",
-    "listing_url": "https://ctbids.com/estate-sale/49399/item/5840323/Beaded-Cookie-Lee-and-Other-Brands",
+  "ctbids-49556-5823446": {
+    "item_id": "ctbids-49556-5823446",
+    "listing_url": "https://ctbids.com/estate-sale/49556/item/5823446/Eggplant-Etching-Wall-Art",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840323_G8nPO6.webp"
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5823446_qsLXjo.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49575-5797839": {
+    "item_id": "ctbids-49575-5797839",
+    "listing_url": "https://ctbids.com/estate-sale/49575/item/5797839/CO208-Johnston-Murphy-Men-s-Loafers-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5797839_922kuS.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -787,6 +853,31 @@
       }
     ]
   },
+  "ctbids-49399-5840323": {
+    "item_id": "ctbids-49399-5840323",
+    "listing_url": "https://ctbids.com/estate-sale/49399/item/5840323/Beaded-Cookie-Lee-and-Other-Brands",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5840323_G8nPO6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49983-5847610": {
     "item_id": "ctbids-49983-5847610",
     "listing_url": "https://ctbids.com/estate-sale/49983/item/5847610/Copper-Larimar-Floral-Ring",
@@ -817,31 +908,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49835/item/5851109/Waterford-Crystal-Pegasus",
     "images": [
       "https://image.ctbids.com/seller/2026-11-13T4548b7/5851109_tPX6jR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49556-5823446": {
-    "item_id": "ctbids-49556-5823446",
-    "listing_url": "https://ctbids.com/estate-sale/49556/item/5823446/Eggplant-Etching-Wall-Art",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5823446_qsLXjo.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -912,11 +978,11 @@
       }
     ]
   },
-  "ctbids-49575-5797839": {
-    "item_id": "ctbids-49575-5797839",
-    "listing_url": "https://ctbids.com/estate-sale/49575/item/5797839/CO208-Johnston-Murphy-Men-s-Loafers-More",
+  "ctbids-49399-5824876": {
+    "item_id": "ctbids-49399-5824876",
+    "listing_url": "https://ctbids.com/estate-sale/49399/item/5824876/11-Bangle-Bracelets",
     "images": [
-      "https://image.ctbids.com/seller/2026-10-30Tf6f451/5797839_922kuS.webp"
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5824876_y7wbJt.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -937,11 +1003,11 @@
       }
     ]
   },
-  "ctbids-49399-5824876": {
-    "item_id": "ctbids-49399-5824876",
-    "listing_url": "https://ctbids.com/estate-sale/49399/item/5824876/11-Bangle-Bracelets",
+  "ctbids-49562-5824659": {
+    "item_id": "ctbids-49562-5824659",
+    "listing_url": "https://ctbids.com/estate-sale/49562/item/5824659/Spanish-El-Cid-Replica-Steel-Sword",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5824876_y7wbJt.webp"
+      "https://image.ctbids.com/seller/2026-11-06Tb9a870/5824659_o5aQno.webp"
     ],
     "description": "",
     "score_reasons": [
