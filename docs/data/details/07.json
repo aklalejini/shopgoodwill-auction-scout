@@ -107,6 +107,7 @@
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -114,10 +115,40 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 13,
-        "relative_score": 0.382,
+        "score": 17,
+        "relative_score": 0.5,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49556-5809245": {
+    "item_id": "ctbids-49556-5809245",
+    "listing_url": "https://ctbids.com/estate-sale/49556/item/5809245/Vintage-American-Philatelic-Society-Stamp-Collection",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809245_BJBpvh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 12,
+        "relative_score": 0.353,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
@@ -159,62 +190,6 @@
       }
     ]
   },
-  "ctbids-49747-5837116": {
-    "item_id": "ctbids-49747-5837116",
-    "listing_url": "https://ctbids.com/estate-sale/49747/item/5837116/Magic-The-Gathering-Signed-Card-Revised-Deckmaster-Deck-Various-Loose-Cards-4-Sealed-Pks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837116_R6v8Zg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49556-5809245": {
-    "item_id": "ctbids-49556-5809245",
-    "listing_url": "https://ctbids.com/estate-sale/49556/item/5809245/Vintage-American-Philatelic-Society-Stamp-Collection",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5809245_BJBpvh.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49835-5849452": {
     "item_id": "ctbids-49835-5849452",
     "listing_url": "https://ctbids.com/estate-sale/49835/item/5849452/Antique-Ornate-Cast-Iron-Level",
@@ -224,6 +199,36 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'antique' in title (+7)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'antique' in title (+7)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49341-5831307": {
+    "item_id": "ctbids-49341-5831307",
+    "listing_url": "https://ctbids.com/estate-sale/49341/item/5831307/Vintage-Faux-Bamboo-Hollywood-Regency-Writing-Desk",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5831307_5wR328.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -234,7 +239,8 @@
         "score": 8,
         "relative_score": 0.235,
         "score_reasons": [
-          "Opportunity term 'antique' in title (+7)",
+          "Opportunity term 'vintage' in title (+5)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -262,33 +268,6 @@
         "relative_score": 0.235,
         "score_reasons": [
           "Opportunity term 'antique' in title (+7)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49341-5831307": {
-    "item_id": "ctbids-49341-5831307",
-    "listing_url": "https://ctbids.com/estate-sale/49341/item/5831307/Vintage-Faux-Bamboo-Hollywood-Regency-Writing-Desk",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5831307_5wR328.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -343,31 +322,6 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49805-5835730": {
-    "item_id": "ctbids-49805-5835730",
-    "listing_url": "https://ctbids.com/estate-sale/49805/item/5835730/1959-D-1963-D-Silver-Franklin-Half-Dollars-Both-AU-58-By-NGC",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5835730_l2v2yR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -442,14 +396,15 @@
       }
     ]
   },
-  "ctbids-49202-5820570": {
-    "item_id": "ctbids-49202-5820570",
-    "listing_url": "https://ctbids.com/estate-sale/49202/item/5820570/MMC057-White-Jade-Bangle-Bracelet-New",
+  "ctbids-49025-5830956": {
+    "item_id": "ctbids-49025-5830956",
+    "listing_url": "https://ctbids.com/estate-sale/49025/item/5830956/Homestead-Federal-Glass-Snack-Set-More",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820570_yUbAEl.webp"
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830956_tNnsL9.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -457,9 +412,145 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49556-5808097": {
+    "item_id": "ctbids-49556-5808097",
+    "listing_url": "https://ctbids.com/estate-sale/49556/item/5808097/2005-First-Day-Issue-Ocean-In-View-O-The-Joy-Nickels",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808097_HLUgKu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49248-5763492": {
+    "item_id": "ctbids-49248-5763492",
+    "listing_url": "https://ctbids.com/estate-sale/49248/item/5763492/Fitz-and-Floyd-Rooster-and-Hen-Salt-and-Pepper-Shakers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763492_dtCLNn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49885-5837619": {
+    "item_id": "ctbids-49885-5837619",
+    "listing_url": "https://ctbids.com/estate-sale/49885/item/5837619/Tenney-The-Zondervan-Pictorial-Encyclopedia-of-the-Bible-5-Volumes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837619_hFbwHg.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49399-5814707": {
+    "item_id": "ctbids-49399-5814707",
+    "listing_url": "https://ctbids.com/estate-sale/49399/item/5814707/Wooden-Necklaces-Seed-Pod-Leis",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814707_YwMpS5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49556-5820269": {
+    "item_id": "ctbids-49556-5820269",
+    "listing_url": "https://ctbids.com/estate-sale/49556/item/5820269/Victorian-Style-Pair-of-Prints",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820269_QnlCet.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -592,31 +683,6 @@
       }
     ]
   },
-  "ctbids-49025-5830956": {
-    "item_id": "ctbids-49025-5830956",
-    "listing_url": "https://ctbids.com/estate-sale/49025/item/5830956/Homestead-Federal-Glass-Snack-Set-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830956_tNnsL9.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49835-5829248": {
     "item_id": "ctbids-49835-5829248",
     "listing_url": "https://ctbids.com/estate-sale/49835/item/5829248/Waterford-Crystal-Two-Knife-Rests-Ashtray-And-Cigarette-Holder",
@@ -667,31 +733,6 @@
       }
     ]
   },
-  "ctbids-49556-5808097": {
-    "item_id": "ctbids-49556-5808097",
-    "listing_url": "https://ctbids.com/estate-sale/49556/item/5808097/2005-First-Day-Issue-Ocean-In-View-O-The-Joy-Nickels",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-03T8cd417/5808097_HLUgKu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49556-5808313": {
     "item_id": "ctbids-49556-5808313",
     "listing_url": "https://ctbids.com/estate-sale/49556/item/5808313/Gold-Toned-Ballistic-Roll-of-50-Uncirculated-US-Dollar-Coins",
@@ -717,111 +758,11 @@
       }
     ]
   },
-  "ctbids-49248-5763492": {
-    "item_id": "ctbids-49248-5763492",
-    "listing_url": "https://ctbids.com/estate-sale/49248/item/5763492/Fitz-and-Floyd-Rooster-and-Hen-Salt-and-Pepper-Shakers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-21Td3ca70/5763492_dtCLNn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49885-5837619": {
-    "item_id": "ctbids-49885-5837619",
-    "listing_url": "https://ctbids.com/estate-sale/49885/item/5837619/Tenney-The-Zondervan-Pictorial-Encyclopedia-of-the-Bible-5-Volumes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837619_hFbwHg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49399-5840023": {
     "item_id": "ctbids-49399-5840023",
     "listing_url": "https://ctbids.com/estate-sale/49399/item/5840023/Anthropologie-And-Other-Beaded-Necklaces-Braclet",
     "images": [
       "https://image.ctbids.com/seller/2026-11-12T74e35e/5840023_Pi1feU.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49399-5814707": {
-    "item_id": "ctbids-49399-5814707",
-    "listing_url": "https://ctbids.com/estate-sale/49399/item/5814707/Wooden-Necklaces-Seed-Pod-Leis",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-04T8616ba/5814707_YwMpS5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49556-5820269": {
-    "item_id": "ctbids-49556-5820269",
-    "listing_url": "https://ctbids.com/estate-sale/49556/item/5820269/Victorian-Style-Pair-of-Prints",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5820269_QnlCet.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -897,6 +838,106 @@
     "listing_url": "https://ctbids.com/estate-sale/49556/item/5844188/Sleeping-Cat-Carving",
     "images": [
       "https://image.ctbids.com/seller/2026-11-12T74e35e/5844188_DGrMTr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49399-5817864": {
+    "item_id": "ctbids-49399-5817864",
+    "listing_url": "https://ctbids.com/estate-sale/49399/item/5817864/Button-Cover-Sets-some-w-earrings",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5817864_fHjjt6.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49666-5833720": {
+    "item_id": "ctbids-49666-5833720",
+    "listing_url": "https://ctbids.com/estate-sale/49666/item/5833720/CYCLOPAEDIA-OF-UNIVERSAL-HISTORY-VOLUME-II-III",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5833720_F8Yx3M.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49983-5843714": {
+    "item_id": "ctbids-49983-5843714",
+    "listing_url": "https://ctbids.com/estate-sale/49983/item/5843714/Pink-Copper-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5843714_pdJEOr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49072-5846801": {
+    "item_id": "ctbids-49072-5846801",
+    "listing_url": "https://ctbids.com/estate-sale/49072/item/5846801/Six-800-Silver-Spoons-80-Grams",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5846801_Q8C9hf.webp"
     ],
     "description": "",
     "score_reasons": [
