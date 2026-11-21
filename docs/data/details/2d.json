@@ -232,6 +232,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Target keyword 'briar' in title (+5)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -239,17 +240,74 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 12,
-        "relative_score": 0.343,
+        "score": 14,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Target keyword 'briar' in title (+5)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": [
           "briar"
         ]
+      }
+    ]
+  },
+  "ctbids-49806-5832211": {
+    "item_id": "ctbids-49806-5832211",
+    "listing_url": "https://ctbids.com/estate-sale/49806/item/5832211/Southern-Living-Cookbook-Collection-1983-2000",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832211_KaXzlO.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49881-5853572": {
+    "item_id": "ctbids-49881-5853572",
+    "listing_url": "https://ctbids.com/estate-sale/49881/item/5853572/John-Lennon-Insider-Biography-Book-Lot-3-Frederic-Seaman-Cynthia-Lennon-Shotton",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5853572_j7zKKC.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
       }
     ]
   },
@@ -341,33 +399,6 @@
       }
     ]
   },
-  "ctbids-49806-5832211": {
-    "item_id": "ctbids-49806-5832211",
-    "listing_url": "https://ctbids.com/estate-sale/49806/item/5832211/Southern-Living-Cookbook-Collection-1983-2000",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832211_KaXzlO.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49806-5844921": {
     "item_id": "ctbids-49806-5844921",
     "listing_url": "https://ctbids.com/estate-sale/49806/item/5844921/Vintage-Aqua-Toned-Necklace-Earrings-Brooches",
@@ -415,33 +446,6 @@
         "relative_score": 0.206,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49881-5853572": {
-    "item_id": "ctbids-49881-5853572",
-    "listing_url": "https://ctbids.com/estate-sale/49881/item/5853572/John-Lennon-Insider-Biography-Book-Lot-3-Frederic-Seaman-Cynthia-Lennon-Shotton",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5853572_j7zKKC.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -523,6 +527,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -530,34 +535,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49704-5809474": {
-    "item_id": "ctbids-49704-5809474",
-    "listing_url": "https://ctbids.com/estate-sale/49704/item/5809474/7-Lionel-Pre-war-Freights-in-Various-Operator-Restorer-Conditions",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5809474_cZlZAY.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -570,6 +551,60 @@
     "listing_url": "https://ctbids.com/estate-sale/49806/item/5844764/Gorham-Winter-Follies-Snowman-Trio-Christmas-Glass-Pedestal-Serving-Platter",
     "images": [
       "https://image.ctbids.com/seller/2026-11-16T4a73f2/5844764_Aou4Mx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49500-5854855": {
+    "item_id": "ctbids-49500-5854855",
+    "listing_url": "https://ctbids.com/estate-sale/49500/item/5854855/Baby-Toddler-Plush-Toys-Little-Tikes-Sounds-Yummy-Book-Baby-Einstein",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5854855_IJeXuj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49704-5809474": {
+    "item_id": "ctbids-49704-5809474",
+    "listing_url": "https://ctbids.com/estate-sale/49704/item/5809474/7-Lionel-Pre-war-Freights-in-Various-Operator-Restorer-Conditions",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5809474_cZlZAY.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -665,26 +700,35 @@
       }
     ]
   },
-  "ctbids-49500-5854855": {
-    "item_id": "ctbids-49500-5854855",
-    "listing_url": "https://ctbids.com/estate-sale/49500/item/5854855/Baby-Toddler-Plush-Toys-Little-Tikes-Sounds-Yummy-Book-Baby-Einstein",
+  "284972742": {
+    "item_id": "284972742",
+    "listing_url": "https://shopgoodwill.com/item/284972742",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-15T3beb48/5854855_IJeXuj.webp"
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/496528ae-d482-4e14-9416-f1c6b178c42boetz_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/2761c462-dd21-4628-bbdb-a9d5a63e0f38oetz_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/611509bb-e7d3-403d-9f94-20297d369f0coetz_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/3ef52f45-3e0f-4f87-ac9f-2fdbaecfbdeeoetz_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/ca31dee3-8d9f-4242-aeba-64bf735cc772oetz_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-17/4be649f7-25ea-41d8-97e6-75cddea8d190oetz_11176.jpg"
     ],
-    "description": "",
+    "description": "Item Description:\nLot Three Geode Candleholders - ., etc.\nApproximate Measurements (inches):\n9 x 6 x 3 Sizes Vary\nWeight (in lbs):\n4.7\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -965,6 +1009,106 @@
       }
     ]
   },
+  "ctbids-49205-5829229": {
+    "item_id": "ctbids-49205-5829229",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829229/Marvel-Comics-Presents-Fantastic-Four",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829229_BDCUbG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829304": {
+    "item_id": "ctbids-49205-5829304",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829304/Justice-League-America-s-5-26-28",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829304_4TNYkn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829379": {
+    "item_id": "ctbids-49205-5829379",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829379/Marvel-Presents-X-Factor-s-23-28",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829379_WDQKDb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829536": {
+    "item_id": "ctbids-49205-5829536",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829536/Marvel-Comics-Group-Marvel-Premiere-Featuring",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5829536_4hIJg7.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "283595403": {
     "item_id": "283595403",
     "listing_url": "https://shopgoodwill.com/item/283595403",
@@ -994,6 +1138,44 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+12)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284987686": {
+    "item_id": "284987686",
+    "listing_url": "https://shopgoodwill.com/item/284987686",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/46b86c92-be26-4166-8570-597d82fa52e0t099_11161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/67610922-7c84-4365-beca-a29b6dbbb0b5t099_11162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/e6fab7d5-ff1a-4304-aa01-0c3903af86b5t099_11163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/54a6d90b-49e6-4372-b8d3-fa32cbdf5e3at099_11164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/cf3a07c4-d68a-4501-8965-36569bc8de02t099_11165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/00b627e5-de32-4dd3-821b-58ea0e2b8c8ft099_11166.jpg"
+    ],
+    "description": "Natural Quartz Geode Specimens\nRaw Crystalline Geode Halves\nNatural Quartz and Matrix Rock, 2 Pieces\nThis lot features two natural rough quartz geode specimens showcasing distinct crystalline formations. One piece displays radiating crystalline quartz surrounding an inner hollow, while the companion piece features sparkling druzy quartz lining an irregular cavity with a dark mineral inclusion. Natural geodes form over millions of years within sedimentary or volcanic rock cavities, making each specimen a unique geological study piece popular with rockhounds, mineral collectors, and natural decor enthusiasts.\nTwo-piece natural quartz geode lot featuring raw, unpolished outer matrix rock\nLarger piece exhibits radiating white quartz crystals with a central cavity\nSecond piece displays fine druzy quartz crystals with tan iron-toned matrix and dark core inclusion\nCombined dimensions approximately 7 x 6 x 5 inches; total weight approximately 3.95 pounds\nCondition:\nNatural geological specimens in raw, unpolished condition. Surfaces display natural roughness, matrix pitting, and inherent crystalline variations. Crystals show natural terminations and sparkling luster across inner hollows. No artificial dyes or synthetic enhancements observed.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'lot' in description (+2)",
+      "Lower-priority term 'decor' in description (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'lot' in description (+2)",
+          "Lower-priority term 'decor' in description (-8)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }

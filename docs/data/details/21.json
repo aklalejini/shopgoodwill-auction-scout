@@ -8,6 +8,7 @@
     "description": "",
     "score_reasons": [
       "High-value signal 'art pottery' in title (+14)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -15,10 +16,40 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 15,
-        "relative_score": 0.441,
+        "score": 17,
+        "relative_score": 0.5,
         "score_reasons": [
           "High-value signal 'art pottery' in title (+14)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49806-5855020": {
+    "item_id": "ctbids-49806-5855020",
+    "listing_url": "https://ctbids.com/estate-sale/49806/item/5855020/Lot-of-5-New-MAS-Ignition-Coils-with-Autolite-Racing-Champion-Spark-Plugs",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5855020_Zf8pDx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -53,30 +84,58 @@
       }
     ]
   },
-  "ctbids-49806-5855020": {
-    "item_id": "ctbids-49806-5855020",
-    "listing_url": "https://ctbids.com/estate-sale/49806/item/5855020/Lot-of-5-New-MAS-Ignition-Coils-with-Autolite-Racing-Champion-Spark-Plugs",
+  "284313622": {
+    "item_id": "284313622",
+    "listing_url": "https://shopgoodwill.com/item/284313622",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5855020_Zf8pDx.webp"
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/db2d2589-678b-45a0-bdf0-43b0b6bb396cgram_11161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/b6963aa8-0b7b-46e2-a442-846976b760cfgram_11162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/5160ca7d-0367-44c3-9f4c-77e296311309gram_11163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/9e25d272-4939-482a-bc5b-55aed1fdd7b6gram_11164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/c08c2a56-644e-427f-a8a5-9fd65c273ebdgram_11165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/5e34eb0b-e46c-41fe-a206-dbfa918232cagram_11166.jpg"
     ],
-    "description": "",
+    "description": "Assorted sealed blank recordable media including VHS videocassettes, CD-R, CD-RW, DVD+R, and DVD+R DL discs from multiple brands such as Sony, Maxell, RCA, Fujifilm, Memorex, TDK, and Imation. Includes Maxell HGX-Gold, Premium Grade T-120, Fujifilm 6Hrs T-120, RCA Hi-Fi Stereo and Standard Grade VHS tapes, Maxell T-180 GX-Silver VHS tape, Memorex DVD+R DL 5-packs, Maxell DVD+R 5-pack, TDK ReWritable Audio CD, Memorex CD-RW, Maxell CD-R Music, Imation CD-R spindle, and TDK DVD recordable spindle. Also includes empty jewel CD cases. Packaging colors vary and materials include plastic cassette shells and polycarbonate discs. See photos for condition.",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'pack' in description (+4)",
+      "Lower-priority term 'vhs tapes' in description (-18)",
+      "Lower-priority term 't-120' in description (-12)",
+      "Target keyword 'maxell' in description (+5)",
+      "Target keyword 'tdk' in description (+5)",
+      "Target keyword 't-120' in description (+5)",
+      "Only the top 3 target keyword matches count; 3 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-3)",
+      "Base score (+4)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 6,
+        "relative_score": 0.167,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'pack' in description (+4)",
+          "Lower-priority term 'vhs tapes' in description (-18)",
+          "Lower-priority term 't-120' in description (-12)",
+          "Target keyword 'maxell' in description (+5)",
+          "Target keyword 'tdk' in description (+5)",
+          "Target keyword 't-120' in description (+5)",
+          "Only the top 3 target keyword matches count; 3 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-3)",
+          "Base score (+4)"
         ],
-        "matched_keywords": []
+        "matched_keywords": [
+          "fujifilm",
+          "maxell",
+          "memorex",
+          "sony",
+          "t-120",
+          "tdk"
+        ]
       }
     ]
   },
@@ -181,6 +240,87 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50112-5858689": {
+    "item_id": "ctbids-50112-5858689",
+    "listing_url": "https://ctbids.com/estate-sale/50112/item/5858689/29-Trinity-Comic-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5858689_M8rGIK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5828252": {
+    "item_id": "ctbids-49871-5828252",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5828252/NIB-Funko-POP-Pins-Star-Wars-Chase-SE-KARRE-Storm-Trooper-Pilot-Enamel-Pin-W-Acrilic-Stand",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5805820_qXSICu.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5872315": {
+    "item_id": "ctbids-49871-5872315",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5872315/Long-Red-Green-Christmas-Multicolor-Rhinestone-Pave-Snowflake-Pendant-Necklace",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5872315_C5YlI0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -374,31 +514,6 @@
       }
     ]
   },
-  "ctbids-50112-5858689": {
-    "item_id": "ctbids-50112-5858689",
-    "listing_url": "https://ctbids.com/estate-sale/50112/item/5858689/29-Trinity-Comic-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5858689_M8rGIK.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50092-5860201": {
     "item_id": "ctbids-50092-5860201",
     "listing_url": "https://ctbids.com/estate-sale/50092/item/5860201/Fun-Miniature-Decor-Items",
@@ -449,56 +564,6 @@
       }
     ]
   },
-  "ctbids-49871-5828252": {
-    "item_id": "ctbids-49871-5828252",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5828252/NIB-Funko-POP-Pins-Star-Wars-Chase-SE-KARRE-Storm-Trooper-Pilot-Enamel-Pin-W-Acrilic-Stand",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-08T576de6/5805820_qXSICu.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49871-5872315": {
-    "item_id": "ctbids-49871-5872315",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5872315/Long-Red-Green-Christmas-Multicolor-Rhinestone-Pave-Snowflake-Pendant-Necklace",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5872315_C5YlI0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49978-5850516": {
     "item_id": "ctbids-49978-5850516",
     "listing_url": "https://ctbids.com/estate-sale/49978/item/5850516/5-Model-Cars-Corvette-Lamborghini-Ford-Pickup-1953-Studabaker-Ford-Model-A",
@@ -521,59 +586,6 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "284313622": {
-    "item_id": "284313622",
-    "listing_url": "https://shopgoodwill.com/item/284313622",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/db2d2589-678b-45a0-bdf0-43b0b6bb396cgram_11161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/b6963aa8-0b7b-46e2-a442-846976b760cfgram_11162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/5160ca7d-0367-44c3-9f4c-77e296311309gram_11163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/9e25d272-4939-482a-bc5b-55aed1fdd7b6gram_11164.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/c08c2a56-644e-427f-a8a5-9fd65c273ebdgram_11165.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-16/5e34eb0b-e46c-41fe-a206-dbfa918232cagram_11166.jpg"
-    ],
-    "description": "Assorted sealed blank recordable media including VHS videocassettes, CD-R, CD-RW, DVD+R, and DVD+R DL discs from multiple brands such as Sony, Maxell, RCA, Fujifilm, Memorex, TDK, and Imation. Includes Maxell HGX-Gold, Premium Grade T-120, Fujifilm 6Hrs T-120, RCA Hi-Fi Stereo and Standard Grade VHS tapes, Maxell T-180 GX-Silver VHS tape, Memorex DVD+R DL 5-packs, Maxell DVD+R 5-pack, TDK ReWritable Audio CD, Memorex CD-RW, Maxell CD-R Music, Imation CD-R spindle, and TDK DVD recordable spindle. Also includes empty jewel CD cases. Packaging colors vary and materials include plastic cassette shells and polycarbonate discs. See photos for condition.",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+12)",
-      "Opportunity term 'pack' in description (+4)",
-      "Lower-priority term 'vhs tapes' in description (-18)",
-      "Lower-priority term 't-120' in description (-12)",
-      "Target keyword 'maxell' in description (+5)",
-      "Target keyword 'tdk' in description (+5)",
-      "Target keyword 't-120' in description (+5)",
-      "Only the top 3 target keyword matches count; 3 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-3)",
-      "Base score (+4)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "sealed-vintage-media",
-        "label": "Sealed Vintage Media",
-        "score": 2,
-        "relative_score": 0.056,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+12)",
-          "Opportunity term 'pack' in description (+4)",
-          "Lower-priority term 'vhs tapes' in description (-18)",
-          "Lower-priority term 't-120' in description (-12)",
-          "Target keyword 'maxell' in description (+5)",
-          "Target keyword 'tdk' in description (+5)",
-          "Target keyword 't-120' in description (+5)",
-          "Only the top 3 target keyword matches count; 3 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-3)",
-          "Base score (+4)"
-        ],
-        "matched_keywords": [
-          "fujifilm",
-          "maxell",
-          "memorex",
-          "sony",
-          "t-120",
-          "tdk"
-        ]
       }
     ]
   },
@@ -907,6 +919,56 @@
     "listing_url": "https://ctbids.com/estate-sale/49582/item/5795964/Federal-Mfg-And-Engineering-Corp-Ultra-High-Frequency-Signal-Generator-No-804-Powers-On-1",
     "images": [
       "https://image.ctbids.com/seller/2026-10-30Tf6f451/5795964_Pjntvd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829232": {
+    "item_id": "ctbids-49205-5829232",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829232/Marvel-Comics-With-Chromium-And-Embossed-Cover",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829232_iAtRle.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829419": {
+    "item_id": "ctbids-49205-5829419",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829419/Gold-Key-Presents-The-Man-From-UNCLE",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829419_3zKJJJ.webp"
     ],
     "description": "",
     "score_reasons": [

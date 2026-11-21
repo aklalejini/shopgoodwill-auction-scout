@@ -56,6 +56,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
       "High-value signal 'sterling silver' in title (+18)",
+      "1 bid near close (+2)",
       "Shipping is calculated and not included in the price (0)",
       "Base score (+6)"
     ],
@@ -63,11 +64,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 29,
-        "relative_score": 0.853,
+        "score": 31,
+        "relative_score": 0.912,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "High-value signal 'sterling silver' in title (+18)",
+          "1 bid near close (+2)",
           "Shipping is calculated and not included in the price (0)",
           "Base score (+6)"
         ],
@@ -109,6 +111,45 @@
       }
     ]
   },
+  "284171972": {
+    "item_id": "284171972",
+    "listing_url": "https://shopgoodwill.com/item/284171972",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-14/01534155-a485-40c0-b661-f72e2ea5c54aport_11141.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-14/9ae63caa-30c3-4952-9745-240e6945f695port_11142.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-14/1e791ae5-9a89-4a4e-ad7f-6d27d10f4b02port_11143.jpg"
+    ],
+    "description": "Scott's Mineral Box Industries\nVintage Rocks and Minerals Specimen Collection Set\n24 Labeled Specimens with Display Box\nA classic mid-century educational geology collection produced by Scott's Mineral Box Industries of Custer, South Dakota. Dating to the 1950s to 1960s, these boxed study sets were distributed to rockhounds, students, and tourists visiting the Black Hills. Each natural geological specimen is mounted and identified on a printed compartmentalized tray, illustrating key ore, mineral, and rock classifications from North American deposits.\nIncludes 24 individually labeled specimens including Gold Ore, Copper Ore, Rose Quartz, Muscovite, Uranium Ore, and Petrified Wood\nAccompanied by an additional natural clear quartz crystal point\nHoused in the original faux-tooled leatherette textured cardboard box with matching lid\nMeasures approximately 8.6 inches long by 5.6 inches wide by 1 inch deep\nCondition:\nBox lid and base remain structurally sound with light corner and edge wear consistent with age. Printed tray is clean and legible with all 24 labeled specimens intact and firmly attached. Loose quartz crystal point is complete with natural terminations and surface inclusions.",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'vintage' in title (+1)",
+      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 21,
+        "relative_score": 0.7,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'vintage' in title (+1)",
+          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49946-5842726": {
     "item_id": "ctbids-49946-5842726",
     "listing_url": "https://ctbids.com/estate-sale/49946/item/5842726/LUCIANA-ROSELLI-FOR-LALIQUE-Crystal-Plate-with-Frosted-Victorian-Lady-Cameo-Floral-Design",
@@ -131,43 +172,6 @@
           "High-value signal 'Lalique' in title (+20)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284171972": {
-    "item_id": "284171972",
-    "listing_url": "https://shopgoodwill.com/item/284171972",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-14/01534155-a485-40c0-b661-f72e2ea5c54aport_11141.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-14/9ae63caa-30c3-4952-9745-240e6945f695port_11142.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-14/1e791ae5-9a89-4a4e-ad7f-6d27d10f4b02port_11143.jpg"
-    ],
-    "description": "Scott's Mineral Box Industries\nVintage Rocks and Minerals Specimen Collection Set\n24 Labeled Specimens with Display Box\nA classic mid-century educational geology collection produced by Scott's Mineral Box Industries of Custer, South Dakota. Dating to the 1950s to 1960s, these boxed study sets were distributed to rockhounds, students, and tourists visiting the Black Hills. Each natural geological specimen is mounted and identified on a printed compartmentalized tray, illustrating key ore, mineral, and rock classifications from North American deposits.\nIncludes 24 individually labeled specimens including Gold Ore, Copper Ore, Rose Quartz, Muscovite, Uranium Ore, and Petrified Wood\nAccompanied by an additional natural clear quartz crystal point\nHoused in the original faux-tooled leatherette textured cardboard box with matching lid\nMeasures approximately 8.6 inches long by 5.6 inches wide by 1 inch deep\nCondition:\nBox lid and base remain structurally sound with light corner and edge wear consistent with age. Printed tray is clean and legible with all 24 labeled specimens intact and firmly attached. Loose quartz crystal point is complete with natural terminations and surface inclusions.",
-    "score_reasons": [
-      "Opportunity term 'geology' in description (+10)",
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'vintage' in title (+1)",
-      "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-      "Opportunity term cap limited keyword stacking; effective contributions are shown",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 17,
-        "relative_score": 0.567,
-        "score_reasons": [
-          "Opportunity term 'geology' in description (+10)",
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'vintage' in title (+1)",
-          "Only the top 3 opportunity term matches count; 3 weaker overlap(s) ignored",
-          "Opportunity term cap limited keyword stacking; effective contributions are shown",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -265,23 +269,23 @@
       }
     ]
   },
-  "284331109": {
-    "item_id": "284331109",
-    "listing_url": "https://shopgoodwill.com/item/284331109",
+  "284658545": {
+    "item_id": "284658545",
+    "listing_url": "https://shopgoodwill.com/item/284658545",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/29c3a3ce-9ec8-469d-bc11-99d89031fed6t099_11161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/3432893a-dd63-4881-be3e-6e79f08c819dt099_11162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/e3feae0e-d59c-4853-8662-bf228a9eff47t099_11163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/0c7d1399-2b7a-47d6-85a8-cf7c5275328dt099_11164.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/14b57015-5870-4cd5-9c2e-da30f83710a2t099_11165.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/e75ec683-3c1b-46c1-8573-bc5c5ffe9ca8t099_11166.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/54/Items/2026-11-16/a7322220-f13e-47fc-a5af-9039a60ce5dft099_11167.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/d5aa9c0c-bd58-400a-9e26-35b4aa318477ason_11121.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/4f001141-8c0b-4a20-8430-7a9c4e56fc20ason_11122.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/febef2ce-4104-4637-9fb5-ca286de9b2cdason_11123.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/34eec759-a6ba-4059-80de-480fe803c5b7ason_11124.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/1830bf05-a9f6-4d3a-b55b-3070aacaf626ason_11125.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/3bdc8415-5e00-447e-baf3-4b00e6ccdd65ason_11126.jpg"
     ],
-    "description": "Natural Quartz Geode Specimen Pair\nCrystalline Rock Cavity Halves\nRaw Mineral Formation, 2 Pieces\nThis pair of natural geode halves features interior cavities lined with sparkling crystalline quartz and calcite formations resting within a rugged natural rock matrix. Formed millions of years ago in volcanic or sedimentary bubbles, geodes showcase distinctive internal crystal growth patterns, making them enduring favorites among mineral collectors, geology enthusiasts, and natural decor curators.\nIncludes two matching natural geode halves with exposed crystalline cavities\nDensely packed translucent to milky quartz crystal points and druzy clusters\nRough, unaltered exterior host rock with authentic geological texture and coloration\nMeasures approximately 9 x 5 x 3.5 inches combined and weighs 2.4 lbs\nCondition:\nNatural geological specimens in raw, unpolished condition. Crystal formations are intact with crisp termination points and natural surface variations. Exterior host rock displays natural earthy textures, fissures, and authentic mineral matrix characteristics consistent with wild-harvested rock specimens.",
+    "description": "Item Description:\nRocks & Minerals - , etc.\nApproximate Measurements (inches):\n8.25 x 6.25 x 4 Sizes Vary\nWeight (in lbs):\n4.75\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
     "score_reasons": [
-      "Opportunity term 'geology' in description (+10)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'decor' in description (-8)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
@@ -290,15 +294,74 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 9,
-        "relative_score": 0.3,
+        "score": 8,
+        "relative_score": 0.267,
         "score_reasons": [
-          "Opportunity term 'geology' in description (+10)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'decor' in description (-8)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49806-5837724": {
+    "item_id": "ctbids-49806-5837724",
+    "listing_url": "https://ctbids.com/estate-sale/49806/item/5837724/Vintage-Clear-Pressed-Glass-Diamond-Point-Serving-Bowl-with-Glass-Ladle-Scalloped-Rim",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5837724_Q3229q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49500-5854839": {
+    "item_id": "ctbids-49500-5854839",
+    "listing_url": "https://ctbids.com/estate-sale/49500/item/5854839/Vintage-Doll-Clothes-Dresses-Gowns-Outfits-Accessories-Colorful-Clothing",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5854839_1s76yT.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 8,
+        "relative_score": 0.235,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -342,60 +405,6 @@
       }
     ]
   },
-  "ctbids-49806-5837724": {
-    "item_id": "ctbids-49806-5837724",
-    "listing_url": "https://ctbids.com/estate-sale/49806/item/5837724/Vintage-Clear-Pressed-Glass-Diamond-Point-Serving-Bowl-with-Glass-Ladle-Scalloped-Rim",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5837724_Q3229q.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49500-5854839": {
-    "item_id": "ctbids-49500-5854839",
-    "listing_url": "https://ctbids.com/estate-sale/49500/item/5854839/Vintage-Doll-Clothes-Dresses-Gowns-Outfits-Accessories-Colorful-Clothing",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-15T3beb48/5854839_1s76yT.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "284339261": {
     "item_id": "284339261",
     "listing_url": "https://shopgoodwill.com/item/284339261",
@@ -426,39 +435,82 @@
       }
     ]
   },
-  "284658545": {
-    "item_id": "284658545",
-    "listing_url": "https://shopgoodwill.com/item/284658545",
+  "ctbids-49871-5854952": {
+    "item_id": "ctbids-49871-5854952",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5854952/Chic-Gold-Tone-Multi-Chain-Tassel-Fringe-White-Faceted-Bead-Bracelet",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/d5aa9c0c-bd58-400a-9e26-35b4aa318477ason_11121.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/4f001141-8c0b-4a20-8430-7a9c4e56fc20ason_11122.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/febef2ce-4104-4637-9fb5-ca286de9b2cdason_11123.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/34eec759-a6ba-4059-80de-480fe803c5b7ason_11124.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/1830bf05-a9f6-4d3a-b55b-3070aacaf626ason_11125.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/148/Items/2026-11-12/3bdc8415-5e00-447e-baf3-4b00e6ccdd65ason_11126.jpg"
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5820297_PTQSqF.webp"
     ],
-    "description": "Item Description:\nRocks & Minerals - , etc.\nApproximate Measurements (inches):\n8.25 x 6.25 x 4 Sizes Vary\nWeight (in lbs):\n4.75\nCondition:\nLOT Auction: Items are not tested or inspected for damages and are sold AS-IS. LOT auctions are not fully inventoried prior to shipment and may not be returned either partially or fully for any reason.\nSpecial Notes:\nAll items are sold AS-IS. Please study images for more details as they are part of the description.\nPlease note that all items are sold as is, NO REFUNDS.",
+    "description": "",
     "score_reasons": [
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
     ],
     "hunt_scores": [
       {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 4,
-        "relative_score": 0.133,
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5853190": {
+    "item_id": "ctbids-49871-5853190",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5853190/Nike-Air-Max-90-VT-Gorge-Green-Vac-Tech-Heritage-Sneakers-Sz-9",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5810308_oS8xm3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5867820": {
+    "item_id": "ctbids-49871-5867820",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5867820/Vtg-Partylite-Scalloped-Shell-Gold-Tone-Compact-Travel-Candle-Holder",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5867820_O0ib5P.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -511,6 +563,33 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49500-5852993": {
+    "item_id": "ctbids-49500-5852993",
+    "listing_url": "https://ctbids.com/estate-sale/49500/item/5852993/Rainbow-Loom-Mega-Organizer-Rubber-Bands-3D-Wood-Puzzle-Craft-Bath-Light",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5852993_H6nPME.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -649,41 +728,6 @@
       }
     ]
   },
-  "284324841": {
-    "item_id": "284324841",
-    "listing_url": "https://shopgoodwill.com/item/284324841",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/1601f2ea-adab-4418-a95a-e351cfe94d66att2_11161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/c1049326-7a5c-45ee-b72a-3143b36c8a57att2_11162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/5a7deb02-9ecf-41f6-a31c-ebc1448d7028att2_11163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/2c19a921-6522-4cc4-b045-1a3632fe9b76att2_11164.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/6b1f6d76-7a0c-473e-a2b6-5da0ebe4b499att2_11165.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/ff3249a9-cf40-41cd-a937-71e19f630fe8att2_11166.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/039d096f-935b-4b4a-9b36-57c9d7253288att2_11167.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/0cb1678a-8194-4de9-8da1-11529112873eatt2_11168.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/0a2b8d78-4b28-4fdb-968c-943fdb197811att2_11169.jpg"
-    ],
-    "description": "Natural Mineral Specimen\nPolished Agate Geode Half with Crystal Druzy Cavity\nNatural Stone, Approximately 4 Inches, 1.0 lb\nNatural cut and polished agate geode half showcasing concentric chalcedony banding surrounding an interior crystal druzy pocket. The outer rind features natural textured volcanic rock matrix, while the cut surface is smoothly polished to highlight the delicate grey, white, and translucent agate rings. An appealing display piece for mineral collectors, lapidary enthusiasts, or interior accents.\nPolished face revealing concentric banded agate and chalcedony rings\nCenter hollow cavity lined with dark crystalline quartz druzy points\nNatural, unpolished exterior matrix crust providing an organic display base\nMeasures approximately 4 inches in diameter by 1.8 inches thick; weighs 1.0 lb\nCondition:\nNatural geological specimen in very good condition. Face is polished smooth with high luster and clean edges along the circumference. Center druzy cavity is intact with natural crystal formations and no evident repairs or artificial filling. Natural rough textured matrix on exterior rind as formed.\nPOLICIES and Seller Info\nHow to reach us-\nPer the policies of our selling location, we do not remove unpaid items or cancel bids. Thank you for understanding!\nSending a message via shopgoodwill.com message is the only way to reach us and receive a response. Your concerns are very important to us, but we do not have a business phone on site. Calls to the home office cannot be transferred to us, so if you call and leave a message, you are guaranteed NOT to receive a response and we don't want that! Customer services messages are checked throughout the day, Monday through Friday (excluding holidays), between the hours of 9am and 4pm eastern time.\nDomestic Shipping-\nItems with a Fixed/Flat shipping fee (rather than calculated) will ship the cheapest possible way, FedEx shipping is not guaranteed on items with a fixed shipping cost. FedEx does not ship to P.O. boxes or APO/FPO addresses. Please enter an address that we can ship to at check out.\nYour package will be insured, regardless of mail class or carrier, however, insurance DOES NOT cover theft after delivery. Porch piracy is very common so we strongly suggest that you use your DAYTIME address you will be available to receive your package. If you require a specific carrier, signature confirmation, or have a special packing/handling request, please make your needs known by clicking Contact Seller prior to making payment so that we can add applicable fees for service(s) requested. We have accounts with FedEx and USPS only.\nHandling-\nItems like instruments, artwork, delicate collectibles, stereo receivers, and sewing machines require additional packing materials and labor to pack them safely. For this reason, handling fees are higher on specialty items.\nHandling fees cap at $15 on combined orders. So if you combine 10 items with a $2 each handling fee, the system will automatically discount your shipping price and your handling would be $15 rather than $20. (This applies to items combined from Chattanooga Area Goodwill only).\nGeneral Disclaimers-\nAll items are donated and in used condition unless otherwise specified. Please manage your expectations accordingly.\nColors may vary depending on the settings of your monitor. Items are measured by hand, and are may vary by 1-3cm.\nAll items have potentially been exposed to pets and/or other allergens. Returns are not authorized for odors, ever, under any circumstance. If you are sensitive to allergens and/or odors, we recommend that you not purchase pre-owned items.\nWe typically do not authorize returns, so it is VERY important that you read the full description, carefully view all photos, and ask any questions you may have PRIOR to placing bids. Pictures are considered a part of the item description. Any item returned without prior authorization from the seller will be considered a donation and re-sold.\nSpecial Disclaimers (\nwhenever applicable\n)-\nOur Presidium Gem Tester is able to identify the gemstone family or families based on the hardness of the tested gem. We are not certified gemologists, so we are not always able to determine the specific gemstone(s) present, differentiate between certain stones, or confirm the device's findings.\nMost of the world's pearls are cultured. The ability to differentiate between cultured, freshwater, and natural (ocean) pearls is beyond the scope of our equipment.\nUnless otherwise stated above, all marked metals are tested by our Thermo Scientific Niton DXL Precious Metal Analyzer. Photos will be provided in listing of results. If not, a precious metal it will be listed and Gold/Silver Tone or plated.\nSome listings may contain a mixture of fine jewelry AND costume jewelry. Please read full description to understand what you are buying. Items described as costume jewelry are presumed to not include precious metals, regardless of any markings you may see in photos.\nLocal Pick Up-\nWe do not have local pickup. All items will be shipped.  If you'd like to have it shipped to your place of business instead of a residential address. Please contact us with any shipping questions.\nInternational Shipping-\nINTERNATIONAL BUYERS' OUTSIDE OF THE USA AND CANADA are not eligible for any shipping discounts including flat rate or penny shipping. Contact us via Shopgoodwill.com message for an estimate prior to bidding on any items with discounted shipping.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49704-5804576": {
     "item_id": "ctbids-49704-5804576",
     "listing_url": "https://ctbids.com/estate-sale/49704/item/5804576/Lionel-Operating-497-45-1045-Flagman-UCS-Sections-More",
@@ -734,106 +778,6 @@
       }
     ]
   },
-  "ctbids-49871-5854952": {
-    "item_id": "ctbids-49871-5854952",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5854952/Chic-Gold-Tone-Multi-Chain-Tassel-Fringe-White-Faceted-Bead-Bracelet",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-15T3beb48/5820297_PTQSqF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49871-5853190": {
-    "item_id": "ctbids-49871-5853190",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5853190/Nike-Air-Max-90-VT-Gorge-Green-Vac-Tech-Heritage-Sneakers-Sz-9",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5810308_oS8xm3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49500-5852993": {
-    "item_id": "ctbids-49500-5852993",
-    "listing_url": "https://ctbids.com/estate-sale/49500/item/5852993/Rainbow-Loom-Mega-Organizer-Rubber-Bands-3D-Wood-Puzzle-Craft-Bath-Light",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5852993_H6nPME.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49871-5867820": {
-    "item_id": "ctbids-49871-5867820",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5867820/Vtg-Partylite-Scalloped-Shell-Gold-Tone-Compact-Travel-Candle-Holder",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5867820_O0ib5P.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49500-5854860": {
     "item_id": "ctbids-49500-5854860",
     "listing_url": "https://ctbids.com/estate-sale/49500/item/5854860/Ben-10-Alien-Force-Bakugan-Max-Steel-Action-Figures-Omnitrix-Vehicle-Accessories",
@@ -854,6 +798,41 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284324841": {
+    "item_id": "284324841",
+    "listing_url": "https://shopgoodwill.com/item/284324841",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/1601f2ea-adab-4418-a95a-e351cfe94d66att2_11161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/c1049326-7a5c-45ee-b72a-3143b36c8a57att2_11162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/5a7deb02-9ecf-41f6-a31c-ebc1448d7028att2_11163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/2c19a921-6522-4cc4-b045-1a3632fe9b76att2_11164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/6b1f6d76-7a0c-473e-a2b6-5da0ebe4b499att2_11165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/ff3249a9-cf40-41cd-a937-71e19f630fe8att2_11166.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/039d096f-935b-4b4a-9b36-57c9d7253288att2_11167.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/0cb1678a-8194-4de9-8da1-11529112873eatt2_11168.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/346/Items/2026-11-16/0a2b8d78-4b28-4fdb-968c-943fdb197811att2_11169.jpg"
+    ],
+    "description": "Natural Mineral Specimen\nPolished Agate Geode Half with Crystal Druzy Cavity\nNatural Stone, Approximately 4 Inches, 1.0 lb\nNatural cut and polished agate geode half showcasing concentric chalcedony banding surrounding an interior crystal druzy pocket. The outer rind features natural textured volcanic rock matrix, while the cut surface is smoothly polished to highlight the delicate grey, white, and translucent agate rings. An appealing display piece for mineral collectors, lapidary enthusiasts, or interior accents.\nPolished face revealing concentric banded agate and chalcedony rings\nCenter hollow cavity lined with dark crystalline quartz druzy points\nNatural, unpolished exterior matrix crust providing an organic display base\nMeasures approximately 4 inches in diameter by 1.8 inches thick; weighs 1.0 lb\nCondition:\nNatural geological specimen in very good condition. Face is polished smooth with high luster and clean edges along the circumference. Center druzy cavity is intact with natural crystal formations and no evident repairs or artificial filling. Natural rough textured matrix on exterior rind as formed.\nPOLICIES and Seller Info\nHow to reach us-\nPer the policies of our selling location, we do not remove unpaid items or cancel bids. Thank you for understanding!\nSending a message via shopgoodwill.com message is the only way to reach us and receive a response. Your concerns are very important to us, but we do not have a business phone on site. Calls to the home office cannot be transferred to us, so if you call and leave a message, you are guaranteed NOT to receive a response and we don't want that! Customer services messages are checked throughout the day, Monday through Friday (excluding holidays), between the hours of 9am and 4pm eastern time.\nDomestic Shipping-\nItems with a Fixed/Flat shipping fee (rather than calculated) will ship the cheapest possible way, FedEx shipping is not guaranteed on items with a fixed shipping cost. FedEx does not ship to P.O. boxes or APO/FPO addresses. Please enter an address that we can ship to at check out.\nYour package will be insured, regardless of mail class or carrier, however, insurance DOES NOT cover theft after delivery. Porch piracy is very common so we strongly suggest that you use your DAYTIME address you will be available to receive your package. If you require a specific carrier, signature confirmation, or have a special packing/handling request, please make your needs known by clicking Contact Seller prior to making payment so that we can add applicable fees for service(s) requested. We have accounts with FedEx and USPS only.\nHandling-\nItems like instruments, artwork, delicate collectibles, stereo receivers, and sewing machines require additional packing materials and labor to pack them safely. For this reason, handling fees are higher on specialty items.\nHandling fees cap at $15 on combined orders. So if you combine 10 items with a $2 each handling fee, the system will automatically discount your shipping price and your handling would be $15 rather than $20. (This applies to items combined from Chattanooga Area Goodwill only).\nGeneral Disclaimers-\nAll items are donated and in used condition unless otherwise specified. Please manage your expectations accordingly.\nColors may vary depending on the settings of your monitor. Items are measured by hand, and are may vary by 1-3cm.\nAll items have potentially been exposed to pets and/or other allergens. Returns are not authorized for odors, ever, under any circumstance. If you are sensitive to allergens and/or odors, we recommend that you not purchase pre-owned items.\nWe typically do not authorize returns, so it is VERY important that you read the full description, carefully view all photos, and ask any questions you may have PRIOR to placing bids. Pictures are considered a part of the item description. Any item returned without prior authorization from the seller will be considered a donation and re-sold.\nSpecial Disclaimers (\nwhenever applicable\n)-\nOur Presidium Gem Tester is able to identify the gemstone family or families based on the hardness of the tested gem. We are not certified gemologists, so we are not always able to determine the specific gemstone(s) present, differentiate between certain stones, or confirm the device's findings.\nMost of the world's pearls are cultured. The ability to differentiate between cultured, freshwater, and natural (ocean) pearls is beyond the scope of our equipment.\nUnless otherwise stated above, all marked metals are tested by our Thermo Scientific Niton DXL Precious Metal Analyzer. Photos will be provided in listing of results. If not, a precious metal it will be listed and Gold/Silver Tone or plated.\nSome listings may contain a mixture of fine jewelry AND costume jewelry. Please read full description to understand what you are buying. Items described as costume jewelry are presumed to not include precious metals, regardless of any markings you may see in photos.\nLocal Pick Up-\nWe do not have local pickup. All items will be shipped.  If you'd like to have it shipped to your place of business instead of a residential address. Please contact us with any shipping questions.\nInternational Shipping-\nINTERNATIONAL BUYERS' OUTSIDE OF THE USA AND CANADA are not eligible for any shipping discounts including flat rate or penny shipping. Contact us via Shopgoodwill.com message for an estimate prior to bidding on any items with discounted shipping.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1164,6 +1143,81 @@
     "listing_url": "https://ctbids.com/estate-sale/49895/item/5848252/Three-16-Faux-Crystal-Necklaces",
     "images": [
       "https://image.ctbids.com/seller/2026-11-13T4548b7/5848252_hAG59T.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829396": {
+    "item_id": "ctbids-49205-5829396",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829396/Marvel-Comics-Presents-X-Force-X-Cutioners-Song-3-And-A-1998-ANNUAL",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829396_MAe6ll.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5842119": {
+    "item_id": "ctbids-49205-5842119",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5842119/X-Men-Liberators",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5842119_ARa9Fd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5869409": {
+    "item_id": "ctbids-49205-5869409",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5869409/DC-Justice-League-Europe-248-Issues-24-31",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5869409_zKFnEC.webp"
     ],
     "description": "",
     "score_reasons": [

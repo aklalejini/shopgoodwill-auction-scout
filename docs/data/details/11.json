@@ -132,6 +132,7 @@
       "Opportunity term 'lot' in title (+5)",
       "Opportunity term 'box' in description (+5)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -139,12 +140,13 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 21,
-        "relative_score": 0.7,
+        "score": 26,
+        "relative_score": 0.867,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Opportunity term 'box' in description (+5)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -287,6 +289,54 @@
       }
     ]
   },
+  "284418096": {
+    "item_id": "284418096",
+    "listing_url": "https://shopgoodwill.com/item/284418096",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/b5431aab-9d1e-4573-b2d6-407475f0da82moss_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/8c9c6f34-b8f9-4b50-b483-b7dc808cf5a8moss_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/c241c894-8254-4f3a-9e71-ccc6d5bc38cemoss_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/4ec8865e-0f94-412c-86ad-3829e6bc7123moss_11174.jpg"
+    ],
+    "description": "Product Overview:\nThis listing features a mixed lot of various mineral and crystal specimens. The collection includes rough and partially polished stones with a variety of colors and textures.\n\nSpecifications:\n- Types: Quartz, Calcite, Green Crystal (possibly Fluorite)\n- Colors: Clear, White, Green, Blue, Brown, Pink\n- Condition: Natural, uncut condition with typical surface variations\n- Weight: 5 pounds\n- Features: Different shapes and formations, visible crystal points and textures\n- Markings: No brand markings or model numbers",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Lower-priority term 'possibly' in description (-4)",
+      "Target keyword 'fluorite' in title (+9)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 11,
+        "relative_score": 0.367,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Lower-priority term 'possibly' in description (-4)",
+          "Target keyword 'fluorite' in title (+9)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "fluorite"
+        ]
+      }
+    ]
+  },
   "ctbids-49806-5839543": {
     "item_id": "ctbids-49806-5839543",
     "listing_url": "https://ctbids.com/estate-sale/49806/item/5839543/Vintage-Tribal-Vibes-Necklace-Collection-Erica-Lyons-More",
@@ -378,52 +428,6 @@
       }
     ]
   },
-  "284418096": {
-    "item_id": "284418096",
-    "listing_url": "https://shopgoodwill.com/item/284418096",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/b5431aab-9d1e-4573-b2d6-407475f0da82moss_11171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/8c9c6f34-b8f9-4b50-b483-b7dc808cf5a8moss_11172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/c241c894-8254-4f3a-9e71-ccc6d5bc38cemoss_11173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/4ec8865e-0f94-412c-86ad-3829e6bc7123moss_11174.jpg"
-    ],
-    "description": "Product Overview:\nThis listing features a mixed lot of various mineral and crystal specimens. The collection includes rough and partially polished stones with a variety of colors and textures.\n\nSpecifications:\n- Types: Quartz, Calcite, Green Crystal (possibly Fluorite)\n- Colors: Clear, White, Green, Blue, Brown, Pink\n- Condition: Natural, uncut condition with typical surface variations\n- Weight: 5 pounds\n- Features: Different shapes and formations, visible crystal points and textures\n- Markings: No brand markings or model numbers",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Lower-priority term 'possibly' in description (-4)",
-      "Target keyword 'fluorite' in title (+9)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 7,
-        "relative_score": 0.233,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Lower-priority term 'possibly' in description (-4)",
-          "Target keyword 'fluorite' in title (+9)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "fluorite"
-        ]
-      }
-    ]
-  },
   "284646359": {
     "item_id": "284646359",
     "listing_url": "https://shopgoodwill.com/item/284646359",
@@ -454,6 +458,60 @@
           "Opportunity term 'mixed' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5854928": {
+    "item_id": "ctbids-49871-5854928",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5854928/2023-Panini-Rookies-Stars-CeeDee-Lamb-Man-In-Motion-Red-Insert-MM-4",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5812388_TnEoCl.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5854992": {
+    "item_id": "ctbids-49871-5854992",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5854992/Troy-Aikman-Cowboys-Insert-Cards-Ft-1995-Upper-Deck-Pro-Bowl-Holo-1995-Upper-Deck-SP-Holoview",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5853230_aDwp7N.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -508,6 +566,49 @@
           "Opportunity term 'sealed' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284421481": {
+    "item_id": "284421481",
+    "listing_url": "https://shopgoodwill.com/item/284421481",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/f308e3c3-b4ed-4203-92f0-6fd9240ded71evel_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/6e12a79e-76af-4920-b426-f5c2d7391858evel_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/1b99fa16-bd20-44e6-9f08-ed98407119d8evel_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/59fd570c-2563-4931-9adf-0fcc72a36911evel_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/e8e69168-5479-46b3-9777-fc336ec5a578evel_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/f8f06195-676f-4a2e-9186-5d5f27568f96evel_11176.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/869e8385-2432-400f-ae5b-bb1dbf9ddca7evel_11177.jpg"
+    ],
+    "description": "Product Overview:\nThis collection includes various decorative minerals and crystals such as raw rose quartz, a polished blue agate slice labeled Made in Brazil, geode halves with white crystal interiors, an orange calcite stone, an iridescent cluster, a small pyrite specimen, a spider-shaped decorative item with a purple crystal body and metallic legs, and a hanging ornament featuring rose quartz pieces encircled by gold-tone rings with a clear crystal.\n\nSpecifications:\n- Weight: 4 lbs\n- Materials: Rose quartz, blue agate, geode crystals, orange calcite, iridescent mineral cluster, pyrite, metallic components, clear crystal\n- Features: Polished and raw mineral forms, decorative spider item, hanging ornament with multiple rose quartz elements\n- Origin Labels: Blue agate slice labeled Made in Brazil",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'decorative' in title (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "4 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 3,
+        "relative_score": 0.1,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'decorative' in title (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "4 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -575,6 +676,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -582,9 +684,51 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49871-5874493": {
+    "item_id": "ctbids-49871-5874493",
+    "listing_url": "https://ctbids.com/estate-sale/49871/item/5874493/Large-Polished-Thin-Translucent-Cream-Banded-Agate-Slice-Display-Specimen",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5874493_UCpS6R.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      },
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -617,56 +761,6 @@
       }
     ]
   },
-  "ctbids-49871-5854928": {
-    "item_id": "ctbids-49871-5854928",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5854928/2023-Panini-Rookies-Stars-CeeDee-Lamb-Man-In-Motion-Red-Insert-MM-4",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-15T3beb48/5812388_TnEoCl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49871-5854992": {
-    "item_id": "ctbids-49871-5854992",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5854992/Troy-Aikman-Cowboys-Insert-Cards-Ft-1995-Upper-Deck-Pro-Bowl-Holo-1995-Upper-Deck-SP-Holoview",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-15T3beb48/5853230_aDwp7N.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50103-5832314": {
     "item_id": "ctbids-50103-5832314",
     "listing_url": "https://ctbids.com/estate-sale/50103/item/5832314/Homelite-Ranger-16-Electric-Chainsaw-Sawhorses-Battery-Charger-Clamps-More",
@@ -679,89 +773,6 @@
       "Base score (+6)"
     ],
     "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284421481": {
-    "item_id": "284421481",
-    "listing_url": "https://shopgoodwill.com/item/284421481",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/f308e3c3-b4ed-4203-92f0-6fd9240ded71evel_11171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/6e12a79e-76af-4920-b426-f5c2d7391858evel_11172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/1b99fa16-bd20-44e6-9f08-ed98407119d8evel_11173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/59fd570c-2563-4931-9adf-0fcc72a36911evel_11174.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/e8e69168-5479-46b3-9777-fc336ec5a578evel_11175.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/f8f06195-676f-4a2e-9186-5d5f27568f96evel_11176.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-17/869e8385-2432-400f-ae5b-bb1dbf9ddca7evel_11177.jpg"
-    ],
-    "description": "Product Overview:\nThis collection includes various decorative minerals and crystals such as raw rose quartz, a polished blue agate slice labeled Made in Brazil, geode halves with white crystal interiors, an orange calcite stone, an iridescent cluster, a small pyrite specimen, a spider-shaped decorative item with a purple crystal body and metallic legs, and a hanging ornament featuring rose quartz pieces encircled by gold-tone rings with a clear crystal.\n\nSpecifications:\n- Weight: 4 lbs\n- Materials: Rose quartz, blue agate, geode crystals, orange calcite, iridescent mineral cluster, pyrite, metallic components, clear crystal\n- Features: Polished and raw mineral forms, decorative spider item, hanging ornament with multiple rose quartz elements\n- Origin Labels: Blue agate slice labeled Made in Brazil",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Lower-priority term 'decorative' in title (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "4 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Lower-priority term 'decorative' in title (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "4 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49871-5874493": {
-    "item_id": "ctbids-49871-5874493",
-    "listing_url": "https://ctbids.com/estate-sale/49871/item/5874493/Large-Polished-Thin-Translucent-Cream-Banded-Agate-Slice-Display-Specimen",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5874493_UCpS6R.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+1)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+1)"
-        ],
-        "matched_keywords": []
-      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -1025,6 +1036,156 @@
       }
     ]
   },
+  "ctbids-49205-5841912": {
+    "item_id": "ctbids-49205-5841912",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5841912/Marvel-Fantastic-Four-199-Issue-5-8-14-17-18",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841912_cck7TK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829241": {
+    "item_id": "ctbids-49205-5829241",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829241/DC-Comics-Presents-Justice-League-America",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829241_u0l9Wd.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5829432": {
+    "item_id": "ctbids-49205-5829432",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5829432/Epic-Comics-Presents-Coyote",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-08T576de6/5829432_XFyIkp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5870906": {
+    "item_id": "ctbids-49205-5870906",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5870906/Wild-Cats-X-Men",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5870906_kxZVKn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5871093": {
+    "item_id": "ctbids-49205-5871093",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5871093/Marvel-Comics-XForce-299-Issues-1-3-76-80",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5871093_3vWd0U.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49205-5841854": {
+    "item_id": "ctbids-49205-5841854",
+    "listing_url": "https://ctbids.com/estate-sale/49205/item/5841854/Dc-Presents-The-Legion-Of-Superheroes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-11T0e9e48/5841854_SXDjj3.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "284683463": {
     "item_id": "284683463",
     "listing_url": "https://shopgoodwill.com/item/284683463",
@@ -1088,6 +1249,49 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284970088": {
+    "item_id": "284970088",
+    "listing_url": "https://shopgoodwill.com/item/284970088",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/ac4115f6-3dfb-45cb-a21a-2c4dfe17b79don42_11211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/7929aa9b-43b4-47f4-a72a-62a78472333con42_11212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/65dcfd36-888a-4e46-9b9d-91eeeae61276on42_11213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/94b41d8b-150a-4b49-9303-be2f8f30714fon42_11214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/bbeae1a3-a972-44b5-b22c-c6048a84a587on42_11215.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of collectible minerals, fossils, and stones. The assortment includes tumbled stones, raw mineral specimens, a geode, a carved stone dolphin, a small marble slab marked with design details, a small green stone vase, a piece of rose quartz, a quartz point, a fossilized shell, and a decorative gemstone tree. The items feature various colors including pink, green, brown, and gray.\n\nSpecifications:\n- Materials: Natural stone, crystal, and mineral\n- Types: Tumbled stones, raw minerals, fossilized shell, carved stone, geode, marble slab, gemstone tree\n- Colors: Pink, green, brown, gray\n- Features: Polished and carved pieces\n- Markings: Marble slab marked \"Via, Design: Ancona, 2 NYC, 1995 Made in Taiwan\"",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'carved' in title (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+21)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'carved' in title (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+21)"
         ],
         "matched_keywords": []
       }
