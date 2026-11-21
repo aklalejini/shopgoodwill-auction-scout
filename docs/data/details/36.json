@@ -156,7 +156,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
-      "0 bids near close (+4)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -164,12 +164,39 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 16,
-        "relative_score": 0.471,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
-          "0 bids near close (+4)",
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49978-5844917": {
+    "item_id": "ctbids-49978-5844917",
+    "listing_url": "https://ctbids.com/estate-sale/49978/item/5844917/Large-Collection-Of-Floral-Fabric",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5844917_Vz3Xyn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 7,
+        "relative_score": 0.206,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -242,16 +269,15 @@
       }
     ]
   },
-  "ctbids-49881-5853472": {
-    "item_id": "ctbids-49881-5853472",
-    "listing_url": "https://ctbids.com/estate-sale/49881/item/5853472/8pc-Beatles-Lot-NWT-Double-Sided-1964-Tour-Tee-L-Abbey-Road-Glass-6-Books",
+  "ctbids-49806-5845246": {
+    "item_id": "ctbids-49806-5845246",
+    "listing_url": "https://ctbids.com/estate-sale/49806/item/5845246/Vintage-Weis-Sterling-Napier-More-Jewelry",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5853472_B1vUzr.webp"
+      "https://image.ctbids.com/seller/2026-11-15T3beb48/5845246_N0bn39.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "2 bids near close (+2)",
+      "Opportunity term 'vintage' in title (+5)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -259,38 +285,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49978-5844917": {
-    "item_id": "ctbids-49978-5844917",
-    "listing_url": "https://ctbids.com/estate-sale/49978/item/5844917/Large-Collection-Of-Floral-Fabric",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5844917_Vz3Xyn.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -327,33 +325,6 @@
       }
     ]
   },
-  "ctbids-49806-5845246": {
-    "item_id": "ctbids-49806-5845246",
-    "listing_url": "https://ctbids.com/estate-sale/49806/item/5845246/Vintage-Weis-Sterling-Napier-More-Jewelry",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-15T3beb48/5845246_N0bn39.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49881-5840011": {
     "item_id": "ctbids-49881-5840011",
     "listing_url": "https://ctbids.com/estate-sale/49881/item/5840011/Lot-Of-3-Silver-Certificates",
@@ -374,6 +345,60 @@
         "relative_score": 0.147,
         "score_reasons": [
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49881-5853472": {
+    "item_id": "ctbids-49881-5853472",
+    "listing_url": "https://ctbids.com/estate-sale/49881/item/5853472/8pc-Beatles-Lot-NWT-Double-Sided-1964-Tour-Tee-L-Abbey-Road-Glass-6-Books",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5853472_B1vUzr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49500-5853380": {
+    "item_id": "ctbids-49500-5853380",
+    "listing_url": "https://ctbids.com/estate-sale/49500/item/5853380/NIB-Board-Games-Sequence-for-Kids-2001-Balderdash-2003-Scrabble-Solitaire-Frenzy-Smart-Mouth",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5853380_E5wlez.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -497,7 +522,6 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -505,37 +529,9 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
+        "score": 1,
+        "relative_score": 0.029,
         "score_reasons": [
-          "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49500-5853380": {
-    "item_id": "ctbids-49500-5853380",
-    "listing_url": "https://ctbids.com/estate-sale/49500/item/5853380/NIB-Board-Games-Sequence-for-Kids-2001-Balderdash-2003-Scrabble-Solitaire-Frenzy-Smart-Mouth",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5853380_E5wlez.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
