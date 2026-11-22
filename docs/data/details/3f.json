@@ -398,6 +398,33 @@
       }
     ]
   },
+  "ctbids-50238-5879376": {
+    "item_id": "ctbids-50238-5879376",
+    "listing_url": "https://ctbids.com/estate-sale/50238/item/5879376/3-Lb-Lot-of-Assorted-LEGO-Bricks-Plates-and-Pieces-in-Storage-Bin",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-22T087cc9/5879376_yYlmeR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49644-5836223": {
     "item_id": "ctbids-49644-5836223",
     "listing_url": "https://ctbids.com/estate-sale/49644/item/5836223/Lot-Of-Empty-4x6-Photograph-Photography-Albums-Storage",
@@ -459,6 +486,43 @@
           "Opportunity term 'lot' in description (+2)",
           "Shipping is calculated and not included in the price (-6)",
           "20 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285032743": {
+    "item_id": "285032743",
+    "listing_url": "https://shopgoodwill.com/item/285032743",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-07/696f1bcf-3e57-401e-8481-17a04b1e04cfport_11071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-07/371765e6-b994-4ef3-b61e-8f1fb8bd308aport_11072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-07/0c5171b5-bed0-4d17-b915-e93f970fdf0fport_11073.jpg"
+    ],
+    "description": "Natural Tumbled Stone Collection\nPolished Mineral and Gemstone Specimen Lot\n5 Pieces, Total Weight 56.7 Grams\nThis five-piece collection features an assortment of smooth, tumbled mineral and gemstone specimens showcasing distinct colors, banding, and textural patterns. Ideal for crystal collections, decorative display, pocket stones, or lapidary study, each piece has been tumbled and polished to a glossy finish accentuating its natural geological features.\nItems Included:\nOne orange webbed/banded agate tumbled stone\nOne deep reddish-brown polished jasper specimen\nOne sparkling copper-tone goldstone tumbled piece\nOne banded polychrome/desert jasper stone with earth tones\nOne mottled grey, green, and pink natural mineral stone\nCondition:\nAll five specimens are in clean condition with smooth tumble-polished surfaces and rounded contours. As with all tumbled natural stones, minor inherent surface pits, natural micro-crevices, and geological variations are present. No severe post-polish fractures or damage observed.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
         ],
         "matched_keywords": []

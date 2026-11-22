@@ -546,6 +546,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -553,9 +554,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -1088,6 +1090,31 @@
       }
     ]
   },
+  "ctbids-50238-5879445": {
+    "item_id": "ctbids-50238-5879445",
+    "listing_url": "https://ctbids.com/estate-sale/50238/item/5879445/Haani-Women-s-Layered-Look-Cardigan-Dress-Size-S-Gray-Striped-Waterfall-Front-Black-Sleeves",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-22T087cc9/5879445_V9R15s.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49205-5841909": {
     "item_id": "ctbids-49205-5841909",
     "listing_url": "https://ctbids.com/estate-sale/49205/item/5841909/Marvel-Fantastic-Four-196-Issue-26",
@@ -1244,6 +1271,45 @@
           "Shipping is calculated and not included in the price (-6)",
           "13 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285045758": {
+    "item_id": "285045758",
+    "listing_url": "https://shopgoodwill.com/item/285045758",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-07/8bbbe489-daa8-4612-9359-6b0fd6b5c264port_11071.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-07/88b6c6ca-b1d3-4ba0-a1e8-8ef3f1d26be7port_11072.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/29/Items/2026-11-07/94b4a40c-d841-4405-9977-673c7de26e85port_11073.jpg"
+    ],
+    "description": "Polished Tumbled Stone Specimen Lot\nTotal Weight: 53.7 grams\n6 Pieces\nThis collection features six smooth, tumbled and polished mineral specimens displaying a range of natural hues and textures. The lot includes varied tones including purple, deep green, pale green aventurine-like, reddish-brown aventurescent, and milky white quartz-style stones. Each piece has been tumbled to a high gloss finish, suitable for wire wrapping, pocket stones, display, or crafting.\nAssortment of six tumbled and polished mineral and stone specimens\nVarieties exhibit purple amethyst hues, translucent quartz, green tones, and aventurescent shimmer\nHigh-polish tumbled finish with smooth, rounded contours throughout\nStones measure approximately 0.75 to 1.1 inches across; penny shown for scale comparison\nCondition:\nVery good pre-owned condition with smooth, lustrous polished surfaces throughout. Natural surface variations, minor internal inclusions, and organic geological fissures typical of tumbled stones. No severe damage or broken pieces observed. Complete 6-piece lot.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'chakra' in title (-12)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+10)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'chakra' in title (-12)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+10)"
         ],
         "matched_keywords": []
       }

@@ -1046,6 +1046,31 @@
       }
     ]
   },
+  "ctbids-50238-5879409": {
+    "item_id": "ctbids-50238-5879409",
+    "listing_url": "https://ctbids.com/estate-sale/50238/item/5879409/Hamilton-Beach-Hand-Mixer-with-Storage-Case-White-Chrome-Beaters-QuickBurst-Instruction-Manual",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-22T087cc9/5879409_1JL6gy.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50053-5853957": {
     "item_id": "ctbids-50053-5853957",
     "listing_url": "https://ctbids.com/estate-sale/50053/item/5853957/2023-Pokemon-Great-Tusk-ex-123-198-Scarlet-Violet-CGC-9-Mint-Holo-Card",
@@ -1253,6 +1278,43 @@
           "20 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+17)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285052418": {
+    "item_id": "285052418",
+    "listing_url": "https://shopgoodwill.com/item/285052418",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-22/eded890c-29b2-48af-a44a-54c6b41fb40bmvo_11221.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-22/068fce85-1ffa-4a66-84d7-bec4a848c7eamvo_11222.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-22/3e43e934-6906-4cf7-baf7-9ae708038340mvo_11223.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-22/934c6c90-ee33-43ae-aa0f-58b9e28d4034mvo_11224.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-22/ec305d7a-1f84-4e19-b64b-9dd9dcc72ab8mvo_11225.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of mineral and rock specimens featuring diverse types and colors. Included are blue agate geode slices, black obsidian, a carved green stone, a polished orange stone, white selenite crystal, a small quartz geode, pyrite in matrix, a brown rock with a yellow crystal, a red and white geode, and a slab of black and white marble.\n\nSpecifications:\n- Mineral Types: Agate, Obsidian, Green Stone, Orange Stone, Selenite, Quartz, Pyrite, Marble\n- Colors: Blue, Black, Green, Orange, White, Brown, Yellow, Red\n- Conditions: Natural and varied mineral patterns and textures\n- Shapes: Geode slices, carved shapes, slabs, and raw pieces",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+4)"
         ],
         "matched_keywords": []
       }
