@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-22T11:13:52.248486+00:00",
-  "active_count": 2857,
+  "generated_at": "2026-11-22T18:29:40.551814+00:00",
+  "active_count": 2859,
   "high_priority_count": 38,
   "archived_count": 1000,
   "search_failures": [
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
     "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
   ],
-  "detail_requests_completed": 43,
-  "relevance_filtered_count": 715,
+  "detail_requests_completed": 25,
+  "relevance_filtered_count": 718,
   "potentially_high_value_count": 38,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 70
+    "images_processed": 72
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -24,8 +24,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 558,
-      "detail_requests_attempted": 23
+      "active_count": 560,
+      "detail_requests_attempted": 5
     },
     {
       "id": "gsa-auctions",
@@ -60,7 +60,7 @@
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 32
+      "active_count": 33
     },
     {
       "id": "vintage-pens",
