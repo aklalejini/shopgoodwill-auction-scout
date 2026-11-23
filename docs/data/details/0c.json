@@ -45,6 +45,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+6)",
       "Opportunity term 'vintage' in title (+5)",
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -52,11 +53,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 12,
-        "relative_score": 0.353,
+        "score": 14,
+        "relative_score": 0.412,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
           "Opportunity term 'vintage' in title (+5)",
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -86,6 +88,35 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880933": {
+    "item_id": "ctbids-50258-5880933",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880933/Vintage-Heart-Shaped-Wicker-Basket-with-Blue-Floral-Fabric-Trim-Handle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5368687_VnJnSn.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -147,11 +178,11 @@
       }
     ]
   },
-  "ctbids-50258-5880933": {
-    "item_id": "ctbids-50258-5880933",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880933/Vintage-Heart-Shaped-Wicker-Basket-with-Blue-Floral-Fabric-Trim-Handle",
+  "ctbids-49993-5849117": {
+    "item_id": "ctbids-49993-5849117",
+    "listing_url": "https://ctbids.com/estate-sale/49993/item/5849117/Yashica-D-Vintage-Camera",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5368687_VnJnSn.webp"
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5849117_80LiDW.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -174,15 +205,101 @@
       }
     ]
   },
-  "ctbids-49993-5849117": {
-    "item_id": "ctbids-49993-5849117",
-    "listing_url": "https://ctbids.com/estate-sale/49993/item/5849117/Yashica-D-Vintage-Camera",
+  "285153078": {
+    "item_id": "285153078",
+    "listing_url": "https://shopgoodwill.com/item/285153078",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5849117_80LiDW.webp"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-23/ff9ebe0c-615a-4ca0-b5e7-8aa977f0259dmvo_11231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-23/e9233a44-3273-44d1-91ba-c88c9728ba02mvo_11232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-23/a5ffe72b-fbfa-470c-9ef8-317cec2deef4mvo_11233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-23/e1f8446b-e7c2-4d76-b3d8-5ae8e09f32c8mvo_11234.jpg"
+    ],
+    "description": "Product Overview:\nThis collection includes a variety of minerals, crystals, geodes, and fossil specimens. Featured specimens include amethyst geodes and clusters, green malachite, quartz, calcite, and bismuth crystals. The set also contains a fossil identification kit labeled 'Pocket Museum Fossils' with genuine fossil samples. Additionally, there is a decorative stone slice with a printed image of a robed figure along with other assorted rocks and minerals.\n\nSpecifications:\n- Includes amethyst geodes and clusters\n- Contains colorful mineral specimens such as malachite, quartz, calcite, and bismuth crystals\n- Fossil identification kit labeled 'Pocket Museum Fossils' with genuine fossil samples\n- Decorative stone slice with printed image of a robed figure\n- Various other rocks and minerals in different sizes and colors\n\nAdditional Information:\nAll items show natural wear consistent with geological specimens.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'rocks' in description (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Target keyword 'malachite' in description (+9)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 10,
+        "relative_score": 0.333,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'rocks' in description (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Target keyword 'malachite' in description (+9)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "malachite"
+        ]
+      }
+    ]
+  },
+  "284394527": {
+    "item_id": "284394527",
+    "listing_url": "https://shopgoodwill.com/item/284394527",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/394f9153-974d-4feb-8f8f-976e3bfe1fffwine_11091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/77fb6ba9-f8a3-4313-bfe9-86b708461ab5wine_11092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/3d146f3a-86d6-461b-92cb-289d701ed412wine_11093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/2e0ec179-0382-44b1-bbf4-28512ab2662ewine_11094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/0bc4a28d-0717-43de-b9f4-48991b71ccf4wine_11095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/8779c319-5e09-472c-b78a-fcdd885b9260wine_11096.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/b7d62f10-b669-482b-bbc1-71885e15df58wine_11097.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/21af1a11-e3fc-4402-b504-34763e3cac04wine_11098.jpg"
+    ],
+    "description": "Condition:\nScratching and scuffing on rocks from use and storage Discoloration and fading on rocks from age and use Chipping and wear on rocks from age and use\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Kennewick\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'lot' in description (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "20 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'lot' in description (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "20 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880848": {
+    "item_id": "ctbids-50258-5880848",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880848/Round-Wood-Slat-Gathering-Basket-with-Bentwood-Handle-Felt-Feet-Natural-Finish-Harvest-Basket",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5800558_KUMi58.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -190,10 +307,91 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880894": {
+    "item_id": "ctbids-50258-5880894",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880894/World-Market-Olives-Ceramic-Serving-Bowl",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5843636_8brWkj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880869": {
+    "item_id": "ctbids-50258-5880869",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880869/John-Gary-Friend-and-Lover-Warm-and-Willing-Promo-RCA-Victor-45-RPM-Record-47-8386",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5457960_2lzGHa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880961": {
+    "item_id": "ctbids-50258-5880961",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880961/Y2K-Millennium-2000-Champagne-Flute-Glass-Collectible-Celebration-Stemware",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5242831_rz4r4Q.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -255,56 +453,15 @@
       }
     ]
   },
-  "284394527": {
-    "item_id": "284394527",
-    "listing_url": "https://shopgoodwill.com/item/284394527",
+  "ctbids-50258-5881899": {
+    "item_id": "ctbids-50258-5881899",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5881899/Liz-Claiborne-Leather-Co-Dark-Green-Pebbled-Leather-Crossbody-Bag-Flap-Front-Pocket-Zip-Top",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/394f9153-974d-4feb-8f8f-976e3bfe1fffwine_11091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/77fb6ba9-f8a3-4313-bfe9-86b708461ab5wine_11092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/3d146f3a-86d6-461b-92cb-289d701ed412wine_11093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/2e0ec179-0382-44b1-bbf4-28512ab2662ewine_11094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/0bc4a28d-0717-43de-b9f4-48991b71ccf4wine_11095.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/8779c319-5e09-472c-b78a-fcdd885b9260wine_11096.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/b7d62f10-b669-482b-bbc1-71885e15df58wine_11097.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/155/Items/2026-11-09/21af1a11-e3fc-4402-b504-34763e3cac04wine_11098.jpg"
-    ],
-    "description": "Condition:\nScratching and scuffing on rocks from use and storage Discoloration and fading on rocks from age and use Chipping and wear on rocks from age and use\nBrand/Markings:\nRestricted for combined shipping (y/n)\n: No\nRestrictions due to: fragility, use of specialty box, lots, actual weight/dimensional weight over 20 pounds.\nStore\n: Kennewick\nAdditional Information\nItems will not be individually wrapped. If items powers on, no other functions were tested. Not professionally evaluated, tested, or serviced.\nPlease keep in mind as you bid, this item has not been professionally serviced or tested. This item is not eligible for a return or refund.\nClothing Lots: Items will not have measurements. These are donated, used items that have not been cleaned. Some wrinkling, dust, loose threads, snags, and light odors may be present. Although we have carefully looked at this item we may have missed some holes, rips, seam tears, stains or other flaws. Fur items may have imperfections obscured underneath fur, such as tears in seams. Wool items may have moth holes that have been missed.\nThis item is sold as a lot. We define a \"lot\" as two or more items sold together as one auction. Exact pieces are not accounted for. The condition of individual items varies. Not all item details will appear in the photographs.\nWe do not accept returns for any lot listings.\nPlease take this into consideration when bidding.\nAdditional Information\nThis auction is sold as a collection. The condition of individual items varies. Not all item details will appear in the photographs or listing.\nThis auction is non-returnable.\nPlease take this into consideration when bidding.\nDisclaimers\nThis is a donated, used item that has not been cleaned. Some scuffs, dents, markings, other blemishes, and light odors may be present. Although we have carefully looked at this item we may have missed some flaws may be present from age and use.\nIf you have questions about what you see in the photos, please contact us before you place a bid. There are no additional photos for this listing.",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+7)",
-      "Opportunity term 'lot' in description (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "20 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+7)",
-          "Opportunity term 'lot' in description (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "20 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49862-5832706": {
-    "item_id": "ctbids-49862-5832706",
-    "listing_url": "https://ctbids.com/estate-sale/49862/item/5832706/1988-Score-Baseball-Collector-Set",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832706_H2U3N3.webp"
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5881899_RBHDgA.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -312,9 +469,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -330,6 +488,7 @@
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -337,9 +496,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -347,14 +507,15 @@
       }
     ]
   },
-  "ctbids-50258-5880848": {
-    "item_id": "ctbids-50258-5880848",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880848/Round-Wood-Slat-Gathering-Basket-with-Bentwood-Handle-Felt-Feet-Natural-Finish-Harvest-Basket",
+  "ctbids-49967-5848573": {
+    "item_id": "ctbids-49967-5848573",
+    "listing_url": "https://ctbids.com/estate-sale/49967/item/5848573/Pine-Needle-Basketry-Tray",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5800558_KUMi58.webp"
+      "https://image.ctbids.com/seller/2026-11-13T4548b7/5848573_sl3Bds.webp"
     ],
     "description": "",
     "score_reasons": [
+      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -362,9 +523,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -372,14 +534,15 @@
       }
     ]
   },
-  "ctbids-50258-5880894": {
-    "item_id": "ctbids-50258-5880894",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880894/World-Market-Olives-Ceramic-Serving-Bowl",
+  "ctbids-49328-5818804": {
+    "item_id": "ctbids-49328-5818804",
+    "listing_url": "https://ctbids.com/estate-sale/49328/item/5818804/4-VTG-Collectibles-Oakland-Raiders-Opener-Advent-Heritage-Religious-Pendant-Advertising-Ruler",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5843636_8brWkj.webp"
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5818804_iAfsng.webp"
     ],
     "description": "",
     "score_reasons": [
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -387,9 +550,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 3,
+        "relative_score": 0.088,
         "score_reasons": [
+          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -397,36 +561,11 @@
       }
     ]
   },
-  "ctbids-50258-5880869": {
-    "item_id": "ctbids-50258-5880869",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880869/John-Gary-Friend-and-Lover-Warm-and-Willing-Promo-RCA-Victor-45-RPM-Record-47-8386",
+  "ctbids-49862-5832706": {
+    "item_id": "ctbids-49862-5832706",
+    "listing_url": "https://ctbids.com/estate-sale/49862/item/5832706/1988-Score-Baseball-Collector-Set",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5457960_2lzGHa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50258-5880961": {
-    "item_id": "ctbids-50258-5880961",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880961/Y2K-Millennium-2000-Champagne-Flute-Glass-Collectible-Celebration-Stemware",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5242831_rz4r4Q.webp"
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5832706_H2U3N3.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -472,56 +611,6 @@
       }
     ]
   },
-  "ctbids-49967-5848573": {
-    "item_id": "ctbids-49967-5848573",
-    "listing_url": "https://ctbids.com/estate-sale/49967/item/5848573/Pine-Needle-Basketry-Tray",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-13T4548b7/5848573_sl3Bds.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49328-5818804": {
-    "item_id": "ctbids-49328-5818804",
-    "listing_url": "https://ctbids.com/estate-sale/49328/item/5818804/4-VTG-Collectibles-Oakland-Raiders-Opener-Advent-Heritage-Religious-Pendant-Advertising-Ruler",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5818804_iAfsng.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49993-5855743": {
     "item_id": "ctbids-49993-5855743",
     "listing_url": "https://ctbids.com/estate-sale/49993/item/5855743/1800s-Barber-Silver-Quarter-Dollars",
@@ -542,6 +631,40 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284343757": {
+    "item_id": "284343757",
+    "listing_url": "https://shopgoodwill.com/item/284343757",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-11-16/4a7243a8-b4d9-424d-9923-4637ac80785fmack_11161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-11-16/98e6cb5d-5288-4e59-bbf0-60cce20f7716mack_11162.jpg"
+    ],
+    "description": "Title\n: Cross Pen Set Classic Black Ballpoint And Pencil Gift Boxed\nBrand\n: Cross\nModel\n: Classic Black\nColor\n: Black\nDepartment\n: Miscellaneous\nCategory\n: Hard Goods\nCondition\n: Good - shows some sign of wear\nDescription\n: Elevate your writing essentials with this Cross Classic Black pen and pencil set, presented in its original display case. This distinguished duo features a sleek, matte black finish accented by gold-toned details on the clips and tips, embodying stylish sophistication for any office or personal collection. Both writing instruments are neatly nestled in a cream-lined box with a gold-trim Cross emblem, emphasizing their classic appeal and timeless design. The sturdy case adds an extra touch of elegance and helps with convenient storage or gift presentation. Perfect for daily use or as a treasured gift for professionals, graduates, or pen enthusiasts, this set offers smooth handling and a refined writing experience. The items appear to be in clean, gently used condition, with some light marks visible on the case lining but no cracks or major flaws to the surfaces of the pens themselves. A tasteful addition to any desk, this set combines functionality and style in a single package",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+6)",
+      "Lower-priority term 'ballpoint' in title (-4)",
+      "1 bid near close (+2)",
+      "Only 2 listing photos (-5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+6)",
+          "Lower-priority term 'ballpoint' in title (-4)",
+          "1 bid near close (+2)",
+          "Only 2 listing photos (-5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -797,35 +920,41 @@
       }
     ]
   },
-  "284343757": {
-    "item_id": "284343757",
-    "listing_url": "https://shopgoodwill.com/item/284343757",
+  "284853119": {
+    "item_id": "284853119",
+    "listing_url": "https://shopgoodwill.com/item/284853119",
     "images": [
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-11-16/4a7243a8-b4d9-424d-9923-4637ac80785fmack_11161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/134/Items/2026-11-16/98e6cb5d-5288-4e59-bbf0-60cce20f7716mack_11162.jpg"
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/4d737214-6f91-4746-ba47-f3d55c7ce28cauer_11201.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/5d9a2655-2569-4372-b296-232817ba3509auer_11202.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/32e8357e-980d-4a66-ab62-69054b1c2bdcauer_11203.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/94e4df39-d34e-4637-b686-42a41a965b23auer_11204.jpg"
     ],
-    "description": "Title\n: Cross Pen Set Classic Black Ballpoint And Pencil Gift Boxed\nBrand\n: Cross\nModel\n: Classic Black\nColor\n: Black\nDepartment\n: Miscellaneous\nCategory\n: Hard Goods\nCondition\n: Good - shows some sign of wear\nDescription\n: Elevate your writing essentials with this Cross Classic Black pen and pencil set, presented in its original display case. This distinguished duo features a sleek, matte black finish accented by gold-toned details on the clips and tips, embodying stylish sophistication for any office or personal collection. Both writing instruments are neatly nestled in a cream-lined box with a gold-trim Cross emblem, emphasizing their classic appeal and timeless design. The sturdy case adds an extra touch of elegance and helps with convenient storage or gift presentation. Perfect for daily use or as a treasured gift for professionals, graduates, or pen enthusiasts, this set offers smooth handling and a refined writing experience. The items appear to be in clean, gently used condition, with some light marks visible on the case lining but no cracks or major flaws to the surfaces of the pens themselves. A tasteful addition to any desk, this set combines functionality and style in a single package",
+    "description": "Product Overview:\nThis lot contains a variety of collectible stones, fossils, and petrified wood pieces. Included are polished agate slices, a fossilized orthoceras and clam specimens, various petrified wood pieces, Indian Celt stone tool, natural stones, and a painted agate slice featuring 'Crater Lake.' The items display multiple colors such as blue, brown, red, and multicolored patterns and are composed of stone, agate, and fossilized materials.\n\nSpecifications:\n- Material: Stone, Agate, Fossilized Material\n- Colors: Blue, Brown, Red, Multicolored\n- Includes: Polished Agate Slices, Fossilized Orthoceras Specimen, Petrified Wood Pieces, Painted Agate Slice\n- Lot Weight: Approx. 6 Lbs.",
     "score_reasons": [
-      "Opportunity term 'collection' in description (+6)",
-      "Lower-priority term 'ballpoint' in title (-4)",
-      "Only 2 listing photos (-5)",
-      "Shipping is calculated and not included in the price (-4)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Lower-priority term 'painted' in description (-15)",
+      "Shipping is calculated and not included in the price (-6)",
+      "6 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)",
-      "Score boundary adjustment (+2)"
+      "Score boundary adjustment (+12)"
     ],
     "hunt_scores": [
       {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
         "score": 0,
         "relative_score": 0.0,
         "score_reasons": [
-          "Opportunity term 'collection' in description (+6)",
-          "Lower-priority term 'ballpoint' in title (-4)",
-          "Only 2 listing photos (-5)",
-          "Shipping is calculated and not included in the price (-4)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Lower-priority term 'painted' in description (-15)",
+          "Shipping is calculated and not included in the price (-6)",
+          "6 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
-          "Score boundary adjustment (+2)"
+          "Score boundary adjustment (+12)"
         ],
         "matched_keywords": []
       }
@@ -868,46 +997,6 @@
           "Shipping is calculated and not included in the price (-6)",
           "9.8 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284853119": {
-    "item_id": "284853119",
-    "listing_url": "https://shopgoodwill.com/item/284853119",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/4d737214-6f91-4746-ba47-f3d55c7ce28cauer_11201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/5d9a2655-2569-4372-b296-232817ba3509auer_11202.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/32e8357e-980d-4a66-ab62-69054b1c2bdcauer_11203.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/94e4df39-d34e-4637-b686-42a41a965b23auer_11204.jpg"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of collectible stones, fossils, and petrified wood pieces. Included are polished agate slices, a fossilized orthoceras and clam specimens, various petrified wood pieces, Indian Celt stone tool, natural stones, and a painted agate slice featuring 'Crater Lake.' The items display multiple colors such as blue, brown, red, and multicolored patterns and are composed of stone, agate, and fossilized materials.\n\nSpecifications:\n- Material: Stone, Agate, Fossilized Material\n- Colors: Blue, Brown, Red, Multicolored\n- Includes: Polished Agate Slices, Fossilized Orthoceras Specimen, Petrified Wood Pieces, Painted Agate Slice\n- Lot Weight: Approx. 6 Lbs.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Lower-priority term 'painted' in description (-15)",
-      "Shipping is calculated and not included in the price (-6)",
-      "6 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+12)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Lower-priority term 'painted' in description (-15)",
-          "Shipping is calculated and not included in the price (-6)",
-          "6 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+12)"
         ],
         "matched_keywords": []
       }
@@ -988,6 +1077,48 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+27)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285146543": {
+    "item_id": "285146543",
+    "listing_url": "https://shopgoodwill.com/item/285146543",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/1a8d00f4-b122-434c-aa48-e4c11439c916anta_11231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/908fa183-cfdb-4114-927a-4db1e9fbc290anta_11232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/ae9756b6-2b7f-4ad1-b1b3-c058ad97eba4anta_11233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/6a3ce752-8472-4dff-8db2-cc57b439463danta_11234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/76d5b58a-295b-4340-a09d-3488fe562ce7anta_11235.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/18cf2486-68f1-4295-b3a8-b97fbc743753anta_11236.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/1b52bc4b-6450-448f-8f11-f5806c9d4041anta_11237.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/2048d376-2631-496a-8a4d-f40efc0b9c0aanta_11238.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/b9bcec2f-426e-4faa-ace6-b67367387c65anta_11239.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/339/Item/2026-11-23/27c53691-9b5f-41f5-ace2-e898beb87562anta_112310.jpg"
+    ],
+    "description": "Pink Agate Geode Bookends Natural Stone Polished Flat Surfaces Decorative\nPair of pink agate geode bookends made from natural agate stone dyed pink. Surfaces are partially polished with flat sides smooth and outer edges retaining rough natural texture. Internal crystalline structure and pink banding patterns are visible. Bookends are functional and decorative, suitable for organizing books or as home decor. Item is in good condition with no significant chips or damage.\nTerms of Sale\nThis is a previously owned item being sold\nAS-IS\n.\nIf you have any questions regarding this item, please contact us\nPRIOR\nto bidding.\nWe describe each item to the best of our ability; however, we are NOT experts in any field. All measurements are approximated.",
+    "score_reasons": [
+      "Lower-priority term 'decorative' in title (-8)",
+      "Lower-priority term 'decor' in description (-8)",
+      "Lower-priority term 'dyed' in description (-18)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+35)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'decorative' in title (-8)",
+          "Lower-priority term 'decor' in description (-8)",
+          "Lower-priority term 'dyed' in description (-18)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+35)"
         ],
         "matched_keywords": []
       }

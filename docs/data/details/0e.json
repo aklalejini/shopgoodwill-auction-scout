@@ -1,4 +1,51 @@
 {
+  "285148654": {
+    "item_id": "285148654",
+    "listing_url": "https://shopgoodwill.com/item/285148654",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/6276dd87-1044-494e-b2c7-85bb35542b49ssen_11231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/d0d5d5b2-4a48-4774-ade4-d47aa260ac8dssen_11232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/047e4e53-692b-4b13-81c5-c3c122bb2baessen_11233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/4f81f0b2-819e-4d1b-9eaa-c94b016f454dssen_11234.jpg"
+    ],
+    "description": "This lot includes a variety of new and sealed blank audio cassette tapes from brands such as Sony, Maxell, TDK, RCA, and Top Crest. The tapes feature different bias types including normal and metal position, with packaging colors in red, black, and blue. Multi-packs are included with quantities ranging from three to sixteen tapes, all retaining their original retail packaging. This collection is suitable for collectors or users of vintage audio equipment.",
+    "score_reasons": [
+      "Opportunity term 'sealed' in title (+12)",
+      "Opportunity term 'lot of' in title (+6)",
+      "Opportunity term 'lot' in title (+4)",
+      "Target keyword 'metal position' in description (+14)",
+      "Target keyword 'maxell' in description (+5)",
+      "Target keyword 'tdk' in description (+5)",
+      "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
+      "Flat shipping is only $0.01 (+8)",
+      "Base score (+4)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "sealed-vintage-media",
+        "label": "Sealed Vintage Media",
+        "score": 58,
+        "relative_score": 1.611,
+        "score_reasons": [
+          "Opportunity term 'sealed' in title (+12)",
+          "Opportunity term 'lot of' in title (+6)",
+          "Opportunity term 'lot' in title (+4)",
+          "Target keyword 'metal position' in description (+14)",
+          "Target keyword 'maxell' in description (+5)",
+          "Target keyword 'tdk' in description (+5)",
+          "Only the top 3 target keyword matches count; 1 weaker overlap(s) ignored",
+          "Flat shipping is only $0.01 (+8)",
+          "Base score (+4)"
+        ],
+        "matched_keywords": [
+          "maxell",
+          "metal position",
+          "sony",
+          "tdk"
+        ]
+      }
+    ]
+  },
   "284340171": {
     "item_id": "284340171",
     "listing_url": "https://shopgoodwill.com/item/284340171",
@@ -16,6 +63,7 @@
     "score_reasons": [
       "Opportunity term 'vintage' in title (+6)",
       "Target keyword 'briar' in title (+5)",
+      "0 bids near close (+4)",
       "Flat shipping is only $0.01 (+9)",
       "Base score (+5)"
     ],
@@ -23,11 +71,12 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 25,
-        "relative_score": 0.714,
+        "score": 29,
+        "relative_score": 0.829,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+6)",
           "Target keyword 'briar' in title (+5)",
+          "0 bids near close (+4)",
           "Flat shipping is only $0.01 (+9)",
           "Base score (+5)"
         ],
@@ -97,6 +146,35 @@
       }
     ]
   },
+  "ctbids-49328-5825554": {
+    "item_id": "ctbids-49328-5825554",
+    "listing_url": "https://ctbids.com/estate-sale/49328/item/5825554/CD-VHS-Entertainment-Collection-60-Music-CDs-A-E-Biography-VHS-Tapes-RCA-VCR-Head-Cleaner-3",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5825554_VJVTBq.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 9,
+        "relative_score": 0.265,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49862-5832901": {
     "item_id": "ctbids-49862-5832901",
     "listing_url": "https://ctbids.com/estate-sale/49862/item/5832901/Sealed-2021-Topps-Complete-Set",
@@ -124,33 +202,6 @@
       }
     ]
   },
-  "ctbids-49328-5825554": {
-    "item_id": "ctbids-49328-5825554",
-    "listing_url": "https://ctbids.com/estate-sale/49328/item/5825554/CD-VHS-Entertainment-Collection-60-Music-CDs-A-E-Biography-VHS-Tapes-RCA-VCR-Head-Cleaner-3",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5825554_VJVTBq.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49967-5847973": {
     "item_id": "ctbids-49967-5847973",
     "listing_url": "https://ctbids.com/estate-sale/49967/item/5847973/Vintage-Olaf-Wieghorst-Native-American-Portrait-Print-Inlaid-Marquetry-Frame",
@@ -171,6 +222,121 @@
         "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284317808": {
+    "item_id": "284317808",
+    "listing_url": "https://shopgoodwill.com/item/284317808",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/4c69d881-a8df-46da-b8e6-88a9c35259d6kied_11161.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/3e10fc2b-41fa-48f6-8f24-c1507bd05b5akied_11162.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/c468d9c0-aebd-41b8-a75b-5493371bebf5kied_11163.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/9b468282-6c33-4585-908b-8d5a914c6ddbkied_11164.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/c8c38657-7d5c-4ff6-adc2-5ace64e77813kied_11165.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/e05c3af3-1a9d-417c-b1e0-2613bfa85dfdkied_11166.jpg"
+    ],
+    "description": "Lazy Susan model 168-009 framed wall art featuring a white crystal mineral specimen mounted centrally within a shadow box style frame. The background is neutral, and the frame is metallic with a brushed aluminum appearance. The frame shows visible signs of wear including scratches and scuffs. The black backing includes the manufacturer label, quality control sticker, and product information. The crystal and display remain intact. This piece was manufactured in April 2015 and is in used condition with cosmetic blemishes on the frame.\n\nItem is used and subject to small imperfections not visible in pictures. Has Wearing-Scuffs-Smudges-Dust-Needs cleaning. Sold as is. \n\nArt Dimensions (inches):\nCenterpiece: 4×4\nFrame: 12×12\n**with glass**",
+    "score_reasons": [
+      "Opportunity term 'specimen' in description (+4)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 7,
+        "relative_score": 0.233,
+        "score_reasons": [
+          "Opportunity term 'specimen' in description (+4)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880852": {
+    "item_id": "ctbids-50258-5880852",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880852/Joe-s-Crab-Shack-Peace-Love-Crabs-Shot-Glass-Blue-and-White-Graphics-Peace-Sign-Heart-Crab",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5806571_HNTtya.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880898": {
+    "item_id": "ctbids-50258-5880898",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880898/Hand-Painted-Wood-Octagonal-Birdhouse-Ornament-Shingle-Roof-Metal-Rose-and-Leaves-Twine-Hanger",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5849291_Os9WV0.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50258-5880928": {
+    "item_id": "ctbids-50258-5880928",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880928/Queen-Anne-England-Bone-China-Mother-Floral-Footed-Teacup-with-Gold-Trim",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5876349_O4R5PX.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -232,6 +398,60 @@
       }
     ]
   },
+  "ctbids-50258-5880743": {
+    "item_id": "ctbids-50258-5880743",
+    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880743/Cuisine-Cookware-Command-Performance-Gold-2-Qt-Saucepan-18-10-Stainless-Steel-Glass-Lid",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5870326_Vh5ecR.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49328-5825121": {
+    "item_id": "ctbids-49328-5825121",
+    "listing_url": "https://ctbids.com/estate-sale/49328/item/5825121/Cute-Knick-Knacks-Bells-Cat-Statue-Japan-Ceramic-The-Fortune-Cookie-Book",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5825121_4NPbs5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50109-5813225": {
     "item_id": "ctbids-50109-5813225",
     "listing_url": "https://ctbids.com/estate-sale/50109/item/5813225/Vintage-Murano-Green-Tone-Gold-Aventurine-Floral-Cased-Art-Glass-Bowl",
@@ -286,6 +506,47 @@
       }
     ]
   },
+  "285131266": {
+    "item_id": "285131266",
+    "listing_url": "https://shopgoodwill.com/item/285131266",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/68edbe3f-c2b2-4763-a524-e82e958e14a2ssen_11231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/8abaf3e1-7bfb-46b2-bb58-9a3aca14fe00ssen_11232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/122/Item/2026-11-23/c4b6a057-d26e-4817-b694-3de03f36fdfassen_11233.jpg"
+    ],
+    "description": "This collection features a variety of decorative stones and minerals including polished spheres, crystal points, and carved shapes. Highlights include a red apple-shaped stone, a clear glass orb with bubbles, and a small onyx apple with a golden leaf. The lot also contains polished spheres in multiple colors, crystal tower points in white, blue, and marbled gray, two yellow-green cylindrical mineral specimens, and a large polished agate slice with pink and gray bands. Each piece shows character and charm, with some items displaying original stickers.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'tower' in description (-5)",
+      "Lower-priority term 'decorative' in title (-8)",
+      "Lower-priority term 'carved' in title (-7)",
+      "Flat shipping is only $0.01 (+10)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'tower' in description (-5)",
+          "Lower-priority term 'decorative' in title (-8)",
+          "Lower-priority term 'carved' in title (-7)",
+          "Flat shipping is only $0.01 (+10)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "284468630": {
     "item_id": "284468630",
     "listing_url": "https://shopgoodwill.com/item/284468630",
@@ -322,195 +583,11 @@
       }
     ]
   },
-  "ctbids-50109-5843704": {
-    "item_id": "ctbids-50109-5843704",
-    "listing_url": "https://ctbids.com/estate-sale/50109/item/5843704/Knitting-Lot-Knitting-Needles-Stitch-Gage-Stitch-Marker-And-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-12T74e35e/5843704_s3HNpj.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284317808": {
-    "item_id": "284317808",
-    "listing_url": "https://shopgoodwill.com/item/284317808",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/4c69d881-a8df-46da-b8e6-88a9c35259d6kied_11161.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/3e10fc2b-41fa-48f6-8f24-c1507bd05b5akied_11162.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/c468d9c0-aebd-41b8-a75b-5493371bebf5kied_11163.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/9b468282-6c33-4585-908b-8d5a914c6ddbkied_11164.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/c8c38657-7d5c-4ff6-adc2-5ace64e77813kied_11165.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/2/Item/2026-11-16/e05c3af3-1a9d-417c-b1e0-2613bfa85dfdkied_11166.jpg"
-    ],
-    "description": "Lazy Susan model 168-009 framed wall art featuring a white crystal mineral specimen mounted centrally within a shadow box style frame. The background is neutral, and the frame is metallic with a brushed aluminum appearance. The frame shows visible signs of wear including scratches and scuffs. The black backing includes the manufacturer label, quality control sticker, and product information. The crystal and display remain intact. This piece was manufactured in April 2015 and is in used condition with cosmetic blemishes on the frame.\n\nItem is used and subject to small imperfections not visible in pictures. Has Wearing-Scuffs-Smudges-Dust-Needs cleaning. Sold as is. \n\nArt Dimensions (inches):\nCenterpiece: 4×4\nFrame: 12×12\n**with glass**",
-    "score_reasons": [
-      "Opportunity term 'specimen' in description (+4)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 3,
-        "relative_score": 0.1,
-        "score_reasons": [
-          "Opportunity term 'specimen' in description (+4)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49862-5860252": {
     "item_id": "ctbids-49862-5860252",
     "listing_url": "https://ctbids.com/estate-sale/49862/item/5860252/NFL-NBA-NHL-MLB-Sticker-Albums-Stickers",
     "images": [
       "https://image.ctbids.com/seller/2026-11-17Tc60367/5860252_GfqDuk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50258-5880743": {
-    "item_id": "ctbids-50258-5880743",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880743/Cuisine-Cookware-Command-Performance-Gold-2-Qt-Saucepan-18-10-Stainless-Steel-Glass-Lid",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5870326_Vh5ecR.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50258-5880852": {
-    "item_id": "ctbids-50258-5880852",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880852/Joe-s-Crab-Shack-Peace-Love-Crabs-Shot-Glass-Blue-and-White-Graphics-Peace-Sign-Heart-Crab",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5806571_HNTtya.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49328-5825121": {
-    "item_id": "ctbids-49328-5825121",
-    "listing_url": "https://ctbids.com/estate-sale/49328/item/5825121/Cute-Knick-Knacks-Bells-Cat-Statue-Japan-Ceramic-The-Fortune-Cookie-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5825121_4NPbs5.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50258-5880898": {
-    "item_id": "ctbids-50258-5880898",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880898/Hand-Painted-Wood-Octagonal-Birdhouse-Ornament-Shingle-Roof-Metal-Rose-and-Leaves-Twine-Hanger",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5849291_Os9WV0.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50258-5880928": {
-    "item_id": "ctbids-50258-5880928",
-    "listing_url": "https://ctbids.com/estate-sale/50258/item/5880928/Queen-Anne-England-Bone-China-Mother-Floral-Footed-Teacup-with-Gold-Trim",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5876349_O4R5PX.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -606,6 +683,69 @@
       }
     ]
   },
+  "ctbids-50109-5843704": {
+    "item_id": "ctbids-50109-5843704",
+    "listing_url": "https://ctbids.com/estate-sale/50109/item/5843704/Knitting-Lot-Knitting-Needles-Stitch-Gage-Stitch-Marker-And-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-12T74e35e/5843704_s3HNpj.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "283586067": {
+    "item_id": "283586067",
+    "listing_url": "https://shopgoodwill.com/item/283586067",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/581862d9-c3f6-49b7-b7d1-ef1f7ec822a1nold_10191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/96e22152-763f-46df-8dfa-37a7da2709e1nold_10192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/e12d5291-06ee-44cc-99f0-a5bf460bec8dnold_10193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/1c594c8b-020d-4b9d-9cfc-38802c764755nold_10194.jpg"
+    ],
+    "description": "CONDITION: Some broken or missing items. Surface scratches and wear. Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
+    "score_reasons": [
+      "Opportunity term 'minerals' in title (+1)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'minerals' in title (+1)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+8)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49999-5862785": {
     "item_id": "ctbids-49999-5862785",
     "listing_url": "https://ctbids.com/estate-sale/49999/item/5862785/Hand-painted-Coffee-Table-Mirror",
@@ -626,6 +766,77 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284603224": {
+    "item_id": "284603224",
+    "listing_url": "https://shopgoodwill.com/item/284603224",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/8a93ef70-a1c6-4816-87d8-8ad0715960efirth_11181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/d1cba67d-59c6-44f5-8f23-86992f5bff55irth_11182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/e51e7264-1e51-4701-8ca6-29035d107043irth_11183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/97a672a0-0623-4b1f-a6d1-4886cc05931dirth_11184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/acdabf64-ce40-465c-bfd4-e43949e876ecirth_11185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/f339396d-da2a-44d0-8dc7-23faa8e4f269irth_11186.jpg"
+    ],
+    "description": "Polished Blue Geode Stone Bookends Set Of 2 Natural Stone Decor\nType:\nPolished Blue Geode Stone Bookends Set Of 2 Natural Stone Decor\nCondition:\nGood - shows some sign of wear\nApproximate Measurements (inches):\nL x W x H\nWeight (approximate):\n8 lbs",
+    "score_reasons": [
+      "Lower-priority term 'decor' in title (-8)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "8 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+9)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Lower-priority term 'decor' in title (-8)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "8 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+9)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284751476": {
+    "item_id": "284751476",
+    "listing_url": "https://shopgoodwill.com/item/284751476",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/d1badcac-1612-425e-a74d-010324136239ha05_11091.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/80d687b9-e76c-4416-9a93-8f52f00aceb1ha05_11092.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/96166a50-d328-4844-b5fd-711ecfeedd85ha05_11093.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/4c846ed2-d534-4ba4-b7fb-a61d9e88dd60ha05_11094.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/ee412723-1deb-45fd-ab51-9984945c85d3ha05_11095.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/c2ff01fb-9754-4c15-af23-05f504cb9a3dha05_11096.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/cfd4504a-952a-4cd7-a8df-804d61d47971ha05_11097.jpg"
+    ],
+    "description": "Unsorted Fossilized Coral/Mineral Lot - 2Pcs\nCondition appears to be Used - Good to Fair - shows light to moderate signs of wear.\nThis item measures approximately 2\" x 2\" x 2\".\nAdditional Details\n: As-is. Mineral composition/names have NOT been authenticated or verified.\nUsed items Disclaimer:\nAll items are\nUSED\nunless otherwise noted. All items are sold\nAS FOUND\nand\nAS IS\n. We describe our items to the best of our ability however we are not experts in any field. All measurements are approximate.\nSigns of wear may include marks, scratches, scuffs, dirt, and other signs of use.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -781,31 +992,6 @@
       }
     ]
   },
-  "ctbids-49985-5873617": {
-    "item_id": "ctbids-49985-5873617",
-    "listing_url": "https://ctbids.com/estate-sale/49985/item/5873617/Bose-Quiet-Comfort-Headphones",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5873617_ypInou.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49205-5829308": {
     "item_id": "ctbids-49205-5829308",
     "listing_url": "https://ctbids.com/estate-sale/49205/item/5829308/Fantastic-Four-s-286-289",
@@ -926,109 +1112,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "283586067": {
-    "item_id": "283586067",
-    "listing_url": "https://shopgoodwill.com/item/283586067",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/581862d9-c3f6-49b7-b7d1-ef1f7ec822a1nold_10191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/96e22152-763f-46df-8dfa-37a7da2709e1nold_10192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/e12d5291-06ee-44cc-99f0-a5bf460bec8dnold_10193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-10-19/1c594c8b-020d-4b9d-9cfc-38802c764755nold_10194.jpg"
-    ],
-    "description": "CONDITION: Some broken or missing items. Surface scratches and wear. Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
-    "score_reasons": [
-      "Opportunity term 'minerals' in title (+1)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+12)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'minerals' in title (+1)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+12)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284603224": {
-    "item_id": "284603224",
-    "listing_url": "https://shopgoodwill.com/item/284603224",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/8a93ef70-a1c6-4816-87d8-8ad0715960efirth_11181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/d1cba67d-59c6-44f5-8f23-86992f5bff55irth_11182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/e51e7264-1e51-4701-8ca6-29035d107043irth_11183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/97a672a0-0623-4b1f-a6d1-4886cc05931dirth_11184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/acdabf64-ce40-465c-bfd4-e43949e876ecirth_11185.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/102/Items/2026-11-18/f339396d-da2a-44d0-8dc7-23faa8e4f269irth_11186.jpg"
-    ],
-    "description": "Polished Blue Geode Stone Bookends Set Of 2 Natural Stone Decor\nType:\nPolished Blue Geode Stone Bookends Set Of 2 Natural Stone Decor\nCondition:\nGood - shows some sign of wear\nApproximate Measurements (inches):\nL x W x H\nWeight (approximate):\n8 lbs",
-    "score_reasons": [
-      "Lower-priority term 'decor' in title (-8)",
-      "Shipping is calculated and not included in the price (-6)",
-      "8 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+13)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Lower-priority term 'decor' in title (-8)",
-          "Shipping is calculated and not included in the price (-6)",
-          "8 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+13)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284751476": {
-    "item_id": "284751476",
-    "listing_url": "https://shopgoodwill.com/item/284751476",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/d1badcac-1612-425e-a74d-010324136239ha05_11091.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/80d687b9-e76c-4416-9a93-8f52f00aceb1ha05_11092.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/96166a50-d328-4844-b5fd-711ecfeedd85ha05_11093.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/4c846ed2-d534-4ba4-b7fb-a61d9e88dd60ha05_11094.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/ee412723-1deb-45fd-ab51-9984945c85d3ha05_11095.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/c2ff01fb-9754-4c15-af23-05f504cb9a3dha05_11096.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/50/Items/2026-11-09/cfd4504a-952a-4cd7-a8df-804d61d47971ha05_11097.jpg"
-    ],
-    "description": "Unsorted Fossilized Coral/Mineral Lot - 2Pcs\nCondition appears to be Used - Good to Fair - shows light to moderate signs of wear.\nThis item measures approximately 2\" x 2\" x 2\".\nAdditional Details\n: As-is. Mineral composition/names have NOT been authenticated or verified.\nUsed items Disclaimer:\nAll items are\nUSED\nunless otherwise noted. All items are sold\nAS FOUND\nand\nAS IS\n. We describe our items to the best of our ability however we are not experts in any field. All measurements are approximate.\nSigns of wear may include marks, scratches, scuffs, dirt, and other signs of use.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 1,
-        "relative_score": 0.033,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
