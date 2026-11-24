@@ -48,6 +48,7 @@
       "Opportunity term 'specimen' in title (+4)",
       "Opportunity term 'assorted' in description (+2)",
       "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "5 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -56,13 +57,14 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "score": 12,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'specimen' in title (+4)",
           "Opportunity term 'assorted' in description (+2)",
           "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
@@ -76,35 +78,6 @@
     "listing_url": "https://ctbids.com/estate-sale/49454/item/5782445/Vintage-Costume-Jewelry-Brooch-Lot-Monet-Bobbie-Brooks-Piper-K-Assorted-Pins",
     "images": [
       "https://image.ctbids.com/seller/2026-10-28Tbd4550/5782445_ANYCAw.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 10,
-        "relative_score": 0.294,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50134-5863991": {
-    "item_id": "ctbids-50134-5863991",
-    "listing_url": "https://ctbids.com/estate-sale/50134/item/5863991/Lot-of-5-Vintage-Postwar-Lionel-O-O-27-Gauge-Freight-Passenger-Train-Cars",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5863991_gGnwvR.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -183,6 +156,189 @@
       }
     ]
   },
+  "284854613": {
+    "item_id": "284854613",
+    "listing_url": "https://shopgoodwill.com/item/284854613",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/604f8c01-4f14-4ac1-baff-298dd9dc42b9auer_11201.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/65f3c579-1a57-40a1-bd7f-74a64632a7deauer_11202.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/38f96d6d-3c1c-4d11-a7cb-0ce7e819f1c4auer_11203.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/97248665-9f63-4be7-862e-daf8ce8850f7auer_11204.jpg"
+    ],
+    "description": "Product Overview:\nAssorted collection of polished and natural stones including dark, smooth tumbled stones and various small geode fragments with white crystalline interiors. Contains pieces with glossy finishes and others with rough exteriors and sparkling crystal interiors. Includes a raw mineral specimen.\n\nSpecifications:\n- Mixed lot of polished stones and natural geode fragments\n- Features dark tumbled stones resembling obsidian or black tourmaline\n- Geodes with white crystalline interiors\n- Includes raw mineral specimen\n- Approximate total weight: 5 lbs",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in description (+4)",
+      "Opportunity term 'assorted' in description (+2)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in title (-6)",
+      "Target keyword 'tourmaline' in description (+10)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "5 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 6,
+        "relative_score": 0.2,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in description (+4)",
+          "Opportunity term 'assorted' in description (+2)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in title (-6)",
+          "Target keyword 'tourmaline' in description (+10)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "5 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "tourmaline"
+        ]
+      }
+    ]
+  },
+  "ctbids-43009-5863584": {
+    "item_id": "ctbids-43009-5863584",
+    "listing_url": "https://ctbids.com/estate-sale/43009/item/5863584/35-Topps-1998-99-Hockey-Cards-65-90",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5863584_Gv7kdF.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50298-5886273": {
+    "item_id": "ctbids-50298-5886273",
+    "listing_url": "https://ctbids.com/estate-sale/50298/item/5886273/Set-of-2-National-Geographic-Magazines-March-1976-Right-Whales-and-December-1989-Sistine-Restoratio",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-24Ta80cc5/5881785_AUt8tE.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-43009-5858321": {
+    "item_id": "ctbids-43009-5858321",
+    "listing_url": "https://ctbids.com/estate-sale/43009/item/5858321/Dominik-Hasek-Upper-Deck-1998-99-Trading-Card-2",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5858321_IsAPvV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50298-5886146": {
+    "item_id": "ctbids-50298-5886146",
+    "listing_url": "https://ctbids.com/estate-sale/50298/item/5886146/Clear-Glass-Apothecary-Style-Jar-Vase-Cylinder-Shape-Rounded-Shoulder-Wide-Mouth-7-in-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-24Ta80cc5/5812378_caq7zK.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50298-5886185": {
+    "item_id": "ctbids-50298-5886185",
+    "listing_url": "https://ctbids.com/estate-sale/50298/item/5886185/Light-Blue-Glass-Tumbler-Stepped-Ringed-Base-Straight-Sides-Water-Juice-Highball-5-5-Inch",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-24Ta80cc5/5849313_3nKiNs.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49443-5870289": {
     "item_id": "ctbids-49443-5870289",
     "listing_url": "https://ctbids.com/estate-sale/49443/item/5870289/Antique-JP-Coats-Spool-Display-Cabinet",
@@ -237,6 +393,48 @@
       }
     ]
   },
+  "284856813": {
+    "item_id": "284856813",
+    "listing_url": "https://shopgoodwill.com/item/284856813",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/27b1b95a-b87b-44c6-8f2d-a0e3f4348eb3auer_11201.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/f08501e6-d506-4178-b3ac-aa2cba2e5170auer_11202.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/31a3579b-05fc-483c-9d07-d39b7e41ba2dauer_11203.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/7df97451-fcd9-4bb2-9c28-8ab54caa3aa6auer_11204.jpg"
+    ],
+    "description": "Product Overview:\nThis listing is for a mixed lot containing assorted tumbled and raw stones, semi-precious gemstones, crystals, and mineral specimens. The collection features various colors and shapes including agate slices, quartz points, polished stones, and other mineral samples. Some stones are wrapped for pendants while others are natural or tumbled.\n\nSpecifications:\n- Variety of stone types including agate and quartz\n- Includes tumbled, raw, polished, and wrapped stones\n- Mixed colors and shapes\n- Approximate total weight: 6 pounds\n\nThe stones are presented without specific information on condition or origin.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'assorted' in title (+2)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "6 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 4,
+        "relative_score": 0.133,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'assorted' in title (+2)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "6 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-45210-5827308": {
     "item_id": "ctbids-45210-5827308",
     "listing_url": "https://ctbids.com/estate-sale/45210/item/5827308/Vintage-Gold-Embossed-Leather-Fringe-Bookmarks",
@@ -264,38 +462,11 @@
       }
     ]
   },
-  "ctbids-48080-5878585": {
-    "item_id": "ctbids-48080-5878585",
-    "listing_url": "https://ctbids.com/estate-sale/48080/item/5878585/Vintage-Tugaris-Swiss-made-Tank-Seiko",
+  "ctbids-50250-5881435": {
+    "item_id": "ctbids-50250-5881435",
+    "listing_url": "https://ctbids.com/estate-sale/50250/item/5881435/Johnny-Ferguson-Angela-Jones-Blue-Serge-and-White-Lace-45-RPM-MGM-K12855-Vintage-Vinyl",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-21T8939e2/5878585_eU4sfF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49563-5851004": {
-    "item_id": "ctbids-49563-5851004",
-    "listing_url": "https://ctbids.com/estate-sale/49563/item/5851004/Vintage-Nylint-Metal-Car",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-13T4548b7/5851004_bRHGgY.webp"
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5690519_4CT3MA.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -352,6 +523,33 @@
       }
     ]
   },
+  "ctbids-43009-5854874": {
+    "item_id": "ctbids-43009-5854874",
+    "listing_url": "https://ctbids.com/estate-sale/43009/item/5854874/Donruss-MLB-Trading-Cards-1981-1987-1988-Various-Teams",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5854874_N7VzON.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-49454-5767073": {
     "item_id": "ctbids-49454-5767073",
     "listing_url": "https://ctbids.com/estate-sale/49454/item/5767073/Authenticated-Tested-Gemstone-Jewelry-Lot-Pendant-Necklaces-Bracelets-Ring-Earrings",
@@ -376,52 +574,6 @@
           "Base score (+6)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "284854613": {
-    "item_id": "284854613",
-    "listing_url": "https://shopgoodwill.com/item/284854613",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/604f8c01-4f14-4ac1-baff-298dd9dc42b9auer_11201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/65f3c579-1a57-40a1-bd7f-74a64632a7deauer_11202.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/38f96d6d-3c1c-4d11-a7cb-0ce7e819f1c4auer_11203.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/97248665-9f63-4be7-862e-daf8ce8850f7auer_11204.jpg"
-    ],
-    "description": "Product Overview:\nAssorted collection of polished and natural stones including dark, smooth tumbled stones and various small geode fragments with white crystalline interiors. Contains pieces with glossy finishes and others with rough exteriors and sparkling crystal interiors. Includes a raw mineral specimen.\n\nSpecifications:\n- Mixed lot of polished stones and natural geode fragments\n- Features dark tumbled stones resembling obsidian or black tourmaline\n- Geodes with white crystalline interiors\n- Includes raw mineral specimen\n- Approximate total weight: 5 lbs",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in description (+4)",
-      "Opportunity term 'assorted' in description (+2)",
-      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'polished stones' in title (-6)",
-      "Target keyword 'tourmaline' in description (+10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "5 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in description (+4)",
-          "Opportunity term 'assorted' in description (+2)",
-          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'polished stones' in title (-6)",
-          "Target keyword 'tourmaline' in description (+10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "5 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "tourmaline"
-        ]
       }
     ]
   },
@@ -450,86 +602,11 @@
       }
     ]
   },
-  "ctbids-43009-5863584": {
-    "item_id": "ctbids-43009-5863584",
-    "listing_url": "https://ctbids.com/estate-sale/43009/item/5863584/35-Topps-1998-99-Hockey-Cards-65-90",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5863584_Gv7kdF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-43009-5835959": {
     "item_id": "ctbids-43009-5835959",
     "listing_url": "https://ctbids.com/estate-sale/43009/item/5835959/16-Various-1979-1981-Football-Cards-In-Plastic-Sheet",
     "images": [
       "https://image.ctbids.com/seller/2026-11-10Td744c0/5835959_SFcUuX.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-43009-5854874": {
-    "item_id": "ctbids-43009-5854874",
-    "listing_url": "https://ctbids.com/estate-sale/43009/item/5854874/Donruss-MLB-Trading-Cards-1981-1987-1988-Various-Teams",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5854874_N7VzON.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-43009-5858321": {
-    "item_id": "ctbids-43009-5858321",
-    "listing_url": "https://ctbids.com/estate-sale/43009/item/5858321/Dominik-Hasek-Upper-Deck-1998-99-Trading-Card-2",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-16T4a73f2/5858321_IsAPvV.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -695,6 +772,88 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284766631": {
+    "item_id": "284766631",
+    "listing_url": "https://shopgoodwill.com/item/284766631",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/a32e23df-898a-49e1-a4d9-7e9e228d3d44nson_11191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/5b254521-95f5-472d-8b1e-45c0d76788dfnson_11192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/21db7fb9-d427-44bf-b539-39b1730fbcdcnson_11193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/c3d05733-8722-4aac-9a9b-427f9bd4e876nson_11194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/768f9655-ed0d-4eb1-8309-bc97855cc957nson_11195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/ed9b3209-6cb7-47a6-8453-6dfb03ad3a3bnson_11196.jpg"
+    ],
+    "description": "This lot includes a variety of collectible minerals and gemstones. It contains raw crystal clusters of clear quartz and amethyst, polished stones including jasper, agate, and serpentine, and two blue minerals: a raw kyanite cluster and a blue agate slab. Additional items are a small heart-shaped ceramic dish, a purple amethyst keychain, and a crystal point. The stones vary in color from clear, white, purple, green, to brown. Most items are in good used condition with natural surface variations and minor wear.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 1,
+        "relative_score": 0.033,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284474491": {
+    "item_id": "284474491",
+    "listing_url": "https://shopgoodwill.com/item/284474491",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/6fec5a66-d303-4b06-bc5d-f5d5e0cbf5afacob_11171.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/91489554-d7f5-4aa2-bc4a-13f46860c13eacob_11172.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/59d86b8d-64f1-4941-a395-a3ca97158357acob_11173.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/757a25bd-108b-4f80-87d7-1a8d4e00bbbdacob_11174.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/383c4232-308d-4d07-a242-0c79b51d64d3acob_11175.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/e8301f7f-63ed-49c5-be8c-c510031f6833acob_11176.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/cd8cdb28-3d5e-4b58-9ddf-9ca64645ba1dacob_11177.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/2f3417e2-c87a-494f-8e0c-15ebfe9d0d66acob_11178.jpg"
+    ],
+    "description": "Asstd. Lot Of Rocks Crystals & Polished Rocks +\nType:\nAsstd. Lot Of Rocks Crystals & Polished Rocks +\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n8\nItem Width (in):\n9\nItem Height (in):\n7\nWeight (lbs oz):\n9\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
+    "score_reasons": [
+      "Opportunity term 'mixed' in description (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'rocks' in title (+1)",
+      "1 bid near close (+2)",
+      "Shipping is calculated and not included in the price (-6)",
+      "9 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 2,
+        "relative_score": 0.067,
+        "score_reasons": [
+          "Opportunity term 'mixed' in description (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'rocks' in title (+1)",
+          "1 bid near close (+2)",
+          "Shipping is calculated and not included in the price (-6)",
+          "9 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -1025,11 +1184,11 @@
       }
     ]
   },
-  "ctbids-48080-5877738": {
-    "item_id": "ctbids-48080-5877738",
-    "listing_url": "https://ctbids.com/estate-sale/48080/item/5877738/Phone-Cases-And-Charging-Cables",
+  "ctbids-50250-5881777": {
+    "item_id": "ctbids-50250-5881777",
+    "listing_url": "https://ctbids.com/estate-sale/50250/item/5881777/Cliff-Richard-Devil-Woman-45-RPM-Rocket-Record-Company-PIG-40574-Love-On-Shine-On-MCA-7-Inch",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-21T8939e2/5877738_Ml9LHq.webp"
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5875143_LqMPGM.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1050,11 +1209,11 @@
       }
     ]
   },
-  "ctbids-48080-5877817": {
-    "item_id": "ctbids-48080-5877817",
-    "listing_url": "https://ctbids.com/estate-sale/48080/item/5877817/Guardian-Angel-token-2-X-SIN-VALOR-token",
+  "ctbids-50250-5881458": {
+    "item_id": "ctbids-50250-5881458",
+    "listing_url": "https://ctbids.com/estate-sale/50250/item/5881458/Nancy-Adams-You-ve-Got-to-Show-Me-Somebody-s-in-My-Orchard-RCA-Victor-45-RPM-Single-47-83",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-21T8939e2/5877817_44gXn1.webp"
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5690517_U6MBBy.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1075,11 +1234,11 @@
       }
     ]
   },
-  "ctbids-50056-5874991": {
-    "item_id": "ctbids-50056-5874991",
-    "listing_url": "https://ctbids.com/estate-sale/50056/item/5874991/Pinocchio-Plush-Geppetto-Little-Golden-Book-VHS-Jiminy-Cricket-Disney",
+  "ctbids-50250-5881547": {
+    "item_id": "ctbids-50250-5881547",
+    "listing_url": "https://ctbids.com/estate-sale/50250/item/5881547/Elvis-Presley-Kentucky-Rain-My-Little-Friend-45-RPM-RCA-Gold-Standard-447-0675-Space-Sleeve",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5874991_E33ZRM.webp"
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5849536_HgYZj4.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1100,86 +1259,11 @@
       }
     ]
   },
-  "ctbids-50077-5864385": {
-    "item_id": "ctbids-50077-5864385",
-    "listing_url": "https://ctbids.com/estate-sale/50077/item/5864385/Patriotic-Eagle-Figurine-With-Plate-Bill-Wieger-Jim-Griffin-on-Freedom-s-Wings-G0599",
+  "ctbids-50250-5881586": {
+    "item_id": "ctbids-50250-5881586",
+    "listing_url": "https://ctbids.com/estate-sale/50250/item/5881586/Roy-Orbison-It-s-Over-Indian-Wedding-7-in-45-RPM-Monument-45-837-Arranged-by-Bill-Justis",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5864385_UsmD5V.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50077-5865071": {
-    "item_id": "ctbids-50077-5865071",
-    "listing_url": "https://ctbids.com/estate-sale/50077/item/5865071/Logitech-X-230-Subwoofer-Speaker-Computer",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5865071_fLt5AE.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50077-5864807": {
-    "item_id": "ctbids-50077-5864807",
-    "listing_url": "https://ctbids.com/estate-sale/50077/item/5864807/Eagle-On-Branch-Figurine-Copper-Tone-With-Blank-Nameplate-On-Front-Wood-Base",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5864807_vw6jeQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50161-5881846": {
-    "item_id": "ctbids-50161-5881846",
-    "listing_url": "https://ctbids.com/estate-sale/50161/item/5881846/Gold-Tone-Filigree-Clear-Lucite-Hoop-Earrings",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5881846_Qnf8a4.webp"
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5854863_dWXadi.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1345,126 +1429,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284856813": {
-    "item_id": "284856813",
-    "listing_url": "https://shopgoodwill.com/item/284856813",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/27b1b95a-b87b-44c6-8f2d-a0e3f4348eb3auer_11201.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/f08501e6-d506-4178-b3ac-aa2cba2e5170auer_11202.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/31a3579b-05fc-483c-9d07-d39b7e41ba2dauer_11203.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-20/7df97451-fcd9-4bb2-9c28-8ab54caa3aa6auer_11204.jpg"
-    ],
-    "description": "Product Overview:\nThis listing is for a mixed lot containing assorted tumbled and raw stones, semi-precious gemstones, crystals, and mineral specimens. The collection features various colors and shapes including agate slices, quartz points, polished stones, and other mineral samples. Some stones are wrapped for pendants while others are natural or tumbled.\n\nSpecifications:\n- Variety of stone types including agate and quartz\n- Includes tumbled, raw, polished, and wrapped stones\n- Mixed colors and shapes\n- Approximate total weight: 6 pounds\n\nThe stones are presented without specific information on condition or origin.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'assorted' in title (+2)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "6 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'assorted' in title (+2)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Shipping is calculated and not included in the price (-6)",
-          "6 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284766631": {
-    "item_id": "284766631",
-    "listing_url": "https://shopgoodwill.com/item/284766631",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/a32e23df-898a-49e1-a4d9-7e9e228d3d44nson_11191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/5b254521-95f5-472d-8b1e-45c0d76788dfnson_11192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/21db7fb9-d427-44bf-b539-39b1730fbcdcnson_11193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/c3d05733-8722-4aac-9a9b-427f9bd4e876nson_11194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/768f9655-ed0d-4eb1-8309-bc97855cc957nson_11195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/5/Item/2026-11-19/ed9b3209-6cb7-47a6-8453-6dfb03ad3a3bnson_11196.jpg"
-    ],
-    "description": "This lot includes a variety of collectible minerals and gemstones. It contains raw crystal clusters of clear quartz and amethyst, polished stones including jasper, agate, and serpentine, and two blue minerals: a raw kyanite cluster and a blue agate slab. Additional items are a small heart-shaped ceramic dish, a purple amethyst keychain, and a crystal point. The stones vary in color from clear, white, purple, green, to brown. Most items are in good used condition with natural surface variations and minor wear.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Lower-priority term 'polished stones' in description (-6)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+3)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Lower-priority term 'polished stones' in description (-6)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+3)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284474491": {
-    "item_id": "284474491",
-    "listing_url": "https://shopgoodwill.com/item/284474491",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/6fec5a66-d303-4b06-bc5d-f5d5e0cbf5afacob_11171.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/91489554-d7f5-4aa2-bc4a-13f46860c13eacob_11172.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/59d86b8d-64f1-4941-a395-a3ca97158357acob_11173.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/757a25bd-108b-4f80-87d7-1a8d4e00bbbdacob_11174.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/383c4232-308d-4d07-a242-0c79b51d64d3acob_11175.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/e8301f7f-63ed-49c5-be8c-c510031f6833acob_11176.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/cd8cdb28-3d5e-4b58-9ddf-9ca64645ba1dacob_11177.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/106/Items/2026-11-17/2f3417e2-c87a-494f-8e0c-15ebfe9d0d66acob_11178.jpg"
-    ],
-    "description": "Asstd. Lot Of Rocks Crystals & Polished Rocks +\nType:\nAsstd. Lot Of Rocks Crystals & Polished Rocks +\nCondition:\nGood - shows some sign of wear\nItem Length (in):\n8\nItem Width (in):\n9\nItem Height (in):\n7\nWeight (lbs oz):\n9\nMight contain parts that are mixed in from other products that weren't able to be sorted out, please bid accordingly.  Additionally, items in this listing may be broken, dirty, have missing parts that seller did not notice or note in the listing due to the volume of items included.  Assume all cards have damages and there are no mint or near mint cards.  All cards are NON-REFUNDABLE.\nGENERAL DISCLAIMER:\nItem(s) contained in this listing may be broken, dirty or have missing parts that the seller did not notice or note in the item's listing. Furthermore, for this reason we will not be able to answer in-depth questions about individual pieces or parts. The buyer takes responsibility for any information omitted from the item's listing. This item is sold as is and is not refundable for any reason. If there is a weight in the listing; this weight is approximate.\nUnless otherwise specified, Display Items are NOT included. This includes Boot/Shoe Trees, Display/Positioning Boxes or Cushions, Plastic Totes, Plate Stands, Paperweights, Backdrops, Mannequins, Jewelry Props/Jewelry Boxes/Stands, Display Quartz Crystals, etc. These objects will NOT be shipped with the listed item. They are for display purposes only.\nAll items are SOLD AS IS and are NON-REFUNDABLE\nThank you for supporting MN Goodwill!",
-    "score_reasons": [
-      "Opportunity term 'mixed' in description (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'rocks' in title (+1)",
-      "Shipping is calculated and not included in the price (-6)",
-      "9 lb lot has unresolved shipping cost (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'mixed' in description (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'rocks' in title (+1)",
-          "Shipping is calculated and not included in the price (-6)",
-          "9 lb lot has unresolved shipping cost (-4)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
