@@ -1,19 +1,44 @@
 {
-  "generated_at": "2026-11-25T00:38:42.422207+00:00",
-  "active_count": 2860,
-  "high_priority_count": 40,
+  "generated_at": "2026-11-25T09:48:03.481050+00:00",
+  "active_count": 2781,
+  "high_priority_count": 39,
   "archived_count": 1000,
   "search_failures": [
+    "Minerals & Geology / rock (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / rocks (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / mineral (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / minerals (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / crystal (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / crystals (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / gemstone (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / gemstones (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / geology (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / geological (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / specimen (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / specimens (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / geode (page 1): Request failed after limited retries: 502 Server Error: Bad Gateway for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / geodes (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / rock collection (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / mineral collection (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / crystal collection (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / stone collection (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / assorted rocks (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / assorted minerals (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / estate rocks (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / estate minerals (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / vintage rocks (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / vintage mineral collection (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
+    "Minerals & Geology / lapidary (page 1): Request failed after limited retries: 503 Server Error: Service Unavailable for url: https://buyerapi.shopgoodwill.com/api/Search/ItemListing",
     "GSA Auctions / 38635 + 50 mi: Request failed after limited retries: 403 Client Error: Forbidden for url: https://www.ppms.gov/gw/auction/ppms/api/v1/auctions?page=1&size=50&sort=AUCTION_END_DATE_TIME_ASC%2CASC",
     "GovDeals / 38635 + 50 mi: GovDeals search page contained no recognizable listing cards"
   ],
-  "detail_requests_completed": 67,
-  "relevance_filtered_count": 701,
-  "potentially_high_value_count": 40,
+  "detail_requests_completed": 38,
+  "relevance_filtered_count": 339,
+  "potentially_high_value_count": 39,
   "ocr": {
     "available": true,
     "listings_processed": 12,
-    "images_processed": 72
+    "images_processed": 71
   },
   "data_source": "ShopGoodwill plus official GSA, GovDeals, and CTBids public listings",
   "local_search": {
@@ -24,8 +49,8 @@
     {
       "id": "shopgoodwill",
       "label": "ShopGoodwill",
-      "active_count": 561,
-      "detail_requests_attempted": 47
+      "active_count": 482,
+      "detail_requests_attempted": 18
     },
     {
       "id": "gsa-auctions",
@@ -50,17 +75,17 @@
     {
       "id": "minerals-geology",
       "label": "Minerals & Geology",
-      "active_count": 422
+      "active_count": 340
     },
     {
       "id": "sealed-vintage-media",
       "label": "Sealed Vintage Media",
-      "active_count": 18
+      "active_count": 17
     },
     {
       "id": "vintage-electron-tubes",
       "label": "Vintage Electron Tubes",
-      "active_count": 21
+      "active_count": 20
     },
     {
       "id": "vintage-pens",
@@ -70,12 +95,12 @@
     {
       "id": "estate-tobacco-pipes",
       "label": "Estate Tobacco Pipes",
-      "active_count": 53
+      "active_count": 50
     },
     {
       "id": "glass-insulators",
       "label": "Glass Insulators",
-      "active_count": 25
+      "active_count": 24
     },
     {
       "id": "local-government-surplus",
