@@ -22,6 +22,7 @@
       "Opportunity term 'lot' in title (+2)",
       "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
       "Proven source for visually strong specimen lots (+26)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "6 lb lot has unresolved shipping cost (-4)",
       "Base score (+5)"
@@ -30,19 +31,68 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 32,
-        "relative_score": 1.067,
+        "score": 36,
+        "relative_score": 1.2,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'assorted' in title (+2)",
           "Opportunity term 'lot' in title (+2)",
           "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
           "Proven source for visually strong specimen lots (+26)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
           "6 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
+      }
+    ]
+  },
+  "285371490": {
+    "item_id": "285371490",
+    "listing_url": "https://shopgoodwill.com/item/285371490",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/d668e735-935c-4095-8253-c431dace5131hira_11241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/f51f8407-8ff1-46f5-9108-bb6d11fc3483hira_11242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/01d5a549-141b-4c2d-8a91-2e47bd63d98fhira_11243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/7fc0d044-c136-4d60-8fbd-91dc7f50f734hira_11244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/803a0245-6667-4ae4-a194-6ffb0801b4dahira_11245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/caea9686-e02b-4a33-82f8-d32869d9a37ahira_11246.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/76b03eca-36bd-4dbc-bd19-8c54c361342ehira_11247.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/9/Item/2026-11-24/9aca81cf-3bfc-4309-b6b2-0102619b5a0bhira_11248.jpg"
+    ],
+    "description": "Natural Gemstone Collection Rough Polished Minerals Quartz Amethyst\nThis collection includes a variety of rough and polished mineral specimens and gemstones. Features an organized display case labeled 'Natural Gemstone Collection - Jewels in the Rough' containing samples of Turquoise, Citrine, Agate, Tiger Eye, Amazonite, Fluorite, Peridot, Rose Quartz, Amethyst, Jasper, Crystal Quartz, Alabaster, Sodalite, Carnelian, Obsidian, Azurite, Rhodonite, Chrysocolla, Moonstone, Beryl, and Jet. Also includes larger natural mineral specimens such as geodes, quartz crystals, amethyst clusters, calcite blocks, and tumbled stones. Colors range from clear, white, and pink to purple, blue, green, and black. Minerals are primarily composed of quartz, calcite, and other common minerals. Condition is generally good with natural roughness and polished or cut finishes.\n0 x 0 x 0 in",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Target keyword 'azurite' in description (+10)",
+      "Target keyword 'beryl' in description (+8)",
+      "Target keyword cap limited keyword stacking; effective contributions are shown",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 15,
+        "relative_score": 0.5,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Target keyword 'azurite' in description (+10)",
+          "Target keyword 'beryl' in description (+8)",
+          "Target keyword cap limited keyword stacking; effective contributions are shown",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "azurite",
+          "beryl",
+          "fluorite"
+        ]
       }
     ]
   },
@@ -83,6 +133,35 @@
       }
     ]
   },
+  "ctbids-50323-5890754": {
+    "item_id": "ctbids-50323-5890754",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890754/Vintage-Heart-Shaped-Wicker-Basket-with-Blue-Floral-Fabric-Trim-Handle",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5368687_e5dfoA.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "284733129": {
     "item_id": "284733129",
     "listing_url": "https://shopgoodwill.com/item/284733129",
@@ -112,6 +191,114 @@
           "Pen-and-pencil set resale premium (+10)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890793": {
+    "item_id": "ctbids-50323-5890793",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890793/Abercrombie-Fitch-Tan-Lace-Up-Gladiator-Sandals-Tassel-Ties-Flat-Women-s-US-7-8-EU-38",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5881380_G3nSIQ.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890603": {
+    "item_id": "ctbids-50323-5890603",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890603/Green-Tree-Gallery-4x4-White-Metal-Photo-Frame-Tabletop-Floating-Glass-Style-Hobby-Lobby",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5874349_rGtv1u.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890611": {
+    "item_id": "ctbids-50323-5890611",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890611/Extendable-Bear-Paw-Back-Scratcher-with-Bottle-Opener-Telescoping-Steel-Handle-Red-Foam-Grip",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5855910_ZIr4lh.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890642": {
+    "item_id": "ctbids-50323-5890642",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890642/Jonathan-Kellerman-BONES-Alex-Delaware-23-2008-1st-Edition-Hardcover-Dust-Jacket",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5675525_8Q1PGb.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -153,33 +340,6 @@
         "matched_keywords": [
           "tourmaline"
         ]
-      }
-    ]
-  },
-  "ctbids-50323-5890754": {
-    "item_id": "ctbids-50323-5890754",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890754/Vintage-Heart-Shaped-Wicker-Basket-with-Blue-Floral-Fabric-Trim-Handle",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5368687_e5dfoA.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
       }
     ]
   },
@@ -237,153 +397,11 @@
       }
     ]
   },
-  "284784616": {
-    "item_id": "284784616",
-    "listing_url": "https://shopgoodwill.com/item/284784616",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/f448f9b0-c427-4f94-81c1-770181c4681fiRum_11191.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/66c3e786-8a39-49dc-92d6-c94ef5360371iRum_11192.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/e3c0b76c-5d65-4271-a0de-5123528d25c4iRum_11193.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/fda9ca8d-a2eb-4b7d-b7f8-bcf3da9f4f61iRum_11194.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/f18b238f-0d39-4ab4-944e-0b9e81170e46iRum_11195.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/471fdd2b-b3a6-4d6a-9a2b-de8f03f898fdiRum_11196.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/401100e3-f076-42e5-ade0-a5beabaa19caiRum_11197.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/f7cefe60-2a8f-4327-9945-65246e77966eiRum_11198.jpg"
-    ],
-    "description": "Pair of natural chalcedony filled geode specimens with a combined weight of 262.5 grams. The smaller geode measures 2.5x2x1.25 inches and features a chalcedony layer over an agate layer. The larger geode measures 3.5x3x1.25 inches and includes azurite patches on the back. Both geodes have rough tan and brown exteriors with some blue mineral deposits. Interiors reveal crystalline formations; one with clear and white crystals, the other with banded brown and purple hues and white crystals. Specimens are unpolished with natural textures and colors, suitable for collectors, educational purposes, or decorative use. No visible damage to crystal interiors.",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Target keyword 'azurite' in title (+10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 5,
-        "relative_score": 0.167,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Target keyword 'azurite' in title (+10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": [
-          "azurite"
-        ]
-      }
-    ]
-  },
-  "ctbids-50134-5861342": {
-    "item_id": "ctbids-50134-5861342",
-    "listing_url": "https://ctbids.com/estate-sale/50134/item/5861342/Postwar-Lionel-O-Gauge-Lot-No-497-Coaling-Station-No-157-Station-Platform-w-Original-Boxes",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5861342_0IwgMp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49985-5873921": {
     "item_id": "ctbids-49985-5873921",
     "listing_url": "https://ctbids.com/estate-sale/49985/item/5873921/Jonathan-Adler-Lacquer-Tray-18-x12",
     "images": [
       "https://image.ctbids.com/seller/2026-11-19T4be6c0/5873921_DIFKu3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50323-5890793": {
-    "item_id": "ctbids-50323-5890793",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890793/Abercrombie-Fitch-Tan-Lace-Up-Gladiator-Sandals-Tassel-Ties-Flat-Women-s-US-7-8-EU-38",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5881380_G3nSIQ.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50323-5890603": {
-    "item_id": "ctbids-50323-5890603",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890603/Green-Tree-Gallery-4x4-White-Metal-Photo-Frame-Tabletop-Floating-Glass-Style-Hobby-Lobby",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5874349_rGtv1u.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50323-5890611": {
-    "item_id": "ctbids-50323-5890611",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890611/Extendable-Bear-Paw-Back-Scratcher-with-Bottle-Opener-Telescoping-Steel-Handle-Red-Foam-Grip",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5855910_ZIr4lh.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -454,14 +472,55 @@
       }
     ]
   },
-  "ctbids-50323-5890642": {
-    "item_id": "ctbids-50323-5890642",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890642/Jonathan-Kellerman-BONES-Alex-Delaware-23-2008-1st-Edition-Hardcover-Dust-Jacket",
+  "284784616": {
+    "item_id": "284784616",
+    "listing_url": "https://shopgoodwill.com/item/284784616",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5675525_8Q1PGb.webp"
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/f448f9b0-c427-4f94-81c1-770181c4681fiRum_11191.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/66c3e786-8a39-49dc-92d6-c94ef5360371iRum_11192.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/e3c0b76c-5d65-4271-a0de-5123528d25c4iRum_11193.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/fda9ca8d-a2eb-4b7d-b7f8-bcf3da9f4f61iRum_11194.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/f18b238f-0d39-4ab4-944e-0b9e81170e46iRum_11195.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/471fdd2b-b3a6-4d6a-9a2b-de8f03f898fdiRum_11196.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/401100e3-f076-42e5-ade0-a5beabaa19caiRum_11197.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/19/Item/2026-11-19/f7cefe60-2a8f-4327-9945-65246e77966eiRum_11198.jpg"
+    ],
+    "description": "Pair of natural chalcedony filled geode specimens with a combined weight of 262.5 grams. The smaller geode measures 2.5x2x1.25 inches and features a chalcedony layer over an agate layer. The larger geode measures 3.5x3x1.25 inches and includes azurite patches on the back. Both geodes have rough tan and brown exteriors with some blue mineral deposits. Interiors reveal crystalline formations; one with clear and white crystals, the other with banded brown and purple hues and white crystals. Specimens are unpolished with natural textures and colors, suitable for collectors, educational purposes, or decorative use. No visible damage to crystal interiors.",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Target keyword 'azurite' in title (+10)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 5,
+        "relative_score": 0.167,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Target keyword 'azurite' in title (+10)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": [
+          "azurite"
+        ]
+      }
+    ]
+  },
+  "ctbids-50134-5861342": {
+    "item_id": "ctbids-50134-5861342",
+    "listing_url": "https://ctbids.com/estate-sale/50134/item/5861342/Postwar-Lionel-O-Gauge-Lot-No-497-Coaling-Station-No-157-Station-Platform-w-Original-Boxes",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5861342_0IwgMp.webp"
     ],
     "description": "",
     "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -469,9 +528,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],

@@ -16,6 +16,7 @@
       "Opportunity term 'vintage' in description (+6)",
       "Opportunity term 'lot' in title (+5)",
       "Generic estate pipe lot may hide valuable maker stamps (+15)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,12 +24,13 @@
       {
         "id": "estate-tobacco-pipes",
         "label": "Estate Tobacco Pipes",
-        "score": 27,
-        "relative_score": 0.771,
+        "score": 31,
+        "relative_score": 0.886,
         "score_reasons": [
           "Opportunity term 'vintage' in description (+6)",
           "Opportunity term 'lot' in title (+5)",
           "Generic estate pipe lot may hide valuable maker stamps (+15)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -134,6 +136,33 @@
       }
     ]
   },
+  "ctbids-50323-5890680": {
+    "item_id": "ctbids-50323-5890680",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890680/Clear-Glass-Squat-Bowl-Vase-Ribbed-Flared-Neck-Ruffled-Scalloped-Rim-Wide-Round-Body",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5780844_LxWcpS.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50083-5861617": {
     "item_id": "ctbids-50083-5861617",
     "listing_url": "https://ctbids.com/estate-sale/50083/item/5861617/A-vintage-Cambridge-Glass-Caprice-moonlight-blue-ball-pitcher-and-tumbler-set",
@@ -188,31 +217,6 @@
       }
     ]
   },
-  "ctbids-50323-5890680": {
-    "item_id": "ctbids-50323-5890680",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890680/Clear-Glass-Squat-Bowl-Vase-Ribbed-Flared-Neck-Ruffled-Scalloped-Rim-Wide-Round-Body",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5780844_LxWcpS.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50174-5868638": {
     "item_id": "ctbids-50174-5868638",
     "listing_url": "https://ctbids.com/estate-sale/50174/item/5868638/Rainbow-Moonstone-Pendant",
@@ -258,6 +262,89 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284983738": {
+    "item_id": "284983738",
+    "listing_url": "https://shopgoodwill.com/item/284983738",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/366136b4-f001-4cc0-af26-dfecd276c902ns43_11211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/30379b9b-068b-487f-8bab-7a758d1981bcns43_11212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/d28b5c71-93f8-417d-a190-702b0556c6e4ns43_11213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/f6c24081-a900-4560-a3d2-ee789b5b97acns43_11214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/92919083-70c1-4cd2-802a-fa290e9a727ans43_11215.jpg"
+    ],
+    "description": "Product Overview:\nThis lot includes a variety of natural mineral and rock specimens featuring dyed blue agate bookends with crystal druzy centers, polished agate slices in multiple banded color patterns, a white crystal-filled geode, a raw black obsidian piece, a round polished stone slice, and a hand-carved stone figural head.\n\nSpecifications:\n- Material Types: Agate, Crystal Geode, Obsidian, Carved Stone\n- Color Variations: Blue, Brown, Purple, White, Gray, Black\n- Finishes: Polished, Natural Matte, Raw\n- Forms: Bookends, Slices, Geode, Raw Chunk, Carved Figure\n- Surface Details: Banded Patterns, Crystal Druzy Centers, Natural Texture\n\nAdditional Information:\nThe specimens show natural wear and some chips typical of mineral specimens. The collection contains a mix of polished and unpolished pieces displaying various geological features.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Lower-priority term 'dyed' in title (-18)",
+      "Lower-priority term 'carved' in description (-7)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+21)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Lower-priority term 'dyed' in title (-18)",
+          "Lower-priority term 'carved' in description (-7)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+21)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284690090": {
+    "item_id": "284690090",
+    "listing_url": "https://shopgoodwill.com/item/284690090",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/5c450618-e3fc-439f-b7da-aad08fec7257nold_11111.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/bf59b35a-3ef9-4bbb-b8de-e937b1266787nold_11112.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/0a2dab8b-490b-458c-a1d8-8d89820a5d69nold_11113.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/e3a56cff-ddc7-4b4c-9fd7-840f34a4ea79nold_11114.jpg"
+    ],
+    "description": "CONDITION: Some broken or missing items. Surface scratches and wear. Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
+    "score_reasons": [
+      "Opportunity term 'minerals' in title (+1)",
+      "Less relevant category 'Jewelry' (-12)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+8)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'minerals' in title (+1)",
+          "Less relevant category 'Jewelry' (-12)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+8)"
         ],
         "matched_keywords": []
       }
@@ -488,6 +575,31 @@
       }
     ]
   },
+  "ctbids-50065-5892272": {
+    "item_id": "ctbids-50065-5892272",
+    "listing_url": "https://ctbids.com/estate-sale/50065/item/5892272/2021-Panini-Certified-Stars-Mirror-Red-02-99-Serial-No-DeAndre-Hopkins-NfL-Football-Card",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5892272_tXw20V.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50065-5881243": {
     "item_id": "ctbids-50065-5881243",
     "listing_url": "https://ctbids.com/estate-sale/50065/item/5881243/Black-Textured-GUESS-Leather-Bag-Charm-W-Gunmetal-Curb-Chain",
@@ -518,56 +630,6 @@
     "listing_url": "https://ctbids.com/estate-sale/50065/item/5881245/Vtg-Large-1885-Liberty-Head-V-Nickel-3-Novelty-Display-Coin",
     "images": [
       "https://image.ctbids.com/seller/2026-11-23Ta7168e/5876931_Rikidc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50065-5886570": {
-    "item_id": "ctbids-50065-5886570",
-    "listing_url": "https://ctbids.com/estate-sale/50065/item/5886570/1991-Robin-II-The-Joker-s-Wild-1-Alternate-Straight-Jacket-Joker-Holo-Card-Cover-DC-Comic-Book",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5886570_16qL3b.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50065-5886581": {
-    "item_id": "ctbids-50065-5886581",
-    "listing_url": "https://ctbids.com/estate-sale/50065/item/5886581/2003-JLA-the-Spectre-Soul-War-1-Comic-Book-DC-Comics",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5886581_qi2pcy.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -688,85 +750,6 @@
       }
     ]
   },
-  "284983738": {
-    "item_id": "284983738",
-    "listing_url": "https://shopgoodwill.com/item/284983738",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/366136b4-f001-4cc0-af26-dfecd276c902ns43_11211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/30379b9b-068b-487f-8bab-7a758d1981bcns43_11212.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/d28b5c71-93f8-417d-a190-702b0556c6e4ns43_11213.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/f6c24081-a900-4560-a3d2-ee789b5b97acns43_11214.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/92919083-70c1-4cd2-802a-fa290e9a727ans43_11215.jpg"
-    ],
-    "description": "Product Overview:\nThis lot includes a variety of natural mineral and rock specimens featuring dyed blue agate bookends with crystal druzy centers, polished agate slices in multiple banded color patterns, a white crystal-filled geode, a raw black obsidian piece, a round polished stone slice, and a hand-carved stone figural head.\n\nSpecifications:\n- Material Types: Agate, Crystal Geode, Obsidian, Carved Stone\n- Color Variations: Blue, Brown, Purple, White, Gray, Black\n- Finishes: Polished, Natural Matte, Raw\n- Forms: Bookends, Slices, Geode, Raw Chunk, Carved Figure\n- Surface Details: Banded Patterns, Crystal Druzy Centers, Natural Texture\n\nAdditional Information:\nThe specimens show natural wear and some chips typical of mineral specimens. The collection contains a mix of polished and unpolished pieces displaying various geological features.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Lower-priority term 'dyed' in title (-18)",
-      "Lower-priority term 'carved' in description (-7)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+25)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Lower-priority term 'dyed' in title (-18)",
-          "Lower-priority term 'carved' in description (-7)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+25)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284690090": {
-    "item_id": "284690090",
-    "listing_url": "https://shopgoodwill.com/item/284690090",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/5c450618-e3fc-439f-b7da-aad08fec7257nold_11111.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/bf59b35a-3ef9-4bbb-b8de-e937b1266787nold_11112.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/0a2dab8b-490b-458c-a1d8-8d89820a5d69nold_11113.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/117/Items/2026-11-11/e3a56cff-ddc7-4b4c-9fd7-840f34a4ea79nold_11114.jpg"
-    ],
-    "description": "CONDITION: Some broken or missing items. Surface scratches and wear. Pre-Owned; Recommend Cleaning Before Use\nMay have surface scratches, patina, natural imperfections, scuffs and/or chips that may not be easily detected.\nItem(s) are intended to be wearable, however some pieces may show signs of heavy use or damage. Photos shown on this listing are of the actual items being sold and should be viewed carefully. Condition and value of individual pieces will vary.\nMetals and stones are not tested for material makeup unless otherwise noted.\nWatches have not been professionally tested or serviced and we do not offer any guarantee on functionality or life of watches.\nUnless otherwise stated in the listing, items do not come with official certificates and will not include documentation.\nPRECIOUS METALS and GEMSTONE TESTING:\nWhere testing is indicated in the listing, gems are tested with a Presidium gem tester and confirmed by our\nCertified Gemologist\n; white stones such as diamonds are also tested with a GemOro Ultra 3+ tester. Please note this tester cannot differentiate between manufactured and natural stones. All precious metals including gold, silver, platinum and palladium are tested with acid testing.\nNO RETURNS or REFUNDS:\nPieces are sold AS-IS and are NOT eligible for return or refund for any reason.\nYou are bidding with this in mind.\nNON-PAYMENT:\nItems not paid for by the deadline date will be relisted the next business day.",
-    "score_reasons": [
-      "Opportunity term 'minerals' in title (+1)",
-      "Less relevant category 'Jewelry' (-12)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+12)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'minerals' in title (+1)",
-          "Less relevant category 'Jewelry' (-12)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+12)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "285195009": {
     "item_id": "285195009",
     "listing_url": "https://shopgoodwill.com/item/285195009",
@@ -794,36 +777,6 @@
         "score_reasons": [
           "Opportunity term 'lot' in title (+2)",
           "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284863502": {
-    "item_id": "284863502",
-    "listing_url": "https://shopgoodwill.com/item/284863502",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11201.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11202.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11203.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11204.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11205.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11206.png"
-    ],
-    "description": "Title\n: Vintage CROSS 1/20 10KT Gold Filled University of Michigan Pen and Gemstone Mechanical Pencil Set in Case\nCondition\n: Pre-owned. Pen has blue ink. Mechanical pencil does work.\nCase is damaged/worn.\nSee photos for further details.\nSold as-is.",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -868,6 +821,90 @@
           "5 lb lot has unresolved shipping cost (-4)",
           "Base score (+5)",
           "Score boundary adjustment (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284863502": {
+    "item_id": "284863502",
+    "listing_url": "https://shopgoodwill.com/item/284863502",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11201.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11202.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11203.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11204.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11205.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-11-20/724bf12e-f4e5-4572-bea3-5df0520acb27andi_11206.png"
+    ],
+    "description": "Title\n: Vintage CROSS 1/20 10KT Gold Filled University of Michigan Pen and Gemstone Mechanical Pencil Set in Case\nCondition\n: Pre-owned. Pen has blue ink. Mechanical pencil does work.\nCase is damaged/worn.\nSee photos for further details.\nSold as-is.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285371207": {
+    "item_id": "285371207",
+    "listing_url": "https://shopgoodwill.com/item/285371207",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/6a5a3427-28c7-4b09-bb8b-cd5d806751a3ah11_11241.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/6428df2a-fbf8-47d7-a29f-1eb4b5c85e04ah11_11242.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/0f560085-2579-4720-ad55-8329b8f22752ah11_11243.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/f5eaf720-ead9-41f7-bdc5-81bf1e5b20e1ah11_11244.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/501b872f-d46a-4e9d-8fac-328c73d747e0ah11_11245.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/d84a747f-18da-43d8-827f-51cf163ac401ah11_11246.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/9c778cd6-dc04-4cd5-91b3-98f8396bc151ah11_11247.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/76acf5e4-9115-4f18-aed1-65c7762ae22cah11_11248.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/65063241-0c10-43f0-b226-9b6df6be3634ah11_11249.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/4b03baf7-f4b0-4879-999c-095db46222feah11_112410.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/870165f7-b8a1-4584-ac18-9ed76ad834b5ah11_112411.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/59/Item/2026-11-24/909bd016-7077-443b-9712-ed22d4076e7eah11_112412.jpg"
+    ],
+    "description": "Large Assorted Mineral Rock Collection Smoky Quartz Amethyst Pyrite\nLarge assorted mineral and rock collection featuring multiple specimen types including smoky quartz, aragonite, peacock ore (bornite), amethyst, pyrite, obsidian, dendritic agate, and various other raw and tumbled stones. Collection includes compartmentalized plastic storage case with labeled mineral samples and additional clear storage container with diverse selection of rough and polished stones, crystals, and minerals. Obsidian pieces display glossy black appearance with conchoidal fracture characteristics. Other stones present variety of colors including purple, yellow, metallic, and earth tones. Condition is used but well-maintained with all pieces intact and organized. Suitable for collectors, educators, and hobbyists interested in mineralogy and geology.\nProduct Size:\n11 x 7.5 x 6 in\n7.9 lb",
+    "score_reasons": [
+      "Opportunity term 'geology' in description (+10)",
+      "Opportunity term 'collection' in title (+7)",
+      "Opportunity term 'specimen' in description (+1)",
+      "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+      "Opportunity term cap limited keyword stacking; effective contributions are shown",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'polished stones' in description (-6)",
+      "Shipping is calculated and not included in the price (-6)",
+      "7.9 lb lot has unresolved shipping cost (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+3)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'geology' in description (+10)",
+          "Opportunity term 'collection' in title (+7)",
+          "Opportunity term 'specimen' in description (+1)",
+          "Only the top 3 opportunity term matches count; 2 weaker overlap(s) ignored",
+          "Opportunity term cap limited keyword stacking; effective contributions are shown",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'polished stones' in description (-6)",
+          "Shipping is calculated and not included in the price (-6)",
+          "7.9 lb lot has unresolved shipping cost (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+3)"
         ],
         "matched_keywords": []
       }

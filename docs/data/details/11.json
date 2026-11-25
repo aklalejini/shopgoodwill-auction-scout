@@ -15,6 +15,7 @@
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "1 bid near close (+2)",
       "Flat shipping is only $0.01 (+8)",
       "Base score (+5)"
     ],
@@ -22,14 +23,15 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 38,
-        "relative_score": 1.267,
+        "score": 40,
+        "relative_score": 1.333,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Lower-priority term 'damage' in description (-12)",
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "1 bid near close (+2)",
           "Flat shipping is only $0.01 (+8)",
           "Base score (+5)"
         ],
@@ -77,39 +79,6 @@
       }
     ]
   },
-  "277752077": {
-    "item_id": "277752077",
-    "listing_url": "https://shopgoodwill.com/item/277752077",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/4fffa0e0-934c-43e1-af2b-9e69aa5c954ctry1_07151.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/9b5f270a-f0ac-4784-9092-dbeac4fe8c39try1_07152.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/e7803b80-389d-4c95-852a-d53338a9929atry1_07153.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/609bb1b1-50ab-4c91-b6dc-a7f9e7453dd4try1_07154.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/f1458b26-beb1-471c-baa0-527036c887fatry1_07155.jpg"
-    ],
-    "description": "Cross Pen & Pencil Set Brand\nBrand\n: Cross\nItem\n: Pen & Pencil Set Brand\nLength :\n5.25 in\nWidth :\n.2 in\nHeight :\n.2 in\nWeight :\n.1 lb\nCondition\n: Good Shows signs of wear. May have tarnish, scratches, marks. Item sold AS IS. Please keep in mind when bidding.\nAdditional Information\n: 12 Kt Gold Filled",
-    "score_reasons": [
-      "Opportunity term 'as is' in description (+2)",
-      "Pen-and-pencil set resale premium (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 13,
-        "relative_score": 0.371,
-        "score_reasons": [
-          "Opportunity term 'as is' in description (+2)",
-          "Pen-and-pencil set resale premium (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "284646359": {
     "item_id": "284646359",
     "listing_url": "https://shopgoodwill.com/item/284646359",
@@ -126,6 +95,7 @@
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
       "Opportunity term 'mixed' in title (+2)",
+      "0 bids near close (+4)",
       "Shipping is calculated and not included in the price (-6)",
       "Base score (+5)"
     ],
@@ -133,12 +103,191 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 8,
-        "relative_score": 0.267,
+        "score": 12,
+        "relative_score": 0.4,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
           "Opportunity term 'mixed' in title (+2)",
+          "0 bids near close (+4)",
           "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50200-5871045": {
+    "item_id": "ctbids-50200-5871045",
+    "listing_url": "https://ctbids.com/estate-sale/50200/item/5871045/Collection-of-6-Decorative-Angel-Cherub-Figurines",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5871045_eaor0C.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890660": {
+    "item_id": "ctbids-50323-5890660",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890660/Vintage-Good-Seasons-Glass-Salad-Dressing-Mixing-Bottle-Cruet-Carafe-Anchor-Hocking-6",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5456885_vi9HQz.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5891835": {
+    "item_id": "ctbids-50323-5891835",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5891835/Pair-Vintage-Coca-Cola-Green-Glass-Tumblers-Embossed-Coke-Logo-Flared-Glasses",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5891835_EKfFTx.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50200-5872091": {
+    "item_id": "ctbids-50200-5872091",
+    "listing_url": "https://ctbids.com/estate-sale/50200/item/5872091/Decorative-Cat-Deer-Figurine-Collection-Sterling-Originals-5-Pieces",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5872091_7rFpbm.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 11,
+        "relative_score": 0.324,
+        "score_reasons": [
+          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890784": {
+    "item_id": "ctbids-50323-5890784",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890784/Set-of-6-Vintage-Advertising-Matchbooks-Las-Vegas-Reno-California-Restaurants-Casino-Salon",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5849236_CO6Xol.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 10,
+        "relative_score": 0.294,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285425364": {
+    "item_id": "285425364",
+    "listing_url": "https://shopgoodwill.com/item/285425364",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/734a9523-da53-4d95-a45c-ca64e6c5fd38kili_11251.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/e6dc5640-6b57-4747-b917-480349116b73kili_11252.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/3bf5746e-3058-42f2-a463-9dab65260bcbkili_11253.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/37ae86d5-6360-4c32-bc08-e3639ed22f25kili_11254.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/8be9f614-4c32-48f4-abb5-c0f49f655e12kili_11255.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/e4a25145-3260-49d3-9b9a-06de2df3e631kili_11256.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/185/Items/2026-11-25/5852e2d5-2b1e-43e2-83c6-1e2931cefa48kili_11257.jpg"
+    ],
+    "description": "Dunhill\nDesktop Cigar Humidor - Polished Hardwood\nVintage Era, Brass Hardware & Humidifier Tubes\nCrafted by British luxury house Alfred Dunhill, this vintage desktop cigar humidor showcases exceptional woodworking and specialized design. Engineered to maintain proper tobacco moisture, the box features perimeter ventilation vents, heavy brass stay hinges, and an interior side rack for humidification tubes. The interior lid displays an inlaid Dunhill plaque alongside a square brass bracket fixture.\nWarm-toned polished wood exterior with fine visible grain\nInterior compartment with slotted vents and removable divider\nTwo cylindrical humidification tubes with brass vented caps\nMeasures approximately 11\" long by 9\" high by 4.5\" wide\nCondition:\nVery good vintage condition overall. Wood casing shows light surface marks and edge wear consistent with age. Brass hardware and hinges are firmly anchored and function smoothly. Key is not included. Humidifier tubes show interior residue from previous use.",
+    "score_reasons": [
+      "Generic estate tube lot may hide factory rebrands (+14)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 14,
+        "relative_score": 0.438,
+        "score_reasons": [
+          "Generic estate tube lot may hide factory rebrands (+14)",
+          "Shipping is calculated and not included in the price (-5)",
           "Base score (+5)"
         ],
         "matched_keywords": []
@@ -172,15 +321,48 @@
       }
     ]
   },
-  "ctbids-50200-5871045": {
-    "item_id": "ctbids-50200-5871045",
-    "listing_url": "https://ctbids.com/estate-sale/50200/item/5871045/Collection-of-6-Decorative-Angel-Cherub-Figurines",
+  "277752077": {
+    "item_id": "277752077",
+    "listing_url": "https://shopgoodwill.com/item/277752077",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5871045_eaor0C.webp"
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/4fffa0e0-934c-43e1-af2b-9e69aa5c954ctry1_07151.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/9b5f270a-f0ac-4784-9092-dbeac4fe8c39try1_07152.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/e7803b80-389d-4c95-852a-d53338a9929atry1_07153.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/609bb1b1-50ab-4c91-b6dc-a7f9e7453dd4try1_07154.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/201/Items/2026-07-15/f1458b26-beb1-471c-baa0-527036c887fatry1_07155.jpg"
+    ],
+    "description": "Cross Pen & Pencil Set Brand\nBrand\n: Cross\nItem\n: Pen & Pencil Set Brand\nLength :\n5.25 in\nWidth :\n.2 in\nHeight :\n.2 in\nWeight :\n.1 lb\nCondition\n: Good Shows signs of wear. May have tarnish, scratches, marks. Item sold AS IS. Please keep in mind when bidding.\nAdditional Information\n: 12 Kt Gold Filled",
+    "score_reasons": [
+      "Opportunity term 'as is' in description (+2)",
+      "Pen-and-pencil set resale premium (+10)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 13,
+        "relative_score": 0.371,
+        "score_reasons": [
+          "Opportunity term 'as is' in description (+2)",
+          "Pen-and-pencil set resale premium (+10)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50323-5890624": {
+    "item_id": "ctbids-50323-5890624",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890624/Set-of-2-Clear-Glass-Storage-Jars-Tapered-Shape-Rolled-Rim-Open-Top-About-5-in-Tall",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5827880_9Xj7Mc.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -188,10 +370,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -199,15 +381,15 @@
       }
     ]
   },
-  "ctbids-50200-5872091": {
-    "item_id": "ctbids-50200-5872091",
-    "listing_url": "https://ctbids.com/estate-sale/50200/item/5872091/Decorative-Cat-Deer-Figurine-Collection-Sterling-Originals-5-Pieces",
+  "ctbids-50323-5890640": {
+    "item_id": "ctbids-50323-5890640",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890640/Large-Clear-Glass-Hurricane-Vase-Candle-Holder-Flared-Rim",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5872091_7rFpbm.webp"
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5630746_2daje6.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'collection' in title (+6)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -215,10 +397,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'collection' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -226,15 +408,15 @@
       }
     ]
   },
-  "ctbids-50323-5890660": {
-    "item_id": "ctbids-50323-5890660",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890660/Vintage-Good-Seasons-Glass-Salad-Dressing-Mixing-Bottle-Cruet-Carafe-Anchor-Hocking-6",
+  "ctbids-50323-5890745": {
+    "item_id": "ctbids-50323-5890745",
+    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890745/Pier-1-Imports-Scalloped-White-Porcelain-Bowl",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5456885_vi9HQz.webp"
+      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5868135_0gAO1J.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -242,37 +424,10 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 5,
+        "relative_score": 0.147,
         "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50323-5890784": {
-    "item_id": "ctbids-50323-5890784",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890784/Set-of-6-Vintage-Advertising-Matchbooks-Las-Vegas-Reno-California-Restaurants-Casino-Salon",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5849236_CO6Xol.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -361,166 +516,6 @@
       }
     ]
   },
-  "ctbids-49454-5767906": {
-    "item_id": "ctbids-49454-5767906",
-    "listing_url": "https://ctbids.com/estate-sale/49454/item/5767906/Women-s-Button-Down-Shirts-Long-Sleeve-Tops-Mystery-Clothing-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-10-22T99993c/5767906_fFdlsa.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49454-5846697": {
-    "item_id": "ctbids-49454-5846697",
-    "listing_url": "https://ctbids.com/estate-sale/49454/item/5846697/Mystery-Jacket-Coat-Lot-Jones-New-York-London-Fog-Evan-Picone-Quilted-More",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-14T23166e/5846697_erxqrN.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50083-5862887": {
-    "item_id": "ctbids-50083-5862887",
-    "listing_url": "https://ctbids.com/estate-sale/50083/item/5862887/Mystery-Lot-2-Vinyl-Rock",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5862887_XumkGG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-45210-5830430": {
-    "item_id": "ctbids-45210-5830430",
-    "listing_url": "https://ctbids.com/estate-sale/45210/item/5830430/Kugel-Blue-Mercury-Glass-Ornaments-Lot-of-8",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830430_SyV1gD.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-48080-5837119": {
-    "item_id": "ctbids-48080-5837119",
-    "listing_url": "https://ctbids.com/estate-sale/48080/item/5837119/Bakers-Lot",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837119_ME9WNk.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+4)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 5,
-        "relative_score": 0.147,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50323-5890624": {
-    "item_id": "ctbids-50323-5890624",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890624/Set-of-2-Clear-Glass-Storage-Jars-Tapered-Shape-Rolled-Rim-Open-Top-About-5-in-Tall",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5827880_9Xj7Mc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50174-5877599": {
     "item_id": "ctbids-50174-5877599",
     "listing_url": "https://ctbids.com/estate-sale/50174/item/5877599/Ergonomic-Massage-Gun",
@@ -551,31 +546,6 @@
     "listing_url": "https://ctbids.com/estate-sale/50082/item/5864659/4-Level-Adjustable-Footrest",
     "images": [
       "https://image.ctbids.com/seller/2026-11-18T6d6c17/5864659_DVTSVy.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50323-5890640": {
-    "item_id": "ctbids-50323-5890640",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890640/Large-Clear-Glass-Hurricane-Vase-Candle-Holder-Flared-Rim",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5630746_2daje6.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -721,31 +691,6 @@
       }
     ]
   },
-  "ctbids-50323-5890745": {
-    "item_id": "ctbids-50323-5890745",
-    "listing_url": "https://ctbids.com/estate-sale/50323/item/5890745/Pier-1-Imports-Scalloped-White-Porcelain-Bowl",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5868135_0gAO1J.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-50082-5865333": {
     "item_id": "ctbids-50082-5865333",
     "listing_url": "https://ctbids.com/estate-sale/50082/item/5865333/La-Vie-Parisienne-Framed-Canvas-Print",
@@ -766,6 +711,186 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49454-5767906": {
+    "item_id": "ctbids-49454-5767906",
+    "listing_url": "https://ctbids.com/estate-sale/49454/item/5767906/Women-s-Button-Down-Shirts-Long-Sleeve-Tops-Mystery-Clothing-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-10-22T99993c/5767906_fFdlsa.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-49454-5846697": {
+    "item_id": "ctbids-49454-5846697",
+    "listing_url": "https://ctbids.com/estate-sale/49454/item/5846697/Mystery-Jacket-Coat-Lot-Jones-New-York-London-Fog-Evan-Picone-Quilted-More",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-14T23166e/5846697_erxqrN.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50083-5862887": {
+    "item_id": "ctbids-50083-5862887",
+    "listing_url": "https://ctbids.com/estate-sale/50083/item/5862887/Mystery-Lot-2-Vinyl-Rock",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5862887_XumkGG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-45210-5830430": {
+    "item_id": "ctbids-45210-5830430",
+    "listing_url": "https://ctbids.com/estate-sale/45210/item/5830430/Kugel-Blue-Mercury-Glass-Ornaments-Lot-of-8",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-09T4518e0/5830430_SyV1gD.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-48080-5837119": {
+    "item_id": "ctbids-48080-5837119",
+    "listing_url": "https://ctbids.com/estate-sale/48080/item/5837119/Bakers-Lot",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-10Td744c0/5837119_ME9WNk.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284970088": {
+    "item_id": "284970088",
+    "listing_url": "https://shopgoodwill.com/item/284970088",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/ac4115f6-3dfb-45cb-a21a-2c4dfe17b79don42_11211.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/7929aa9b-43b4-47f4-a72a-62a78472333con42_11212.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/65dcfd36-888a-4e46-9b9d-91eeeae61276on42_11213.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/94b41d8b-150a-4b49-9303-be2f8f30714fon42_11214.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/bbeae1a3-a972-44b5-b22c-c6048a84a587on42_11215.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of collectible minerals, fossils, and stones. The assortment includes tumbled stones, raw mineral specimens, a geode, a carved stone dolphin, a small marble slab marked with design details, a small green stone vase, a piece of rose quartz, a quartz point, a fossilized shell, and a decorative gemstone tree. The items feature various colors including pink, green, brown, and gray.\n\nSpecifications:\n- Materials: Natural stone, crystal, and mineral\n- Types: Tumbled stones, raw minerals, fossilized shell, carved stone, geode, marble slab, gemstone tree\n- Colors: Pink, green, brown, gray\n- Features: Polished and carved pieces\n- Markings: Marble slab marked \"Via, Design: Ancona, 2 NYC, 1995 Made in Taiwan\"",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'carved' in title (-7)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+17)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'carved' in title (-7)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+17)"
         ],
         "matched_keywords": []
       }
@@ -816,6 +941,92 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284615938": {
+    "item_id": "284615938",
+    "listing_url": "https://shopgoodwill.com/item/284615938",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/9fc60ef3-fb8c-459c-9ee2-e4a800c98136ller_11181.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/45743179-4004-440e-b2b8-a902951d4599ller_11182.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/c98fb0f4-28f6-425d-ac73-09e1dd0b86c6ller_11183.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/1e58381a-0610-4dd0-8578-e330e958d103ller_11184.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/44a1fc26-f687-41ae-8346-c216dbf4b2ddller_11185.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/a2712a36-44c7-4e36-af99-405c59fdf3e4ller_11186.jpg"
+    ],
+    "description": "This is a large natural translucent white crystal specimen in its raw, unpolished form. It features visible striations and rough, earthy brown mineral deposits on one end. The specimen is free-standing and exhibits natural fracture lines and irregularities typical of such formations. It has no visible brand markings. The item is used, showing clear signs of natural wear and mineral inclusions. Suitable for collectors, display, or metaphysical use.\nDetails\nThis is a pre-owned, donated item being sold “AS IS.\nItems may show wear consistent with usage and age, such as: discoloration; scratches; scuffs; dents; cracks; chips; holes; loose threads and stitches; edge and corner wear; box wear; oxidation; dirt; dust; other residue; owner-added markings; and signs of repair such as tape and glue.\nLot items may not contain all original parts or accessories and may have been outfitted with replacement pieces and/or modifications by previous owners\nBulk lots are not returnable. Due to the volume of items that flow through our eCommerce department, customer service requests to test items may be denied.\nAny certificates and markers of authenticity referenced in this listing are assertions of authenticity by the manufacturer, production company, or a third party, and not a guarantee of authenticity by Goodwill.\nItems and autographs without certificates or markers of authenticity cannot be guaranteed authentic -- while we do our best to identify and discard fakes, we are not experts.\nUnless noted, collectibles such as coins, comics, and trading cards are ungraded. Coin lots may or may not contain currency in circulation. Lots may also contain dead currency, reproductions, replicas, commemorative tokens, admission tokens, medals, and/or other non-monetary coins.\nAny items used for safety should be inspected by a professional before usage. All collectibles are intended for display only and using any purchased goods for dangerous or illegal activity is strictly prohibited.\nWe are not expert evaluators. Please ask all questions and review all photos prior to bidding.\nPhotos are part of item descriptions.\nUnless stated all merchandise is untested and sold as is. We are not expert evaluators.\nPlease ask all questions and review all photos prior to bidding.\nWe try our best to check for defects or excessive wear but sometimes we fail to catch defects.\n***With this in mind, we are selling item/items \"as is\".",
+    "score_reasons": [
+      "Opportunity term 'specimen' in title (+4)",
+      "Opportunity term 'lot' in description (+2)",
+      "Lower-priority term 'metaphysical' in description (-10)",
+      "0 bids near close (+4)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+1)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'specimen' in title (+4)",
+          "Opportunity term 'lot' in description (+2)",
+          "Lower-priority term 'metaphysical' in description (-10)",
+          "0 bids near close (+4)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "284630721": {
+    "item_id": "284630721",
+    "listing_url": "https://shopgoodwill.com/item/284630721",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11091.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11092.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11093.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11094.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11095.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11096.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11097.png",
+      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11098.png"
+    ],
+    "description": "Lot of 2 Hemingray-19 Glass Insulators Blue & Clear Made in USA Vintage - The blue insulator has several chipped teeth and flakes on the base rim, plus a visible crack line on the skirt. Both show rust staining and residue, mostly inside the base and on the clear one’s lower skirt. The embossing is legible on both, and the clear one has some dirt on the surface. Sold as-is & untested.",
+    "score_reasons": [
+      "Opportunity term 'lot' in title (+5)",
+      "Lower-priority term 'crack' in description (-20)",
+      "Lower-priority term 'chipped' in description (-17)",
+      "High-value signal 'amber glass color' in image color analysis (+14)",
+      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)",
+      "Score boundary adjustment (+2)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "glass-insulators",
+        "label": "Glass Insulators",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'lot' in title (+5)",
+          "Lower-priority term 'crack' in description (-20)",
+          "Lower-priority term 'chipped' in description (-17)",
+          "High-value signal 'amber glass color' in image color analysis (+14)",
+          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)",
+          "Score boundary adjustment (+2)"
         ],
         "matched_keywords": []
       }
@@ -1391,131 +1602,6 @@
         "score_reasons": [
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284970088": {
-    "item_id": "284970088",
-    "listing_url": "https://shopgoodwill.com/item/284970088",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/ac4115f6-3dfb-45cb-a21a-2c4dfe17b79don42_11211.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/7929aa9b-43b4-47f4-a72a-62a78472333con42_11212.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/65dcfd36-888a-4e46-9b9d-91eeeae61276on42_11213.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/94b41d8b-150a-4b49-9303-be2f8f30714fon42_11214.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-21/bbeae1a3-a972-44b5-b22c-c6048a84a587on42_11215.jpg"
-    ],
-    "description": "Product Overview:\nThis lot contains a variety of collectible minerals, fossils, and stones. The assortment includes tumbled stones, raw mineral specimens, a geode, a carved stone dolphin, a small marble slab marked with design details, a small green stone vase, a piece of rose quartz, a quartz point, a fossilized shell, and a decorative gemstone tree. The items feature various colors including pink, green, brown, and gray.\n\nSpecifications:\n- Materials: Natural stone, crystal, and mineral\n- Types: Tumbled stones, raw minerals, fossilized shell, carved stone, geode, marble slab, gemstone tree\n- Colors: Pink, green, brown, gray\n- Features: Polished and carved pieces\n- Markings: Marble slab marked \"Via, Design: Ancona, 2 NYC, 1995 Made in Taiwan\"",
-    "score_reasons": [
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Opportunity term 'minerals' in title (+1)",
-      "Lower-priority term 'tumbled stones' in description (-10)",
-      "Lower-priority term 'decorative' in description (-8)",
-      "Lower-priority term 'carved' in title (-7)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+21)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Opportunity term 'minerals' in title (+1)",
-          "Lower-priority term 'tumbled stones' in description (-10)",
-          "Lower-priority term 'decorative' in description (-8)",
-          "Lower-priority term 'carved' in title (-7)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+21)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284615938": {
-    "item_id": "284615938",
-    "listing_url": "https://shopgoodwill.com/item/284615938",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/9fc60ef3-fb8c-459c-9ee2-e4a800c98136ller_11181.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/45743179-4004-440e-b2b8-a902951d4599ller_11182.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/c98fb0f4-28f6-425d-ac73-09e1dd0b86c6ller_11183.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/1e58381a-0610-4dd0-8578-e330e958d103ller_11184.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/44a1fc26-f687-41ae-8346-c216dbf4b2ddller_11185.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/352/Item/2026-11-18/a2712a36-44c7-4e36-af99-405c59fdf3e4ller_11186.jpg"
-    ],
-    "description": "This is a large natural translucent white crystal specimen in its raw, unpolished form. It features visible striations and rough, earthy brown mineral deposits on one end. The specimen is free-standing and exhibits natural fracture lines and irregularities typical of such formations. It has no visible brand markings. The item is used, showing clear signs of natural wear and mineral inclusions. Suitable for collectors, display, or metaphysical use.\nDetails\nThis is a pre-owned, donated item being sold “AS IS.\nItems may show wear consistent with usage and age, such as: discoloration; scratches; scuffs; dents; cracks; chips; holes; loose threads and stitches; edge and corner wear; box wear; oxidation; dirt; dust; other residue; owner-added markings; and signs of repair such as tape and glue.\nLot items may not contain all original parts or accessories and may have been outfitted with replacement pieces and/or modifications by previous owners\nBulk lots are not returnable. Due to the volume of items that flow through our eCommerce department, customer service requests to test items may be denied.\nAny certificates and markers of authenticity referenced in this listing are assertions of authenticity by the manufacturer, production company, or a third party, and not a guarantee of authenticity by Goodwill.\nItems and autographs without certificates or markers of authenticity cannot be guaranteed authentic -- while we do our best to identify and discard fakes, we are not experts.\nUnless noted, collectibles such as coins, comics, and trading cards are ungraded. Coin lots may or may not contain currency in circulation. Lots may also contain dead currency, reproductions, replicas, commemorative tokens, admission tokens, medals, and/or other non-monetary coins.\nAny items used for safety should be inspected by a professional before usage. All collectibles are intended for display only and using any purchased goods for dangerous or illegal activity is strictly prohibited.\nWe are not expert evaluators. Please ask all questions and review all photos prior to bidding.\nPhotos are part of item descriptions.\nUnless stated all merchandise is untested and sold as is. We are not expert evaluators.\nPlease ask all questions and review all photos prior to bidding.\nWe try our best to check for defects or excessive wear but sometimes we fail to catch defects.\n***With this in mind, we are selling item/items \"as is\".",
-    "score_reasons": [
-      "Opportunity term 'specimen' in title (+4)",
-      "Opportunity term 'lot' in description (+2)",
-      "Lower-priority term 'metaphysical' in description (-10)",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'specimen' in title (+4)",
-          "Opportunity term 'lot' in description (+2)",
-          "Lower-priority term 'metaphysical' in description (-10)",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "284630721": {
-    "item_id": "284630721",
-    "listing_url": "https://shopgoodwill.com/item/284630721",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11091.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11092.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11093.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11094.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11095.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11096.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11097.png",
-      "https://shopgoodwillimages.azureedge.net/production/15/Items/2026-11-09/8b0630e2-a63f-4c95-ad84-a7c02ca53750burg_11098.png"
-    ],
-    "description": "Lot of 2 Hemingray-19 Glass Insulators Blue & Clear Made in USA Vintage - The blue insulator has several chipped teeth and flakes on the base rim, plus a visible crack line on the skirt. Both show rust staining and residue, mostly inside the base and on the clear one’s lower skirt. The embossing is legible on both, and the clear one has some dirt on the surface. Sold as-is & untested.",
-    "score_reasons": [
-      "Opportunity term 'lot' in title (+5)",
-      "Lower-priority term 'crack' in description (-20)",
-      "Lower-priority term 'chipped' in description (-17)",
-      "High-value signal 'amber glass color' in image color analysis (+14)",
-      "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)",
-      "Score boundary adjustment (+7)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "glass-insulators",
-        "label": "Glass Insulators",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Opportunity term 'lot' in title (+5)",
-          "Lower-priority term 'crack' in description (-20)",
-          "Lower-priority term 'chipped' in description (-17)",
-          "High-value signal 'amber glass color' in image color analysis (+14)",
-          "Multi-piece insulator lot can hide one scarce color or mold (+10)",
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)",
-          "Score boundary adjustment (+7)"
         ],
         "matched_keywords": []
       }

@@ -16,6 +16,7 @@
       "Opportunity term 'assorted' in title (+4)",
       "High-value signal 'yellow or olive glass color' in image color analysis (+22)",
       "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -23,13 +24,14 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 42,
-        "relative_score": 1.4,
+        "score": 47,
+        "relative_score": 1.567,
         "score_reasons": [
           "Opportunity term 'lot' in title (+5)",
           "Opportunity term 'assorted' in title (+4)",
           "High-value signal 'yellow or olive glass color' in image color analysis (+22)",
           "Multi-piece insulator lot can hide one scarce color or mold (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -46,6 +48,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
+      "0 bids near close (+4)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -53,37 +56,11 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
+        "score": 10,
+        "relative_score": 0.294,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50065-5886594": {
-    "item_id": "ctbids-50065-5886594",
-    "listing_url": "https://ctbids.com/estate-sale/50065/item/5886594/5-Sealed-1992-Upper-Deck-Baseball-Edition-Low-Series-Card-Packs",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-25Tbd1ed7/5886594_sjdhuF.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
+          "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -100,6 +77,7 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'collection' in title (+7)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-10)",
       "Base score (+5)"
     ],
@@ -107,10 +85,11 @@
       {
         "id": "minerals-geology",
         "label": "Minerals & Geology",
-        "score": 2,
-        "relative_score": 0.067,
+        "score": 4,
+        "relative_score": 0.133,
         "score_reasons": [
           "Opportunity term 'collection' in title (+7)",
+          "2 bids near close (+2)",
           "Only 1 listing photo (-10)",
           "Base score (+5)"
         ],
@@ -119,10 +98,65 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
+        "score": 9,
+        "relative_score": 0.265,
         "score_reasons": [
           "Opportunity term 'collection' in title (+6)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50200-5871763": {
+    "item_id": "ctbids-50200-5871763",
+    "listing_url": "https://ctbids.com/estate-sale/50200/item/5871763/Floral-and-Butterfly-Shower-Curtain-No-Liner",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5871763_563d86.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "0 bids near close (+4)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 5,
+        "relative_score": 0.147,
+        "score_reasons": [
+          "0 bids near close (+4)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50174-5877644": {
+    "item_id": "ctbids-50174-5877644",
+    "listing_url": "https://ctbids.com/estate-sale/50174/item/5877644/TurbX-Mini-Controllers",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5877644_2e4PqG.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "1 bid near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -230,43 +264,31 @@
       }
     ]
   },
-  "ctbids-50200-5871763": {
-    "item_id": "ctbids-50200-5871763",
-    "listing_url": "https://ctbids.com/estate-sale/50200/item/5871763/Floral-and-Butterfly-Shower-Curtain-No-Liner",
+  "ctbids-49985-5865374": {
+    "item_id": "ctbids-49985-5865374",
+    "listing_url": "https://ctbids.com/estate-sale/49985/item/5865374/Petrified-Wood-Two-Tiered-Serving-Piece",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-19T4be6c0/5871763_563d86.webp"
+      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5865374_XIfYme.webp"
     ],
     "description": "",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Only 1 listing photo (-10)",
+      "Base score (+5)",
+      "Score boundary adjustment (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Only 1 listing photo (-10)",
+          "Base score (+5)",
+          "Score boundary adjustment (+5)"
         ],
         "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50174-5877644": {
-    "item_id": "ctbids-50174-5877644",
-    "listing_url": "https://ctbids.com/estate-sale/50174/item/5877644/TurbX-Mini-Controllers",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-20T6a80bb/5877644_2e4PqG.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
+      },
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
@@ -705,74 +727,6 @@
       }
     ]
   },
-  "ctbids-49985-5865374": {
-    "item_id": "ctbids-49985-5865374",
-    "listing_url": "https://ctbids.com/estate-sale/49985/item/5865374/Petrified-Wood-Two-Tiered-Serving-Piece",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5865374_XIfYme.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-10)",
-      "Base score (+5)",
-      "Score boundary adjustment (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 0,
-        "relative_score": 0.0,
-        "score_reasons": [
-          "Only 1 listing photo (-10)",
-          "Base score (+5)",
-          "Score boundary adjustment (+5)"
-        ],
-        "matched_keywords": []
-      },
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "285251540": {
-    "item_id": "285251540",
-    "listing_url": "https://shopgoodwill.com/item/285251540",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10201.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10203.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10204.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10206.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10207.png",
-      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10208.png"
-    ],
-    "description": "Title\n: Vintage-Style Bulova Quartz Tabletop Desk Clock and Pen Set With Box\nTested\n: No, this is untested.\nMaterial\n: Mixed materials\nDimensions\n: See photos for dimensions\nCondition\n: Pre-owned. Shows a little bit of wear from use, but in good condition. This is a little dirty and will need to be cleaned.\nSee photos for further details.\nSold as-is.",
-    "score_reasons": [
-      "Shipping is calculated and not included in the price (-4)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "vintage-pens",
-        "label": "Vintage Pens",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Shipping is calculated and not included in the price (-4)",
-          "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "284846197": {
     "item_id": "284846197",
     "listing_url": "https://shopgoodwill.com/item/284846197",
@@ -844,6 +798,36 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+4)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285251540": {
+    "item_id": "285251540",
+    "listing_url": "https://shopgoodwill.com/item/285251540",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10201.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10203.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10204.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10206.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10207.png",
+      "https://shopgoodwillimages.azureedge.net/production/55/Items/2026-10-20/a6381bdf-e61d-4741-8923-b78b8c3554f3rian_10208.png"
+    ],
+    "description": "Title\n: Vintage-Style Bulova Quartz Tabletop Desk Clock and Pen Set With Box\nTested\n: No, this is untested.\nMaterial\n: Mixed materials\nDimensions\n: See photos for dimensions\nCondition\n: Pre-owned. Shows a little bit of wear from use, but in good condition. This is a little dirty and will need to be cleaned.\nSee photos for further details.\nSold as-is.",
+    "score_reasons": [
+      "Shipping is calculated and not included in the price (-4)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "vintage-pens",
+        "label": "Vintage Pens",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Shipping is calculated and not included in the price (-4)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
