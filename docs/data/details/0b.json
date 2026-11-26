@@ -11,6 +11,7 @@
     "score_reasons": [
       "High-value signal 'green or teal glass color' in image color analysis (+12)",
       "High-value signal 'teal glass' in image color analysis (+10)",
+      "0 bids near close (+5)",
       "Shipping is calculated and not included in the price (-4)",
       "Base score (+5)"
     ],
@@ -18,11 +19,12 @@
       {
         "id": "glass-insulators",
         "label": "Glass Insulators",
-        "score": 23,
-        "relative_score": 0.767,
+        "score": 28,
+        "relative_score": 0.933,
         "score_reasons": [
           "High-value signal 'green or teal glass color' in image color analysis (+12)",
           "High-value signal 'teal glass' in image color analysis (+10)",
+          "0 bids near close (+5)",
           "Shipping is calculated and not included in the price (-4)",
           "Base score (+5)"
         ],
@@ -100,6 +102,33 @@
       }
     ]
   },
+  "ctbids-49443-5868509": {
+    "item_id": "ctbids-49443-5868509",
+    "listing_url": "https://ctbids.com/estate-sale/49443/item/5868509/Vintage-Telephony-Equipment-Phones-handsets-and-accessories",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5868509_8zfjNV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-50134-5863679": {
     "item_id": "ctbids-50134-5863679",
     "listing_url": "https://ctbids.com/estate-sale/50134/item/5863679/Vintage-Postwar-Lionel-O-O-27-Gauge-Operating-Accessories-Lot-No-352-Icing-Station-No-362-Barr",
@@ -151,33 +180,6 @@
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
           "Opportunity term 'lot' in title (+4)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49443-5868509": {
-    "item_id": "ctbids-49443-5868509",
-    "listing_url": "https://ctbids.com/estate-sale/49443/item/5868509/Vintage-Telephony-Equipment-Phones-handsets-and-accessories",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5868509_8zfjNV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -266,65 +268,38 @@
       }
     ]
   },
-  "ctbids-50077-5869208": {
-    "item_id": "ctbids-50077-5869208",
-    "listing_url": "https://ctbids.com/estate-sale/50077/item/5869208/2-VTG-Tiger-Electronics-Furbys-Original-Sealed-Box-Elephant-Giraffe",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5869208_qRi8Zc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50077-5869212": {
-    "item_id": "ctbids-50077-5869212",
-    "listing_url": "https://ctbids.com/estate-sale/50077/item/5869212/2-VTG-Tiger-Electronics-Furbys-Original-Sealed-Box-Tiger-Mouse",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5869212_6oYcQg.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'sealed' in title (+6)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 7,
-        "relative_score": 0.206,
-        "score_reasons": [
-          "Opportunity term 'sealed' in title (+6)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-45210-5829103": {
     "item_id": "ctbids-45210-5829103",
     "listing_url": "https://ctbids.com/estate-sale/45210/item/5829103/The-Muppets-Hallmark-Vintage-Pins",
     "images": [
       "https://image.ctbids.com/seller/2026-11-08T576de6/5829103_fy984L.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50335-5893744": {
+    "item_id": "ctbids-50335-5893744",
+    "listing_url": "https://ctbids.com/estate-sale/50335/item/5893744/Vintage-Pressed-Glass-Hurricane-Shade-Vase-Paneled-Octagonal-Base",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5765945_1yO6Ck.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -401,6 +376,31 @@
       }
     ]
   },
+  "ctbids-49443-5868508": {
+    "item_id": "ctbids-49443-5868508",
+    "listing_url": "https://ctbids.com/estate-sale/49443/item/5868508/Three-Professionally-Framed-Prints-for-the-Man-Cave",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5868508_XgVdMV.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "285165596": {
     "item_id": "285165596",
     "listing_url": "https://shopgoodwill.com/item/285165596",
@@ -438,31 +438,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49443-5868508": {
-    "item_id": "ctbids-49443-5868508",
-    "listing_url": "https://ctbids.com/estate-sale/49443/item/5868508/Three-Professionally-Framed-Prints-for-the-Man-Cave",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-18T6d6c17/5868508_XgVdMV.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -573,6 +548,31 @@
     "listing_url": "https://ctbids.com/estate-sale/45210/item/5831338/Gold-Pearls-Costume-Jewelry",
     "images": [
       "https://image.ctbids.com/seller/2026-11-09T4518e0/5831338_8kNvqB.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50335-5893770": {
+    "item_id": "ctbids-50335-5893770",
+    "listing_url": "https://ctbids.com/estate-sale/50335/item/5893770/Clear-Glass-Bud-Vase-Tall-Ribbed-Flared-Neck-Paneled-Base-with-Daisy-Star-Bottom",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5893770_FX75Ev.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1148,106 +1148,6 @@
     "listing_url": "https://ctbids.com/estate-sale/50056/item/5885631/101-Dalmatians-Cruella-De-Vil-VHS-Movies-Puppy-Figures-Collectibles-Disney",
     "images": [
       "https://image.ctbids.com/seller/2026-11-24Ta80cc5/5885631_I7bgp2.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50161-5881873": {
-    "item_id": "ctbids-50161-5881873",
-    "listing_url": "https://ctbids.com/estate-sale/50161/item/5881873/Green-Glazed-Ceramic-Christmas-Tree-Shaped-Dish",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5881873_ru5SBl.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50161-5881264": {
-    "item_id": "ctbids-50161-5881264",
-    "listing_url": "https://ctbids.com/estate-sale/50161/item/5881264/Vtg-Braided-Silver-Tone-Wire-Mesh-Figural-Sun-Hat-Dangle-Earrings-W-Bow-Accents",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5849264_Nu9Xu3.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50161-5881272": {
-    "item_id": "ctbids-50161-5881272",
-    "listing_url": "https://ctbids.com/estate-sale/50161/item/5881272/Vtg-Handmade-Painted-Metal-Santa-s-Sleigh-and-Reindeer-Rooftop-Figurine-with-Crescent-Moon-10",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5855389_e1C18r.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50161-5881107": {
-    "item_id": "ctbids-50161-5881107",
-    "listing_url": "https://ctbids.com/estate-sale/50161/item/5881107/Vtg-Southwestern-Geometric-Slip-Decorated-Terracotta-Style-Miniature-Bottle-Vase",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5881107_qZjINu.webp"
     ],
     "description": "",
     "score_reasons": [
