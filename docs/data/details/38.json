@@ -116,6 +116,33 @@
       }
     ]
   },
+  "ctbids-49443-5860086": {
+    "item_id": "ctbids-49443-5860086",
+    "listing_url": "https://ctbids.com/estate-sale/49443/item/5860086/6-Vintage-Metal-Wall-Adornments",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5860086_YWe9cp.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
   "ctbids-48080-5878492": {
     "item_id": "ctbids-48080-5878492",
     "listing_url": "https://ctbids.com/estate-sale/48080/item/5878492/Napier-Clip-On-Earrings-Collection-With-Stretchy-Bracelets",
@@ -170,33 +197,6 @@
           "Opportunity term 'rocks' in title (+1)",
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-49443-5860086": {
-    "item_id": "ctbids-49443-5860086",
-    "listing_url": "https://ctbids.com/estate-sale/49443/item/5860086/6-Vintage-Metal-Wall-Adornments",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5860086_YWe9cp.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
         ],
         "matched_keywords": []
       }
@@ -787,7 +787,7 @@
     "item_id": "ctbids-50161-5879427",
     "listing_url": "https://ctbids.com/estate-sale/50161/item/5879427/Hand-Carved-Buffalo-Hobo-Nickel-5c-2003-Signed-TJB-40-Slabbed-BAE",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5879427_ovBzDf.webp"
+      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5879427_ZgOOxE.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -1234,6 +1234,49 @@
           "Shipping is calculated and not included in the price (-6)",
           "Base score (+5)",
           "Score boundary adjustment (+1)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285490753": {
+    "item_id": "285490753",
+    "listing_url": "https://shopgoodwill.com/item/285490753",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-26/ea4a45cb-c134-462d-a57f-674eefeee936on42_11261.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-26/27ad66fb-ad97-4731-bdfe-1b6b9881e46fon42_11262.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-26/774d0bd4-2414-4500-a590-c661437fc445on42_11263.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-26/ef6e1681-ff01-4d6a-a8f5-5586780fa229on42_11264.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/8/Item/2026-11-26/2c1557dd-9ee3-4e52-b2bb-926809b0664fon42_11265.jpg"
+    ],
+    "description": "Product Overview:\nThis lot contains a variety of collectible minerals, fossils, and stones. The assortment includes tumbled stones, raw mineral specimens, a geode, a carved stone dolphin, a small marble slab marked with design details, a small green stone vase, a piece of rose quartz, a quartz point, a fossilized shell, and a decorative gemstone tree. The items feature various colors including pink, green, brown, and gray.\n\nSpecifications:\n- Materials: Natural stone, crystal, and mineral\n- Types: Tumbled stones, raw minerals, fossilized shell, carved stone, geode, marble slab, gemstone tree\n- Colors: Pink, green, brown, gray\n- Features: Polished and carved pieces\n- Markings: Marble slab marked \"Via, Design: Ancona, 2 NYC, 1995 Made in Taiwan\"",
+    "score_reasons": [
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Opportunity term 'minerals' in title (+1)",
+      "Lower-priority term 'tumbled stones' in description (-10)",
+      "Lower-priority term 'decorative' in description (-8)",
+      "Lower-priority term 'carved' in title (-7)",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)",
+      "Score boundary adjustment (+21)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 0,
+        "relative_score": 0.0,
+        "score_reasons": [
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Opportunity term 'minerals' in title (+1)",
+          "Lower-priority term 'tumbled stones' in description (-10)",
+          "Lower-priority term 'decorative' in description (-8)",
+          "Lower-priority term 'carved' in title (-7)",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)",
+          "Score boundary adjustment (+21)"
         ],
         "matched_keywords": []
       }
