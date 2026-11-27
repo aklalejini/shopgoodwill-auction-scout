@@ -161,7 +161,6 @@
     "description": "",
     "score_reasons": [
       "Opportunity term 'vintage' in title (+5)",
-      "1 bid near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -169,52 +168,12 @@
       {
         "id": "local-estate-auctions",
         "label": "CTBids Estate Auctions",
-        "score": 8,
-        "relative_score": 0.235,
+        "score": 6,
+        "relative_score": 0.176,
         "score_reasons": [
           "Opportunity term 'vintage' in title (+5)",
-          "1 bid near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "285149585": {
-    "item_id": "285149585",
-    "listing_url": "https://shopgoodwill.com/item/285149585",
-    "images": [
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/337d82b5-2e8e-4a9b-8218-889b7efb9a2dacon_11231.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/168b2920-f249-4514-87b6-514099b5aa34acon_11232.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/61b68bbc-3ce6-4f02-9d22-2d78376bca2bacon_11233.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/d41ffeb5-dfc3-4ca6-a6e5-b1a09f5b3864acon_11234.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/1460ccc9-0d35-41ff-b169-e6a8b611f0f1acon_11235.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/076dfa1a-9e14-4ac9-9ee0-f42c77f2fa54acon_11236.jpg",
-      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/63130259-c15f-4323-b217-5ddbfc663e15acon_11237.jpg"
-    ],
-    "description": "This lot includes a variety of raw and semi-polished mineral specimens. The collection features amethyst with natural crystal clusters and a heart-shaped geode. Also included are rough, unpolished clear quartz and rose quartz pieces. A selenite wand with a striated, fibrous texture is part of the set. All minerals show natural surface textures and coloration typical for each type. The specimens vary in shape and size and are in good natural condition.",
-    "score_reasons": [
-      "Opportunity term 'collection' in description (+7)",
-      "Opportunity term 'mixed' in title (+2)",
-      "Opportunity term 'lot' in title (+2)",
-      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-      "Shipping is calculated and not included in the price (-6)",
-      "Base score (+5)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "minerals-geology",
-        "label": "Minerals & Geology",
-        "score": 10,
-        "relative_score": 0.333,
-        "score_reasons": [
-          "Opportunity term 'collection' in description (+7)",
-          "Opportunity term 'mixed' in title (+2)",
-          "Opportunity term 'lot' in title (+2)",
-          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
-          "Shipping is calculated and not included in the price (-6)",
-          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -323,6 +282,45 @@
           "0 bids near close (+4)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "285149585": {
+    "item_id": "285149585",
+    "listing_url": "https://shopgoodwill.com/item/285149585",
+    "images": [
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/337d82b5-2e8e-4a9b-8218-889b7efb9a2dacon_11231.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/168b2920-f249-4514-87b6-514099b5aa34acon_11232.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/61b68bbc-3ce6-4f02-9d22-2d78376bca2bacon_11233.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/d41ffeb5-dfc3-4ca6-a6e5-b1a09f5b3864acon_11234.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/1460ccc9-0d35-41ff-b169-e6a8b611f0f1acon_11235.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/076dfa1a-9e14-4ac9-9ee0-f42c77f2fa54acon_11236.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/195/Item/2026-11-23/63130259-c15f-4323-b217-5ddbfc663e15acon_11237.jpg"
+    ],
+    "description": "This lot includes a variety of raw and semi-polished mineral specimens. The collection features amethyst with natural crystal clusters and a heart-shaped geode. Also included are rough, unpolished clear quartz and rose quartz pieces. A selenite wand with a striated, fibrous texture is part of the set. All minerals show natural surface textures and coloration typical for each type. The specimens vary in shape and size and are in good natural condition.",
+    "score_reasons": [
+      "Opportunity term 'collection' in description (+7)",
+      "Opportunity term 'mixed' in title (+2)",
+      "Opportunity term 'lot' in title (+2)",
+      "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+      "Shipping is calculated and not included in the price (-6)",
+      "Base score (+5)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "minerals-geology",
+        "label": "Minerals & Geology",
+        "score": 10,
+        "relative_score": 0.333,
+        "score_reasons": [
+          "Opportunity term 'collection' in description (+7)",
+          "Opportunity term 'mixed' in title (+2)",
+          "Opportunity term 'lot' in title (+2)",
+          "Only the top 3 opportunity term matches count; 1 weaker overlap(s) ignored",
+          "Shipping is calculated and not included in the price (-6)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -490,60 +488,6 @@
       }
     ]
   },
-  "ctbids-50077-5864485": {
-    "item_id": "ctbids-50077-5864485",
-    "listing_url": "https://ctbids.com/estate-sale/50077/item/5864485/Horse-Decor-Vintage-Flocked-Horse-Toy-Horseshoes-Vintage-Wall-hanging",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-17Tc60367/5864485_A0QObr.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Opportunity term 'vintage' in title (+5)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 6,
-        "relative_score": 0.176,
-        "score_reasons": [
-          "Opportunity term 'vintage' in title (+5)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50250-5881616": {
-    "item_id": "ctbids-50250-5881616",
-    "listing_url": "https://ctbids.com/estate-sale/50250/item/5881616/Village-People-7-Inch-45-RPM-Vinyl-Hit-Single-Macho-Man-Key-West-Casablanca-NB-922-Stereo-1978",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5865559_a0Qq6a.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
   "ctbids-49563-5859465": {
     "item_id": "ctbids-49563-5859465",
     "listing_url": "https://ctbids.com/estate-sale/49563/item/5859465/Welch-s-Jelly-Jar-Cartoon-Glasses-Tom-Jerry-Road-Runner-Coyote",
@@ -564,33 +508,6 @@
         "relative_score": 0.088,
         "score_reasons": [
           "1 bid near close (+2)",
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-50227-5885380": {
-    "item_id": "ctbids-50227-5885380",
-    "listing_url": "https://ctbids.com/estate-sale/50227/item/5885380/1973-1974-Humpty-Dumpty-s-Magazines-Charles-M-Schulz-Charlie-Brown-Books",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-24Ta80cc5/5885380_AttJpm.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "2 bids near close (+2)",
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 3,
-        "relative_score": 0.088,
-        "score_reasons": [
-          "2 bids near close (+2)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -633,7 +550,7 @@
     ],
     "description": "",
     "score_reasons": [
-      "1 bid near close (+2)",
+      "2 bids near close (+2)",
       "Only 1 listing photo (-5)",
       "Base score (+6)"
     ],
@@ -644,7 +561,111 @@
         "score": 3,
         "relative_score": 0.088,
         "score_reasons": [
-          "1 bid near close (+2)",
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50065-5886571": {
+    "item_id": "ctbids-50065-5886571",
+    "listing_url": "https://ctbids.com/estate-sale/50065/item/5886571/1959-Fleer-TED-WILLIAMS-Baseball-Card-Baseball-s-Greatest-Ted-is-Patched-Up-51",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5886571_lR6IvU.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "2 bids near close (+2)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 3,
+        "relative_score": 0.088,
+        "score_reasons": [
+          "2 bids near close (+2)",
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-45210-5817137": {
+    "item_id": "ctbids-45210-5817137",
+    "listing_url": "https://ctbids.com/estate-sale/45210/item/5817137/Collectible-Stamps-Winnie-The-Pooh",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-05Tc85059/5817137_yLR2Sc.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-45210-5825762": {
+    "item_id": "ctbids-45210-5825762",
+    "listing_url": "https://ctbids.com/estate-sale/45210/item/5825762/Assorted-Locks",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-07T276f9b/5825762_d32ZTe.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50077-5864485": {
+    "item_id": "ctbids-50077-5864485",
+    "listing_url": "https://ctbids.com/estate-sale/50077/item/5864485/Horse-Decor-Vintage-Flocked-Horse-Toy-Horseshoes-Vintage-Wall-hanging",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-17Tc60367/5864485_A0QObr.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Opportunity term 'vintage' in title (+5)",
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 6,
+        "relative_score": 0.176,
+        "score_reasons": [
+          "Opportunity term 'vintage' in title (+5)",
           "Only 1 listing photo (-5)",
           "Base score (+6)"
         ],
@@ -713,36 +734,11 @@
       }
     ]
   },
-  "ctbids-45210-5817137": {
-    "item_id": "ctbids-45210-5817137",
-    "listing_url": "https://ctbids.com/estate-sale/45210/item/5817137/Collectible-Stamps-Winnie-The-Pooh",
+  "ctbids-50227-5885380": {
+    "item_id": "ctbids-50227-5885380",
+    "listing_url": "https://ctbids.com/estate-sale/50227/item/5885380/1973-1974-Humpty-Dumpty-s-Magazines-Charles-M-Schulz-Charlie-Brown-Books",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-05Tc85059/5817137_yLR2Sc.webp"
-    ],
-    "description": "",
-    "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
-    ],
-    "hunt_scores": [
-      {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
-        "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
-        ],
-        "matched_keywords": []
-      }
-    ]
-  },
-  "ctbids-45210-5825762": {
-    "item_id": "ctbids-45210-5825762",
-    "listing_url": "https://ctbids.com/estate-sale/45210/item/5825762/Assorted-Locks",
-    "images": [
-      "https://image.ctbids.com/seller/2026-11-07T276f9b/5825762_d32ZTe.webp"
+      "https://image.ctbids.com/seller/2026-11-24Ta80cc5/5885380_AttJpm.webp"
     ],
     "description": "",
     "score_reasons": [
@@ -788,26 +784,36 @@
       }
     ]
   },
-  "ctbids-50065-5886571": {
-    "item_id": "ctbids-50065-5886571",
-    "listing_url": "https://ctbids.com/estate-sale/50065/item/5886571/1959-Fleer-TED-WILLIAMS-Baseball-Card-Baseball-s-Greatest-Ted-is-Patched-Up-51",
+  "285636679": {
+    "item_id": "285636679",
+    "listing_url": "https://shopgoodwill.com/item/285636679",
     "images": [
-      "https://image.ctbids.com/seller/2026-11-26T6e39f6/5886571_lR6IvU.webp"
+      "https://shopgoodwillimages.azureedge.net/production/90/Item/2026-11-27/d7407682-6299-4c7d-94ba-29be17f3a7eaford_11271.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/90/Item/2026-11-27/5eded190-4cfd-476e-adbc-478c3b13e42eford_11272.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/90/Item/2026-11-27/cff92b20-e3da-4454-a198-bdc0cb2407c0ford_11273.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/90/Item/2026-11-27/4c5fbd22-f043-4408-a7dc-0f7f3a374654ford_11274.jpg",
+      "https://shopgoodwillimages.azureedge.net/production/90/Item/2026-11-27/3d4f3c8d-7392-417d-af81-86326644f489ford_11275.jpg"
     ],
-    "description": "",
+    "description": "EI Solutions Pure Love Glossy Lipsticks Gold Tubes New Condition Lot of 15\nThis listing includes multiple EI Solutions Pure Love Glossy Lipsticks. Each lipstick comes in a sleek gold tube with silver accents and branding on the front. The collection features a variety of shades including reds, pinks, and mauves, all with a glossy finish. The lipsticks are unused and in new condition with no visible wear or damage. Packaging is premium and elegant, suitable for retail or personal use.\n6 x 6 x 6 in\nDetails\nAttribute\nValue\nBrand:\nEI Solutions\nShade:\nAssorted\nSize:\nStandard\nType:\nLip Gloss\nLocal Pickup is now available.\nPlease initiate all scheduling, inquiries and notifications via your Shopgoodwill account by selecting: Contact Us then Create a New Support ticket.\nPlease make sure to read description, look at all pics and ask questions prior to bidding as all sales are final.\nGeneral Conditions\nAll items are used, sold as found, and AS IS with no warranties expressed or implied.\nWe are not experts in any field; descriptions are based on our best ability using available resources.\nMeasurements are approximate.\nPlease read the description, review all images, and ask questions prior to bidding. All sales are final.\nPlacing a bid indicates acceptance of these terms.\nJewelry & Precious Metals\nWe do not have a gemologist or jeweler on staff. Items are listed to the best of our ability and have not been professionally tested or serviced.\nDiamonds vs. moissanite cannot be differentiated by our equipment.\nGems are tested with a Presidium Gem Tester; however, it cannot distinguish natural vs. synthetic stones, and items may have flaws, scratches, or inclusions beyond our ability to identify.\nGold-filled items are only described as marked/stamped or by magnetic properties. Actual karat levels may vary.\nMagnetic clasps may be present in precious metal jewelry due to spring mechanisms.\nJewelry testing is only performed upon request, using acid testing. Any post-purchase testing is the buyer’s responsibility, and refunds will not be issued based on authenticity disputes.\nDesigner items are not authenticated unless specifically stated.\nWatches may not include batteries; functionality is not guaranteed.\nLot Listings\nLots may contain mixed items (e.g., jewelry, watches, coins, toys, sports/trading cards, marbles, Legos, etc.).\nItems in lots may be unsorted and can include broken, dirty, tangled, or incomplete pieces. Stones, beads, or parts may be missing.\nDue to volume, we cannot answer detailed questions about individual pieces within a lot.\nLots are non-refundable and cannot be combined with other purchases.\nAuthentication\nSignatures and autographs are not authenticated unless specified.\nName brand items are not authenticated unless listed as Certified Authentic.\nCertified items are authenticated through AuthenticateFirst.com and include a certificate in compliance with ShopGoodwill’s brand policy.\nElectronics & Clocks\nTested only for powering on, unless otherwise stated.\nFurther testing is performed only if equipment is available, and results will be noted in the listing.\nItems sold AS IS, with no refunds on functionality.",
     "score_reasons": [
-      "Only 1 listing photo (-5)",
-      "Base score (+6)"
+      "Lower-priority term 'used' in description (-4)",
+      "Lower-priority term 'as is' in description (-3)",
+      "Generic estate tube lot may hide factory rebrands (+14)",
+      "Shipping is calculated and not included in the price (-5)",
+      "Base score (+5)"
     ],
     "hunt_scores": [
       {
-        "id": "local-estate-auctions",
-        "label": "CTBids Estate Auctions",
-        "score": 1,
-        "relative_score": 0.029,
+        "id": "vintage-electron-tubes",
+        "label": "Vintage Electron Tubes",
+        "score": 7,
+        "relative_score": 0.219,
         "score_reasons": [
-          "Only 1 listing photo (-5)",
-          "Base score (+6)"
+          "Lower-priority term 'used' in description (-4)",
+          "Lower-priority term 'as is' in description (-3)",
+          "Generic estate tube lot may hide factory rebrands (+14)",
+          "Shipping is calculated and not included in the price (-5)",
+          "Base score (+5)"
         ],
         "matched_keywords": []
       }
@@ -993,6 +999,31 @@
     "listing_url": "https://ctbids.com/estate-sale/50161/item/5881858/Vtg-Benrus-Two-Tone-Round-Brushed-Silver-Tone-Dial-Women-s-Quartz-Wristwatch",
     "images": [
       "https://image.ctbids.com/seller/2026-11-26T6e39f6/5881858_pvWok5.webp"
+    ],
+    "description": "",
+    "score_reasons": [
+      "Only 1 listing photo (-5)",
+      "Base score (+6)"
+    ],
+    "hunt_scores": [
+      {
+        "id": "local-estate-auctions",
+        "label": "CTBids Estate Auctions",
+        "score": 1,
+        "relative_score": 0.029,
+        "score_reasons": [
+          "Only 1 listing photo (-5)",
+          "Base score (+6)"
+        ],
+        "matched_keywords": []
+      }
+    ]
+  },
+  "ctbids-50161-5881276": {
+    "item_id": "ctbids-50161-5881276",
+    "listing_url": "https://ctbids.com/estate-sale/50161/item/5881276/Vtg-Colorful-Painted-Wood-Bunny-and-Mouse-Collapsible-Push-Puppets-4",
+    "images": [
+      "https://image.ctbids.com/seller/2026-11-23Ta7168e/5855427_dBydIT.webp"
     ],
     "description": "",
     "score_reasons": [
